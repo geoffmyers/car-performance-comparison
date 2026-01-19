@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Raw data sources (large datasets not needed in repo)
+# Keep only the final merged output files (car-performance-data.csv, car-performance-data.db)
+public/data/dvm-car/
+public/data/fuel-economy-gov/
+public/data/github/
+public/data/kaggle/
+
+# Large URL lists and intermediate files
+public/data/**/car-review-urls-*.txt
+public/data/**/raw/
+public/data/**/*.html
