@@ -42,6 +42,52 @@ columns:
     category: General
     header: "Propulsion"
 
+  body_style:
+    type: string
+    required: false
+    enum: ["Sedan", "Coupe", "Convertible", "Wagon", "Hatchback", "SUV", "Crossover", "Truck", "Van", "Roadster", "Targa", ""]
+    category: General
+    header: "Body Style"
+
+  engine_type:
+    type: string
+    required: false
+    description: "Engine configuration (e.g., I4, V6, V8, W16, Electric)"
+    category: Specs
+    header: "Engine Type"
+
+  engine_displacement:
+    type: numeric
+    required: false
+    unit: liters
+    min: 0.5
+    max: 10.0
+    category: Specs
+    header: "Displacement"
+    is_numeric: true
+
+  engine_aspiration:
+    type: string
+    required: false
+    enum: ["TC", "SC", "NA", ""]
+    category: Specs
+    header: "Aspiration"
+    description: "Engine aspiration type: TC (Turbocharged), SC (Supercharged), NA (Naturally Aspirated)"
+
+  engine_placement:
+    type: string
+    required: false
+    enum: ["Front", "Mid", "Rear", ""]
+    category: Specs
+    header: "Engine Placement"
+
+  drivetrain:
+    type: string
+    required: false
+    enum: ["FWD", "RWD", "AWD", "4WD", ""]
+    category: Specs
+    header: "Drivetrain"
+
   # Acceleration metrics
   0_60_mph_sec:
     type: numeric
@@ -258,11 +304,21 @@ columns:
 
 # Column ordering for output CSV
 column_order:
-  - manufacturer
   - country
-  - model
   - year
+  - manufacturer
+  - model
+  - body_style
   - propulsion
+  - engine_type
+  - engine_displacement
+  - engine_aspiration
+  - engine_placement
+  - drivetrain
+  - power_hp
+  - power_kw
+  - torque
+  - curb_weight_lb
   - 0_60_mph_sec
   - 0_100_kmh_sec
   - 0_100_mph_sec
@@ -271,14 +327,10 @@ column_order:
   - quarter_mile_speed_mph
   - top_speed_mph
   - top_speed_kmh
-  - power_hp
-  - power_kw
-  - torque
-  - engine
   - braking_70_0_ft
   - braking_100_0_ft
   - skidpad_g
-  - curb_weight_lb
+  - engine
   - nurburgring_lap_sec
   - nurburgring_date
   - nurburgring_driver
@@ -301,16 +353,24 @@ categories:
 
 # Default visibility for columns in the web app
 default_visible:
-  - manufacturer
   - country
-  - model
   - year
+  - manufacturer
+  - model
+  - body_style
   - propulsion
+  - engine_type
+  - engine_displacement
+  - engine_aspiration
+  - engine_placement
+  - drivetrain
+  - power_hp
+  - torque
+  - curb_weight_lb
   - 0_60_mph_sec
   - quarter_mile_sec
   - top_speed_mph
-  - power_hp
-  - nurburgring_lap_sec
+  - sources
 
 # Unit conversions
 conversions:

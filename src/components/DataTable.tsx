@@ -26,19 +26,27 @@ const DEFAULT_QUERY_PARAMS: CarsQuery = {
   sortOrder: "asc",
 };
 
+// Default visible: country, year, manufacturer, model, body_style, propulsion, engine_type,
+// engine_displacement, engine_placement, drivetrain, power_hp, torque, curb_weight_lb,
+// power_to_weight, 0_60_mph_sec, quarter_mile_sec, top_speed_mph, sources
 const DEFAULT_COLUMN_VISIBILITY: VisibilityState = {
-  propulsion: false,
+  // Hidden by default
   "0_100_kmh_sec": false,
   "0_100_mph_sec": false,
   "0_200_kmh_sec": false,
+  quarter_mile_speed_mph: false,
   top_speed_kmh: false,
   power_kw: false,
+  engine: false,
+  braking_70_0_ft: false,
+  braking_100_0_ft: false,
+  skidpad_g: false,
   nurburgring_lap_sec: false,
   nurburgring_date: false,
   nurburgring_driver: false,
   top_gear_lap_sec: false,
   top_gear_episode: false,
-  sources: false,
+  lightning_lap_sec: false,
 };
 
 export default function DataTable() {
@@ -126,45 +134,81 @@ export default function DataTable() {
     setColumnVisibility(DEFAULT_COLUMN_VISIBILITY);
   }, [setQueryParams, setColumnVisibility]);
 
-  const columns = useMemo<ColumnDef<CarData>[]>(
-    () =>
-      columnConfigs.map((config) => ({
-        id: config.id,
-        accessorKey: config.id,
-        header: () => (
-          <div className="flex items-center gap-1">
-            <span>{config.header}</span>
-            {config.unit && (
-              <span className="text-xs text-zinc-400 dark:text-zinc-500">
-                ({config.unit})
-              </span>
-            )}
-          </div>
-        ),
-        cell: ({ getValue }) => {
-          const value = getValue() as string;
-          if (config.id === "manufacturer") {
-            return (
-              <div className="flex items-center gap-2">
-                <ManufacturerLogo manufacturer={value} size={24} />
-                <span>{value}</span>
-              </div>
-            );
-          }
-          if (config.id === "country") {
-            return <CountryFlag countryCode={value} showName size="md" />;
-          }
-          if (
-            config.id === "nurburgring_lap_sec" ||
-            config.id === "top_gear_lap_sec"
-          ) {
-            return formatLapTime(value);
-          }
-          return formatValue(value);
-        },
-      })),
-    []
-  );
+  const columns = useMemo<ColumnDef<CarData>[]>(() => {
+    // Create columns from columnConfigs
+    const configColumns: ColumnDef<CarData>[] = columnConfigs.map((config) => ({
+      id: config.id,
+      accessorKey: config.id,
+      header: () => (
+        <div className="flex items-center gap-1">
+          <span>{config.header}</span>
+          {config.unit && (
+            <span className="text-xs text-zinc-400 dark:text-zinc-500">
+              ({config.unit})
+            </span>
+          )}
+        </div>
+      ),
+      cell: ({ getValue }: { getValue: () => unknown }) => {
+        const value = getValue() as string;
+        if (config.id === "manufacturer") {
+          return (
+            <div className="flex items-center gap-2">
+              <ManufacturerLogo manufacturer={value} size={24} />
+              <span>{value}</span>
+            </div>
+          );
+        }
+        if (config.id === "country") {
+          return <CountryFlag countryCode={value} showName size="md" />;
+        }
+        if (
+          config.id === "nurburgring_lap_sec" ||
+          config.id === "top_gear_lap_sec"
+        ) {
+          return formatLapTime(value);
+        }
+        return formatValue(value);
+      },
+    }));
+
+    // Insert power-to-weight ratio column after curb_weight_lb
+    const curbWeightIndex = configColumns.findIndex(
+      (col) => col.id === "curb_weight_lb"
+    );
+    const powerToWeightColumn: ColumnDef<CarData> = {
+      id: "power_to_weight",
+      accessorFn: (row) => {
+        const power = parseFloat(row.power_hp);
+        const weight = parseFloat(row.curb_weight_lb);
+        if (!isNaN(power) && !isNaN(weight) && weight > 0) {
+          // Calculate lb per hp (lower is better)
+          return (weight / power).toFixed(1);
+        }
+        return "";
+      },
+      header: () => (
+        <div className="flex items-center gap-1">
+          <span>Power/Weight</span>
+          <span className="text-xs text-zinc-400 dark:text-zinc-500">
+            (lb/hp)
+          </span>
+        </div>
+      ),
+      cell: ({ getValue }) => {
+        const value = getValue() as string;
+        return formatValue(value);
+      },
+    };
+
+    if (curbWeightIndex !== -1) {
+      configColumns.splice(curbWeightIndex + 1, 0, powerToWeightColumn);
+    } else {
+      configColumns.push(powerToWeightColumn);
+    }
+
+    return configColumns;
+  }, []);
 
   const table = useReactTable({
     data,
