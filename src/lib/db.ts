@@ -128,13 +128,11 @@ const VALID_SORT_COLUMNS = new Set([
   "torque", // String column that needs numeric extraction for sorting
 ]);
 
-// Required fields that must be present for a car to be displayed
+// Minimal identification fields (no performance data requirements)
 const REQUIRED_FIELD_CONDITIONS = [
   "manufacturer IS NOT NULL AND manufacturer != ''",
-  "country IS NOT NULL AND country != ''",
   "model IS NOT NULL AND model != ''",
   "year IS NOT NULL AND year != ''",
-  '"0_60_mph_sec" IS NOT NULL',
 ];
 
 // Base WHERE clause for valid records
