@@ -22,6 +22,8 @@ export interface CarRow {
   year: string | null;
   propulsion: string | null;
   body_style: string | null;
+  doors: number | null;
+  seats: number | null;
   engine_type: string | null;
   engine_displacement: number | null;
   engine_aspiration: string | null;
@@ -98,6 +100,8 @@ const VALID_SORT_COLUMNS = new Set([
   "year",
   "propulsion",
   "body_style",
+  "doors",
+  "seats",
   "engine_type",
   "engine_displacement",
   "engine_aspiration",
@@ -591,5 +595,176 @@ export function getMeta(): MetaData {
     accel060Thresholds,
     quarterMileThresholds,
     topSpeedThresholds,
+  };
+}
+
+// Percentile thresholds for conditional styling
+export interface PercentileThresholds {
+  // Lower is better (times, weight, braking distance, power-to-weight ratio)
+  "0_60_mph_sec": { p10: number | null; p90: number | null };
+  "0_100_kmh_sec": { p10: number | null; p90: number | null };
+  "0_100_mph_sec": { p10: number | null; p90: number | null };
+  "0_200_kmh_sec": { p10: number | null; p90: number | null };
+  quarter_mile_sec: { p10: number | null; p90: number | null };
+  curb_weight_lb: { p10: number | null; p90: number | null };
+  braking_70_0_ft: { p10: number | null; p90: number | null };
+  braking_100_0_ft: { p10: number | null; p90: number | null };
+  nurburgring_lap_sec: { p10: number | null; p90: number | null };
+  top_gear_lap_sec: { p10: number | null; p90: number | null };
+  lightning_lap_sec: { p10: number | null; p90: number | null };
+  power_to_weight: { p10: number | null; p90: number | null };
+  // Higher is better (speeds, power, g-force)
+  top_speed_mph: { p10: number | null; p90: number | null };
+  top_speed_kmh: { p10: number | null; p90: number | null };
+  quarter_mile_speed_mph: { p10: number | null; p90: number | null };
+  power_hp: { p10: number | null; p90: number | null };
+  power_kw: { p10: number | null; p90: number | null };
+  torque: { p10: number | null; p90: number | null };
+  skidpad_g: { p10: number | null; p90: number | null };
+}
+
+function getColumnPercentiles(
+  db: Database.Database,
+  column: string
+): { p10: number | null; p90: number | null } {
+  // Get count of non-null values
+  const countStmt = db.prepare(
+    `SELECT COUNT(*) as count FROM cars ${VALID_RECORDS_WHERE} AND ${column} IS NOT NULL`
+  );
+  const countResult = countStmt.get() as { count: number };
+  const count = countResult.count;
+
+  if (count < 10) {
+    return { p10: null, p90: null };
+  }
+
+  // Calculate positions for 10th and 90th percentile
+  const p10Offset = Math.floor(count * 0.1);
+  const p90Offset = Math.floor(count * 0.9);
+
+  // Get 10th percentile (lowest 10%)
+  const p10Stmt = db.prepare(
+    `SELECT ${column} as value FROM cars ${VALID_RECORDS_WHERE} AND ${column} IS NOT NULL
+     ORDER BY ${column} ASC LIMIT 1 OFFSET ?`
+  );
+  const p10Result = p10Stmt.get(p10Offset) as { value: number } | undefined;
+
+  // Get 90th percentile (highest 10%)
+  const p90Stmt = db.prepare(
+    `SELECT ${column} as value FROM cars ${VALID_RECORDS_WHERE} AND ${column} IS NOT NULL
+     ORDER BY ${column} ASC LIMIT 1 OFFSET ?`
+  );
+  const p90Result = p90Stmt.get(p90Offset) as { value: number } | undefined;
+
+  return {
+    p10: p10Result?.value ?? null,
+    p90: p90Result?.value ?? null,
+  };
+}
+
+function getTorquePercentiles(
+  db: Database.Database
+): { p10: number | null; p90: number | null } {
+  // Get count of non-null torque values
+  const countStmt = db.prepare(
+    `SELECT COUNT(*) as count FROM cars ${VALID_RECORDS_WHERE} AND torque IS NOT NULL`
+  );
+  const countResult = countStmt.get() as { count: number };
+  const count = countResult.count;
+
+  if (count < 10) {
+    return { p10: null, p90: null };
+  }
+
+  const p10Offset = Math.floor(count * 0.1);
+  const p90Offset = Math.floor(count * 0.9);
+
+  // Extract numeric value from torque string (e.g., "350 lb-ft" -> 350)
+  const p10Stmt = db.prepare(
+    `SELECT CAST(REPLACE(torque, ' lb-ft', '') AS REAL) as value FROM cars
+     ${VALID_RECORDS_WHERE} AND torque IS NOT NULL
+     ORDER BY CAST(REPLACE(torque, ' lb-ft', '') AS REAL) ASC LIMIT 1 OFFSET ?`
+  );
+  const p10Result = p10Stmt.get(p10Offset) as { value: number } | undefined;
+
+  const p90Stmt = db.prepare(
+    `SELECT CAST(REPLACE(torque, ' lb-ft', '') AS REAL) as value FROM cars
+     ${VALID_RECORDS_WHERE} AND torque IS NOT NULL
+     ORDER BY CAST(REPLACE(torque, ' lb-ft', '') AS REAL) ASC LIMIT 1 OFFSET ?`
+  );
+  const p90Result = p90Stmt.get(p90Offset) as { value: number } | undefined;
+
+  return {
+    p10: p10Result?.value ?? null,
+    p90: p90Result?.value ?? null,
+  };
+}
+
+function getPowerToWeightPercentiles(
+  db: Database.Database
+): { p10: number | null; p90: number | null } {
+  // Get count of records with both weight and power
+  const countStmt = db.prepare(
+    `SELECT COUNT(*) as count FROM cars ${VALID_RECORDS_WHERE}
+     AND curb_weight_lb IS NOT NULL AND power_hp IS NOT NULL AND power_hp > 0`
+  );
+  const countResult = countStmt.get() as { count: number };
+  const count = countResult.count;
+
+  if (count < 10) {
+    return { p10: null, p90: null };
+  }
+
+  const p10Offset = Math.floor(count * 0.1);
+  const p90Offset = Math.floor(count * 0.9);
+
+  // power_to_weight = curb_weight_lb / power_hp (lower is better)
+  const p10Stmt = db.prepare(
+    `SELECT (curb_weight_lb / power_hp) as value FROM cars
+     ${VALID_RECORDS_WHERE}
+     AND curb_weight_lb IS NOT NULL AND power_hp IS NOT NULL AND power_hp > 0
+     ORDER BY (curb_weight_lb / power_hp) ASC LIMIT 1 OFFSET ?`
+  );
+  const p10Result = p10Stmt.get(p10Offset) as { value: number } | undefined;
+
+  const p90Stmt = db.prepare(
+    `SELECT (curb_weight_lb / power_hp) as value FROM cars
+     ${VALID_RECORDS_WHERE}
+     AND curb_weight_lb IS NOT NULL AND power_hp IS NOT NULL AND power_hp > 0
+     ORDER BY (curb_weight_lb / power_hp) ASC LIMIT 1 OFFSET ?`
+  );
+  const p90Result = p90Stmt.get(p90Offset) as { value: number } | undefined;
+
+  return {
+    p10: p10Result?.value ?? null,
+    p90: p90Result?.value ?? null,
+  };
+}
+
+export function getPercentiles(): PercentileThresholds {
+  const db = getDb();
+
+  return {
+    // Lower is better
+    "0_60_mph_sec": getColumnPercentiles(db, '"0_60_mph_sec"'),
+    "0_100_kmh_sec": getColumnPercentiles(db, '"0_100_kmh_sec"'),
+    "0_100_mph_sec": getColumnPercentiles(db, '"0_100_mph_sec"'),
+    "0_200_kmh_sec": getColumnPercentiles(db, '"0_200_kmh_sec"'),
+    quarter_mile_sec: getColumnPercentiles(db, "quarter_mile_sec"),
+    curb_weight_lb: getColumnPercentiles(db, "curb_weight_lb"),
+    braking_70_0_ft: getColumnPercentiles(db, "braking_70_0_ft"),
+    braking_100_0_ft: getColumnPercentiles(db, "braking_100_0_ft"),
+    nurburgring_lap_sec: getColumnPercentiles(db, "nurburgring_lap_sec"),
+    top_gear_lap_sec: getColumnPercentiles(db, "top_gear_lap_sec"),
+    lightning_lap_sec: getColumnPercentiles(db, "lightning_lap_sec"),
+    power_to_weight: getPowerToWeightPercentiles(db),
+    // Higher is better
+    top_speed_mph: getColumnPercentiles(db, "top_speed_mph"),
+    top_speed_kmh: getColumnPercentiles(db, "top_speed_kmh"),
+    quarter_mile_speed_mph: getColumnPercentiles(db, "quarter_mile_speed_mph"),
+    power_hp: getColumnPercentiles(db, "power_hp"),
+    power_kw: getColumnPercentiles(db, "power_kw"),
+    torque: getTorquePercentiles(db),
+    skidpad_g: getColumnPercentiles(db, "skidpad_g"),
   };
 }

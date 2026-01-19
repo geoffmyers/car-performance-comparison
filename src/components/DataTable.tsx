@@ -10,7 +10,15 @@ import {
 } from "@tanstack/react-table";
 import { CarData, columnConfigs, columnCategories } from "@/types/car";
 import { formatValue, formatLapTime } from "@/lib/utils";
-import { useCarsApi, type CarsQuery } from "@/hooks/useCarsApi";
+import {
+  useCarsApi,
+  usePercentiles,
+  getPercentileStatus,
+  LOWER_IS_BETTER_COLUMNS,
+  HIGHER_IS_BETTER_COLUMNS,
+  type CarsQuery,
+  type PercentileThresholds,
+} from "@/hooks/useCarsApi";
 import { useLocalStorage, STORAGE_KEYS } from "@/hooks/useLocalStorage";
 import ColumnVisibilityPanel from "./ColumnVisibilityPanel";
 import ManufacturerLogo from "./ManufacturerLogo";
@@ -35,6 +43,8 @@ const DEFAULT_QUERY_PARAMS: CarsQuery = {
 // power_to_weight, 0_60_mph_sec, quarter_mile_sec, top_speed_mph, sources
 const DEFAULT_COLUMN_VISIBILITY: VisibilityState = {
   // Hidden by default
+  doors: false,
+  seats: false,
   "0_100_kmh_sec": false,
   "0_100_mph_sec": false,
   "0_200_kmh_sec": false,
@@ -74,6 +84,37 @@ export default function DataTable() {
   const [stickyOffsets, setStickyOffsets] = useState<Map<string, number>>(new Map());
 
   const { data, pagination, loading, error } = useCarsApi(queryParams);
+  const { percentiles } = usePercentiles();
+
+  // Helper to get percentile-based styling class
+  const getPercentileClass = useCallback(
+    (columnId: string, value: string | null | undefined): string => {
+      if (!value || !percentiles) return "";
+
+      // Parse numeric value
+      let numericValue: number | null = null;
+      if (columnId === "torque") {
+        // Extract number from "350 lb-ft" format
+        const match = value.match(/^([\d.]+)/);
+        if (match) numericValue = parseFloat(match[1]);
+      } else {
+        numericValue = parseFloat(value);
+      }
+
+      if (numericValue === null || isNaN(numericValue)) return "";
+
+      const status = getPercentileStatus(columnId, numericValue, percentiles);
+
+      if (status === "top10") {
+        return "text-green-600 dark:text-green-400 font-semibold";
+      }
+      if (status === "bottom10") {
+        return "text-red-600 dark:text-red-400";
+      }
+      return "";
+    },
+    [percentiles]
+  );
 
   // Compute cumulative left offsets for sticky columns based on measured widths
   useLayoutEffect(() => {
@@ -195,6 +236,10 @@ export default function DataTable() {
         }
         if (config.id === "country") {
           return <CountryFlag countryCode={value} showName size="md" />;
+        }
+        if (config.id === "year") {
+          // Don't format year with thousands separator
+          return value || "—";
         }
         if (config.id === "body_style") {
           return value ? (
@@ -605,11 +650,17 @@ export default function DataTable() {
                             : "bg-zinc-50 dark:bg-zinc-800"
                           : "";
 
+                        // Get percentile-based styling for numeric performance columns
+                        const cellValue = cell.getValue() as string;
+                        const percentileClass = getPercentileClass(columnId, cellValue);
+
                         return (
                           <td
                             key={cell.id}
                             style={stickyStyles}
-                            className={`whitespace-nowrap px-4 py-3 text-sm text-zinc-700 dark:text-zinc-300 ${
+                            className={`whitespace-nowrap px-4 py-3 text-sm ${
+                              percentileClass || "text-zinc-700 dark:text-zinc-300"
+                            } ${
                               isSticky
                                 ? `${stickyBg} shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)]`
                                 : ""

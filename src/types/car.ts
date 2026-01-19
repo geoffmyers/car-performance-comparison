@@ -5,6 +5,8 @@ export interface CarData {
   year: string;
   propulsion: string;
   body_style: string;
+  doors: string;
+  seats: string;
   engine_type: string;
   engine_displacement: string;
   engine_aspiration: string;
@@ -50,6 +52,8 @@ export const columnConfigs: ColumnConfig[] = [
   { id: "manufacturer", header: "Make", category: "General" },
   { id: "model", header: "Model", category: "General" },
   { id: "body_style", header: "Body Style", category: "General" },
+  { id: "doors", header: "Doors", category: "Specs", isNumeric: true },
+  { id: "seats", header: "Seats", category: "Specs", isNumeric: true },
   { id: "propulsion", header: "Powertrain", category: "General" },
   { id: "engine_type", header: "Engine Type", category: "Specs" },
   { id: "engine_displacement", header: "Displacement", category: "Specs", unit: "L", isNumeric: true },

@@ -231,6 +231,8 @@ class DataMerger:
             "lightning_lap_sec",
             # Vehicle spec fields
             "body_style",
+            "doors",
+            "seats",
             "engine_type",
             "engine_displacement",
             "engine_aspiration",

@@ -88,6 +88,24 @@ columns:
     category: Specs
     header: "Drivetrain"
 
+  doors:
+    type: integer
+    required: false
+    min: 1
+    max: 6
+    category: Specs
+    header: "Doors"
+    description: "Number of doors (2=coupe/convertible, 3=hatchback, 4=sedan, 5=wagon)"
+
+  seats:
+    type: integer
+    required: false
+    min: 1
+    max: 12
+    category: Specs
+    header: "Seats"
+    description: "Total seating capacity"
+
   # Acceleration metrics
   0_60_mph_sec:
     type: numeric
@@ -309,6 +327,8 @@ column_order:
   - manufacturer
   - model
   - body_style
+  - doors
+  - seats
   - propulsion
   - engine_type
   - engine_displacement

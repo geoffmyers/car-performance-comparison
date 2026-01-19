@@ -218,3 +218,100 @@ export function useMeta(): UseMetaResult {
 
   return { meta, loading, error };
 }
+
+// Percentile thresholds for conditional styling
+export interface PercentileThresholds {
+  [key: string]: { p10: number | null; p90: number | null };
+}
+
+export interface UsePercentilesResult {
+  percentiles: PercentileThresholds | null;
+  loading: boolean;
+  error: Error | null;
+}
+
+export function usePercentiles(): UsePercentilesResult {
+  const [percentiles, setPercentiles] = useState<PercentileThresholds | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<Error | null>(null);
+
+  useEffect(() => {
+    async function fetchPercentiles() {
+      try {
+        const response = await fetch("/api/cars/percentiles");
+        if (!response.ok) {
+          throw new Error(`API error: ${response.status}`);
+        }
+        const data: PercentileThresholds = await response.json();
+        setPercentiles(data);
+      } catch (err) {
+        setError(err instanceof Error ? err : new Error("Unknown error"));
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchPercentiles();
+  }, []);
+
+  return { percentiles, loading, error };
+}
+
+// Columns where lower values are better (green for low, red for high)
+export const LOWER_IS_BETTER_COLUMNS = new Set([
+  "0_60_mph_sec",
+  "0_100_kmh_sec",
+  "0_100_mph_sec",
+  "0_200_kmh_sec",
+  "quarter_mile_sec",
+  "curb_weight_lb",
+  "braking_70_0_ft",
+  "braking_100_0_ft",
+  "nurburgring_lap_sec",
+  "top_gear_lap_sec",
+  "lightning_lap_sec",
+  "power_to_weight",
+]);
+
+// Columns where higher values are better (green for high, red for low)
+export const HIGHER_IS_BETTER_COLUMNS = new Set([
+  "top_speed_mph",
+  "top_speed_kmh",
+  "quarter_mile_speed_mph",
+  "power_hp",
+  "power_kw",
+  "torque",
+  "skidpad_g",
+]);
+
+/**
+ * Determine the percentile status for a value
+ * @returns "top10" if in top 10% (best), "bottom10" if in bottom 10% (worst), or null
+ */
+export function getPercentileStatus(
+  columnId: string,
+  value: number | null,
+  percentiles: PercentileThresholds | null
+): "top10" | "bottom10" | null {
+  if (value === null || !percentiles) return null;
+
+  const thresholds = percentiles[columnId];
+  if (!thresholds || thresholds.p10 === null || thresholds.p90 === null) return null;
+
+  const isLowerBetter = LOWER_IS_BETTER_COLUMNS.has(columnId);
+  const isHigherBetter = HIGHER_IS_BETTER_COLUMNS.has(columnId);
+
+  if (!isLowerBetter && !isHigherBetter) return null;
+
+  if (isLowerBetter) {
+    // Lower is better: top 10% = value <= p10 (best), bottom 10% = value >= p90 (worst)
+    if (value <= thresholds.p10) return "top10";
+    if (value >= thresholds.p90) return "bottom10";
+  } else {
+    // Higher is better: top 10% = value >= p90 (best), bottom 10% = value <= p10 (worst)
+    if (value >= thresholds.p90) return "top10";
+    if (value <= thresholds.p10) return "bottom10";
+  }
+
+  return null;
+}
