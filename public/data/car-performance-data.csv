@@ -1,972 +1,972 @@
-manufacturer,model,year,propulsion,0_60_mph_sec,0_100_kmh_sec,0_100_mph_sec,0_200_kmh_sec,quarter_mile_sec,top_speed_mph,top_speed_kmh,power_hp,power_kw,torque,engine,nurburgring_lap_sec,nurburgring_date,nurburgring_driver,top_gear_lap_sec,top_gear_episode,sources
-Napier,80,1908,,,,,,,,,90.0,67.0,,,,,,,,power_output
-AC,Cobra Mk III 427,1965,,,,,,,165.0,266.0,,,,"6,998 cc (427.0 cu in) V8 362 kW (492 PS; 485 hp)",,,,,,speed_records
-Alfa Romeo,147 GTA,,,,,,,,,,,,,,,,,95.6,"Series 02, Episode 08",top_gear
-Alfa Romeo,"156 GTA (2002, 250 PS)",,,,,,,,,,,,,,531.0,2002,Horst von Saurma,,,nurburgring
-Alfa Romeo,4C,,,,,,,,,,,,,,484.4,2013-09-12,Horst von Saurma,84.8,"Series 21, Episode 02","nurburgring, top_gear"
-Alfa Romeo,8C Competizione (very wet),,,,,,,,,,,,,,,,,98.2,"Series 11, Episode 04",top_gear
-Alfa Romeo,Brera 2.2,,,,,,,,,,,,,,,,,96.9,"Series 09, Episode 02",top_gear
-Alfa Romeo,Giulia Quadrifoglio (2015),,,,,,,,,,,,,,452.0,2016-09,Fabio Francia,81.4,"Series 24, Episode 02","nurburgring, top_gear"
-Alfa Romeo,Giulietta QV,,,,,,,,,,,,,,510.0,2011,,,,nurburgring
-Alfa Romeo,Giulietta Quadrifoglio Verde,,,,,,,,,,,,,,,,,90.3,"Series 24, Episode 02",top_gear
-Alfa Romeo,Stelvio Quadrifoglio (2018),,,,,,,,,,,,,,471.7,2017,Fabio Francia,,,nurburgring
-Alpina,Z8 Roadster,,,,,,,,,,,,,,,,,89.0,"Series 02, Episode 03",top_gear
-Alpine,A110,,,,,,,,,,,,,,,,,82.9,"Series 25, Episode 06",top_gear
-Alpine,"A110 (2019, 1.8 T, 252 PS)",,,,,,,,,,,,,,483.33,2019-05-15,Christian Gebhardt,,,nurburgring
-Alpine,"A110 S (2020, 1.8 T, 292 PS)",,,,,,,,,,,,,,476.1,2020,Christian Gebhardt,,,nurburgring
-Alpine,A110S,,,,,,,,,,,,,,,,,82.3,—N/a,top_gear
-Alpine,"A110S (2022, 1.8 T, 300 PS)",,,,,,,,,,,,,,462.659,2022-10,Christian Gebhardt,,,nurburgring
-Aprilia,RSV1000R Factory,,,,,,,,,,,,,,452.6,n/a,,,,nurburgring
-Ariel,Atom,,,,,,,,,,,,,,,,,84.0,"Series 02, Episode 06",top_gear
-Ariel,Atom 2 300,,,,,,,,,,,,,,,,,79.5,"Series 05, Episode 09",top_gear
-Ariel,Atom 4,,,,,,,,,,,,,,,,,76.0,—N/a,top_gear
-Ariel,Atom 4 (wet),,,,,,,,,,,,,,,,,85.3,"Series 28, Episode 01",top_gear
-Ariel,Atom 4R,,,,,,,,,,,,,,,,,73.7,Stig Laps,top_gear
-Ariel,Atom V8 500 (moist),,,,,,,,,,,,,,,,,75.1,"Series 16, Episode 01",top_gear
-Ariel,Nomad,,,,,,,,,,,,,,,,,90.8,"Series 23, Episode 01",top_gear
-Artega,GT,,,,,,,,,,,,,,494.0,2010,Horst von Saurma,,,nurburgring
-Ascari,A10,,,,,,,,,,,,,,,,,77.3,"Series 10, Episode 09",top_gear
-Ascari,KZ1 (damp),,,,,,,,,,,,,,,,,80.7,"Series 07, Episode 01",top_gear
-Aspark,Owl,2020,,,,,,,,,1953.0,1456.0,,,,,,,,power_output
-Aston Martin,DB11,,,,,,,,,,,,,,,,,81.5,"Series 24, Episode 03",top_gear
-Aston Martin,DB4 GT,1959,,,,,,,152.5,245.4,,,,"3,670 cc (224 cu in) inline-6 225 kW (306 PS; 302 hp)",,,,,,speed_records
-Aston Martin,DB4 GT Zagato,1960,,,,,,,153.5,247.0,,,,"3,670 cc (224 cu in) inline-6 234 kW (318 PS; 314 hp)",,,,,,speed_records
-Aston Martin,DB5,,,,,,,,,,,,,,,,,106.0,"Series 06, Episode 05",top_gear
-Aston Martin,DB7 GT,,,,,,,,,,,,,,503.0,2003,Horst von Saurma,,,nurburgring
-Aston Martin,DB7 GT (with full tank of fuel),,,,,,,,,,,,,,,,,90.4,"Series 02, Episode 04",top_gear
-Aston Martin,DB7 Vantage,,,,,,,,,,,,,,521.0,1999,Horst von Saurma,,,nurburgring
-Aston Martin,DB9,,,,,,,,,,,,,,,,,87.1,"Series 04, Episode 01",top_gear
-Aston Martin,"DB9 (2004, 456 PS)",,,,,,,,,,,,,,496.0,2004,Horst von Saurma,,,nurburgring
-Aston Martin,DBS,,,,,,,,,,,,,,482.0,2009,Horst von Saurma,,,nurburgring
-Aston Martin,DBS (wet),,,,,,,,,,,,,,,,,87.4,"Series 10, Episode 07",top_gear
-Aston Martin,DBS (written as Aston Martin DB9S),,,,,,,,,,,,,,,,,83.9,"Series 10, Episode 07",top_gear
-Aston Martin,V12 Vanquish,,,,,,,,,,,,,,497.0,2003,Horst von Saurma,,,nurburgring
-Aston Martin,V12 Vantage (Not Shown on TV),,,,,,,,,,,,,,,,,86.8,"Series 13, Episode 07",top_gear
-Aston Martin,V12 Vantage S,,,,,,,,,,,,,,472.0,2014,Horst von Saurma,,,nurburgring
-Aston Martin,V8 Vantage (2019),,,,,,,,,,,,,,463.92,2019-08-14,Christian Gebhardt,79.7,"Series 26, Episode 05","nurburgring, top_gear"
-Aston Martin,"V8 Vantage (Mk1, 2005, 385 PS)",,,,,,,,,,,,,,483.0,2005,Horst von Saurma,,,nurburgring
-Aston Martin,"V8 Vantage GT8 (2017, N/A 4.7, 446 PS)",,,,,,,,,,,,,,470.0,2017-02,Christian Gebhardt,,,nurburgring
-Aston Martin,Valhalla,2021,,,,,,,,,1064.0,793.0,,,,,,,,power_output
-Aston Martin,Valkyrie,2022,,,,,,,,,1140.0,850.0,,,,,,69.6,Stig Laps,"power_output, top_gear"
-Aston Martin,Vanquish (very wet),,,,,,,,,,,,,,,,,96.2,"Series 01, Episode 04",top_gear
-Aston Martin,Vanquish S,,,,,,,,,,,,,,,,,87.1,"Series 05, Episode 04",top_gear
-Aston Martin,Virage,,,,,,,,,,,,,,,,,84.4,"Series 17, Episode 02",top_gear
-Audi,Q7 V12 (wet),,,,,,,,,,,,,,,,,93.3,"Series 14, Episode 04",top_gear
-Audi,R8 (damp),,,,,,,,,,,,,,,,,84.4,"Series 10, Episode 02",top_gear
-Audi,"R8 4.2 FSI Quattro (Mk1, Type 42, 2007, N/A 4.2, 420 PS)",,,,,,,,,,,,,,484.0,2007,Horst von Saurma,,,nurburgring
-Audi,R8 4.2 FSI R-Tronic,,,,,,,,,,,,,,481.9,2008-10-27,Sascha Bert,,,nurburgring
-Audi,"R8 Coupé 5.2 FSI Quattro (Mk1, Type 42, 2009, 525 PS)",,,,,,,,,,,,,,464.0,2009,Horst von Saurma,,,nurburgring
-Audi,"R8 GT (Mk1, Typ 42, 2010)",,,,,,,,,,,,,,454.0,2010-12,Horst von Saurma,,,nurburgring
-Audi,R8 LMS Ultra,,,,,,,,,,,,,,477.474,2014-09-30,Marc Basseng/Frank Stippler,,,nurburgring
-Audi,"R8 Plus (Mk1, Type 42, 2013, N/A 5.2, 550 PS)",,,,,,,,,,,,,,465.0,2013,Horst von Saurma,,,nurburgring
-Audi,R8 V10 (damp),,,,,,,,,,,,,,,,,81.6,"Series 14, Episode 02",top_gear
-Audi,R8 V10 Plus,2017,ICE,2.6,2.8,,,10.51,,,,,,,,,,75.7,"Series 23, Episode 03","acceleration, top_gear"
-Audi,"R8 V10 Plus (4S, 2015)",,,,,,,,,,,,,,452.0,2015,Christian Gebhardt,,,nurburgring
-Audi,R8 V10 Spyder,,,,,,,,,,,,,,,,,82.3,"Series 15, Episode 04",top_gear
-Audi,RS 6 Avant,,,,,,,,,,,,,,,,,81.9,"Series 29, Episode 03",top_gear
-Audi,RS Q8,,,,,,,,,,,,,,462.253,2019-09-13,Frank Stippler,82.5,—N/a,"nurburgring, top_gear"
-Audi,RS e-tron GT performance,2024,Electric,,2.19,,,,,,,,,,,,,,,acceleration
-Audi,"RS3 (Typ 8Y, 2021, 2.5 T, 400 PS)",,,,,,,,,,,,,,455.522,2021-06-14,Frank Stippler,,,nurburgring
-Audi,"RS3 (Typ 8Y, 2022, 2.5 T, 400 PS)",,,,,,,,,,,,,,457.66,2022,Christian Gebhardt,,,nurburgring
-Audi,"RS3 Sportback (8P, 2011, 2.5 T, 340 PS)",,,,,,,,,,,,,,500.0,2011,Horst von Saurma,,,nurburgring
-Audi,RS4,,,,,,,,,,,,,,,,,85.7,"Series 07, Episode 02",top_gear
-Audi,RS4 (B7),,,,,,,,,,,,,,489.0,2006,Horst von Saurma,,,nurburgring
-Audi,RS4 Avant (B5),,,,,,,,,,,,,,505.0,2000,Horst von Saurma,,,nurburgring
-Audi,RS4 Avant (B9),,,,,,,,,,,,,,478.52,2018-07-12,Christian Gebhardt,,,nurburgring
-Audi,RS4 Avant Competition Plus (B9),,,,,,,,,,,,,,459.35,2023-07-12,Christian Gebhardt,,,nurburgring
-Audi,RS5 (moist),,,,,,,,,,,,,,,,,87.5,"Series 16, Episode 05",top_gear
-Audi,RS5 Coupe (8T),,,,,,,,,,,,,,479.0,2012-06,Horst von Saurma,,,nurburgring
-Audi,RS6 (C5),,,,,,,,,,,,,,500.0,2002,Horst von Saurma,,,nurburgring
-Audi,RS6 (very wet),,,,,,,,,,,,,,,,,93.0,"Series 01, Episode 08",top_gear
-Audi,RS6 Avant (C7),,,,,,,,,,,,,,485.0,2014,Horst von Saurma,,,nurburgring
-Audi,"S1 (8X, 2014, 231 PS)",,,,,,,,,,,,,,521.0,2014,Horst von Saurma,,,nurburgring
-Audi,"S3 (8L, 1999, 210 PS)",,,,,,,,,,,,,,521.0,1999,Horst von Saurma,,,nurburgring
-Audi,S3 (very wet),,,,,,,,,,,,,,,,,93.1,—N/a,top_gear
-Audi,"S4 (B5, 1998, 265 PS)",,,,,,,,,,,,,,522.0,1998,Horst von Saurma,,,nurburgring
-Audi,S4 Avant (B6),,,,,,,,,,,,,,509.0,2003,Horst von Saurma,,,nurburgring
-Audi,S4 quattro 4.2,,,,,,,,,,,,,,,,,90.9,"Series 02, Episode 02",top_gear
-Audi,S5,,,,,,,,,,,,,,506.0,2008,Horst von Saurma,,,nurburgring
-Audi,"TT 1.8 T (Mk1, 8N, 1998)",,,,,,,,,,,,,,522.0,1998,Horst von Saurma,,,nurburgring
-Audi,TT 3.2 quattro,,,,,,,,,,,,,,,,,92.7,"Series 03, Episode 08",top_gear
-Audi,"TT Coupe (Mk2, 8J, 2007 2.0 TFSI, 200 PS)",,,,,,,,,,,,,,520.0,2007,Horst von Saurma,,,nurburgring
-Audi,TT Mk.II 2.0T,,,,,,,,,,,,,,,,,91.4,"Series 09, Episode 02",top_gear
-Audi,"TT RS (8S, 2017, 2.5 T, 400 PS)",,,,,,,,,,,,,,468.4,2017-05-17,Christian Gebhardt,,,nurburgring
-Audi,"TT RS (Mk2, 8J, 2010, 2.5 T, 340 PS)",,,,,,,,,,,,,,489.0,2010,Horst von Saurma,,,nurburgring
-Audi,TT RS (damp),,,,,,,,,,,,,,,,,84.9,—N/a,top_gear
-Audi,"TT S Coupe (Mk3, FV/8S, 2015, 2.0 T, 310 PS)",,,,,,,,,,,,,,496.0,2015,Christian Gebhardt,,,nurburgring
-Audi,"TTS Coupé (8J, 2008, 272 PS)",,,,,,,,,,,,,,509.0,2008,Horst von Saurma,,,nurburgring
-Autodelta,Alfa Romeo 147 GTA 3.7,,,,,,,,,,,,,,,,,90.0,"Series 04, Episode 02",top_gear
-BAC,Mono,,,,,,,,,,,,,,,,,74.3,"Series 20, Episode 02",top_gear
-BMW,1 Series M Coupe (damp),,,,,,,,,,,,,,,,,85.0,"Series 17, Episode 01",top_gear
-BMW,1 Series M Coupé (E82),,,,,,,,,,,,,,495.0,2011,Horst von Saurma,,,nurburgring
-BMW,130i (E87),,,,,,,,,,,,,,,,,91.9,"Series 07, Episode 06",top_gear
-BMW,318i (E46),,,,,,,,,,,,,,,,,103.2,"Series 01, Episode 04",top_gear
-BMW,320 Turbo,,,,,,,,,,,,,,465.44,1980-03-30,Hans-Joachim Stuck,,,nurburgring
-BMW,325i (E93) (wet),,,,,,,,,,,,,,,,,95.9,"Series 16, Episode 04",top_gear
-BMW,330i (self-driving car with Jeremy Clarkson as the passenger),,,,,,,,,,,,,,,,,88.9,"Series 10, Episode 08",top_gear
-BMW,335i Coupe (E92),,,,,,,,,,,,,,506.0,2006,Horst von Saurma,,,nurburgring
-BMW,535d (E60),,,,,,,,,,,,,,,,,91.8,"Series 06, Episode 10",top_gear
-BMW,645Ci,,,,,,,,,,,,,,,,,88.5,"Series 04, Episode 05",top_gear
-BMW,760Li (wet),,,,,,,,,,,,,,,,,91.2,"Series 14, Episode 01",top_gear
-BMW,"Alpina B10 3.2 (E39, 1998, 260 PS)",,,,,,,,,,,,,,530.0,1998,Horst von Saurma,,,nurburgring
-BMW,"Alpina B3 (E46, 1999, 280 PS)",,,,,,,,,,,,,,516.0,1999,Horst von Saurma,,,nurburgring
-BMW,"Alpina B3 (G20, 2021, 3.0 TT, 462 PS)",,,,,,,,,,,,,,473.26,2020-12-17,Christian Gebhardt,,,nurburgring
-BMW,"Alpina B3 Biturbo (F30, 2014, 3.0 BT, 410 PS)",,,,,,,,,,,,,,494.0,2014,Horst von Saurma,,,nurburgring
-BMW,"Alpina B3 Biturbo Coupé (E92, 2008, 3.0 BT, 360 PS)",,,,,,,,,,,,,,494.0,2008,Horst von Saurma,,,nurburgring
-BMW,"Alpina B3 Coupe GT3 (E92, 2012, 3.0 T, 408 PS)",,,,,,,,,,,,,,469.0,2012,Horst von Saurma,,,nurburgring
-BMW,"Alpina B4 Gran Coupè (G26, 2023, 3.0 TT, 495 PS)",,,,,,,,,,,,,,472.11,2023-01-12,Christian Gebhardt,,,nurburgring
-BMW,"Alpina B4 S Biturbo Coupe (F32, 2018, 3.0 BT, 440 PS)",,,,,,,,,,,,,,480.0,2017,Christian Gebhardt,,,nurburgring
-BMW,Alpina B6 S (E63),,,,,,,,,,,,,,490.0,2008,Horst von Saurma,,,nurburgring
-BMW,"Alpina Roadster S (E85, 2005, 300 PS)",,,,,,,,,,,,,,495.0,2005,Horst von Saurma,,,nurburgring
-BMW,F80 M3,,,,,,,,,,,,,,,,,81.6,"Series 24, Episode 02",top_gear
-BMW,M135i,,,,,,,,,,,,,,,,,85.1,"Series 21, Episode 05",top_gear
-BMW,"M135i (F20, 2012)",,,,,,,,,,,,,,498.0,2012,Horst von Saurma,,,nurburgring
-BMW,M2,,,,,,,,,,,,,,,,,82.7,"Series 23, Episode 05",top_gear
-BMW,M2 (F87),,,,,,,,,,,,,,478.0,2015-12,Jörg Weidinger,,,nurburgring
-BMW,"M2 (F87, 2016, 3.0 T, 370 PS)",,,,,,,,,,,,,,481.0,2016,Christian Gebhardt,,,nurburgring
-BMW,"M2 (G87, 2023, 3.0 TT, 460 PS)",,,,,,,,,,,,,,453.906,2023-08-30,Jörg Weidinger,,,nurburgring
-BMW,M2 CS,,,,,,,,,,,,,,440.89,2025-04-11,Jörg Weidinger,,,nurburgring
-BMW,"M2 CS (F87, 2020)",,,,,,,,,,,,,,462.99,2020-08-12,Christian Gebhardt,,,nurburgring
-BMW,M2 Competition (F87),,,,,,,,,,,,,,472.36,2018-09-12,Christian Gebhardt,,,nurburgring
-BMW,"M235i (F22, 2015, 3.0 T, 322 PS)",,,,,,,,,,,,,,496.0,2015,Christian Gebhardt,,,nurburgring
-BMW,"M240i xDrive (G42, 2022, 3.0 T, 374 PS)",,,,,,,,,,,,,,478.59,2022,Christian Gebhardt,,,nurburgring
-BMW,M3 (E30),,,,,,,,,,,,,,530.0,2010,Horst von Saurma,,,nurburgring
-BMW,M3 (E46),,,,,,,,,,,,,,502.0,2000,Horst von Saurma,,,nurburgring
-BMW,M3 (E90 Saloon),,,,,,,,,,,,,,,,,85.3,"Series 12, Episode 05",top_gear
-BMW,M3 (E92),,,,,,,,,,,,,,485.0,2007-12,Horst von Saurma,86.5,"Series 10, Episode 10","nurburgring, top_gear"
-BMW,"M3 CS (G80, 2023, 3.0 TT, 550 PS)",,,,,,,,,,,,,,443.975,2023-08-31,Jörg Weidinger,,,nurburgring
-BMW,M3 CSL (E46) (wet),,,,,,,,,,,,,,,,,88.0,"Series 03, Episode 02",top_gear
-BMW,M3 CSL (E46) by Loaded,,,,,,,,,,,,,,442.0,2007-11-11,Richard Göransson,,,nurburgring
-BMW,"M3 CSL (E46, 2004)",,,,,,,,,,,,,,470.0,2003,Horst von Saurma,,,nurburgring
-BMW,"M3 Competition Touring (G81, 2023, 3.0 TT, 510 PS)",,,,,,,,,,,,,,454.39,2023-10-19,Christian Gebhardt,,,nurburgring
-BMW,M3 Competition xDrive,2023,ICE,2.8,,,,11.0,,,,,,,,,,,,acceleration
-BMW,"M3 Coupe SMG (E36, facelift, 1997, 321 PS)",,,,,,,,,,,,,,515.0,1997,Horst von Saurma,,,nurburgring
-BMW,M3 E46,,,,,,,,,,,,,,,,,91.8,"Series 02, Episode 02",top_gear
-BMW,M3 E92 Competition Pack (moist),,,,,,,,,,,,,,,,,86.5,"Series 16, Episode 05",top_gear
-BMW,"M3 GTS (E92, 2010)",,,,,,,,,,,,,,468.0,2010,Horst von Saurma,,,nurburgring
-BMW,M3 Touring,,,,,,,,,,,,,,455.0,2022-05-12,Jörg Weidinger,,,nurburgring
-BMW,"M4 (F82, 2014, 431 PS)",,,,,,,,,,,,,,472.0,2014,Horst von Saurma,,,nurburgring
-BMW,"M4 CS (F82, 2017, 3.0 TT, 460 PS)",,,,,,,,,,,,,,462.0,2017,Christian Gebhardt,,,nurburgring
-BMW,"M4 CS (G82, 2024, 3.0 TT, 550 PS)",,,,,,,,,,,,,,437.215,2024-05-08,Jörg Weidinger,,,nurburgring
-BMW,"M4 CSL (G82, 2022)",,,,,,,,,,,,,,435.677,2022-04-12,Jörg Weidinger,,,nurburgring
-BMW,"M4 CSL (G82, 2023, 3.0 TT, 550 PS)",,,,,,,,,,,,,,433.497,2023-09-01,Jörg Weidinger,,,nurburgring
-BMW,"M4 Competition (G82, 2021, 3.0 TT, 510 PS)",,,,,,,,,,,,,,450.79,2021-04-15,Christian Gebhardt,,,nurburgring
-BMW,M4 Competition xDrive,2023,ICE,2.8,,,,11.0,,,,,,,,,,,,acceleration
-BMW,"M4 Competition xDrive (G82, 2022, 3.0 TT, 510 PS)",,,,,,,,,,,,,,448.57,2021-09-22,Christian Gebhardt,,,nurburgring
-BMW,"M4 GTS (F82, 2015)",,,,,,,,,,,,,,447.88,2015-09,Jörg Weidinger,,,nurburgring
-BMW,"M4 GTS (F82, 2016)",,,,,,,,,,,,,,457.0,2016-10,Christian Gebhardt,,,nurburgring
-BMW,M5 (E39),,,,,,,,,,,,,,508.0,1999,Horst von Saurma,,,nurburgring
-BMW,M5 (E60),,,,,,,,,,,,,,493.0,2004,Horst von Saurma,86.2,"Series 06, Episode 09","nurburgring, top_gear"
-BMW,M5 (F10),,,,,,,,,,,,,,485.0,2012,Horst von Saurma,,,nurburgring
-BMW,M5 (F10) (Very Wet),,,,,,,,,,,,,,,,,89.2,"Series 18, Episode 07",top_gear
-BMW,M5 (F90),,,,,,,,,,,,,,458.92,2018-04-12,Christian Gebhardt,79.8,"Series 26, Episode 02","nurburgring, top_gear"
-BMW,M5 (F90) by AC Schnitzer,,,,,,,,,,,,,,449.5,2018-08-22,Jörg Müller,,,nurburgring
-BMW,M5 (G90),,,,,,,,,,,,,,,,,79.8,,top_gear
-BMW,M5 CS,2020,ICE,2.6,2.9,,,10.6,,,,,,,,,,,,acceleration
-BMW,"M5 CS (F90, 2021)",,,,,,,,,,,,,,449.57,2021-06-02,Christian Gebhardt,,,nurburgring
-BMW,M5 Competition,2019,ICE,2.6,2.9,,,10.8,,,,,,,,,,,,acceleration
-BMW,"M5 Competition (F10, 2014, 575 PS)",,,,,,,,,,,,,,474.0,2014,Horst von Saurma,,,nurburgring
-BMW,"M5 Competition (F90, 2019, 625 PS)",,,,,,,,,,,,,,455.9,2019-04-17,Christian Gebhardt,,,nurburgring
-BMW,M5 E39,,,,,,,,,,,,,,,,,87.0,"Series 01, Episode 08",top_gear
-BMW,"M6 Cabrio (E64, 2007, 507 PS)",,,,,,,,,,,,,,496.52,2007-05,Wolfgang Kaufmann,,,nurburgring
-BMW,"M6 Coupe (E63, 2005, 507 PS)",,,,,,,,,,,,,,489.0,2005,Horst von Saurma,,,nurburgring
-BMW,"M6 Coupe (E63, 2006, 507 PS)",,,,,,,,,,,,,,487.76,2006-03,Prinz Leopold von Bayern,,,nurburgring
-BMW,M8 Competition,2019,ICE,2.5,3.0,,,10.7,,,,,,,,,,,,acceleration
-BMW,M8 Competition (very wet),,,,,,,,,,,,,,,,,86.2,"Series 28, Episode 06",top_gear
-BMW,M8 Competition Gran Coupe,2020,ICE,2.7,,,,,,,,,,,,,,,,acceleration
-BMW,"M8 Coupe Competition (F92, 2020, 625 PS)",,,,,,,,,,,,,,452.79,2020-06-09,Christian Gebhardt,,,nurburgring
-BMW,X5 (E53) LM,,,,,,,,,,,,,,470.0,2000,Hans-Joachim Stuck,,,nurburgring
-BMW,X5 M (E70) (wet),,,,,,,,,,,,,,,,,88.2,"Series 14, Episode 04",top_gear
-BMW,"X6 M (E71, 2009, 555 PS)",,,,,,,,,,,,,,504.0,2009,Horst von Saurma,,,nurburgring
-BMW,"Z3 Coupe 3.0 (E36/8, 2001, 231 PS)",,,,,,,,,,,,,,514.0,2001,Horst von Saurma,,,nurburgring
-BMW,"Z3 M Coupe (E36/8, 1998, 321 PS)",,,,,,,,,,,,,,502.0,1998,Horst von Saurma,,,nurburgring
-BMW,Z3 M Roadster (E36/7),,,,,,,,,,,,,,512.0,1997,Horst von Saurma,,,nurburgring
-BMW,Z4 3.0i (very wet) (E85),,,,,,,,,,,,,,,,,97.3,"Series 03, Episode 02",top_gear
-BMW,"Z4 Coupe 3.0si (E86, facelift, 2006, 265 PS)",,,,,,,,,,,,,,512.0,2006,Horst von Saurma,,,nurburgring
-BMW,Z4 GT3,,,,,,,,,,,,,,479.045,2014-08-02,Jens Klingmann,,,nurburgring
-BMW,Z4 M Coupe Prototype,,,,,,,,,,,,,,495.0,2006,,,,nurburgring
-BMW,Z4 M Roadster (E85),,,,,,,,,,,,,,,,,86.0,"Series 08, Episode 04",top_gear
-BMW,Z4 M Roadster Prototype,,,,,,,,,,,,,,498.0,2006,,,,nurburgring
-BMW,Z4 M40i (G29),,,,,,,,,,,,,,475.409,2018-09-12,Christian Gebhardt,,,nurburgring
-BMW,"Z4 Roadster 3.0i SMG (E85, pre-facelift, 2003, 231 PS)",,,,,,,,,,,,,,512.0,2003,Horst von Saurma,,,nurburgring
-BMW,Z4 sDrive35i (E89),,,,,,,,,,,,,,,,,88.2,"Series 13, Episode 06",top_gear
-BMW,"Z8 (E52, 2000, 400 PS)",,,,,,,,,,,,,,498.0,2000,Horst von Saurma,,,nurburgring
-BMW,i8 by AC Schnitzer,,,,,,,,,,,,,,499.8,2017,Markus Oestreich,,,nurburgring
-Bentley,Arnage T (wet),,,,,,,,,,,,,,,,,100.8,"Series 01, Episode 05",top_gear
-Bentley,"Continental GT (Mk1, 2006, 560 PS)",,,,,,,,,,,,,,520.3,2006-03,Tom Kristensen,,,nurburgring
-Bentley,Continental GT Supersports,,,,,,,,,,,,,,,,,84.9,"Series 15, Episode 01",top_gear
-Bentley,Meteor 'Spitfire engine in a car',,,,,,,,,,,,,,,,,110.3,"Series 18, Episode 06",top_gear
-Bentley,Mulsanne Speed (very wet),,,,,,,,,,,,,,,,,102.4,Extra Gear,top_gear
-Benz,82/200 HP (de),1912,,,,,,,,,197.0,147.0,,,,,,,,power_output
-Benz,Patent-Motorwagen,1886,,,,,,,,,7.0,6.0,,,,,,,,power_output
-Benz,Velo,1894,,,,,,,12.0,20.0,5.0,1.0,,"1,045 cc (63.8 cu in) single-cylinder 1.1 kW (1.5 PS; 1.5 bhp)",,,,,,"power_output, speed_records"
-Bowler,Wildcat,,,,,,,,,,,,,,,,,99.4,"Series 02, Episode 01",top_gear
-Brabham,BT26A-Ford,,,,,,,,,,,,,,462.1,1969-08-03,Jacky Ickx,,,nurburgring
-Brabus,S Biturbo Roadster,,,,,,,,,,,,,,,,,86.2,"Series 09, Episode 04",top_gear
-Brutus,,,,,,,,,,,,,,,,,,122.5,"Series 18, Episode 06",top_gear
-Bugatti,Chiron Sport,2017,ICE,2.4,,,,9.4,,,,,,,,,,,,acceleration
-Bugatti,Chiron Super Sport,2021,ICE,2.2,,,,9.1,,,,,,,,,,,,acceleration
-Bugatti,Chiron Super Sport 300+,2019,,,,,,,304.773,490.484,1578.0,1176.0,,"7,993 cc (487.8 cu in) quad-turbocharged W16 1,177 kW (1,600 PS; 1,578 hp)",,,,,,"power_output, speed_records"
-Bugatti,Chiron Super Sport 300+/Centodieci,2021,,,,,,,,,1578.0,1177.0,,,,,,,,power_output
-Bugatti,Chiron/Bugatti Divo,2016,,,,,,,,,1479.0,1103.0,,,,,,,,power_output
-Bugatti,EB110,1991,,,,,,,,,553.0,412.0,,,,,,,,power_output
-Bugatti,EB110 SS,,,,,,,,,,,,,,464.0,1993,Loris Bicocchi,,,nurburgring
-Bugatti,Type 41,1927,,,,,,,,,296.0,221.0,,,,,,,,power_output
-Bugatti,Veyron,2005,ICE,2.4,2.84,,,10.1,,,987.0,736.0,,,,,,,,"acceleration, power_output"
-Bugatti,Veyron 16.4,,,,,,,,,,,,,,460.0,2005,,78.3,"Series 12, Episode 04","nurburgring, top_gear"
-Bugatti,Veyron 16.4 Super Sport,2010,,,,,,,267.856,431.072,,,,"7,993 cc (487.8 cu in) quad-turbocharged W16 882 kW (1,200 PS; 1,183 hp)",,,,,,speed_records
-Bugatti,Veyron EB 16.4,2005,,,,,,,253.81,408.47,,,,"7,993 cc (487.8 cu in) quad-turbocharged W16 736 kW (1,001 PS; 987 hp)",,,,,,speed_records
-Bugatti,Veyron Super Sport,2010,ICE,,2.7,,,9.9,,,,,,,,,,76.8,"Series 15, Episode 05","acceleration, top_gear"
-Bugatti,Veyron Super Sport/Grand Sport Vitesse,2010,,,,,,,,,1183.0,882.0,,,,,,,,power_output
-C8,Corvette Z06 (2024),,,,,,,,,,,,,,430.52,2024-12-11,Christian Gebhardt,,,nurburgring
-Cadillac,CTS-V (2009),,,,,,,,,,,,,,479.32,2008-05-09,John Heinricy,,,nurburgring
-Cadillac,CTS-V First Generation (very wet),,,,,,,,,,,,,,,,,93.4,"Series 06, Episode 04",top_gear
-Callaway,C12 Coupe,,,,,,,,,,,,,,505.0,1999,Horst von Saurma,,,nurburgring
-Caterham,7 160 (wet),,,,,,,,,,,,,,,,,105.5,"Series 21, Episode 04",top_gear
-Caterham,R400,,,,,,,,,,,,,,,,,85.0,"Series 02, Episode 06",top_gear
-Caterham,R500 Superlight,,,,,,,,,,,,,,475.0,2000,Robert Nearn,,,nurburgring
-Caterham,Seven 620R (wet),,,,,,,,,,,,,,,,,82.3,"Series 21, Episode 04",top_gear
-Caterham,Seven Superlight R500 (cold),,,,,,,,,,,,,,,,,77.9,"Series 12, Episode 06",top_gear
-Chery,Riich G5 2.0T,,,,,,,,,,,,,,536.81,2009-10-13,Dirk Schoysman,,,nurburgring
-Chevrolet,Camaro SS (2010),,,,,,,,,,,,,,500.0,2008,,87.9,"Series 15, Episode 03","nurburgring, top_gear"
-Chevrolet,Camaro Z/28 (2014),,,,,,,,,,,,,,457.4,2013-10,Adam Dean,,,nurburgring
-Chevrolet,Camaro ZL1 (2017),,,,,,,,,,,,,,449.6,2016-10-24,Drew Cattell,,,nurburgring
-Chevrolet,Camaro ZL1 1LE (2018),,,,,,,,,,,,,,436.04,2017,Bill Wise,,,nurburgring
-Chevrolet,Cobalt SS Turbo,,,,,,,,,,,,,,542.0,2007-10,John Heinricy,,,nurburgring
-Chevrolet,Cobalt SS/TC (2007),,,,,,,,,,,,,,502.85,2007,,,,nurburgring
-Chevrolet,"Corvette (C6, 2005, N/A 6.0, 404 PS)",,,,,,,,,,,,,,495.0,2005,Horst von Saurma,,,nurburgring
-Chevrolet,Corvette (C7) Z06,2016,ICE,,,,,10.9,,,,,,,,,,,,acceleration
-Chevrolet,Corvette (C7) ZR1,2019,ICE,,,,,10.8,,,,,,,,,,,,acceleration
-Chevrolet,Corvette (C8) (2020),,,,,,,,,,,,,,449.9,2019-07,Oliver Gavin,,,nurburgring
-Chevrolet,Corvette (C8) E-Ray,2024,Hybrid,2.5,,,,10.6,,,,,,,,,,,,acceleration
-Chevrolet,Corvette (C8) Stingray Z51,2020,ICE,2.8,2.9,,,,,,,,,,,,,,,acceleration
-Chevrolet,Corvette (C8) Z06,2023,ICE,2.6,,,,10.5,,,,,,,,,,,,acceleration
-Chevrolet,Corvette (C8) ZR1,2025,ICE,2.2,,,,9.5,,,1064.0,793.0,,,,,,,,"acceleration, power_output"
-Chevrolet,Corvette C5,,,,,,,,,,,,,,520.0,1997,Horst von Saurma,,,nurburgring
-Chevrolet,"Corvette C5 Commemorative Edition (2003, 344 PS)",,,,,,,,,,,,,,498.0,2003,Horst von Saurma,,,nurburgring
-Chevrolet,Corvette C6 LS2,,,,,,,,,,,,,,,,,86.8,"Series 04, Episode 10",top_gear
-Chevrolet,Corvette C6 Z06 (2012),,,,,,,,,,,,,,442.68,2011-06-23,Jim Mero,82.4,"Series 08, Episode 02","nurburgring, top_gear"
-Chevrolet,Corvette C6 ZR1 (2012),,,,,,,,,,,,,,439.63,2011-06-09,Jim Mero,,,nurburgring
-Chevrolet,Corvette C6 ZR1 (damp),,,,,,,,,,,,,,,,,80.4,"Series 14, Episode 02",top_gear
-Chevrolet,Corvette C7 Stingray (written as Corvette S'ray),,,,,,,,,,,,,,,,,79.8,"Series 22, Episode 05",top_gear
-Chevrolet,Corvette C8 Stingray (damp),,,,,,,,,,,,,,,,,81.7,"Series 31, Episode 03",top_gear
-Chevrolet,Corvette Z06 (2025),,,,,,,,,,,,,,431.826,2025-06,Aaron Link,,,nurburgring
-Chevrolet,Corvette Z06 (C5),,,,,,,,,,,,,,476.0,,Dave Hill,,,nurburgring
-Chevrolet,"Corvette Z06 (C6, 2007, N/A 7.0, 512 PS)",,,,,,,,,,,,,,469.0,2007-06-22,Horst von Saurma,,,nurburgring
-Chevrolet,Corvette Z06 (C7),,,,,,,,,,,,,,433.9,2017-04-24,Christian Gebhardt,,,nurburgring
-Chevrolet,Corvette ZR1,,,,,,,,,,,,,,410.763,2025-06,Brian Wallace,,,nurburgring
-Chevrolet,Corvette ZR1X,,,,,,,,,,,,,,409.275,2025-06,Drew Cattell,,,nurburgring
-Chrysler,Viper GTS,,,,,,,,,,,,,,490.0,1997,Horst von Saurma,,,nurburgring
-Citroën,C4 VTS,,,,,,,,,,,,,,,,,95.8,"Series 05, Episode 06",top_gear
-Clio,Renault Sport 182,,,,,,,,,,,,,,,,,93.8,"Series 04, Episode 06",top_gear
-Clive,Sutton CS850R Mustang,,,,,,,,,,,,,,,,,82.3,—N/a,top_gear
-Cosworth,Impreza STI CS400 (wet) (written as Subaru Cossie),,,,,,,,,,,,,,,,,87.7,"Series 16, Episode 03",top_gear
-Cupra,"Formentor VZ5 (2023, 390 PS)",,,,,,,,,,,,,,478.99,2023,Christian Gebhardt,,,nurburgring
-Cupra,Leon Estate,,,,,,,,,,,,,,,,,87.4,—N/a,top_gear
-Czinger,21C,2021,,,,,,,,,1349.0,1006.0,,,,,,,,power_output
-Dacia,Sandero,,,,,,,,,,,,,,,,,99.7,"Series 26, Episode 04",top_gear
-Daimler,Phoenix (de),1899,,,,,,,,,23.0,17.0,,,,,,,,power_output
-Dallara,Stradale,,,,,,,,,,,,,,,,,72.8,"Series 27, Episode 03",top_gear
-Dauer,962 Le Mans,1993,,,,,,,251.4,404.6,720.0,537.0,,"2,994 cc (182.7 cu in) twin-turbocharged flat-6 537 kW (730 PS; 720 hp)",,,,,,"power_output, speed_records"
-Denza,Z9/Z9 GT BEV,2024,,,,,,,,,952.0,710.0,,,,,,,,power_output
-Dodge,Challenger SRT Demon,2018,ICE,2.6,,,,10.7,,,,,,,,,,,,acceleration
-Dodge,Challenger SRT Demon 170,2023,,,,,,,,,1025.0,764.0,,,,,,,,power_output
-Dodge,Viper ACR (2017),,,,,,,,,,,,,,421.3,2017-09-01,Lance David Arnold,75.1,"Series 23, Episode 01","nurburgring, top_gear"
-Dodge,Viper ACR-X,,,,,,,,,,,,,,423.06,2012-02,Lance Arnold,,,nurburgring
-Dodge,Viper GTS-R,,,,,,,,,,,,,,542.206,2003-06-01,Peter Zakowski/Pedro Lamy/Robert Lechner,,,nurburgring
-Dodge,Viper SRT-10,2008,ICE,,,,,10.92,,,,,,,,,,,,acceleration
-Dodge,Viper SRT-10 (very wet),,,,,,,,,,,,,,,,,88.5,"Series 05, Episode 03",top_gear
-Dodge,Viper SRT-10 roadster (ZB),,,,,,,,,,,,,,493.0,2007,Horst von Saurma,,,nurburgring
-Donkervoort,"D8 180R (2001, 1.8T, 240 PS",,,,,,,,,,,,,,490.0,2001,Horst von Saurma,,,nurburgring
-Donkervoort,D8 RS,,,,,,,,,,,,,,434.89,2006,Michael Düchting,,,nurburgring
-Drako,GTE,2020,,,,,,,,,1200.0,895.0,,,,,,,,power_output
-Duesenberg,Model SJ,1932,,,,,,,,,320.0,239.0,,,,,,,,power_output
-Duesenberg,Model SSJ,1935,,,,,,,,,400.0,298.0,,,,,,,,power_output
-Eagle,Low Drag GT,,,,,,,,,,,,,,,,,87.5,"Series 22, Episode 07",top_gear
-Eagle,Low Drag GT (very wet),,,,,,,,,,,,,,,,,97.8,"Series 22, Episode 07",top_gear
-Einride,,,,,,,,,,,,,,,,,,164.1,—N/a,top_gear
-Electric,Raceabout,,,,,,,,,,,,,,522.72,2011-09,Ralf Kelleners,,,nurburgring
-Faraday,Future FF 91,2023,,,,,,,,,1050.0,783.0,,,,,,,,power_output
-Ferrari,208 GTB Turbo (Not Shown on TV),,,,,,,,,,,,,,,,,95.3,—N/a,top_gear
-Ferrari,296 GTB,2023,Hybrid,2.3,2.9,,,9.6,,,819.0,610.0,,,418.7,2023-06-07,Christian Gebhardt,,,"acceleration, nurburgring, power_output"
-Ferrari,312T,,,,,,,,,,,,,,418.6,1975-08-02,Niki Lauda,,,nurburgring
-Ferrari,360 Challenge Stradale,,,,,,,,,,,,,,,,,82.3,"Series 04, Episode 03",top_gear
-Ferrari,360 Challenge Stradale F1,,,,,,,,,,,,,,476.0,2004,Horst von Saurma,,,nurburgring
-Ferrari,360 Modena,,,,,,,,,,,,,,489.0,1999,Horst von Saurma,,,nurburgring
-Ferrari,365 GTB/4 Daytona,1968,,,,,,,174.0,280.0,,,,"4,390 cc (268 cu in) V12 262 kW (357 PS; 352 hp)",,,,,,speed_records
-Ferrari,430 Scuderia,,,,,,,,,,,,,,,,,79.7,"Series 11, Episode 01",top_gear
-Ferrari,458 Italia,,,,,,,,,,,,,,458.0,2010,Horst von Saurma,79.1,"Series 15, Episode 06","nurburgring, top_gear"
-Ferrari,"458 Italia (570 PS, 2010)",,,,,,,,,,,,,,452.92,2010-10,Sascha Bert,,,nurburgring
-Ferrari,488 GTB,,,,,,,,,,,,,,441.0,2016-08,Horst von Saurma,,,nurburgring
-Ferrari,488 Pista,2019,ICE,2.7,2.9,,,10.1,,,,,,,420.03,2019-05-16,Christian Gebhardt,72.7,"Series 27, Episode 01","acceleration, nurburgring, top_gear"
-Ferrari,550 Maranello,,,,,,,,,,,,,,487.0,1998,Horst von Saurma,,,nurburgring
-Ferrari,575M Maranello,,,,,,,,,,,,,,485.0,2002,Horst von Saurma,,,nurburgring
-Ferrari,575M Maranello (very wet),,,,,,,,,,,,,,,,,95.2,"Series 01, Episode 04",top_gear
-Ferrari,575M Maranello GTC,,,,,,,,,,,,,,,,,86.8,"Series 05, Episode 04",top_gear
-Ferrari,599 GTB Fiorano,,,,,,,,,,,,,,467.0,2007,Horst von Saurma,81.22,"Series 10, Episode 03","nurburgring, top_gear"
-Ferrari,599 GTO,,,,,,,,,,,,,,,,,79.8,"Series 16, Episode 02",top_gear
-Ferrari,599XX,,,,,,,,,,,,,,418.16,2010-04-21,Raffaele de Simone,,,nurburgring
-Ferrari,812 Competizione/Competizione A,2021,,,,,,,,,819.0,610.0,,,,,,,,power_output
-Ferrari,812 Superfast,2018,ICE,2.8,3.0,,,10.5,,,,,,,447.48,2018-06-20,Christian Gebhardt,,,"acceleration, nurburgring"
-Ferrari,"California (Type F149, 2010, 460 PS)",,,,,,,,,,,,,,476.0,2010,Horst von Saurma,,,nurburgring
-Ferrari,Daytona SP3,2023,,,,,,,,,829.0,618.0,,,,,,,,power_output
-Ferrari,Enzo,,,,,,,,,,,,,,445.21,2008-08,Marc Basseng,79.0,"Series 05, Episode 02","nurburgring, top_gear"
-Ferrari,"F12 Berlinetta (740 PS, 2014)",,,,,,,,,,,,,,453.0,2014-09,Horst von Saurma,,,nurburgring
-Ferrari,F355,,,,,,,,,,,,,,498.0,1997,Horst von Saurma,,,nurburgring
-Ferrari,F430 F1,,,,,,,,,,,,,,475.0,2005,Horst von Saurma,82.9,"Series 06, Episode 08","nurburgring, top_gear"
-Ferrari,F430 Scuderia,,,,,,,,,,,,,,459.0,2008,Horst von Saurma,,,nurburgring
-Ferrari,F430 Spider F1,,,,,,,,,,,,,,,,,83.2,"Series 06, Episode 08",top_gear
-Ferrari,SF90 Stradale,2021,Hybrid,2.0,,,,9.5,,,986.0,735.0,,,,,,71.3,"Series 29, Episode 01","acceleration, power_output, top_gear"
-Ferrari,Testarossa,,,,,,,,,,,,,,557.12,1987,,,,nurburgring
-Fiat,500 Abarth Essesse SS,,,,,,,,,,,,,,,,,95.5,"Series 12, Episode 02",top_gear
-Fiat,"Grande Punto Abarth Esseesse (2009, 180 PS)",,,,,,,,,,,,,,549.0,2009,Horst von Saurma,,,nurburgring
-Fiat,New 500,,,,,,,,,,,,,,,,,99.6,—N/a,top_gear
-Ford,Capri Zakspeed Turbo,,,,,,,,,,,,,,428.59,1982-07-04,Klaus Niedzwiedz,,,nurburgring
-Ford,F-150 Hennessey VelociRaptor (wet),,,,,,,,,,,,,,,,,96.5,"Series 22, Episode 06",top_gear
-Ford,Fiesta ST,,,,,,,,,,,,,,,,,92.7,"Series 20, Episode 01",top_gear
-Ford,"Fiesta ST (Mk7, B479, 2020, 1.5 T, 200 PS)",,,,,,,,,,,,,,508.0,2020,Christian Gebhardt,,,nurburgring
-Ford,"Fiesta ST Edition (Mk7, B479, 2022, 1.5 T, 200 PS)",,,,,,,,,,,,,,502.33,2022,Christian Gebhardt,,,nurburgring
-Ford,"Focus RS (Mk III, 2016, 2.5 T, 350 PS)",,,,,,,,,,,,,,486.29,2017,Christian Gebhardt,,,nurburgring
-Ford,"Focus RS (Mk2, C307, 2009, 305 PS)",,,,,,,,,,,,,,506.0,2009,Horst von Saurma,,,nurburgring
-Ford,Focus RS 500 (wet),,,,,,,,,,,,,,,,,90.8,"Series 16, Episode 03",top_gear
-Ford,Focus RS Mk I,,,,,,,,,,,,,,,,,92.2,"Series 01, Episode 02",top_gear
-Ford,Focus RS Mk II,,,,,,,,,,,,,,,,,89.3,"Series 13, Episode 04",top_gear
-Ford,Focus RS Mk III,,,,,,,,,,,,,,,,,86.4,Extra Gear,top_gear
-Ford,Focus ST,,,,,,,,,,,,,,515.0,2005,Patrick Bernhard,89.6,"Series 19, Episode 04","nurburgring, top_gear"
-Ford,"Focus ST (Mk4, C519, 2021, 2.3 T, 280 PS)",,,,,,,,,,,,,,502.7,2021,Christian Gebhardt,,,nurburgring
-Ford,Focus ST (Not Shown on TV),,,,,,,,,,,,,,,,,93.5,,top_gear
-Ford,Focus ST (written as Asbo ST) (foggy),,,,,,,,,,,,,,,,,94.9,"Series 07, Episode 03",top_gear
-Ford,GT,2017,ICE,,,,,10.8,,,,,,,,,,81.9,"Series 04, Episode 08","acceleration, top_gear"
-Ford,"GT (Mk1, 2006, 550 PS)",,,,,,,,,,,,,,472.0,2006,Horst von Saurma,,,nurburgring
-Ford,Mondeo 2.0i,,,,,,,,,,,,,,,,,101.0,"Series 01, Episode 04",top_gear
-Ford,Mondeo ST220,,,,,,,,,,,,,,,,,94.5,"Series 08, Episode 06",top_gear
-Ford,Mustang GT,,,,,,,,,,,,,,,,,88.0,"Series 23, Episode 06",top_gear
-Ford,"Mustang GT (Mk6, S550, facelift, 2020, N/A 5.0, 450 PS)",,,,,,,,,,,,,,498.0,2020,Christian Gebhardt,,,nurburgring
-Ford,Mustang GT Performance Pack,,,,,,,,,,,,,,487.0,2015,Horst von Saurma,,,nurburgring
-Ford,Mustang GTD,,,,,,,,,,,,,,412.072,2025-05-01,Dirk Müller,73.7,Stig Laps,"nurburgring, top_gear"
-Ford,"Mustang Mach 1 (Mk6, 2021, N/A 5.0, 460 PS)",,,,,,,,,,,,,,478.29,2021-11-03,Christian Gebhardt,,,nurburgring
-Ford,Shelby GT500,2020,ICE,,,,,10.61,,,,,,,,,,90.0,"Series 09, Episode 06","acceleration, top_gear"
-Ford,Transit,,,,,,,,,,,,,,608.49,,Sabine Schmitz,,,nurburgring
-Ford,Transit Supervan 4.2,,,,,,,,,,,,,,408.393,2025-08-18,Romain Dumas,,,nurburgring
-Ford,Transit World Rally,,,,,,,,,,,,,,,,,122.0,"Series 01, Episode 08",top_gear
-GMC,Hummer EV Edition 1/EV3X,2022,,,,,,,,,1000.0,746.0,,,,,,,,power_output
-Gumpert,Apollo S,,,,,,,,,,,,,,,,,77.1,"Series 11, Episode 06",top_gear
-Gumpert,Apollo Sport,,,,,,,,,,,,,,431.57,2009-08-13,Florian Gruber,,,nurburgring
-HSV,Maloo,,,,,,,,,,,,,,,,,87.1,"Series 13, Episode 07",top_gear
-Hawk,HF3000 (wet) (Kit car with Alfa Romeo V6 engine – spun twice during timed lap),,,,,,,,,,,,,,,,,108.2,"Series 14, Episode 03",top_gear
-Hennessey,Venom F5,2021,,,,,,,,,2032.0,1515.0,,,,,,,,power_output
-Hennessey,Venom GT,2014,,,,,,,270.49,435.31,,,,"7,000 cc (430 cu in) twin-turbocharged V8 928 kW (1,261 PS; 1,244 bhp)",,,,,,speed_records
-Hispano-Suiza,60/75,1907,,,,,,,,,74.0,55.0,,,,,,,,power_output
-Holden,Monaro (written as Loser) (wet),,,,,,,,,,,,,,,,,93.9,"Series 03, Episode 06",top_gear
-Holden,VF SS Redline Ute,,,,,,,,,,,,,,499.47,2013-04,Rob Trubiani,,,nurburgring
-Honda,Accord,,,,,,,,,,,,,,,,,104.0,"Series 01, Episode 04",top_gear
-Honda,Civic Type R,,,,,,,,,,,,,,,,,96.5,"Series 01, Episode 02",top_gear
-Honda,Civic Type R (FK2),,,,,,,,,,,,,,495.0,2016,Christian Gebhardt,87.7,"Series 23, Episode 03","nurburgring, top_gear"
-Honda,Civic Type R (FK8),,,,,,,,,,,,,,463.8,2017-04,,85.6,"Series 25, Episode 03","nurburgring, top_gear"
-Honda,"Civic Type R (FK8, 2018, 2.0 T, 320 PS)",,,,,,,,,,,,,,481.0,2018,Christian Gebhardt,,,nurburgring
-Honda,Civic Type R Prototype,,,,,,,,,,,,,,470.63,2014-05,,,,nurburgring
-Honda,Civic Type R S grade (FL5 available in select European countries),,,,,,,,,,,,,,459.691,2023-03-24,Néstor Girolami,,,nurburgring
-Honda,Civic Type-R (2004 Facelift),,,,,,,,,,,,,,,,,92.8,"Series 05, Episode 06",top_gear
-Honda,Civic Type-R (EP3),,,,,,,,,,,,,,,,,98.06,"Series 01, Episode 02",top_gear
-Honda,Civic Type-R (FN2-2007),,,,,,,,,,,,,,,,,93.5,"Series 10, Episode 06",top_gear
-Honda,Civic Type-R 2.0i LS,,,,,,,,,,,,,,527.0,2001,Horst von Saurma,,,nurburgring
-Honda,"NSX (1 gen, 1997, 280 PS)",,,,,,,,,,,,,,518.0,1997,Horst von Saurma,,,nurburgring
-Honda,NSX (NA1),,,,,,,,,,,,,,486.56,2016-09,Fredrik Sørlie,,,nurburgring
-Honda,"NSX (NC1, 2016)",,,,,,,,,,,,,,456.0,2017-03,Christian Gebhardt,,,nurburgring
-Honda,NSX (second generation),,,,,,,,,,,,,,,,,77.6,"Series 23, Episode 06",top_gear
-Honda,NSX Type S,2022,Hybrid,2.9,,,,,,,,,,,,,,,,acceleration
-Honda,NSX Type-R (wet),,,,,,,,,,,,,,,,,91.6,"Series 03, Episode 09",top_gear
-Honda,NSX-R (NA1),,,,,,,,,,,,,,483.86,1992/10/19,Motoharu Kurosawa,,,nurburgring
-Honda,NSX-R (NA2),,,,,,,,,,,,,,476.73,2002,Motoharu Kurosawa,,,nurburgring
-Honda,"NSX-R (NA2, 2002, facelift, 280 PS)",,,,,,,,,,,,,,489.0,2002,Horst von Saurma,,,nurburgring
-Honda,NSX-R (very wet),,,,,,,,,,,,,,,,,93.7,"Series 01, Episode 06",top_gear
-Honda,RC30,,,,,,,,,,,,,,469.71,1993-05-23,,,,nurburgring
-Honda,S2000,,,,,,,,,,,,,,519.0,2000,Horst von Saurma,,,nurburgring
-Honda,S2000 (very wet),,,,,,,,,,,,,,,,,97.4,"Series 03, Episode 02",top_gear
-Honda,e,,,,,,,,,,,,,,,,,97.5,—N/a,top_gear
-Hyptec,SSR Ultimate/Aion Hyper SSR Ultimate,2023,,,,,,,,,1225.0,913.0,,,,,,,,power_output
-Hyundai,Genesis Coupe 3.8L,,,,,,,,,,,,,,523.0,2011-07,Dmitry Sokolov,,,nurburgring
-Hyundai,Ioniq 5 N,,,,,,,,,,,,,,465.59,2024-01-18,Christian Gebhardt,,,nurburgring
-Hyundai,"i20 N Performance (Mk3, BC3/BI3, 2021, 1.6 T, 204 PS)",,,,,,,,,,,,,,513.6,2021-09-01,Christian Gebhardt,,,nurburgring
-Hyundai,"i30 N Performance Package (PD, facelift, 2022, 2.0 T, 280 PS)",,,,,,,,,,,,,,485.19,2021-12-08,Christian Gebhardt,,,nurburgring
-Hyundai,"i30 N Performance Package (PD, pre-facelift, 2018, 2.0 T, 275 PS)",,,,,,,,,,,,,,500.0,2018,Christian Gebhardt,,,nurburgring
-Hyundai,i30N (very wet),,,,,,,,,,,,,,,,,94.6,"Series 25, Episode 04",top_gear
-Iso,Grifo GL 365,1963,,,,,,,161.0,259.0,,,,"5,354 cc (326.7 cu in) V8 268 kW (365 PS; 360 hp)",,,,,,speed_records
-Isotta,Fraschini Tipo KM,1910,,,,,,,,,119.0,89.0,,,,,,,,power_output
-Jaguar,C-X75,,,,,,,,,,,,,,,,,82.2,Stig Laps,top_gear
-Jaguar,E-Type (modernised),,,,,,,,,,,,,,,,,92.8,"Series 06, Episode 05",top_gear
-Jaguar,F-Type R Coupé,,,,,,,,,,,,,,,,,81.6,"Series 22, Episode 07",top_gear
-Jaguar,S-Type Diesel,,,,,,,,,,,,,,552.0,2004-11-21,Sabine Schmitz,,,nurburgring
-Jaguar,X-Type,,,,,,,,,,,,,,,,,106.0,"Series 01, Episode 04",top_gear
-Jaguar,XE SV Project 8 (2018),,,,,,,,,,,,,,443.164,2019-07,Vincent Radermecker,,,nurburgring
-Jaguar,XFR (written as Jaaaaag XFR),,,,,,,,,,,,,,,,,86.7,"Series 13, Episode 05",top_gear
-Jaguar,XJ220,1992,,,,,,,210.5,338.8,,,,"3,498 cc (213.5 cu in) twin-turbocharged V6 404 kW (550 PS; 542 hp)",,,,,,speed_records
-Jaguar,XJ220 Prototype,,,,,,,,,,,,,,466.0,1991,John Nielsen,,,nurburgring
-Jaguar,XJS,,,,,,,,,,,,,,476.0,1983-07-09,Tom Walkinshaw,,,nurburgring
-Jaguar,XK120,1949,,,,,,,124.6,200.5,,,,"3,442 cc (210.0 cu in) inline-6 119 kW (162 PS; 160 hp)",,,,,,speed_records
-Jaguar,XKR,,,,,,,,,,,,,,505.0,2006,Horst von Saurma,,,nurburgring
-Jaguar,XKR (melted snow),,,,,,,,,,,,,,,,,94.7,"Series 09, Episode 01",top_gear
-Jaguar,"XKR Coupe (X100, 1998, 363 PS)",,,,,,,,,,,,,,529.0,1998,Horst von Saurma,,,nurburgring
-Jaguar,XKR-S,,,,,,,,,,,,,,483.0,2012,Horst von Saurma,83.3,"Series 17, Episode 04","nurburgring, top_gear"
-KTM,X-Bow,,,,,,,,,,,,,,,,,83.1,—N/a,top_gear
-KTM,"X-Bow (2010, 2.0 T, 240 PS)",,,,,,,,,,,,,,490.0,2010,Horst von Saurma,,,nurburgring
-KTM,X-Bow (Driven by new Stig),,,,,,,,,,,,,,,,,87.0,"Series 18, Episode 06",top_gear
-KTM,X-Bow RR,,,,,,,,,,,,,,445.72,2012,Christopher Haase,,,nurburgring
-Kawasaki,ZX-10R (2011),,,,,,,,,,,,,,470.0,2011-09,,,,nurburgring
-Kia,Ceed (melted snow),,,,,,,,,,,,,,,,,105.2,"Series 19, Episode 04",top_gear
-Koenigsegg,Agera,2010,,,,,,,,,947.0,706.0,,,,,,,,power_output
-Koenigsegg,Agera RS,2017,,,,,,,277.87,447.19,,,,"5,000 cc (310 cu in) twin-turbocharged V8 1,000 kW (1,360 PS; 1,341 hp)",,,,,,speed_records
-Koenigsegg,CC8S,,,,,,,,,,,,,,,,,83.9,"Series 02, Episode 07",top_gear
-Koenigsegg,CCR,2004,,,,,,,241.009,387.866,806.0,601.0,,"4,700 cc (290 cu in) twin-supercharged V8 601 kW (817 PS; 806 hp)",454.0,2005-10-17,Horst von Saurma,,,"nurburgring, power_output, speed_records"
-Koenigsegg,CCR/CCX,2004,,,,,,,,,806.0,601.0,,,,,,,,power_output
-Koenigsegg,CCX,,,,,,,,,,,,,,453.55,2008-08,Marc Basseng,,,nurburgring
-Koenigsegg,CCX (with the Top Gear Wing),,,,,,,,,,,,,,,,,77.6,"Series 08, Episode 04",top_gear
-Koenigsegg,CCX (without Top Gear Wing),,,,,,,,,,,,,,,,,80.4,"Series 08, Episode 01",top_gear
-Koenigsegg,Jesko,2023,,,,,,,,,1578.0,1177.0,,,,,,,,power_output
-Koenigsegg,Jesko Attack,,,,,,,,,,,,,,,,,70.9,Stig Laps,top_gear
-Koenigsegg,One:1,2014,,,,,,,,,1341.0,1000.0,,,,,,,,power_output
-Koenigsegg,One:1/Agera RS,2014,,,,,,,,,1341.0,1000.0,,,,,,,,power_output
-Koenigsegg,Regera,2016,,,,,,,,,1479.0,1103.0,,,,,,,,power_output
-LaFerrari,,2015,Hybrid,,,,,10.738,,,949.0,708.0,,,,,,,,"acceleration, power_output"
-Lamborghini,Aventador,2012,ICE,2.7,,,,10.4,,,,,,,,,,,,acceleration
-Lamborghini,Aventador LP700-4,,,,,,,,,,,,,,445.0,2012,Horst von Saurma,76.5,"Series 17, Episode 06","nurburgring, top_gear"
-Lamborghini,Aventador SV,2015,ICE,2.6,2.8,,,10.4,,,,,,,,,,,,acceleration
-Lamborghini,Aventador SVJ,2019,ICE,2.5,,,,10.3,,,,,,,,,,,,acceleration
-Lamborghini,Aventador SVJ LP770-4 (2018),,,,,,,,,,,,,,409.42,2018-07-26,Marco Mapelli,,,nurburgring
-Lamborghini,Aventador SuperVeloce LP750-4 (2015),,,,,,,,,,,,,,419.73,2015-05-18,Marco Mapelli,,,nurburgring
-Lamborghini,Countach 5000QV,1985,,,,,,,185.0,298.0,,,,"5,167 cc (315.3 cu in) V12 335 kW (455 PS; 449 hp)",,,,,,speed_records
-Lamborghini,Countach LP500 S,1982,,,,,,,182.0,293.0,,,,"4,754 cc (290.1 cu in) V12 280 kW (380 PS; 375 hp)",,,,,,speed_records
-Lamborghini,Countach LPI 800-4,2022,,,,,,,,,803.0,599.0,,,,,,,,power_output
-Lamborghini,Diablo GT,,,,,,,,,,,,,,484.0,2000,Horst von Saurma,,,nurburgring
-Lamborghini,Diablo SuperVeloce,,,,,,,,,,,,,,489.0,1997,Horst von Saurma,,,nurburgring
-Lamborghini,Gallardo (wet),,,,,,,,,,,,,,,,,85.8,"Series 03, Episode 04",top_gear
-Lamborghini,"Gallardo E-Gear (pre-facelift, 2003, 500 PS)",,,,,,,,,,,,,,472.0,2003,Horst von Saurma,,,nurburgring
-Lamborghini,Gallardo LP560-4,,,,,,,,,,,,,,,,,79.5,"Series 12, Episode 01",top_gear
-Lamborghini,"Gallardo LP560-4 (2008, 560 PS)",,,,,,,,,,,,,,472.0,2008,Horst von Saurma,,,nurburgring
-Lamborghini,Gallardo LP570-4 Superleggera,,,,,,,,,,,,,,466.0,2007,Horst von Saurma,80.8,—N/a,"nurburgring, top_gear"
-Lamborghini,"Gallardo SE (2006, 520 PS)",,,,,,,,,,,,,,476.65,2006-03,Tom Kristensen,,,nurburgring
-Lamborghini,Gallardo Spyder,,,,,,,,,,,,,,,,,85.7,"Series 08, Episode 07",top_gear
-Lamborghini,"Gallardo Spyder (2007, 520 PS)",,,,,,,,,,,,,,481.84,2007-05,Wolfgang Kaufmann,,,nurburgring
-Lamborghini,Gallardo Superleggera LP570-4,,,,,,,,,,,,,,458.0,2011,Horst von Saurma,,,nurburgring
-Lamborghini,Huracán,2015,ICE,2.5,,,,10.4,,,,,,,,,,,,acceleration
-Lamborghini,Huracán LP610-4,,,,,,,,,,,,,,448.0,2016-07,Christian Gebhardt,75.8,"Series 22, Episode 01","nurburgring, top_gear"
-Lamborghini,Huracán Performante,2018,ICE,2.2,,,,10.2,,,,,,,,,,,,acceleration
-Lamborghini,Huracán Performante LP640-4 (2017),,,,,,,,,,,,,,416.45,2016-10-05,Marco Mapelli,,,nurburgring
-Lamborghini,"Huracán Performante LP640-4 (2018, N/A 5.2, 640 PS)",,,,,,,,,,,,,,427.99,2018-11-09,Christian Gebhardt,,,nurburgring
-Lamborghini,Huracán Performante and Evo,2017,ICE,,2.6,,,,,,,,,,,,,,,acceleration
-Lamborghini,Huracán STO,2021,ICE,2.6,,,,10.5,,,,,,,,,,74.5,Ben Collins Drives,"acceleration, top_gear"
-Lamborghini,Miura P400,1967,,,,,,,171.0,275.0,,,,"3,929 cc (239.8 cu in) V12 261 kW (355 PS; 350 hp)",,,,,,speed_records
-Lamborghini,Miura P400S,1969,,,,,,,179.3,288.6,,,,"3,929 cc (239.8 cu in) V12 276 kW (375 PS; 370 hp)",,,,,,speed_records
-Lamborghini,Murciélago,,,,,,,,,,,,,,470.0,2002,Horst von Saurma,83.7,"Series 03, Episode 04","nurburgring, top_gear"
-Lamborghini,Murciélago (partly damp),,,,,,,,,,,,,,,,,89.0,"Series 01, Episode 01",top_gear
-Lamborghini,Murciélago LP640,,,,,,,,,,,,,,460.0,2007,Giorgio Sanna,79.8,"Series 09, Episode 05","nurburgring, top_gear"
-Lamborghini,Murciélago LP670-4 SuperVeloce,,,,,,,,,,,,,,,,,79.0,"Series 13, Episode 02",top_gear
-Lamborghini,Murciélago SuperVeloce LP670-4,,,,,,,,,,,,,,462.0,2010,Horst von Saurma,,,nurburgring
-Lamborghini,Revuelto,2024,Hybrid,2.2,,,,9.4,,,1001.0,746.0,,,,,,,,"acceleration, power_output"
-Lamborghini,Sián FKP 37,2020,,,,,,,,,807.0,602.0,,,,,,,,power_output
-Lamborghini,Urus,2019,ICE,2.93,,,,,,,,,,,,,,81.7,"Series 29, Episode 03","acceleration, top_gear"
-Lexus,IS-F,,,,,,,,,,,,,,498.0,2009,Horst von Saurma,86.9,"Series 12, Episode 05","nurburgring, top_gear"
-Lexus,LC500,,,,,,,,,,,,,,,,,85.6,"Series 25, Episode 03",top_gear
-Lexus,LFA,,,,,,,,,,,,,,458.0,2010-09,Horst von Saurma,,,nurburgring
-Lexus,LFA (wet),,,,,,,,,,,,,,,,,82.8,"Series 14, Episode 07",top_gear
-Lexus,LFA Nürburgring Package,,,,,,,,,,,,,,434.64,2011-08-31,Akira Iida,,,nurburgring
-Litchfield,Toyota GR Yaris,,,,,,,,,,,,,,,,,85.0,—N/a,top_gear
-Lotus,Elise (wet),,,,,,,,,,,,,,,,,94.9,"Series 01, Episode 07",top_gear
-Lotus,Elise Sport 190,,,,,,,,,,,,,,,,,88.2,"Series 02, Episode 06",top_gear
-Lotus,Esprit Sport 350,,,,,,,,,,,,,,493.0,1999,Horst von Saurma,,,nurburgring
-Lotus,Esprit V8 (cold tyres),,,,,,,,,,,,,,,,,91.9,"Series 01, Episode 10",top_gear
-Lotus,Evija,2024,Electric,,,,,9.5,,,2012.0,1500.0,,,,,,,,"acceleration, power_output"
-Lotus,Evija X,,,,,,,,,,,,,,384.047,2023-10-13,Dirk Müller,,,nurburgring
-Lotus,Evora (written as Lotus Dress Shop),,,,,,,,,,,,,,,,,85.7,"Series 13, Episode 01",top_gear
-Lotus,"Evora 400(2016, 3.5 S/C, 406 PS)",,,,,,,,,,,,,,479.0,2016,Christian Gebhardt,,,nurburgring
-Lotus,"Exige (Mk1, 2000, 179 PS)",,,,,,,,,,,,,,522.0,2000,Horst von Saurma,,,nurburgring
-Lotus,"Exige (Mk2, N/A 1.8, 192 PS)",,,,,,,,,,,,,,512.0,2004,Horst von Saurma,,,nurburgring
-Lotus,Exige (mildly moist),,,,,,,,,,,,,,,,,86.4,"Series 04, Episode 01",top_gear
-Lotus,Exige Cup 380 (2017),,,,,,,,,,,,,,468.13,2017-07-27,Christian Gebhardt,,,nurburgring
-Lotus,Exige S,,,,,,,,,,,,,,505.0,2008,Horst von Saurma,85.1,"Series 08, Episode 03","nurburgring, top_gear"
-Lucid,Air Dream Edition Performance,2022,Electric,2.6,,,,,,,,,,,,,,,,acceleration
-Lucid,Air Sapphire,2024,Electric,1.9,,,,9.1,,,1200.0,895.0,,,,,,,,"acceleration, power_output"
-Lucid,Gravity Grand Touring,2025,,,,,,,,,828.0,617.0,,,,,,,,power_output
-Lynk,& Co 03 Cyan Concept,,,,,,,,,,,,,,440.143,2019-08-19,Thed Björk,,,nurburgring
-M-Hero,917 BEV,2023,,,,,,,,,1073.0,800.0,,,,,,,,power_output
-MG,XPower SV,,,,,,,,,,,,,,,,,88.6,"Series 03, Episode 07",top_gear
-MG,ZR,,,,,,,,,,,,,,,,,94.0,"Series 01, Episode 08",top_gear
-MG,ZT 260,,,,,,,,,,,,,,,,,93.7,"Series 04, Episode 05",top_gear
-Mini,Cooper S Works,,,,,,,,,,,,,,,,,94.2,"Series 05, Episode 06",top_gear
-MMX,BMW M2,,,,,,,,,,,,,,,,,80.5,Ben Collins Drives,top_gear
-MV,Agusta F4 R 312,,,,,,,,,,,,,,441.8,2007-10-15,,,,nurburgring
-March,Engineering 832-BMW,,,,,,,,,,,,,,388.03,1983-04-24,Christian Danner,,,nurburgring
-Marcos,TSO GT2,,,,,,,,,,,,,,,,,88.2,"Series 07, Episode 05",top_gear
-Maserati,3200 GT,,,,,,,,,,,,,,517.0,2000,Horst von Saurma,,,nurburgring
-Maserati,4200 GT (very wet),,,,,,,,,,,,,,,,,98.0,"Series 01, Episode 08",top_gear
-Maserati,5000 GT,1959,,,,,,,172.4,277.5,,,,"4,935 cc (301.2 cu in) V8 254 kW (345 PS; 340 bhp)",,,,,,speed_records
-Maserati,Coupe Cambiocorsa,,,,,,,,,,,,,,510.0,2002,Horst von Saurma,,,nurburgring
-Maserati,Gran Turismo MC Stradale,,,,,,,,,,,,,,,,,83.1,"Series 18, Episode 05",top_gear
-Maserati,GranSport,,,,,,,,,,,,,,498.0,2005,Horst von Saurma,,,nurburgring
-Maserati,"GranTurismo MC Stradale (M145, 2012, N/A 4.7, 450 PS)",,,,,,,,,,,,,,494.0,2012,Horst von Saurma,,,nurburgring
-Maserati,MC12,,,,,,,,,,,,,,444.29,2008-08,Marc Basseng,78.9,"Series 06, Episode 02","nurburgring, top_gear"
-Maserati,MC20,2022,ICE,,,,,11.0,,,,,,,,,,76.6,"Series 32, Episode 04","acceleration, top_gear"
-Maserati,MC20 (very wet),,,,,,,,,,,,,,,,,90.4,"Series 32, Episode 04",top_gear
-Maurer,MM82-BMW,,,,,,,,,,,,,,426.51,1982-04-25,Stefan Bellof,,,nurburgring
-Mazda,6 MPS,,,,,,,,,,,,,,,,,92.2,"Series 08, Episode 06",top_gear
-Mazda,MAZDASPEED3 (Mazda3 MPS),,,,,,,,,,,,,,519.0,2007,Mark Ticehurst,,,nurburgring
-Mazda,MX-5,,,,,,,,,,,,,,,,,92.0,"Series 22, Episode 07",top_gear
-Mazda,RX-8,,,,,,,,,,,,,,,,,91.8,"Series 03, Episode 05",top_gear
-McLaren,12C,2012,ICE,2.9,,,,10.7,,,,,,,,,,,,acceleration
-McLaren,570S,2017,ICE,2.7,,,,10.5,,,,,,,,,,,,acceleration
-McLaren,570s,2016,ICE,,2.9,,,,,,,,,,,,,,,acceleration
-McLaren,600LT,,,,,,,,,,,,,,428.82,2019-06-06,Christian Gebhardt,75.1,"Series 27, Episode 01","nurburgring, top_gear"
-McLaren,620R,,,,,,,,,,,,,,,,,77.3,Ben Collins Drives,top_gear
-McLaren,650S,2015,ICE,2.7,,,,10.4,,,,,,,,,,,,acceleration
-McLaren,650S Spider,,,,,,,,,,,,,,455.0,2015,Horst von Saurma,,,nurburgring
-McLaren,675LT,2015,ICE,,3.0,,,,,,,,,,,,,73.7,"Series 23, Episode 02","acceleration, top_gear"
-McLaren,720S,2018,ICE,2.5,2.7,,,9.9,,,,,,,428.34,2018-06-28,Christian Gebhardt,,,"acceleration, nurburgring"
-McLaren,750S,2024,ICE,2.3,,,,,,,,,,,,,,,,acceleration
-McLaren,Artura,2023,Hybrid,2.6,,,,10.3,,,,,,,,,,,,acceleration
-McLaren,F1,1995,ICE,,,,,10.8,221.0,356.0,618.0,461.0,,"6,064 cc (370.0 cu in) BMW S70/2 60° V12 461 kW (627 PS; 618 hp)",,,,,,"acceleration, power_output, speed_records"
-McLaren,M23–Ford,,,,,,,,,,,,,,426.5,1976-07-31,James Hunt,,,nurburgring
-McLaren,MP4-12C,,,,,,,,,,,,,,448.0,2011,Horst von Saurma,76.2,"Series 17, Episode 03","nurburgring, top_gear"
-McLaren,MP4-12C GT3,,,,,,,,,,,,,,490.921,2014-06-20,Kévin Estre,,,nurburgring
-McLaren,P1,2015,Hybrid,2.6,,,,9.8,,,903.0,674.0,,,,,,,,"acceleration, power_output"
-McLaren,P1 XP1 LM Prototype,,,,,,,,,,,,,,403.22,2017-04-27,Kenny Bräck,,,nurburgring
-McLaren,Sabre,2021,,,,,,,,,824.0,614.0,,,,,,,,power_output
-McLaren,Senna,2019,ICE,2.9,,,,10.1,,,,,,,,,,,,acceleration
-McLaren,Speedtail,2020,,,,,,,,,1035.0,772.0,,,,,,,,power_output
-Mercedes,35 HP,1901,,,,,,,,,35.0,26.0,,,,,,,,power_output
-Mercedes,AMG E63 S,,,,,,,,,,,,,,,,,79.7,"Series 26, Episode 02",top_gear
-Mercedes,AMG S63,,,,,,,,,,,,,,,,,84.0,"Series 24, Episode 03",top_gear
-Mercedes,Simplex,1902,,,,,,,,,44.0,33.0,,,,,,,,power_output
-Mercedes,Simplex 60 HP,1903,,,,,,,,,59.0,44.0,,,,,,,,power_output
-Mercedes-AMG,A45 S 4MATIC+ (W177),,,,,,,,,,,,,,468.8,2019-10-24,Christian Gebhardt,,,nurburgring
-Mercedes-AMG,C 63 S,,,,,,,,,,,,,,,,,82.6,"Series 27, Episode 02",top_gear
-Mercedes-AMG,"C63 S Coupe (W205, facelift, 2019, 4.0 BT, 510 PS)",,,,,,,,,,,,,,464.13,2019,Christian Gebhardt,,,nurburgring
-Mercedes-AMG,"CLA45s 4MATIC+ (C118, 2022)",,,,,,,,,,,,,,465.34,2022-02-02,Christian Gebhardt,,,nurburgring
-Mercedes-AMG,E 63 S 4MATIC+,2018,ICE,2.8,,,,,,,,,,,,,,,,acceleration
-Mercedes-AMG,"E63 S 4MATIC+ Estate (W213, 2017, 612 PS)",,,,,,,,,,,,,,465.19,2017-09-22,Christian Gebhardt,,,nurburgring
-Mercedes-AMG,GT 63 S,2018,ICE,2.6,,,,,,,,,,,,,,,,acceleration
-Mercedes-AMG,GT 63 S 4MATIC+,2019,ICE,,2.99,,,10.7,,,,,,,,,,,,acceleration
-Mercedes-AMG,"GT 63 S 4MATIC+ (X290, 2018)",,,,,,,,,,,,,,445.41,2018-10-15,Demian Schaffert,,,nurburgring
-Mercedes-AMG,"GT 63 S 4MATIC+ (X290, 2021)",,,,,,,,,,,,,,443.009,2020-11-10,Demian Schaffert,,,nurburgring
-Mercedes-AMG,GT 63 S E-Performance,2022,Hybrid,,2.8,,,,,,831.0,620.0,,,,,,,,"acceleration, power_output"
-Mercedes-AMG,"GT 63 S E-Performance (X290, pre-facelift, 2022, 4.0 TT + 1E-motor, 843 PS)",,,,,,,,,,,,,,448.02,2022-09,Christian Gebhardt,,,nurburgring
-Mercedes-AMG,GT Black Series,2021,ICE,2.9,,,,10.6,,,,,,,408.047,2020-11-04,Maro Engel,,,"acceleration, nurburgring"
-Mercedes-AMG,GT R (2017),,,,,,,,,,,,,,430.92,2016-11-04,Christian Gebhardt,,,nurburgring
-Mercedes-AMG,GT R (partly damp),,,,,,,,,,,,,,,,,76.0,"Series 24, Episode 06",top_gear
-Mercedes-AMG,GT R Pro,,,,,,,,,,,,,,424.632,2018-11,Maro Engel,,,nurburgring
-Mercedes-AMG,"GT S (pre-facelift, 2015, 510 PS)",,,,,,,,,,,,,,455.0,2015,Horst von Saurma,,,nurburgring
-Mercedes-AMG,"GT S (pre-facelift, 2016, 510 PS)",,,,,,,,,,,,,,456.0,2016,Christian Gebhardt,,,nurburgring
-Mercedes-AMG,GT3 Evo,,,,,,,,,,,,,,489.058,2023-05-19,Raffaele Marciello,,,nurburgring
-Mercedes-AMG,GT63 S E Performance,2025,Hybrid,2.4,,,,10.4,,,,,,,,,,,,acceleration
-Mercedes-AMG,GTS,,,,,,,,,,,,,,,,,77.5,"Series 22, Episode 04",top_gear
-Mercedes-AMG,One,2022,,,,,,,,,1049.0,782.0,,,389.09,2024-09-23,Maro Engel,,,"nurburgring, power_output"
-Mercedes-AMG,S 63 E Performance,2025,Hybrid,2.6,,,,,,,,,,,,,,,,acceleration
-Mercedes-Benz,300 SL,1955,,,,,,,150.7,242.5,,,,"2,996 cc (182.8 cu in) inline-6 158 kW (215 PS; 212 hp)",,,,,,speed_records
-Mercedes-Benz,"A 45 AMG|Mercedes-Benz A45 AMG 4MATIC (W176, pre-facelift)",,,,,,,,,,,,,,490.0,2014-03,Horst von Saurma,,,nurburgring
-Mercedes-Benz,"A45 AMG 4MATIC (W176, facelift)",,,,,,,,,,,,,,484.0,2016-02,Christian Gebhardt,,,nurburgring
-Mercedes-Benz,C-Class (W203),,,,,,,,,,,,,,,,,103.0,"Series 01, Episode 04",top_gear
-Mercedes-Benz,C32 AMG (W203),,,,,,,,,,,,,,517.0,2001,Horst von Saurma,,,nurburgring
-Mercedes-Benz,C43 AMG (W202),,,,,,,,,,,,,,531.0,1998,Horst von Saurma,,,nurburgring
-Mercedes-Benz,C55 AMG (W203),,,,,,,,,,,,,,502.0,2004,Horst von Saurma,,,nurburgring
-Mercedes-Benz,C63 AMG (W204),,,,,,,,,,,,,,493.0,2008,Horst von Saurma,,,nurburgring
-Mercedes-Benz,C63 AMG Black Series,,,,,,,,,,,,,,,,,81.0,"Series 18, Episode 05",top_gear
-Mercedes-Benz,C63 AMG Coupe Black Series,,,,,,,,,,,,,,466.0,2011,Horst von Saurma,,,nurburgring
-Mercedes-Benz,C63 AMG Coupe Performance Package (W204),,,,,,,,,,,,,,481.0,2013-03,Horst von Saurma,,,nurburgring
-Mercedes-Benz,CL65 AMG,,,,,,,,,,,,,,,,,89.0,"Series 04, Episode 09",top_gear
-Mercedes-Benz,CLK 63 AMG Black series,,,,,,,,,,,,,,,,,86.0,"Series 11, Episode 02",top_gear
-Mercedes-Benz,"CLK DTM AMG (W209, 2004, 582 PS)",,,,,,,,,,,,,,474.0,2005-02,"Marcus Schurig (chief-editor of ""Sport Auto"" magazine)",,,nurburgring
-Mercedes-Benz,"CLK DTM AMG (W209, 2006, 582 PS)",,,,,,,,,,,,,,476.5,2006-03,Klaus Ludwig,,,nurburgring
-Mercedes-Benz,CLK430 Coupe (W208),,,,,,,,,,,,,,532.0,1998,Horst von Saurma,,,nurburgring
-Mercedes-Benz,CLK55 AMG (W208),,,,,,,,,,,,,,509.0,2000,Horst von Saurma,,,nurburgring
-Mercedes-Benz,CLK63 AMG Black Series,,,,,,,,,,,,,,465.0,2007-05-01,Bernd Schneider,,,nurburgring
-Mercedes-Benz,CLK63 Black Series,,,,,,,,,,,,,,485.0,2007,Horst von Saurma,,,nurburgring
-Mercedes-Benz,CLS55 AMG,,,,,,,,,,,,,,,,,86.9,"Series 06, Episode 01",top_gear
-Mercedes-Benz,"CLS63 AMG (W218, facelift, 2013)",,,,,,,,,,,,,,479.0,2013-07,Horst von Saurma,,,nurburgring
-Mercedes-Benz,"CLS63 AMG Performance Package (W218, pre-facelift, 2011)",,,,,,,,,,,,,,483.0,2011-05,Horst von Saurma,,,nurburgring
-Mercedes-Benz,E55 AMG (very wet),,,,,,,,,,,,,,,,,95.5,"Series 01, Episode 08",top_gear
-Mercedes-Benz,E63 AMG,,,,,,,,,,,,,,,,,84.9,"Series 15, Episode 03",top_gear
-Mercedes-Benz,"E63 AMG (W212, pre-facelift, 2010, N/A 6.2, 525 PS)",,,,,,,,,,,,,,490.0,2010,Horst von Saurma,,,nurburgring
-Mercedes-Benz,"E63 AMG S 4MATIC (W212R, second facelift, 2013, B/T 5.5, 585 PS)",,,,,,,,,,,,,,475.0,2013-09,Horst von Saurma,,,nurburgring
-Mercedes-Benz,G55 AMG (W463),,,,,,,,,,,,,,685.5,2007-06-29,Wolfgang Kaufmann,,,nurburgring
-Mercedes-Benz,GLC63s AMG 4MATIC+ (X253),,,,,,,,,,,,,,469.369,2018-11-22,Markus Hofbauer,,,nurburgring
-Mercedes-Benz,S63 AMG (wet),,,,,,,,,,,,,,,,,92.1,"Series 14, Episode 01",top_gear
-Mercedes-Benz,"SL500 (R230, pre-facelift, 2001, 306 PS)",,,,,,,,,,,,,,518.0,2001,Horst von Saurma,,,nurburgring
-Mercedes-Benz,SL500 (Ronnie O'Sullivan's),,,,,,,,,,,,,,,,,97.0,"Series 04, Episode 04",top_gear
-Mercedes-Benz,"SL55 AMG (R230, 2002, 476 PS)",,,,,,,,,,,,,,492.0,2002,Horst von Saurma,,,nurburgring
-Mercedes-Benz,"SL55 AMG (R230, 2003, 500 PS)",,,,,,,,,,,,,,486.0,2003,Horst von Saurma,,,nurburgring
-Mercedes-Benz,"SL55 AMG (R230, second facelift, 2007, 517 PS)",,,,,,,,,,,,,,516.1,2007,Dierk Möller-Sonntag,,,nurburgring
-Mercedes-Benz,SL55 AMG (owned by Jeremy Clarkson at the time) (very wet),,,,,,,,,,,,,,,,,93.2,"Series 01, Episode 06",top_gear
-Mercedes-Benz,"SL65 AMG (R230, pre-facelift, 2005)",,,,,,,,,,,,,,494.0,2005,Horst von Saurma,,,nurburgring
-Mercedes-Benz,SL65 AMG Black Series,,,,,,,,,,,,,,471.0,2009,Horst von Saurma,83.0,"Series 13, Episode 03","nurburgring, top_gear"
-Mercedes-Benz,"SLK230 Kompressor AMG (R170, 1997, 193 PS)",,,,,,,,,,,,,,547.0,1997,Horst von Saurma,,,nurburgring
-Mercedes-Benz,SLK32 AMG (R170),,,,,,,,,,,,,,506.0,2001,Horst von Saurma,,,nurburgring
-Mercedes-Benz,SLK350,,,,,,,,,,,,,,,,,92.9,"Series 05, Episode 07",top_gear
-Mercedes-Benz,SLK55 AMG (R171),,,,,,,,,,,,,,504.0,2005,Horst von Saurma,,,nurburgring
-Mercedes-Benz,SLK55 AMG Black Series,,,,,,,,,,,,,,494.0,2007,Horst von Saurma,,,nurburgring
-Mercedes-Benz,SLR McLaren,,,,,,,,,,,,,,460.0,2004,Klaus Ludwig,80.9,"Series 04, Episode 02","nurburgring, top_gear"
-Mercedes-Benz,SLS AMG,,,,,,,,,,,,,,460.0,2010,Horst von Saurma,81.6,—N/a,"nurburgring, top_gear"
-Mercedes-Benz,SLS AMG Black Series,,,,,,,,,,,,,,445.67,2013-08,Markus Hofbauer,79.0,"Series 20, Episode 04","nurburgring, top_gear"
-Mercedes-Benz,"SLS AMG Coupe Electric Drive (2013, 751 PS)",,,,,,,,,,,,,,470.23,2013-06-03,Markus Hofbauer,,,nurburgring
-Mercedes-Benz,SLS AMG Electric Drive,,,,,,,,,,,,,,,,,81.7,"Series 20, Episode 04",top_gear
-Mercedes-Benz,SLS AMG GT (2012),,,,,,,,,,,,,,450.0,2012,,,,nurburgring
-Mercedes-Benz,SLS AMG Roadster,,,,,,,,,,,,,,,,,79.6,"Series 18, Episode 02",top_gear
-Mercedes-Benz,W154,,,,,,,,,,,,,,583.1,1938-07-24,Hermann Lang,,,nurburgring
-Mercury,Monterey,1958,,,,,,,,,400.0,298.0,,,,,,,,power_output
-Mini,Cooper,,,,,,,,,,,,,,,,,108.3,"Series 04, Episode 08",top_gear
-Mini,"Cooper S JCW (F55/F56/F57, 2015, 2.0 T, 231 PS)",,,,,,,,,,,,,,515.0,2015,Christian Gebhardt,,,nurburgring
-Mini,"Cooper S JCW (R50/R53, S/C 1.6, 200 PS)",,,,,,,,,,,,,,535.0,2004,Horst von Saurma,,,nurburgring
-Mini,"Cooper S JCW (R56/R57, 2009, 1.6 T, 211 PS)",,,,,,,,,,,,,,515.0,2009,Horst von Saurma,,,nurburgring
-Mini,"Cooper S JCW GP (Mk3, F56, 2020, 2.0 T, 306 PS)",,,,,,,,,,,,,,483.86,2020-07-14,Christian Gebhardt,,,nurburgring
-Mini,"E racer, Electric",,,,,,,,,,,,,,592.0,2010-04,Thomas Jäger,,,nurburgring
-Mini,"John Cooper Works Pro (F56, 2017, 2.0 T, 231 PS)",,,,,,,,,,,,,,508.0,2017,Christian Gebhardt,,,nurburgring
-Mitsubishi,"Carisma GT Evo VI (Mk6, 1999, 280 PS)",,,,,,,,,,,,,,505.0,1999,Horst von Saurma,,,nurburgring
-Mitsubishi,"Carisma GT Evo VII (Mk7, 2002, 280 PS)",,,,,,,,,,,,,,505.0,2002,Horst von Saurma,,,nurburgring
-Mitsubishi,Lancer Evo IX,,,,,,,,,,,,,,491.16,,Takayuki Kinoshita,,,nurburgring
-Mitsubishi,Lancer Evolution VIII MR FQ-300,,,,,,,,,,,,,,,,,88.9,"Series 02, Episode 06",top_gear
-Mitsubishi,Lancer Evolution VIII MR FQ-400 (damp),,,,,,,,,,,,,,,,,84.8,"Series 05, Episode 07",top_gear
-Mitsubishi,Lancer Evolution VIII MR FQ320,,,,,,,,,,,,,,,,,86.0,"Series 04, Episode 04",top_gear
-Mitsubishi,Lancer Evolution VIII MR GSR,,,,,,,,,,,,,,494.98,2003,Motoharu Kurosawa,,,nurburgring
-Mitsubishi,Lancer Evolution X FQ-300,,,,,,,,,,,,,,,,,88.22,"Series 11, Episode 02",top_gear
-Modified,Volkswagen Golf GTI MKII,,,,,,,,,,,,,,,,,94.4,—N/a,top_gear
-Modified,Volkswagen Golf GTI MKV,,,,,,,,,,,,,,,,,91.5,—N/a,top_gear
-Morgan,3 Wheeler (written as Morgan Tricycle),,,,,,,,,,,,,,,,,100.4,"Series 18, Episode 06",top_gear
-Morgan,"Aero 8 (Series 1, pre-facelift, 2003, 286 PS)",,,,,,,,,,,,,,519.0,2003-03-01,Horst von Saurma,,,nurburgring
-Morgan,Aero 8 GTN,,,,,,,,,,,,,,,,,85.9,"Series 05, Episode 05",top_gear
-Mygale,M12-SJ-Ford Ecoboost,,,,,,,,,,,,,,442.0,2012-09-04,Nick Tandy,,,nurburgring
-NIO,EP9,2016,,,,,,,,,1341.0,1000.0,,,405.9,2017-05-12,Peter Dumbreck,,,"nurburgring, power_output"
-Nissan,300ZX,,,,,,,,,,,,,,,,,95.0,"Series 13, Episode 05",top_gear
-Nissan,350Z,,,,,,,,,,,,,,506.0,2003,Horst von Saurma,91.8,"Series 03, Episode 05","nurburgring, top_gear"
-Nissan,370Z GT,,,,,,,,,,,,,,,,,87.5,"Series 13, Episode 06",top_gear
-Nissan,GT-R (2013),,,,,,,,,,,,,,439.1,2012,Toshio Suzuki,77.8,"Series 17, Episode 04","nurburgring, top_gear"
-Nissan,GT-R (R35),,,,,,,,,,,,,,456.0,2011,Horst von Saurma,,,nurburgring
-Nissan,GT-R Nismo,2020,ICE,2.48,3.0,,,,,,,,,,428.679,2013-09-30,Michael Krumm,,,"acceleration, nurburgring"
-Nissan,GT-R Spec-V,,,,,,,,,,,,,,454.46,2009,,,,nurburgring
-Nissan,Skyline GT-R R32,,,,,,,,,,,,,,502.38,1989,Motoharu Kurosawa,,,nurburgring
-Nissan,Skyline GT-R R33,,,,,,,,,,,,,,479.887,1996,Dirk Schoysman,,,nurburgring
-Noble,M12 GTO (wet),,,,,,,,,,,,,,,,,92.9,"Series 01, Episode 02",top_gear
-Noble,M12 GTO-3,,,,,,,,,,,,,,,,,85.0,"Series 02, Episode 10",top_gear
-Noble,M15,,,,,,,,,,,,,,,,,82.5,"Series 08, Episode 08",top_gear
-Noble,M400 (damp) (Shown on Top Gear Revved Up DVD),,,,,,,,,,,,,,,,,86.0,—N/a,top_gear
-Noble,M600 (cold),,,,,,,,,,,,,,,,,77.7,"Series 14, Episode 05",top_gear
-Opel,"Astra OPC (J, P10, 2012, 2.0 T, 280 PS)",,,,,,,,,,,,,,500.0,2012,Horst von Saurma,,,nurburgring
-Opel,Corsa 1.6 Turbo OPC,,,,,,,,,,,,,,534.0,2008,Horst von Saurma,,,nurburgring
-Opel,Corsa B,,,,,,,,,,,,,,552.0,2020-06-24,Steven Stephan,,,nurburgring
-Opel,Corsa OPC,,,,,,,,,,,,,,527.99,2007,Manuel Reuter,,,nurburgring
-Opel,"Corsa OPC (E, X15, 2015, 1.6 T, 207 PS)",,,,,,,,,,,,,,520.0,2015,Christian Gebhardt,,,nurburgring
-Opel,"Speedster Turbo (2004, 200 PS)",,,,,,,,,,,,,,514.0,2004,Horst von Saurma,,,nurburgring
-Overfinch,580 S (very wet),,,,,,,,,,,,,,,,,104.0,"Series 02, Episode 10",top_gear
-P3,Suzuki GSX-R600K7,,,,,,,,,,,,,,437.0,n/a,,,,nurburgring
-Pagani,Huayra,,,,,,,,,,,,,,,,,73.8,"Series 19, Episode 01",top_gear
-Pagani,Huayra Imola,2020,,,,,,,,,827.0,617.0,,,,,,,,power_output
-Pagani,Zonda C12 S 7.3 (partly damp),,,,,,,,,,,,,,,,,83.8,"Series 01, Episode 01",top_gear
-Pagani,Zonda F,,,,,,,,,,,,,,453.0,2006,Horst von Saurma,78.4,"Series 07, Episode 04","nurburgring, top_gear"
-Pagani,Zonda F Clubsport (2005),,,,,,,,,,,,,,444.44,2008-08,Marc Basseng,,,nurburgring
-Pagani,Zonda R,,,,,,,,,,,,,,407.5,2010-06-29,Marc Basseng,,,nurburgring
-Pagani,Zonda Roadster F (Clubsport Version),,,,,,,,,,,,,,,,,77.8,"Series 12, Episode 04",top_gear
-Pagani,Zonda S 7.3 (2002),,,,,,,,,,,,,,464.0,2002,Horst von Saurma,,,nurburgring
-Pegaso,Z-102,1953,,,,,,,151.042,243.079,,,,"2,816 cc (171.8 cu in) V8 186 kW (253 PS; 250 bhp)",,,,,,speed_records
-Peugeot,208 GTi,,,,,,,,,,,,,,,,,93.2,"Series 20, Episode 01",top_gear
-Peugeot,RC (wet),,,,,,,,,,,,,,,,,92.0,"Series 01, Episode 07",top_gear
-Peugeot,Type 15,1897,,,,,,,,,8.0,6.0,,,,,,,,power_output
-Pininfarina,Battista,2022,,,,,,,,,1900.0,1417.0,,,,,,,,power_output
-Plymouth,Fury Max Wedge Ramcharger II,1963,,,,,,,,,425.0,317.0,,,,,,,,power_output
-Porsche,718 Cayman GTS (damp),,,,,,,,,,,,,,,,,83.5,—N/a,top_gear
-Porsche,718 Cayman S,,,,,,,,,,,,,,,,,81.6,"Series 24, Episode 07",top_gear
-Porsche,718 Cayman S (982),,,,,,,,,,,,,,466.7,2016-09,Christian Gebhardt,,,nurburgring
-Porsche,911 Carrera (993),,,,,,,,,,,,,,508.0,1997,Horst von Saurma,,,nurburgring
-Porsche,"911 Carrera (996.1, pre-facelift, 1998, 300 PS)",,,,,,,,,,,,,,497.0,1998,Horst von Saurma,,,nurburgring
-Porsche,"911 Carrera (996.2, facelift, 2001, 320 PS)",,,,,,,,,,,,,,497.0,2001,Horst von Saurma,,,nurburgring
-Porsche,"911 Carrera 4 (996.1, 2001, 300 PS)",,,,,,,,,,,,,,503.0,2001,Horst von Saurma,,,nurburgring
-Porsche,911 Carrera 4S (992),2020,ICE,2.8,,,,,,,,,,,,,,,,acceleration
-Porsche,911 Carrera GTS (991.2),,,,,,,,,,,,,,443.77,2017-05,Christian Gebhardt,,,nurburgring
-Porsche,911 Carrera GTS and Carrera 4 GTS (992),2022,ICE,2.8,,,,,,,,,,,,,,,,acceleration
-Porsche,911 Carrera RS (964),,,,,,,,,,,,,,503.12,2019,Christian Gebhardt,,,nurburgring
-Porsche,"911 Carrera S (991.1, pre-facelift, 2011, N/A 3.8, 400 PS)",,,,,,,,,,,,,,464.0,2011,Horst von Saurma,,,nurburgring
-Porsche,"911 Carrera S (991.1, pre-facelift, 2012, N/A 3.8, 400 PS)",,,,,,,,,,,,,,457.9,2012-08-28,Timo Glock,,,nurburgring
-Porsche,911 Carrera S (991.2),,,,,,,,,,,,,,453.67,2016-05,Christian Gebhardt,,,nurburgring
-Porsche,911 Carrera S (992),2020,ICE,2.9,,,,,,,,,,,450.41,2019,Christian Gebhardt,,,"acceleration, nurburgring"
-Porsche,911 Carrera S (996),,,,,,,,,,,,,,479.0,2004,Walter Röhrl,,,nurburgring
-Porsche,911 Carrera S (997) (damp) (written as Porsche Rubbish),,,,,,,,,,,,,,,,,86.2,"Series 10, Episode 02",top_gear
-Porsche,"911 Carrera S (997.1, 2005, N/A 3.8, 355 PS)",,,,,,,,,,,,,,485.0,2005,Horst von Saurma,,,nurburgring
-Porsche,"911 Carrera S (997.2, 2009)",,,,,,,,,,,,,,470.0,2008,Horst von Saurma,,,nurburgring
-Porsche,"911 Dakar (992, 2023, 3.0 TT, 480 PS)",,,,,,,,,,,,,,459.4,2023-08-14,Christian Gebhardt,,,nurburgring
-Porsche,911 GT2 (996) by Edo Competition,,,,,,,,,,,,,,435.63,2005-08-04,Patrick Simon,,,nurburgring
-Porsche,"911 GT2 (996.1, 2001, 462 PS)",,,,,,,,,,,,,,466.0,2001,Horst von Saurma,,,nurburgring
-Porsche,"911 GT2 (997, 2007)",,,,,,,,,,,,,,451.0,2007,Walter Röhrl,,,nurburgring
-Porsche,"911 GT2 (997.1, pre-facelift, 2007, 3.6 TT, 530 PS)",,,,,,,,,,,,,,453.0,2007,Horst von Saurma,,,nurburgring
-Porsche,911 GT2 RS (991),2018,ICE,2.5,2.55,,,10.1,,,,,,,,,,,,acceleration
-Porsche,911 GT2 RS (991.2),,,,,,,,,,,,,,411.45,2017-09-20,Lars Kern,,,nurburgring
-Porsche,"911 GT2 RS (991.2, 2018, 3.8 TT, 700 PS)",,,,,,,,,,,,,,418.28,2018-04-17,Christian Gebhardt,,,nurburgring
-Porsche,911 GT2 RS (997.2),,,,,,,,,,,,,,438.0,2010,Timo Glock,,,nurburgring
-Porsche,911 GT2 RS MR (991.2) by Manthey Racing,,,,,,,,,,,,,,400.33,2018-10-25,Lars Kern,,,nurburgring
-Porsche,911 GT2 RS Manthey Performance Kit (991.2),,,,,,,,,,,,,,403.3,2021-06-14,Lars Kern,,,nurburgring
-Porsche,911 GT3,,,,,,,,,,,,,,,,,83.1,—N/a,top_gear
-Porsche,"911 GT3 (991.1, pre-facelift, 2013, N/A 3.8, 475 PS)",,,,,,,,,,,,,,452.0,2013-11,Horst von Saurma,,,nurburgring
-Porsche,911 GT3 (991.2),,,,,,,,,,,,,,432.7,2017-05-04,Lars Kern,,,nurburgring
-Porsche,"911 GT3 (991.2, facelift, 2017, N/A 4.0, 500 PS)",,,,,,,,,,,,,,438.0,2017-04-28,Christian Gebhardt,,,nurburgring
-Porsche,911 GT3 (992),2021,ICE,2.7,3.0,,,10.8,,,,,,,,,,,,acceleration
-Porsche,"911 GT3 (992.1, 2022)",,,,,,,,,,,,,,419.927,2020-09-15,Lars Kern,,,nurburgring
-Porsche,"911 GT3 (992.1, pre-facelift, 2021, N/A 4.0, 510 PS)",,,,,,,,,,,,,,424.74,2021-05-05,Christian Gebhardt,,,nurburgring
-Porsche,911 GT3 (996),,,,,,,,,,,,,,474.0,2003,Horst von Saurma,,,nurburgring
-Porsche,"911 GT3 (996.1, pre-facelift, 1999, 360 PS)",,,,,,,,,,,,,,483.0,1999,Horst von Saurma,,,nurburgring
-Porsche,911 GT3 (997.1),,,,,,,,,,,,,,468.0,2006,Horst von Saurma,,,nurburgring
-Porsche,"911 GT3 (997.1, pre-facelift, N/A 3.6, 415 PS)",,,,,,,,,,,,,,462.0,2006,Walter Röhrl,,,nurburgring
-Porsche,911 GT3 (997.2),,,,,,,,,,,,,,460.0,2009,Horst von Saurma,,,nurburgring
-Porsche,"911 GT3 Manthey Performance Kit (992.1, 2023, N/A 4.0, 510 PS)",,,,,,,,,,,,,,419.42,2023-02-08,Christian Gebhardt,,,nurburgring
-Porsche,911 GT3 R (991),,,,,,,,,,,,,,489.105,2018-05-11,Laurens Vanthoor,,,nurburgring
-Porsche,911 GT3 RS,,,,,,,,,,,,,,,,,81.0,—N/a,top_gear
-Porsche,"911 GT3 RS (991.1, pre-facelift, 2015, N/A 4.0, 500 PS)",,,,,,,,,,,,,,448.0,2015,Christian Gebhardt,,,nurburgring
-Porsche,911 GT3 RS (991.2),2019,ICE,2.8,,,,,,,,,,,416.4,2018-04-16,Kévin Estre,,,"acceleration, nurburgring"
-Porsche,"911 GT3 RS (991.2, facelift, 2018, N/A 4.0, 520 PS)",,,,,,,,,,,,,,425.41,2018-04-18,Christian Gebhardt,,,nurburgring
-Porsche,911 GT3 RS (992.1),,,,,,,,,,,,,,409.328,2022-10-05,Jörg Bergmeister,,,nurburgring
-Porsche,911 GT3 RS (996),,,,,,,,,,,,,,463.0,2004-10,Walter Röhrl,,,nurburgring
-Porsche,911 GT3 RS (997.1),,,,,,,,,,,,,,468.0,2007,Horst von Saurma,,,nurburgring
-Porsche,"911 GT3 RS (997.2, 2010)",,,,,,,,,,,,,,453.0,2010,Horst von Saurma,,,nurburgring
-Porsche,911 GT3 RS 4.0 (997),,,,,,,,,,,,,,454.92,2011-09,Sascha Bert,,,nurburgring
-Porsche,"911 GT3 RS 4.0 (997.2, facelift, 2011, N/A 4.0, 500 PS)",,,,,,,,,,,,,,450.0,2011,Horst von Saurma,,,nurburgring
-Porsche,911 GT3 RS MR (991.1) by Manthey Racing,,,,,,,,,,,,,,429.59,2017,Christian Gebhardt,,,nurburgring
-Porsche,911 Sport Classic,,,,,,,,,,,,,,,,,82.9,"Series 15, Episode 02",top_gear
-Porsche,"911 Turbo (996, 2000, 3.6 TT, 420 PS)",,,,,,,,,,,,,,476.0,2000,Horst von Saurma,,,nurburgring
-Porsche,"911 Turbo (997.1, pre-facelift, 2007, 3.6 TT, 480 PS)",,,,,,,,,,,,,,474.0,2007,Horst von Saurma,,,nurburgring
-Porsche,"911 Turbo (997.1, pre-facelift, 2008, 3.6 TT, 480 PS)",,,,,,,,,,,,,,458.0,2008-09,,,,nurburgring
-Porsche,"911 Turbo (997.2, facelift, 2011, 3.8 TT, 500 PS)",,,,,,,,,,,,,,467.0,2011,Horst von Saurma,,,nurburgring
-Porsche,911 Turbo (very wet),,,,,,,,,,,,,,,,,107.0,"Series 02, Episode 10",top_gear
-Porsche,911 Turbo 3.3,,,,,,,,,,,,,,488.73,1991,Motoharu Kurosawa,,,nurburgring
-Porsche,"911 Turbo Cabrio (997.1, pre-facelift, 2007, 480 PS)",,,,,,,,,,,,,,492.8,2007,Dierk Möller-Sonntag,,,nurburgring
-Porsche,911 Turbo S (991 and 991.2),2014,ICE,2.5,,,,,,,,,,,,,,,,acceleration
-Porsche,911 Turbo S (991),2013,ICE,,2.8,,,,,,,,,,,,,,,acceleration
-Porsche,"911 Turbo S (991.1, pre-facelift, 2014, 3.8 TT, 560 PS)",,,,,,,,,,,,,,454.0,2014-02,Horst von Saurma,,,nurburgring
-Porsche,911 Turbo S (991.2),2016,ICE,,2.7,,,,,,,,,,,,,,,acceleration
-Porsche,"911 Turbo S (991.2, facelift, 2018, 3.8 TT, 580 PS)",,,,,,,,,,,,,,437.11,2017-08-24,Christian Gebhardt,,,nurburgring
-Porsche,911 Turbo S (992),2020,ICE,,2.5,,,9.9,,,,,,,,,,,,acceleration
-Porsche,"911 Turbo S (992.1, pre-facelift, 2021, 3.7 TT, 650 PS)",,,,,,,,,,,,,,437.3,2021-01-30,Christian Gebhardt,,,nurburgring
-Porsche,911 Turbo S (997),2011,ICE,2.6,3.0,,,10.7,,,,,,,,,,,,acceleration
-Porsche,"911 Turbo S (997.2, facelift, 2010, 3.8 TT, 530 PS)",,,,,,,,,,,,,,461.23,2010-11,Sascha Bert,,,nurburgring
-Porsche,"911 Turbo S (997.2, facelift, 2011, 3.8 TT, 530 PS)",,,,,,,,,,,,,,464.0,2011,Horst von Saurma,,,nurburgring
-Porsche,911 Turbo S Lightweight (992),2020,ICE,2.1,,,,,,,,,,,,,,,,acceleration
-Porsche,917/10,,,,,,,,,,,,,,454.3,1974-06-16,Emerson Fittipaldi,,,nurburgring
-Porsche,918 Spyder,2015,Hybrid,2.1,2.53,,,9.7,,,874.0,652.0,,,417.0,2013-09-04,Marc Lieb,,,"acceleration, nurburgring, power_output"
-Porsche,919 Hybrid EVO,,,,,,,,,,,,,,319.546,2018-06-29,Timo Bernhard,,,nurburgring
-Porsche,935 K3,,,,,,,,,,,,,,451.7,1979-04-29,Klaus Ludwig,,,nurburgring
-Porsche,956,,,,,,,,,,,,,,371.13,1983-05-28,Stefan Bellof,,,nurburgring
-Porsche,959,1986,,,,,,,198.0,319.0,,,,"2,849 cc (173.9 cu in) twin-turbocharged flat-6 331 kW (450 PS; 444 hp)",,,,,,speed_records
-Porsche,959 S,1988,,,,,,,,,508.0,379.0,,,,,,,,power_output
-Porsche,991 GT2 RS,,,,,,,,,,,,,,,,,73.4,"Series 26, Episode 03",top_gear
-Porsche,991 GT3 RS,,,,,,,,,,,,,,,,,76.1,"Series 24, Episode 06",top_gear
-Porsche,992 GT3 RS,,,,,,,,,,,,,,,,,74.8,Stig Laps,top_gear
-Porsche,992 GT3 RS Manthey,,,,,,,,,,,,,,,,,73.3,Stig Laps,top_gear
-Porsche,996 GT3 (very wet),,,,,,,,,,,,,,,,,87.2,"Series 03, Episode 01",top_gear
-Porsche,996 GT3 RS,,,,,,,,,,,,,,,,,82.3,"Series 04, Episode 03",top_gear
-Porsche,996 GT3-MR,,,,,,,,,,,,,,523.367,2006-06-18,Lucas Luhr/Timo Bernhard/Mike Rockenfeller/ Marcel Tiemann,,,nurburgring
-Porsche,996 Turbo,,,,,,,,,,,,,,424.0,2003-05-29,Uwe Alzen,,,nurburgring
-Porsche,996 Turbo (wet),,,,,,,,,,,,,,,,,91.0,"Series 02, Episode 05",top_gear
-Porsche,997 Carrera S (very wet),,,,,,,,,,,,,,,,,88.9,"Series 05, Episode 01",top_gear
-Porsche,997 GT2,,,,,,,,,,,,,,,,,79.5,"Series 12, Episode 01",top_gear
-Porsche,997 GT3-RSR,,,,,,,,,,,,,,516.768,2009-05-25,Timo Bernhard/Marc Lieb/Romain Dumas/Marcel Tiemann,,,nurburgring
-Porsche,997 Turbo,,,,,,,,,,,,,,418.0,2009-09-05,Jürgen Alzen,,,nurburgring
-Porsche,997 Turbo Cabriolet,,,,,,,,,,,,,,,,,82.2,"Series 15, Episode 04",top_gear
-Porsche,"Boxster (986.1, pre-facelift, 1997, 2.5, 204 PS)",,,,,,,,,,,,,,534.0,1997,Horst von Saurma,,,nurburgring
-Porsche,"Boxster (986.2, facelift, 2003, 2.7, 228 PS)",,,,,,,,,,,,,,516.0,2003,Horst von Saurma,,,nurburgring
-Porsche,Boxster (very wet),,,,,,,,,,,,,,,,,97.0,"Series 03, Episode 02",top_gear
-Porsche,Boxster S,,,,,,,,,,,,,,,,,88.7,"Series 05, Episode 07",top_gear
-Porsche,"Boxster S (981.1, pre-facelift, 2012, N/A 3.4, 315 PS)",,,,,,,,,,,,,,484.0,2012,Horst von Saurma,,,nurburgring
-Porsche,"Boxster S (986.1, pre-facelift, 1999, 252 PS)",,,,,,,,,,,,,,512.0,1999,Horst von Saurma,,,nurburgring
-Porsche,Boxster S (987),,,,,,,,,,,,,,490.0,,,,,nurburgring
-Porsche,"Boxster S (987.1, pre-facelift, 2006, 282 PS)",,,,,,,,,,,,,,503.0,2006,Horst von Saurma,,,nurburgring
-Porsche,"Boxster S (987.2, facelift 2009)",,,,,,,,,,,,,,498.0,2009,Horst von Saurma,,,nurburgring
-Porsche,Boxster Spyder,,,,,,,,,,,,,,,,,84.9,"Series 15, Episode 02",top_gear
-Porsche,"Boxster Spyder (981, 2015, N/A 3.8, 375 PS)",,,,,,,,,,,,,,472.0,2015,Christian Gebhardt,,,nurburgring
-Porsche,Carrera 4S PDK (997),,,,,,,,,,,,,,484.52,2008-10-27,Sascha Bert,,,nurburgring
-Porsche,Carrera GT,2003,ICE,,,,,10.97,,,,,,,,,,79.8,"Series 04, Episode 04","acceleration, top_gear"
-Porsche,"Carrera GT (2006, 612 PS)",,,,,,,,,,,,,,459.49,2006-03,Walter Röhrl,,,nurburgring
-Porsche,Carrera GT (980),,,,,,,,,,,,,,432.69,2024-12-12,Jörg Bergmeister,,,nurburgring
-Porsche,Cayenne Turbo (958),,,,,,,,,,,,,,493.0,2012,,,,nurburgring
-Porsche,Cayenne Turbo GT,2022,ICE,2.8,,,,,,,,,,,,,,81.2,—N/a,"acceleration, top_gear"
-Porsche,"Cayenne Turbo GT (Mk3, PO536 / 9YA, pre-facelift, 2021, 4.0 TT, 640 PS)",,,,,,,,,,,,,,453.95,2021-06-14,Lars Kern,,,nurburgring
-Porsche,Cayenne Turbo S (958.2),,,,,,,,,,,,,,479.74,,,,,nurburgring
-Porsche,"Cayenne Turbo S (Type 9PA (957), 2009, facelift, 4.8-l, 550 PS))",,,,,,,,,,,,,,513.99,2009-10-02,Patrick Simon,,,nurburgring
-Porsche,"Cayman GT4 (718, 2020, N/A 4.0, 420 PS)",,,,,,,,,,,,,,452.0,2020,Christian Gebhardt,,,nurburgring
-Porsche,"Cayman GT4 (981, 2015, N/A 3.8, 385 PS)",,,,,,,,,,,,,,462.39,2015-04,Christian Gebhardt,,,nurburgring
-Porsche,"Cayman GT4 RS (718, 2022, N/A 4.0, 500 PS)",,,,,,,,,,,,,,436.15,2022-05-09,Christian Gebhardt,,,nurburgring
-Porsche,Cayman GT4 RS (982),,,,,,,,,,,,,,429.3,2021-09-17,Jörg Bergmeister,,,nurburgring
-Porsche,Cayman GT4 RS Manthey Performance Kit (982),,,,,,,,,,,,,,423.121,2023-07-13,Jörg Bergmeister,,,nurburgring
-Porsche,Cayman GTS,,,,,,,,,,,,,,,,,81.6,"Series 22, Episode 05",top_gear
-Porsche,Cayman R (987.2),,,,,,,,,,,,,,490.0,2011,Horst von Saurma,,,nurburgring
-Porsche,Cayman S,,,,,,,,,,,,,,,,,86.7,"Series 07, Episode 02",top_gear
-Porsche,"Cayman S (981.1, 2013, PDK, N/A 3.4, 325 PS)",,,,,,,,,,,,,,485.0,2013,Horst von Saurma,,,nurburgring
-Porsche,"Cayman S (987.1, pre-facelift, 2006, 295 PS)",,,,,,,,,,,,,,505.0,2006,Horst von Saurma,,,nurburgring
-Porsche,"Cayman S (987.2, facelift 2009)",,,,,,,,,,,,,,497.0,2009,Horst von Saurma,,,nurburgring
-Porsche,Panamera Sport Turismo Turbo S E-Hybrid,2018,Hybrid,2.8,,,,,,,,,,,,,,,,acceleration
-Porsche,Panamera Turbo,,,,,,,,,,,,,,,,,84.2,"Series 15, Episode 03",top_gear
-Porsche,"Panamera Turbo (970, pre-facelift, 2009, 4.8 TT, 500 PS)",,,,,,,,,,,,,,476.0,2009,Walter Röhrl,,,nurburgring
-Porsche,"Panamera Turbo (971, 2017, 4.0 TT, 550 PS)",,,,,,,,,,,,,,458.0,2016,,,,nurburgring
-Porsche,Panamera Turbo S,2021,ICE,2.6,3.0,,,,,,,,,,,,,,,acceleration
-Porsche,"Panamera Turbo S (970, pre-facelift, 2012, 4.8 TT, 550 PS)",,,,,,,,,,,,,,472.0,2012,Horst von Saurma,,,nurburgring
-Porsche,"Panamera Turbo S (971.2, 2020)",,,,,,,,,,,,,,449.81,2020-07-24,Lars Kern,,,nurburgring
-Porsche,"Panamera Turbo S E-Hybrid (976, 2024)",,,,,,,,,,,,,,444.172,2024-07-12,Lars Kern,,,nurburgring
-Porsche,Taycan Turbo,2020,Electric,2.9,,,,,,,,,,,462.34,2019-08,Lars Kern,,,"acceleration, nurburgring"
-Porsche,Taycan Turbo GT,2025,Electric,1.898,,,,9.06,,,,,,,427.55,2024-01-02,Lars Kern,74.3,,"acceleration, nurburgring, top_gear"
-Porsche,Taycan Turbo S (2023),2020,Electric,2.4,2.6,,,10.3,,,,,,,453.35,2022-04-11,Lars Kern,77.6,"Series 28, Episode 03","acceleration, nurburgring, top_gear"
-Praga,Bohema,,,,,,,,,,,,,,,,,69.8,Drivetribe,top_gear
-Prodrive,P2 (concept),,,,,,,,,,,,,,,,,84.3,"Series 08, Episode 05",top_gear
-RacingLine,Mk8 Golf R,,,,,,,,,,,,,,,,,83.5,Ben Collins Drives,top_gear
-Radical,SR8,,,,,,,,,,,,,,415.0,2005-09-28,Michael Vergers,,,nurburgring
-Radical,SR8 LM,,,,,,,,,,,,,,412.7,2009-08-19,Michael Vergers,,,nurburgring
-Range Rover,Sport,,,,,,,,,,,,,,,,,89.4,"Series 20, Episode 06",top_gear
-Range Rover,Sport SVR (2015),,,,,,,,,,,,,,494.0,2014-05,,,,nurburgring
-Range Rover,Sport Supercharged (2010),,,,,,,,,,,,,,535.0,2009,Paul Wijgaertz,,,nurburgring
-Renault,"Avantime (written as ""Our Car"" - post-tuning by presenters)",,,,,,,,,,,,,,,,,95.4,"Series 12, Episode 03",top_gear
-Renault,"Avantime (written as ""Our Car"" - pre-tuning by presenters)",,,,,,,,,,,,,,,,,102.5,"Series 12, Episode 03",top_gear
-Renault,Clio 200 Cup (Not Shown on TV),,,,,,,,,,,,,,,,,94.0,"Series 17, Episode 02",top_gear
-Renault,"Clio IV RS 1.6 16V Turbo EDC (Mk4, 2013)",,,,,,,,,,,,,,539.0,2013,Horst von Saurma,,,nurburgring
-Renault,"Clio R.S. 220 Trophy (Mk4, 1-st facelift, 1.6 T, 220 PS)",,,,,,,,,,,,,,503.0,2016,Christian Gebhardt,,,nurburgring
-Renault,Clio V6,,,,,,,,,,,,,,529.0,2001,Horst von Saurma,,,nurburgring
-Renault,"Clio V6 Sport (very wet, spin before finishline)",,,,,,,,,,,,,,,,,96.2,"Series 02, Episode 05",top_gear
-Renault,Laguna,,,,,,,,,,,,,,,,,105.0,"Series 01, Episode 04",top_gear
-Renault,"Megane II Trophy ""Sport Auto"" Edition (Mk2, 2005, 225 PS)",,,,,,,,,,,,,,518.0,2005,Horst von Saurma,,,nurburgring
-Renault,"Megane III RS (Mk III, 2011, 250 PS)",,,,,,,,,,,,,,509.0,2011,Horst von Saurma,,,nurburgring
-Renault,"Megane IV RS (Mk IV, 2019, 280 PS)",,,,,,,,,,,,,,492.0,2019,Christian Gebhardt,,,nurburgring
-Renault,Mégane 225,,,,,,,,,,,,,,,,,94.0,"Series 05, Episode 06",top_gear
-Renault,Mégane III RS 275 Trophy-R,,,,,,,,,,,,,,474.36,2014-06-16,Laurent Hurgon,,,nurburgring
-Renault,Mégane IV R.S. Trophy-R,,,,,,,,,,,,,,460.1,2019-04-05,Laurent Hurgon,,,nurburgring
-Renault,Mégane IV R.S. Trophy-R (No. 25 of 500),,,,,,,,,,,,,,475.12,2019,Christian Gebhardt,,,nurburgring
-Renault,Mégane R26.R,,,,,,,,,,,,,,,,,88.1,"Series 13, Episode 04",top_gear
-Renault,Mégane RS R26.R,,,,,,,,,,,,,,496.9,2008-06-23,Vincent Baylé,,,nurburgring
-Renault,Mégane Renault Sport 265 Trophy,,,,,,,,,,,,,,487.97,2011-06-17,Laurent Hurgon,,,nurburgring
-Renault,Mégane RenaultSport Cup 265,,,,,,,,,,,,,,,,,87.7,"Series 19, Episode 04",top_gear
-Renault,Mégane Sport,,,,,,,,,,,,,,,,,87.0,"Series 26, Episode 03",top_gear
-Renault,Twingo GT (very wet),,,,,,,,,,,,,,,,,109.2,"Series 24, Episode 04",top_gear
-Renaultsport,Clio 200,,,,,,,,,,,,,,,,,92.0,"Series 20, Episode 01",top_gear
-Renaultsport,Mégane 225 Cup,,,,,,,,,,,,,,,,,92.3,"Series 06, Episode 09",top_gear
-Rimac,Nevera,2022,,,,,,,,,1888.0,1408.0,,,425.298,2023-08-18,Martin Kodrić,,,"nurburgring, power_output"
-Rimac,Nevera R,2025,,,,,,,,,2079.0,1550.0,,,,,,,,power_output
-Rivian,R1S (Quad Motor),2025,Electric,2.6,,,,,,,,,,,,,,,,acceleration
-Rivian,R1T/Rivian R1S Quad-Motor,2021,,,,,,,,,835.0,623.0,,,,,,,,power_output
-Roush,Mustang,,,,,,,,,,,,,,,,,88.0,"Series 09, Episode 06",top_gear
-Ruf,BTR,1983,,,,,,,190.0,305.0,,,,"3,367 cc (205.5 cu in) turbocharged flat-6 275 kW (374 PS; 369 hp)",,,,,,speed_records
-Ruf,CTR,1987,,,,,,,213.0,342.0,,,,"3,367 cc (205.5 cu in) twin-turbocharged flat-6 345 kW (469 PS; 463 hp)",,,,,,speed_records
-Ruf,Rt 12,,,,,,,,,,,,,,455.0,2008,Horst von Saurma,,,nurburgring
-SEAT,León Cupra MK2,,,,,,,,,,,,,,,,,93.5,,top_gear
-SEAT,León Cupra R,,,,,,,,,,,,,,,,,92.9,"Series 05, Episode 06",top_gear
-SEAT,León Cupra R Mk1,,,,,,,,,,,,,,523.3,2010-08-07,Øistein Helland,,,nurburgring
-SEAT,León Mk3 Cupra,,,,,,,,,,,,,,478.4,2014-03,Jordi Gené,,,nurburgring
-SSC,Tuatara,2021,,,,,,,282.9,455.3,1750.0,1305.0,,"5,900 cc (360 cu in) twin-turbocharged V8 1,300 kW (1,770 PS; 1,750 hp) when on E85 fuel",,,,,,"power_output, speed_records"
-SSC,Ultimate Aero,2007,,,,,,,256.14,412.22,,,,"6,345 cc (387.2 cu in) twin-turbocharged V8 882 kW (1,200 PS; 1,183 hp)",,,,,,speed_records
-SSC,Ultimate Aero TT,2009,,,,,,,,,1287.0,960.0,,,,,,,,power_output
-Saab,9-5 Aero,,,,,,,,,,,,,,,,,97.9,"Series 03, Episode 03",top_gear
-Seat,"Leon Cupra (Mk3, 5F, 2015, 2.0 T, 280 PS)",,,,,,,,,,,,,,494.0,2015,Horst von Saurma,,,nurburgring
-Shelby,Cobra Mk. III 427 Competition,1965,,,,,,,,,485.0,362.0,,,,,,,,power_output
-Skoda,Fabia VRS,,,,,,,,,,,,,,,,,106.9,"Series 04, Episode 08",top_gear
-Skoda,Octavia VRS Estate Mk IV,,,,,,,,,,,,,,,,,92.3,—N/a,top_gear
-Smart,Fortwo Brabus (very wet),,,,,,,,,,,,,,,,,109.1,"Series 24, Episode 04",top_gear
-Spyker,C8 Spyder (with hard top),,,,,,,,,,,,,,,,,87.3,"Series 04, Episode 07",top_gear
-Subaru,"BRZ Final Edition (Mk1, ZN6/ZC6, 2020, N/A 2.0, 200 PS)",,,,,,,,,,,,,,523.6,2020-11-19,Christian Gebhardt,,,nurburgring
-Subaru,"Impreza GT Turbo (GC8G (Mk1, 2000, 218 PS))",,,,,,,,,,,,,,517.0,2000,Horst von Saurma,,,nurburgring
-Subaru,Impreza WRX (Europe-spec),,,,,,,,,,,,,,,,,99.0,"Series 01, Episode 02",top_gear
-Subaru,Impreza WRX STI,,,,,,,,,,,,,,,,,88.2,"Series 11, Episode 02",top_gear
-Subaru,Impreza WRX STI WR1,,,,,,,,,,,,,,,,,89.4,"Series 04, Episode 04",top_gear
-Subaru,Impreza WRX STi,,,,,,,,,,,,,,,,,90.1,"Series 02, Episode 06",top_gear
-Subaru,"Impreza WRX STi (GD, 2004, 265 PS)",,,,,,,,,,,,,,504.0,2004,Horst von Saurma,,,nurburgring
-Subaru,Impreza WRX STi Sedan (2011) Prototype,,,,,,,,,,,,,,475.0,2010-04-16,Tommi Mäkinen,,,nurburgring
-Subaru,WRX STI Type RA NBR Special,,,,,,,,,,,,,,417.578,2017-07-21,Richie Stanaway,,,nurburgring
-Subaru,"WRX STi (Mk4, VA, facelift, 2015, 2.5 T, 300 PS)",,,,,,,,,,,,,,508.0,2015,Christian Gebhardt,,,nurburgring
-Subaru,WRX STi Spec-C,,,,,,,,,,,,,,486.01,2004,Motoharu Kurosawa,,,nurburgring
-Suzuki,500,,,,,,,,,,,,,,502.2,1980-08-24,,,,nurburgring
-Suzuki,GSX-R1000 vs Aprilia RSV1000R,,,,,,,,,,,,,,470.0,2002,,,,nurburgring
-Suzuki,GSX-R1000K7,,,,,,,,,,,,,,455.7,n/a,,,,nurburgring
-Suzuki,GSXR 1000,,,,,,,,,,,,,,466.7,2008-05,,,,nurburgring
-Suzuki,Liana,,,,,,,,,,,,,,,,,104.4,"Series 08, Episode 02",top_gear
-Suzuki,Liana (Driven by Black Stig),,,,,,,,,,,,,,,,,106.0,"Series 01, Episode 01",top_gear
-TMG,EV P001,,,,,,,,,,,,,,467.794,2011-08,Jochen Krumbach,,,nurburgring
-TR,Speed 12 (wet),,,,,,,,,,,,,,,,,97.9,DRIVETRIBE,top_gear
-TVR,Sagaris,,,,,,,,,,,,,,,,,84.6,"Series 06, Episode 07",top_gear
-TVR,T350C,,,,,,,,,,,,,,,,,87.5,"Series 02, Episode 10",top_gear
-TVR,Tuscan 2S,,,,,,,,,,,,,,,,,86.4,—N/a,top_gear
-TVR,Tuscan Mk.II,,,,,,,,,,,,,,,,,84.8,"Series 06, Episode 03",top_gear
-Tesla,Cybertruck Cyberbeast,2024,,,,,,,,,845.0,630.0,,,,,,,,power_output
-Tesla,Model 3 AWD Performance,,,,,,,,,,,,,,,,,81.5,"Series 27, Episode 02",top_gear
-Tesla,Model 3 Performance,2019,Electric,2.998,,,,,,,,,,,491.72,2020,,,,"acceleration, nurburgring"
-Tesla,Model S P100D,2017,Electric,2.28,,,,10.51,,,,,,,,,,,,acceleration
-Tesla,Model S P85D,,,,,,,,,,,,,,530.0,2015,,,,nurburgring
-Tesla,Model S P90D w/Ludicrous Speed Upgrade,2015,Electric,2.6,,,,10.8,,,,,,,,,,,,acceleration
-Tesla,Model S Performance w/Ludicrous Mode,2020,Electric,2.4,2.9,,,,,,,,,,,,,,,acceleration
-Tesla,Model S Plaid,2021,Electric,1.98,2.5,,,,,,,,,,455.579,2021-09-09,Andreas Simonsen,,,"acceleration, nurburgring"
-Tesla,Model S Plaid Track Package,,,,,,,,,,,,,,445.231,2023-06-02,Tom Schwister,,,nurburgring
-Tesla,Model S Plaid/Tesla Model X Plaid,2021,,,,,,,,,1020.0,761.0,,,,,,,,power_output
-Tesla,Model X Performance w/Ludicrous Mode,2020,Electric,,,,,10.92,,,,,,,,,,,,acceleration
-Tesla,Model X Plaid,2021,Electric,2.3,,,,,,,,,,,,,,,,acceleration
-Tesla,Roadster (mildly moist),,,,,,,,,,,,,,,,,87.2,"Series 12, Episode 07",top_gear
-Toyota,Avensis,,,,,,,,,,,,,,,,,105.0,"Series 01, Episode 04",top_gear
-Toyota,GR Supra (A90/J29),,,,,,,,,,,,,,472.17,2019-08-22,Christian Gebhardt,,,nurburgring
-Toyota,GR Supra Pro,,,,,,,,,,,,,,,,,83.2,—N/a,top_gear
-Toyota,GR Yaris,,,,,,,,,,,,,,,,,86.3,—N/a,top_gear
-Toyota,"GR Yaris (Mk4, XP210, 2021, 1.5 T, 261 PS)",,,,,,,,,,,,,,494.93,2021-04-07,Christian Gebhardt,,,nurburgring
-Toyota,GR86 (2023),,,,,,,,,,,,,,507.27,2022,Christian Gebhardt,,,nurburgring
-Toyota,"GT86 (Mk1, ZN6/ZC6, 2012, N/A 2.0, 200 PS)",,,,,,,,,,,,,,525.0,2013,Horst von Saurma,,,nurburgring
-Toyota,GT86 (partly wet),,,,,,,,,,,,,,,,,91.3,"Series 19, Episode 03",top_gear
-Toyota,Supra,,,,,,,,,,,,,,469.0,1997,Herbert Schürg,,,nurburgring
-Toyota,Supra MKV,,,,,,,,,,,,,,,,,83.1,"Series 27, Episode 05",top_gear
-Toyota,Supra Mk4,,,,,,,,,,,,,,,,,93.3,—N/a,top_gear
-Toyota,TMG EV P002,,,,,,,,,,,,,,442.329,2012-10-02,Jochen Krumbach,,,nurburgring
-Tuthill,911K,,,,,,,,,,,,,,,,,82.5,Stig Laps,top_gear
-Tyrrell,P34–Ford,,,,,,,,,,,,,,430.8,1976-08-01,Jody Scheckter,,,nurburgring
-Volkswagen,"Golf VII GTI TCR (Mk7, 2-nd facelift, 2019, 2.0 T 290 PS)",,,,,,,,,,,,,,484.92,2019-07-03,Christian Gebhardt,,,nurburgring
-Vauxhall,Astra VXR,,,,,,,,,,,,,,,,,88.3,"Series 19, Episode 04",top_gear
-Vauxhall,Astra VXR (Not Shown on TV),,,,,,,,,,,,,,,,,92.0,,top_gear
-Vauxhall,Corsa VXR Nurburgring (partly snowy),,,,,,,,,,,,,,,,,91.0,"Series 18, Episode 03",top_gear
-Vauxhall,Monaro VXR,,,,,,,,,,,,,,,,,90.1,"Series 06, Episode 11",top_gear
-Vauxhall,VX220 Turbo,,,,,,,,,,,,,,,,,91.3,"Series 02, Episode 06",top_gear
-Vauxhall,VXR8 (wet),,,,,,,,,,,,,,,,,91.3,"Series 10, Episode 08",top_gear
-Vauxhall,VXR8 Bathurst S,,,,,,,,,,,,,,,,,86.3,"Series 13, Episode 07",top_gear
-Vauxhall,Vectra VXR,,,,,,,,,,,,,,,,,95.3,"Series 08, Episode 06",top_gear
-Vector,W8,1990,,,,,,,242.0,389.0,,,,"5,973 cc (364.5 cu in) twin-turbocharged V8 466 kW (634 PS; 625 hp)",,,,,,speed_records
-Veritas,RS III,,,,,,,,,,,,,,,,,84.2,"Series 12, Episode 06",top_gear
-Volkswagen,Golf GTI Clubsport Mk8,,,,,,,,,,,,,,,,,86.8,—N/a,top_gear
-Volkswagen,Golf GTI Clubsport S (2016),,,,,,,,,,,,,,467.19,2016-12-07,Benny Leuchter,,,nurburgring
-Volkswagen,Golf GTI Mk V Edition 30,,,,,,,,,,,,,,,,,92.6,—N/a,top_gear
-Volkswagen,Golf GTI Mk VI,,,,,,,,,,,,,,,,,92.6,—N/a,top_gear
-Volkswagen,Golf GTI Mk VII (Sport Mode),,,,,,,,,,,,,,,,,89.6,"Series 20, Episode 03",top_gear
-Volkswagen,Golf GTI Mk7 (very wet),,,,,,,,,,,,,,,,,99.3,"Series 25, Episode 04",top_gear
-Volkswagen,Golf GTI Mk7 (with performance pack),,,,,,,,,,,,,,,,,88.6,"Series 21, Episode 05",top_gear
-Volkswagen,Golf GTI W12-650 Concept,,,,,,,,,,,,,,,,,89.6,"Series 10, Episode 01",top_gear
-Volkswagen,"Golf IV GTI ""25 Jähre GTI"" (Mk4, 2002, 1.8T, 180 PS)",,,,,,,,,,,,,,534.0,2002,Horst von Saurma,,,nurburgring
-Volkswagen,"Golf IV R32 (Mk4, 2003)",,,,,,,,,,,,,,517.0,2003,Horst von Saurma,,,nurburgring
-Volkswagen,"Golf IV V6 4motion (Mk4, 2.8, 204 PS)",,,,,,,,,,,,,,549.0,2000,Horst von Saurma,,,nurburgring
-Volkswagen,Golf Mk.IV R32,,,,,,,,,,,,,,,,,93.3,"Series 01, Episode 09",top_gear
-Volkswagen,Golf Mk.V GTI,,,,,,,,,,,,,,,,,93.7,"Series 05, Episode 06",top_gear
-Volkswagen,Golf R32 mk.V,,,,,,,,,,,,,,,,,90.4,"Series 07, Episode 06",top_gear
-Volkswagen,"Golf V GTI DSG (Mk5, 2005, 200 PS)",,,,,,,,,,,,,,533.0,2005,Horst von Saurma,,,nurburgring
-Volkswagen,"Golf V R32 (Mk5, 2006)",,,,,,,,,,,,,,529.0,2006,Horst von Saurma,,,nurburgring
-Volkswagen,"Golf VI GTI ""35 Jähre GTI"" (Mk6, 2011, 2.0 T, 235 PS)",,,,,,,,,,,,,,518.0,2011,Horst von Saurma,,,nurburgring
-Volkswagen,"Golf VI R (Mk6, 2010)",,,,,,,,,,,,,,514.0,2010,Horst von Saurma,,,nurburgring
-Volkswagen,"Golf VII GTI Clubsport (Mk7, 2016, 2.0 T, 265 PS)",,,,,,,,,,,,,,487.0,2016,Christian Gebhardt,,,nurburgring
-Volkswagen,"Golf VII GTI Clubsport S (Mk7, 2016, 2.0 T, 310 PS)",,,,,,,,,,,,,,477.0,2016,Christian Gebhardt,,,nurburgring
-Volkswagen,"Golf VII GTI Performance (Mk7, pre-facelift, 2013, 2.0 T, 230 PS)",,,,,,,,,,,,,,509.0,2013,Horst von Saurma,,,nurburgring
-Volkswagen,"Golf VII R (Mk7, 1-st faselift, 2018, 310 PS)",,,,,,,,,,,,,,484.0,2018-06-27,Horst von Saurma,,,nurburgring
-Volkswagen,"Golf VII R (Mk7, pre-facelift, 2.0 T, 300 PS)",,,,,,,,,,,,,,495.1,2014,Horst von Saurma,,,nurburgring
-Volkswagen,"Golf VII R (Mk7, pre-facelift, 2013, 300 PS)",,,,,,,,,,,,,,494.0,2013,,,,nurburgring
-Volkswagen,"Golf VIII GTI Clubsport ""45 Jähre GTI"" (Mk8, 2021, 2.0 T, 300 PS)",,,,,,,,,,,,,,482.66,2021-10-06,Christian Gebhardt,,,nurburgring
-Volkswagen,"Golf VIII R ""20 Years"" (Mk8, 2023, 333 PS)",,,,,,,,,,,,,,473.69,2023,Christian Gebhardt,,,nurburgring
-Volkswagen,"Golf VIII R (Mk8, 2020, 320 PS)",,,,,,,,,,,,,,471.0,2020,Gerd Stegmaier,,,nurburgring
-Volkswagen,"Golf VIII R (Mk8, 2022, 320 PS)",,,,,,,,,,,,,,482.0,2022,Christian Gebhardt,,,nurburgring
-Volkswagen,"Golf VIII R 333 ""20 Years"" (Mk8, 333 PS, 2022)",,,,,,,,,,,,,,467.31,2022-09-21,Benjamin Leuchter,,,nurburgring
-Volkswagen,ID.R,,,,,,,,,,,,,,365.336,2019-06-03,Romain Dumas,,,nurburgring
-Volkswagen,Lupo GTI,,,,,,,,,,,,,,549.0,2002-09-29,Daniel Schwerfeld,,,nurburgring
-Volkswagen,Polo GTI (Mk4),,,,,,,,,,,,,,586.2,2007-06-29,Wolfgang Kaufmann,,,nurburgring
-Volkswagen,Scirocco 2.0 TSI,,,,,,,,,,,,,,527.0,2009-11-15,Bernt Bråten Andersen,,,nurburgring
-Volkswagen,Up! TSI (very wet),,,,,,,,,,,,,,,,,109.4,"Series 24, Episode 04",top_gear
-Volvo,S60 R,,,,,,,,,,,,,,,,,95.0,"Series 02, Episode 09",top_gear
-Wiesmann,GT MF5,,,,,,,,,,,,,,467.0,2010-07,Horst von Saurma,,,nurburgring
-Wiesmann,MF 3,,,,,,,,,,,,,,,,,87.9,"Series 06, Episode 03",top_gear
-Xiaomi,SU7 Ultra,2025,,,,,,,,,1526.0,1138.0,,,424.957,2025-04-01,Vincent Radermecker,,,"nurburgring, power_output"
-Xiaomi,SU7 Ultra Prototype,,,,,,,,,,,,,,382.091,2025-04-01,David Pittard,,,nurburgring
-YANGWANG,U9 Xtreme,,,,,,,,,,,,,,419.157,2025-08-22,Moritz Kranz,,,nurburgring
-Yamaha,YZF-R1,,,,,,,,,,,,,,430.0,n/a,,,,nurburgring
-Yangwang,U8,2023,,,,,,,,,1180.0,880.0,,,,,,,,power_output
-Yangwang,U9 Xtreme,2025,,,,,,,308.34,496.22,,,,"Four TZ240XYA electric motors 2,220 kW (3,018 PS; 2,977 hp)",,,,,,speed_records
-Yangwang,U9/Yangwang U7,2024,,,,,,,,,1287.0,960.0,,,,,,,,power_output
-Zakspeed,Capri Turbo,,,,,,,,,,,,,,466.3,1979-04-29,Hans Heyer,,,nurburgring
-Zeekr,001 FR,2023,,,,,,,,,1247.0,930.0,,,,,,,,power_output
-Zenos,E10 S (Mildly moist / Damp),,,,,,,,,,,,,,,,,85.1,"Series 23, Episode 05",top_gear
-Zenvo,ST1,2009,,,,,,,,,1089.0,812.0,,,,,,,,power_output
-Zenvo,ST1 (very wet),,,,,,,,,,,,,,,,,89.9,"Series 21, Episode 03",top_gear
-Zenvo,TSR-S,2018,,,,,,,,,1177.0,878.0,,,,,,,,power_output
+manufacturer,country,model,year,propulsion,0_60_mph_sec,0_100_kmh_sec,0_100_mph_sec,0_200_kmh_sec,quarter_mile_sec,top_speed_mph,top_speed_kmh,power_hp,power_kw,torque,engine,nurburgring_lap_sec,nurburgring_date,nurburgring_driver,top_gear_lap_sec,top_gear_episode,sources
+Napier,GB,80,1908,,,,,,,,,90.0,67.0,,,,,,,,power_output
+AC,GB,Cobra Mk III 427,1965,,,,,,,165.0,266.0,,,,"6,998 cc (427.0 cu in) V8 362 kW (492 PS; 485 hp)",,,,,,speed_records
+Alfa Romeo,IT,147 GTA,,,,,,,,,,,,,,,,,95.6,"Series 02, Episode 08",top_gear
+Alfa Romeo,IT,"156 GTA (2002, 250 PS)",,,,,,,,,,,,,,531.0,2002,Horst von Saurma,,,nurburgring
+Alfa Romeo,IT,4C,,,,,,,,,,,,,,484.4,2013-09-12,Horst von Saurma,84.8,"Series 21, Episode 02","nurburgring, top_gear"
+Alfa Romeo,IT,8C Competizione (very wet),,,,,,,,,,,,,,,,,98.2,"Series 11, Episode 04",top_gear
+Alfa Romeo,IT,Brera 2.2,,,,,,,,,,,,,,,,,96.9,"Series 09, Episode 02",top_gear
+Alfa Romeo,IT,Giulia Quadrifoglio (2015),,,,,,,,,,,,,,452.0,2016-09,Fabio Francia,81.4,"Series 24, Episode 02","nurburgring, top_gear"
+Alfa Romeo,IT,Giulietta QV,,,,,,,,,,,,,,510.0,2011,,,,nurburgring
+Alfa Romeo,IT,Giulietta Quadrifoglio Verde,,,,,,,,,,,,,,,,,90.3,"Series 24, Episode 02",top_gear
+Alfa Romeo,IT,Stelvio Quadrifoglio (2018),,,,,,,,,,,,,,471.7,2017,Fabio Francia,,,nurburgring
+Alpina,DE,Z8 Roadster,,,,,,,,,,,,,,,,,89.0,"Series 02, Episode 03",top_gear
+Alpine,FR,A110,,,,,,,,,,,,,,,,,82.9,"Series 25, Episode 06",top_gear
+Alpine,FR,"A110 (2019, 1.8 T, 252 PS)",,,,,,,,,,,,,,483.33,2019-05-15,Christian Gebhardt,,,nurburgring
+Alpine,FR,"A110 S (2020, 1.8 T, 292 PS)",,,,,,,,,,,,,,476.1,2020,Christian Gebhardt,,,nurburgring
+Alpine,FR,A110S,,,,,,,,,,,,,,,,,82.3,—N/a,top_gear
+Alpine,FR,"A110S (2022, 1.8 T, 300 PS)",,,,,,,,,,,,,,462.659,2022-10,Christian Gebhardt,,,nurburgring
+Aprilia,IT,RSV1000R Factory,,,,,,,,,,,,,,452.6,n/a,,,,nurburgring
+Ariel,GB,Atom,,,,,,,,,,,,,,,,,84.0,"Series 02, Episode 06",top_gear
+Ariel,GB,Atom 2 300,,,,,,,,,,,,,,,,,79.5,"Series 05, Episode 09",top_gear
+Ariel,GB,Atom 4,,,,,,,,,,,,,,,,,76.0,—N/a,top_gear
+Ariel,GB,Atom 4 (wet),,,,,,,,,,,,,,,,,85.3,"Series 28, Episode 01",top_gear
+Ariel,GB,Atom 4R,,,,,,,,,,,,,,,,,73.7,Stig Laps,top_gear
+Ariel,GB,Atom V8 500 (moist),,,,,,,,,,,,,,,,,75.1,"Series 16, Episode 01",top_gear
+Ariel,GB,Nomad,,,,,,,,,,,,,,,,,90.8,"Series 23, Episode 01",top_gear
+Artega,DE,GT,,,,,,,,,,,,,,494.0,2010,Horst von Saurma,,,nurburgring
+Ascari,GB,A10,,,,,,,,,,,,,,,,,77.3,"Series 10, Episode 09",top_gear
+Ascari,GB,KZ1 (damp),,,,,,,,,,,,,,,,,80.7,"Series 07, Episode 01",top_gear
+Aspark,JP,Owl,2020,,,,,,,,,1953.0,1456.0,,,,,,,,power_output
+Aston Martin,GB,DB11,,,,,,,,,,,,,,,,,81.5,"Series 24, Episode 03",top_gear
+Aston Martin,GB,DB4 GT,1959,,,,,,,152.5,245.4,,,,"3,670 cc (224 cu in) inline-6 225 kW (306 PS; 302 hp)",,,,,,speed_records
+Aston Martin,GB,DB4 GT Zagato,1960,,,,,,,153.5,247.0,,,,"3,670 cc (224 cu in) inline-6 234 kW (318 PS; 314 hp)",,,,,,speed_records
+Aston Martin,GB,DB5,,,,,,,,,,,,,,,,,106.0,"Series 06, Episode 05",top_gear
+Aston Martin,GB,DB7 GT,,,,,,,,,,,,,,503.0,2003,Horst von Saurma,,,nurburgring
+Aston Martin,GB,DB7 GT (with full tank of fuel),,,,,,,,,,,,,,,,,90.4,"Series 02, Episode 04",top_gear
+Aston Martin,GB,DB7 Vantage,,,,,,,,,,,,,,521.0,1999,Horst von Saurma,,,nurburgring
+Aston Martin,GB,DB9,,,,,,,,,,,,,,,,,87.1,"Series 04, Episode 01",top_gear
+Aston Martin,GB,"DB9 (2004, 456 PS)",,,,,,,,,,,,,,496.0,2004,Horst von Saurma,,,nurburgring
+Aston Martin,GB,DBS,,,,,,,,,,,,,,482.0,2009,Horst von Saurma,,,nurburgring
+Aston Martin,GB,DBS (wet),,,,,,,,,,,,,,,,,87.4,"Series 10, Episode 07",top_gear
+Aston Martin,GB,DBS (written as Aston Martin DB9S),,,,,,,,,,,,,,,,,83.9,"Series 10, Episode 07",top_gear
+Aston Martin,GB,V12 Vanquish,,,,,,,,,,,,,,497.0,2003,Horst von Saurma,,,nurburgring
+Aston Martin,GB,V12 Vantage (Not Shown on TV),,,,,,,,,,,,,,,,,86.8,"Series 13, Episode 07",top_gear
+Aston Martin,GB,V12 Vantage S,,,,,,,,,,,,,,472.0,2014,Horst von Saurma,,,nurburgring
+Aston Martin,GB,V8 Vantage (2019),,,,,,,,,,,,,,463.92,2019-08-14,Christian Gebhardt,79.7,"Series 26, Episode 05","nurburgring, top_gear"
+Aston Martin,GB,"V8 Vantage (Mk1, 2005, 385 PS)",,,,,,,,,,,,,,483.0,2005,Horst von Saurma,,,nurburgring
+Aston Martin,GB,"V8 Vantage GT8 (2017, N/A 4.7, 446 PS)",,,,,,,,,,,,,,470.0,2017-02,Christian Gebhardt,,,nurburgring
+Aston Martin,GB,Valhalla,2021,,,,,,,,,1064.0,793.0,,,,,,,,power_output
+Aston Martin,GB,Valkyrie,2022,,,,,,,,,1140.0,850.0,,,,,,69.6,Stig Laps,"power_output, top_gear"
+Aston Martin,GB,Vanquish (very wet),,,,,,,,,,,,,,,,,96.2,"Series 01, Episode 04",top_gear
+Aston Martin,GB,Vanquish S,,,,,,,,,,,,,,,,,87.1,"Series 05, Episode 04",top_gear
+Aston Martin,GB,Virage,,,,,,,,,,,,,,,,,84.4,"Series 17, Episode 02",top_gear
+Audi,DE,Q7 V12 (wet),,,,,,,,,,,,,,,,,93.3,"Series 14, Episode 04",top_gear
+Audi,DE,R8 (damp),,,,,,,,,,,,,,,,,84.4,"Series 10, Episode 02",top_gear
+Audi,DE,"R8 4.2 FSI Quattro (Mk1, Type 42, 2007, N/A 4.2, 420 PS)",,,,,,,,,,,,,,484.0,2007,Horst von Saurma,,,nurburgring
+Audi,DE,R8 4.2 FSI R-Tronic,,,,,,,,,,,,,,481.9,2008-10-27,Sascha Bert,,,nurburgring
+Audi,DE,"R8 Coupé 5.2 FSI Quattro (Mk1, Type 42, 2009, 525 PS)",,,,,,,,,,,,,,464.0,2009,Horst von Saurma,,,nurburgring
+Audi,DE,"R8 GT (Mk1, Typ 42, 2010)",,,,,,,,,,,,,,454.0,2010-12,Horst von Saurma,,,nurburgring
+Audi,DE,R8 LMS Ultra,,,,,,,,,,,,,,477.474,2014-09-30,Marc Basseng/Frank Stippler,,,nurburgring
+Audi,DE,"R8 Plus (Mk1, Type 42, 2013, N/A 5.2, 550 PS)",,,,,,,,,,,,,,465.0,2013,Horst von Saurma,,,nurburgring
+Audi,DE,R8 V10 (damp),,,,,,,,,,,,,,,,,81.6,"Series 14, Episode 02",top_gear
+Audi,DE,R8 V10 Plus,2017,ICE,2.6,2.8,,,10.51,,,,,,,,,,75.7,"Series 23, Episode 03","acceleration, top_gear"
+Audi,DE,"R8 V10 Plus (4S, 2015)",,,,,,,,,,,,,,452.0,2015,Christian Gebhardt,,,nurburgring
+Audi,DE,R8 V10 Spyder,,,,,,,,,,,,,,,,,82.3,"Series 15, Episode 04",top_gear
+Audi,DE,RS 6 Avant,,,,,,,,,,,,,,,,,81.9,"Series 29, Episode 03",top_gear
+Audi,DE,RS Q8,,,,,,,,,,,,,,462.253,2019-09-13,Frank Stippler,82.5,—N/a,"nurburgring, top_gear"
+Audi,DE,RS e-tron GT performance,2024,Electric,,2.19,,,,,,,,,,,,,,,acceleration
+Audi,DE,"RS3 (Typ 8Y, 2021, 2.5 T, 400 PS)",,,,,,,,,,,,,,455.522,2021-06-14,Frank Stippler,,,nurburgring
+Audi,DE,"RS3 (Typ 8Y, 2022, 2.5 T, 400 PS)",,,,,,,,,,,,,,457.66,2022,Christian Gebhardt,,,nurburgring
+Audi,DE,"RS3 Sportback (8P, 2011, 2.5 T, 340 PS)",,,,,,,,,,,,,,500.0,2011,Horst von Saurma,,,nurburgring
+Audi,DE,RS4,,,,,,,,,,,,,,,,,85.7,"Series 07, Episode 02",top_gear
+Audi,DE,RS4 (B7),,,,,,,,,,,,,,489.0,2006,Horst von Saurma,,,nurburgring
+Audi,DE,RS4 Avant (B5),,,,,,,,,,,,,,505.0,2000,Horst von Saurma,,,nurburgring
+Audi,DE,RS4 Avant (B9),,,,,,,,,,,,,,478.52,2018-07-12,Christian Gebhardt,,,nurburgring
+Audi,DE,RS4 Avant Competition Plus (B9),,,,,,,,,,,,,,459.35,2023-07-12,Christian Gebhardt,,,nurburgring
+Audi,DE,RS5 (moist),,,,,,,,,,,,,,,,,87.5,"Series 16, Episode 05",top_gear
+Audi,DE,RS5 Coupe (8T),,,,,,,,,,,,,,479.0,2012-06,Horst von Saurma,,,nurburgring
+Audi,DE,RS6 (C5),,,,,,,,,,,,,,500.0,2002,Horst von Saurma,,,nurburgring
+Audi,DE,RS6 (very wet),,,,,,,,,,,,,,,,,93.0,"Series 01, Episode 08",top_gear
+Audi,DE,RS6 Avant (C7),,,,,,,,,,,,,,485.0,2014,Horst von Saurma,,,nurburgring
+Audi,DE,"S1 (8X, 2014, 231 PS)",,,,,,,,,,,,,,521.0,2014,Horst von Saurma,,,nurburgring
+Audi,DE,"S3 (8L, 1999, 210 PS)",,,,,,,,,,,,,,521.0,1999,Horst von Saurma,,,nurburgring
+Audi,DE,S3 (very wet),,,,,,,,,,,,,,,,,93.1,—N/a,top_gear
+Audi,DE,"S4 (B5, 1998, 265 PS)",,,,,,,,,,,,,,522.0,1998,Horst von Saurma,,,nurburgring
+Audi,DE,S4 Avant (B6),,,,,,,,,,,,,,509.0,2003,Horst von Saurma,,,nurburgring
+Audi,DE,S4 quattro 4.2,,,,,,,,,,,,,,,,,90.9,"Series 02, Episode 02",top_gear
+Audi,DE,S5,,,,,,,,,,,,,,506.0,2008,Horst von Saurma,,,nurburgring
+Audi,DE,"TT 1.8 T (Mk1, 8N, 1998)",,,,,,,,,,,,,,522.0,1998,Horst von Saurma,,,nurburgring
+Audi,DE,TT 3.2 quattro,,,,,,,,,,,,,,,,,92.7,"Series 03, Episode 08",top_gear
+Audi,DE,"TT Coupe (Mk2, 8J, 2007 2.0 TFSI, 200 PS)",,,,,,,,,,,,,,520.0,2007,Horst von Saurma,,,nurburgring
+Audi,DE,TT Mk.II 2.0T,,,,,,,,,,,,,,,,,91.4,"Series 09, Episode 02",top_gear
+Audi,DE,"TT RS (8S, 2017, 2.5 T, 400 PS)",,,,,,,,,,,,,,468.4,2017-05-17,Christian Gebhardt,,,nurburgring
+Audi,DE,"TT RS (Mk2, 8J, 2010, 2.5 T, 340 PS)",,,,,,,,,,,,,,489.0,2010,Horst von Saurma,,,nurburgring
+Audi,DE,TT RS (damp),,,,,,,,,,,,,,,,,84.9,—N/a,top_gear
+Audi,DE,"TT S Coupe (Mk3, FV/8S, 2015, 2.0 T, 310 PS)",,,,,,,,,,,,,,496.0,2015,Christian Gebhardt,,,nurburgring
+Audi,DE,"TTS Coupé (8J, 2008, 272 PS)",,,,,,,,,,,,,,509.0,2008,Horst von Saurma,,,nurburgring
+Autodelta,IT,Alfa Romeo 147 GTA 3.7,,,,,,,,,,,,,,,,,90.0,"Series 04, Episode 02",top_gear
+BAC,GB,Mono,,,,,,,,,,,,,,,,,74.3,"Series 20, Episode 02",top_gear
+BMW,DE,1 Series M Coupe (damp),,,,,,,,,,,,,,,,,85.0,"Series 17, Episode 01",top_gear
+BMW,DE,1 Series M Coupé (E82),,,,,,,,,,,,,,495.0,2011,Horst von Saurma,,,nurburgring
+BMW,DE,130i (E87),,,,,,,,,,,,,,,,,91.9,"Series 07, Episode 06",top_gear
+BMW,DE,318i (E46),,,,,,,,,,,,,,,,,103.2,"Series 01, Episode 04",top_gear
+BMW,DE,320 Turbo,,,,,,,,,,,,,,465.44,1980-03-30,Hans-Joachim Stuck,,,nurburgring
+BMW,DE,325i (E93) (wet),,,,,,,,,,,,,,,,,95.9,"Series 16, Episode 04",top_gear
+BMW,DE,330i (self-driving car with Jeremy Clarkson as the passenger),,,,,,,,,,,,,,,,,88.9,"Series 10, Episode 08",top_gear
+BMW,DE,335i Coupe (E92),,,,,,,,,,,,,,506.0,2006,Horst von Saurma,,,nurburgring
+BMW,DE,535d (E60),,,,,,,,,,,,,,,,,91.8,"Series 06, Episode 10",top_gear
+BMW,DE,645Ci,,,,,,,,,,,,,,,,,88.5,"Series 04, Episode 05",top_gear
+BMW,DE,760Li (wet),,,,,,,,,,,,,,,,,91.2,"Series 14, Episode 01",top_gear
+BMW,DE,"Alpina B10 3.2 (E39, 1998, 260 PS)",,,,,,,,,,,,,,530.0,1998,Horst von Saurma,,,nurburgring
+BMW,DE,"Alpina B3 (E46, 1999, 280 PS)",,,,,,,,,,,,,,516.0,1999,Horst von Saurma,,,nurburgring
+BMW,DE,"Alpina B3 (G20, 2021, 3.0 TT, 462 PS)",,,,,,,,,,,,,,473.26,2020-12-17,Christian Gebhardt,,,nurburgring
+BMW,DE,"Alpina B3 Biturbo (F30, 2014, 3.0 BT, 410 PS)",,,,,,,,,,,,,,494.0,2014,Horst von Saurma,,,nurburgring
+BMW,DE,"Alpina B3 Biturbo Coupé (E92, 2008, 3.0 BT, 360 PS)",,,,,,,,,,,,,,494.0,2008,Horst von Saurma,,,nurburgring
+BMW,DE,"Alpina B3 Coupe GT3 (E92, 2012, 3.0 T, 408 PS)",,,,,,,,,,,,,,469.0,2012,Horst von Saurma,,,nurburgring
+BMW,DE,"Alpina B4 Gran Coupè (G26, 2023, 3.0 TT, 495 PS)",,,,,,,,,,,,,,472.11,2023-01-12,Christian Gebhardt,,,nurburgring
+BMW,DE,"Alpina B4 S Biturbo Coupe (F32, 2018, 3.0 BT, 440 PS)",,,,,,,,,,,,,,480.0,2017,Christian Gebhardt,,,nurburgring
+BMW,DE,Alpina B6 S (E63),,,,,,,,,,,,,,490.0,2008,Horst von Saurma,,,nurburgring
+BMW,DE,"Alpina Roadster S (E85, 2005, 300 PS)",,,,,,,,,,,,,,495.0,2005,Horst von Saurma,,,nurburgring
+BMW,DE,F80 M3,,,,,,,,,,,,,,,,,81.6,"Series 24, Episode 02",top_gear
+BMW,DE,M135i,,,,,,,,,,,,,,,,,85.1,"Series 21, Episode 05",top_gear
+BMW,DE,"M135i (F20, 2012)",,,,,,,,,,,,,,498.0,2012,Horst von Saurma,,,nurburgring
+BMW,DE,M2,,,,,,,,,,,,,,,,,82.7,"Series 23, Episode 05",top_gear
+BMW,DE,M2 (F87),,,,,,,,,,,,,,478.0,2015-12,Jörg Weidinger,,,nurburgring
+BMW,DE,"M2 (F87, 2016, 3.0 T, 370 PS)",,,,,,,,,,,,,,481.0,2016,Christian Gebhardt,,,nurburgring
+BMW,DE,"M2 (G87, 2023, 3.0 TT, 460 PS)",,,,,,,,,,,,,,453.906,2023-08-30,Jörg Weidinger,,,nurburgring
+BMW,DE,M2 CS,,,,,,,,,,,,,,440.89,2025-04-11,Jörg Weidinger,,,nurburgring
+BMW,DE,"M2 CS (F87, 2020)",,,,,,,,,,,,,,462.99,2020-08-12,Christian Gebhardt,,,nurburgring
+BMW,DE,M2 Competition (F87),,,,,,,,,,,,,,472.36,2018-09-12,Christian Gebhardt,,,nurburgring
+BMW,DE,"M235i (F22, 2015, 3.0 T, 322 PS)",,,,,,,,,,,,,,496.0,2015,Christian Gebhardt,,,nurburgring
+BMW,DE,"M240i xDrive (G42, 2022, 3.0 T, 374 PS)",,,,,,,,,,,,,,478.59,2022,Christian Gebhardt,,,nurburgring
+BMW,DE,M3 (E30),,,,,,,,,,,,,,530.0,2010,Horst von Saurma,,,nurburgring
+BMW,DE,M3 (E46),,,,,,,,,,,,,,502.0,2000,Horst von Saurma,,,nurburgring
+BMW,DE,M3 (E90 Saloon),,,,,,,,,,,,,,,,,85.3,"Series 12, Episode 05",top_gear
+BMW,DE,M3 (E92),,,,,,,,,,,,,,485.0,2007-12,Horst von Saurma,86.5,"Series 10, Episode 10","nurburgring, top_gear"
+BMW,DE,"M3 CS (G80, 2023, 3.0 TT, 550 PS)",,,,,,,,,,,,,,443.975,2023-08-31,Jörg Weidinger,,,nurburgring
+BMW,DE,M3 CSL (E46) (wet),,,,,,,,,,,,,,,,,88.0,"Series 03, Episode 02",top_gear
+BMW,DE,M3 CSL (E46) by Loaded,,,,,,,,,,,,,,442.0,2007-11-11,Richard Göransson,,,nurburgring
+BMW,DE,"M3 CSL (E46, 2004)",,,,,,,,,,,,,,470.0,2003,Horst von Saurma,,,nurburgring
+BMW,DE,"M3 Competition Touring (G81, 2023, 3.0 TT, 510 PS)",,,,,,,,,,,,,,454.39,2023-10-19,Christian Gebhardt,,,nurburgring
+BMW,DE,M3 Competition xDrive,2023,ICE,2.8,,,,11.0,,,,,,,,,,,,acceleration
+BMW,DE,"M3 Coupe SMG (E36, facelift, 1997, 321 PS)",,,,,,,,,,,,,,515.0,1997,Horst von Saurma,,,nurburgring
+BMW,DE,M3 E46,,,,,,,,,,,,,,,,,91.8,"Series 02, Episode 02",top_gear
+BMW,DE,M3 E92 Competition Pack (moist),,,,,,,,,,,,,,,,,86.5,"Series 16, Episode 05",top_gear
+BMW,DE,"M3 GTS (E92, 2010)",,,,,,,,,,,,,,468.0,2010,Horst von Saurma,,,nurburgring
+BMW,DE,M3 Touring,,,,,,,,,,,,,,455.0,2022-05-12,Jörg Weidinger,,,nurburgring
+BMW,DE,"M4 (F82, 2014, 431 PS)",,,,,,,,,,,,,,472.0,2014,Horst von Saurma,,,nurburgring
+BMW,DE,"M4 CS (F82, 2017, 3.0 TT, 460 PS)",,,,,,,,,,,,,,462.0,2017,Christian Gebhardt,,,nurburgring
+BMW,DE,"M4 CS (G82, 2024, 3.0 TT, 550 PS)",,,,,,,,,,,,,,437.215,2024-05-08,Jörg Weidinger,,,nurburgring
+BMW,DE,"M4 CSL (G82, 2022)",,,,,,,,,,,,,,435.677,2022-04-12,Jörg Weidinger,,,nurburgring
+BMW,DE,"M4 CSL (G82, 2023, 3.0 TT, 550 PS)",,,,,,,,,,,,,,433.497,2023-09-01,Jörg Weidinger,,,nurburgring
+BMW,DE,"M4 Competition (G82, 2021, 3.0 TT, 510 PS)",,,,,,,,,,,,,,450.79,2021-04-15,Christian Gebhardt,,,nurburgring
+BMW,DE,M4 Competition xDrive,2023,ICE,2.8,,,,11.0,,,,,,,,,,,,acceleration
+BMW,DE,"M4 Competition xDrive (G82, 2022, 3.0 TT, 510 PS)",,,,,,,,,,,,,,448.57,2021-09-22,Christian Gebhardt,,,nurburgring
+BMW,DE,"M4 GTS (F82, 2015)",,,,,,,,,,,,,,447.88,2015-09,Jörg Weidinger,,,nurburgring
+BMW,DE,"M4 GTS (F82, 2016)",,,,,,,,,,,,,,457.0,2016-10,Christian Gebhardt,,,nurburgring
+BMW,DE,M5 (E39),,,,,,,,,,,,,,508.0,1999,Horst von Saurma,,,nurburgring
+BMW,DE,M5 (E60),,,,,,,,,,,,,,493.0,2004,Horst von Saurma,86.2,"Series 06, Episode 09","nurburgring, top_gear"
+BMW,DE,M5 (F10),,,,,,,,,,,,,,485.0,2012,Horst von Saurma,,,nurburgring
+BMW,DE,M5 (F10) (Very Wet),,,,,,,,,,,,,,,,,89.2,"Series 18, Episode 07",top_gear
+BMW,DE,M5 (F90),,,,,,,,,,,,,,458.92,2018-04-12,Christian Gebhardt,79.8,"Series 26, Episode 02","nurburgring, top_gear"
+BMW,DE,M5 (F90) by AC Schnitzer,,,,,,,,,,,,,,449.5,2018-08-22,Jörg Müller,,,nurburgring
+BMW,DE,M5 (G90),,,,,,,,,,,,,,,,,79.8,,top_gear
+BMW,DE,M5 CS,2020,ICE,2.6,2.9,,,10.6,,,,,,,,,,,,acceleration
+BMW,DE,"M5 CS (F90, 2021)",,,,,,,,,,,,,,449.57,2021-06-02,Christian Gebhardt,,,nurburgring
+BMW,DE,M5 Competition,2019,ICE,2.6,2.9,,,10.8,,,,,,,,,,,,acceleration
+BMW,DE,"M5 Competition (F10, 2014, 575 PS)",,,,,,,,,,,,,,474.0,2014,Horst von Saurma,,,nurburgring
+BMW,DE,"M5 Competition (F90, 2019, 625 PS)",,,,,,,,,,,,,,455.9,2019-04-17,Christian Gebhardt,,,nurburgring
+BMW,DE,M5 E39,,,,,,,,,,,,,,,,,87.0,"Series 01, Episode 08",top_gear
+BMW,DE,"M6 Cabrio (E64, 2007, 507 PS)",,,,,,,,,,,,,,496.52,2007-05,Wolfgang Kaufmann,,,nurburgring
+BMW,DE,"M6 Coupe (E63, 2005, 507 PS)",,,,,,,,,,,,,,489.0,2005,Horst von Saurma,,,nurburgring
+BMW,DE,"M6 Coupe (E63, 2006, 507 PS)",,,,,,,,,,,,,,487.76,2006-03,Prinz Leopold von Bayern,,,nurburgring
+BMW,DE,M8 Competition,2019,ICE,2.5,3.0,,,10.7,,,,,,,,,,,,acceleration
+BMW,DE,M8 Competition (very wet),,,,,,,,,,,,,,,,,86.2,"Series 28, Episode 06",top_gear
+BMW,DE,M8 Competition Gran Coupe,2020,ICE,2.7,,,,,,,,,,,,,,,,acceleration
+BMW,DE,"M8 Coupe Competition (F92, 2020, 625 PS)",,,,,,,,,,,,,,452.79,2020-06-09,Christian Gebhardt,,,nurburgring
+BMW,DE,X5 (E53) LM,,,,,,,,,,,,,,470.0,2000,Hans-Joachim Stuck,,,nurburgring
+BMW,DE,X5 M (E70) (wet),,,,,,,,,,,,,,,,,88.2,"Series 14, Episode 04",top_gear
+BMW,DE,"X6 M (E71, 2009, 555 PS)",,,,,,,,,,,,,,504.0,2009,Horst von Saurma,,,nurburgring
+BMW,DE,"Z3 Coupe 3.0 (E36/8, 2001, 231 PS)",,,,,,,,,,,,,,514.0,2001,Horst von Saurma,,,nurburgring
+BMW,DE,"Z3 M Coupe (E36/8, 1998, 321 PS)",,,,,,,,,,,,,,502.0,1998,Horst von Saurma,,,nurburgring
+BMW,DE,Z3 M Roadster (E36/7),,,,,,,,,,,,,,512.0,1997,Horst von Saurma,,,nurburgring
+BMW,DE,Z4 3.0i (very wet) (E85),,,,,,,,,,,,,,,,,97.3,"Series 03, Episode 02",top_gear
+BMW,DE,"Z4 Coupe 3.0si (E86, facelift, 2006, 265 PS)",,,,,,,,,,,,,,512.0,2006,Horst von Saurma,,,nurburgring
+BMW,DE,Z4 GT3,,,,,,,,,,,,,,479.045,2014-08-02,Jens Klingmann,,,nurburgring
+BMW,DE,Z4 M Coupe Prototype,,,,,,,,,,,,,,495.0,2006,,,,nurburgring
+BMW,DE,Z4 M Roadster (E85),,,,,,,,,,,,,,,,,86.0,"Series 08, Episode 04",top_gear
+BMW,DE,Z4 M Roadster Prototype,,,,,,,,,,,,,,498.0,2006,,,,nurburgring
+BMW,DE,Z4 M40i (G29),,,,,,,,,,,,,,475.409,2018-09-12,Christian Gebhardt,,,nurburgring
+BMW,DE,"Z4 Roadster 3.0i SMG (E85, pre-facelift, 2003, 231 PS)",,,,,,,,,,,,,,512.0,2003,Horst von Saurma,,,nurburgring
+BMW,DE,Z4 sDrive35i (E89),,,,,,,,,,,,,,,,,88.2,"Series 13, Episode 06",top_gear
+BMW,DE,"Z8 (E52, 2000, 400 PS)",,,,,,,,,,,,,,498.0,2000,Horst von Saurma,,,nurburgring
+BMW,DE,i8 by AC Schnitzer,,,,,,,,,,,,,,499.8,2017,Markus Oestreich,,,nurburgring
+Bentley,GB,Arnage T (wet),,,,,,,,,,,,,,,,,100.8,"Series 01, Episode 05",top_gear
+Bentley,GB,"Continental GT (Mk1, 2006, 560 PS)",,,,,,,,,,,,,,520.3,2006-03,Tom Kristensen,,,nurburgring
+Bentley,GB,Continental GT Supersports,,,,,,,,,,,,,,,,,84.9,"Series 15, Episode 01",top_gear
+Bentley,GB,Meteor 'Spitfire engine in a car',,,,,,,,,,,,,,,,,110.3,"Series 18, Episode 06",top_gear
+Bentley,GB,Mulsanne Speed (very wet),,,,,,,,,,,,,,,,,102.4,Extra Gear,top_gear
+Benz,DE,82/200 HP (de),1912,,,,,,,,,197.0,147.0,,,,,,,,power_output
+Benz,DE,Patent-Motorwagen,1886,,,,,,,,,7.0,6.0,,,,,,,,power_output
+Benz,DE,Velo,1894,,,,,,,12.0,20.0,5.0,1.0,,"1,045 cc (63.8 cu in) single-cylinder 1.1 kW (1.5 PS; 1.5 bhp)",,,,,,"power_output, speed_records"
+Bowler,GB,Wildcat,,,,,,,,,,,,,,,,,99.4,"Series 02, Episode 01",top_gear
+Brabham,GB,BT26A-Ford,,,,,,,,,,,,,,462.1,1969-08-03,Jacky Ickx,,,nurburgring
+Brabus,DE,S Biturbo Roadster,,,,,,,,,,,,,,,,,86.2,"Series 09, Episode 04",top_gear
+Brutus,DE,,,,,,,,,,,,,,,,,,122.5,"Series 18, Episode 06",top_gear
+Bugatti,FR,Chiron Sport,2017,ICE,2.4,,,,9.4,,,,,,,,,,,,acceleration
+Bugatti,FR,Chiron Super Sport,2021,ICE,2.2,,,,9.1,,,,,,,,,,,,acceleration
+Bugatti,FR,Chiron Super Sport 300+,2019,,,,,,,304.773,490.484,1578.0,1176.0,,"7,993 cc (487.8 cu in) quad-turbocharged W16 1,177 kW (1,600 PS; 1,578 hp)",,,,,,"power_output, speed_records"
+Bugatti,FR,Chiron Super Sport 300+/Centodieci,2021,,,,,,,,,1578.0,1177.0,,,,,,,,power_output
+Bugatti,FR,Chiron/Bugatti Divo,2016,,,,,,,,,1479.0,1103.0,,,,,,,,power_output
+Bugatti,FR,EB110,1991,,,,,,,,,553.0,412.0,,,,,,,,power_output
+Bugatti,FR,EB110 SS,,,,,,,,,,,,,,464.0,1993,Loris Bicocchi,,,nurburgring
+Bugatti,FR,Type 41,1927,,,,,,,,,296.0,221.0,,,,,,,,power_output
+Bugatti,FR,Veyron,2005,ICE,2.4,2.84,,,10.1,,,987.0,736.0,,,,,,,,"acceleration, power_output"
+Bugatti,FR,Veyron 16.4,,,,,,,,,,,,,,460.0,2005,,78.3,"Series 12, Episode 04","nurburgring, top_gear"
+Bugatti,FR,Veyron 16.4 Super Sport,2010,,,,,,,267.856,431.072,,,,"7,993 cc (487.8 cu in) quad-turbocharged W16 882 kW (1,200 PS; 1,183 hp)",,,,,,speed_records
+Bugatti,FR,Veyron EB 16.4,2005,,,,,,,253.81,408.47,,,,"7,993 cc (487.8 cu in) quad-turbocharged W16 736 kW (1,001 PS; 987 hp)",,,,,,speed_records
+Bugatti,FR,Veyron Super Sport,2010,ICE,,2.7,,,9.9,,,,,,,,,,76.8,"Series 15, Episode 05","acceleration, top_gear"
+Bugatti,FR,Veyron Super Sport/Grand Sport Vitesse,2010,,,,,,,,,1183.0,882.0,,,,,,,,power_output
+C8,US,Corvette Z06 (2024),,,,,,,,,,,,,,430.52,2024-12-11,Christian Gebhardt,,,nurburgring
+Cadillac,US,CTS-V (2009),,,,,,,,,,,,,,479.32,2008-05-09,John Heinricy,,,nurburgring
+Cadillac,US,CTS-V First Generation (very wet),,,,,,,,,,,,,,,,,93.4,"Series 06, Episode 04",top_gear
+Callaway,US,C12 Coupe,,,,,,,,,,,,,,505.0,1999,Horst von Saurma,,,nurburgring
+Caterham,GB,7 160 (wet),,,,,,,,,,,,,,,,,105.5,"Series 21, Episode 04",top_gear
+Caterham,GB,R400,,,,,,,,,,,,,,,,,85.0,"Series 02, Episode 06",top_gear
+Caterham,GB,R500 Superlight,,,,,,,,,,,,,,475.0,2000,Robert Nearn,,,nurburgring
+Caterham,GB,Seven 620R (wet),,,,,,,,,,,,,,,,,82.3,"Series 21, Episode 04",top_gear
+Caterham,GB,Seven Superlight R500 (cold),,,,,,,,,,,,,,,,,77.9,"Series 12, Episode 06",top_gear
+Chery,CN,Riich G5 2.0T,,,,,,,,,,,,,,536.81,2009-10-13,Dirk Schoysman,,,nurburgring
+Chevrolet,US,Camaro SS (2010),,,,,,,,,,,,,,500.0,2008,,87.9,"Series 15, Episode 03","nurburgring, top_gear"
+Chevrolet,US,Camaro Z/28 (2014),,,,,,,,,,,,,,457.4,2013-10,Adam Dean,,,nurburgring
+Chevrolet,US,Camaro ZL1 (2017),,,,,,,,,,,,,,449.6,2016-10-24,Drew Cattell,,,nurburgring
+Chevrolet,US,Camaro ZL1 1LE (2018),,,,,,,,,,,,,,436.04,2017,Bill Wise,,,nurburgring
+Chevrolet,US,Cobalt SS Turbo,,,,,,,,,,,,,,542.0,2007-10,John Heinricy,,,nurburgring
+Chevrolet,US,Cobalt SS/TC (2007),,,,,,,,,,,,,,502.85,2007,,,,nurburgring
+Chevrolet,US,"Corvette (C6, 2005, N/A 6.0, 404 PS)",,,,,,,,,,,,,,495.0,2005,Horst von Saurma,,,nurburgring
+Chevrolet,US,Corvette (C7) Z06,2016,ICE,,,,,10.9,,,,,,,,,,,,acceleration
+Chevrolet,US,Corvette (C7) ZR1,2019,ICE,,,,,10.8,,,,,,,,,,,,acceleration
+Chevrolet,US,Corvette (C8) (2020),,,,,,,,,,,,,,449.9,2019-07,Oliver Gavin,,,nurburgring
+Chevrolet,US,Corvette (C8) E-Ray,2024,Hybrid,2.5,,,,10.6,,,,,,,,,,,,acceleration
+Chevrolet,US,Corvette (C8) Stingray Z51,2020,ICE,2.8,2.9,,,,,,,,,,,,,,,acceleration
+Chevrolet,US,Corvette (C8) Z06,2023,ICE,2.6,,,,10.5,,,,,,,,,,,,acceleration
+Chevrolet,US,Corvette (C8) ZR1,2025,ICE,2.2,,,,9.5,,,1064.0,793.0,,,,,,,,"acceleration, power_output"
+Chevrolet,US,Corvette C5,,,,,,,,,,,,,,520.0,1997,Horst von Saurma,,,nurburgring
+Chevrolet,US,"Corvette C5 Commemorative Edition (2003, 344 PS)",,,,,,,,,,,,,,498.0,2003,Horst von Saurma,,,nurburgring
+Chevrolet,US,Corvette C6 LS2,,,,,,,,,,,,,,,,,86.8,"Series 04, Episode 10",top_gear
+Chevrolet,US,Corvette C6 Z06 (2012),,,,,,,,,,,,,,442.68,2011-06-23,Jim Mero,82.4,"Series 08, Episode 02","nurburgring, top_gear"
+Chevrolet,US,Corvette C6 ZR1 (2012),,,,,,,,,,,,,,439.63,2011-06-09,Jim Mero,,,nurburgring
+Chevrolet,US,Corvette C6 ZR1 (damp),,,,,,,,,,,,,,,,,80.4,"Series 14, Episode 02",top_gear
+Chevrolet,US,Corvette C7 Stingray (written as Corvette S'ray),,,,,,,,,,,,,,,,,79.8,"Series 22, Episode 05",top_gear
+Chevrolet,US,Corvette C8 Stingray (damp),,,,,,,,,,,,,,,,,81.7,"Series 31, Episode 03",top_gear
+Chevrolet,US,Corvette Z06 (2025),,,,,,,,,,,,,,431.826,2025-06,Aaron Link,,,nurburgring
+Chevrolet,US,Corvette Z06 (C5),,,,,,,,,,,,,,476.0,,Dave Hill,,,nurburgring
+Chevrolet,US,"Corvette Z06 (C6, 2007, N/A 7.0, 512 PS)",,,,,,,,,,,,,,469.0,2007-06-22,Horst von Saurma,,,nurburgring
+Chevrolet,US,Corvette Z06 (C7),,,,,,,,,,,,,,433.9,2017-04-24,Christian Gebhardt,,,nurburgring
+Chevrolet,US,Corvette ZR1,,,,,,,,,,,,,,410.763,2025-06,Brian Wallace,,,nurburgring
+Chevrolet,US,Corvette ZR1X,,,,,,,,,,,,,,409.275,2025-06,Drew Cattell,,,nurburgring
+Chrysler,US,Viper GTS,,,,,,,,,,,,,,490.0,1997,Horst von Saurma,,,nurburgring
+Citroën,FR,C4 VTS,,,,,,,,,,,,,,,,,95.8,"Series 05, Episode 06",top_gear
+Clio,FR,Renault Sport 182,,,,,,,,,,,,,,,,,93.8,"Series 04, Episode 06",top_gear
+Clive,GB,Sutton CS850R Mustang,,,,,,,,,,,,,,,,,82.3,—N/a,top_gear
+Cosworth,GB,Impreza STI CS400 (wet) (written as Subaru Cossie),,,,,,,,,,,,,,,,,87.7,"Series 16, Episode 03",top_gear
+Cupra,ES,"Formentor VZ5 (2023, 390 PS)",,,,,,,,,,,,,,478.99,2023,Christian Gebhardt,,,nurburgring
+Cupra,ES,Leon Estate,,,,,,,,,,,,,,,,,87.4,—N/a,top_gear
+Czinger,US,21C,2021,,,,,,,,,1349.0,1006.0,,,,,,,,power_output
+Dacia,FR,Sandero,,,,,,,,,,,,,,,,,99.7,"Series 26, Episode 04",top_gear
+Daimler,DE,Phoenix (de),1899,,,,,,,,,23.0,17.0,,,,,,,,power_output
+Dallara,IT,Stradale,,,,,,,,,,,,,,,,,72.8,"Series 27, Episode 03",top_gear
+Dauer,AT,962 Le Mans,1993,,,,,,,251.4,404.6,720.0,537.0,,"2,994 cc (182.7 cu in) twin-turbocharged flat-6 537 kW (730 PS; 720 hp)",,,,,,"power_output, speed_records"
+Denza,CN,Z9/Z9 GT BEV,2024,,,,,,,,,952.0,710.0,,,,,,,,power_output
+Dodge,US,Challenger SRT Demon,2018,ICE,2.6,,,,10.7,,,,,,,,,,,,acceleration
+Dodge,US,Challenger SRT Demon 170,2023,,,,,,,,,1025.0,764.0,,,,,,,,power_output
+Dodge,US,Viper ACR (2017),,,,,,,,,,,,,,421.3,2017-09-01,Lance David Arnold,75.1,"Series 23, Episode 01","nurburgring, top_gear"
+Dodge,US,Viper ACR-X,,,,,,,,,,,,,,423.06,2012-02,Lance Arnold,,,nurburgring
+Dodge,US,Viper GTS-R,,,,,,,,,,,,,,542.206,2003-06-01,Peter Zakowski/Pedro Lamy/Robert Lechner,,,nurburgring
+Dodge,US,Viper SRT-10,2008,ICE,,,,,10.92,,,,,,,,,,,,acceleration
+Dodge,US,Viper SRT-10 (very wet),,,,,,,,,,,,,,,,,88.5,"Series 05, Episode 03",top_gear
+Dodge,US,Viper SRT-10 roadster (ZB),,,,,,,,,,,,,,493.0,2007,Horst von Saurma,,,nurburgring
+Donkervoort,NL,"D8 180R (2001, 1.8T, 240 PS",,,,,,,,,,,,,,490.0,2001,Horst von Saurma,,,nurburgring
+Donkervoort,NL,D8 RS,,,,,,,,,,,,,,434.89,2006,Michael Düchting,,,nurburgring
+Drako,US,GTE,2020,,,,,,,,,1200.0,895.0,,,,,,,,power_output
+Duesenberg,US,Model SJ,1932,,,,,,,,,320.0,239.0,,,,,,,,power_output
+Duesenberg,US,Model SSJ,1935,,,,,,,,,400.0,298.0,,,,,,,,power_output
+Eagle,GB,Low Drag GT,,,,,,,,,,,,,,,,,87.5,"Series 22, Episode 07",top_gear
+Eagle,GB,Low Drag GT (very wet),,,,,,,,,,,,,,,,,97.8,"Series 22, Episode 07",top_gear
+Einride,SE,,,,,,,,,,,,,,,,,,164.1,—N/a,top_gear
+Electric,US,Raceabout,,,,,,,,,,,,,,522.72,2011-09,Ralf Kelleners,,,nurburgring
+Faraday,US,Future FF 91,2023,,,,,,,,,1050.0,783.0,,,,,,,,power_output
+Ferrari,IT,208 GTB Turbo (Not Shown on TV),,,,,,,,,,,,,,,,,95.3,—N/a,top_gear
+Ferrari,IT,296 GTB,2023,Hybrid,2.3,2.9,,,9.6,,,819.0,610.0,,,418.7,2023-06-07,Christian Gebhardt,,,"acceleration, nurburgring, power_output"
+Ferrari,IT,312T,,,,,,,,,,,,,,418.6,1975-08-02,Niki Lauda,,,nurburgring
+Ferrari,IT,360 Challenge Stradale,,,,,,,,,,,,,,,,,82.3,"Series 04, Episode 03",top_gear
+Ferrari,IT,360 Challenge Stradale F1,,,,,,,,,,,,,,476.0,2004,Horst von Saurma,,,nurburgring
+Ferrari,IT,360 Modena,,,,,,,,,,,,,,489.0,1999,Horst von Saurma,,,nurburgring
+Ferrari,IT,365 GTB/4 Daytona,1968,,,,,,,174.0,280.0,,,,"4,390 cc (268 cu in) V12 262 kW (357 PS; 352 hp)",,,,,,speed_records
+Ferrari,IT,430 Scuderia,,,,,,,,,,,,,,,,,79.7,"Series 11, Episode 01",top_gear
+Ferrari,IT,458 Italia,,,,,,,,,,,,,,458.0,2010,Horst von Saurma,79.1,"Series 15, Episode 06","nurburgring, top_gear"
+Ferrari,IT,"458 Italia (570 PS, 2010)",,,,,,,,,,,,,,452.92,2010-10,Sascha Bert,,,nurburgring
+Ferrari,IT,488 GTB,,,,,,,,,,,,,,441.0,2016-08,Horst von Saurma,,,nurburgring
+Ferrari,IT,488 Pista,2019,ICE,2.7,2.9,,,10.1,,,,,,,420.03,2019-05-16,Christian Gebhardt,72.7,"Series 27, Episode 01","acceleration, nurburgring, top_gear"
+Ferrari,IT,550 Maranello,,,,,,,,,,,,,,487.0,1998,Horst von Saurma,,,nurburgring
+Ferrari,IT,575M Maranello,,,,,,,,,,,,,,485.0,2002,Horst von Saurma,,,nurburgring
+Ferrari,IT,575M Maranello (very wet),,,,,,,,,,,,,,,,,95.2,"Series 01, Episode 04",top_gear
+Ferrari,IT,575M Maranello GTC,,,,,,,,,,,,,,,,,86.8,"Series 05, Episode 04",top_gear
+Ferrari,IT,599 GTB Fiorano,,,,,,,,,,,,,,467.0,2007,Horst von Saurma,81.22,"Series 10, Episode 03","nurburgring, top_gear"
+Ferrari,IT,599 GTO,,,,,,,,,,,,,,,,,79.8,"Series 16, Episode 02",top_gear
+Ferrari,IT,599XX,,,,,,,,,,,,,,418.16,2010-04-21,Raffaele de Simone,,,nurburgring
+Ferrari,IT,812 Competizione/Competizione A,2021,,,,,,,,,819.0,610.0,,,,,,,,power_output
+Ferrari,IT,812 Superfast,2018,ICE,2.8,3.0,,,10.5,,,,,,,447.48,2018-06-20,Christian Gebhardt,,,"acceleration, nurburgring"
+Ferrari,IT,"California (Type F149, 2010, 460 PS)",,,,,,,,,,,,,,476.0,2010,Horst von Saurma,,,nurburgring
+Ferrari,IT,Daytona SP3,2023,,,,,,,,,829.0,618.0,,,,,,,,power_output
+Ferrari,IT,Enzo,,,,,,,,,,,,,,445.21,2008-08,Marc Basseng,79.0,"Series 05, Episode 02","nurburgring, top_gear"
+Ferrari,IT,"F12 Berlinetta (740 PS, 2014)",,,,,,,,,,,,,,453.0,2014-09,Horst von Saurma,,,nurburgring
+Ferrari,IT,F355,,,,,,,,,,,,,,498.0,1997,Horst von Saurma,,,nurburgring
+Ferrari,IT,F430 F1,,,,,,,,,,,,,,475.0,2005,Horst von Saurma,82.9,"Series 06, Episode 08","nurburgring, top_gear"
+Ferrari,IT,F430 Scuderia,,,,,,,,,,,,,,459.0,2008,Horst von Saurma,,,nurburgring
+Ferrari,IT,F430 Spider F1,,,,,,,,,,,,,,,,,83.2,"Series 06, Episode 08",top_gear
+Ferrari,IT,SF90 Stradale,2021,Hybrid,2.0,,,,9.5,,,986.0,735.0,,,,,,71.3,"Series 29, Episode 01","acceleration, power_output, top_gear"
+Ferrari,IT,Testarossa,,,,,,,,,,,,,,557.12,1987,,,,nurburgring
+Fiat,IT,500 Abarth Essesse SS,,,,,,,,,,,,,,,,,95.5,"Series 12, Episode 02",top_gear
+Fiat,IT,"Grande Punto Abarth Esseesse (2009, 180 PS)",,,,,,,,,,,,,,549.0,2009,Horst von Saurma,,,nurburgring
+Fiat,IT,New 500,,,,,,,,,,,,,,,,,99.6,—N/a,top_gear
+Ford,US,Capri Zakspeed Turbo,,,,,,,,,,,,,,428.59,1982-07-04,Klaus Niedzwiedz,,,nurburgring
+Ford,US,F-150 Hennessey VelociRaptor (wet),,,,,,,,,,,,,,,,,96.5,"Series 22, Episode 06",top_gear
+Ford,US,Fiesta ST,,,,,,,,,,,,,,,,,92.7,"Series 20, Episode 01",top_gear
+Ford,US,"Fiesta ST (Mk7, B479, 2020, 1.5 T, 200 PS)",,,,,,,,,,,,,,508.0,2020,Christian Gebhardt,,,nurburgring
+Ford,US,"Fiesta ST Edition (Mk7, B479, 2022, 1.5 T, 200 PS)",,,,,,,,,,,,,,502.33,2022,Christian Gebhardt,,,nurburgring
+Ford,US,"Focus RS (Mk III, 2016, 2.5 T, 350 PS)",,,,,,,,,,,,,,486.29,2017,Christian Gebhardt,,,nurburgring
+Ford,US,"Focus RS (Mk2, C307, 2009, 305 PS)",,,,,,,,,,,,,,506.0,2009,Horst von Saurma,,,nurburgring
+Ford,US,Focus RS 500 (wet),,,,,,,,,,,,,,,,,90.8,"Series 16, Episode 03",top_gear
+Ford,US,Focus RS Mk I,,,,,,,,,,,,,,,,,92.2,"Series 01, Episode 02",top_gear
+Ford,US,Focus RS Mk II,,,,,,,,,,,,,,,,,89.3,"Series 13, Episode 04",top_gear
+Ford,US,Focus RS Mk III,,,,,,,,,,,,,,,,,86.4,Extra Gear,top_gear
+Ford,US,Focus ST,,,,,,,,,,,,,,515.0,2005,Patrick Bernhard,89.6,"Series 19, Episode 04","nurburgring, top_gear"
+Ford,US,"Focus ST (Mk4, C519, 2021, 2.3 T, 280 PS)",,,,,,,,,,,,,,502.7,2021,Christian Gebhardt,,,nurburgring
+Ford,US,Focus ST (Not Shown on TV),,,,,,,,,,,,,,,,,93.5,,top_gear
+Ford,US,Focus ST (written as Asbo ST) (foggy),,,,,,,,,,,,,,,,,94.9,"Series 07, Episode 03",top_gear
+Ford,US,GT,2017,ICE,,,,,10.8,,,,,,,,,,81.9,"Series 04, Episode 08","acceleration, top_gear"
+Ford,US,"GT (Mk1, 2006, 550 PS)",,,,,,,,,,,,,,472.0,2006,Horst von Saurma,,,nurburgring
+Ford,US,Mondeo 2.0i,,,,,,,,,,,,,,,,,101.0,"Series 01, Episode 04",top_gear
+Ford,US,Mondeo ST220,,,,,,,,,,,,,,,,,94.5,"Series 08, Episode 06",top_gear
+Ford,US,Mustang GT,,,,,,,,,,,,,,,,,88.0,"Series 23, Episode 06",top_gear
+Ford,US,"Mustang GT (Mk6, S550, facelift, 2020, N/A 5.0, 450 PS)",,,,,,,,,,,,,,498.0,2020,Christian Gebhardt,,,nurburgring
+Ford,US,Mustang GT Performance Pack,,,,,,,,,,,,,,487.0,2015,Horst von Saurma,,,nurburgring
+Ford,US,Mustang GTD,,,,,,,,,,,,,,412.072,2025-05-01,Dirk Müller,73.7,Stig Laps,"nurburgring, top_gear"
+Ford,US,"Mustang Mach 1 (Mk6, 2021, N/A 5.0, 460 PS)",,,,,,,,,,,,,,478.29,2021-11-03,Christian Gebhardt,,,nurburgring
+Ford,US,Shelby GT500,2020,ICE,,,,,10.61,,,,,,,,,,90.0,"Series 09, Episode 06","acceleration, top_gear"
+Ford,US,Transit,,,,,,,,,,,,,,608.49,,Sabine Schmitz,,,nurburgring
+Ford,US,Transit Supervan 4.2,,,,,,,,,,,,,,408.393,2025-08-18,Romain Dumas,,,nurburgring
+Ford,US,Transit World Rally,,,,,,,,,,,,,,,,,122.0,"Series 01, Episode 08",top_gear
+GMC,US,Hummer EV Edition 1/EV3X,2022,,,,,,,,,1000.0,746.0,,,,,,,,power_output
+Gumpert,DE,Apollo S,,,,,,,,,,,,,,,,,77.1,"Series 11, Episode 06",top_gear
+Gumpert,DE,Apollo Sport,,,,,,,,,,,,,,431.57,2009-08-13,Florian Gruber,,,nurburgring
+HSV,AU,Maloo,,,,,,,,,,,,,,,,,87.1,"Series 13, Episode 07",top_gear
+Hawk,GB,HF3000 (wet) (Kit car with Alfa Romeo V6 engine – spun twice during timed lap),,,,,,,,,,,,,,,,,108.2,"Series 14, Episode 03",top_gear
+Hennessey,US,Venom F5,2021,,,,,,,,,2032.0,1515.0,,,,,,,,power_output
+Hennessey,US,Venom GT,2014,,,,,,,270.49,435.31,,,,"7,000 cc (430 cu in) twin-turbocharged V8 928 kW (1,261 PS; 1,244 bhp)",,,,,,speed_records
+Hispano-Suiza,ES,60/75,1907,,,,,,,,,74.0,55.0,,,,,,,,power_output
+Holden,AU,Monaro (written as Loser) (wet),,,,,,,,,,,,,,,,,93.9,"Series 03, Episode 06",top_gear
+Holden,AU,VF SS Redline Ute,,,,,,,,,,,,,,499.47,2013-04,Rob Trubiani,,,nurburgring
+Honda,JP,Accord,,,,,,,,,,,,,,,,,104.0,"Series 01, Episode 04",top_gear
+Honda,JP,Civic Type R,,,,,,,,,,,,,,,,,96.5,"Series 01, Episode 02",top_gear
+Honda,JP,Civic Type R (FK2),,,,,,,,,,,,,,495.0,2016,Christian Gebhardt,87.7,"Series 23, Episode 03","nurburgring, top_gear"
+Honda,JP,Civic Type R (FK8),,,,,,,,,,,,,,463.8,2017-04,,85.6,"Series 25, Episode 03","nurburgring, top_gear"
+Honda,JP,"Civic Type R (FK8, 2018, 2.0 T, 320 PS)",,,,,,,,,,,,,,481.0,2018,Christian Gebhardt,,,nurburgring
+Honda,JP,Civic Type R Prototype,,,,,,,,,,,,,,470.63,2014-05,,,,nurburgring
+Honda,JP,Civic Type R S grade (FL5 available in select European countries),,,,,,,,,,,,,,459.691,2023-03-24,Néstor Girolami,,,nurburgring
+Honda,JP,Civic Type-R (2004 Facelift),,,,,,,,,,,,,,,,,92.8,"Series 05, Episode 06",top_gear
+Honda,JP,Civic Type-R (EP3),,,,,,,,,,,,,,,,,98.06,"Series 01, Episode 02",top_gear
+Honda,JP,Civic Type-R (FN2-2007),,,,,,,,,,,,,,,,,93.5,"Series 10, Episode 06",top_gear
+Honda,JP,Civic Type-R 2.0i LS,,,,,,,,,,,,,,527.0,2001,Horst von Saurma,,,nurburgring
+Honda,JP,"NSX (1 gen, 1997, 280 PS)",,,,,,,,,,,,,,518.0,1997,Horst von Saurma,,,nurburgring
+Honda,JP,NSX (NA1),,,,,,,,,,,,,,486.56,2016-09,Fredrik Sørlie,,,nurburgring
+Honda,JP,"NSX (NC1, 2016)",,,,,,,,,,,,,,456.0,2017-03,Christian Gebhardt,,,nurburgring
+Honda,JP,NSX (second generation),,,,,,,,,,,,,,,,,77.6,"Series 23, Episode 06",top_gear
+Honda,JP,NSX Type S,2022,Hybrid,2.9,,,,,,,,,,,,,,,,acceleration
+Honda,JP,NSX Type-R (wet),,,,,,,,,,,,,,,,,91.6,"Series 03, Episode 09",top_gear
+Honda,JP,NSX-R (NA1),,,,,,,,,,,,,,483.86,1992/10/19,Motoharu Kurosawa,,,nurburgring
+Honda,JP,NSX-R (NA2),,,,,,,,,,,,,,476.73,2002,Motoharu Kurosawa,,,nurburgring
+Honda,JP,"NSX-R (NA2, 2002, facelift, 280 PS)",,,,,,,,,,,,,,489.0,2002,Horst von Saurma,,,nurburgring
+Honda,JP,NSX-R (very wet),,,,,,,,,,,,,,,,,93.7,"Series 01, Episode 06",top_gear
+Honda,JP,RC30,,,,,,,,,,,,,,469.71,1993-05-23,,,,nurburgring
+Honda,JP,S2000,,,,,,,,,,,,,,519.0,2000,Horst von Saurma,,,nurburgring
+Honda,JP,S2000 (very wet),,,,,,,,,,,,,,,,,97.4,"Series 03, Episode 02",top_gear
+Honda,JP,e,,,,,,,,,,,,,,,,,97.5,—N/a,top_gear
+Hyptec,CN,SSR Ultimate/Aion Hyper SSR Ultimate,2023,,,,,,,,,1225.0,913.0,,,,,,,,power_output
+Hyundai,KR,Genesis Coupe 3.8L,,,,,,,,,,,,,,523.0,2011-07,Dmitry Sokolov,,,nurburgring
+Hyundai,KR,Ioniq 5 N,,,,,,,,,,,,,,465.59,2024-01-18,Christian Gebhardt,,,nurburgring
+Hyundai,KR,"i20 N Performance (Mk3, BC3/BI3, 2021, 1.6 T, 204 PS)",,,,,,,,,,,,,,513.6,2021-09-01,Christian Gebhardt,,,nurburgring
+Hyundai,KR,"i30 N Performance Package (PD, facelift, 2022, 2.0 T, 280 PS)",,,,,,,,,,,,,,485.19,2021-12-08,Christian Gebhardt,,,nurburgring
+Hyundai,KR,"i30 N Performance Package (PD, pre-facelift, 2018, 2.0 T, 275 PS)",,,,,,,,,,,,,,500.0,2018,Christian Gebhardt,,,nurburgring
+Hyundai,KR,i30N (very wet),,,,,,,,,,,,,,,,,94.6,"Series 25, Episode 04",top_gear
+Iso,IT,Grifo GL 365,1963,,,,,,,161.0,259.0,,,,"5,354 cc (326.7 cu in) V8 268 kW (365 PS; 360 hp)",,,,,,speed_records
+Isotta,DE,Fraschini Tipo KM,1910,,,,,,,,,119.0,89.0,,,,,,,,power_output
+Jaguar,GB,C-X75,,,,,,,,,,,,,,,,,82.2,Stig Laps,top_gear
+Jaguar,GB,E-Type (modernised),,,,,,,,,,,,,,,,,92.8,"Series 06, Episode 05",top_gear
+Jaguar,GB,F-Type R Coupé,,,,,,,,,,,,,,,,,81.6,"Series 22, Episode 07",top_gear
+Jaguar,GB,S-Type Diesel,,,,,,,,,,,,,,552.0,2004-11-21,Sabine Schmitz,,,nurburgring
+Jaguar,GB,X-Type,,,,,,,,,,,,,,,,,106.0,"Series 01, Episode 04",top_gear
+Jaguar,GB,XE SV Project 8 (2018),,,,,,,,,,,,,,443.164,2019-07,Vincent Radermecker,,,nurburgring
+Jaguar,GB,XFR (written as Jaaaaag XFR),,,,,,,,,,,,,,,,,86.7,"Series 13, Episode 05",top_gear
+Jaguar,GB,XJ220,1992,,,,,,,210.5,338.8,,,,"3,498 cc (213.5 cu in) twin-turbocharged V6 404 kW (550 PS; 542 hp)",,,,,,speed_records
+Jaguar,GB,XJ220 Prototype,,,,,,,,,,,,,,466.0,1991,John Nielsen,,,nurburgring
+Jaguar,GB,XJS,,,,,,,,,,,,,,476.0,1983-07-09,Tom Walkinshaw,,,nurburgring
+Jaguar,GB,XK120,1949,,,,,,,124.6,200.5,,,,"3,442 cc (210.0 cu in) inline-6 119 kW (162 PS; 160 hp)",,,,,,speed_records
+Jaguar,GB,XKR,,,,,,,,,,,,,,505.0,2006,Horst von Saurma,,,nurburgring
+Jaguar,GB,XKR (melted snow),,,,,,,,,,,,,,,,,94.7,"Series 09, Episode 01",top_gear
+Jaguar,GB,"XKR Coupe (X100, 1998, 363 PS)",,,,,,,,,,,,,,529.0,1998,Horst von Saurma,,,nurburgring
+Jaguar,GB,XKR-S,,,,,,,,,,,,,,483.0,2012,Horst von Saurma,83.3,"Series 17, Episode 04","nurburgring, top_gear"
+KTM,AT,X-Bow,,,,,,,,,,,,,,,,,83.1,—N/a,top_gear
+KTM,AT,"X-Bow (2010, 2.0 T, 240 PS)",,,,,,,,,,,,,,490.0,2010,Horst von Saurma,,,nurburgring
+KTM,AT,X-Bow (Driven by new Stig),,,,,,,,,,,,,,,,,87.0,"Series 18, Episode 06",top_gear
+KTM,AT,X-Bow RR,,,,,,,,,,,,,,445.72,2012,Christopher Haase,,,nurburgring
+Kawasaki,JP,ZX-10R (2011),,,,,,,,,,,,,,470.0,2011-09,,,,nurburgring
+Kia,KR,Ceed (melted snow),,,,,,,,,,,,,,,,,105.2,"Series 19, Episode 04",top_gear
+Koenigsegg,SE,Agera,2010,,,,,,,,,947.0,706.0,,,,,,,,power_output
+Koenigsegg,SE,Agera RS,2017,,,,,,,277.87,447.19,,,,"5,000 cc (310 cu in) twin-turbocharged V8 1,000 kW (1,360 PS; 1,341 hp)",,,,,,speed_records
+Koenigsegg,SE,CC8S,,,,,,,,,,,,,,,,,83.9,"Series 02, Episode 07",top_gear
+Koenigsegg,SE,CCR,2004,,,,,,,241.009,387.866,806.0,601.0,,"4,700 cc (290 cu in) twin-supercharged V8 601 kW (817 PS; 806 hp)",454.0,2005-10-17,Horst von Saurma,,,"nurburgring, power_output, speed_records"
+Koenigsegg,SE,CCR/CCX,2004,,,,,,,,,806.0,601.0,,,,,,,,power_output
+Koenigsegg,SE,CCX,,,,,,,,,,,,,,453.55,2008-08,Marc Basseng,,,nurburgring
+Koenigsegg,SE,CCX (with the Top Gear Wing),,,,,,,,,,,,,,,,,77.6,"Series 08, Episode 04",top_gear
+Koenigsegg,SE,CCX (without Top Gear Wing),,,,,,,,,,,,,,,,,80.4,"Series 08, Episode 01",top_gear
+Koenigsegg,SE,Jesko,2023,,,,,,,,,1578.0,1177.0,,,,,,,,power_output
+Koenigsegg,SE,Jesko Attack,,,,,,,,,,,,,,,,,70.9,Stig Laps,top_gear
+Koenigsegg,SE,One:1,2014,,,,,,,,,1341.0,1000.0,,,,,,,,power_output
+Koenigsegg,SE,One:1/Agera RS,2014,,,,,,,,,1341.0,1000.0,,,,,,,,power_output
+Koenigsegg,SE,Regera,2016,,,,,,,,,1479.0,1103.0,,,,,,,,power_output
+LaFerrari,IT,,2015,Hybrid,,,,,10.738,,,949.0,708.0,,,,,,,,"acceleration, power_output"
+Lamborghini,IT,Aventador,2012,ICE,2.7,,,,10.4,,,,,,,,,,,,acceleration
+Lamborghini,IT,Aventador LP700-4,,,,,,,,,,,,,,445.0,2012,Horst von Saurma,76.5,"Series 17, Episode 06","nurburgring, top_gear"
+Lamborghini,IT,Aventador SV,2015,ICE,2.6,2.8,,,10.4,,,,,,,,,,,,acceleration
+Lamborghini,IT,Aventador SVJ,2019,ICE,2.5,,,,10.3,,,,,,,,,,,,acceleration
+Lamborghini,IT,Aventador SVJ LP770-4 (2018),,,,,,,,,,,,,,409.42,2018-07-26,Marco Mapelli,,,nurburgring
+Lamborghini,IT,Aventador SuperVeloce LP750-4 (2015),,,,,,,,,,,,,,419.73,2015-05-18,Marco Mapelli,,,nurburgring
+Lamborghini,IT,Countach 5000QV,1985,,,,,,,185.0,298.0,,,,"5,167 cc (315.3 cu in) V12 335 kW (455 PS; 449 hp)",,,,,,speed_records
+Lamborghini,IT,Countach LP500 S,1982,,,,,,,182.0,293.0,,,,"4,754 cc (290.1 cu in) V12 280 kW (380 PS; 375 hp)",,,,,,speed_records
+Lamborghini,IT,Countach LPI 800-4,2022,,,,,,,,,803.0,599.0,,,,,,,,power_output
+Lamborghini,IT,Diablo GT,,,,,,,,,,,,,,484.0,2000,Horst von Saurma,,,nurburgring
+Lamborghini,IT,Diablo SuperVeloce,,,,,,,,,,,,,,489.0,1997,Horst von Saurma,,,nurburgring
+Lamborghini,IT,Gallardo (wet),,,,,,,,,,,,,,,,,85.8,"Series 03, Episode 04",top_gear
+Lamborghini,IT,"Gallardo E-Gear (pre-facelift, 2003, 500 PS)",,,,,,,,,,,,,,472.0,2003,Horst von Saurma,,,nurburgring
+Lamborghini,IT,Gallardo LP560-4,,,,,,,,,,,,,,,,,79.5,"Series 12, Episode 01",top_gear
+Lamborghini,IT,"Gallardo LP560-4 (2008, 560 PS)",,,,,,,,,,,,,,472.0,2008,Horst von Saurma,,,nurburgring
+Lamborghini,IT,Gallardo LP570-4 Superleggera,,,,,,,,,,,,,,466.0,2007,Horst von Saurma,80.8,—N/a,"nurburgring, top_gear"
+Lamborghini,IT,"Gallardo SE (2006, 520 PS)",,,,,,,,,,,,,,476.65,2006-03,Tom Kristensen,,,nurburgring
+Lamborghini,IT,Gallardo Spyder,,,,,,,,,,,,,,,,,85.7,"Series 08, Episode 07",top_gear
+Lamborghini,IT,"Gallardo Spyder (2007, 520 PS)",,,,,,,,,,,,,,481.84,2007-05,Wolfgang Kaufmann,,,nurburgring
+Lamborghini,IT,Gallardo Superleggera LP570-4,,,,,,,,,,,,,,458.0,2011,Horst von Saurma,,,nurburgring
+Lamborghini,IT,Huracán,2015,ICE,2.5,,,,10.4,,,,,,,,,,,,acceleration
+Lamborghini,IT,Huracán LP610-4,,,,,,,,,,,,,,448.0,2016-07,Christian Gebhardt,75.8,"Series 22, Episode 01","nurburgring, top_gear"
+Lamborghini,IT,Huracán Performante,2018,ICE,2.2,,,,10.2,,,,,,,,,,,,acceleration
+Lamborghini,IT,Huracán Performante LP640-4 (2017),,,,,,,,,,,,,,416.45,2016-10-05,Marco Mapelli,,,nurburgring
+Lamborghini,IT,"Huracán Performante LP640-4 (2018, N/A 5.2, 640 PS)",,,,,,,,,,,,,,427.99,2018-11-09,Christian Gebhardt,,,nurburgring
+Lamborghini,IT,Huracán Performante and Evo,2017,ICE,,2.6,,,,,,,,,,,,,,,acceleration
+Lamborghini,IT,Huracán STO,2021,ICE,2.6,,,,10.5,,,,,,,,,,74.5,Ben Collins Drives,"acceleration, top_gear"
+Lamborghini,IT,Miura P400,1967,,,,,,,171.0,275.0,,,,"3,929 cc (239.8 cu in) V12 261 kW (355 PS; 350 hp)",,,,,,speed_records
+Lamborghini,IT,Miura P400S,1969,,,,,,,179.3,288.6,,,,"3,929 cc (239.8 cu in) V12 276 kW (375 PS; 370 hp)",,,,,,speed_records
+Lamborghini,IT,Murciélago,,,,,,,,,,,,,,470.0,2002,Horst von Saurma,83.7,"Series 03, Episode 04","nurburgring, top_gear"
+Lamborghini,IT,Murciélago (partly damp),,,,,,,,,,,,,,,,,89.0,"Series 01, Episode 01",top_gear
+Lamborghini,IT,Murciélago LP640,,,,,,,,,,,,,,460.0,2007,Giorgio Sanna,79.8,"Series 09, Episode 05","nurburgring, top_gear"
+Lamborghini,IT,Murciélago LP670-4 SuperVeloce,,,,,,,,,,,,,,,,,79.0,"Series 13, Episode 02",top_gear
+Lamborghini,IT,Murciélago SuperVeloce LP670-4,,,,,,,,,,,,,,462.0,2010,Horst von Saurma,,,nurburgring
+Lamborghini,IT,Revuelto,2024,Hybrid,2.2,,,,9.4,,,1001.0,746.0,,,,,,,,"acceleration, power_output"
+Lamborghini,IT,Sián FKP 37,2020,,,,,,,,,807.0,602.0,,,,,,,,power_output
+Lamborghini,IT,Urus,2019,ICE,2.93,,,,,,,,,,,,,,81.7,"Series 29, Episode 03","acceleration, top_gear"
+Lexus,JP,IS-F,,,,,,,,,,,,,,498.0,2009,Horst von Saurma,86.9,"Series 12, Episode 05","nurburgring, top_gear"
+Lexus,JP,LC500,,,,,,,,,,,,,,,,,85.6,"Series 25, Episode 03",top_gear
+Lexus,JP,LFA,,,,,,,,,,,,,,458.0,2010-09,Horst von Saurma,,,nurburgring
+Lexus,JP,LFA (wet),,,,,,,,,,,,,,,,,82.8,"Series 14, Episode 07",top_gear
+Lexus,JP,LFA Nürburgring Package,,,,,,,,,,,,,,434.64,2011-08-31,Akira Iida,,,nurburgring
+Litchfield,GB,Toyota GR Yaris,,,,,,,,,,,,,,,,,85.0,—N/a,top_gear
+Lotus,GB,Elise (wet),,,,,,,,,,,,,,,,,94.9,"Series 01, Episode 07",top_gear
+Lotus,GB,Elise Sport 190,,,,,,,,,,,,,,,,,88.2,"Series 02, Episode 06",top_gear
+Lotus,GB,Esprit Sport 350,,,,,,,,,,,,,,493.0,1999,Horst von Saurma,,,nurburgring
+Lotus,GB,Esprit V8 (cold tyres),,,,,,,,,,,,,,,,,91.9,"Series 01, Episode 10",top_gear
+Lotus,GB,Evija,2024,Electric,,,,,9.5,,,2012.0,1500.0,,,,,,,,"acceleration, power_output"
+Lotus,GB,Evija X,,,,,,,,,,,,,,384.047,2023-10-13,Dirk Müller,,,nurburgring
+Lotus,GB,Evora (written as Lotus Dress Shop),,,,,,,,,,,,,,,,,85.7,"Series 13, Episode 01",top_gear
+Lotus,GB,"Evora 400(2016, 3.5 S/C, 406 PS)",,,,,,,,,,,,,,479.0,2016,Christian Gebhardt,,,nurburgring
+Lotus,GB,"Exige (Mk1, 2000, 179 PS)",,,,,,,,,,,,,,522.0,2000,Horst von Saurma,,,nurburgring
+Lotus,GB,"Exige (Mk2, N/A 1.8, 192 PS)",,,,,,,,,,,,,,512.0,2004,Horst von Saurma,,,nurburgring
+Lotus,GB,Exige (mildly moist),,,,,,,,,,,,,,,,,86.4,"Series 04, Episode 01",top_gear
+Lotus,GB,Exige Cup 380 (2017),,,,,,,,,,,,,,468.13,2017-07-27,Christian Gebhardt,,,nurburgring
+Lotus,GB,Exige S,,,,,,,,,,,,,,505.0,2008,Horst von Saurma,85.1,"Series 08, Episode 03","nurburgring, top_gear"
+Lucid,US,Air Dream Edition Performance,2022,Electric,2.6,,,,,,,,,,,,,,,,acceleration
+Lucid,US,Air Sapphire,2024,Electric,1.9,,,,9.1,,,1200.0,895.0,,,,,,,,"acceleration, power_output"
+Lucid,US,Gravity Grand Touring,2025,,,,,,,,,828.0,617.0,,,,,,,,power_output
+Lynk,CN,& Co 03 Cyan Concept,,,,,,,,,,,,,,440.143,2019-08-19,Thed Björk,,,nurburgring
+M-Hero,CN,917 BEV,2023,,,,,,,,,1073.0,800.0,,,,,,,,power_output
+MG,GB,XPower SV,,,,,,,,,,,,,,,,,88.6,"Series 03, Episode 07",top_gear
+MG,GB,ZR,,,,,,,,,,,,,,,,,94.0,"Series 01, Episode 08",top_gear
+MG,GB,ZT 260,,,,,,,,,,,,,,,,,93.7,"Series 04, Episode 05",top_gear
+Mini,GB,Cooper S Works,,,,,,,,,,,,,,,,,94.2,"Series 05, Episode 06",top_gear
+MMX,CN,BMW M2,,,,,,,,,,,,,,,,,80.5,Ben Collins Drives,top_gear
+MV,IT,Agusta F4 R 312,,,,,,,,,,,,,,441.8,2007-10-15,,,,nurburgring
+March,GB,Engineering 832-BMW,,,,,,,,,,,,,,388.03,1983-04-24,Christian Danner,,,nurburgring
+Marcos,GB,TSO GT2,,,,,,,,,,,,,,,,,88.2,"Series 07, Episode 05",top_gear
+Maserati,IT,3200 GT,,,,,,,,,,,,,,517.0,2000,Horst von Saurma,,,nurburgring
+Maserati,IT,4200 GT (very wet),,,,,,,,,,,,,,,,,98.0,"Series 01, Episode 08",top_gear
+Maserati,IT,5000 GT,1959,,,,,,,172.4,277.5,,,,"4,935 cc (301.2 cu in) V8 254 kW (345 PS; 340 bhp)",,,,,,speed_records
+Maserati,IT,Coupe Cambiocorsa,,,,,,,,,,,,,,510.0,2002,Horst von Saurma,,,nurburgring
+Maserati,IT,Gran Turismo MC Stradale,,,,,,,,,,,,,,,,,83.1,"Series 18, Episode 05",top_gear
+Maserati,IT,GranSport,,,,,,,,,,,,,,498.0,2005,Horst von Saurma,,,nurburgring
+Maserati,IT,"GranTurismo MC Stradale (M145, 2012, N/A 4.7, 450 PS)",,,,,,,,,,,,,,494.0,2012,Horst von Saurma,,,nurburgring
+Maserati,IT,MC12,,,,,,,,,,,,,,444.29,2008-08,Marc Basseng,78.9,"Series 06, Episode 02","nurburgring, top_gear"
+Maserati,IT,MC20,2022,ICE,,,,,11.0,,,,,,,,,,76.6,"Series 32, Episode 04","acceleration, top_gear"
+Maserati,IT,MC20 (very wet),,,,,,,,,,,,,,,,,90.4,"Series 32, Episode 04",top_gear
+Maurer,DE,MM82-BMW,,,,,,,,,,,,,,426.51,1982-04-25,Stefan Bellof,,,nurburgring
+Mazda,JP,6 MPS,,,,,,,,,,,,,,,,,92.2,"Series 08, Episode 06",top_gear
+Mazda,JP,MAZDASPEED3 (Mazda3 MPS),,,,,,,,,,,,,,519.0,2007,Mark Ticehurst,,,nurburgring
+Mazda,JP,MX-5,,,,,,,,,,,,,,,,,92.0,"Series 22, Episode 07",top_gear
+Mazda,JP,RX-8,,,,,,,,,,,,,,,,,91.8,"Series 03, Episode 05",top_gear
+McLaren,GB,12C,2012,ICE,2.9,,,,10.7,,,,,,,,,,,,acceleration
+McLaren,GB,570S,2017,ICE,2.7,,,,10.5,,,,,,,,,,,,acceleration
+McLaren,GB,570s,2016,ICE,,2.9,,,,,,,,,,,,,,,acceleration
+McLaren,GB,600LT,,,,,,,,,,,,,,428.82,2019-06-06,Christian Gebhardt,75.1,"Series 27, Episode 01","nurburgring, top_gear"
+McLaren,GB,620R,,,,,,,,,,,,,,,,,77.3,Ben Collins Drives,top_gear
+McLaren,GB,650S,2015,ICE,2.7,,,,10.4,,,,,,,,,,,,acceleration
+McLaren,GB,650S Spider,,,,,,,,,,,,,,455.0,2015,Horst von Saurma,,,nurburgring
+McLaren,GB,675LT,2015,ICE,,3.0,,,,,,,,,,,,,73.7,"Series 23, Episode 02","acceleration, top_gear"
+McLaren,GB,720S,2018,ICE,2.5,2.7,,,9.9,,,,,,,428.34,2018-06-28,Christian Gebhardt,,,"acceleration, nurburgring"
+McLaren,GB,750S,2024,ICE,2.3,,,,,,,,,,,,,,,,acceleration
+McLaren,GB,Artura,2023,Hybrid,2.6,,,,10.3,,,,,,,,,,,,acceleration
+McLaren,GB,F1,1995,ICE,,,,,10.8,221.0,356.0,618.0,461.0,,"6,064 cc (370.0 cu in) BMW S70/2 60° V12 461 kW (627 PS; 618 hp)",,,,,,"acceleration, power_output, speed_records"
+McLaren,GB,M23–Ford,,,,,,,,,,,,,,426.5,1976-07-31,James Hunt,,,nurburgring
+McLaren,GB,MP4-12C,,,,,,,,,,,,,,448.0,2011,Horst von Saurma,76.2,"Series 17, Episode 03","nurburgring, top_gear"
+McLaren,GB,MP4-12C GT3,,,,,,,,,,,,,,490.921,2014-06-20,Kévin Estre,,,nurburgring
+McLaren,GB,P1,2015,Hybrid,2.6,,,,9.8,,,903.0,674.0,,,,,,,,"acceleration, power_output"
+McLaren,GB,P1 XP1 LM Prototype,,,,,,,,,,,,,,403.22,2017-04-27,Kenny Bräck,,,nurburgring
+McLaren,GB,Sabre,2021,,,,,,,,,824.0,614.0,,,,,,,,power_output
+McLaren,GB,Senna,2019,ICE,2.9,,,,10.1,,,,,,,,,,,,acceleration
+McLaren,GB,Speedtail,2020,,,,,,,,,1035.0,772.0,,,,,,,,power_output
+Mercedes,DE,35 HP,1901,,,,,,,,,35.0,26.0,,,,,,,,power_output
+Mercedes,DE,AMG E63 S,,,,,,,,,,,,,,,,,79.7,"Series 26, Episode 02",top_gear
+Mercedes,DE,AMG S63,,,,,,,,,,,,,,,,,84.0,"Series 24, Episode 03",top_gear
+Mercedes,DE,Simplex,1902,,,,,,,,,44.0,33.0,,,,,,,,power_output
+Mercedes,DE,Simplex 60 HP,1903,,,,,,,,,59.0,44.0,,,,,,,,power_output
+Mercedes-AMG,DE,A45 S 4MATIC+ (W177),,,,,,,,,,,,,,468.8,2019-10-24,Christian Gebhardt,,,nurburgring
+Mercedes-AMG,DE,C 63 S,,,,,,,,,,,,,,,,,82.6,"Series 27, Episode 02",top_gear
+Mercedes-AMG,DE,"C63 S Coupe (W205, facelift, 2019, 4.0 BT, 510 PS)",,,,,,,,,,,,,,464.13,2019,Christian Gebhardt,,,nurburgring
+Mercedes-AMG,DE,"CLA45s 4MATIC+ (C118, 2022)",,,,,,,,,,,,,,465.34,2022-02-02,Christian Gebhardt,,,nurburgring
+Mercedes-AMG,DE,E 63 S 4MATIC+,2018,ICE,2.8,,,,,,,,,,,,,,,,acceleration
+Mercedes-AMG,DE,"E63 S 4MATIC+ Estate (W213, 2017, 612 PS)",,,,,,,,,,,,,,465.19,2017-09-22,Christian Gebhardt,,,nurburgring
+Mercedes-AMG,DE,GT 63 S,2018,ICE,2.6,,,,,,,,,,,,,,,,acceleration
+Mercedes-AMG,DE,GT 63 S 4MATIC+,2019,ICE,,2.99,,,10.7,,,,,,,,,,,,acceleration
+Mercedes-AMG,DE,"GT 63 S 4MATIC+ (X290, 2018)",,,,,,,,,,,,,,445.41,2018-10-15,Demian Schaffert,,,nurburgring
+Mercedes-AMG,DE,"GT 63 S 4MATIC+ (X290, 2021)",,,,,,,,,,,,,,443.009,2020-11-10,Demian Schaffert,,,nurburgring
+Mercedes-AMG,DE,GT 63 S E-Performance,2022,Hybrid,,2.8,,,,,,831.0,620.0,,,,,,,,"acceleration, power_output"
+Mercedes-AMG,DE,"GT 63 S E-Performance (X290, pre-facelift, 2022, 4.0 TT + 1E-motor, 843 PS)",,,,,,,,,,,,,,448.02,2022-09,Christian Gebhardt,,,nurburgring
+Mercedes-AMG,DE,GT Black Series,2021,ICE,2.9,,,,10.6,,,,,,,408.047,2020-11-04,Maro Engel,,,"acceleration, nurburgring"
+Mercedes-AMG,DE,GT R (2017),,,,,,,,,,,,,,430.92,2016-11-04,Christian Gebhardt,,,nurburgring
+Mercedes-AMG,DE,GT R (partly damp),,,,,,,,,,,,,,,,,76.0,"Series 24, Episode 06",top_gear
+Mercedes-AMG,DE,GT R Pro,,,,,,,,,,,,,,424.632,2018-11,Maro Engel,,,nurburgring
+Mercedes-AMG,DE,"GT S (pre-facelift, 2015, 510 PS)",,,,,,,,,,,,,,455.0,2015,Horst von Saurma,,,nurburgring
+Mercedes-AMG,DE,"GT S (pre-facelift, 2016, 510 PS)",,,,,,,,,,,,,,456.0,2016,Christian Gebhardt,,,nurburgring
+Mercedes-AMG,DE,GT3 Evo,,,,,,,,,,,,,,489.058,2023-05-19,Raffaele Marciello,,,nurburgring
+Mercedes-AMG,DE,GT63 S E Performance,2025,Hybrid,2.4,,,,10.4,,,,,,,,,,,,acceleration
+Mercedes-AMG,DE,GTS,,,,,,,,,,,,,,,,,77.5,"Series 22, Episode 04",top_gear
+Mercedes-AMG,DE,One,2022,,,,,,,,,1049.0,782.0,,,389.09,2024-09-23,Maro Engel,,,"nurburgring, power_output"
+Mercedes-AMG,DE,S 63 E Performance,2025,Hybrid,2.6,,,,,,,,,,,,,,,,acceleration
+Mercedes-Benz,DE,300 SL,1955,,,,,,,150.7,242.5,,,,"2,996 cc (182.8 cu in) inline-6 158 kW (215 PS; 212 hp)",,,,,,speed_records
+Mercedes-Benz,DE,"A 45 AMG|Mercedes-Benz A45 AMG 4MATIC (W176, pre-facelift)",,,,,,,,,,,,,,490.0,2014-03,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,"A45 AMG 4MATIC (W176, facelift)",,,,,,,,,,,,,,484.0,2016-02,Christian Gebhardt,,,nurburgring
+Mercedes-Benz,DE,C-Class (W203),,,,,,,,,,,,,,,,,103.0,"Series 01, Episode 04",top_gear
+Mercedes-Benz,DE,C32 AMG (W203),,,,,,,,,,,,,,517.0,2001,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,C43 AMG (W202),,,,,,,,,,,,,,531.0,1998,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,C55 AMG (W203),,,,,,,,,,,,,,502.0,2004,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,C63 AMG (W204),,,,,,,,,,,,,,493.0,2008,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,C63 AMG Black Series,,,,,,,,,,,,,,,,,81.0,"Series 18, Episode 05",top_gear
+Mercedes-Benz,DE,C63 AMG Coupe Black Series,,,,,,,,,,,,,,466.0,2011,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,C63 AMG Coupe Performance Package (W204),,,,,,,,,,,,,,481.0,2013-03,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,CL65 AMG,,,,,,,,,,,,,,,,,89.0,"Series 04, Episode 09",top_gear
+Mercedes-Benz,DE,CLK 63 AMG Black series,,,,,,,,,,,,,,,,,86.0,"Series 11, Episode 02",top_gear
+Mercedes-Benz,DE,"CLK DTM AMG (W209, 2004, 582 PS)",,,,,,,,,,,,,,474.0,2005-02,"Marcus Schurig (chief-editor of ""Sport Auto"" magazine)",,,nurburgring
+Mercedes-Benz,DE,"CLK DTM AMG (W209, 2006, 582 PS)",,,,,,,,,,,,,,476.5,2006-03,Klaus Ludwig,,,nurburgring
+Mercedes-Benz,DE,CLK430 Coupe (W208),,,,,,,,,,,,,,532.0,1998,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,CLK55 AMG (W208),,,,,,,,,,,,,,509.0,2000,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,CLK63 AMG Black Series,,,,,,,,,,,,,,465.0,2007-05-01,Bernd Schneider,,,nurburgring
+Mercedes-Benz,DE,CLK63 Black Series,,,,,,,,,,,,,,485.0,2007,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,CLS55 AMG,,,,,,,,,,,,,,,,,86.9,"Series 06, Episode 01",top_gear
+Mercedes-Benz,DE,"CLS63 AMG (W218, facelift, 2013)",,,,,,,,,,,,,,479.0,2013-07,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,"CLS63 AMG Performance Package (W218, pre-facelift, 2011)",,,,,,,,,,,,,,483.0,2011-05,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,E55 AMG (very wet),,,,,,,,,,,,,,,,,95.5,"Series 01, Episode 08",top_gear
+Mercedes-Benz,DE,E63 AMG,,,,,,,,,,,,,,,,,84.9,"Series 15, Episode 03",top_gear
+Mercedes-Benz,DE,"E63 AMG (W212, pre-facelift, 2010, N/A 6.2, 525 PS)",,,,,,,,,,,,,,490.0,2010,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,"E63 AMG S 4MATIC (W212R, second facelift, 2013, B/T 5.5, 585 PS)",,,,,,,,,,,,,,475.0,2013-09,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,G55 AMG (W463),,,,,,,,,,,,,,685.5,2007-06-29,Wolfgang Kaufmann,,,nurburgring
+Mercedes-Benz,DE,GLC63s AMG 4MATIC+ (X253),,,,,,,,,,,,,,469.369,2018-11-22,Markus Hofbauer,,,nurburgring
+Mercedes-Benz,DE,S63 AMG (wet),,,,,,,,,,,,,,,,,92.1,"Series 14, Episode 01",top_gear
+Mercedes-Benz,DE,"SL500 (R230, pre-facelift, 2001, 306 PS)",,,,,,,,,,,,,,518.0,2001,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,SL500 (Ronnie O'Sullivan's),,,,,,,,,,,,,,,,,97.0,"Series 04, Episode 04",top_gear
+Mercedes-Benz,DE,"SL55 AMG (R230, 2002, 476 PS)",,,,,,,,,,,,,,492.0,2002,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,"SL55 AMG (R230, 2003, 500 PS)",,,,,,,,,,,,,,486.0,2003,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,"SL55 AMG (R230, second facelift, 2007, 517 PS)",,,,,,,,,,,,,,516.1,2007,Dierk Möller-Sonntag,,,nurburgring
+Mercedes-Benz,DE,SL55 AMG (owned by Jeremy Clarkson at the time) (very wet),,,,,,,,,,,,,,,,,93.2,"Series 01, Episode 06",top_gear
+Mercedes-Benz,DE,"SL65 AMG (R230, pre-facelift, 2005)",,,,,,,,,,,,,,494.0,2005,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,SL65 AMG Black Series,,,,,,,,,,,,,,471.0,2009,Horst von Saurma,83.0,"Series 13, Episode 03","nurburgring, top_gear"
+Mercedes-Benz,DE,"SLK230 Kompressor AMG (R170, 1997, 193 PS)",,,,,,,,,,,,,,547.0,1997,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,SLK32 AMG (R170),,,,,,,,,,,,,,506.0,2001,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,SLK350,,,,,,,,,,,,,,,,,92.9,"Series 05, Episode 07",top_gear
+Mercedes-Benz,DE,SLK55 AMG (R171),,,,,,,,,,,,,,504.0,2005,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,SLK55 AMG Black Series,,,,,,,,,,,,,,494.0,2007,Horst von Saurma,,,nurburgring
+Mercedes-Benz,DE,SLR McLaren,,,,,,,,,,,,,,460.0,2004,Klaus Ludwig,80.9,"Series 04, Episode 02","nurburgring, top_gear"
+Mercedes-Benz,DE,SLS AMG,,,,,,,,,,,,,,460.0,2010,Horst von Saurma,81.6,—N/a,"nurburgring, top_gear"
+Mercedes-Benz,DE,SLS AMG Black Series,,,,,,,,,,,,,,445.67,2013-08,Markus Hofbauer,79.0,"Series 20, Episode 04","nurburgring, top_gear"
+Mercedes-Benz,DE,"SLS AMG Coupe Electric Drive (2013, 751 PS)",,,,,,,,,,,,,,470.23,2013-06-03,Markus Hofbauer,,,nurburgring
+Mercedes-Benz,DE,SLS AMG Electric Drive,,,,,,,,,,,,,,,,,81.7,"Series 20, Episode 04",top_gear
+Mercedes-Benz,DE,SLS AMG GT (2012),,,,,,,,,,,,,,450.0,2012,,,,nurburgring
+Mercedes-Benz,DE,SLS AMG Roadster,,,,,,,,,,,,,,,,,79.6,"Series 18, Episode 02",top_gear
+Mercedes-Benz,DE,W154,,,,,,,,,,,,,,583.1,1938-07-24,Hermann Lang,,,nurburgring
+Mercury,US,Monterey,1958,,,,,,,,,400.0,298.0,,,,,,,,power_output
+Mini,GB,Cooper,,,,,,,,,,,,,,,,,108.3,"Series 04, Episode 08",top_gear
+Mini,GB,"Cooper S JCW (F55/F56/F57, 2015, 2.0 T, 231 PS)",,,,,,,,,,,,,,515.0,2015,Christian Gebhardt,,,nurburgring
+Mini,GB,"Cooper S JCW (R50/R53, S/C 1.6, 200 PS)",,,,,,,,,,,,,,535.0,2004,Horst von Saurma,,,nurburgring
+Mini,GB,"Cooper S JCW (R56/R57, 2009, 1.6 T, 211 PS)",,,,,,,,,,,,,,515.0,2009,Horst von Saurma,,,nurburgring
+Mini,GB,"Cooper S JCW GP (Mk3, F56, 2020, 2.0 T, 306 PS)",,,,,,,,,,,,,,483.86,2020-07-14,Christian Gebhardt,,,nurburgring
+Mini,GB,"E racer, Electric",,,,,,,,,,,,,,592.0,2010-04,Thomas Jäger,,,nurburgring
+Mini,GB,"John Cooper Works Pro (F56, 2017, 2.0 T, 231 PS)",,,,,,,,,,,,,,508.0,2017,Christian Gebhardt,,,nurburgring
+Mitsubishi,JP,"Carisma GT Evo VI (Mk6, 1999, 280 PS)",,,,,,,,,,,,,,505.0,1999,Horst von Saurma,,,nurburgring
+Mitsubishi,JP,"Carisma GT Evo VII (Mk7, 2002, 280 PS)",,,,,,,,,,,,,,505.0,2002,Horst von Saurma,,,nurburgring
+Mitsubishi,JP,Lancer Evo IX,,,,,,,,,,,,,,491.16,,Takayuki Kinoshita,,,nurburgring
+Mitsubishi,JP,Lancer Evolution VIII MR FQ-300,,,,,,,,,,,,,,,,,88.9,"Series 02, Episode 06",top_gear
+Mitsubishi,JP,Lancer Evolution VIII MR FQ-400 (damp),,,,,,,,,,,,,,,,,84.8,"Series 05, Episode 07",top_gear
+Mitsubishi,JP,Lancer Evolution VIII MR FQ320,,,,,,,,,,,,,,,,,86.0,"Series 04, Episode 04",top_gear
+Mitsubishi,JP,Lancer Evolution VIII MR GSR,,,,,,,,,,,,,,494.98,2003,Motoharu Kurosawa,,,nurburgring
+Mitsubishi,JP,Lancer Evolution X FQ-300,,,,,,,,,,,,,,,,,88.22,"Series 11, Episode 02",top_gear
+Modified,US,Volkswagen Golf GTI MKII,,,,,,,,,,,,,,,,,94.4,—N/a,top_gear
+Modified,US,Volkswagen Golf GTI MKV,,,,,,,,,,,,,,,,,91.5,—N/a,top_gear
+Morgan,GB,3 Wheeler (written as Morgan Tricycle),,,,,,,,,,,,,,,,,100.4,"Series 18, Episode 06",top_gear
+Morgan,GB,"Aero 8 (Series 1, pre-facelift, 2003, 286 PS)",,,,,,,,,,,,,,519.0,2003-03-01,Horst von Saurma,,,nurburgring
+Morgan,GB,Aero 8 GTN,,,,,,,,,,,,,,,,,85.9,"Series 05, Episode 05",top_gear
+Mygale,GB,M12-SJ-Ford Ecoboost,,,,,,,,,,,,,,442.0,2012-09-04,Nick Tandy,,,nurburgring
+NIO,CN,EP9,2016,,,,,,,,,1341.0,1000.0,,,405.9,2017-05-12,Peter Dumbreck,,,"nurburgring, power_output"
+Nissan,JP,300ZX,,,,,,,,,,,,,,,,,95.0,"Series 13, Episode 05",top_gear
+Nissan,JP,350Z,,,,,,,,,,,,,,506.0,2003,Horst von Saurma,91.8,"Series 03, Episode 05","nurburgring, top_gear"
+Nissan,JP,370Z GT,,,,,,,,,,,,,,,,,87.5,"Series 13, Episode 06",top_gear
+Nissan,JP,GT-R (2013),,,,,,,,,,,,,,439.1,2012,Toshio Suzuki,77.8,"Series 17, Episode 04","nurburgring, top_gear"
+Nissan,JP,GT-R (R35),,,,,,,,,,,,,,456.0,2011,Horst von Saurma,,,nurburgring
+Nissan,JP,GT-R Nismo,2020,ICE,2.48,3.0,,,,,,,,,,428.679,2013-09-30,Michael Krumm,,,"acceleration, nurburgring"
+Nissan,JP,GT-R Spec-V,,,,,,,,,,,,,,454.46,2009,,,,nurburgring
+Nissan,JP,Skyline GT-R R32,,,,,,,,,,,,,,502.38,1989,Motoharu Kurosawa,,,nurburgring
+Nissan,JP,Skyline GT-R R33,,,,,,,,,,,,,,479.887,1996,Dirk Schoysman,,,nurburgring
+Noble,GB,M12 GTO (wet),,,,,,,,,,,,,,,,,92.9,"Series 01, Episode 02",top_gear
+Noble,GB,M12 GTO-3,,,,,,,,,,,,,,,,,85.0,"Series 02, Episode 10",top_gear
+Noble,GB,M15,,,,,,,,,,,,,,,,,82.5,"Series 08, Episode 08",top_gear
+Noble,GB,M400 (damp) (Shown on Top Gear Revved Up DVD),,,,,,,,,,,,,,,,,86.0,—N/a,top_gear
+Noble,GB,M600 (cold),,,,,,,,,,,,,,,,,77.7,"Series 14, Episode 05",top_gear
+Opel,DE,"Astra OPC (J, P10, 2012, 2.0 T, 280 PS)",,,,,,,,,,,,,,500.0,2012,Horst von Saurma,,,nurburgring
+Opel,DE,Corsa 1.6 Turbo OPC,,,,,,,,,,,,,,534.0,2008,Horst von Saurma,,,nurburgring
+Opel,DE,Corsa B,,,,,,,,,,,,,,552.0,2020-06-24,Steven Stephan,,,nurburgring
+Opel,DE,Corsa OPC,,,,,,,,,,,,,,527.99,2007,Manuel Reuter,,,nurburgring
+Opel,DE,"Corsa OPC (E, X15, 2015, 1.6 T, 207 PS)",,,,,,,,,,,,,,520.0,2015,Christian Gebhardt,,,nurburgring
+Opel,DE,"Speedster Turbo (2004, 200 PS)",,,,,,,,,,,,,,514.0,2004,Horst von Saurma,,,nurburgring
+Overfinch,GB,580 S (very wet),,,,,,,,,,,,,,,,,104.0,"Series 02, Episode 10",top_gear
+P3,US,Suzuki GSX-R600K7,,,,,,,,,,,,,,437.0,n/a,,,,nurburgring
+Pagani,IT,Huayra,,,,,,,,,,,,,,,,,73.8,"Series 19, Episode 01",top_gear
+Pagani,IT,Huayra Imola,2020,,,,,,,,,827.0,617.0,,,,,,,,power_output
+Pagani,IT,Zonda C12 S 7.3 (partly damp),,,,,,,,,,,,,,,,,83.8,"Series 01, Episode 01",top_gear
+Pagani,IT,Zonda F,,,,,,,,,,,,,,453.0,2006,Horst von Saurma,78.4,"Series 07, Episode 04","nurburgring, top_gear"
+Pagani,IT,Zonda F Clubsport (2005),,,,,,,,,,,,,,444.44,2008-08,Marc Basseng,,,nurburgring
+Pagani,IT,Zonda R,,,,,,,,,,,,,,407.5,2010-06-29,Marc Basseng,,,nurburgring
+Pagani,IT,Zonda Roadster F (Clubsport Version),,,,,,,,,,,,,,,,,77.8,"Series 12, Episode 04",top_gear
+Pagani,IT,Zonda S 7.3 (2002),,,,,,,,,,,,,,464.0,2002,Horst von Saurma,,,nurburgring
+Pegaso,ES,Z-102,1953,,,,,,,151.042,243.079,,,,"2,816 cc (171.8 cu in) V8 186 kW (253 PS; 250 bhp)",,,,,,speed_records
+Peugeot,FR,208 GTi,,,,,,,,,,,,,,,,,93.2,"Series 20, Episode 01",top_gear
+Peugeot,FR,RC (wet),,,,,,,,,,,,,,,,,92.0,"Series 01, Episode 07",top_gear
+Peugeot,FR,Type 15,1897,,,,,,,,,8.0,6.0,,,,,,,,power_output
+Pininfarina,IT,Battista,2022,,,,,,,,,1900.0,1417.0,,,,,,,,power_output
+Plymouth,US,Fury Max Wedge Ramcharger II,1963,,,,,,,,,425.0,317.0,,,,,,,,power_output
+Porsche,DE,718 Cayman GTS (damp),,,,,,,,,,,,,,,,,83.5,—N/a,top_gear
+Porsche,DE,718 Cayman S,,,,,,,,,,,,,,,,,81.6,"Series 24, Episode 07",top_gear
+Porsche,DE,718 Cayman S (982),,,,,,,,,,,,,,466.7,2016-09,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 Carrera (993),,,,,,,,,,,,,,508.0,1997,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 Carrera (996.1, pre-facelift, 1998, 300 PS)",,,,,,,,,,,,,,497.0,1998,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 Carrera (996.2, facelift, 2001, 320 PS)",,,,,,,,,,,,,,497.0,2001,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 Carrera 4 (996.1, 2001, 300 PS)",,,,,,,,,,,,,,503.0,2001,Horst von Saurma,,,nurburgring
+Porsche,DE,911 Carrera 4S (992),2020,ICE,2.8,,,,,,,,,,,,,,,,acceleration
+Porsche,DE,911 Carrera GTS (991.2),,,,,,,,,,,,,,443.77,2017-05,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 Carrera GTS and Carrera 4 GTS (992),2022,ICE,2.8,,,,,,,,,,,,,,,,acceleration
+Porsche,DE,911 Carrera RS (964),,,,,,,,,,,,,,503.12,2019,Christian Gebhardt,,,nurburgring
+Porsche,DE,"911 Carrera S (991.1, pre-facelift, 2011, N/A 3.8, 400 PS)",,,,,,,,,,,,,,464.0,2011,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 Carrera S (991.1, pre-facelift, 2012, N/A 3.8, 400 PS)",,,,,,,,,,,,,,457.9,2012-08-28,Timo Glock,,,nurburgring
+Porsche,DE,911 Carrera S (991.2),,,,,,,,,,,,,,453.67,2016-05,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 Carrera S (992),2020,ICE,2.9,,,,,,,,,,,450.41,2019,Christian Gebhardt,,,"acceleration, nurburgring"
+Porsche,DE,911 Carrera S (996),,,,,,,,,,,,,,479.0,2004,Walter Röhrl,,,nurburgring
+Porsche,DE,911 Carrera S (997) (damp) (written as Porsche Rubbish),,,,,,,,,,,,,,,,,86.2,"Series 10, Episode 02",top_gear
+Porsche,DE,"911 Carrera S (997.1, 2005, N/A 3.8, 355 PS)",,,,,,,,,,,,,,485.0,2005,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 Carrera S (997.2, 2009)",,,,,,,,,,,,,,470.0,2008,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 Dakar (992, 2023, 3.0 TT, 480 PS)",,,,,,,,,,,,,,459.4,2023-08-14,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 GT2 (996) by Edo Competition,,,,,,,,,,,,,,435.63,2005-08-04,Patrick Simon,,,nurburgring
+Porsche,DE,"911 GT2 (996.1, 2001, 462 PS)",,,,,,,,,,,,,,466.0,2001,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 GT2 (997, 2007)",,,,,,,,,,,,,,451.0,2007,Walter Röhrl,,,nurburgring
+Porsche,DE,"911 GT2 (997.1, pre-facelift, 2007, 3.6 TT, 530 PS)",,,,,,,,,,,,,,453.0,2007,Horst von Saurma,,,nurburgring
+Porsche,DE,911 GT2 RS (991),2018,ICE,2.5,2.55,,,10.1,,,,,,,,,,,,acceleration
+Porsche,DE,911 GT2 RS (991.2),,,,,,,,,,,,,,411.45,2017-09-20,Lars Kern,,,nurburgring
+Porsche,DE,"911 GT2 RS (991.2, 2018, 3.8 TT, 700 PS)",,,,,,,,,,,,,,418.28,2018-04-17,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 GT2 RS (997.2),,,,,,,,,,,,,,438.0,2010,Timo Glock,,,nurburgring
+Porsche,DE,911 GT2 RS MR (991.2) by Manthey Racing,,,,,,,,,,,,,,400.33,2018-10-25,Lars Kern,,,nurburgring
+Porsche,DE,911 GT2 RS Manthey Performance Kit (991.2),,,,,,,,,,,,,,403.3,2021-06-14,Lars Kern,,,nurburgring
+Porsche,DE,911 GT3,,,,,,,,,,,,,,,,,83.1,—N/a,top_gear
+Porsche,DE,"911 GT3 (991.1, pre-facelift, 2013, N/A 3.8, 475 PS)",,,,,,,,,,,,,,452.0,2013-11,Horst von Saurma,,,nurburgring
+Porsche,DE,911 GT3 (991.2),,,,,,,,,,,,,,432.7,2017-05-04,Lars Kern,,,nurburgring
+Porsche,DE,"911 GT3 (991.2, facelift, 2017, N/A 4.0, 500 PS)",,,,,,,,,,,,,,438.0,2017-04-28,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 GT3 (992),2021,ICE,2.7,3.0,,,10.8,,,,,,,,,,,,acceleration
+Porsche,DE,"911 GT3 (992.1, 2022)",,,,,,,,,,,,,,419.927,2020-09-15,Lars Kern,,,nurburgring
+Porsche,DE,"911 GT3 (992.1, pre-facelift, 2021, N/A 4.0, 510 PS)",,,,,,,,,,,,,,424.74,2021-05-05,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 GT3 (996),,,,,,,,,,,,,,474.0,2003,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 GT3 (996.1, pre-facelift, 1999, 360 PS)",,,,,,,,,,,,,,483.0,1999,Horst von Saurma,,,nurburgring
+Porsche,DE,911 GT3 (997.1),,,,,,,,,,,,,,468.0,2006,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 GT3 (997.1, pre-facelift, N/A 3.6, 415 PS)",,,,,,,,,,,,,,462.0,2006,Walter Röhrl,,,nurburgring
+Porsche,DE,911 GT3 (997.2),,,,,,,,,,,,,,460.0,2009,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 GT3 Manthey Performance Kit (992.1, 2023, N/A 4.0, 510 PS)",,,,,,,,,,,,,,419.42,2023-02-08,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 GT3 R (991),,,,,,,,,,,,,,489.105,2018-05-11,Laurens Vanthoor,,,nurburgring
+Porsche,DE,911 GT3 RS,,,,,,,,,,,,,,,,,81.0,—N/a,top_gear
+Porsche,DE,"911 GT3 RS (991.1, pre-facelift, 2015, N/A 4.0, 500 PS)",,,,,,,,,,,,,,448.0,2015,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 GT3 RS (991.2),2019,ICE,2.8,,,,,,,,,,,416.4,2018-04-16,Kévin Estre,,,"acceleration, nurburgring"
+Porsche,DE,"911 GT3 RS (991.2, facelift, 2018, N/A 4.0, 520 PS)",,,,,,,,,,,,,,425.41,2018-04-18,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 GT3 RS (992.1),,,,,,,,,,,,,,409.328,2022-10-05,Jörg Bergmeister,,,nurburgring
+Porsche,DE,911 GT3 RS (996),,,,,,,,,,,,,,463.0,2004-10,Walter Röhrl,,,nurburgring
+Porsche,DE,911 GT3 RS (997.1),,,,,,,,,,,,,,468.0,2007,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 GT3 RS (997.2, 2010)",,,,,,,,,,,,,,453.0,2010,Horst von Saurma,,,nurburgring
+Porsche,DE,911 GT3 RS 4.0 (997),,,,,,,,,,,,,,454.92,2011-09,Sascha Bert,,,nurburgring
+Porsche,DE,"911 GT3 RS 4.0 (997.2, facelift, 2011, N/A 4.0, 500 PS)",,,,,,,,,,,,,,450.0,2011,Horst von Saurma,,,nurburgring
+Porsche,DE,911 GT3 RS MR (991.1) by Manthey Racing,,,,,,,,,,,,,,429.59,2017,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 Sport Classic,,,,,,,,,,,,,,,,,82.9,"Series 15, Episode 02",top_gear
+Porsche,DE,"911 Turbo (996, 2000, 3.6 TT, 420 PS)",,,,,,,,,,,,,,476.0,2000,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 Turbo (997.1, pre-facelift, 2007, 3.6 TT, 480 PS)",,,,,,,,,,,,,,474.0,2007,Horst von Saurma,,,nurburgring
+Porsche,DE,"911 Turbo (997.1, pre-facelift, 2008, 3.6 TT, 480 PS)",,,,,,,,,,,,,,458.0,2008-09,,,,nurburgring
+Porsche,DE,"911 Turbo (997.2, facelift, 2011, 3.8 TT, 500 PS)",,,,,,,,,,,,,,467.0,2011,Horst von Saurma,,,nurburgring
+Porsche,DE,911 Turbo (very wet),,,,,,,,,,,,,,,,,107.0,"Series 02, Episode 10",top_gear
+Porsche,DE,911 Turbo 3.3,,,,,,,,,,,,,,488.73,1991,Motoharu Kurosawa,,,nurburgring
+Porsche,DE,"911 Turbo Cabrio (997.1, pre-facelift, 2007, 480 PS)",,,,,,,,,,,,,,492.8,2007,Dierk Möller-Sonntag,,,nurburgring
+Porsche,DE,911 Turbo S (991 and 991.2),2014,ICE,2.5,,,,,,,,,,,,,,,,acceleration
+Porsche,DE,911 Turbo S (991),2013,ICE,,2.8,,,,,,,,,,,,,,,acceleration
+Porsche,DE,"911 Turbo S (991.1, pre-facelift, 2014, 3.8 TT, 560 PS)",,,,,,,,,,,,,,454.0,2014-02,Horst von Saurma,,,nurburgring
+Porsche,DE,911 Turbo S (991.2),2016,ICE,,2.7,,,,,,,,,,,,,,,acceleration
+Porsche,DE,"911 Turbo S (991.2, facelift, 2018, 3.8 TT, 580 PS)",,,,,,,,,,,,,,437.11,2017-08-24,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 Turbo S (992),2020,ICE,,2.5,,,9.9,,,,,,,,,,,,acceleration
+Porsche,DE,"911 Turbo S (992.1, pre-facelift, 2021, 3.7 TT, 650 PS)",,,,,,,,,,,,,,437.3,2021-01-30,Christian Gebhardt,,,nurburgring
+Porsche,DE,911 Turbo S (997),2011,ICE,2.6,3.0,,,10.7,,,,,,,,,,,,acceleration
+Porsche,DE,"911 Turbo S (997.2, facelift, 2010, 3.8 TT, 530 PS)",,,,,,,,,,,,,,461.23,2010-11,Sascha Bert,,,nurburgring
+Porsche,DE,"911 Turbo S (997.2, facelift, 2011, 3.8 TT, 530 PS)",,,,,,,,,,,,,,464.0,2011,Horst von Saurma,,,nurburgring
+Porsche,DE,911 Turbo S Lightweight (992),2020,ICE,2.1,,,,,,,,,,,,,,,,acceleration
+Porsche,DE,917/10,,,,,,,,,,,,,,454.3,1974-06-16,Emerson Fittipaldi,,,nurburgring
+Porsche,DE,918 Spyder,2015,Hybrid,2.1,2.53,,,9.7,,,874.0,652.0,,,417.0,2013-09-04,Marc Lieb,,,"acceleration, nurburgring, power_output"
+Porsche,DE,919 Hybrid EVO,,,,,,,,,,,,,,319.546,2018-06-29,Timo Bernhard,,,nurburgring
+Porsche,DE,935 K3,,,,,,,,,,,,,,451.7,1979-04-29,Klaus Ludwig,,,nurburgring
+Porsche,DE,956,,,,,,,,,,,,,,371.13,1983-05-28,Stefan Bellof,,,nurburgring
+Porsche,DE,959,1986,,,,,,,198.0,319.0,,,,"2,849 cc (173.9 cu in) twin-turbocharged flat-6 331 kW (450 PS; 444 hp)",,,,,,speed_records
+Porsche,DE,959 S,1988,,,,,,,,,508.0,379.0,,,,,,,,power_output
+Porsche,DE,991 GT2 RS,,,,,,,,,,,,,,,,,73.4,"Series 26, Episode 03",top_gear
+Porsche,DE,991 GT3 RS,,,,,,,,,,,,,,,,,76.1,"Series 24, Episode 06",top_gear
+Porsche,DE,992 GT3 RS,,,,,,,,,,,,,,,,,74.8,Stig Laps,top_gear
+Porsche,DE,992 GT3 RS Manthey,,,,,,,,,,,,,,,,,73.3,Stig Laps,top_gear
+Porsche,DE,996 GT3 (very wet),,,,,,,,,,,,,,,,,87.2,"Series 03, Episode 01",top_gear
+Porsche,DE,996 GT3 RS,,,,,,,,,,,,,,,,,82.3,"Series 04, Episode 03",top_gear
+Porsche,DE,996 GT3-MR,,,,,,,,,,,,,,523.367,2006-06-18,Lucas Luhr/Timo Bernhard/Mike Rockenfeller/ Marcel Tiemann,,,nurburgring
+Porsche,DE,996 Turbo,,,,,,,,,,,,,,424.0,2003-05-29,Uwe Alzen,,,nurburgring
+Porsche,DE,996 Turbo (wet),,,,,,,,,,,,,,,,,91.0,"Series 02, Episode 05",top_gear
+Porsche,DE,997 Carrera S (very wet),,,,,,,,,,,,,,,,,88.9,"Series 05, Episode 01",top_gear
+Porsche,DE,997 GT2,,,,,,,,,,,,,,,,,79.5,"Series 12, Episode 01",top_gear
+Porsche,DE,997 GT3-RSR,,,,,,,,,,,,,,516.768,2009-05-25,Timo Bernhard/Marc Lieb/Romain Dumas/Marcel Tiemann,,,nurburgring
+Porsche,DE,997 Turbo,,,,,,,,,,,,,,418.0,2009-09-05,Jürgen Alzen,,,nurburgring
+Porsche,DE,997 Turbo Cabriolet,,,,,,,,,,,,,,,,,82.2,"Series 15, Episode 04",top_gear
+Porsche,DE,"Boxster (986.1, pre-facelift, 1997, 2.5, 204 PS)",,,,,,,,,,,,,,534.0,1997,Horst von Saurma,,,nurburgring
+Porsche,DE,"Boxster (986.2, facelift, 2003, 2.7, 228 PS)",,,,,,,,,,,,,,516.0,2003,Horst von Saurma,,,nurburgring
+Porsche,DE,Boxster (very wet),,,,,,,,,,,,,,,,,97.0,"Series 03, Episode 02",top_gear
+Porsche,DE,Boxster S,,,,,,,,,,,,,,,,,88.7,"Series 05, Episode 07",top_gear
+Porsche,DE,"Boxster S (981.1, pre-facelift, 2012, N/A 3.4, 315 PS)",,,,,,,,,,,,,,484.0,2012,Horst von Saurma,,,nurburgring
+Porsche,DE,"Boxster S (986.1, pre-facelift, 1999, 252 PS)",,,,,,,,,,,,,,512.0,1999,Horst von Saurma,,,nurburgring
+Porsche,DE,Boxster S (987),,,,,,,,,,,,,,490.0,,,,,nurburgring
+Porsche,DE,"Boxster S (987.1, pre-facelift, 2006, 282 PS)",,,,,,,,,,,,,,503.0,2006,Horst von Saurma,,,nurburgring
+Porsche,DE,"Boxster S (987.2, facelift 2009)",,,,,,,,,,,,,,498.0,2009,Horst von Saurma,,,nurburgring
+Porsche,DE,Boxster Spyder,,,,,,,,,,,,,,,,,84.9,"Series 15, Episode 02",top_gear
+Porsche,DE,"Boxster Spyder (981, 2015, N/A 3.8, 375 PS)",,,,,,,,,,,,,,472.0,2015,Christian Gebhardt,,,nurburgring
+Porsche,DE,Carrera 4S PDK (997),,,,,,,,,,,,,,484.52,2008-10-27,Sascha Bert,,,nurburgring
+Porsche,DE,Carrera GT,2003,ICE,,,,,10.97,,,,,,,,,,79.8,"Series 04, Episode 04","acceleration, top_gear"
+Porsche,DE,"Carrera GT (2006, 612 PS)",,,,,,,,,,,,,,459.49,2006-03,Walter Röhrl,,,nurburgring
+Porsche,DE,Carrera GT (980),,,,,,,,,,,,,,432.69,2024-12-12,Jörg Bergmeister,,,nurburgring
+Porsche,DE,Cayenne Turbo (958),,,,,,,,,,,,,,493.0,2012,,,,nurburgring
+Porsche,DE,Cayenne Turbo GT,2022,ICE,2.8,,,,,,,,,,,,,,81.2,—N/a,"acceleration, top_gear"
+Porsche,DE,"Cayenne Turbo GT (Mk3, PO536 / 9YA, pre-facelift, 2021, 4.0 TT, 640 PS)",,,,,,,,,,,,,,453.95,2021-06-14,Lars Kern,,,nurburgring
+Porsche,DE,Cayenne Turbo S (958.2),,,,,,,,,,,,,,479.74,,,,,nurburgring
+Porsche,DE,"Cayenne Turbo S (Type 9PA (957), 2009, facelift, 4.8-l, 550 PS))",,,,,,,,,,,,,,513.99,2009-10-02,Patrick Simon,,,nurburgring
+Porsche,DE,"Cayman GT4 (718, 2020, N/A 4.0, 420 PS)",,,,,,,,,,,,,,452.0,2020,Christian Gebhardt,,,nurburgring
+Porsche,DE,"Cayman GT4 (981, 2015, N/A 3.8, 385 PS)",,,,,,,,,,,,,,462.39,2015-04,Christian Gebhardt,,,nurburgring
+Porsche,DE,"Cayman GT4 RS (718, 2022, N/A 4.0, 500 PS)",,,,,,,,,,,,,,436.15,2022-05-09,Christian Gebhardt,,,nurburgring
+Porsche,DE,Cayman GT4 RS (982),,,,,,,,,,,,,,429.3,2021-09-17,Jörg Bergmeister,,,nurburgring
+Porsche,DE,Cayman GT4 RS Manthey Performance Kit (982),,,,,,,,,,,,,,423.121,2023-07-13,Jörg Bergmeister,,,nurburgring
+Porsche,DE,Cayman GTS,,,,,,,,,,,,,,,,,81.6,"Series 22, Episode 05",top_gear
+Porsche,DE,Cayman R (987.2),,,,,,,,,,,,,,490.0,2011,Horst von Saurma,,,nurburgring
+Porsche,DE,Cayman S,,,,,,,,,,,,,,,,,86.7,"Series 07, Episode 02",top_gear
+Porsche,DE,"Cayman S (981.1, 2013, PDK, N/A 3.4, 325 PS)",,,,,,,,,,,,,,485.0,2013,Horst von Saurma,,,nurburgring
+Porsche,DE,"Cayman S (987.1, pre-facelift, 2006, 295 PS)",,,,,,,,,,,,,,505.0,2006,Horst von Saurma,,,nurburgring
+Porsche,DE,"Cayman S (987.2, facelift 2009)",,,,,,,,,,,,,,497.0,2009,Horst von Saurma,,,nurburgring
+Porsche,DE,Panamera Sport Turismo Turbo S E-Hybrid,2018,Hybrid,2.8,,,,,,,,,,,,,,,,acceleration
+Porsche,DE,Panamera Turbo,,,,,,,,,,,,,,,,,84.2,"Series 15, Episode 03",top_gear
+Porsche,DE,"Panamera Turbo (970, pre-facelift, 2009, 4.8 TT, 500 PS)",,,,,,,,,,,,,,476.0,2009,Walter Röhrl,,,nurburgring
+Porsche,DE,"Panamera Turbo (971, 2017, 4.0 TT, 550 PS)",,,,,,,,,,,,,,458.0,2016,,,,nurburgring
+Porsche,DE,Panamera Turbo S,2021,ICE,2.6,3.0,,,,,,,,,,,,,,,acceleration
+Porsche,DE,"Panamera Turbo S (970, pre-facelift, 2012, 4.8 TT, 550 PS)",,,,,,,,,,,,,,472.0,2012,Horst von Saurma,,,nurburgring
+Porsche,DE,"Panamera Turbo S (971.2, 2020)",,,,,,,,,,,,,,449.81,2020-07-24,Lars Kern,,,nurburgring
+Porsche,DE,"Panamera Turbo S E-Hybrid (976, 2024)",,,,,,,,,,,,,,444.172,2024-07-12,Lars Kern,,,nurburgring
+Porsche,DE,Taycan Turbo,2020,Electric,2.9,,,,,,,,,,,462.34,2019-08,Lars Kern,,,"acceleration, nurburgring"
+Porsche,DE,Taycan Turbo GT,2025,Electric,1.898,,,,9.06,,,,,,,427.55,2024-01-02,Lars Kern,74.3,,"acceleration, nurburgring, top_gear"
+Porsche,DE,Taycan Turbo S (2023),2020,Electric,2.4,2.6,,,10.3,,,,,,,453.35,2022-04-11,Lars Kern,77.6,"Series 28, Episode 03","acceleration, nurburgring, top_gear"
+Praga,CZ,Bohema,,,,,,,,,,,,,,,,,69.8,Drivetribe,top_gear
+Prodrive,GB,P2 (concept),,,,,,,,,,,,,,,,,84.3,"Series 08, Episode 05",top_gear
+RacingLine,GB,Mk8 Golf R,,,,,,,,,,,,,,,,,83.5,Ben Collins Drives,top_gear
+Radical,GB,SR8,,,,,,,,,,,,,,415.0,2005-09-28,Michael Vergers,,,nurburgring
+Radical,GB,SR8 LM,,,,,,,,,,,,,,412.7,2009-08-19,Michael Vergers,,,nurburgring
+Range Rover,GB,Sport,,,,,,,,,,,,,,,,,89.4,"Series 20, Episode 06",top_gear
+Range Rover,GB,Sport SVR (2015),,,,,,,,,,,,,,494.0,2014-05,,,,nurburgring
+Range Rover,GB,Sport Supercharged (2010),,,,,,,,,,,,,,535.0,2009,Paul Wijgaertz,,,nurburgring
+Renault,FR,"Avantime (written as ""Our Car"" - post-tuning by presenters)",,,,,,,,,,,,,,,,,95.4,"Series 12, Episode 03",top_gear
+Renault,FR,"Avantime (written as ""Our Car"" - pre-tuning by presenters)",,,,,,,,,,,,,,,,,102.5,"Series 12, Episode 03",top_gear
+Renault,FR,Clio 200 Cup (Not Shown on TV),,,,,,,,,,,,,,,,,94.0,"Series 17, Episode 02",top_gear
+Renault,FR,"Clio IV RS 1.6 16V Turbo EDC (Mk4, 2013)",,,,,,,,,,,,,,539.0,2013,Horst von Saurma,,,nurburgring
+Renault,FR,"Clio R.S. 220 Trophy (Mk4, 1-st facelift, 1.6 T, 220 PS)",,,,,,,,,,,,,,503.0,2016,Christian Gebhardt,,,nurburgring
+Renault,FR,Clio V6,,,,,,,,,,,,,,529.0,2001,Horst von Saurma,,,nurburgring
+Renault,FR,"Clio V6 Sport (very wet, spin before finishline)",,,,,,,,,,,,,,,,,96.2,"Series 02, Episode 05",top_gear
+Renault,FR,Laguna,,,,,,,,,,,,,,,,,105.0,"Series 01, Episode 04",top_gear
+Renault,FR,"Megane II Trophy ""Sport Auto"" Edition (Mk2, 2005, 225 PS)",,,,,,,,,,,,,,518.0,2005,Horst von Saurma,,,nurburgring
+Renault,FR,"Megane III RS (Mk III, 2011, 250 PS)",,,,,,,,,,,,,,509.0,2011,Horst von Saurma,,,nurburgring
+Renault,FR,"Megane IV RS (Mk IV, 2019, 280 PS)",,,,,,,,,,,,,,492.0,2019,Christian Gebhardt,,,nurburgring
+Renault,FR,Mégane 225,,,,,,,,,,,,,,,,,94.0,"Series 05, Episode 06",top_gear
+Renault,FR,Mégane III RS 275 Trophy-R,,,,,,,,,,,,,,474.36,2014-06-16,Laurent Hurgon,,,nurburgring
+Renault,FR,Mégane IV R.S. Trophy-R,,,,,,,,,,,,,,460.1,2019-04-05,Laurent Hurgon,,,nurburgring
+Renault,FR,Mégane IV R.S. Trophy-R (No. 25 of 500),,,,,,,,,,,,,,475.12,2019,Christian Gebhardt,,,nurburgring
+Renault,FR,Mégane R26.R,,,,,,,,,,,,,,,,,88.1,"Series 13, Episode 04",top_gear
+Renault,FR,Mégane RS R26.R,,,,,,,,,,,,,,496.9,2008-06-23,Vincent Baylé,,,nurburgring
+Renault,FR,Mégane Renault Sport 265 Trophy,,,,,,,,,,,,,,487.97,2011-06-17,Laurent Hurgon,,,nurburgring
+Renault,FR,Mégane RenaultSport Cup 265,,,,,,,,,,,,,,,,,87.7,"Series 19, Episode 04",top_gear
+Renault,FR,Mégane Sport,,,,,,,,,,,,,,,,,87.0,"Series 26, Episode 03",top_gear
+Renault,FR,Twingo GT (very wet),,,,,,,,,,,,,,,,,109.2,"Series 24, Episode 04",top_gear
+Renaultsport,FR,Clio 200,,,,,,,,,,,,,,,,,92.0,"Series 20, Episode 01",top_gear
+Renaultsport,FR,Mégane 225 Cup,,,,,,,,,,,,,,,,,92.3,"Series 06, Episode 09",top_gear
+Rimac,HR,Nevera,2022,,,,,,,,,1888.0,1408.0,,,425.298,2023-08-18,Martin Kodrić,,,"nurburgring, power_output"
+Rimac,HR,Nevera R,2025,,,,,,,,,2079.0,1550.0,,,,,,,,power_output
+Rivian,US,R1S (Quad Motor),2025,Electric,2.6,,,,,,,,,,,,,,,,acceleration
+Rivian,US,R1T/Rivian R1S Quad-Motor,2021,,,,,,,,,835.0,623.0,,,,,,,,power_output
+Roush,US,Mustang,,,,,,,,,,,,,,,,,88.0,"Series 09, Episode 06",top_gear
+Ruf,DE,BTR,1983,,,,,,,190.0,305.0,,,,"3,367 cc (205.5 cu in) turbocharged flat-6 275 kW (374 PS; 369 hp)",,,,,,speed_records
+Ruf,DE,CTR,1987,,,,,,,213.0,342.0,,,,"3,367 cc (205.5 cu in) twin-turbocharged flat-6 345 kW (469 PS; 463 hp)",,,,,,speed_records
+Ruf,DE,Rt 12,,,,,,,,,,,,,,455.0,2008,Horst von Saurma,,,nurburgring
+SEAT,ES,León Cupra MK2,,,,,,,,,,,,,,,,,93.5,,top_gear
+SEAT,ES,León Cupra R,,,,,,,,,,,,,,,,,92.9,"Series 05, Episode 06",top_gear
+SEAT,ES,León Cupra R Mk1,,,,,,,,,,,,,,523.3,2010-08-07,Øistein Helland,,,nurburgring
+SEAT,ES,León Mk3 Cupra,,,,,,,,,,,,,,478.4,2014-03,Jordi Gené,,,nurburgring
+SSC,US,Tuatara,2021,,,,,,,282.9,455.3,1750.0,1305.0,,"5,900 cc (360 cu in) twin-turbocharged V8 1,300 kW (1,770 PS; 1,750 hp) when on E85 fuel",,,,,,"power_output, speed_records"
+SSC,US,Ultimate Aero,2007,,,,,,,256.14,412.22,,,,"6,345 cc (387.2 cu in) twin-turbocharged V8 882 kW (1,200 PS; 1,183 hp)",,,,,,speed_records
+SSC,US,Ultimate Aero TT,2009,,,,,,,,,1287.0,960.0,,,,,,,,power_output
+Saab,SE,9-5 Aero,,,,,,,,,,,,,,,,,97.9,"Series 03, Episode 03",top_gear
+Seat,ES,"Leon Cupra (Mk3, 5F, 2015, 2.0 T, 280 PS)",,,,,,,,,,,,,,494.0,2015,Horst von Saurma,,,nurburgring
+Shelby,US,Cobra Mk. III 427 Competition,1965,,,,,,,,,485.0,362.0,,,,,,,,power_output
+Skoda,CZ,Fabia VRS,,,,,,,,,,,,,,,,,106.9,"Series 04, Episode 08",top_gear
+Skoda,CZ,Octavia VRS Estate Mk IV,,,,,,,,,,,,,,,,,92.3,—N/a,top_gear
+Smart,DE,Fortwo Brabus (very wet),,,,,,,,,,,,,,,,,109.1,"Series 24, Episode 04",top_gear
+Spyker,NL,C8 Spyder (with hard top),,,,,,,,,,,,,,,,,87.3,"Series 04, Episode 07",top_gear
+Subaru,JP,"BRZ Final Edition (Mk1, ZN6/ZC6, 2020, N/A 2.0, 200 PS)",,,,,,,,,,,,,,523.6,2020-11-19,Christian Gebhardt,,,nurburgring
+Subaru,JP,"Impreza GT Turbo (GC8G (Mk1, 2000, 218 PS))",,,,,,,,,,,,,,517.0,2000,Horst von Saurma,,,nurburgring
+Subaru,JP,Impreza WRX (Europe-spec),,,,,,,,,,,,,,,,,99.0,"Series 01, Episode 02",top_gear
+Subaru,JP,Impreza WRX STI,,,,,,,,,,,,,,,,,88.2,"Series 11, Episode 02",top_gear
+Subaru,JP,Impreza WRX STI WR1,,,,,,,,,,,,,,,,,89.4,"Series 04, Episode 04",top_gear
+Subaru,JP,Impreza WRX STi,,,,,,,,,,,,,,,,,90.1,"Series 02, Episode 06",top_gear
+Subaru,JP,"Impreza WRX STi (GD, 2004, 265 PS)",,,,,,,,,,,,,,504.0,2004,Horst von Saurma,,,nurburgring
+Subaru,JP,Impreza WRX STi Sedan (2011) Prototype,,,,,,,,,,,,,,475.0,2010-04-16,Tommi Mäkinen,,,nurburgring
+Subaru,JP,WRX STI Type RA NBR Special,,,,,,,,,,,,,,417.578,2017-07-21,Richie Stanaway,,,nurburgring
+Subaru,JP,"WRX STi (Mk4, VA, facelift, 2015, 2.5 T, 300 PS)",,,,,,,,,,,,,,508.0,2015,Christian Gebhardt,,,nurburgring
+Subaru,JP,WRX STi Spec-C,,,,,,,,,,,,,,486.01,2004,Motoharu Kurosawa,,,nurburgring
+Suzuki,JP,500,,,,,,,,,,,,,,502.2,1980-08-24,,,,nurburgring
+Suzuki,JP,GSX-R1000 vs Aprilia RSV1000R,,,,,,,,,,,,,,470.0,2002,,,,nurburgring
+Suzuki,JP,GSX-R1000K7,,,,,,,,,,,,,,455.7,n/a,,,,nurburgring
+Suzuki,JP,GSXR 1000,,,,,,,,,,,,,,466.7,2008-05,,,,nurburgring
+Suzuki,JP,Liana,,,,,,,,,,,,,,,,,104.4,"Series 08, Episode 02",top_gear
+Suzuki,JP,Liana (Driven by Black Stig),,,,,,,,,,,,,,,,,106.0,"Series 01, Episode 01",top_gear
+TMG,JP,EV P001,,,,,,,,,,,,,,467.794,2011-08,Jochen Krumbach,,,nurburgring
+TR,GB,Speed 12 (wet),,,,,,,,,,,,,,,,,97.9,DRIVETRIBE,top_gear
+TVR,GB,Sagaris,,,,,,,,,,,,,,,,,84.6,"Series 06, Episode 07",top_gear
+TVR,GB,T350C,,,,,,,,,,,,,,,,,87.5,"Series 02, Episode 10",top_gear
+TVR,GB,Tuscan 2S,,,,,,,,,,,,,,,,,86.4,—N/a,top_gear
+TVR,GB,Tuscan Mk.II,,,,,,,,,,,,,,,,,84.8,"Series 06, Episode 03",top_gear
+Tesla,US,Cybertruck Cyberbeast,2024,,,,,,,,,845.0,630.0,,,,,,,,power_output
+Tesla,US,Model 3 AWD Performance,,,,,,,,,,,,,,,,,81.5,"Series 27, Episode 02",top_gear
+Tesla,US,Model 3 Performance,2019,Electric,2.998,,,,,,,,,,,491.72,2020,,,,"acceleration, nurburgring"
+Tesla,US,Model S P100D,2017,Electric,2.28,,,,10.51,,,,,,,,,,,,acceleration
+Tesla,US,Model S P85D,,,,,,,,,,,,,,530.0,2015,,,,nurburgring
+Tesla,US,Model S P90D w/Ludicrous Speed Upgrade,2015,Electric,2.6,,,,10.8,,,,,,,,,,,,acceleration
+Tesla,US,Model S Performance w/Ludicrous Mode,2020,Electric,2.4,2.9,,,,,,,,,,,,,,,acceleration
+Tesla,US,Model S Plaid,2021,Electric,1.98,2.5,,,,,,,,,,455.579,2021-09-09,Andreas Simonsen,,,"acceleration, nurburgring"
+Tesla,US,Model S Plaid Track Package,,,,,,,,,,,,,,445.231,2023-06-02,Tom Schwister,,,nurburgring
+Tesla,US,Model S Plaid/Tesla Model X Plaid,2021,,,,,,,,,1020.0,761.0,,,,,,,,power_output
+Tesla,US,Model X Performance w/Ludicrous Mode,2020,Electric,,,,,10.92,,,,,,,,,,,,acceleration
+Tesla,US,Model X Plaid,2021,Electric,2.3,,,,,,,,,,,,,,,,acceleration
+Tesla,US,Roadster (mildly moist),,,,,,,,,,,,,,,,,87.2,"Series 12, Episode 07",top_gear
+Toyota,JP,Avensis,,,,,,,,,,,,,,,,,105.0,"Series 01, Episode 04",top_gear
+Toyota,JP,GR Supra (A90/J29),,,,,,,,,,,,,,472.17,2019-08-22,Christian Gebhardt,,,nurburgring
+Toyota,JP,GR Supra Pro,,,,,,,,,,,,,,,,,83.2,—N/a,top_gear
+Toyota,JP,GR Yaris,,,,,,,,,,,,,,,,,86.3,—N/a,top_gear
+Toyota,JP,"GR Yaris (Mk4, XP210, 2021, 1.5 T, 261 PS)",,,,,,,,,,,,,,494.93,2021-04-07,Christian Gebhardt,,,nurburgring
+Toyota,JP,GR86 (2023),,,,,,,,,,,,,,507.27,2022,Christian Gebhardt,,,nurburgring
+Toyota,JP,"GT86 (Mk1, ZN6/ZC6, 2012, N/A 2.0, 200 PS)",,,,,,,,,,,,,,525.0,2013,Horst von Saurma,,,nurburgring
+Toyota,JP,GT86 (partly wet),,,,,,,,,,,,,,,,,91.3,"Series 19, Episode 03",top_gear
+Toyota,JP,Supra,,,,,,,,,,,,,,469.0,1997,Herbert Schürg,,,nurburgring
+Toyota,JP,Supra MKV,,,,,,,,,,,,,,,,,83.1,"Series 27, Episode 05",top_gear
+Toyota,JP,Supra Mk4,,,,,,,,,,,,,,,,,93.3,—N/a,top_gear
+Toyota,JP,TMG EV P002,,,,,,,,,,,,,,442.329,2012-10-02,Jochen Krumbach,,,nurburgring
+Tuthill,GB,911K,,,,,,,,,,,,,,,,,82.5,Stig Laps,top_gear
+Tyrrell,GB,P34–Ford,,,,,,,,,,,,,,430.8,1976-08-01,Jody Scheckter,,,nurburgring
+Volkswagen,DE,"Golf VII GTI TCR (Mk7, 2-nd facelift, 2019, 2.0 T 290 PS)",,,,,,,,,,,,,,484.92,2019-07-03,Christian Gebhardt,,,nurburgring
+Vauxhall,GB,Astra VXR,,,,,,,,,,,,,,,,,88.3,"Series 19, Episode 04",top_gear
+Vauxhall,GB,Astra VXR (Not Shown on TV),,,,,,,,,,,,,,,,,92.0,,top_gear
+Vauxhall,GB,Corsa VXR Nurburgring (partly snowy),,,,,,,,,,,,,,,,,91.0,"Series 18, Episode 03",top_gear
+Vauxhall,GB,Monaro VXR,,,,,,,,,,,,,,,,,90.1,"Series 06, Episode 11",top_gear
+Vauxhall,GB,VX220 Turbo,,,,,,,,,,,,,,,,,91.3,"Series 02, Episode 06",top_gear
+Vauxhall,GB,VXR8 (wet),,,,,,,,,,,,,,,,,91.3,"Series 10, Episode 08",top_gear
+Vauxhall,GB,VXR8 Bathurst S,,,,,,,,,,,,,,,,,86.3,"Series 13, Episode 07",top_gear
+Vauxhall,GB,Vectra VXR,,,,,,,,,,,,,,,,,95.3,"Series 08, Episode 06",top_gear
+Vector,US,W8,1990,,,,,,,242.0,389.0,,,,"5,973 cc (364.5 cu in) twin-turbocharged V8 466 kW (634 PS; 625 hp)",,,,,,speed_records
+Veritas,DE,RS III,,,,,,,,,,,,,,,,,84.2,"Series 12, Episode 06",top_gear
+Volkswagen,DE,Golf GTI Clubsport Mk8,,,,,,,,,,,,,,,,,86.8,—N/a,top_gear
+Volkswagen,DE,Golf GTI Clubsport S (2016),,,,,,,,,,,,,,467.19,2016-12-07,Benny Leuchter,,,nurburgring
+Volkswagen,DE,Golf GTI Mk V Edition 30,,,,,,,,,,,,,,,,,92.6,—N/a,top_gear
+Volkswagen,DE,Golf GTI Mk VI,,,,,,,,,,,,,,,,,92.6,—N/a,top_gear
+Volkswagen,DE,Golf GTI Mk VII (Sport Mode),,,,,,,,,,,,,,,,,89.6,"Series 20, Episode 03",top_gear
+Volkswagen,DE,Golf GTI Mk7 (very wet),,,,,,,,,,,,,,,,,99.3,"Series 25, Episode 04",top_gear
+Volkswagen,DE,Golf GTI Mk7 (with performance pack),,,,,,,,,,,,,,,,,88.6,"Series 21, Episode 05",top_gear
+Volkswagen,DE,Golf GTI W12-650 Concept,,,,,,,,,,,,,,,,,89.6,"Series 10, Episode 01",top_gear
+Volkswagen,DE,"Golf IV GTI ""25 Jähre GTI"" (Mk4, 2002, 1.8T, 180 PS)",,,,,,,,,,,,,,534.0,2002,Horst von Saurma,,,nurburgring
+Volkswagen,DE,"Golf IV R32 (Mk4, 2003)",,,,,,,,,,,,,,517.0,2003,Horst von Saurma,,,nurburgring
+Volkswagen,DE,"Golf IV V6 4motion (Mk4, 2.8, 204 PS)",,,,,,,,,,,,,,549.0,2000,Horst von Saurma,,,nurburgring
+Volkswagen,DE,Golf Mk.IV R32,,,,,,,,,,,,,,,,,93.3,"Series 01, Episode 09",top_gear
+Volkswagen,DE,Golf Mk.V GTI,,,,,,,,,,,,,,,,,93.7,"Series 05, Episode 06",top_gear
+Volkswagen,DE,Golf R32 mk.V,,,,,,,,,,,,,,,,,90.4,"Series 07, Episode 06",top_gear
+Volkswagen,DE,"Golf V GTI DSG (Mk5, 2005, 200 PS)",,,,,,,,,,,,,,533.0,2005,Horst von Saurma,,,nurburgring
+Volkswagen,DE,"Golf V R32 (Mk5, 2006)",,,,,,,,,,,,,,529.0,2006,Horst von Saurma,,,nurburgring
+Volkswagen,DE,"Golf VI GTI ""35 Jähre GTI"" (Mk6, 2011, 2.0 T, 235 PS)",,,,,,,,,,,,,,518.0,2011,Horst von Saurma,,,nurburgring
+Volkswagen,DE,"Golf VI R (Mk6, 2010)",,,,,,,,,,,,,,514.0,2010,Horst von Saurma,,,nurburgring
+Volkswagen,DE,"Golf VII GTI Clubsport (Mk7, 2016, 2.0 T, 265 PS)",,,,,,,,,,,,,,487.0,2016,Christian Gebhardt,,,nurburgring
+Volkswagen,DE,"Golf VII GTI Clubsport S (Mk7, 2016, 2.0 T, 310 PS)",,,,,,,,,,,,,,477.0,2016,Christian Gebhardt,,,nurburgring
+Volkswagen,DE,"Golf VII GTI Performance (Mk7, pre-facelift, 2013, 2.0 T, 230 PS)",,,,,,,,,,,,,,509.0,2013,Horst von Saurma,,,nurburgring
+Volkswagen,DE,"Golf VII R (Mk7, 1-st faselift, 2018, 310 PS)",,,,,,,,,,,,,,484.0,2018-06-27,Horst von Saurma,,,nurburgring
+Volkswagen,DE,"Golf VII R (Mk7, pre-facelift, 2.0 T, 300 PS)",,,,,,,,,,,,,,495.1,2014,Horst von Saurma,,,nurburgring
+Volkswagen,DE,"Golf VII R (Mk7, pre-facelift, 2013, 300 PS)",,,,,,,,,,,,,,494.0,2013,,,,nurburgring
+Volkswagen,DE,"Golf VIII GTI Clubsport ""45 Jähre GTI"" (Mk8, 2021, 2.0 T, 300 PS)",,,,,,,,,,,,,,482.66,2021-10-06,Christian Gebhardt,,,nurburgring
+Volkswagen,DE,"Golf VIII R ""20 Years"" (Mk8, 2023, 333 PS)",,,,,,,,,,,,,,473.69,2023,Christian Gebhardt,,,nurburgring
+Volkswagen,DE,"Golf VIII R (Mk8, 2020, 320 PS)",,,,,,,,,,,,,,471.0,2020,Gerd Stegmaier,,,nurburgring
+Volkswagen,DE,"Golf VIII R (Mk8, 2022, 320 PS)",,,,,,,,,,,,,,482.0,2022,Christian Gebhardt,,,nurburgring
+Volkswagen,DE,"Golf VIII R 333 ""20 Years"" (Mk8, 333 PS, 2022)",,,,,,,,,,,,,,467.31,2022-09-21,Benjamin Leuchter,,,nurburgring
+Volkswagen,DE,ID.R,,,,,,,,,,,,,,365.336,2019-06-03,Romain Dumas,,,nurburgring
+Volkswagen,DE,Lupo GTI,,,,,,,,,,,,,,549.0,2002-09-29,Daniel Schwerfeld,,,nurburgring
+Volkswagen,DE,Polo GTI (Mk4),,,,,,,,,,,,,,586.2,2007-06-29,Wolfgang Kaufmann,,,nurburgring
+Volkswagen,DE,Scirocco 2.0 TSI,,,,,,,,,,,,,,527.0,2009-11-15,Bernt Bråten Andersen,,,nurburgring
+Volkswagen,DE,Up! TSI (very wet),,,,,,,,,,,,,,,,,109.4,"Series 24, Episode 04",top_gear
+Volvo,SE,S60 R,,,,,,,,,,,,,,,,,95.0,"Series 02, Episode 09",top_gear
+Wiesmann,DE,GT MF5,,,,,,,,,,,,,,467.0,2010-07,Horst von Saurma,,,nurburgring
+Wiesmann,DE,MF 3,,,,,,,,,,,,,,,,,87.9,"Series 06, Episode 03",top_gear
+Xiaomi,CN,SU7 Ultra,2025,,,,,,,,,1526.0,1138.0,,,424.957,2025-04-01,Vincent Radermecker,,,"nurburgring, power_output"
+Xiaomi,CN,SU7 Ultra Prototype,,,,,,,,,,,,,,382.091,2025-04-01,David Pittard,,,nurburgring
+YANGWANG,CN,U9 Xtreme,,,,,,,,,,,,,,419.157,2025-08-22,Moritz Kranz,,,nurburgring
+Yamaha,JP,YZF-R1,,,,,,,,,,,,,,430.0,n/a,,,,nurburgring
+Yangwang,CN,U8,2023,,,,,,,,,1180.0,880.0,,,,,,,,power_output
+Yangwang,CN,U9 Xtreme,2025,,,,,,,308.34,496.22,,,,"Four TZ240XYA electric motors 2,220 kW (3,018 PS; 2,977 hp)",,,,,,speed_records
+Yangwang,CN,U9/Yangwang U7,2024,,,,,,,,,1287.0,960.0,,,,,,,,power_output
+Zakspeed,DE,Capri Turbo,,,,,,,,,,,,,,466.3,1979-04-29,Hans Heyer,,,nurburgring
+Zeekr,CN,001 FR,2023,,,,,,,,,1247.0,930.0,,,,,,,,power_output
+Zenos,GB,E10 S (Mildly moist / Damp),,,,,,,,,,,,,,,,,85.1,"Series 23, Episode 05",top_gear
+Zenvo,DK,ST1,2009,,,,,,,,,1089.0,812.0,,,,,,,,power_output
+Zenvo,DK,ST1 (very wet),,,,,,,,,,,,,,,,,89.9,"Series 21, Episode 03",top_gear
+Zenvo,DK,TSR-S,2018,,,,,,,,,1177.0,878.0,,,,,,,,power_output

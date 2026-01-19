@@ -1,5 +1,6 @@
 export interface CarData {
   manufacturer: string;
+  country: string;
   model: string;
   year: string;
   propulsion: string;
@@ -32,6 +33,7 @@ export interface ColumnConfig {
 
 export const columnConfigs: ColumnConfig[] = [
   { id: "manufacturer", header: "Manufacturer", category: "General" },
+  { id: "country", header: "Country", category: "General" },
   { id: "model", header: "Model", category: "General" },
   { id: "year", header: "Year", category: "General", isNumeric: true },
   { id: "propulsion", header: "Propulsion", category: "General" },
@@ -55,3 +57,23 @@ export const columnConfigs: ColumnConfig[] = [
 ];
 
 export const columnCategories = ["General", "Acceleration", "Speed", "Power", "Specs", "Lap Times", "Meta"] as const;
+
+// Country code to name mapping
+export const countryNames: Record<string, string> = {
+  AT: "Austria",
+  AU: "Australia",
+  CN: "China",
+  CZ: "Czech Republic",
+  DE: "Germany",
+  DK: "Denmark",
+  ES: "Spain",
+  FR: "France",
+  GB: "United Kingdom",
+  HR: "Croatia",
+  IT: "Italy",
+  JP: "Japan",
+  KR: "South Korea",
+  NL: "Netherlands",
+  SE: "Sweden",
+  US: "United States",
+};

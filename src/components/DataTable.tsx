@@ -19,6 +19,7 @@ import { formatValue, formatLapTime, parseNumericValue } from "@/lib/utils";
 import ColumnVisibilityPanel from "./ColumnVisibilityPanel";
 import FilterPanel from "./FilterPanel";
 import ManufacturerLogo from "./ManufacturerLogo";
+import CountryFlag from "./CountryFlag";
 
 const globalFilterFn: FilterFn<CarData> = (row, columnId, filterValue) => {
   const search = filterValue.toLowerCase();
@@ -115,6 +116,9 @@ export default function DataTable() {
                 <span>{value}</span>
               </div>
             );
+          }
+          if (config.id === "country") {
+            return <CountryFlag countryCode={value} showName size="md" />;
           }
           if (config.id === "nurburgring_lap_sec" || config.id === "top_gear_lap_sec") {
             return formatLapTime(value);
