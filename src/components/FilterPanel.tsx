@@ -30,7 +30,7 @@ export default function FilterPanel({
     const data = table.getCoreRowModel().rows;
 
     columnConfigs.forEach((config) => {
-      if (!config.isNumeric && config.id !== "car_name" && config.id !== "engine" && config.id !== "torque") {
+      if (!config.isNumeric && config.id !== "model" && config.id !== "engine" && config.id !== "torque") {
         values[config.id] = new Set();
         data.forEach((row) => {
           const value = row.getValue(config.id) as string;

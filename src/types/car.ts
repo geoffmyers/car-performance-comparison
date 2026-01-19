@@ -1,5 +1,6 @@
 export interface CarData {
-  car_name: string;
+  manufacturer: string;
+  model: string;
   year: string;
   propulsion: string;
   "0_60_mph_sec": string;
@@ -30,7 +31,8 @@ export interface ColumnConfig {
 }
 
 export const columnConfigs: ColumnConfig[] = [
-  { id: "car_name", header: "Car Name", category: "General" },
+  { id: "manufacturer", header: "Manufacturer", category: "General" },
+  { id: "model", header: "Model", category: "General" },
   { id: "year", header: "Year", category: "General", isNumeric: true },
   { id: "propulsion", header: "Propulsion", category: "General" },
   { id: "0_60_mph_sec", header: "0-60 mph", category: "Acceleration", unit: "sec", isNumeric: true },

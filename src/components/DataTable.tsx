@@ -18,6 +18,7 @@ import { CarData, columnConfigs, columnCategories } from "@/types/car";
 import { formatValue, formatLapTime, parseNumericValue } from "@/lib/utils";
 import ColumnVisibilityPanel from "./ColumnVisibilityPanel";
 import FilterPanel from "./FilterPanel";
+import ManufacturerLogo from "./ManufacturerLogo";
 
 const globalFilterFn: FilterFn<CarData> = (row, columnId, filterValue) => {
   const search = filterValue.toLowerCase();
@@ -105,8 +106,16 @@ export default function DataTable() {
             )}
           </div>
         ),
-        cell: ({ getValue }) => {
+        cell: ({ getValue, row }) => {
           const value = getValue() as string;
+          if (config.id === "manufacturer") {
+            return (
+              <div className="flex items-center gap-2">
+                <ManufacturerLogo manufacturer={value} size={24} />
+                <span>{value}</span>
+              </div>
+            );
+          }
           if (config.id === "nurburgring_lap_sec" || config.id === "top_gear_lap_sec") {
             return formatLapTime(value);
           }
