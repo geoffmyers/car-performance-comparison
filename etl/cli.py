@@ -26,6 +26,7 @@ from etl.core.schema import Schema
 from etl.core.manufacturers import ManufacturerNormalizer
 from etl.core.merger import DataMerger
 from etl.core.converters import ValueConverter
+from etl.core.enricher import DataEnricher
 from etl.parsers.registry import ParserRegistry, get_parser as get_parser_class
 from etl.outputs.csv_writer import CSVWriter
 from etl.outputs.sqlite_writer import SQLiteWriter
@@ -198,6 +199,13 @@ def run_pipeline(
     if verbose and (ice_converted or hybrid_converted):
         print(f"  Converted {ice_converted:,} ICE records to Petrol")
         print(f"  Converted {hybrid_converted:,} Hybrid records to Electric/Petrol")
+
+    # Enrich data with derived and inferred values
+    if verbose:
+        print("\nEnriching data with derived values...")
+
+    enricher = DataEnricher(verbose=verbose)
+    merged_data = enricher.enrich(merged_data)
 
     # Validate
     if verbose:

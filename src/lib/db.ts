@@ -317,6 +317,7 @@ export interface ThresholdOption {
 }
 
 export interface MetaData {
+  totalCount: number;
   manufacturers: FilterOption[];
   countries: FilterOption[];
   sources: FilterOption[];
@@ -427,6 +428,13 @@ function getPowerToWeightThresholdCounts(
 
 export function getMeta(): MetaData {
   const db = getDb();
+
+  // Get total count of valid records
+  const totalCountStmt = db.prepare(
+    `SELECT COUNT(*) as count FROM cars ${VALID_RECORDS_WHERE}`
+  );
+  const totalCountResult = totalCountStmt.get() as { count: number };
+  const totalCount = totalCountResult.count;
 
   // Get manufacturers with counts
   const manufacturers = getFilterOptionsWithCounts(db, "manufacturer");
@@ -574,6 +582,7 @@ export function getMeta(): MetaData {
   );
 
   return {
+    totalCount,
     manufacturers,
     countries,
     sources,

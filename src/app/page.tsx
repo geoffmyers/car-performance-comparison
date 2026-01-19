@@ -1,6 +1,17 @@
+"use client";
+
+import { useMeta } from "@/hooks/useCarsApi";
 import DataTable from "@/components/DataTable";
 
 export default function Home() {
+  const { meta, loading: metaLoading } = useMeta();
+
+  // Format sources for display (comma-separated list)
+  const sourcesList = meta?.sources.map((s) => s.value).join(", ") || "Wikipedia";
+
+  // Format vehicle count with commas
+  const vehicleCount = meta?.totalCount?.toLocaleString() || "970+";
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-900 dark:to-zinc-950">
       {/* Header */}
@@ -12,7 +23,11 @@ export default function Home() {
                 Car Performance Database
               </h1>
               <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
-                Compare acceleration, top speed, power, and lap times across 970+ vehicles
+                Compare acceleration, top speed, power, and lap times across{" "}
+                <span className={metaLoading ? "animate-pulse" : ""}>
+                  {vehicleCount}
+                </span>{" "}
+                vehicles
               </p>
             </div>
             <div className="flex items-center gap-3">
@@ -25,7 +40,7 @@ export default function Home() {
                 <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
-                Data Source
+                Data Sources
               </a>
             </div>
           </div>
@@ -41,7 +56,7 @@ export default function Home() {
       <footer className="border-t border-zinc-200 bg-white/50 dark:border-zinc-800 dark:bg-zinc-900/50">
         <div className="mx-auto max-w-[1800px] px-4 py-4 sm:px-6 lg:px-8">
           <p className="text-center text-sm text-zinc-500 dark:text-zinc-400">
-            Data sourced from Wikipedia. Built with Next.js and TanStack Table.
+            Data sourced from {sourcesList}. Built with Next.js and TanStack Table.
           </p>
         </div>
       </footer>

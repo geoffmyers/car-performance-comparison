@@ -58,6 +58,7 @@ export interface ThresholdOption {
 }
 
 export interface MetaData {
+  totalCount: number;
   manufacturers: FilterOption[];
   countries: FilterOption[];
   sources: FilterOption[];
