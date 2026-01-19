@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
+import Image from "next/image";
 
 interface ManufacturerLogoProps {
   manufacturer: string;
@@ -8,7 +9,88 @@ interface ManufacturerLogoProps {
   className?: string;
 }
 
-// Color palette for manufacturers (brand colors where applicable)
+// Manufacturers that have SVG logos available
+const manufacturersWithLogos = new Set([
+  "Alfa Romeo",
+  "Alpine",
+  "Aston Martin",
+  "Audi",
+  "Bentley",
+  "BMW",
+  "Bugatti",
+  "Cadillac",
+  "Chery",
+  "Chevrolet",
+  "Chrysler",
+  "Citroën",
+  "Cupra",
+  "Dacia",
+  "Dodge",
+  "Ferrari",
+  "Fiat",
+  "Ford",
+  "GMC",
+  "Honda",
+  "Hyundai",
+  "Jaguar",
+  "Kia",
+  "Koenigsegg",
+  "Lamborghini",
+  "Lexus",
+  "Maserati",
+  "Mazda",
+  "McLaren",
+  "Mercedes-AMG",
+  "Mercedes-Benz",
+  "Mercedes",
+  "Mercury",
+  "MG",
+  "Mini",
+  "Mitsubishi",
+  "NIO",
+  "Nissan",
+  "Opel",
+  "Peugeot",
+  "Porsche",
+  "Range Rover",
+  "Renault",
+  "Rimac",
+  "Rivian",
+  "Saab",
+  "SEAT",
+  "Seat",
+  "Smart",
+  "Subaru",
+  "Suzuki",
+  "Tesla",
+  "Toyota",
+  "TVR",
+  "Volkswagen",
+  "Volvo",
+  "Xiaomi",
+  "Yangwang",
+  "YANGWANG",
+]);
+
+// Map manufacturer names to logo filenames
+function getLogoFilename(manufacturer: string): string {
+  const mapping: Record<string, string> = {
+    "Alfa Romeo": "alfa-romeo",
+    "Aston Martin": "aston-martin",
+    "Citroën": "citroen",
+    "Mercedes-AMG": "mercedes-amg",
+    "Mercedes-Benz": "mercedes-benz",
+    "Mercedes": "mercedes-benz",
+    "Range Rover": "range-rover",
+    "SEAT": "seat",
+    "Seat": "seat",
+    "YANGWANG": "yangwang",
+  };
+
+  return mapping[manufacturer] || manufacturer.toLowerCase().replace(/\s+/g, "-");
+}
+
+// Color palette for manufacturers (used for fallback badges)
 const manufacturerColors: Record<string, string> = {
   "Alfa Romeo": "#B2001B",
   "Alpine": "#0055A4",
@@ -74,17 +156,25 @@ function stringToColor(str: string): string {
   return `hsl(${hue}, 65%, 45%)`;
 }
 
-export default function ManufacturerLogo({
+function FallbackBadge({
   manufacturer,
-  size = 24,
-  className = "",
-}: ManufacturerLogoProps) {
+  size,
+}: {
+  manufacturer: string;
+  size: number;
+}) {
   const { initials, bgColor, textColor } = useMemo(() => {
     const initials = getInitials(manufacturer);
-    const bgColor = manufacturerColors[manufacturer] || stringToColor(manufacturer);
+    const bgColor =
+      manufacturerColors[manufacturer] || stringToColor(manufacturer);
 
-    // Determine text color based on background luminance
-    const isLightBg = ["#FFD700", "#FFD100", "#DAA520", "#D4AF37", "#CCAA00"].includes(bgColor);
+    const isLightBg = [
+      "#FFD700",
+      "#FFD100",
+      "#DAA520",
+      "#D4AF37",
+      "#CCAA00",
+    ].includes(bgColor);
     const textColor = isLightBg ? "#1a1a1a" : "#ffffff";
 
     return { initials, bgColor, textColor };
@@ -92,7 +182,7 @@ export default function ManufacturerLogo({
 
   return (
     <div
-      className={`inline-flex items-center justify-center rounded-md font-bold ${className}`}
+      className="inline-flex items-center justify-center rounded-md font-bold"
       style={{
         width: size,
         height: size,
@@ -104,6 +194,50 @@ export default function ManufacturerLogo({
       title={manufacturer}
     >
       {initials}
+    </div>
+  );
+}
+
+// Manufacturers whose logos should not be inverted in dark mode
+// (they already have good contrast or are colorful)
+const noInvertLogos = new Set([
+  "BMW",
+  "Bentley",
+  "Bugatti",
+  "Chrysler",
+  "Ford",
+  "Renault",
+]);
+
+export default function ManufacturerLogo({
+  manufacturer,
+  size = 24,
+  className = "",
+}: ManufacturerLogoProps) {
+  const [imageError, setImageError] = useState(false);
+  const hasLogo = manufacturersWithLogos.has(manufacturer);
+
+  if (!hasLogo || imageError) {
+    return <FallbackBadge manufacturer={manufacturer} size={size} />;
+  }
+
+  const logoFilename = getLogoFilename(manufacturer);
+  const shouldInvert = !noInvertLogos.has(manufacturer);
+
+  return (
+    <div
+      className={`inline-flex items-center justify-center ${className}`}
+      style={{ width: size, height: size, flexShrink: 0 }}
+      title={manufacturer}
+    >
+      <Image
+        src={`/logos/${logoFilename}.svg`}
+        alt={`${manufacturer} logo`}
+        width={size}
+        height={size}
+        className={`object-contain ${shouldInvert ? "dark:brightness-0 dark:invert" : ""}`}
+        onError={() => setImageError(true)}
+      />
     </div>
   );
 }
