@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Car Performance Database",
-  description: "Compare acceleration, top speed, power, and lap times across 970+ vehicles",
+  description: "Compare acceleration, top speed, power, and lap times across 50,000+ vehicles",
 };
 
 export default function RootLayout({
