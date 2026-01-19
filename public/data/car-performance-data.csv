@@ -14288,7 +14288,7 @@ US,2022,Chevrolet,Trax AWD,SUV,4,5,Petrol,I4,1.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,
 US,2020,Chevrolet,Trax FWD,SUV,4,5,Petrol,I4,1.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2021,Chevrolet,Trax FWD,SUV,4,5,Petrol,I4,1.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2022,Chevrolet,Trax FWD,SUV,4,5,Petrol,I4,1.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-US,2017,Chevrolet,Trax Fwd Tested,Hatchback,4,5,Petrol,I4,,TC,Front,FWD,138,102.9,148 lb-ft,3151,9.3,9.63,33.6,,17.1,81,115,185.1,164,,0.83,,,,,,,,Car & Driver
+US,2017,Chevrolet,Trax FWD,Hatchback,4,5,Petrol,I4,,TC,Front,FWD,138,102.9,148 lb-ft,3151,9.3,9.63,33.6,,17.1,81,115,185.1,164,,0.83,,,,,,,,Car & Driver
 US,1987,Chevrolet,Turbo Sprint,Coupe,2,4,Petrol,I3,1,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,1988,Chevrolet,Turbo Sprint,Coupe,2,4,Petrol,I3,1,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,1989,Chevrolet,Turbo Sprint,Sedan,4,5,Petrol,I3,1,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -24655,7 +24655,7 @@ JP,2014,Honda,Odyssey,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,E
 JP,2015,Honda,Odyssey,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2016,Honda,Odyssey,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2017,Honda,Odyssey,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2018,Honda,Odyssey,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,280,208.8,262 lb-ft,4400,6.5,6.73,16.4,,15.1,,112,180.2,,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+JP,2018,Honda,Odyssey,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,280,208.8,262 lb-ft,4400,6.5,6.73,16.4,,15.1,95,112,180.2,180,,0.74,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 JP,2019,Honda,Odyssey,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2020,Honda,Odyssey,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2021,Honda,Odyssey,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -24694,7 +24694,7 @@ JP,2007,Honda,Odyssey 3.5 AT,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,247,184.2,240 lb
 JP,2008,Honda,Odyssey 3.5 AT,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,250,186.4,249 lb-ft,4341,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 JP,2011,Honda,Odyssey 3.5 AT,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,250,186.4,249 lb-ft,4400,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 JP,2008,Honda,Odyssey 3.5 MT,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,250,186.4,249 lb-ft,4564,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
-JP,2018,Honda,Odyssey Tested With Nine Speed Automatic,Van,4,7,,V6,,NA,Front,FWD,280,208.8,262 lb-ft,4457,6.7,6.94,17.1,,15.2,95,,,180,,0.74,,,,,,,,Car & Driver
+JP,2018,Honda,Odyssey,Van,4,7,,V6,,NA,Front,FWD,280,208.8,262 lb-ft,4457,6.7,6.94,17.1,,15.2,95,,,180,,0.74,,,,,,,,Car & Driver
 JP,1996,Honda,Orthia 1.8 AT,Wagon,4,5,Petrol,I4,1.8,NA,Front,FWD,140,104.4,125 lb-ft,2646,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 JP,1996,Honda,Orthia 1.8 MT,Wagon,4,5,Petrol,I4,1.8,NA,Front,FWD,140,104.4,125 lb-ft,2601,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 JP,1996,Honda,Orthia 2.0 AT,Wagon,4,5,Petrol,I4,2,NA,Front,FWD,145,108.1,131 lb-ft,2668,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
@@ -31593,7 +31593,7 @@ JP,2022,Lexus,ES 350 F Sport,Sedan,4,5,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,
 JP,2023,Lexus,ES 350 F Sport,Sedan,4,5,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2024,Lexus,ES 350 F Sport,Sedan,4,5,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2025,Lexus,ES 350 F Sport,Sedan,4,5,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2017,Lexus,Es300H Hybrid Tested,Sedan,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,3743,7.8,8.08,20.6,,16,89,,,172,,,,,,,,,,Car & Driver
+JP,2017,Lexus,ES300h Hybrid,Sedan,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,3743,7.8,8.08,20.6,,16,89,,,172,,,,,,,,,,Car & Driver
 JP,2016,Lexus,GS 200t,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2017,Lexus,GS 200t,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2015,Lexus,GS 200t AT,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,245,182.7,258 lb-ft,3671,7.05,7.3,,,,,142.9,230,,,,,,,,,,,Kaggle - Car Specifications
@@ -50056,7 +50056,8 @@ GB,,Range Rover,2015 Sport SVR,,,,Petrol,V8,5,SC,Front,AWD,551,405.3,502 lb-ft,5
 GB,2016,Range Rover,Diesel,Hatchback,4,5,,V6,,TC,Front,4WD,254,189.4,443 lb-ft,5515,7.5,7.77,22.4,,15.8,87,,,179,,0.75,,,,,,,,Car & Driver
 GB,2017,Range Rover,Evoque,Hatchback,4,5,Petrol,I4,,TC,Front,AWD,240,179,250 lb-ft,4059,6.6,6.84,19.8,,15.2,90,,,172,,0.82,,,,,,,,Car & Driver
 GB,2017,Range Rover,Rover SVAutobiography Dymic,Hatchback,4,5,,V8,5,SC,Front,AWD,550,410.1,502 lb-ft,5600,4.7,4.87,11.1,,13.1,,135,217.3,,,,,,,,,,,Car & Driver
-GB,2016,Range Rover,Rover Sport SVR Tested on Performance Tires,Hatchback,4,5,,V8,5,SC,Front,4WD,550,410.1,502 lb-ft,5495,4.6,4.77,11,,13,109,,,167,,0.89,,,,,,,,Car & Driver
+GB,2016,Range Rover,Rover Sport SVR,Hatchback,4,5,,V8,5,SC,Front,4WD,550,410.1,502 lb-ft,5495,4.6,4.77,11,,13,109,,,167,,0.89,,,,,,,,Car & Driver
+GB,2016,Land Rover,Range Rover Sport SVR,Hatchback,4,5,,V8,5,SC,Front,4WD,550,410.1,502 lb-ft,5495,4.6,4.77,11,,13,109,,,167,,0.89,,,,,,,,Car & Driver
 GB,2018,Range Rover,Rover Velar Diesel Euro-spec,Hatchback,4,5,Diesel,I4,2,TC,Front,AWD,238,177.5,368 lb-ft,4900,6.8,7.04,23.5,,15.2,,135,217.3,,,,,,,,,,,Car & Driver
 GB,,Range Rover,Sport,,,,,,,,,,,,,,,,,,,,,,,,,,,,,89.4,"Series 20, Episode 06",,Wikipedia - List of Top Gear test track Power Lap times
 GB,2014,Range Rover,Sport SVR (2015),,,,,,,,,,,,,,,,,,,,,,,,,,494,2014-05,,,,,Wikipedia - List of Nürburgring Nordschleife lap times
@@ -63805,7 +63806,7 @@ SE,2025,Volvo,S90 B6 AWD,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,
 SE,2017,Volvo,S90 FWD,Sedan,4,5,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 SE,2018,Volvo,S90 FWD,Sedan,4,5,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 SE,2019,Volvo,S90 FWD,Sedan,4,5,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-SE,2017,Volvo,S90 T5 Fwd Tested,Sedan,4,5,Petrol,I4,,TC,Front,FWD,250,186.4,258 lb-ft,3781,6.3,6.53,15.7,,14.8,97,,,168,,0.91,,,,,,,,Car & Driver
+SE,2017,Volvo,S90 T5 FWD,Sedan,4,5,Petrol,I4,,TC,Front,FWD,250,186.4,258 lb-ft,3781,6.3,6.53,15.7,,14.8,97,,,168,,0.91,,,,,,,,Car & Driver
 SE,2025,Volvo,S90 T8 AWD,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 SE,2022,Volvo,S90 T8 AWD Recharge,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 SE,2022,Volvo,S90 T8 AWD Recharge ext. Range,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy

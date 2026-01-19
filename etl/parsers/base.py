@@ -340,6 +340,11 @@ class BaseParser(ABC):
         # Remove trailing pipes and dashes (often from truncated titles)
         model = re.sub(r"\s*[\|–—-]\s*$", "", model)
 
+        # Remove "Tested ..." phrases anywhere in the string (from C&D titles)
+        # These appear mid-string like "Odyssey Tested With Nine Speed Automatic"
+        model = re.sub(r"\s+Tested\s+(on|with|using).*$", "", model, flags=re.IGNORECASE)
+        model = re.sub(r"\s+Tested$", "", model, flags=re.IGNORECASE)
+
         # Remove common test/review suffixes (with optional trailing pipe/dash)
         # Order matters - more specific patterns first
         # Note: [\|–—-] matches pipe, en-dash, em-dash, and hyphen
