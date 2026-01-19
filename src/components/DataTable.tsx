@@ -59,18 +59,25 @@ const columnFilterFn: FilterFn<CarData> = (row, columnId, filterValue) => {
 export default function DataTable() {
   const [data, setData] = useState<CarData[]>([]);
   const [loading, setLoading] = useState(true);
-  const [sorting, setSorting] = useState<SortingState>([]);
+  const [sorting, setSorting] = useState<SortingState>([
+    { id: "0_60_mph_sec", desc: false },
+  ]);
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
   const [globalFilter, setGlobalFilter] = useState("");
   const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({
-    sources: false,
-    nurburgring_date: false,
-    nurburgring_driver: false,
-    top_gear_episode: false,
+    // Hidden by default
+    propulsion: false,
     "0_100_kmh_sec": false,
+    "0_100_mph_sec": false,
     "0_200_kmh_sec": false,
     top_speed_kmh: false,
     power_kw: false,
+    nurburgring_lap_sec: false,
+    nurburgring_date: false,
+    nurburgring_driver: false,
+    top_gear_lap_sec: false,
+    top_gear_episode: false,
+    sources: false,
   });
   const [showColumnPanel, setShowColumnPanel] = useState(false);
   const [showFilterPanel, setShowFilterPanel] = useState(false);

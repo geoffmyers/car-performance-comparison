@@ -9,58 +9,86 @@ interface ManufacturerLogoProps {
   className?: string;
 }
 
-// Manufacturers that have SVG logos available (from simple-icons)
+// Manufacturers that have SVG logos available
 const manufacturersWithLogos = new Set([
+  "Alfa Romeo",
+  "Alpine",
   "Aston Martin",
   "Audi",
   "Bentley",
   "BMW",
   "Bugatti",
   "Cadillac",
+  "Chery",
   "Chevrolet",
   "Chrysler",
   "Citroën",
+  "Cupra",
   "Dacia",
+  "Dodge",
   "Ferrari",
   "Fiat",
   "Ford",
+  "GMC",
   "Honda",
   "Hyundai",
   "Infiniti",
+  "Jaguar",
   "Jeep",
   "Kia",
   "Koenigsegg",
   "Lamborghini",
+  "Lexus",
   "Maserati",
   "Mazda",
   "McLaren",
+  "Mercedes-AMG",
+  "Mercedes-Benz",
+  "Mercedes",
+  "Mercury",
+  "MG",
   "Mini",
   "Mitsubishi",
+  "NIO",
   "Nissan",
   "Opel",
   "Peugeot",
   "Porsche",
+  "Range Rover",
   "Renault",
   "Rimac",
+  "Rivian",
   "Rolls-Royce",
+  "Saab",
   "SEAT",
   "Seat",
+  "Smart",
   "Subaru",
   "Suzuki",
   "Tesla",
   "Toyota",
+  "TVR",
   "Volkswagen",
   "Volvo",
+  "Xiaomi",
+  "Yangwang",
+  "YANGWANG",
 ]);
 
-// Map manufacturer names to logo filenames (simple-icons naming convention)
+// Map manufacturer names to logo filenames
 function getLogoFilename(manufacturer: string): string {
   const mapping: Record<string, string> = {
+    "Alfa Romeo": "alfa-romeo",
     "Aston Martin": "aston-martin",
     "Citroën": "citroen",
+    "Mercedes-AMG": "mercedes-amg",
+    "Mercedes-Benz": "mercedes-benz",
+    "Mercedes": "mercedes-benz",
+    "Range Rover": "range-rover",
     "Rolls-Royce": "rolls-royce",
     "SEAT": "seat",
     "Seat": "seat",
+    "YANGWANG": "yangwang",
   };
 
   return mapping[manufacturer] || manufacturer.toLowerCase().replace(/\s+/g, "-");
@@ -173,9 +201,6 @@ function FallbackBadge({
     </div>
   );
 }
-
-// Simple-icons logos are monochrome black, so all need inversion in dark mode
-// No exceptions needed
 
 export default function ManufacturerLogo({
   manufacturer,
