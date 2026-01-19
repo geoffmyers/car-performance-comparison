@@ -1,0 +1,6 @@
+Term,Conditions,Adjustment
+Hot/Cold,Track surface or car performance affected by high/low temperature or humidity,−1 second
+Mildly moist (MM) / Damp (D),Track surface slightly damp with some dry patches after light rain or drizzle,−2 seconds
+Moist (M),Track surface slightly wet due to shower of rain,−3 seconds
+Wet (W) / Melted snow (MS),Track surface wet due to light rain or melted snow,−4 seconds
+Very wet (VW),Track surface very wet (with large puddles) due to heavy rain,−6 seconds
