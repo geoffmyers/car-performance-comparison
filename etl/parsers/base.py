@@ -317,7 +317,7 @@ class BaseParser(ABC):
         return self.converter.detect_propulsion(engine_type, model_name)
 
     def _clean_model_name(self, model: str, manufacturer: str = "") -> str:
-        """Clean model name by removing test suffixes.
+        """Clean model name by removing test suffixes and article artifacts.
 
         Args:
             model: Raw model name
@@ -327,26 +327,66 @@ class BaseParser(ABC):
             Cleaned model name
         """
         import re
+        import html
 
         if not model:
             return ""
 
+        # Decode HTML entities (e.g., &#8211; -> –)
+        model = html.unescape(model)
+
         model = self._clean_text(model)
 
-        # Remove common test suffixes
+        # Remove trailing pipes and dashes (often from truncated titles)
+        model = re.sub(r"\s*[\|–—-]\s*$", "", model)
+
+        # Remove common test/review suffixes (with optional trailing pipe/dash)
+        # Order matters - more specific patterns first
+        # Note: [\|–—-] matches pipe, en-dash, em-dash, and hyphen
         suffixes_to_remove = [
-            r"\s+test$",
-            r"\s+first\s+drive$",
-            r"\s+instrumented\s+test$",
-            r"\s+full\s+test$",
-            r"\s+review$",
-            r"\s+tested$",
-            r"\s+prototype$",
-            r"\s+by\s+the\s+numbers$",
-            r"\s+long-?term\s+(test|update|verdict)$",
+            # Multi-word patterns (most specific first)
+            r"\s+first\s+drive\s+reviews?\s*\d*\s*[\|–—-]?\s*$",  # First Drive Review(s) with optional number
+            r"\s+instrumented\s+test\s*[\|–—-]?\s*$",
+            r"\s+first\s+drive\s*[\|–—-]?\s*$",
+            r"\s+first\s+ride\s*[\|–—-]?\s*$",
+            r"\s+prototype\s+ride\s*[\|–—-]?\s*$",
+            r"\s+prototype\s+drive\s*[\|–—-]?\s*$",
+            r"\s+full\s+test\s*[\|–—-]?\s*$",
+            r"\s+by\s+the\s+numbers\s*[\|–—-]?\s*$",
+            r"\s+long-?\s*term\s+(test\s+)?(wrap-?\s*(up)?|update|verdict).*$",
+            r"\s+long-?\s*term\s+(test|update|verdict)\s*[\|–—-]?\s*$",
+            # Single-word patterns
+            r"\s+test\s*[\|–—-]?\s*$",
+            r"\s+tested\s*[\|–—-]?\s*$",
+            r"\s+review\s*[\|–—-]?\s*$",
+            r"\s+reviews\s*[\|–—-]?\s*$",
+            r"\s+prototype\s*[\|–—-]?\s*$",
+            r"\s+instrumented\s*[\|–—-]?\s*$",
+            r"\s+long\s+term\s*[\|–—-]?\s*$",
+            # Truncated patterns (e.g., "Full T" from "Full Test", "Ted" from "Tested")
+            r"\s+full\s+t\s*[\|–—-]?\s*$",
+            r"\s+ted\s*[\|–—-]?\s*$",  # Truncated "Tested"
+            r"\s+t\s*[\|–—-]?\s*$",  # Single T at end (truncated "Test")
         ]
 
         for pattern in suffixes_to_remove:
             model = re.sub(pattern, "", model, flags=re.IGNORECASE)
+
+        # Handle case where entire model is just a test suffix (e.g., "First Drive")
+        # These should return empty to let the parser use manufacturer-derived model
+        full_suffix_patterns = [
+            r"^first\s+drive\s*\|?\s*$",
+            r"^first\s+ride\s*\|?\s*$",
+            r"^prototype\s+ride\s*\|?\s*$",
+            r"^instrumented\s+test\s*\|?\s*$",
+            r"^test\s*\|?\s*$",
+            r"^review\s*\|?\s*$",
+        ]
+        for pattern in full_suffix_patterns:
+            if re.match(pattern, model, flags=re.IGNORECASE):
+                return ""
+
+        # Clean up any remaining trailing pipes/dashes after suffix removal
+        model = re.sub(r"\s*[\|–—-]\s*$", "", model)
 
         return model.strip()

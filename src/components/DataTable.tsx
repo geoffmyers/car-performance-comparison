@@ -11,34 +11,49 @@ import {
 import { CarData, columnConfigs, columnCategories } from "@/types/car";
 import { formatValue, formatLapTime } from "@/lib/utils";
 import { useCarsApi, type CarsQuery } from "@/hooks/useCarsApi";
+import { useLocalStorage, STORAGE_KEYS } from "@/hooks/useLocalStorage";
 import ColumnVisibilityPanel from "./ColumnVisibilityPanel";
 import ManufacturerLogo from "./ManufacturerLogo";
 import CountryFlag from "./CountryFlag";
 import Pagination from "./Pagination";
 import ServerFilterPanel from "./ServerFilterPanel";
 
-export default function DataTable() {
-  const [queryParams, setQueryParams] = useState<CarsQuery>({
-    page: 1,
-    pageSize: 50,
-    sortBy: "0_60_mph_sec",
-    sortOrder: "asc",
-  });
+// Default values for initial state
+const DEFAULT_QUERY_PARAMS: CarsQuery = {
+  page: 1,
+  pageSize: 50,
+  sortBy: "0_60_mph_sec",
+  sortOrder: "asc",
+};
 
-  const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({
-    propulsion: false,
-    "0_100_kmh_sec": false,
-    "0_100_mph_sec": false,
-    "0_200_kmh_sec": false,
-    top_speed_kmh: false,
-    power_kw: false,
-    nurburgring_lap_sec: false,
-    nurburgring_date: false,
-    nurburgring_driver: false,
-    top_gear_lap_sec: false,
-    top_gear_episode: false,
-    sources: false,
-  });
+const DEFAULT_COLUMN_VISIBILITY: VisibilityState = {
+  propulsion: false,
+  "0_100_kmh_sec": false,
+  "0_100_mph_sec": false,
+  "0_200_kmh_sec": false,
+  top_speed_kmh: false,
+  power_kw: false,
+  nurburgring_lap_sec: false,
+  nurburgring_date: false,
+  nurburgring_driver: false,
+  top_gear_lap_sec: false,
+  top_gear_episode: false,
+  sources: false,
+};
+
+export default function DataTable() {
+  // Persist query params (filters, search, sort, pagination) across page reloads
+  const [queryParams, setQueryParams] = useLocalStorage<CarsQuery>(
+    STORAGE_KEYS.QUERY_PARAMS,
+    DEFAULT_QUERY_PARAMS
+  );
+
+  // Persist column visibility settings across page reloads
+  const [columnVisibility, setColumnVisibility] = useLocalStorage<VisibilityState>(
+    STORAGE_KEYS.COLUMN_VISIBILITY,
+    DEFAULT_COLUMN_VISIBILITY
+  );
+
   const [showColumnPanel, setShowColumnPanel] = useState(false);
   const [showFilterPanel, setShowFilterPanel] = useState(false);
 
@@ -87,23 +102,29 @@ export default function DataTable() {
   }, []);
 
   const clearAllFilters = useCallback(() => {
-    setQueryParams({
+    setQueryParams((prev) => ({
       page: 1,
-      pageSize: queryParams.pageSize,
-      sortBy: queryParams.sortBy,
-      sortOrder: queryParams.sortOrder,
-    });
-  }, [queryParams.pageSize, queryParams.sortBy, queryParams.sortOrder]);
+      pageSize: prev.pageSize ?? DEFAULT_QUERY_PARAMS.pageSize,
+      sortBy: prev.sortBy ?? DEFAULT_QUERY_PARAMS.sortBy,
+      sortOrder: prev.sortOrder ?? DEFAULT_QUERY_PARAMS.sortOrder,
+    }));
+  }, [setQueryParams]);
 
   const activeFilterCount = useMemo(() => {
     let count = 0;
     if (queryParams.manufacturer) count++;
     if (queryParams.country) count++;
+    if (queryParams.source) count++;
     if (queryParams.yearMin) count++;
     if (queryParams.yearMax) count++;
     if (queryParams.search) count++;
     return count;
   }, [queryParams]);
+
+  const resetAllSettings = useCallback(() => {
+    setQueryParams(DEFAULT_QUERY_PARAMS);
+    setColumnVisibility(DEFAULT_COLUMN_VISIBILITY);
+  }, [setQueryParams, setColumnVisibility]);
 
   const columns = useMemo<ColumnDef<CarData>[]>(
     () =>
@@ -486,6 +507,13 @@ export default function DataTable() {
             </div>
           )}
         </div>
+        <button
+          onClick={resetAllSettings}
+          className="text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-300 transition-colors"
+          title="Reset all settings to defaults"
+        >
+          Reset to defaults
+        </button>
       </div>
     </div>
   );

@@ -43,7 +43,7 @@ class ValueConverter:
         )
         self._year_pattern = re.compile(r"\b(19\d{2}|20\d{2})\b")
         self._footnote_pattern = re.compile(
-            r"\s*\[[^\]]*\]|\s*\([^)]*citation[^)]*\)|—?N/?[Aa]|est\.?|EST\.?|claim(?:ed)?",
+            r"\s*\[[^\]]*\]|\s*\([^)]*citation[^)]*\)|—?N/?[Aa]|\best\.?\b|\bEST\.?\b|\bclaim(?:ed)?\b",
             re.IGNORECASE,
         )
 
