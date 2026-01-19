@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+
+# Log files
+*.log
+
+# Cached HTML files from fetching
+html/
+html_test/
+html_test2/
+
+# Test output files
+*-test.csv
+*-test2.csv
+*-old.csv
+
+# Progress tracking
+fetch-progress.txt
+
+# API responses
+vehicle-data.jsonl

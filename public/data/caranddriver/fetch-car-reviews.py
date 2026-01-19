@@ -232,29 +232,30 @@ def parse_specs_panel(soup: BeautifulSoup, url: str) -> dict:
     match = re.search(r"Height[:\s]*([\d.]+)\s*in", text, re.I)
     if match:
         data["height"] = match.group(1)
-    match = re.search(r"Curb [Ww]eight[:\s]*([\d,]+)\s*lb", text, re.I)
+    # Curb weight (handles ranges like "4200-4300 lb")
+    match = re.search(r"Curb [Ww]eight[^\d]*([\d,]+)(?:[–-][\d,]+)?\s*lb", text, re.I)
     if match:
         data["curb_weight"] = match.group(1).replace(",", "")
 
-    # Performance - 0-60
-    match = re.search(r"(?:Zero to 60 mph|60 mph)[:\s]*([\d.]+)\s*sec", text, re.I)
+    # Performance - 0-60 (handles ranges like "4.4-5.8 sec", captures first value)
+    match = re.search(r"(?:Zero to 60 mph|60 mph)[:\s]*([\d.]+)(?:[–-][\d.]+)?\s*sec", text, re.I)
     if match:
         data["zero_to_60_mph"] = match.group(1)
 
-    # Performance - 0-100
-    match = re.search(r"(?:Zero to 100 mph|100 mph)[:\s]*([\d.]+)\s*sec", text, re.I)
+    # Performance - 0-100 (handles ranges)
+    match = re.search(r"(?:Zero to 100 mph|100 mph)[:\s]*([\d.]+)(?:[–-][\d.]+)?\s*sec", text, re.I)
     if match:
         data["zero_to_100_mph"] = match.group(1)
 
-    # Quarter mile
-    match = re.search(r"(?:Standing ¼-mile|1/4-Mile|¼-mile)[:\s]*([\d.]+)\s*sec(?:\s*@\s*([\d]+)\s*mph)?", text, re.I)
+    # Quarter mile (handles ranges)
+    match = re.search(r"(?:Standing ¼-mile|1/4-Mile|¼-mile)[:\s]*([\d.]+)(?:[–-][\d.]+)?\s*sec(?:\s*@\s*([\d]+)(?:[–-][\d]+)?\s*mph)?", text, re.I)
     if match:
         data["quarter_mile_time"] = match.group(1)
         if match.group(2):
             data["quarter_mile_speed"] = match.group(2)
 
-    # Top speed
-    match = re.search(r"Top [Ss]peed[:\s]*([\d\-]+)\s*mph", text, re.I)
+    # Top speed (already handles ranges with \d\-]+)
+    match = re.search(r"Top [Ss]peed[:\s]*([\d]+)(?:[–-][\d]+)?\s*mph", text, re.I)
     if match:
         data["top_speed"] = match.group(1)
 
