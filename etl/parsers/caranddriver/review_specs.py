@@ -19,7 +19,7 @@ from etl.parsers.registry import register_parser
 class ReviewSpecsParser(BaseParser):
     """Parser for Car and Driver review specs CSV data."""
 
-    SOURCE_NAME = "caranddriver"
+    SOURCE_NAME = "Car & Driver"
 
     # Files to skip
     SKIP_FILES = {

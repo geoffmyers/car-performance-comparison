@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useRef, useLayoutEffect } from "react";
 import {
   useReactTable,
   getCoreRowModel,
@@ -17,6 +17,9 @@ import ManufacturerLogo from "./ManufacturerLogo";
 import CountryFlag from "./CountryFlag";
 import Pagination from "./Pagination";
 import ServerFilterPanel from "./ServerFilterPanel";
+
+// The first 4 columns that should be frozen when scrolling horizontally
+const STICKY_COLUMN_IDS = ["country", "year", "manufacturer", "model"];
 
 // Default values for initial state
 const DEFAULT_QUERY_PARAMS: CarsQuery = {
@@ -65,7 +68,37 @@ export default function DataTable() {
   const [showColumnPanel, setShowColumnPanel] = useState(false);
   const [showFilterPanel, setShowFilterPanel] = useState(false);
 
+  // Refs for measuring sticky column widths
+  const headerRefs = useRef<Map<string, HTMLTableCellElement>>(new Map());
+  const [stickyOffsets, setStickyOffsets] = useState<Map<string, number>>(new Map());
+
   const { data, pagination, loading, error } = useCarsApi(queryParams);
+
+  // Compute cumulative left offsets for sticky columns based on measured widths
+  useLayoutEffect(() => {
+    const computeOffsets = () => {
+      const offsets = new Map<string, number>();
+      let cumulativeOffset = 0;
+
+      for (const columnId of STICKY_COLUMN_IDS) {
+        // Only include visible columns
+        if (columnVisibility[columnId] === false) continue;
+
+        offsets.set(columnId, cumulativeOffset);
+        const headerEl = headerRefs.current.get(columnId);
+        if (headerEl) {
+          cumulativeOffset += headerEl.offsetWidth;
+        }
+      }
+
+      setStickyOffsets(offsets);
+    };
+
+    // Compute initially and on resize
+    computeOffsets();
+    window.addEventListener("resize", computeOffsets);
+    return () => window.removeEventListener("resize", computeOffsets);
+  }, [columnVisibility, data]); // Recompute when columns or data change
 
   const handlePageChange = useCallback((page: number) => {
     setQueryParams((prev) => ({ ...prev, page }));
@@ -222,6 +255,28 @@ export default function DataTable() {
     manualSorting: true,
     manualFiltering: true,
   });
+
+  // Helper to get sticky column styles
+  const getStickyStyles = useCallback(
+    (columnId: string): React.CSSProperties | undefined => {
+      if (!STICKY_COLUMN_IDS.includes(columnId)) return undefined;
+
+      const leftOffset = stickyOffsets.get(columnId);
+      if (leftOffset === undefined) return undefined;
+
+      return {
+        position: "sticky",
+        left: leftOffset,
+        zIndex: 10,
+      };
+    },
+    [stickyOffsets]
+  );
+
+  // Check if column is a sticky column (for adding background)
+  const isStickyColumn = useCallback((columnId: string) => {
+    return STICKY_COLUMN_IDS.includes(columnId) && stickyOffsets.has(columnId);
+  }, [stickyOffsets]);
 
   if (error) {
     return (
@@ -387,11 +442,23 @@ export default function DataTable() {
                 >
                   {headerGroup.headers.map((header) => {
                     const isSorted = queryParams.sortBy === header.id;
+                    const stickyStyles = getStickyStyles(header.id);
+                    const isSticky = isStickyColumn(header.id);
 
                     return (
                       <th
                         key={header.id}
-                        className="whitespace-nowrap border-b border-zinc-200 px-4 py-3 text-left text-sm font-semibold text-zinc-900 dark:border-zinc-700 dark:text-zinc-100"
+                        ref={(el) => {
+                          if (el && STICKY_COLUMN_IDS.includes(header.id)) {
+                            headerRefs.current.set(header.id, el);
+                          }
+                        }}
+                        style={stickyStyles}
+                        className={`whitespace-nowrap border-b border-zinc-200 px-4 py-3 text-left text-sm font-semibold text-zinc-900 dark:border-zinc-700 dark:text-zinc-100 ${
+                          isSticky
+                            ? "bg-zinc-50 dark:bg-zinc-800 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)]"
+                            : ""
+                        }`}
                       >
                         {header.isPlaceholder ? null : (
                           <button
@@ -501,28 +568,49 @@ export default function DataTable() {
                   </td>
                 </tr>
               ) : (
-                table.getRowModel().rows.map((row, index) => (
-                  <tr
-                    key={row.id}
-                    className={`border-b border-zinc-100 transition-colors hover:bg-blue-50/50 dark:border-zinc-800 dark:hover:bg-blue-900/10 ${
-                      index % 2 === 0
-                        ? "bg-white dark:bg-zinc-900"
-                        : "bg-zinc-50/50 dark:bg-zinc-800/30"
-                    }`}
-                  >
-                    {row.getVisibleCells().map((cell) => (
-                      <td
-                        key={cell.id}
-                        className="whitespace-nowrap px-4 py-3 text-sm text-zinc-700 dark:text-zinc-300"
-                      >
-                        {flexRender(
-                          cell.column.columnDef.cell,
-                          cell.getContext()
-                        )}
-                      </td>
-                    ))}
-                  </tr>
-                ))
+                table.getRowModel().rows.map((row, index) => {
+                  const isEven = index % 2 === 0;
+                  const rowBg = isEven
+                    ? "bg-white dark:bg-zinc-900"
+                    : "bg-zinc-50/50 dark:bg-zinc-800/30";
+
+                  return (
+                    <tr
+                      key={row.id}
+                      className={`border-b border-zinc-100 transition-colors hover:bg-blue-50/50 dark:border-zinc-800 dark:hover:bg-blue-900/10 ${rowBg}`}
+                    >
+                      {row.getVisibleCells().map((cell) => {
+                        const columnId = cell.column.id;
+                        const stickyStyles = getStickyStyles(columnId);
+                        const isSticky = isStickyColumn(columnId);
+
+                        // For sticky cells, we need explicit background to cover content when scrolling
+                        const stickyBg = isSticky
+                          ? isEven
+                            ? "bg-white dark:bg-zinc-900"
+                            : "bg-zinc-50 dark:bg-zinc-800"
+                          : "";
+
+                        return (
+                          <td
+                            key={cell.id}
+                            style={stickyStyles}
+                            className={`whitespace-nowrap px-4 py-3 text-sm text-zinc-700 dark:text-zinc-300 ${
+                              isSticky
+                                ? `${stickyBg} shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)]`
+                                : ""
+                            }`}
+                          >
+                            {flexRender(
+                              cell.column.columnDef.cell,
+                              cell.getContext()
+                            )}
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  );
+                })
               )}
             </tbody>
           </table>

@@ -19,7 +19,7 @@ from etl.parsers.registry import register_parser
 class LightningLapParser(BaseParser):
     """Parser for Lightning Lap CSV data."""
 
-    SOURCE_NAME = "caranddriver_lightning_lap"
+    SOURCE_NAME = "Car & Driver - Lightning Lap"
 
     def can_parse(self, file_path: Path) -> bool:
         """Check if this parser can handle the file."""

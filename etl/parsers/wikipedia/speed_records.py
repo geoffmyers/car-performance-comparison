@@ -17,7 +17,7 @@ from etl.parsers.registry import register_parser
 class SpeedRecordsParser(BaseParser):
     """Parser for Wikipedia speed records data."""
 
-    SOURCE_NAME = "speed_records"
+    SOURCE_NAME = "Wikipedia - List of production car speed records"
 
     def can_parse(self, file_path: Path) -> bool:
         """Check if this parser can handle the file."""

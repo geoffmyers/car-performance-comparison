@@ -14,6 +14,22 @@ export interface CarsQuery {
   yearMax?: number;
   search?: string;
   source?: string;
+  // New categorical filters
+  bodyStyle?: string;
+  propulsion?: string;
+  engineType?: string;
+  engineAspiration?: string;
+  enginePlacement?: string;
+  drivetrain?: string;
+  // Threshold filters
+  displacementMin?: number;
+  powerMin?: number;
+  torqueMin?: number;
+  weightMax?: number;
+  powerToWeightMax?: number;
+  accel060Max?: number;
+  quarterMileMax?: number;
+  topSpeedMin?: number;
 }
 
 export interface PaginationInfo {
@@ -28,11 +44,38 @@ export interface CarsApiResponse {
   pagination: PaginationInfo;
 }
 
+// Filter option with count
+export interface FilterOption {
+  value: string;
+  count: number;
+}
+
+// Threshold option with count
+export interface ThresholdOption {
+  label: string;
+  value: number;
+  count: number;
+}
+
 export interface MetaData {
-  manufacturers: string[];
-  countries: string[];
-  sources: string[];
+  manufacturers: FilterOption[];
+  countries: FilterOption[];
+  sources: FilterOption[];
   yearRange: { min: number; max: number };
+  bodyStyles: FilterOption[];
+  propulsions: FilterOption[];
+  engineTypes: FilterOption[];
+  engineAspirations: FilterOption[];
+  enginePlacements: FilterOption[];
+  drivetrains: FilterOption[];
+  displacementThresholds: ThresholdOption[];
+  powerThresholds: ThresholdOption[];
+  torqueThresholds: ThresholdOption[];
+  weightThresholds: ThresholdOption[];
+  powerToWeightThresholds: ThresholdOption[];
+  accel060Thresholds: ThresholdOption[];
+  quarterMileThresholds: ThresholdOption[];
+  topSpeedThresholds: ThresholdOption[];
 }
 
 export interface UseCarsApiResult {
@@ -62,6 +105,22 @@ function buildQueryString(params: CarsQuery): string {
   if (params.yearMax) searchParams.set("yearMax", String(params.yearMax));
   if (params.search) searchParams.set("search", params.search);
   if (params.source) searchParams.set("source", params.source);
+  // New categorical filters
+  if (params.bodyStyle) searchParams.set("bodyStyle", params.bodyStyle);
+  if (params.propulsion) searchParams.set("propulsion", params.propulsion);
+  if (params.engineType) searchParams.set("engineType", params.engineType);
+  if (params.engineAspiration) searchParams.set("engineAspiration", params.engineAspiration);
+  if (params.enginePlacement) searchParams.set("enginePlacement", params.enginePlacement);
+  if (params.drivetrain) searchParams.set("drivetrain", params.drivetrain);
+  // Threshold filters
+  if (params.displacementMin) searchParams.set("displacementMin", String(params.displacementMin));
+  if (params.powerMin) searchParams.set("powerMin", String(params.powerMin));
+  if (params.torqueMin) searchParams.set("torqueMin", String(params.torqueMin));
+  if (params.weightMax) searchParams.set("weightMax", String(params.weightMax));
+  if (params.powerToWeightMax) searchParams.set("powerToWeightMax", String(params.powerToWeightMax));
+  if (params.accel060Max) searchParams.set("accel060Max", String(params.accel060Max));
+  if (params.quarterMileMax) searchParams.set("quarterMileMax", String(params.quarterMileMax));
+  if (params.topSpeedMin) searchParams.set("topSpeedMin", String(params.topSpeedMin));
 
   return searchParams.toString();
 }

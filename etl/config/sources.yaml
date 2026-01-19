@@ -165,6 +165,78 @@ sources:
     parser: motortrend.figure8
     source_tag: motortrend
 
+  # EPA Fuel Economy Data
+  fueleconomy_vehicles:
+    name: "EPA Fuel Economy Data"
+    description: "Vehicle specifications from fueleconomy.gov EPA database"
+    type: csv
+    enabled: true
+    priority: 3  # Lower priority - used for filling in missing specs
+    path: "fuel-economy-gov/vehicles.csv"
+    parser: fueleconomy.vehicles
+    source_tag: fueleconomy
+
+    field_mappings:
+      make: _parse_manufacturer
+      model: model
+      year: year
+      cylinders: _derive_engine_type
+      displ: engine_displacement
+      drive: drivetrain
+      VClass: body_style
+      tCharger: _parse_aspiration
+      sCharger: _parse_aspiration
+
+  # Kaggle Jahaidul Islam Car Specifications
+  kaggle_jahaidul:
+    name: "Kaggle Car Specifications"
+    description: "Comprehensive car specs dataset from Kaggle (Jahaidul Islam)"
+    type: csv
+    enabled: true
+    priority: 3
+    path: "kaggle/Jahaidul Islam/Car Specification Dataset 1945-2020.csv"
+    parser: kaggle.jahaidul
+    source_tag: kaggle
+
+    field_mappings:
+      Make: _parse_manufacturer
+      Modle: model  # Note: typo in source
+      Year_from: year
+      Body_type: body_style
+      cylinder_layout: _derive_engine_type
+      number_of_cylinders: _derive_engine_type
+      boost_type: engine_aspiration
+      engine_placement: engine_placement
+      drive_wheels: drivetrain
+      capacity_cm3: engine_displacement
+      acceleration_0_100_km/h_s: 0_100_kmh_sec
+      max_speed_km_per_h: top_speed_kmh
+      engine_hp: power_hp
+      maximum_torque_n_m: torque
+      curb_weight_kg: curb_weight_lb
+
+  # GitHub Autoevolution Automobile Specs
+  github_autoevolution:
+    name: "Autoevolution Automobile Specs"
+    description: "Detailed automobile specifications from autoevolution.com (via GitHub)"
+    type: csv
+    enabled: true
+    priority: 2
+    path: "github/ilyasozkurt/automobile-models-and-specs/automobiles.csv/engines.csv"
+    parser: github.autoevolution
+    source_tag: autoevolution
+
+    field_mappings:
+      specs.Engine_Specs.Cylinders: engine_type
+      specs.Engine_Specs.Displacement: engine_displacement
+      specs.Engine_Specs.Fuel_System: engine_aspiration
+      specs.Transmission_Specs.Drive_Type: drivetrain
+      specs.Performance_Specs.Top_Speed: top_speed_mph
+      specs.Performance_Specs.Acceleration_0_62: 0_60_mph_sec
+      specs.Engine_Specs.Power: power_hp
+      specs.Engine_Specs.Torque: torque
+      specs.Weight_Specs.Unladen_Weight: curb_weight_lb
+
 # Source metadata for provenance tracking
 source_metadata:
   caranddriver:
@@ -185,13 +257,34 @@ source_metadata:
     reliability: high
     test_methodology: "Instrumented testing"
 
+  fueleconomy:
+    full_name: "EPA Fuel Economy"
+    url: "https://www.fueleconomy.gov"
+    reliability: high
+    notes: "Official EPA vehicle specifications database"
+
+  kaggle:
+    full_name: "Kaggle Dataset"
+    url: "https://www.kaggle.com"
+    reliability: medium
+    notes: "Community-contributed dataset, verify critical data"
+
+  autoevolution:
+    full_name: "Autoevolution"
+    url: "https://www.autoevolution.com"
+    reliability: medium
+    notes: "Automotive news and specifications database"
+
 # Processing order (determines merge priority for same-priority sources)
 processing_order:
   - caranddriver_review_specs
   - caranddriver_lightning_lap
+  - github_autoevolution
   - wikipedia_nurburgring
   - wikipedia_top_gear
   - wikipedia_acceleration
   - wikipedia_speed_records
   - wikipedia_power_output
+  - fueleconomy_vehicles
+  - kaggle_jahaidul
   - motortrend_figure8

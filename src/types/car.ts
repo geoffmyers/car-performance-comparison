@@ -107,13 +107,5 @@ export const countryNames: Record<string, string> = {
   US: "United States",
 };
 
-// Source code to display name mapping
-export const sourceNames: Record<string, string> = {
-  acceleration: "Wikipedia - Fastest Acceleration",
-  caranddriver: "Car and Driver",
-  caranddriver_lightning_lap: "Car and Driver - Lightning Lap",
-  nurburgring: "Nürburgring Lap Times",
-  power_output: "Wikipedia - Power Output",
-  speed_records: "Wikipedia - Speed Records",
-  top_gear: "Top Gear Test Track",
-};
+// Source names are now human-readable in the database directly
+// No mapping needed - values like "Car & Driver", "Wikipedia - Nürburgring Lap Times", etc.

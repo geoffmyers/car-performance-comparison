@@ -18,7 +18,7 @@ from etl.parsers.registry import register_parser
 class NurburgringParser(BaseParser):
     """Parser for Wikipedia Nürburgring lap time data."""
 
-    SOURCE_NAME = "nurburgring"
+    SOURCE_NAME = "Wikipedia - List of Nürburgring Nordschleife lap times"
 
     # Skip race cars (not production vehicles)
     RACE_CAR_PATTERNS = [

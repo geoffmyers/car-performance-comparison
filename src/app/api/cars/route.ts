@@ -17,6 +17,22 @@ export async function GET(request: NextRequest) {
       yearMax: searchParams.get("yearMax") || undefined,
       search: searchParams.get("search") || undefined,
       source: searchParams.get("source") || undefined,
+      // New categorical filters
+      bodyStyle: searchParams.get("bodyStyle") || undefined,
+      propulsion: searchParams.get("propulsion") || undefined,
+      engineType: searchParams.get("engineType") || undefined,
+      engineAspiration: searchParams.get("engineAspiration") || undefined,
+      enginePlacement: searchParams.get("enginePlacement") || undefined,
+      drivetrain: searchParams.get("drivetrain") || undefined,
+      // Threshold filters
+      displacementMin: searchParams.get("displacementMin") || undefined,
+      powerMin: searchParams.get("powerMin") || undefined,
+      torqueMin: searchParams.get("torqueMin") || undefined,
+      weightMax: searchParams.get("weightMax") || undefined,
+      powerToWeightMax: searchParams.get("powerToWeightMax") || undefined,
+      accel060Max: searchParams.get("accel060Max") || undefined,
+      quarterMileMax: searchParams.get("quarterMileMax") || undefined,
+      topSpeedMin: searchParams.get("topSpeedMin") || undefined,
     };
 
     const params = carsQuerySchema.parse(rawParams);
