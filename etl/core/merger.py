@@ -198,6 +198,7 @@ class DataMerger:
         """Merge new car data into existing car data.
 
         Does NOT overwrite existing values - only fills in empty fields.
+        Exception: propulsion is upgraded if new value is more specific.
 
         Args:
             existing: Existing car data (modified in place)
@@ -206,7 +207,6 @@ class DataMerger:
         # Fields to merge (don't overwrite if existing has value)
         merge_fields = [
             "year",
-            "propulsion",
             "0_60_mph_sec",
             "0_100_kmh_sec",
             "0_100_mph_sec",
@@ -229,12 +229,28 @@ class DataMerger:
             "top_gear_lap_sec",
             "top_gear_episode",
             "lightning_lap_sec",
+            # Vehicle spec fields
+            "body_style",
+            "engine_type",
+            "engine_displacement",
+            "engine_aspiration",
+            "engine_placement",
+            "drivetrain",
         ]
 
         for field in merge_fields:
             new_val = new.get(field)
             if new_val and not existing.get(field):
                 existing[field] = new_val
+
+        # Handle propulsion specially - prefer more specific values
+        new_propulsion = new.get("propulsion", "")
+        existing_propulsion = existing.get("propulsion", "")
+        if new_propulsion:
+            if not existing_propulsion:
+                existing["propulsion"] = new_propulsion
+            elif self._is_more_specific_propulsion(new_propulsion, existing_propulsion):
+                existing["propulsion"] = new_propulsion
 
         # Append source
         existing_sources = existing.get("sources", "")
@@ -248,6 +264,29 @@ class DataMerger:
                 if src and src not in existing_source_list:
                     existing_source_list.append(src)
             existing["sources"] = ", ".join(existing_source_list)
+
+    def _is_more_specific_propulsion(self, new: str, existing: str) -> bool:
+        """Check if new propulsion value is more specific than existing.
+
+        Specificity order (from least to most specific):
+        - ICE < Petrol, Diesel
+        - Hybrid < Electric/Petrol, Electric/Diesel
+        - Plug-in Hybrid < Electric/Petrol, Electric/Diesel
+
+        Args:
+            new: New propulsion value
+            existing: Existing propulsion value
+
+        Returns:
+            True if new is more specific than existing
+        """
+        # ICE is the least specific for combustion engines
+        if existing == "ICE" and new in ("Petrol", "Diesel"):
+            return True
+        # Generic Hybrid -> specific Electric/Fuel combo
+        if existing in ("Hybrid", "Plug-in Hybrid") and new in ("Electric/Petrol", "Electric/Diesel"):
+            return True
+        return False
 
     def deduplicate(
         self, records: list[dict[str, Any]]

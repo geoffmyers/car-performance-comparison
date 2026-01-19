@@ -258,7 +258,7 @@ class VehiclesParser(BaseParser):
         if "electric" in fuel_lower:
             return "Electric"
         if "diesel" in fuel_lower:
-            return "ICE"
+            return "Diesel"
         if "gasoline" in fuel_lower or "regular" in fuel_lower or "premium" in fuel_lower:
-            return "ICE"
+            return "Petrol"
         return ""

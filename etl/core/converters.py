@@ -283,17 +283,21 @@ class ValueConverter:
 
         return text
 
-    def detect_propulsion(self, engine_type: str, model_name: str = "") -> str:
-        """Detect propulsion type from engine description or model name.
+    def detect_propulsion(self, engine_type: str, model_name: str = "", fuel_type: str = "") -> str:
+        """Detect propulsion type from engine description, model name, or fuel type.
 
         Args:
             engine_type: Engine type description (e.g., "twin-turbocharged V8")
             model_name: Model name which may contain hints (e.g., "Model S Plaid")
+            fuel_type: Fuel type (e.g., "diesel", "gasoline", "petrol")
 
         Returns:
-            One of: "Electric", "Hybrid", "Plug-in Hybrid", "ICE", or ""
+            One of: "Electric", "Electric/Petrol", "Electric/Diesel", "Petrol", "Diesel", or ""
         """
-        combined = f"{engine_type} {model_name}".lower()
+        combined = f"{engine_type} {model_name} {fuel_type}".lower()
+
+        # Check for diesel indicators
+        is_diesel = re.search(r"\bdiesel\b|\btdi\b|\bcdi\b|\bhdi\b|\bjtd\b|\bdci\b", combined) is not None
 
         # Check for electric indicators
         electric_patterns = [
@@ -306,28 +310,28 @@ class ValueConverter:
             r"\bdc.?motor\b",
             r"\binduction.?motor\b",
         ]
-        for pattern in electric_patterns:
-            if re.search(pattern, combined):
-                # Check if it's a plug-in hybrid
-                if re.search(r"\bplug.?in\b|\bphev\b", combined):
-                    return "Plug-in Hybrid"
-                # Check if it's a regular hybrid
-                if re.search(r"\bhybrid\b|\bice\b|\bengine\b|\bcylinder\b|\bturbo\b", combined):
-                    return "Hybrid"
-                return "Electric"
+        is_electric = any(re.search(pattern, combined) for pattern in electric_patterns)
 
         # Check for hybrid indicators
-        if re.search(r"\bhybrid\b", combined):
-            if re.search(r"\bplug.?in\b|\bphev\b", combined):
-                return "Plug-in Hybrid"
-            return "Hybrid"
+        is_hybrid = re.search(r"\bhybrid\b|\bphev\b|\bplug.?in\b", combined) is not None
+        has_ice_components = re.search(r"\bengine\b|\bcylinder\b|\bturbo\b|\bv\d+\b|\binline\b", combined) is not None
 
-        # If engine type mentions cylinders, displacement, or turbo, it's ICE
+        if is_electric:
+            if is_hybrid or has_ice_components:
+                # Hybrid with electric
+                return "Electric/Diesel" if is_diesel else "Electric/Petrol"
+            return "Electric"
+
+        # Check for hybrid indicators (without explicit electric mention)
+        if is_hybrid:
+            return "Electric/Diesel" if is_diesel else "Electric/Petrol"
+
+        # If engine type mentions cylinders, displacement, or turbo, determine fuel type
         if re.search(
             r"\bcylinder\b|\bturbo\b|\bsupercharge\b|\bv\d+\b|\binline\b|\bflat\b|\brotary\b|\b\d+\.\d+\s*l\b",
             combined,
         ):
-            return "ICE"
+            return "Diesel" if is_diesel else "Petrol"
 
         # Default to empty (unknown)
         return ""

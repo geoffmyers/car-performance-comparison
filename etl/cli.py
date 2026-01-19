@@ -182,6 +182,23 @@ def run_pipeline(
     if verbose:
         print(f"Merged data contains {len(merged_data):,} records")
 
+    # Post-process: Convert remaining "ICE" to "Petrol" as default
+    # and "Hybrid"/"Plug-in Hybrid" to "Electric/Petrol" as default
+    ice_converted = 0
+    hybrid_converted = 0
+    for record in merged_data:
+        propulsion = record.get("propulsion", "")
+        if propulsion == "ICE":
+            record["propulsion"] = "Petrol"
+            ice_converted += 1
+        elif propulsion in ("Hybrid", "Plug-in Hybrid"):
+            record["propulsion"] = "Electric/Petrol"
+            hybrid_converted += 1
+
+    if verbose and (ice_converted or hybrid_converted):
+        print(f"  Converted {ice_converted:,} ICE records to Petrol")
+        print(f"  Converted {hybrid_converted:,} Hybrid records to Electric/Petrol")
+
     # Validate
     if verbose:
         print("\nRunning validation...")

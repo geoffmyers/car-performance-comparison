@@ -15,6 +15,7 @@ import { useLocalStorage, STORAGE_KEYS } from "@/hooks/useLocalStorage";
 import ColumnVisibilityPanel from "./ColumnVisibilityPanel";
 import ManufacturerLogo from "./ManufacturerLogo";
 import CountryFlag from "./CountryFlag";
+import BodyStyleIcon from "./BodyStyleIcon";
 import Pagination from "./Pagination";
 import ServerFilterPanel from "./ServerFilterPanel";
 
@@ -194,6 +195,19 @@ export default function DataTable() {
         }
         if (config.id === "country") {
           return <CountryFlag countryCode={value} showName size="md" />;
+        }
+        if (config.id === "body_style") {
+          return value ? (
+            <div className="flex items-center gap-2">
+              <BodyStyleIcon bodyStyle={value} size={20} />
+              <span>{value}</span>
+            </div>
+          ) : null;
+        }
+        if (config.id === "torque") {
+          // Strip " lb-ft" suffix since unit is shown in column header
+          const numericValue = value?.replace(" lb-ft", "") || "";
+          return formatValue(numericValue);
         }
         if (
           config.id === "nurburgring_lap_sec" ||

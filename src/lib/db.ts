@@ -120,6 +120,8 @@ const VALID_SORT_COLUMNS = new Set([
   "nurburgring_lap_sec",
   "top_gear_lap_sec",
   "lightning_lap_sec",
+  "power_to_weight", // Computed column: curb_weight_lb / power_hp
+  "torque", // String column that needs numeric extraction for sorting
 ]);
 
 // Required fields that must be present for a car to be displayed
@@ -260,7 +262,19 @@ export function getCars(params: CarsQueryParams): PaginatedResult<CarRow> {
   let orderClause = "ORDER BY manufacturer ASC, model ASC";
   if (params.sortBy && VALID_SORT_COLUMNS.has(params.sortBy)) {
     const sortOrder = params.sortOrder?.toLowerCase() === "desc" ? "DESC" : "ASC";
-    orderClause = `ORDER BY "${params.sortBy}" IS NULL, "${params.sortBy}" ${sortOrder}`;
+
+    // Handle computed columns
+    if (params.sortBy === "power_to_weight") {
+      // Sort by curb_weight_lb / power_hp (lower is better)
+      // NULLs should be sorted last
+      orderClause = `ORDER BY (curb_weight_lb IS NULL OR power_hp IS NULL OR power_hp = 0), (curb_weight_lb / power_hp) ${sortOrder}`;
+    } else if (params.sortBy === "torque") {
+      // Extract numeric value from torque string (e.g., "350 lb-ft" -> 350)
+      // NULLs should be sorted last
+      orderClause = `ORDER BY torque IS NULL, CAST(REPLACE(torque, ' lb-ft', '') AS REAL) ${sortOrder}`;
+    } else {
+      orderClause = `ORDER BY "${params.sortBy}" IS NULL, "${params.sortBy}" ${sortOrder}`;
+    }
   }
 
   // Get total count

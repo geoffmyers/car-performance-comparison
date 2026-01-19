@@ -315,12 +315,14 @@ class JahaidulParser(BaseParser):
             return ""
 
         engine_lower = engine_type.lower()
+        is_diesel = "diesel" in engine_lower
+
         if "electric" in engine_lower:
             return "Electric"
         if "hybrid" in engine_lower:
-            return "Hybrid"
-        if "diesel" in engine_lower:
-            return "ICE"
+            return "Electric/Diesel" if is_diesel else "Electric/Petrol"
+        if is_diesel:
+            return "Diesel"
         if "gasoline" in engine_lower or "petrol" in engine_lower or "gas" in engine_lower:
-            return "ICE"
+            return "Petrol"
         return ""

@@ -395,14 +395,16 @@ class AutoevolutionParser(BaseParser):
             return ""
 
         fuel_lower = fuel.lower()
+        is_diesel = "diesel" in fuel_lower
+
         if "electric" in fuel_lower:
             return "Electric"
         if "hybrid" in fuel_lower:
-            return "Hybrid"
-        if "diesel" in fuel_lower:
-            return "ICE"
+            return "Electric/Diesel" if is_diesel else "Electric/Petrol"
+        if is_diesel:
+            return "Diesel"
         if "gasoline" in fuel_lower or "petrol" in fuel_lower:
-            return "ICE"
+            return "Petrol"
         return ""
 
     def _parse_top_speed(self, speed_str: str) -> tuple[Optional[float], Optional[float]]:

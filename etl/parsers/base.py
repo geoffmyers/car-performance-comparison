@@ -312,9 +312,9 @@ class BaseParser(ABC):
         """Clean text by removing footnotes and extra whitespace."""
         return self.converter.clean_text(text)
 
-    def _detect_propulsion(self, engine_type: str, model_name: str = "") -> str:
+    def _detect_propulsion(self, engine_type: str, model_name: str = "", fuel_type: str = "") -> str:
         """Detect propulsion type from engine description."""
-        return self.converter.detect_propulsion(engine_type, model_name)
+        return self.converter.detect_propulsion(engine_type, model_name, fuel_type)
 
     def _clean_model_name(self, model: str, manufacturer: str = "") -> str:
         """Clean model name by removing test suffixes and article artifacts.
