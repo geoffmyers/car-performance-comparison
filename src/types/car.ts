@@ -94,3 +94,14 @@ export const countryNames: Record<string, string> = {
   SE: "Sweden",
   US: "United States",
 };
+
+// Source code to display name mapping
+export const sourceNames: Record<string, string> = {
+  acceleration: "Wikipedia - Fastest Acceleration",
+  caranddriver: "Car and Driver",
+  caranddriver_lightning_lap: "Car and Driver - Lightning Lap",
+  nurburgring: "Nürburgring Lap Times",
+  power_output: "Wikipedia - Power Output",
+  speed_records: "Wikipedia - Speed Records",
+  top_gear: "Top Gear Test Track",
+};

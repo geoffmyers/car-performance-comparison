@@ -28,6 +28,7 @@ from etl.core.merger import DataMerger
 from etl.core.converters import ValueConverter
 from etl.parsers.registry import ParserRegistry, get_parser as get_parser_class
 from etl.outputs.csv_writer import CSVWriter
+from etl.outputs.sqlite_writer import SQLiteWriter
 from etl.outputs.typescript_gen import TypeScriptGenerator
 from etl.outputs.quality_report import QualityReportGenerator
 from etl.validators.range_validator import RangeValidator
@@ -56,10 +57,16 @@ def get_output_csv_path() -> Path:
     return get_data_path() / "car-performance-data.csv"
 
 
+def get_output_sqlite_path() -> Path:
+    """Get the path to the SQLite database file."""
+    return get_data_path() / "car-performance-data.db"
+
+
 def run_pipeline(
     sources: list[str] | None = None,
     dry_run: bool = False,
     verbose: bool = False,
+    output_format: str = "both",
 ) -> int:
     """Run the ETL pipeline.
 
@@ -67,6 +74,7 @@ def run_pipeline(
         sources: List of source names to process, or None for all
         dry_run: If True, don't write output files
         verbose: If True, print detailed output
+        output_format: Output format - "csv", "sqlite", or "both"
 
     Returns:
         Exit code (0 for success)
@@ -190,14 +198,39 @@ def run_pipeline(
 
     # Write output
     if not dry_run:
-        if verbose:
-            print(f"\nWriting output to {output_path}")
+        csv_path = get_output_csv_path()
+        sqlite_path = get_output_sqlite_path()
 
-        writer = CSVWriter(schema)
-        count = writer.write(merged_data, output_path)
+        # Write CSV output
+        if output_format in ("csv", "both"):
+            if verbose:
+                print(f"\nWriting CSV output to {csv_path}")
 
-        if verbose:
-            print(f"Wrote {count:,} records")
+            csv_writer = CSVWriter(schema)
+            count = csv_writer.write(merged_data, csv_path)
+
+            if verbose:
+                print(f"Wrote {count:,} records to CSV")
+
+        # Write SQLite output
+        if output_format in ("sqlite", "both"):
+            if verbose:
+                print(f"\nWriting SQLite output to {sqlite_path}")
+
+            sqlite_writer = SQLiteWriter(schema)
+            count = sqlite_writer.write(merged_data, sqlite_path)
+
+            if verbose:
+                print(f"Wrote {count:,} records to SQLite")
+
+            # Validate SQLite output
+            is_valid, errors = sqlite_writer.validate_output(sqlite_path)
+            if not is_valid:
+                print("SQLite validation errors:")
+                for error in errors:
+                    print(f"  {error}")
+            elif verbose:
+                print("SQLite database validated successfully")
     else:
         if verbose:
             print("\nDry run - not writing output")
@@ -437,6 +470,12 @@ def main():
         action="store_true",
         help="Verbose output",
     )
+    run_parser.add_argument(
+        "--output-format",
+        choices=["csv", "sqlite", "both"],
+        default="both",
+        help="Output format: csv, sqlite, or both (default: both)",
+    )
 
     # validate command
     validate_parser = subparsers.add_parser("validate", help="Validate data")
@@ -479,6 +518,7 @@ def main():
             sources=args.sources,
             dry_run=args.dry_run,
             verbose=args.verbose,
+            output_format=args.output_format,
         )
     elif args.command == "validate":
         return validate_data(verbose=args.verbose)
