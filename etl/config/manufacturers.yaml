@@ -1,0 +1,627 @@
+# Unified Manufacturer Configuration
+# Consolidates MANUFACTURER_COUNTRIES and MANUFACTURER_ALIASES from all scripts
+
+version: "1.0.0"
+
+# Canonical manufacturer names with country codes (ISO 3166-1 alpha-2)
+manufacturers:
+  AC:
+    country: GB
+    full_name: "AC Cars"
+  Acura:
+    country: JP
+    full_name: "Acura"
+    parent: Honda
+  Alfa Romeo:
+    country: IT
+    full_name: "Alfa Romeo"
+  Alpine:
+    country: FR
+    full_name: "Alpine"
+    parent: Renault
+  Alpina:
+    country: DE
+    full_name: "Alpina"
+  AMC:
+    country: US
+    full_name: "American Motors Corporation"
+  Aprilia:
+    country: IT
+    full_name: "Aprilia"
+  Ariel:
+    country: GB
+    full_name: "Ariel Motor Company"
+  Artega:
+    country: DE
+    full_name: "Artega"
+  Ascari:
+    country: GB
+    full_name: "Ascari Cars"
+  Aspark:
+    country: JP
+    full_name: "Aspark"
+  Aston Martin:
+    country: GB
+    full_name: "Aston Martin"
+  Audi:
+    country: DE
+    full_name: "Audi"
+    parent: Volkswagen Group
+  BAC:
+    country: GB
+    full_name: "Briggs Automotive Company"
+  Bentley:
+    country: GB
+    full_name: "Bentley"
+    parent: Volkswagen Group
+  BMW:
+    country: DE
+    full_name: "Bayerische Motoren Werke"
+  Bowler:
+    country: GB
+    full_name: "Bowler"
+  Brabham:
+    country: AU
+    full_name: "Brabham Automotive"
+  Brabus:
+    country: DE
+    full_name: "Brabus"
+  Bugatti:
+    country: FR
+    full_name: "Bugatti"
+    parent: Volkswagen Group
+  Buick:
+    country: US
+    full_name: "Buick"
+    parent: General Motors
+  BYD:
+    country: CN
+    full_name: "BYD Auto"
+  Cadillac:
+    country: US
+    full_name: "Cadillac"
+    parent: General Motors
+  Callaway:
+    country: US
+    full_name: "Callaway Cars"
+  Caterham:
+    country: GB
+    full_name: "Caterham Cars"
+  Chevrolet:
+    country: US
+    full_name: "Chevrolet"
+    parent: General Motors
+  Chrysler:
+    country: US
+    full_name: "Chrysler"
+    parent: Stellantis
+  Citroën:
+    country: FR
+    full_name: "Citroën"
+    parent: Stellantis
+  Clive Sutton:
+    country: GB
+    full_name: "Clive Sutton"
+  Cosworth:
+    country: GB
+    full_name: "Cosworth"
+  Cupra:
+    country: ES
+    full_name: "Cupra"
+    parent: Volkswagen Group
+  Czinger:
+    country: US
+    full_name: "Czinger Vehicles"
+  Dacia:
+    country: RO
+    full_name: "Dacia"
+    parent: Renault
+  Dallara:
+    country: IT
+    full_name: "Dallara"
+  Datsun:
+    country: JP
+    full_name: "Datsun"
+    parent: Nissan
+  Dauer:
+    country: DE
+    full_name: "Dauer"
+  De Tomaso:
+    country: IT
+    full_name: "De Tomaso"
+  Denza:
+    country: CN
+    full_name: "Denza"
+    parent: BYD
+  Dodge:
+    country: US
+    full_name: "Dodge"
+    parent: Stellantis
+  Donkervoort:
+    country: NL
+    full_name: "Donkervoort"
+  Drako:
+    country: US
+    full_name: "Drako Motors"
+  Eagle:
+    country: GB
+    full_name: "Eagle"
+  Einride:
+    country: SE
+    full_name: "Einride"
+  Faraday Future:
+    country: US
+    full_name: "Faraday Future"
+  Ferrari:
+    country: IT
+    full_name: "Ferrari"
+  Fiat:
+    country: IT
+    full_name: "Fiat"
+    parent: Stellantis
+  Fisker:
+    country: US
+    full_name: "Fisker Inc"
+  Ford:
+    country: US
+    full_name: "Ford Motor Company"
+  Genesis:
+    country: KR
+    full_name: "Genesis"
+    parent: Hyundai
+  Geely:
+    country: CN
+    full_name: "Geely"
+  Ginetta:
+    country: GB
+    full_name: "Ginetta Cars"
+  GMC:
+    country: US
+    full_name: "GMC"
+    parent: General Motors
+  Gordon Murray:
+    country: GB
+    full_name: "Gordon Murray Automotive"
+  Gumpert:
+    country: DE
+    full_name: "Gumpert"
+  Hawk:
+    country: GB
+    full_name: "Hawk Cars"
+  Hennessey:
+    country: US
+    full_name: "Hennessey Performance Engineering"
+  Holden:
+    country: AU
+    full_name: "Holden"
+    parent: General Motors
+  Honda:
+    country: JP
+    full_name: "Honda"
+  HSV:
+    country: AU
+    full_name: "Holden Special Vehicles"
+  Hummer:
+    country: US
+    full_name: "Hummer"
+    parent: General Motors
+  Hyundai:
+    country: KR
+    full_name: "Hyundai"
+  Hyptec:
+    country: CN
+    full_name: "Hyptec"
+  Infiniti:
+    country: JP
+    full_name: "Infiniti"
+    parent: Nissan
+  Iso:
+    country: IT
+    full_name: "Iso Rivolta"
+  Italdesign:
+    country: IT
+    full_name: "Italdesign Giugiaro"
+  Jaguar:
+    country: GB
+    full_name: "Jaguar"
+  Jeep:
+    country: US
+    full_name: "Jeep"
+    parent: Stellantis
+  Jensen:
+    country: GB
+    full_name: "Jensen Motors"
+  Karma:
+    country: US
+    full_name: "Karma Automotive"
+  Kia:
+    country: KR
+    full_name: "Kia"
+    parent: Hyundai
+  Koenigsegg:
+    country: SE
+    full_name: "Koenigsegg"
+  KTM:
+    country: AT
+    full_name: "KTM"
+  Lada:
+    country: RU
+    full_name: "Lada"
+  Lamborghini:
+    country: IT
+    full_name: "Lamborghini"
+    parent: Volkswagen Group
+  Lancia:
+    country: IT
+    full_name: "Lancia"
+    parent: Stellantis
+  Land Rover:
+    country: GB
+    full_name: "Land Rover"
+  Lexus:
+    country: JP
+    full_name: "Lexus"
+    parent: Toyota
+  Lincoln:
+    country: US
+    full_name: "Lincoln"
+    parent: Ford
+  Lister:
+    country: GB
+    full_name: "Lister Cars"
+  Litchfield:
+    country: GB
+    full_name: "Litchfield Motors"
+  Lotus:
+    country: GB
+    full_name: "Lotus Cars"
+  Lucid:
+    country: US
+    full_name: "Lucid Motors"
+  M-Hero:
+    country: CN
+    full_name: "M-Hero"
+  Marcos:
+    country: GB
+    full_name: "Marcos Engineering"
+  Maserati:
+    country: IT
+    full_name: "Maserati"
+    parent: Stellantis
+  Mazda:
+    country: JP
+    full_name: "Mazda"
+  McLaren:
+    country: GB
+    full_name: "McLaren Automotive"
+  Mercedes-AMG:
+    country: DE
+    full_name: "Mercedes-AMG"
+    parent: Mercedes-Benz
+  Mercedes-Benz:
+    country: DE
+    full_name: "Mercedes-Benz"
+  Mercury:
+    country: US
+    full_name: "Mercury"
+    parent: Ford
+  MG:
+    country: GB
+    full_name: "MG Motor"
+  Mini:
+    country: GB
+    full_name: "Mini"
+    parent: BMW
+  Mitsubishi:
+    country: JP
+    full_name: "Mitsubishi Motors"
+  MMX:
+    country: DE
+    full_name: "MMX"
+  Mobility Ventures:
+    country: US
+    full_name: "Mobility Ventures"
+  Morgan:
+    country: GB
+    full_name: "Morgan Motor Company"
+  Mosler:
+    country: US
+    full_name: "Mosler Automotive"
+  Napier:
+    country: GB
+    full_name: "Napier"
+  NIO:
+    country: CN
+    full_name: "NIO"
+  Nissan:
+    country: JP
+    full_name: "Nissan"
+  Noble:
+    country: GB
+    full_name: "Noble Automotive"
+  Oldsmobile:
+    country: US
+    full_name: "Oldsmobile"
+    parent: General Motors
+  Opel:
+    country: DE
+    full_name: "Opel"
+    parent: Stellantis
+  Overfinch:
+    country: GB
+    full_name: "Overfinch"
+  Packard:
+    country: US
+    full_name: "Packard"
+  Pagani:
+    country: IT
+    full_name: "Pagani"
+  Peugeot:
+    country: FR
+    full_name: "Peugeot"
+    parent: Stellantis
+  Pininfarina:
+    country: IT
+    full_name: "Pininfarina"
+  Plymouth:
+    country: US
+    full_name: "Plymouth"
+    parent: Chrysler
+  Polestar:
+    country: SE
+    full_name: "Polestar"
+    parent: Volvo
+  Pontiac:
+    country: US
+    full_name: "Pontiac"
+    parent: General Motors
+  Porsche:
+    country: DE
+    full_name: "Porsche"
+    parent: Volkswagen Group
+  Praga:
+    country: CZ
+    full_name: "Praga"
+  Prodrive:
+    country: GB
+    full_name: "Prodrive"
+  RacingLine:
+    country: GB
+    full_name: "RacingLine"
+  Radical:
+    country: GB
+    full_name: "Radical Sportscars"
+  Ram:
+    country: US
+    full_name: "Ram Trucks"
+    parent: Stellantis
+  Range Rover:
+    country: GB
+    full_name: "Range Rover"
+    parent: Land Rover
+  Renault:
+    country: FR
+    full_name: "Renault"
+  Rimac:
+    country: HR
+    full_name: "Rimac Automobili"
+  Rivian:
+    country: US
+    full_name: "Rivian"
+  Rolls-Royce:
+    country: GB
+    full_name: "Rolls-Royce Motor Cars"
+    parent: BMW
+  Roush:
+    country: US
+    full_name: "Roush Performance"
+  Ruf:
+    country: DE
+    full_name: "Ruf Automobile"
+  Saab:
+    country: SE
+    full_name: "Saab"
+  Saleen:
+    country: US
+    full_name: "Saleen"
+  SEAT:
+    country: ES
+    full_name: "SEAT"
+    parent: Volkswagen Group
+  Shelby:
+    country: US
+    full_name: "Shelby American"
+  Singer:
+    country: US
+    full_name: "Singer Vehicle Design"
+  Skoda:
+    country: CZ
+    full_name: "Škoda"
+    parent: Volkswagen Group
+  Smart:
+    country: DE
+    full_name: "Smart"
+    parent: Mercedes-Benz
+  Spyker:
+    country: NL
+    full_name: "Spyker Cars"
+  SSC:
+    country: US
+    full_name: "SSC North America"
+  Subaru:
+    country: JP
+    full_name: "Subaru"
+  Sunbeam:
+    country: GB
+    full_name: "Sunbeam"
+  Suzuki:
+    country: JP
+    full_name: "Suzuki"
+  Tesla:
+    country: US
+    full_name: "Tesla"
+  Toyota:
+    country: JP
+    full_name: "Toyota"
+  TR:
+    country: GB
+    full_name: "TR"
+  Trabant:
+    country: DE
+    full_name: "Trabant"
+  Triumph:
+    country: GB
+    full_name: "Triumph"
+  Tuthill:
+    country: GB
+    full_name: "Tuthill Porsche"
+  TVR:
+    country: GB
+    full_name: "TVR"
+  Ultima:
+    country: GB
+    full_name: "Ultima Sports"
+  Vauxhall:
+    country: GB
+    full_name: "Vauxhall Motors"
+    parent: Stellantis
+  Vector:
+    country: US
+    full_name: "Vector Motors"
+  Venturi:
+    country: FR
+    full_name: "Venturi Automobiles"
+  Veritas:
+    country: DE
+    full_name: "Veritas"
+  Volkswagen:
+    country: DE
+    full_name: "Volkswagen"
+  Volvo:
+    country: SE
+    full_name: "Volvo Cars"
+    parent: Geely
+  W Motors:
+    country: AE
+    full_name: "W Motors"
+  Wiesmann:
+    country: DE
+    full_name: "Wiesmann"
+  Xiaomi:
+    country: CN
+    full_name: "Xiaomi"
+  Yangwang:
+    country: CN
+    full_name: "Yangwang"
+    parent: BYD
+  Zeekr:
+    country: CN
+    full_name: "Zeekr"
+    parent: Geely
+  Zenos:
+    country: GB
+    full_name: "Zenos Cars"
+  Zenvo:
+    country: DK
+    full_name: "Zenvo Automotive"
+
+# Aliases map non-standard names to canonical names
+# Consolidated from all existing scripts
+aliases:
+  # Case variations
+  MINI: Mini
+  YANGWANG: Yangwang
+  Bmw: BMW
+  Gmc: GMC
+  bmw: BMW
+  gmc: GMC
+  mini: Mini
+
+  # Mercedes variations
+  Mercedes: Mercedes-Benz
+  "Mercedes AMG": Mercedes-AMG
+  "Mercedes-amg": Mercedes-AMG
+  "Mercedes Amg": Mercedes-AMG
+  "Mercedes Benz": Mercedes-Benz
+  "mercedes-benz": Mercedes-Benz
+  "mercedes-amg": Mercedes-AMG
+  "mercedes amg": Mercedes-AMG
+
+  # Volkswagen abbreviations
+  VW: Volkswagen
+  Vw: Volkswagen
+  vw: Volkswagen
+
+  # Sub-brands treated as parent
+  Renaultsport: Renault
+  LaFerrari: Ferrari
+  Srt: Dodge
+  SRT: Dodge
+  srt: Dodge
+
+  # Partial name matches (when manufacturer gets split in parsing)
+  Alfa: Alfa Romeo
+  Aston: Aston Martin
+  Land: Land Rover
+  Range: Range Rover
+  "Land rover": Land Rover
+  "Aston martin": Aston Martin
+  "Rolls Royce": Rolls-Royce
+  "rolls royce": Rolls-Royce
+  "De tomaso": De Tomaso
+  "de tomaso": De Tomaso
+
+  # Data quality fixes from source files
+  "80": Napier  # Malformed Wikipedia data where 80hp was parsed as manufacturer
+
+  # Common typos and variations
+  Porsche: Porsche
+  porsche: Porsche
+  ferrari: Ferrari
+  lamborghini: Lamborghini
+  mclaren: McLaren
+  McLAREN: McLaren
+  PORSCHE: Porsche
+  FERRARI: Ferrari
+  LAMBORGHINI: Lamborghini
+  AUDI: Audi
+  audi: Audi
+
+# Multi-word manufacturers (for parsing - checked before splitting on spaces)
+# Sorted by length descending for longest-match-first algorithm
+multi_word_manufacturers:
+  - Faraday Future
+  - Gordon Murray
+  - Mobility Ventures
+  - Clive Sutton
+  - Aston Martin
+  - Land Rover
+  - Range Rover
+  - Alfa Romeo
+  - De Tomaso
+  - W Motors
+  - Mercedes-Benz
+  - Mercedes-AMG
+  - Rolls-Royce
+
+# Country code to country name mapping (for display)
+country_names:
+  AE: United Arab Emirates
+  AT: Austria
+  AU: Australia
+  CN: China
+  CZ: Czech Republic
+  DE: Germany
+  DK: Denmark
+  ES: Spain
+  FR: France
+  GB: United Kingdom
+  HR: Croatia
+  IT: Italy
+  JP: Japan
+  KR: South Korea
+  NL: Netherlands
+  RO: Romania
+  RU: Russia
+  SE: Sweden
+  US: United States

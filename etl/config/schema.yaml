@@ -1,0 +1,322 @@
+# Car Performance Data Schema
+# Defines all columns, types, ranges, and metadata for the master database
+
+version: "1.0.0"
+
+# Column definitions with metadata
+columns:
+  # Primary identification
+  manufacturer:
+    type: string
+    required: true
+    description: "Normalized manufacturer name"
+    category: General
+    header: "Manufacturer"
+
+  country:
+    type: string
+    required: false
+    description: "ISO 3166-1 alpha-2 country code"
+    category: General
+    header: "Country"
+    derived_from: manufacturer
+
+  model:
+    type: string
+    required: true
+    description: "Model name (cleaned)"
+    category: General
+    header: "Model"
+
+  year:
+    type: string
+    required: false
+    pattern: "^(19|20)\\d{2}$"
+    category: General
+    header: "Year"
+
+  propulsion:
+    type: string
+    required: false
+    enum: ["ICE", "Electric", "Hybrid", "Plug-in Hybrid", ""]
+    category: General
+    header: "Propulsion"
+
+  # Acceleration metrics
+  0_60_mph_sec:
+    type: numeric
+    required: false
+    unit: seconds
+    min: 1.0
+    max: 30.0
+    category: Acceleration
+    header: "0-60 mph"
+    is_numeric: true
+
+  0_100_kmh_sec:
+    type: numeric
+    required: false
+    unit: seconds
+    min: 1.0
+    max: 30.0
+    category: Acceleration
+    header: "0-100 km/h"
+    is_numeric: true
+
+  0_100_mph_sec:
+    type: numeric
+    required: false
+    unit: seconds
+    min: 3.0
+    max: 60.0
+    category: Acceleration
+    header: "0-100 mph"
+    is_numeric: true
+
+  0_200_kmh_sec:
+    type: numeric
+    required: false
+    unit: seconds
+    min: 5.0
+    max: 120.0
+    category: Acceleration
+    header: "0-200 km/h"
+    is_numeric: true
+
+  quarter_mile_sec:
+    type: numeric
+    required: false
+    unit: seconds
+    min: 7.0
+    max: 25.0
+    category: Acceleration
+    header: "1/4 Mile"
+    is_numeric: true
+
+  quarter_mile_speed_mph:
+    type: numeric
+    required: false
+    unit: mph
+    min: 50.0
+    max: 250.0
+    category: Acceleration
+    header: "1/4 Mile Speed"
+    is_numeric: true
+
+  # Top speed
+  top_speed_mph:
+    type: numeric
+    required: false
+    unit: mph
+    min: 50.0
+    max: 350.0
+    category: Speed
+    header: "Top Speed"
+    is_numeric: true
+
+  top_speed_kmh:
+    type: numeric
+    required: false
+    unit: km/h
+    min: 80.0
+    max: 560.0
+    category: Speed
+    header: "Top Speed (km/h)"
+    is_numeric: true
+
+  # Power
+  power_hp:
+    type: numeric
+    required: false
+    unit: hp
+    min: 50.0
+    max: 3000.0
+    category: Power
+    header: "Power"
+    is_numeric: true
+
+  power_kw:
+    type: numeric
+    required: false
+    unit: kW
+    min: 37.0
+    max: 2240.0
+    category: Power
+    header: "Power (kW)"
+    is_numeric: true
+
+  torque:
+    type: string
+    required: false
+    unit: lb-ft
+    category: Power
+    header: "Torque"
+
+  engine:
+    type: string
+    required: false
+    category: Specs
+    header: "Engine"
+
+  # Braking (Car and Driver specific)
+  braking_70_0_ft:
+    type: numeric
+    required: false
+    unit: ft
+    min: 100.0
+    max: 300.0
+    category: Braking
+    header: "70-0 Braking"
+    is_numeric: true
+
+  braking_100_0_ft:
+    type: numeric
+    required: false
+    unit: ft
+    min: 200.0
+    max: 500.0
+    category: Braking
+    header: "100-0 Braking"
+    is_numeric: true
+
+  skidpad_g:
+    type: numeric
+    required: false
+    unit: g
+    min: 0.5
+    max: 1.5
+    category: Handling
+    header: "Skidpad"
+    is_numeric: true
+
+  curb_weight_lb:
+    type: numeric
+    required: false
+    unit: lb
+    min: 1000.0
+    max: 10000.0
+    category: Specs
+    header: "Curb Weight"
+    is_numeric: true
+
+  # Lap times
+  nurburgring_lap_sec:
+    type: numeric
+    required: false
+    unit: seconds
+    min: 300.0
+    max: 900.0
+    category: Lap Times
+    header: "Nürburgring Lap"
+    is_numeric: true
+
+  nurburgring_date:
+    type: string
+    required: false
+    category: Lap Times
+    header: "Nürburgring Date"
+
+  nurburgring_driver:
+    type: string
+    required: false
+    category: Lap Times
+    header: "Nürburgring Driver"
+
+  top_gear_lap_sec:
+    type: numeric
+    required: false
+    unit: seconds
+    min: 60.0
+    max: 180.0
+    category: Lap Times
+    header: "Top Gear Lap"
+    is_numeric: true
+
+  top_gear_episode:
+    type: string
+    required: false
+    category: Lap Times
+    header: "Top Gear Episode"
+
+  lightning_lap_sec:
+    type: numeric
+    required: false
+    unit: seconds
+    min: 150.0
+    max: 300.0
+    category: Lap Times
+    header: "Lightning Lap"
+    is_numeric: true
+
+  # Metadata
+  sources:
+    type: string
+    required: false
+    category: Meta
+    header: "Sources"
+    description: "Comma-separated list of data sources"
+
+# Column ordering for output CSV
+column_order:
+  - manufacturer
+  - country
+  - model
+  - year
+  - propulsion
+  - 0_60_mph_sec
+  - 0_100_kmh_sec
+  - 0_100_mph_sec
+  - 0_200_kmh_sec
+  - quarter_mile_sec
+  - quarter_mile_speed_mph
+  - top_speed_mph
+  - top_speed_kmh
+  - power_hp
+  - power_kw
+  - torque
+  - engine
+  - braking_70_0_ft
+  - braking_100_0_ft
+  - skidpad_g
+  - curb_weight_lb
+  - nurburgring_lap_sec
+  - nurburgring_date
+  - nurburgring_driver
+  - top_gear_lap_sec
+  - top_gear_episode
+  - lightning_lap_sec
+  - sources
+
+# Categories for UI grouping
+categories:
+  - General
+  - Acceleration
+  - Speed
+  - Power
+  - Braking
+  - Handling
+  - Specs
+  - Lap Times
+  - Meta
+
+# Default visibility for columns in the web app
+default_visible:
+  - manufacturer
+  - country
+  - model
+  - year
+  - propulsion
+  - 0_60_mph_sec
+  - quarter_mile_sec
+  - top_speed_mph
+  - power_hp
+  - nurburgring_lap_sec
+
+# Unit conversions
+conversions:
+  mph_to_kmh: 1.60934
+  kmh_to_mph: 0.621371
+  hp_to_kw: 0.7457
+  kw_to_hp: 1.341
+  ps_to_hp: 0.9863
+  hp_to_ps: 1.0139

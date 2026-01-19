@@ -9,17 +9,23 @@ export interface CarData {
   "0_100_mph_sec": string;
   "0_200_kmh_sec": string;
   quarter_mile_sec: string;
+  quarter_mile_speed_mph: string;
   top_speed_mph: string;
   top_speed_kmh: string;
   power_hp: string;
   power_kw: string;
   torque: string;
   engine: string;
+  braking_70_0_ft: string;
+  braking_100_0_ft: string;
+  skidpad_g: string;
+  curb_weight_lb: string;
   nurburgring_lap_sec: string;
   nurburgring_date: string;
   nurburgring_driver: string;
   top_gear_lap_sec: string;
   top_gear_episode: string;
+  lightning_lap_sec: string;
   sources: string;
 }
 
@@ -33,35 +39,42 @@ export interface ColumnConfig {
 
 export const columnConfigs: ColumnConfig[] = [
   // Default visible columns in order
-  { id: "country", header: "Country", category: "General" },
-  { id: "year", header: "Year", category: "General", isNumeric: true },
   { id: "manufacturer", header: "Manufacturer", category: "General" },
+  { id: "country", header: "Country", category: "General" },
   { id: "model", header: "Model", category: "General" },
+  { id: "year", header: "Year", category: "General" },
+  { id: "propulsion", header: "Propulsion", category: "General" },
   { id: "0_60_mph_sec", header: "0-60 mph", category: "Acceleration", unit: "sec", isNumeric: true },
   { id: "quarter_mile_sec", header: "1/4 Mile", category: "Acceleration", unit: "sec", isNumeric: true },
   { id: "top_speed_mph", header: "Top Speed", category: "Speed", unit: "mph", isNumeric: true },
   { id: "power_hp", header: "Power", category: "Power", unit: "hp", isNumeric: true },
-  { id: "torque", header: "Torque", category: "Power", unit: "lb-ft" },
-  { id: "engine", header: "Engine", category: "Specs" },
+  { id: "nurburgring_lap_sec", header: "Nürburgring Lap", category: "Lap Times", unit: "sec", isNumeric: true },
   // Hidden by default
-  { id: "propulsion", header: "Propulsion", category: "General" },
   { id: "0_100_kmh_sec", header: "0-100 km/h", category: "Acceleration", unit: "sec", isNumeric: true },
   { id: "0_100_mph_sec", header: "0-100 mph", category: "Acceleration", unit: "sec", isNumeric: true },
   { id: "0_200_kmh_sec", header: "0-200 km/h", category: "Acceleration", unit: "sec", isNumeric: true },
+  { id: "quarter_mile_speed_mph", header: "1/4 Mile Speed", category: "Acceleration", unit: "mph", isNumeric: true },
   { id: "top_speed_kmh", header: "Top Speed (km/h)", category: "Speed", unit: "km/h", isNumeric: true },
   { id: "power_kw", header: "Power (kW)", category: "Power", unit: "kW", isNumeric: true },
-  { id: "nurburgring_lap_sec", header: "Nürburgring Lap", category: "Lap Times", unit: "sec", isNumeric: true },
+  { id: "torque", header: "Torque", category: "Power", unit: "lb-ft" },
+  { id: "engine", header: "Engine", category: "Specs" },
+  { id: "braking_70_0_ft", header: "70-0 Braking", category: "Braking", unit: "ft", isNumeric: true },
+  { id: "braking_100_0_ft", header: "100-0 Braking", category: "Braking", unit: "ft", isNumeric: true },
+  { id: "skidpad_g", header: "Skidpad", category: "Handling", unit: "g", isNumeric: true },
+  { id: "curb_weight_lb", header: "Curb Weight", category: "Specs", unit: "lb", isNumeric: true },
   { id: "nurburgring_date", header: "Nürburgring Date", category: "Lap Times" },
   { id: "nurburgring_driver", header: "Nürburgring Driver", category: "Lap Times" },
   { id: "top_gear_lap_sec", header: "Top Gear Lap", category: "Lap Times", unit: "sec", isNumeric: true },
   { id: "top_gear_episode", header: "Top Gear Episode", category: "Lap Times" },
+  { id: "lightning_lap_sec", header: "Lightning Lap", category: "Lap Times", unit: "sec", isNumeric: true },
   { id: "sources", header: "Sources", category: "Meta" },
 ];
 
-export const columnCategories = ["General", "Acceleration", "Speed", "Power", "Specs", "Lap Times", "Meta"] as const;
+export const columnCategories = ["General", "Acceleration", "Speed", "Power", "Braking", "Handling", "Specs", "Lap Times", "Meta"] as const;
 
 // Country code to name mapping
 export const countryNames: Record<string, string> = {
+  AE: "United Arab Emirates",
   AT: "Austria",
   AU: "Australia",
   CN: "China",
@@ -76,6 +89,8 @@ export const countryNames: Record<string, string> = {
   JP: "Japan",
   KR: "South Korea",
   NL: "Netherlands",
+  RO: "Romania",
+  RU: "Russia",
   SE: "Sweden",
   US: "United States",
 };

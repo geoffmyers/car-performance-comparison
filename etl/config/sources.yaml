@@ -1,0 +1,197 @@
+# Data Source Configuration
+# Defines all data sources, their paths, parsers, and field mappings
+
+version: "1.0.0"
+
+# Base path for all data files (relative to project root)
+data_base_path: "public/data"
+
+# Output configuration
+output:
+  master_csv: "car-performance-data.csv"
+  cache_file: ".etl_cache.json"
+  typescript_file: "../src/types/car.ts"
+
+# Data source definitions
+sources:
+  # Car and Driver Review Specs
+  caranddriver_review_specs:
+    name: "Car and Driver Review Specs"
+    description: "Performance test data from Car and Driver instrumented tests"
+    type: csv
+    enabled: true
+    priority: 1  # Higher priority for merge conflicts
+    path: "caranddriver/car-review-specs.csv"
+    parser: caranddriver.review_specs
+    source_tag: caranddriver
+
+    # Files to skip when scanning directory
+    skip_files:
+      - car-review-specs-old.csv
+      - car-review-specs-test.csv
+      - car-review-specs-test2.csv
+      - compare-model-data.csv
+
+    # Field mappings from source columns to schema columns
+    field_mappings:
+      make: _parse_manufacturer  # Special handler for make field
+      model: model
+      year: year
+      zero_to_60_mph: 0_60_mph_sec
+      zero_to_100_mph: 0_100_mph_sec
+      quarter_mile_time: quarter_mile_sec
+      quarter_mile_speed: quarter_mile_speed_mph
+      top_speed: top_speed_mph
+      power_hp: power_hp
+      torque_lb_ft: torque
+      braking_70_0: braking_70_0_ft
+      braking_100_0: braking_100_0_ft
+      skidpad_g: skidpad_g
+      curb_weight: curb_weight_lb
+      engine_type: _detect_propulsion  # Special handler for propulsion detection
+
+  # Car and Driver Lightning Lap
+  caranddriver_lightning_lap:
+    name: "Car and Driver Lightning Lap"
+    description: "VIR track lap times from Car and Driver Lightning Lap series"
+    type: csv
+    enabled: true
+    priority: 1
+    path: "caranddriver/Lightning_Lap_Results_2006_to_2025/*.csv"
+    parser: caranddriver.lightning_lap
+    source_tag: caranddriver_lightning_lap
+
+    # Field mappings
+    field_mappings:
+      "Year Make Model": _parse_ymm  # Combined field parsing
+      "Lap Time": lightning_lap_sec
+
+  # Wikipedia Nürburgring Lap Times
+  wikipedia_nurburgring:
+    name: "Wikipedia Nürburgring Lap Times"
+    description: "Nürburgring Nordschleife lap times from Wikipedia"
+    type: csv
+    enabled: true
+    priority: 2
+    path: "wikipedia/List_of_Nürburgring_Nordschleife_lap_times/*.csv"
+    parser: wikipedia.nurburgring
+    source_tag: nurburgring
+
+    # Filters to apply
+    filters:
+      exclude_race_cars: true  # Skip F1, GT3, LMP cars etc.
+      min_lap_time: 300  # 5 minutes minimum (skip incomplete laps)
+      max_lap_time: 900  # 15 minutes maximum
+
+    field_mappings:
+      Vehicle: _parse_vehicle
+      Time: nurburgring_lap_sec
+      Driver: nurburgring_driver
+      Date: nurburgring_date
+
+  # Wikipedia Acceleration Records
+  wikipedia_acceleration:
+    name: "Wikipedia Acceleration Records"
+    description: "Fastest production car acceleration times from Wikipedia"
+    type: csv
+    enabled: true
+    priority: 2
+    path: "wikipedia/List_of_fastest_production_cars_by_acceleration/*.csv"
+    parser: wikipedia.acceleration
+    source_tag: acceleration
+
+    field_mappings:
+      Car: _parse_vehicle
+      "Model year": year
+      Propulsion: propulsion
+      Time: 0_60_mph_sec
+
+  # Wikipedia Speed Records
+  wikipedia_speed_records:
+    name: "Wikipedia Speed Records"
+    description: "Production car top speed records from Wikipedia"
+    type: csv
+    enabled: true
+    priority: 2
+    path: "wikipedia/List_of_production_car_speed_records/*.csv"
+    parser: wikipedia.speed_records
+    source_tag: speed_records
+
+    field_mappings:
+      Year: year
+      "Make and model": _parse_vehicle
+      "Top speed": _parse_speed  # Handles "200 km/h (124 mph)" format
+      Engine: engine
+
+  # Wikipedia Power Output
+  wikipedia_power_output:
+    name: "Wikipedia Power Output"
+    description: "Production car power output records from Wikipedia"
+    type: csv
+    enabled: true
+    priority: 2
+    path: "wikipedia/List_of_production_cars_by_power_output/*.csv"
+    parser: wikipedia.power_output
+    source_tag: power_output
+
+    field_mappings:
+      Car: _parse_vehicle
+      Power: _parse_power  # Handles "1,500 kW (2,000 hp)" format
+
+  # Wikipedia Top Gear Lap Times
+  wikipedia_top_gear:
+    name: "Wikipedia Top Gear Lap Times"
+    description: "Top Gear test track Power Lap times from Wikipedia"
+    type: csv
+    enabled: true
+    priority: 2
+    path: "wikipedia/List_of_Top_Gear_test_track_Power_Lap_times/*.csv"
+    parser: wikipedia.top_gear
+    source_tag: top_gear
+
+    field_mappings:
+      Time: top_gear_lap_sec
+      Vehicle: _parse_vehicle
+      Episode: top_gear_episode
+
+  # MotorTrend Figure-8 (disabled by default - not yet integrated)
+  motortrend_figure8:
+    name: "MotorTrend Figure-8 Lap Times"
+    description: "Figure-8 track lap times from MotorTrend"
+    type: csv
+    enabled: false
+    priority: 3
+    path: "motortrend/*.csv"
+    parser: motortrend.figure8
+    source_tag: motortrend
+
+# Source metadata for provenance tracking
+source_metadata:
+  caranddriver:
+    full_name: "Car and Driver"
+    url: "https://www.caranddriver.com"
+    reliability: high
+    test_methodology: "Instrumented testing"
+
+  wikipedia:
+    full_name: "Wikipedia"
+    url: "https://en.wikipedia.org"
+    reliability: medium
+    notes: "Aggregated from various sources, may contain errors"
+
+  motortrend:
+    full_name: "MotorTrend"
+    url: "https://www.motortrend.com"
+    reliability: high
+    test_methodology: "Instrumented testing"
+
+# Processing order (determines merge priority for same-priority sources)
+processing_order:
+  - caranddriver_review_specs
+  - caranddriver_lightning_lap
+  - wikipedia_nurburgring
+  - wikipedia_top_gear
+  - wikipedia_acceleration
+  - wikipedia_speed_records
+  - wikipedia_power_output
+  - motortrend_figure8
