@@ -27,6 +27,7 @@ from etl.core.manufacturers import ManufacturerNormalizer
 from etl.core.merger import DataMerger
 from etl.core.converters import ValueConverter
 from etl.core.enricher import DataEnricher
+from etl.core.cleaner import DataCleaner
 from etl.parsers.registry import ParserRegistry, get_parser as get_parser_class
 from etl.outputs.csv_writer import CSVWriter
 from etl.outputs.sqlite_writer import SQLiteWriter
@@ -214,6 +215,13 @@ def run_pipeline(
 
     enricher = DataEnricher(verbose=verbose)
     merged_data = enricher.enrich(merged_data)
+
+    # Clean data - fix implausible values based on cross-field correlation
+    if verbose:
+        print("\nCleaning implausible values...")
+
+    cleaner = DataCleaner(verbose=verbose)
+    merged_data = cleaner.clean(merged_data)
 
     # Validate
     if verbose:

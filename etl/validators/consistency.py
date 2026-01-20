@@ -278,6 +278,35 @@ class ConsistencyValidator(BaseValidator):
                     )
                 )
 
+            # Check for implausible 0-60 / quarter mile correlation
+            # Sub-2 second 0-60 requires sub-10 second quarter mile (hypercars only)
+            # Sub-3 second 0-60 requires sub-11 second quarter mile
+            # Slow quarter mile (>15s) should not have fast 0-60 (<5s)
+            if zero_60 < 2.0 and quarter_mile > 10.0:
+                car_id = self._get_car_id(record)
+                issues.append(
+                    ValidationIssue(
+                        severity=Severity.ERROR,
+                        field="0_60_mph_sec",
+                        message=f"Implausible 0-60 ({zero_60}s) for quarter mile ({quarter_mile}s) - sub-2s 0-60 requires sub-10s quarter mile",
+                        value={"0-60": zero_60, "quarter_mile": quarter_mile},
+                        row_index=row_index,
+                        suggestion=f"Check {car_id} - 0-60 time likely parsed incorrectly",
+                    )
+                )
+            elif zero_60 < 4.0 and quarter_mile > 14.0:
+                car_id = self._get_car_id(record)
+                issues.append(
+                    ValidationIssue(
+                        severity=Severity.ERROR,
+                        field="0_60_mph_sec",
+                        message=f"Implausible 0-60 ({zero_60}s) for quarter mile ({quarter_mile}s) - values don't correlate",
+                        value={"0-60": zero_60, "quarter_mile": quarter_mile},
+                        row_index=row_index,
+                        suggestion=f"Check {car_id} - 0-60 time likely parsed incorrectly",
+                    )
+                )
+
         return issues
 
     def _find_duplicates(
