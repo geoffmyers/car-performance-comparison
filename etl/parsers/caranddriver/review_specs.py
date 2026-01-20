@@ -109,21 +109,42 @@ class ReviewSpecsParser(BaseParser):
         self, row: dict, file_path: Path, row_num: int
     ) -> Optional[CarRecord]:
         """Parse a single row from the CSV."""
-        # Get manufacturer and model - handle case where make includes model info
+        # Use HRST fields as primary source (more accurate), with fallback to legacy fields
+        hrst_make = row.get("hrst_make", "").strip()
+        hrst_model = row.get("hrst_model", "").strip()
+        hrst_submodel = row.get("hrst_submodel", "").strip()
+        hrst_year = row.get("hrst_year", "").strip()
+        hrst_body_style = row.get("hrst_body_style", "").strip()
+        hrst_fuel_type = row.get("hrst_fuel_type", "").strip()
+
+        # Legacy fields as fallback
         make_raw = row.get("make", "")
         model_raw = row.get("model", "")
 
-        # Extract manufacturer from make (may include model)
-        manufacturer, model_prefix = self._extract_manufacturer_from_make(make_raw)
+        # Determine manufacturer: prefer HRST, fallback to legacy
+        if hrst_make:
+            manufacturer = self._normalize_manufacturer(hrst_make)
+        else:
+            # Extract manufacturer from make (may include model)
+            manufacturer, model_prefix = self._extract_manufacturer_from_make(make_raw)
+            if model_prefix and model_raw:
+                model_raw = f"{model_prefix} {model_raw}"
+            elif model_prefix:
+                model_raw = model_prefix
 
         if not manufacturer:
             return None
 
-        # Combine model_prefix with model_raw if needed
-        if model_prefix and model_raw:
-            full_model = f"{model_prefix} {model_raw}"
-        elif model_prefix:
-            full_model = model_prefix
+        # Determine model: prefer HRST submodel (most specific), then HRST model, then legacy
+        if hrst_submodel:
+            # HRST submodel often contains full model name like "BMW M5"
+            # Strip the manufacturer prefix if present
+            full_model = hrst_submodel
+            manufacturer_lower = manufacturer.lower()
+            if full_model.lower().startswith(manufacturer_lower + " "):
+                full_model = full_model[len(manufacturer) + 1:].strip()
+        elif hrst_model:
+            full_model = hrst_model
         else:
             full_model = model_raw
 
@@ -138,16 +159,17 @@ class ReviewSpecsParser(BaseParser):
         # Clean model name
         model = self._clean_model_name(full_model, manufacturer)
 
-        # Get year
-        year = self._parse_year(row.get("year", ""))
+        # Get year: prefer HRST, fallback to legacy
+        year = self._parse_year(hrst_year) if hrst_year else self._parse_year(row.get("year", ""))
 
-        # Detect propulsion type
+        # Detect propulsion type: use HRST fuel_type if available
         engine_type_raw = row.get("engine_type", "")
-        propulsion = self._detect_propulsion(engine_type_raw, model)
+        propulsion = self._detect_propulsion_from_hrst(hrst_fuel_type, engine_type_raw, model)
 
         # Parse vehicle_type for body style, engine placement, and drivetrain
         vehicle_type = row.get("vehicle_type", "")
-        body_style = self._extract_body_style(vehicle_type)
+        # Use HRST body style if available (more reliable), fallback to parsing vehicle_type
+        body_style = self._normalize_body_style(hrst_body_style) if hrst_body_style else self._extract_body_style(vehicle_type)
         engine_placement = self._extract_engine_placement(vehicle_type)
         drivetrain = self._extract_drivetrain(vehicle_type)
 
@@ -260,6 +282,70 @@ class ReviewSpecsParser(BaseParser):
             if re.search(pattern, vehicle_type_lower, re.IGNORECASE):
                 return style
         return None
+
+    def _normalize_body_style(self, hrst_body_style: str) -> Optional[str]:
+        """Normalize HRST body style to schema enum values.
+
+        Args:
+            hrst_body_style: Body style from HRST data (e.g., "sedan", "coupe", "suv")
+
+        Returns:
+            Normalized body style matching schema enum or None
+        """
+        if not hrst_body_style:
+            return None
+
+        style_lower = hrst_body_style.lower().strip()
+
+        # Map HRST body styles to schema enum values
+        body_style_map = {
+            "sedan": "Sedan",
+            "coupe": "Coupe",
+            "convertible": "Convertible",
+            "roadster": "Roadster",
+            "targa": "Targa",
+            "wagon": "Wagon",
+            "station wagon": "Wagon",
+            "hatchback": "Hatchback",
+            "suv": "SUV",
+            "crossover": "Crossover",
+            "van": "Van",
+            "minivan": "Van",
+            "truck": "Truck",
+            "pickup": "Truck",
+        }
+
+        return body_style_map.get(style_lower)
+
+    def _detect_propulsion_from_hrst(
+        self, hrst_fuel_type: str, engine_type_raw: str, model: str
+    ) -> str:
+        """Detect propulsion type using HRST fuel_type with fallback.
+
+        Args:
+            hrst_fuel_type: Fuel type from HRST data (e.g., "gas", "electric", "hybrid")
+            engine_type_raw: Raw engine type string for fallback
+            model: Model name for fallback detection
+
+        Returns:
+            Propulsion type: "ICE", "Electric", "Hybrid", "Plug-in Hybrid", or ""
+        """
+        if hrst_fuel_type:
+            fuel_lower = hrst_fuel_type.lower().strip()
+            if fuel_lower == "electric":
+                return "Electric"
+            elif fuel_lower == "hybrid":
+                # Check if it's a plug-in hybrid based on model name or engine description
+                model_lower = model.lower() if model else ""
+                engine_lower = engine_type_raw.lower() if engine_type_raw else ""
+                if "plug-in" in model_lower or "plug-in" in engine_lower or "phev" in model_lower:
+                    return "Plug-in Hybrid"
+                return "Hybrid"
+            elif fuel_lower in ("gas", "diesel", "gasoline"):
+                return "ICE"
+
+        # Fallback to legacy detection
+        return self._detect_propulsion(engine_type_raw, model)
 
     def _extract_engine_placement(self, vehicle_type: str) -> Optional[str]:
         """Extract engine/motor placement from vehicle_type string.

@@ -88,6 +88,70 @@ def fetch_page(url: str, session: requests.Session) -> str | None:
     return None
 
 
+def extract_hrst_data(html: str) -> dict | None:
+    """Extract structured data from __HRST_DATA__ script tag.
+
+    The __HRST_DATA__ script contains rich structured metadata including:
+    - datalayer.automotive.tagsets[]: make_name, model_name, submodel_name, year, body_style, primary_fuel_type
+    - article: title, author, publishDate, modifiedDate, canonicalUrl
+
+    Returns:
+        Dict with extracted data, or None if not found.
+    """
+    match = re.search(r'<script[^>]*id="__HRST_DATA__"[^>]*>(.*?)</script>', html, re.DOTALL)
+    if not match:
+        return None
+
+    try:
+        data = json.loads(match.group(1).strip())
+    except json.JSONDecodeError:
+        return None
+
+    result = {
+        "hrst_make": "",
+        "hrst_model": "",
+        "hrst_submodel": "",
+        "hrst_year": "",
+        "hrst_body_style": "",
+        "hrst_fuel_type": "",
+        "hrst_title": "",
+        "hrst_author": "",
+        "hrst_publish_date": "",
+        "hrst_modified_date": "",
+    }
+
+    # Extract automotive tagset data (primary source for make/model/year)
+    automotive = data.get("datalayer", {}).get("automotive", {})
+    tagsets = automotive.get("tagsets", [])
+    if tagsets:
+        ts = tagsets[0]
+        result["hrst_make"] = ts.get("make_name") or ""
+        result["hrst_model"] = ts.get("model_name") or ""
+        result["hrst_submodel"] = ts.get("submodel_name") or ""
+        result["hrst_year"] = ts.get("year") or ""
+        result["hrst_body_style"] = ts.get("body_style") or ""
+        result["hrst_fuel_type"] = ts.get("primary_fuel_type") or ""
+
+    # Extract article metadata
+    article = data.get("article", {})
+    result["hrst_title"] = article.get("title") or ""
+
+    author = article.get("author", {})
+    if isinstance(author, dict):
+        result["hrst_author"] = author.get("name") or ""
+
+    # Format dates from components
+    pub_date = article.get("publishDate", {})
+    if isinstance(pub_date, dict) and pub_date.get("year"):
+        result["hrst_publish_date"] = f"{pub_date.get('year', '')}-{pub_date.get('month', '').zfill(2)}-{pub_date.get('day', '').zfill(2)}"
+
+    mod_date = article.get("modifiedDate", {})
+    if isinstance(mod_date, dict) and mod_date.get("year"):
+        result["hrst_modified_date"] = f"{mod_date.get('year', '')}-{mod_date.get('month', '').zfill(2)}-{mod_date.get('day', '').zfill(2)}"
+
+    return result
+
+
 def extract_year_make_model_from_url(url: str) -> dict:
     """Extract year, make, model from URL path."""
     path = urlparse(url).path
@@ -102,19 +166,101 @@ def extract_year_make_model_from_url(url: str) -> dict:
     return {"year": "", "make": "", "model": ""}
 
 
+def extract_full_model_from_specs_panel(specs_panel: "BeautifulSoup") -> str | None:
+    """Extract the full model name from the specs panel using CSS selector.
+
+    Uses: div[data-embed="specs-panel"] p:nth-of-type(2) strong
+
+    The second <p> element in the specs panel typically contains the full
+    year/make/model in a <strong> tag, e.g.:
+    <p><strong>2018 Mercedes-AMG E63 S</strong>Vehicle type:...</p>
+
+    Returns:
+        The full model name string, or None if not found/valid.
+    """
+    if not specs_panel:
+        return None
+
+    # Use CSS selector: p:nth-of-type(2) strong
+    model_elem = specs_panel.select_one("p:nth-of-type(2) strong")
+    if not model_elem:
+        return None
+
+    # Get text and clean it
+    model_text = model_elem.get_text(strip=True)
+
+    # Filter out invalid values (these indicate the model is elsewhere)
+    invalid_prefixes = (
+        "PRICE", "BASE", "ENGINE", "VEHICLE", "TRANSMISSION",
+        "ESTIMATED", "DIMENSIONS", "POWERTRAIN"
+    )
+    if not model_text or model_text.upper().startswith(invalid_prefixes):
+        return None
+
+    return model_text
+
+
+def parse_year_make_model(full_model: str) -> dict:
+    """Parse a full model string like '2018 Mercedes-AMG E63 S' into components.
+
+    Returns:
+        Dict with year, make, model keys.
+    """
+    result = {"year": "", "make": "", "model": ""}
+
+    if not full_model:
+        return result
+
+    # Try to extract year from the beginning
+    year_match = re.match(r"^(\d{4})\s+(.+)$", full_model)
+    if year_match:
+        result["year"] = year_match.group(1)
+        remaining = year_match.group(2)
+    else:
+        remaining = full_model
+
+    # Split into make and model (first word is typically make)
+    parts = remaining.split(None, 1)
+    if parts:
+        result["make"] = parts[0]
+        if len(parts) > 1:
+            result["model"] = parts[1]
+
+    return result
+
+
 def parse_value(text: str, pattern: str) -> str:
     """Extract a value using regex pattern."""
     match = re.search(pattern, text, re.IGNORECASE)
     return match.group(1).strip() if match else ""
 
 
-def parse_specs_panel(soup: BeautifulSoup, url: str) -> dict:
-    """Parse the specs panel and extract all performance data."""
+def parse_specs_panel(soup: BeautifulSoup, url: str, html: str = "") -> dict:
+    """Parse the specs panel and extract all performance data.
+
+    Args:
+        soup: BeautifulSoup parsed HTML
+        url: Canonical URL of the page
+        html: Raw HTML string (for HRST data extraction)
+    """
     data = {
         "url": url,
         "year": "",
         "make": "",
         "model": "",
+        "full_model": "",  # Full model name from specs panel (most reliable)
+        # HRST structured data fields (from __HRST_DATA__ JSON)
+        "hrst_make": "",
+        "hrst_model": "",
+        "hrst_submodel": "",
+        "hrst_year": "",
+        "hrst_body_style": "",
+        "hrst_fuel_type": "",
+        "hrst_title": "",
+        "hrst_author": "",
+        "hrst_publish_date": "",
+        "hrst_modified_date": "",
+        # Specs panel fields
         "vehicle_type": "",
         "base_price": "",
         "as_tested_price": "",
@@ -149,24 +295,63 @@ def parse_specs_panel(soup: BeautifulSoup, url: str) -> dict:
         "is_estimated": "",
     }
 
-    # Extract year/make/model from URL as fallback
-    url_info = extract_year_make_model_from_url(url)
-    data.update(url_info)
+    # Extract structured data from __HRST_DATA__ JSON (highest quality source)
+    if html:
+        hrst_data = extract_hrst_data(html)
+        if hrst_data:
+            data.update(hrst_data)
+            # Use HRST data for primary year/make/model if available
+            if hrst_data.get("hrst_year"):
+                data["year"] = hrst_data["hrst_year"]
+            if hrst_data.get("hrst_make"):
+                data["make"] = hrst_data["hrst_make"]
+            if hrst_data.get("hrst_model"):
+                data["model"] = hrst_data["hrst_model"]
 
-    # Try to get title for better year/make/model
-    title = soup.find("title")
-    if title:
-        title_text = title.get_text()
-        # Pattern: "2025 BMW M5 Review, Pricing, and Specs"
-        match = re.match(r"(\d{4})\s+(.+?)\s+Review", title_text)
-        if match:
-            data["year"] = match.group(1)
-            name_parts = match.group(2).split()
-            if len(name_parts) >= 2:
-                data["make"] = name_parts[0]
-                data["model"] = " ".join(name_parts[1:])
+    # Extract year/make/model from URL as fallback (only if not set by HRST)
+    if not data["year"] or not data["make"]:
+        url_info = extract_year_make_model_from_url(url)
+        if not data["year"] and url_info.get("year"):
+            data["year"] = url_info["year"]
+        if not data["make"] and url_info.get("make"):
+            data["make"] = url_info["make"]
+        if not data["model"] and url_info.get("model"):
+            data["model"] = url_info["model"]
+
+    # Try to get title for better year/make/model (tertiary fallback, only if not set)
+    if not data["year"] or not data["make"]:
+        title = soup.find("title")
+        if title:
+            title_text = title.get_text()
+            # Pattern: "2025 BMW M5 Review, Pricing, and Specs"
+            match = re.match(r"(\d{4})\s+(.+?)\s+Review", title_text)
+            if match:
+                if not data["year"]:
+                    data["year"] = match.group(1)
+                name_parts = match.group(2).split()
+                if len(name_parts) >= 2:
+                    if not data["make"]:
+                        data["make"] = name_parts[0]
+                    if not data["model"]:
+                        data["model"] = " ".join(name_parts[1:])
 
     specs_panel = soup.find("div", attrs={"data-embed": "specs-panel"})
+
+    # PRIMARY: Try to extract full model from specs panel using CSS selector
+    # This is the most reliable source: div[data-embed="specs-panel"] p:nth-of-type(2) strong
+    full_model = extract_full_model_from_specs_panel(specs_panel)
+    if full_model:
+        parsed = parse_year_make_model(full_model)
+        # Override with specs panel values (more accurate than title/URL)
+        if parsed["year"]:
+            data["year"] = parsed["year"]
+        if parsed["make"]:
+            data["make"] = parsed["make"]
+        if parsed["model"]:
+            data["model"] = parsed["model"]
+        # Also store the full model name for reference
+        data["full_model"] = full_model
+
     if not specs_panel:
         logger.warning(f"No specs panel found for {url}")
         return data
@@ -357,7 +542,7 @@ def main():
 
         # Parse specs
         soup = BeautifulSoup(html, "html.parser")
-        specs = parse_specs_panel(soup, url)
+        specs = parse_specs_panel(soup, url, html)
         results.append(specs)
 
         # Log extracted data
