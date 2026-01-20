@@ -347,21 +347,27 @@ class BaseParser(ABC):
         # Remove trailing pipes and dashes (often from truncated titles)
         model = re.sub(r"\s*[\|–—-]\s*$", "", model)
 
+        # Remove trailing punctuation (semicolons, etc.) that may come from parsing
+        model = re.sub(r"[;:]+\s*$", "", model)
+
         # Remove "Tested ..." phrases anywhere in the string (from C&D titles)
         # These appear mid-string like "Odyssey Tested With Nine Speed Automatic"
-        model = re.sub(r"\s+Tested\s+(on|with|using).*$", "", model, flags=re.IGNORECASE)
+        model = re.sub(r"\s+Tested\s+(on|with|using|today).*$", "", model, flags=re.IGNORECASE)
         model = re.sub(r"\s+Tested$", "", model, flags=re.IGNORECASE)
 
         # Remove common test/review suffixes (with optional trailing pipe/dash)
         # Order matters - more specific patterns first
         # Note: [\|–—-] matches pipe, en-dash, em-dash, and hyphen
         suffixes_to_remove = [
+            # Long-term road test patterns (most specific first)
+            r"\s+long-?\s*term\s+road\s+test\s+wrap-?\s*up\s*[\|–—-]?\s*$",
             # Multi-word patterns (most specific first)
             r"\s+first\s+ride\s+reviews?\s*[\|–—-]?\s*$",  # First Ride Review(s)
             r"\s+first\s+drive\s+reviews?\s*\d*\s*[\|–—-]?\s*$",  # First Drive Review(s) with optional number
             r"\s+full\s+test\s+reviews?\s*[\|–—-]?\s*$",  # Full Test Review(s)
             r"\s+test\s+reviews?\s*[\|–—-]?\s*$",  # Test Review(s)
             r"\s+tested\s+reviews?\s*[\|–—-]?\s*$",  # Tested Review(s)
+            r"\s+test\s+a\s*reviews?\s*[\|–—-]?\s*$",  # Test A Review (typo variant)
             r"\s+instrumented\s+test\s*[\|–—-]?\s*$",
             r"\s+first\s+drive\s*[\|–—-]?\s*$",
             r"\s+first\s+ride\s*[\|–—-]?\s*$",
@@ -371,6 +377,8 @@ class BaseParser(ABC):
             r"\s+by\s+the\s+numbers\s*[\|–—-]?\s*$",
             r"\s+long-?\s*term\s+(test\s+)?(wrap-?\s*(up)?|update|verdict).*$",
             r"\s+long-?\s*term\s+(test|update|verdict)\s*[\|–—-]?\s*$",
+            r"\s+road\s+test\s*[\|–—-]?\s*$",  # Road Test
+            r"\s+retest\s*[\|–—-]?\s*$",  # Retest
             # Single-word patterns
             r"\s+test\s*[\|–—-]?\s*$",
             r"\s+tested\s*[\|–—-]?\s*$",

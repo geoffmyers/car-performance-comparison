@@ -37,7 +37,7 @@ class DataMerger:
     def load_existing_csv(self, csv_path: Path) -> list[dict[str, Any]]:
         """Load existing car performance data from CSV.
 
-        Also normalizes manufacturer names and updates country codes.
+        Also normalizes manufacturer names, cleans model names, and updates country codes.
 
         Args:
             csv_path: Path to CSV file
@@ -60,6 +60,11 @@ class DataMerger:
                 # Update country code if empty or manufacturer was normalized
                 if not row.get("country") or normalized != manufacturer:
                     row["country"] = self.normalizer.get_country(normalized)
+                # Clean model name to remove test suffixes from historical data
+                model = row.get("model", "")
+                cleaned_model = self._clean_model_name(model)
+                if cleaned_model != model:
+                    row["model"] = cleaned_model
                 cars.append(row)
         return cars
 
@@ -191,15 +196,21 @@ class DataMerger:
 
         model = model.lower().strip()
 
+        # Remove trailing punctuation
+        model = re.sub(r"[;:]+\s*$", "", model)
+
         # Remove common test/review suffixes (same patterns as BaseParser._clean_model_name)
         # Order matters - more specific patterns first
         suffixes_to_remove = [
+            # Long-term road test patterns (most specific first)
+            r"\s+long-?\s*term\s+road\s+test\s+wrap-?\s*up\s*[\|–—-]?\s*$",
             # Multi-word patterns (most specific first)
             r"\s+first\s+ride\s+reviews?\s*[\|–—-]?\s*$",
             r"\s+first\s+drive\s+reviews?\s*\d*\s*[\|–—-]?\s*$",
             r"\s+full\s+test\s+reviews?\s*[\|–—-]?\s*$",
             r"\s+test\s+reviews?\s*[\|–—-]?\s*$",
             r"\s+tested\s+reviews?\s*[\|–—-]?\s*$",
+            r"\s+test\s+a\s*reviews?\s*[\|–—-]?\s*$",  # Test A Review (typo)
             r"\s+instrumented\s+test\s*[\|–—-]?\s*$",
             r"\s+first\s+drive\s*[\|–—-]?\s*$",
             r"\s+first\s+ride\s*[\|–—-]?\s*$",
@@ -209,6 +220,8 @@ class DataMerger:
             r"\s+by\s+the\s+numbers\s*[\|–—-]?\s*$",
             r"\s+long-?\s*term\s+(test\s+)?(wrap-?\s*(up)?|update|verdict).*$",
             r"\s+long-?\s*term\s+(test|update|verdict)\s*[\|–—-]?\s*$",
+            r"\s+road\s+test\s*[\|–—-]?\s*$",  # Road Test
+            r"\s+retest\s*[\|–—-]?\s*$",  # Retest
             # Single-word patterns
             r"\s+test\s*[\|–—-]?\s*$",
             r"\s+tested\s*[\|–—-]?\s*$",
@@ -228,6 +241,69 @@ class DataMerger:
         base_model = re.sub(r"\s*\([^)]+\)\s*", " ", model).strip()
         base_model = re.sub(r"\s+", " ", base_model)
         return base_model
+
+    def _clean_model_name(self, model: str) -> str:
+        """Clean model name by removing test suffixes and normalizing.
+
+        This is used to clean model names when loading existing CSV data.
+        Similar to BaseParser._clean_model_name but operates on already-stored data.
+
+        Args:
+            model: Raw model name
+
+        Returns:
+            Cleaned model name
+        """
+        import re
+
+        if not model:
+            return ""
+
+        original = model
+
+        # Remove trailing punctuation (semicolons, etc.)
+        model = re.sub(r"[;:]+\s*$", "", model)
+
+        # Remove "Tested ..." phrases anywhere in the string
+        model = re.sub(r"\s+Tested\s+(on|with|using|today).*$", "", model, flags=re.IGNORECASE)
+        model = re.sub(r"\s+Tested$", "", model, flags=re.IGNORECASE)
+
+        # Remove common test/review suffixes
+        suffixes_to_remove = [
+            # Long-term road test patterns (most specific first)
+            r"\s+long-?\s*term\s+road\s+test\s+wrap-?\s*up\s*[\|–—-]?\s*$",
+            # Multi-word patterns
+            r"\s+first\s+ride\s+reviews?\s*[\|–—-]?\s*$",
+            r"\s+first\s+drive\s+reviews?\s*\d*\s*[\|–—-]?\s*$",
+            r"\s+full\s+test\s+reviews?\s*[\|–—-]?\s*$",
+            r"\s+test\s+reviews?\s*[\|–—-]?\s*$",
+            r"\s+tested\s+reviews?\s*[\|–—-]?\s*$",
+            r"\s+test\s+a\s*reviews?\s*[\|–—-]?\s*$",  # Test A Review (typo)
+            r"\s+instrumented\s+test\s*[\|–—-]?\s*$",
+            r"\s+first\s+drive\s*[\|–—-]?\s*$",
+            r"\s+first\s+ride\s*[\|–—-]?\s*$",
+            r"\s+prototype\s+ride\s*[\|–—-]?\s*$",
+            r"\s+prototype\s+drive\s*[\|–—-]?\s*$",
+            r"\s+full\s+test\s*[\|–—-]?\s*$",
+            r"\s+by\s+the\s+numbers\s*[\|–—-]?\s*$",
+            r"\s+long-?\s*term\s+(test\s+)?(wrap-?\s*(up)?|update|verdict).*$",
+            r"\s+long-?\s*term\s+(test|update|verdict)\s*[\|–—-]?\s*$",
+            r"\s+road\s+test\s*[\|–—-]?\s*$",
+            r"\s+retest\s*[\|–—-]?\s*$",
+            # Single-word patterns
+            r"\s+test\s*[\|–—-]?\s*$",
+            r"\s+tested\s*[\|–—-]?\s*$",
+            r"\s+review\s*[\|–—-]?\s*$",
+            r"\s+reviews\s*[\|–—-]?\s*$",
+            r"\s+prototype\s*[\|–—-]?\s*$",
+            r"\s+instrumented\s*[\|–—-]?\s*$",
+            r"\s+long\s+term\s*[\|–—-]?\s*$",
+        ]
+
+        for pattern in suffixes_to_remove:
+            model = re.sub(pattern, "", model, flags=re.IGNORECASE)
+
+        return model.strip()
 
     def _merge_into(self, existing: dict[str, Any], new: dict[str, Any]):
         """Merge new car data into existing car data.

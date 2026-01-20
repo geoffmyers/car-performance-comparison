@@ -2926,7 +2926,7 @@ DE,2018,Audi,Q3 40 TFSI S tronic quattro,Crossover,4,5,Petrol,I4,2,TC,Front,4WD,
 DE,2018,Audi,Q3 45 TFSI S tronic quattro,Crossover,4,5,Petrol,I4,2,TC,Front,4WD,230,171.5,258 lb-ft,3571,6.08,6.3,,,,,144.8,233,,,,,,,,,,,Kaggle - Car Specifications
 DE,2015,Audi,Q3 Facelift,,,,Petrol,I4,1.4,TC,Front,FWD,150,110,184 lb-ft,3263,8.9,8.9,,,,,127,204,,,,,,,,,,,Autoevolution
 DE,2016,Audi,Q3 Facelift,,,,Petrol,I4,1.4,TC,Front,FWD,125,91.9,162 lb-ft,3053,10.8,10.8,,,,,121,195,,,,,,,,,,,Autoevolution
-DE,2015,Audi,Q3 Quattro Instrumented Test,Hatchback,4,5,Petrol,I4,2,TC,Front,4WD,200,149.1,207 lb-ft,3686,7.8,8.08,22.1,,16.1,88,,,176,,0.88,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2015,Audi,Q3 Quattro,Hatchback,4,5,Petrol,I4,2,TC,Front,4WD,200,149.1,207 lb-ft,3686,7.8,8.08,22.1,,16.1,88,,,176,,0.88,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2022,Audi,Q3 S line quattro,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2024,Audi,Q3 S line quattro,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2023,Audi,Q3 S-Line,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -3302,7 +3302,7 @@ DE,,Audi,RS7 Sportback 2019-Present,,,,Petrol,V8,4,TC,Front,AWD,600,441.3,590 lb
 DE,2017,Audi,Rs3,Sedan,4,5,Petrol,I5,,TC,Front,AWD,400,298.3,354 lb-ft,3547,3.5,3.63,8.7,,11.9,117,155,249.4,157,,0.98,,,,,,,185.6,"Car & Driver, Car & Driver - Lightning Lap"
 DE,2015,Audi,Rs3 Sportback,Hatchback,4,5,Petrol,I5,,TC,Front,4WD,367,273.7,343 lb-ft,3350,3.9,4.04,9.3,,12.4,,,,,,,,,,,,,,Car & Driver
 DE,2018,Audi,Rs4 Avant,Hatchback,4,5,,V6,2.9,TC,Front,AWD,444,331.1,443 lb-ft,4150,4,4.14,9.1,,12.5,,155,249.4,,,,,478.52,2018-07-12,Christian Gebhardt,,,,"Car & Driver, Wikipedia - List of Nürburgring Nordschleife lap times"
-DE,2017,Audi,Rs5 Tdi Diesel Prototype Drive,Coupe,2,4,,V6,3,TC,Front,4WD,385,287.1,553 lb-ft,4000,4,4.14,10,,12.6,,174,280.0,,,,,,,,,,,Car & Driver
+DE,2017,Audi,Rs5 Tdi Diesel,Coupe,2,4,,V6,3,TC,Front,4WD,385,287.1,553 lb-ft,4000,4,4.14,10,,12.6,,174,280.0,,,,,,,,,,,Car & Driver
 DE,2016,Audi,Rs7,Hatchback,4,5,,V8,4,TC,Front,AWD,560,417.6,516 lb-ft,4450,3.4,3.52,7.8,,11.6,,174,280.0,,,,,,,,,,,Car & Driver
 DE,2016,Audi,Rs7 Performance,Hatchback,4,5,,V8,4,TC,Front,4WD,605,451.1,553 lb-ft,4500,3.3,3.42,7.6,,11.4,,190,305.8,,,,,,,,,,,Car & Driver
 DE,2017,Audi,Rs7 Performance,Hatchback,4,5,,V8,4,TC,Front,AWD,605,451.1,516 lb-ft,4487,3.2,3.32,7.3,,11.3,125,,,160,,0.94,,,,,,,,Car & Driver
@@ -4723,7 +4723,7 @@ DE,1996,BMW,318ti,Sedan,4,5,Petrol,I4,1.9,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA
 DE,1997,BMW,318ti,Sedan,4,5,Petrol,I4,1.9,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,1998,BMW,318ti,Sedan,4,5,Petrol,I4,1.9,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,1999,BMW,318ti,Sedan,4,5,Petrol,I4,1.9,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2013,BMW,320I Test,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,180,134.2,200 lb-ft,3337,6.5,6.73,18.4,,15.1,92,,,163,,0.87,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2013,BMW,320I,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,180,134.2,200 lb-ft,3337,6.5,6.73,18.4,,15.1,92,,,163,,0.87,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2014,BMW,320i,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2015,BMW,320i,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2016,BMW,320i,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -4805,9 +4805,9 @@ DE,1938,BMW,327 Coupe,,,,Petrol,I6,2,NA,Front,RWD,81,59.6,93 lb-ft,2425.1,,,,,,,
 DE,1936,BMW,328,,,,Petrol,I6,2,NA,Front,RWD,81.6,60,93 lb-ft,1829.8,10.5,10.5,,,,,93,150,,,,,,,,,,,Autoevolution
 DE,2014,BMW,328D Diesel Sedan,Sedan,4,5,Diesel,I4,2,TC,Front,RWD,181,135,280 lb-ft,3499,6.8,7.04,18.8,,15.3,91,,,168,,0.91,,,,,,,,Car & Driver
 DE,2014,BMW,328D Xdrive Diesel Wagon,Wagon,4,5,Diesel,I4,,TC,Front,4WD,181,135,280 lb-ft,3924,7.1,7.36,21.3,,15.6,88,,,159,,0.92,,,,,,,,Car & Driver
-DE,2016,BMW,328I Instrumented Test,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,240,179,258 lb-ft,3566,5.2,5.39,14.1,,13.9,99,,,163,,0.93,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2016,BMW,328I,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,240,179,258 lb-ft,3566,5.2,5.39,14.1,,13.9,99,,,163,,0.93,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2012,BMW,328I Sport Line Manual,Sedan,4,5,Petrol,I4,,TC,Front,RWD,240,179,255 lb-ft,3434,5.6,5.8,14.3,,14.3,100,,,172,,0.88,,,,,,,,Car & Driver
-DE,2014,BMW,328I Xdrive Sports Wagon Test,Wagon,4,5,Petrol,I4,2,TC,Front,4WD,240,179,255 lb-ft,3800,5.8,6.01,15.6,,14.3,96,,,165,,0.86,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2014,BMW,328I Xdrive Sports Wagon,Wagon,4,5,Petrol,I4,2,TC,Front,4WD,240,179,255 lb-ft,3800,5.8,6.01,15.6,,14.3,96,,,165,,0.86,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2000,BMW,328ci,Sedan,4,5,Petrol,V6,2.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2007,BMW,328ci,Sedan,4,5,Petrol,V6,3,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2008,BMW,328ci,Sedan,4,5,Petrol,V6,3,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -4957,8 +4957,8 @@ DE,2004,BMW,330xi,Sedan,4,5,Petrol,V6,3,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA -
 DE,2005,BMW,330xi,Sedan,4,5,Petrol,V6,3,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2006,BMW,330xi,Sedan,4,5,Petrol,V6,3,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,1939,BMW,335,,,,Petrol,I6,3.5,NA,Front,RWD,90,66,,2866,,,,,,,90.1,145,,,,,,,,,,,Autoevolution
-DE,2014,BMW,335I Xdrive Gran Turismo Test,Wagon,4,5,Petrol,V6,3,TC,Front,4WD,300,223.7,295 lb-ft,4076,5.3,5.49,12.8,,13.8,103,,,188,,0.85,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-DE,2015,BMW,335I Xdrive Test,Sedan,4,5,Petrol,I6,3,TC,Front,4WD,300,223.7,300 lb-ft,3739,4.6,4.77,11.9,,13.3,105,,,186,,0.86,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2015,BMW,335I Xdrive,Sedan,4,5,Petrol,I6,3,TC,Front,4WD,300,223.7,300 lb-ft,3739,4.6,4.77,11.9,,13.3,105,,,186,,0.86,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2014,BMW,335I Xdrive Gran Turismo,Wagon,4,5,Petrol,V6,3,TC,Front,4WD,300,223.7,295 lb-ft,4076,5.3,5.49,12.8,,13.8,103,,,188,,0.85,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2007,BMW,335ci,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2008,BMW,335ci,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2009,BMW,335ci,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -5074,8 +5074,8 @@ DE,2018,BMW,4 Series Coupe (F32),,,,Petrol,I4,2,TC,Front,RWD,184,135.3,214 lb-ft
 DE,2015,BMW,4 Series Gran Coupe,Wagon,4,5,,,,,Front,4WD,,,,3650,4.9,5.08,,,12.1,,130,209.2,,,,,,,,,,,Car & Driver
 DE,2014,BMW,4 Series Gran Coupe (F36),,,,Petrol,I4,2,TC,Front,RWD,184,135,199 lb-ft,3263,7.5,7.5,,,,,147,237,,,,,,,,,,,Autoevolution
 DE,2018,BMW,4 Series Gran Coupe (F36),,,,Petrol,I4,2,TC,Front,,184,135.3,214 lb-ft,3395,7.5,7.5,,,,,147,237,,,,,,,,,,,Autoevolution
-DE,2014,BMW,428I Coupe Instrumented Test,Coupe,2,4,Petrol,I4,2,TC,Front,RWD,240,179,255 lb-ft,3529,5.3,5.49,14.5,,14.1,99,,,164,,0.89,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-DE,2015,BMW,428I Gran Coupe Tested,Hatchback,4,5,Petrol,I4,2,TC,Front,RWD,240,179,255 lb-ft,3664,5.5,5.7,14.9,,14.2,98,,,162,,0.89,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2014,BMW,428I Coupe,Coupe,2,4,Petrol,I4,2,TC,Front,RWD,240,179,255 lb-ft,3529,5.3,5.49,14.5,,14.1,99,,,164,,0.89,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2015,BMW,428I Gran Coupe,Hatchback,4,5,Petrol,I4,2,TC,Front,RWD,240,179,255 lb-ft,3664,5.5,5.7,14.9,,14.2,98,,,162,,0.89,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2015,BMW,428I Xdrive,Coupe,2,4,Petrol,I4,,TC,Front,4WD,240,179,255 lb-ft,3680,5.5,5.7,15,,14.2,97,,,177,,,,,,,,,,Car & Driver
 DE,2014,BMW,428i Convertible,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2015,BMW,428i Convertible,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -5149,7 +5149,7 @@ DE,2025,BMW,430i xDrive Gran Coupe,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,
 DE,2026,BMW,430i xDrive Gran Coupe,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2014,BMW,435I 4 Series Coupe,Coupe,2,4,,,,,Front,RWD,300,223.7,300 lb-ft,3550,4.5,4.66,,,13.3,,155,249.4,,,,,,,,,,,Car & Driver
 DE,2014,BMW,435I Coupe Manual,Coupe,2,4,Petrol,I6,,TC,Front,RWD,300,223.7,300 lb-ft,3621,5.2,5.39,12.2,,13.7,105,,,170,,0.9,,,,,,,,Car & Driver
-DE,2015,BMW,435I Gran Coupe Test,Hatchback,4,5,Petrol,I6,3,TC,Front,RWD,300,223.7,300 lb-ft,3799,4.9,5.08,12.2,,13.5,105,,,167,,0.87,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2015,BMW,435I Gran Coupe,Hatchback,4,5,Petrol,I6,3,TC,Front,RWD,300,223.7,300 lb-ft,3799,4.9,5.08,12.2,,13.5,105,,,167,,0.87,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2015,BMW,435I Xdrive,Coupe,2,4,Petrol,I6,,TC,Front,4WD,300,223.7,300 lb-ft,3781,4.5,4.66,11.4,,13.1,107,,,184,,0.87,,,,,,,,Car & Driver
 DE,2014,BMW,435i Convertible,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2015,BMW,435i Convertible,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -5797,7 +5797,7 @@ DE,2004,BMW,645ci,Sedan,4,5,Petrol,V8,4.4,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA
 DE,2005,BMW,645ci,Sedan,4,5,Petrol,V8,4.4,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2004,BMW,645ci Convertible,Sedan,4,5,Petrol,V8,4.4,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2005,BMW,645ci Convertible,Sedan,4,5,Petrol,V8,4.4,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2013,BMW,650I Xdrive Gran Coupe Test,Sedan,4,5,Petrol,V8,4.4,TC,Front,4WD,445,331.8,480 lb-ft,4672,4.6,4.77,10.8,,12.9,109,,,162,,0.96,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2013,BMW,650I Xdrive Gran Coupe,Sedan,4,5,Petrol,V8,4.4,TC,Front,4WD,445,331.8,480 lb-ft,4672,4.6,4.77,10.8,,12.9,109,,,162,,0.96,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2006,BMW,650ci,Sedan,4,5,Petrol,V8,4.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2007,BMW,650ci,Sedan,4,5,Petrol,V8,4.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2008,BMW,650ci,Sedan,4,5,Petrol,V8,4.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -6100,7 +6100,7 @@ DE,2003,BMW,745li,Sedan,4,5,Petrol,V8,4.4,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA
 DE,2004,BMW,745li,Sedan,4,5,Petrol,V8,4.4,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2005,BMW,745li,Sedan,4,5,Petrol,V8,4.4,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,1988,BMW,750 Series,Sedan,4,5,Petrol,V12,5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,BMW,750I Xdrive Test,Sedan,4,5,Petrol,V8,4.4,TC,Front,4WD,445,331.8,480 lb-ft,4883,4.4,4.56,10.1,,12.8,112,,,161,,0.88,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2016,BMW,750I Xdrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,4WD,445,331.8,480 lb-ft,4883,4.4,4.56,10.1,,12.8,112,,,161,,0.88,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2010,BMW,750Li,Sedan,4,5,Petrol,V8,4.4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2011,BMW,750Li,Sedan,4,5,Petrol,V8,4.4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2012,BMW,750Li,Sedan,4,5,Petrol,V8,4.4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -6303,7 +6303,7 @@ DE,2012,BMW,Alpi B7 SWB xDrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,
 DE,2013,BMW,Alpi B7 SWB xDrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2014,BMW,Alpi B7 SWB xDrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2015,BMW,Alpi B7 SWB xDrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,BMW,Alpi B7 Xdrive Test,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,600,447.4,590 lb-ft,4899,3.4,3.52,7.8,,11.6,122,,,151,,0.97,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2017,BMW,Alpi B7 Xdrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,600,447.4,590 lb-ft,4899,3.4,3.52,7.8,,11.6,122,,,151,,0.97,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2018,BMW,Alpi B7 xDrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2019,BMW,Alpi B7 xDrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2022,BMW,Alpi B7 xDrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -6321,12 +6321,12 @@ DE,2026,BMW,Alpi XB7,SUV,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EP
 DE,,BMW,F80 M3,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,81.6,"Series 24, Episode 02",,Wikipedia - List of Top Gear test track Power Lap times
 DE,2017,BMW,I3 Ev,Hatchback,4,5,Electric,,,,Rear,RWD,,,,2918,6.6,6.84,,,15.5,87,,,177,,0.77,,,,,,,,Car & Driver
 DE,2017,BMW,I3 With Range Extender,Hatchback,4,5,,,,,Mid,RWD,,,,3204,7.2,7.46,,,16,85,,,184,,0.77,,,,,,,,Car & Driver
+DE,2015,BMW,I8,Coupe,2,4,Electric/Petrol,I3,1.5,TC,Mid,4WD,,,,3300,4.3,4.45,,,12.8,,155,249.4,,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2016,BMW,I8,Coupe,2,4,Petrol,I3,1.5,TC,Mid,4WD,,,,3484,4,4.14,9.8,,12.5,113,,,163,,0.95,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2019,BMW,I8 Coupe,Sedan,4,5,Petrol,I3,1.5,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2020,BMW,I8 Coupe,Sedan,4,5,Petrol,I3,1.5,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2015,BMW,I8 Prototype Drive,Coupe,2,4,Electric/Petrol,I3,1.5,TC,Mid,4WD,,,,3300,4.3,4.45,,,12.8,,155,249.4,,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2019,BMW,I8 Roadster,Coupe,2,2,Petrol,I3,1.5,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2020,BMW,I8 Roadster,Coupe,2,2,Petrol,I3,1.5,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,BMW,I8 Test,Coupe,2,4,Petrol,I3,1.5,TC,Mid,4WD,,,,3484,4,4.14,9.8,,12.5,113,,,163,,0.95,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2015,BMW,I8 Vs Angeles Crest Highway,Coupe,2,4,Electric/Petrol,I3,,TC,Mid,4WD,228,170,236 lb-ft,3394,4.6,4.77,,,12.1,116,,,166,,0.93,,,,,,,,Car & Driver
 DE,1997,BMW,L7 (E38),,,,Petrol,V12,5.4,NA,Front,RWD,326,240,361 lb-ft,4673.8,6.8,6.8,,,,,155.3,250,,,,,,,,,,,Autoevolution
 DE,1999,BMW,M Coupe,Coupe,2,4,Petrol,V6,3.2,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -6372,7 +6372,7 @@ DE,2026,BMW,M235 xDrive Gran Coupe,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,
 DE,2014,BMW,M235I 2 Series Coupe,Coupe,2,4,Petrol,I6,,TC,Front,RWD,320,238.6,330 lb-ft,3500,4.5,4.66,11.3,,13.1,,130,209.2,,,,,,,,,,,Car & Driver
 DE,2014,BMW,M235I Automatic,Coupe,2,4,Petrol,I6,,TC,Front,RWD,320,238.6,330 lb-ft,3525,4.3,4.45,10.8,,12.9,109,,,153,,0.94,,,,,,,,Car & Driver
 DE,2014,BMW,M235I With Manual,Coupe,2,4,Petrol,I6,,TC,Front,RWD,320,238.6,330 lb-ft,3490,4.9,5.08,11.7,,13.4,106,,,153,,0.92,,,,,,,,Car & Driver
-DE,2015,BMW,M235I Xdrive Instrumented Test,Coupe,2,4,Petrol,I6,3,TC,Front,4WD,320,238.6,330 lb-ft,3653,4.5,4.66,11.9,,13.2,105,,,159,,0.93,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2015,BMW,M235I Xdrive,Coupe,2,4,Petrol,I6,3,TC,Front,4WD,320,238.6,330 lb-ft,3653,4.5,4.66,11.9,,13.2,105,,,159,,0.93,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2014,BMW,M235i,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,187.2,"Car & Driver - Lightning Lap, EPA - Fuel Economy"
 DE,2016,BMW,M235i,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2015,BMW,"M235i (F22, 2015, 3.0 T, 322 PS)",Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,496,2015,Christian Gebhardt,,,,"Wikipedia - List of Nürburgring Nordschleife lap times, EPA - Fuel Economy"
@@ -6521,7 +6521,7 @@ DE,,BMW,M3 E46,,,,,,,,,,,,,,,,,,,,,,,,,,,,,91.8,"Series 02, Episode 02",,Wikiped
 DE,,BMW,M3 E92 Competition Pack (moist),,,,,,,,,,,,,,,,,,,,,,,,,,,,,86.5,"Series 16, Episode 05",,Wikipedia - List of Top Gear test track Power Lap times
 DE,2010,BMW,M3 GTS (E92),,,,Petrol,V8,4.4,NA,Front,RWD,450,331,324 lb-ft,3373.1,4.4,4.4,,,,,189.5,305,,,,,468,2010,Horst von Saurma,,,,"Autoevolution, Wikipedia - List of Nürburgring Nordschleife lap times"
 DE,2015,BMW,M3 M4 Prototypes,Sedan,4,5,Petrol,I6,,TC,Front,RWD,,,,3400,3.8,3.94,,,12.1,,160,257.5,,,,,,,,,,,Car & Driver
-DE,2015,BMW,M3 Manual Long Term Road Test Wrap Up,Sedan,4,5,Petrol,I6,3,TC,Front,RWD,425,316.9,406 lb-ft,3559,4,4.14,9,,12.3,116,,,157,,1.01,,,,,,,,Car & Driver
+DE,2015,BMW,M3 Manual,Sedan,4,5,Petrol,I6,3,TC,Front,RWD,425,316.9,406 lb-ft,3559,4,4.14,9,,12.3,116,,,157,,1.01,,,,,,,,Car & Driver
 DE,2011,BMW,M3 Sedan,Sedan,4,5,Petrol,V8,4,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2015,BMW,M3 Sedan,Sedan,4,5,Petrol,I6,,TC,Front,RWD,425,316.9,406 lb-ft,3600,4,4.14,8.7,,12.2,,155,249.4,,,,,,,,,,,Car & Driver
 DE,2022,BMW,M3 Sedan,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -6838,8 +6838,8 @@ DE,2015,BMW,X1 25i xDrive AT,Crossover,4,5,Petrol,I4,2,TC,Front,4WD,231,172.3,25
 DE,2024,BMW,X1 M35i,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2025,BMW,X1 M35i,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2026,BMW,X1 M35i,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,BMW,X1 Xdrive28I Test,Hatchback,4,5,Petrol,I4,2,TC,Front,4WD,228,170,258 lb-ft,3736,6.4,6.63,16.9,,14.9,94,,,180,,0.87,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-DE,2014,BMW,X1 Xdrive35I Test,Wagon,4,5,Petrol,I6,3,TC,Front,4WD,300,223.7,300 lb-ft,3926,5.2,5.39,13.2,,13.8,102,,,163,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2016,BMW,X1 Xdrive28I,Hatchback,4,5,Petrol,I4,2,TC,Front,4WD,228,170,258 lb-ft,3736,6.4,6.63,16.9,,14.9,94,,,180,,0.87,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2014,BMW,X1 Xdrive35I,Wagon,4,5,Petrol,I6,3,TC,Front,4WD,300,223.7,300 lb-ft,3926,5.2,5.39,13.2,,13.8,102,,,163,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2012,BMW,X1 sDrive16d AT,Crossover,4,5,Diesel,I4,2,TC,Front,RWD,116,86.5,192 lb-ft,3461,10.91,11.3,,,,,117.4,189,,,,,,,,,,,Kaggle - Car Specifications
 DE,2012,BMW,X1 sDrive16d MT,Crossover,4,5,Diesel,I4,2,TC,Front,RWD,116,86.5,192 lb-ft,3263,11.1,11.5,,,,,118.1,190,,,,,,,,,,,Kaggle - Car Specifications
 DE,2019,BMW,X1 sDrive16d MT,Crossover,4,5,Diesel,I3,1.5,TC,Front,FWD,116,86.5,199 lb-ft,3263,11.1,11.5,,,,,118.1,190,,,,,,,,,,,Kaggle - Car Specifications
@@ -6999,8 +6999,8 @@ DE,2024,BMW,X3 M40i,SUV,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA -
 DE,2017,BMW,X3 M40i Steptronic,Crossover,4,5,Petrol,I6,3,TC,Front,AWD,360,268.5,369 lb-ft,4156,4.63,4.8,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 DE,2026,BMW,X3 M50,SUV,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2025,BMW,X3 M50i xDrive,SUV,4,5,Petrol,I4,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2013,BMW,X3 Xdrive28I Test,Wagon,4,5,Petrol,I4,2,TC,Front,4WD,240,179,260 lb-ft,4194,6.2,6.42,17.8,,14.8,93,,,180,,0.86,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-DE,2015,BMW,X3 Xdrive35I Test,Hatchback,4,5,Petrol,I6,3,TC,Front,4WD,300,223.7,300 lb-ft,4221,5.3,5.49,14,,,,,,178,,0.83,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2013,BMW,X3 Xdrive28I,Wagon,4,5,Petrol,I4,2,TC,Front,4WD,240,179,260 lb-ft,4194,6.2,6.42,17.8,,14.8,93,,,180,,0.86,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2015,BMW,X3 Xdrive35I,Hatchback,4,5,Petrol,I6,3,TC,Front,4WD,300,223.7,300 lb-ft,4221,5.3,5.49,14,,,,,,178,,0.83,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2016,BMW,X3 sDrive 28i,SUV,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2010,BMW,X3 sDrive18d AT,Crossover,4,5,Diesel,I4,2,TC,Front,RWD,143,106.6,266 lb-ft,3869,9.95,10.3,,,,,118.1,190,,,,,,,,,,,Kaggle - Car Specifications
 DE,2014,BMW,X3 sDrive18d AT,Crossover,4,5,Diesel,I4,2,TC,Front,RWD,150,111.9,266 lb-ft,3704,9.46,9.8,,,,,121.2,195,,,,,,,,,,,Kaggle - Car Specifications
@@ -7320,7 +7320,7 @@ DE,2019,BMW,X6 M50i Steptronic xDrive,Crossover,4,5,Petrol,V8,4.4,TC,Front,AWD,5
 DE,2024,BMW,X6 M60i xDrive,SUV,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2025,BMW,X6 M60i xDrive,SUV,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2026,BMW,X6 M60i xDrive,SUV,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2015,BMW,X6 Xdrive35I Test,Hatchback,4,5,Petrol,I6,3,TC,Front,4WD,300,223.7,300 lb-ft,4718,5.7,5.91,15.4,,14.3,97,,,168,,0.86,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2015,BMW,X6 Xdrive35I,Hatchback,4,5,Petrol,I6,3,TC,Front,4WD,300,223.7,300 lb-ft,4718,5.7,5.91,15.4,,14.3,97,,,168,,0.86,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2015,BMW,X6 sDrive35i,SUV,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2016,BMW,X6 sDrive35i,SUV,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2017,BMW,X6 sDrive35i,SUV,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -7790,7 +7790,6 @@ GB,2026,Bentley,Bentayga EWB,SUV,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,
 GB,2023,Bentley,Bentayga Hybrid,SUV,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 GB,2025,Bentley,Bentayga Hybrid,SUV,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 GB,2026,Bentley,Bentayga Hybrid,SUV,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-GB,2017,Bentley,Bentayga Retest,Hatchback,4,5,,W12,,TC,Front,AWD,600,447.4,664 lb-ft,5781,3.6,3.73,8.9,,12,117,,,176,,0.85,,,,,,,,Car & Driver
 GB,,Bentley,Bentayga S 2021-Present,,,,Petrol,V8,,TC,Front,AWD,550,404.2,568 lb-ft,,4.5,4.5,,,,,180,290,,,,,,,,,,,Autoevolution
 GB,2022,Bentley,Bentayga Speed,SUV,4,5,Petrol,V12,6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 GB,2023,Bentley,Bentayga Speed,SUV,4,5,Petrol,V12,6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -8185,6 +8184,7 @@ US,1989,Buick,Electra/Park Avenue,Sedan,4,5,Petrol,V6,3.8,NA,Front,FWD,,,,,,,,,,
 US,1990,Buick,Electra/Park Avenue,Sedan,4,5,Petrol,V6,3.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2007,Buick,Enclave,,,,Petrol,V6,3.6,NA,Front,FWD,275,202,251 lb-ft,4780,,,,,,,,,,,,,,,,,,,Autoevolution
 US,2012,Buick,Enclave,,,,Petrol,V6,3.6,NA,Front,FWD,262,192,270 lb-ft,4922,,,,,,,,,,,,,,,,,,,Autoevolution
+US,2017,Buick,Enclave,Hatchback,4,5,,V6,,NA,Front,4WD,288,214.8,270 lb-ft,4850,7.9,8.18,23.2,,16.3,86,,,184,,0.79,,,,,,,,Car & Driver
 US,2018,Buick,Enclave,Hatchback,4,5,,V6,,NA,Front,AWD,310,231.2,266 lb-ft,4604,6.6,6.84,17.7,,15.2,94,,,,,,,,,,,,,Car & Driver
 US,2007,Buick,Enclave 3.6 AT,Crossover,4,5,Petrol,V6,3.6,NA,Front,FWD,275,205.1,251 lb-ft,4780,8.21,8.5,,,,,136.7,220,,,,,,,,,,,Kaggle - Car Specifications
 US,2007,Buick,Enclave 3.6 AT 4WD,Crossover,4,5,Petrol,V6,3.6,NA,Front,4WD,275,205.1,251 lb-ft,4985,9.08,9.4,,,,,133.6,215,,,,,,,,,,,Kaggle - Car Specifications
@@ -8229,7 +8229,6 @@ US,2023,Buick,Enclave FWD,SUV,4,5,Petrol,V6,3.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,
 US,2024,Buick,Enclave FWD,SUV,4,5,Petrol,V6,3.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2025,Buick,Enclave FWD,SUV,4,5,Petrol,I4,2.5,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2026,Buick,Enclave FWD,SUV,4,5,Petrol,I4,2.5,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-US,2017,Buick,Enclave:,Hatchback,4,5,,V6,,NA,Front,4WD,288,214.8,270 lb-ft,4850,7.9,8.18,23.2,,16.3,86,,,184,,0.79,,,,,,,,Car & Driver
 US,2013,Buick,Encore,SUV,4,5,Petrol,I4,1.4,TC,Front,FWD,138,102.9,148 lb-ft,3200,9.1,9.43,27.5,,17.1,,110,177.0,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 US,2014,Buick,Encore,SUV,4,5,Petrol,I4,1.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2015,Buick,Encore,SUV,4,5,Petrol,I4,1.4,TC,Front,FWD,138,102.9,148 lb-ft,3300,10,10.36,37.8,,17.6,79,,,165,,0.82,,,,,,,,"EPA - Fuel Economy, Car & Driver"
@@ -8829,7 +8828,7 @@ US,1987,Cadillac,Allante 4.6i AT,Convertible,2,4,Petrol,V8,4.6,NA,Front,FWD,299,
 US,2006,Cadillac,Armored DTS,Sedan,4,5,Petrol,V8,4.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2004,Cadillac,Armored Deville,Sedan,4,5,Petrol,V8,4.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2005,Cadillac,Armored Deville,Sedan,4,5,Petrol,V8,4.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-US,2013,Cadillac,Ats 25L Test Areview,Sedan,4,5,Petrol,I4,,NA,Front,RWD,202,150.6,191 lb-ft,3366,7.4,7.67,20,,15.6,90,,,161,,0.88,,,,,,,,Car & Driver
+US,2013,Cadillac,Ats 25L,Sedan,4,5,Petrol,I4,,NA,Front,RWD,202,150.6,191 lb-ft,3366,7.4,7.67,20,,15.6,90,,,161,,0.88,,,,,,,,Car & Driver
 US,2015,Cadillac,Ats 36,Coupe,2,4,,V6,,NA,Front,RWD,321,239.4,275 lb-ft,3565,5.4,5.59,13.3,,14,102,,,163,,0.91,,,,,,,,Car & Driver
 US,2015,Cadillac,Ats Coupe 20T Manual,Coupe,2,4,Petrol,I4,,TC,Front,RWD,272,202.8,295 lb-ft,3479,5.7,5.91,13.7,,14.1,101,,,156,,0.92,,,,,,,,Car & Driver
 US,2016,Cadillac,Ats Sedan 20T Awd,Sedan,4,5,Petrol,I4,,TC,Front,4WD,272,202.8,295 lb-ft,3671,5.4,5.59,14.5,,14.1,99,,,167,,0.86,,,,,,,,Car & Driver
@@ -20862,7 +20861,7 @@ US,2013,Ford,Focus SFE FWD FFV,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,
 US,2014,Ford,Focus SFE FWD FFV,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2005,Ford,Focus ST,,,,,,,,,,,,,,,,,,,,,,,,,,515,2005,Patrick Bernhard,89.6,"Series 19, Episode 04",,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times"
 US,2013,Ford,Focus ST,Wagon,4,5,,,2,,Front,FWD,252,187.9,270 lb-ft,3250,6,6.22,,,14.5,,155,249.4,,,,,,,,,,201.4,"Car & Driver - Lightning Lap, Car & Driver"
-US,2014,Ford,Focus ST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,89.6,"Series 19, Episode 04",197.6,"Car & Driver - Lightning Lap, Wikipedia - List of Top Gear test track Power Lap times"
+US,2014,Ford,Focus ST,Hatchback,4,5,,,2,,Front,FWD,252,187.9,270 lb-ft,3234,6.1,6.32,16.3,,14.7,96,,,165,,0.94,,,,,89.6,"Series 19, Episode 04",197.6,"Car & Driver - Lightning Lap, Wikipedia - List of Top Gear test track Power Lap times, Car & Driver"
 US,2015,Ford,Focus ST,Hatchback,4,5,Petrol,I4,2,TC,Front,FWD,252,187.9,270 lb-ft,3248,6.3,6.53,17.3,,14.9,94,,,186,,0.87,,,,,,,,Car & Driver
 US,2021,Ford,"Focus ST (Mk4, C519, 2021, 2.3 T, 280 PS)",,,,,,,,,,,,,,,,,,,,,,,,,,502.7,2021,Christian Gebhardt,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 US,2004,Ford,Focus ST 3 Doors,,,,Petrol,I5,2.5,NA,Front,FWD,225,166,236 lb-ft,2904,6.8,6.8,,,,,149.8,241,,,,,,,,,,,Autoevolution
@@ -20874,7 +20873,6 @@ US,,Ford,Focus ST Estate 2012-Present,,,,Petrol,I4,2,TC,Front,FWD,250,184,266 lb
 US,2016,Ford,Focus ST FWD,Sedan,4,5,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2017,Ford,Focus ST FWD,Sedan,4,5,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2018,Ford,Focus ST FWD,Sedan,4,5,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-US,2014,Ford,Focus ST Long-Term Road Test Wrap-Up,Hatchback,4,5,,,2,,Front,FWD,252,187.9,270 lb-ft,3234,6.1,6.32,16.3,,14.7,96,,,165,,0.94,,,,,,,,Car & Driver
 US,2007,Ford,Focus Sedan,,,,Petrol,I4,2,NA,Front,FWD,140,102.9,136 lb-ft,2623,10.7,10.7,,,,,121,195,,,,,,,,,,,Autoevolution
 US,2014,Ford,Focus Sedan,,,,Petrol,I3,1,TC,Front,FWD,101,74,125 lb-ft,2873,12.6,12.6,,,,,115,185,,,,,,,,,,,Autoevolution
 US,2016,Ford,Focus Sedan 10 Liter Turbo Automatic,Sedan,4,5,Petrol,I3,1,TC,Front,FWD,123,91.7,125 lb-ft,3017,10.2,10.57,32.5,,17.6,80,,,173,,0.83,,,,,,,,Car & Driver
@@ -20981,7 +20979,7 @@ US,2010,Ford,Fusion FWD FFV,Sedan,4,5,Petrol,V6,3,NA,Front,FWD,,,,,,,,,,,,,,,,,,
 US,2011,Ford,Fusion FWD FFV,Sedan,4,5,Petrol,V6,3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2012,Ford,Fusion FWD FFV,Sedan,4,5,Petrol,V6,3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,2012,Ford,Fusion Hybrid,,,,Electric/Petrol,I4,2,NA,Front,FWD,142,104.4,129 lb-ft,3615,,,,,,,112,180,,,,,,,,,,,Autoevolution
-US,2013,Ford,Fusion Hybrid,Sedan,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,3700,9.1,9.43,,,17,,105,169.0,,,,,,,,,,,Car & Driver
+US,2013,Ford,Fusion Hybrid,Sedan,4,5,Electric/Petrol,I4,2,NA,Front,FWD,141,105.1,129 lb-ft,3700,9.1,9.43,24.9,,17,85,105,169.0,177,,0.85,,,,,,,,Car & Driver
 US,2017,Ford,Fusion Hybrid,Sedan,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,3716,8.9,9.22,23.7,,16.9,85,105,169.0,187,,0.73,,,,,,,,Car & Driver
 US,,Ford,Fusion Hybrid 2016-Present,,,,Electric/Petrol,I4,2,NA,Front,FWD,143,105.1,129 lb-ft,3668,,,,,,,,,,,,,,,,,,,Autoevolution
 US,2010,Ford,Fusion Hybrid FWD,Sedan,4,5,Petrol,I4,2.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -25142,7 +25140,7 @@ JP,2008,Honda,Odyssey 3.5 AT,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,250,186.4,249 lb
 JP,2011,Honda,Odyssey 3.5 AT,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,250,186.4,249 lb-ft,4400,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 JP,2008,Honda,Odyssey 3.5 MT,Van,4,7,Petrol,V6,3.5,NA,Front,FWD,250,186.4,249 lb-ft,4564,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 JP,2016,Honda,Odyssey Quick Take,Van,4,7,,V6,,NA,Front,FWD,248,184.9,250 lb-ft,4400,7.7,7.98,21,,15.9,88,,,178,,0.77,,,,,,,,Car & Driver
-JP,2011,Honda,Odyssey Touring Elite Long-Term Road Test Wrap-Up,Wagon,4,5,,V6,3.5,NA,Front,FWD,248,184.9,250 lb-ft,4573,7.5,7.77,20.5,,15.9,89,,,188,,0.77,,,,,,,,Car & Driver
+JP,2011,Honda,Odyssey Touring Elite,Wagon,4,5,,V6,3.5,NA,Front,FWD,248,184.9,250 lb-ft,4573,7.5,7.77,20.5,,15.9,89,,,188,,0.77,,,,,,,,Car & Driver
 JP,1996,Honda,Orthia 1.8 AT,Wagon,4,5,Petrol,I4,1.8,NA,Front,FWD,140,104.4,125 lb-ft,2646,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 JP,1996,Honda,Orthia 1.8 MT,Wagon,4,5,Petrol,I4,1.8,NA,Front,FWD,140,104.4,125 lb-ft,2601,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 JP,1996,Honda,Orthia 2.0 AT,Wagon,4,5,Petrol,I4,2,NA,Front,FWD,145,108.1,131 lb-ft,2668,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
@@ -38481,7 +38479,7 @@ DE,2022,Mercedes-Benz,E350,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,
 DE,2023,Mercedes-Benz,E350,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2025,Mercedes-Benz,E350,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2026,Mercedes-Benz,E350,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2014,Mercedes-Benz,E350 4Matic Coupe Test,Coupe,2,4,Petrol,V6,3.5,NA,Front,4WD,302,225.2,273 lb-ft,3959,5.5,5.7,14.2,,14.2,100,,,157,,0.88,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2014,Mercedes-Benz,E350 4Matic Coupe,Coupe,2,4,Petrol,V6,3.5,NA,Front,4WD,302,225.2,273 lb-ft,3959,5.5,5.7,14.2,,14.2,100,,,157,,0.88,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2014,Mercedes-Benz,E350 4Matic Sedan,Sedan,4,5,,V6,3.5,NA,Front,4WD,302,225.2,273 lb-ft,4136,5.8,6.01,14.9,,14.5,98,,,165,,0.86,,,,,,,,Car & Driver
 DE,2014,Mercedes-Benz,E350 4Matic Wagon,Wagon,4,5,,V6,3.5,NA,Front,4WD,302,225.2,273 lb-ft,4401,6.1,6.32,15.8,,14.8,97,,,167,,0.87,,,,,,,,Car & Driver
 DE,2006,Mercedes-Benz,E350 4matic,Sedan,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -38518,7 +38516,7 @@ DE,2015,Mercedes-Benz,E350 Coupe,Sedan,4,5,Petrol,V6,3.5,NA,Front,RWD,,,,,,,,,,,
 DE,2014,Mercedes-Benz,E350 E350 4Matic Sedan,Sedan,4,5,,V6,3.5,NA,Front,4WD,302,225.2,273 lb-ft,4000,,,,,14.6,,,,,,,,,,,,,,Car & Driver
 DE,2015,Mercedes-Benz,E400,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,329,245.3,354 lb-ft,4300,5.3,5.49,,,14,,130,209.2,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 DE,2016,Mercedes-Benz,E400,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2015,Mercedes-Benz,E400 4Matic Test,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,329,245.3,354 lb-ft,4273,5,5.18,12.6,,13.6,104,,,164,,0.84,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2015,Mercedes-Benz,E400 4Matic,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,329,245.3,354 lb-ft,4273,5,5.18,12.6,,13.6,104,,,164,,0.84,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2017,Mercedes-Benz,E400 4Matic Wagon,Hatchback,4,5,,V6,,TC,Front,AWD,329,245.3,354 lb-ft,4442,5.1,5.28,12.8,,13.7,103,,,156,,0.87,,,,,,,,Car & Driver
 DE,2016,Mercedes-Benz,E400 4matic,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2017,Mercedes-Benz,E400 4matic (station wagon),Wagon,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -38607,7 +38605,7 @@ DE,2008,Mercedes-Benz,E550,Sedan,4,5,Petrol,V8,5.5,NA,Front,RWD,,,,,,,,,,,,,,,,,
 DE,2009,Mercedes-Benz,E550,Sedan,4,5,Petrol,V8,5.5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2010,Mercedes-Benz,E550,Sedan,4,5,Petrol,V8,5.5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2011,Mercedes-Benz,E550,Sedan,4,5,Petrol,V8,5.5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2014,Mercedes-Benz,E550 4Matic Test,Sedan,4,5,Petrol,V8,4.7,TC,Front,4WD,402,299.8,443 lb-ft,4434,4.5,4.66,10.7,,13,111,,,157,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2014,Mercedes-Benz,E550 4Matic,Sedan,4,5,Petrol,V8,4.7,TC,Front,4WD,402,299.8,443 lb-ft,4434,4.5,4.66,10.7,,13,111,,,157,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2007,Mercedes-Benz,E550 4matic,Sedan,4,5,Petrol,V8,5.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2008,Mercedes-Benz,E550 4matic,Sedan,4,5,Petrol,V8,5.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2009,Mercedes-Benz,E550 4matic,Sedan,4,5,Petrol,V8,5.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -44633,7 +44631,7 @@ JP,2011,Nissan,Murano AWD,SUV,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,
 JP,2012,Nissan,Murano AWD,SUV,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2013,Nissan,Murano AWD,SUV,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2014,Nissan,Murano AWD,SUV,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2015,Nissan,Murano AWD,Wagon,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2015,Nissan,Murano AWD,Wagon,4,5,Petrol,V6,3.5,NA,Front,AWD,260,193.9,240 lb-ft,4070,7.3,7.56,18.7,,15.6,92,,,178,,0.78,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 JP,2016,Nissan,Murano AWD,Wagon,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2017,Nissan,Murano AWD,Wagon,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2018,Nissan,Murano AWD,Wagon,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -44645,7 +44643,6 @@ JP,2023,Nissan,Murano AWD,Wagon,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,
 JP,2024,Nissan,Murano AWD,Wagon,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2025,Nissan,Murano AWD,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2026,Nissan,Murano AWD,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2015,Nissan,Murano Awd Long Term Road Test Wrap Up,Hatchback,4,5,,V6,,NA,Front,4WD,260,193.9,240 lb-ft,4070,7.3,7.56,18.7,,15.6,92,,,178,,0.78,,,,,,,,Car & Driver
 JP,2011,Nissan,Murano CrossCabriolet,SUV,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2012,Nissan,Murano CrossCabriolet,SUV,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2013,Nissan,Murano CrossCabriolet,SUV,4,5,Petrol,V6,3.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -49773,7 +49770,7 @@ DE,1989,Porsche,928 S4,Coupe,2,4,Petrol,V8,5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,
 DE,1990,Porsche,928 S4,Coupe,2,4,Petrol,V8,5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,1991,Porsche,928 S4,Coupe,2,4,Petrol,V8,5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,1985,Porsche,928S Road,Coupe,2,4,,V8,5,NA,Front,RWD,288,214.8,302 lb-ft,3450,5.7,5.91,13.5,,14,102,154,247.8,175,,0.83,,,,,,,,Car & Driver
-DE,1978,Porsche,930 Turbo Tested Today,Coupe,2,4,Petrol,H6,,TC,Rear,RWD,261,194.6,291 lb-ft,2844,4.9,5.08,12.1,,13.7,104,,,,,,,,,,,,,Car & Driver
+DE,1978,Porsche,930 Turbo,Coupe,2,4,Petrol,H6,,TC,Rear,RWD,261,194.6,291 lb-ft,2844,4.9,5.08,12.1,,13.7,104,,,,,,,,,,,,,Car & Driver
 DE,1981,Porsche,944,,,,Petrol,I4,2.5,NA,Front,RWD,163,119.9,151 lb-ft,2733,8.4,8.4,,,,,137,220,,,,,,,,,,,Autoevolution
 DE,1984,Porsche,944,Coupe,2,4,Petrol,I4,2.5,NA,Front,,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,1985,Porsche,944,Coupe,2,4,Petrol,I4,2.5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -55445,11 +55442,10 @@ JP,2013,Subaru,XV Crosstrek AWD,SUV,4,5,Petrol,I4,2,NA,Front,AWD,,,,,,,,,,,,,,,,
 JP,2014,Subaru,XV Crosstrek AWD,SUV,4,5,Petrol,I4,2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2015,Subaru,XV Crosstrek AWD,SUV,4,5,Petrol,I4,2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2016,Subaru,XV Crosstrek AWD,SUV,4,5,Petrol,I4,2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2014,Subaru,XV Crosstrek Hybrid,Wagon,4,5,Electric/Petrol,H4,,NA,Front,4WD,,,,3500,8.5,8.81,,,16.9,,115,185.1,,,,,,,,,,,Car & Driver
+JP,2014,Subaru,XV Crosstrek Hybrid,Wagon,4,5,Electric/Petrol,H4,,NA,Front,4WD,,,,3500,8.5,8.81,33.7,,16.9,81,115,185.1,181,,0.78,,,,,,,,Car & Driver
 JP,2014,Subaru,XV Crosstrek Hybrid AWD,SUV,4,5,Petrol,I4,2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2015,Subaru,XV Crosstrek Hybrid AWD,SUV,4,5,Petrol,I4,2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2016,Subaru,XV Crosstrek Hybrid AWD,SUV,4,5,Petrol,I4,2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2014,Subaru,XV Crosstrek Hybrid Test;,Wagon,4,5,Electric/Petrol,H4,,NA,Front,4WD,,,,3488,10.1,10.46,33.7,,17.7,81,,,181,,0.78,,,,,,,,Car & Driver
 JP,2013,Subaru,Xv Crosstrek 20I,Wagon,4,5,Petrol,H4,2,NA,Front,4WD,148,110.4,145 lb-ft,3073,8.1,8.39,,,16.5,83,,,174,,0.81,,,,,,,,Car & Driver
 JP,2015,Subaru,Xv Crosstrek 20I,Hatchback,4,5,Petrol,H4,,NA,Front,4WD,148,110.4,145 lb-ft,3241,10.3,10.67,30.4,,17.9,80,,,186,,0.79,,,,,,,,Car & Driver
 ,1984,Superior Coaches Div E.p. Dutton,Funeral Coach 2WD,,,,Petrol,V8,6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -59646,9 +59642,9 @@ JP,2023,Toyota,Prius Prime SE,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,
 JP,2024,Toyota,Prius Prime SE,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2017,Toyota,Prius Three Touring,Hatchback,4,5,Electric,Electric,,NA,Front,FWD,,,,3113,10.5,10.88,30.6,,17.8,79,,,180,,0.82,,,,,,,,Car & Driver
 JP,2016,Toyota,Prius Two Eco,Hatchback,4,5,Electric/Petrol,I4,1.8,NA,Front,FWD,95,70.8,105 lb-ft,3033,9.4,9.74,28,,17.2,81,,,175,,0.84,,,,,,,,Car & Driver
+JP,2013,Toyota,Prius V,Wagon,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,3317,10.3,10.67,34,,17.8,78,,,191,,0.75,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 JP,2012,Toyota,Prius V 1.8 CVT 5seat,Van,4,7,Electric/Petrol,I4,1.8,NA,Front,FWD,136,101.4,105 lb-ft,3274,10.91,11.3,,,,,102.5,165,,,,,,,,,,,Kaggle - Car Specifications
 JP,2012,Toyota,Prius V 1.8 CVT 7seat,Van,4,7,Electric/Petrol,I4,1.8,NA,Front,FWD,136,101.4,105 lb-ft,3450,10.91,11.3,,,,,102.5,165,,,,,,,,,,,Kaggle - Car Specifications
-JP,2013,Toyota,Prius V Test,Wagon,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,3317,10.3,10.67,34,,17.8,78,,,191,,0.75,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 JP,2023,Toyota,Prius XLE/LTD,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2024,Toyota,Prius XLE/LTD,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2025,Toyota,Prius XLE/LTD,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -62628,7 +62624,6 @@ DE,1992,Volkswagen,Golf/GTI,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,
 DE,1996,Volkswagen,Golf/GTI,Sedan,4,5,Diesel,I4,1.9,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,1997,Volkswagen,Golf/GTI,Sedan,4,5,Diesel,I4,1.9,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,1998,Volkswagen,Golf/GTI,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2015,Volkswagen,Gti Long Term Road Test Wrap Up,Hatchback,4,5,Petrol,I4,2,TC,Front,FWD,220,164.1,258 lb-ft,3125,6.1,6.32,14.6,,14.6,100,,,156,,0.93,,,,,,,,Car & Driver
 DE,2025,Volkswagen,ID. Buzz,Van,4,7,Electric,,,,,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,,Volkswagen,ID. Buzz 2023-Present,,,,Electric,,,,,RWD,,,,5421,10.2,10.2,,,,,,,,,,,,,,,,,Autoevolution
 DE,2025,Volkswagen,ID. Buzz 4motion,Van,4,7,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
