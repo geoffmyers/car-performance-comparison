@@ -178,6 +178,9 @@ class DataMerger:
     def _normalize_model(self, model: str) -> str:
         """Normalize model name for key matching.
 
+        Removes test/review suffixes, parenthetical content, and normalizes whitespace
+        to ensure records like "Camaro ZL1 Test" and "Camaro ZL1" match.
+
         Args:
             model: Model name
 
@@ -187,6 +190,38 @@ class DataMerger:
         import re
 
         model = model.lower().strip()
+
+        # Remove common test/review suffixes (same patterns as BaseParser._clean_model_name)
+        # Order matters - more specific patterns first
+        suffixes_to_remove = [
+            # Multi-word patterns (most specific first)
+            r"\s+first\s+ride\s+reviews?\s*[\|–—-]?\s*$",
+            r"\s+first\s+drive\s+reviews?\s*\d*\s*[\|–—-]?\s*$",
+            r"\s+full\s+test\s+reviews?\s*[\|–—-]?\s*$",
+            r"\s+test\s+reviews?\s*[\|–—-]?\s*$",
+            r"\s+tested\s+reviews?\s*[\|–—-]?\s*$",
+            r"\s+instrumented\s+test\s*[\|–—-]?\s*$",
+            r"\s+first\s+drive\s*[\|–—-]?\s*$",
+            r"\s+first\s+ride\s*[\|–—-]?\s*$",
+            r"\s+prototype\s+ride\s*[\|–—-]?\s*$",
+            r"\s+prototype\s+drive\s*[\|–—-]?\s*$",
+            r"\s+full\s+test\s*[\|–—-]?\s*$",
+            r"\s+by\s+the\s+numbers\s*[\|–—-]?\s*$",
+            r"\s+long-?\s*term\s+(test\s+)?(wrap-?\s*(up)?|update|verdict).*$",
+            r"\s+long-?\s*term\s+(test|update|verdict)\s*[\|–—-]?\s*$",
+            # Single-word patterns
+            r"\s+test\s*[\|–—-]?\s*$",
+            r"\s+tested\s*[\|–—-]?\s*$",
+            r"\s+review\s*[\|–—-]?\s*$",
+            r"\s+reviews\s*[\|–—-]?\s*$",
+            r"\s+prototype\s*[\|–—-]?\s*$",
+            r"\s+instrumented\s*[\|–—-]?\s*$",
+            r"\s+long\s+term\s*[\|–—-]?\s*$",
+        ]
+
+        for pattern in suffixes_to_remove:
+            model = re.sub(pattern, "", model, flags=re.IGNORECASE)
+
         # Remove year from model if present in parentheses
         model = re.sub(r"\s*\(\d{4}\)\s*", " ", model).strip()
         # Remove extra specifications in parentheses for basic matching
@@ -293,7 +328,11 @@ class DataMerger:
     def deduplicate(
         self, records: list[dict[str, Any]]
     ) -> list[dict[str, Any]]:
-        """Remove duplicate records.
+        """Remove duplicate records by merging them together.
+
+        When duplicates are found (same year, manufacturer, normalized model),
+        their data is merged together, preferring non-empty values and
+        keeping the cleanest model name.
 
         Args:
             records: List of car data dicts
@@ -301,13 +340,56 @@ class DataMerger:
         Returns:
             Deduplicated list
         """
-        seen = set()
-        result = []
+        # Group records by normalized key
+        grouped: dict[tuple, list[dict[str, Any]]] = {}
 
         for record in records:
             key = self._create_key(record, include_year=True)
-            if key not in seen:
-                seen.add(key)
-                result.append(record)
+            if key not in grouped:
+                grouped[key] = []
+            grouped[key].append(record)
+
+        # Merge each group
+        result = []
+        for key, group in grouped.items():
+            if len(group) == 1:
+                result.append(group[0])
+            else:
+                # Merge all records in the group
+                merged = self._merge_duplicates(group)
+                result.append(merged)
+
+        # Sort by manufacturer, model, year
+        result.sort(
+            key=lambda x: (
+                x.get("manufacturer", ""),
+                x.get("model", ""),
+                x.get("year") or "",
+            )
+        )
 
         return result
+
+    def _merge_duplicates(self, records: list[dict[str, Any]]) -> dict[str, Any]:
+        """Merge a list of duplicate records into one.
+
+        Prefers:
+        - Shorter (cleaner) model names
+        - Non-empty field values
+        - Combined source lists
+
+        Args:
+            records: List of duplicate records to merge
+
+        Returns:
+            Single merged record
+        """
+        # Start with the record that has the cleanest (shortest) model name
+        records_sorted = sorted(records, key=lambda r: len(r.get("model", "")))
+        base = records_sorted[0].copy()
+
+        # Merge in data from other records
+        for other in records_sorted[1:]:
+            self._merge_into(base, other)
+
+        return base

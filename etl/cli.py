@@ -183,6 +183,14 @@ def run_pipeline(
     if verbose:
         print(f"Merged data contains {len(merged_data):,} records")
 
+    # Deduplicate using normalized keys
+    before_dedup = len(merged_data)
+    merged_data = merger.deduplicate(merged_data)
+    dedup_removed = before_dedup - len(merged_data)
+
+    if verbose and dedup_removed > 0:
+        print(f"  Removed {dedup_removed:,} duplicate records")
+
     # Post-process: Convert remaining "ICE" to "Petrol" as default
     # and "Hybrid"/"Plug-in Hybrid" to "Electric/Petrol" as default
     ice_converted = 0

@@ -335,6 +335,13 @@ class BaseParser(ABC):
         # Decode HTML entities (e.g., &#8211; -> –)
         model = html.unescape(model)
 
+        # Fix UTF-8 mojibake (e.g., "Ã¡" should be "á")
+        # This happens when UTF-8 bytes are interpreted as Latin-1
+        try:
+            model = model.encode('latin-1').decode('utf-8')
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            pass  # Not mojibake, keep original
+
         model = self._clean_text(model)
 
         # Remove trailing pipes and dashes (often from truncated titles)
@@ -350,7 +357,11 @@ class BaseParser(ABC):
         # Note: [\|–—-] matches pipe, en-dash, em-dash, and hyphen
         suffixes_to_remove = [
             # Multi-word patterns (most specific first)
+            r"\s+first\s+ride\s+reviews?\s*[\|–—-]?\s*$",  # First Ride Review(s)
             r"\s+first\s+drive\s+reviews?\s*\d*\s*[\|–—-]?\s*$",  # First Drive Review(s) with optional number
+            r"\s+full\s+test\s+reviews?\s*[\|–—-]?\s*$",  # Full Test Review(s)
+            r"\s+test\s+reviews?\s*[\|–—-]?\s*$",  # Test Review(s)
+            r"\s+tested\s+reviews?\s*[\|–—-]?\s*$",  # Tested Review(s)
             r"\s+instrumented\s+test\s*[\|–—-]?\s*$",
             r"\s+first\s+drive\s*[\|–—-]?\s*$",
             r"\s+first\s+ride\s*[\|–—-]?\s*$",
