@@ -1,11 +1,19 @@
 # Car Performance Data Schema
 # Defines all columns, types, ranges, and metadata for the master database
 
-version: "1.0.0"
+version: "1.1.0"
 
 # Column definitions with metadata
 columns:
-  # Primary identification
+  # Primary identification - hash-based unique identifier
+  car_id:
+    type: string
+    required: true
+    description: "SHA-256 hash of normalized year+manufacturer+model (lowercase, no spaces/special chars)"
+    category: Meta
+    header: "Car ID"
+    primary_key: true
+
   manufacturer:
     type: string
     required: true
@@ -322,6 +330,7 @@ columns:
 
 # Column ordering for output CSV
 column_order:
+  - car_id
   - country
   - year
   - manufacturer

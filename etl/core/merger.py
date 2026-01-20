@@ -4,17 +4,55 @@ Data merging logic for combining records from multiple sources.
 
 This module provides:
 - Merging records by year + manufacturer + model key
+- Hash-based unique identifier (car_id) generation
 - Field-level merge (don't overwrite existing values)
 - Source tracking for provenance
 """
 
 import csv
+import hashlib
+import re
 from pathlib import Path
 from typing import Any, Optional
 
 from etl.parsers.base import CarRecord
 from etl.core.manufacturers import ManufacturerNormalizer
 from etl.core.schema import Schema
+
+
+def generate_car_id(year: str, manufacturer: str, model: str) -> str:
+    """Generate a unique car_id hash from year, manufacturer, and model.
+
+    The hash is created by:
+    1. Normalizing each component: lowercase, remove all non-alphanumeric chars
+    2. Concatenating: year + manufacturer + model
+    3. Computing SHA-256 hash and returning first 16 hex chars
+
+    Args:
+        year: Model year (e.g., "2024")
+        manufacturer: Manufacturer name (e.g., "Porsche")
+        model: Model name (e.g., "911 GT3 RS")
+
+    Returns:
+        16-character hex string unique identifier
+
+    Examples:
+        >>> generate_car_id("2024", "Porsche", "911 GT3 RS")
+        'a1b2c3d4e5f67890'
+        >>> generate_car_id("2024", "PORSCHE", "911-GT3-RS")
+        'a1b2c3d4e5f67890'  # Same result after normalization
+    """
+    # Normalize: lowercase and remove all non-alphanumeric characters
+    def normalize(s: str) -> str:
+        if not s:
+            return ""
+        return re.sub(r"[^a-z0-9]", "", s.lower())
+
+    normalized = normalize(year or "") + normalize(manufacturer) + normalize(model)
+
+    # Generate SHA-256 hash and take first 16 chars
+    hash_digest = hashlib.sha256(normalized.encode("utf-8")).hexdigest()
+    return hash_digest[:16]
 
 
 class DataMerger:
@@ -179,6 +217,34 @@ class DataMerger:
             year = car.get("year") or ""
             return (year, manufacturer, model)
         return (manufacturer, model)
+
+    def _generate_car_id(self, car: dict[str, Any]) -> str:
+        """Generate the car_id hash for a record.
+
+        Args:
+            car: Car data dictionary
+
+        Returns:
+            16-character hex string unique identifier
+        """
+        year = str(car.get("year") or "")
+        manufacturer = car.get("manufacturer", "")
+        model = car.get("model", "")
+        return generate_car_id(year, manufacturer, model)
+
+    def add_car_ids(self, records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        """Add car_id to all records.
+
+        Args:
+            records: List of car data dicts
+
+        Returns:
+            Same list with car_id added to each record
+        """
+        for record in records:
+            if not record.get("car_id"):
+                record["car_id"] = self._generate_car_id(record)
+        return records
 
     def _normalize_model(self, model: str) -> str:
         """Normalize model name for key matching.
@@ -476,7 +542,8 @@ class DataMerger:
     ) -> list[dict[str, Any]]:
         """Remove duplicate records by merging them together.
 
-        When duplicates are found (same year, manufacturer, normalized model),
+        Uses car_id (hash of normalized year+manufacturer+model) as the
+        authoritative key for detecting duplicates. When duplicates are found,
         their data is merged together, preferring non-empty values and
         keeping the cleanest model name.
 
@@ -484,25 +551,32 @@ class DataMerger:
             records: List of car data dicts
 
         Returns:
-            Deduplicated list
+            Deduplicated list with car_id set on all records
         """
-        # Group records by normalized key
-        grouped: dict[tuple, list[dict[str, Any]]] = {}
+        # First, ensure all records have car_id
+        for record in records:
+            if not record.get("car_id"):
+                record["car_id"] = self._generate_car_id(record)
+
+        # Group records by car_id (authoritative deduplication key)
+        grouped: dict[str, list[dict[str, Any]]] = {}
 
         for record in records:
-            key = self._create_key(record, include_year=True)
-            if key not in grouped:
-                grouped[key] = []
-            grouped[key].append(record)
+            car_id = record["car_id"]
+            if car_id not in grouped:
+                grouped[car_id] = []
+            grouped[car_id].append(record)
 
         # Merge each group
         result = []
-        for key, group in grouped.items():
+        for car_id, group in grouped.items():
             if len(group) == 1:
                 result.append(group[0])
             else:
                 # Merge all records in the group
                 merged = self._merge_duplicates(group)
+                # Ensure car_id is preserved
+                merged["car_id"] = car_id
                 result.append(merged)
 
         # Sort by manufacturer, model, year

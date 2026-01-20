@@ -115,13 +115,12 @@ class SQLiteWriter:
     def _create_schema(self, conn: sqlite3.Connection) -> None:
         """Create the cars table with schema-defined columns.
 
+        Uses car_id (hash) as the PRIMARY KEY for uniqueness enforcement.
+
         Args:
             conn: SQLite connection
         """
         columns_sql = []
-
-        # Add auto-increment primary key
-        columns_sql.append("id INTEGER PRIMARY KEY AUTOINCREMENT")
 
         for field_name in self.schema.column_order:
             col_type = self._get_column_type(field_name)
@@ -130,9 +129,12 @@ class SQLiteWriter:
             # Build column definition
             col_def = f'"{field_name}" {col_type}'
 
-            # Add NOT NULL for required fields
+            # car_id is the primary key
             field = self.schema.get_field(field_name)
-            if field and field.get("required"):
+            if field and field.get("primary_key"):
+                col_def += " PRIMARY KEY"
+            # Add NOT NULL for required fields (but not car_id, already has PRIMARY KEY)
+            elif field and field.get("required"):
                 col_def += " NOT NULL"
 
             if check:
@@ -220,23 +222,25 @@ class SQLiteWriter:
     def _create_fts_table(self, conn: sqlite3.Connection) -> None:
         """Create FTS5 virtual table for full-text search.
 
+        Note: Since car_id is a TEXT primary key (not INTEGER), we use
+        an external content table approach without content_rowid.
+
         Args:
             conn: SQLite connection
         """
-        # Create FTS5 virtual table
+        # Create FTS5 virtual table (external content without rowid mapping)
         conn.execute(f"""
             CREATE VIRTUAL TABLE {self.FTS_TABLE_NAME} USING fts5(
+                car_id,
                 manufacturer,
-                model,
-                content='{self.TABLE_NAME}',
-                content_rowid='id'
+                model
             )
         """)
 
-        # Populate FTS table
+        # Populate FTS table from cars table
         conn.execute(f"""
-            INSERT INTO {self.FTS_TABLE_NAME}({self.FTS_TABLE_NAME})
-            VALUES('rebuild')
+            INSERT INTO {self.FTS_TABLE_NAME} (car_id, manufacturer, model)
+            SELECT car_id, manufacturer, model FROM {self.TABLE_NAME}
         """)
 
     def validate_output(self, output_path: Path) -> tuple[bool, list[str]]:
@@ -269,7 +273,7 @@ class SQLiteWriter:
             # Check columns
             cursor.execute(f"PRAGMA table_info({self.TABLE_NAME})")
             db_columns = {row[1] for row in cursor.fetchall()}
-            expected = set(self.schema.column_order) | {"id"}
+            expected = set(self.schema.column_order)
 
             missing = expected - db_columns
             if missing:
