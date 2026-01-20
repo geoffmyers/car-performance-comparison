@@ -15,7 +15,7 @@ export function getDb(): Database.Database {
 }
 
 export interface CarRow {
-  id: number;
+  car_id: string;
   manufacturer: string | null;
   country: string | null;
   model: string | null;
@@ -170,9 +170,9 @@ export function getCars(params: CarsQueryParams): PaginatedResult<CarRow> {
     values.push(params.yearMax);
   }
 
-  // Full-text search
+  // Full-text search using car_id from FTS table
   if (params.search) {
-    conditions.push("id IN (SELECT rowid FROM cars_fts WHERE cars_fts MATCH ?)");
+    conditions.push("car_id IN (SELECT car_id FROM cars_fts WHERE cars_fts MATCH ?)");
     values.push(`${params.search}*`);
   }
 

@@ -265,6 +265,14 @@ class DataMerger:
         # Remove trailing punctuation
         model = re.sub(r"[;:]+\s*$", "", model)
 
+        # Remove "Page N" suffixes (e.g., "Page 2", "Page 3")
+        model = re.sub(r"\s+page\s+\d+\s*$", "", model)
+
+        # Remove extended review article text (everything after "Review" followed by descriptive text)
+        model = re.sub(r"\s+road\s+test\s+review\s+.*$", "", model)
+        model = re.sub(r"\s+first\s+drive\s+review\s+.*$", "", model)
+        model = re.sub(r"\s+review\s+[a-z].*$", "", model)
+
         # Remove common test/review suffixes (same patterns as BaseParser._clean_model_name)
         # Order matters - more specific patterns first
         suffixes_to_remove = [
@@ -329,6 +337,15 @@ class DataMerger:
 
         # Remove trailing punctuation (semicolons, etc.)
         model = re.sub(r"[;:]+\s*$", "", model)
+
+        # Remove "Page N" suffixes (e.g., "Page 2", "Page 3")
+        model = re.sub(r"\s+Page\s+\d+\s*$", "", model, flags=re.IGNORECASE)
+
+        # Remove extended review article text (everything after "Review" followed by descriptive text)
+        # e.g., "Road Test Review Definitely Still A Camry" -> ""
+        model = re.sub(r"\s+Road\s+Test\s+Review\s+.*$", "", model, flags=re.IGNORECASE)
+        model = re.sub(r"\s+First\s+Drive\s+Review\s+.*$", "", model, flags=re.IGNORECASE)
+        model = re.sub(r"\s+Review\s+[A-Z].*$", "", model, flags=re.IGNORECASE)
 
         # Remove "Tested ..." phrases anywhere in the string
         model = re.sub(r"\s+Tested\s+(on|with|using|today).*$", "", model, flags=re.IGNORECASE)

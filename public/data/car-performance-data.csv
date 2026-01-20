@@ -217,9 +217,8 @@ b171e7067aacb223,JP,2026,Acura,MDX FWD,SUV,4,5,Petrol,V6,3.5,NA,Front,FWD,,,,,,,
 181dee2cdb67760d,JP,2018,Acura,MDX Hybrid AWD,SUV,4,5,Petrol,V6,3,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 0b22017f4e5667e0,JP,2019,Acura,MDX Hybrid AWD,SUV,4,5,Petrol,V6,3,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 c7f972941ca9c4f6,JP,2020,Acura,MDX Hybrid AWD,SUV,4,5,Petrol,V6,3,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-4b4808c63e030817,JP,2014,Acura,Mdx,Wagon,4,5,,V6,,NA,Front,4WD,290,216.3,267 lb-ft,4050,6.1,6.32,17.2,,14.8,,120,193.1,,,,,,,,,,,Car & Driver
+4b4808c63e030817,JP,2014,Acura,Mdx,Wagon,4,5,,V6,3.5,NA,Front,4WD,290,216.3,267 lb-ft,4050,6.1,6.32,17.2,,14.8,,120,193.1,,,,,,,,,,,Car & Driver
 47c843218d89057d,JP,2016,Acura,Mdx 9 Speed Automatic,Hatchback,4,5,,V6,,NA,Front,4WD,290,216.3,267 lb-ft,4257,5.9,6.11,16.4,,14.6,95,,,185,,0.82,,,,,,,,Car & Driver
-98d5c867e53ef62d,JP,2014,Acura,Mdx First Drive Review Updating The Dashboard By Boeing Look Page 2,Wagon,4,5,,V6,3.5,NA,Front,4WD,290,216.3,267 lb-ft,4050,6.1,6.32,17.2,,14.8,,120,193.1,,,,,,,,,,,Car & Driver
 b3d043f20d63afa2,JP,2014,Acura,Mdx Sh Awd,Wagon,4,5,,V6,,NA,Front,4WD,290,216.3,267 lb-ft,4336,6.4,6.63,17.1,,14.9,95,,,178,,0.85,,,,,,,,Car & Driver
 0d2a57302ecfedb0,JP,2017,Acura,Mdx Sh Awd,Hatchback,4,5,,V6,,NA,Front,AWD,290,216.3,267 lb-ft,4222,6,6.22,16.5,,14.7,95,,,188,,0.83,,,,,,,,Car & Driver
 55e2a9f09806b85a,JP,2022,Acura,Mdx Sh Awd,Wagon,4,5,,V6,,NA,Front,AWD,290,216.3,267 lb-ft,4514,6.4,6.63,17.6,,,,,,170,,,,,,,,,,Car & Driver
@@ -357,7 +356,6 @@ c745558ca5a5a069,JP,2010,Acura,Rdx Front Wheel Drive,Wagon,4,5,,,,,Front,FWD,,,2
 5649b5984ad4eed4,JP,2014,Acura,Rlx Fwd,Sedan,4,5,,V6,,NA,Front,FWD,310,231.2,272 lb-ft,4004,5.8,6.01,14.3,,14.3,100,,,166,,0.84,,,,,,,,Car & Driver
 c60d08d9b6eb85a4,JP,2014,Acura,Rlx Sport Hybrid Sh Awd,Sedan,4,5,Electric/Petrol,V6,,NA,Front,4WD,,,,4350,5.3,5.49,,,13.9,,130,209.2,,,,,,,,,,,Car & Driver
 236b8939f5d60f01,JP,2018,Acura,Rlx Sport Hybrid Sh Awd,Sedan,4,5,Electric/Petrol,V6,,NA,Front,AWD,,,,4400,5.5,5.7,14.1,,14.1,102,130,209.2,187,,0.83,,,,,,,,Car & Driver
-a4a9ecbf8d59d5a7,JP,2014,Acura,Rlx Sport Hybrid Sh Awd First Drive Review Driving The Thing Page 2,Sedan,4,5,Electric/Petrol,V6,,NA,Front,4WD,,,,4350,5.3,5.49,,,13.9,,130,209.2,,,,,,,,,,,Car & Driver
 b94fafab428ca140,JP,2005,Acura,Rsx Type S Short Take Road,Coupe,2,4,Petrol,I4,,NA,Front,FWD,,,,2848,6.2,6.42,16.6,,14.9,95,,,181,,0.86,,,,,,,,Car & Driver
 6f9236eac2b605da,JP,1996,Acura,SLX,,,,Petrol,V6,3.2,NA,Front,AWD,190,140,188 lb-ft,4314.4,10,10,,,,,103,166,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
 03474b79b05c1878,JP,1997,Acura,SLX,,,,Petrol,V6,3.5,NA,Front,AWD,216,159,230 lb-ft,4615,11.8,11.8,,,,,111.9,180,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
@@ -473,7 +471,6 @@ bcc8e8b16a80e78d,JP,2018,Acura,Tlx,Sedan,4,5,,,,,Front,AWD,,,,3550,5.7,5.91,13.3
 14df96b011349b48,JP,2021,Acura,Tlx,Sedan,4,5,Petrol,I4,,TC,Front,AWD,272,202.8,280 lb-ft,4026,5.9,6.11,15.3,,,,,,177,362,0.87,,,,,,,,Car & Driver
 a86247c18f3c1991,JP,2015,Acura,Tlx 24L,Sedan,4,5,Petrol,I4,,NA,Front,FWD,206,153.6,182 lb-ft,3483,6.8,7.04,17.9,,15.4,93,,,179,,0.83,,,,,,,,Car & Driver
 2beb1e62d989aaad,JP,2015,Acura,Tlx 24L 35L 35L Sh Awd,Sedan,4,5,,,,,Front,4WD,,,,3500,5.6,5.8,13.9,,14.1,,130,209.2,,,,,,,,,,,Car & Driver
-8d83c0c7f2b138cb,JP,2015,Acura,Tlx 24L 35L 35L Sh Awd First Drive Review The Choice Is Yoursbut Mostly Acuras Page 2,Sedan,4,5,,,,,Front,4WD,,,,3500,6.1,6.32,15.4,,14.6,,130,209.2,,,,,,,,,,,Car & Driver
 8b027b9b1a9f9258,JP,2015,Acura,Tlx 35 V 6 Fwd,Sedan,4,5,,V6,,NA,Front,FWD,290,216.3,267 lb-ft,3617,5.7,5.91,13.3,,14.2,103,,,182,,0.83,,,,,,,,Car & Driver
 73764bc85ba7f291,JP,2020,Acura,Tlx Pmc Edition,Sedan,4,5,,V6,,NA,Front,AWD,290,216.3,267 lb-ft,3900,5.6,5.8,14.1,,14.1,,125,201.2,,,,,,,,,,,Car & Driver
 ce32af9030770564,JP,2015,Acura,Tlx V 6 Sh Awd,Sedan,4,5,,V6,,NA,Front,4WD,290,216.3,267 lb-ft,3763,5.8,6.01,14.1,,14.2,100,,,174,,0.82,,,,,,,,Car & Driver
@@ -499,7 +496,6 @@ f83ca3ad827017c2,JP,2026,Acura,ZDX AWD,SUV,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,
 d2b6b5a8e8f93a42,JP,2024,Acura,Zdx Type S,Wagon,4,5,Electric,Electric,,,Rear,AWD,499,372.1,544 lb-ft,5938,4.3,4.45,10,,12.7,112,,,168,,0.85,,,,,,,,Car & Driver
 de453a6a0e2b4a10,,2020,Aev Prospector,Xl Ram 2500 Hd,Truck,4,5,,,,,Front,4WD,370,275.9,850 lb-ft,8780,8.3,8.6,26.2,,16.6,84,,,202,,,,,,,,,,Car & Driver
 870bca65cc035bac,,2011,Airstream Avenue,Rv,,,,,V8,6,NA,Front,RWD,323,240.9,373 lb-ft,8100,14,14.5,,,22,,,,,,,,,,,,,,Car & Driver
-e73ceea35c40c052,,2011,Airstream Avenue,Rv First Drive Review Close Quarters Are Still Roomy Page 2,,,,,V8,6,NA,Front,RWD,323,240.9,373 lb-ft,8100,14,14.5,,,22,,,,,,,,,,,,,,Car & Driver
 5101b75c7e86b6c1,IT,1994,Alfa Romeo,145 1.4 MT,Hatchback,4,5,Petrol,I4,1.4,NA,Front,FWD,103,76.8,91 lb-ft,2502,10.81,11.2,,,,,115,185,,,,,,,,,,,Kaggle - Car Specifications
 7bcd8e7dc9bdcf89,IT,1999,Alfa Romeo,145 1.4 MT,Hatchback,4,5,Petrol,I4,1.4,NA,Front,FWD,103,76.8,91 lb-ft,2502,10.81,11.2,,,,,115,185,,,,,,,,,,,Kaggle - Car Specifications
 528d37c2f34ed059,IT,1994,Alfa Romeo,145 1.6 MT,Hatchback,4,5,Petrol,H4,1.6,NA,Front,FWD,103,76.8,99 lb-ft,2529,10.62,11,,,,,115,185,,,,,,,,,,,Kaggle - Car Specifications
@@ -645,8 +641,7 @@ a2000b29867dec33,IT,2018,Alfa Romeo,4C,Coupe,2,4,Petrol,I4,1.8,TC,Mid,RWD,,,,,,,
 fc2d7a006e6cde90,IT,2019,Alfa Romeo,4C,Coupe,2,4,Petrol,I4,1.8,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 cc855399d13a54b8,IT,2020,Alfa Romeo,4C,Coupe,2,4,Petrol,I4,1.8,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6178629b6107dfaa,IT,2013,Alfa Romeo,4C 1.7 TCT,Coupe,2,4,Petrol,I4,1.7,TC,Mid,RWD,241,179.7,258 lb-ft,1973,4.35,4.5,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
-87e6354aa9d25530,IT,2015,Alfa Romeo,4C Coupe,Coupe,2,4,Petrol,I4,,TC,Mid,RWD,237,176.7,258 lb-ft,2650,4.5,4.66,11.2,,12.8,107,160,257.5,148,,0.97,,,,,,,,Car & Driver
-0e9355275e2f2271,IT,2015,Alfa Romeo,4C Coupe First Drive Review Stupendously Basic Page 2,Coupe,2,4,Petrol,I4,1.7,TC,Mid,RWD,237,176.7,258 lb-ft,2650,4.5,4.66,,,12.8,,160,257.5,,,,,,,,,,,Car & Driver
+87e6354aa9d25530,IT,2015,Alfa Romeo,4C Coupe,Coupe,2,4,Petrol,I4,1.7,TC,Mid,RWD,237,176.7,258 lb-ft,2650,4.5,4.66,11.2,,12.8,107,160,257.5,148,,0.97,,,,,,,,Car & Driver
 69d3d527d89a4651,IT,2015,Alfa Romeo,4C Spider,Targa,2,2,Petrol,I4,1.7,TC,Mid,RWD,237,176.7,258 lb-ft,2500,4.3,4.45,11.3,,13.1,107,160,257.5,150,,0.96,,,,,,,,Car & Driver
 af5a89b7602bf602,IT,,Alfa Romeo,4C Spider 2015-Present,,,2,Petrol,I4,1.7,TC,Mid,RWD,240,177,258 lb-ft,2072,4.5,4.5,,,,,160,257,,,,,,,,,,,Autoevolution
 aee4fbd4485beb05,IT,2021,Alfa Romeo,4C Spider 33 Stradale Tributo,Convertible,2,2,,,,,Mid,RWD,237,176.7,258 lb-ft,2500,4.1,4.25,11,,12.8,,,,,,,,,,,,,,Car & Driver
@@ -985,8 +980,7 @@ f1e5adc58ecb11b0,,1987,American Motors Corporation,Eagle 4WD,,,,Petrol,V6,4.2,NA
 60b917131a3476a7,,1984,American Motors Corporation,Eagle SX/4 4WD,,,,Petrol,I4,2.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 91b3db9ecb7f8934,,1983,Amg Mercedes,Benz 500Sel Archive,Sedan,4,5,,,,,Front,RWD,265,197.6,293 lb-ft,3772,7.4,7.67,18.3,,15.5,93,139,223.7,185,,0.74,,,,,,,,Car & Driver
 790247e5d9f178e9,IT,1937,Aprilia,LANCIA,,,,Petrol,V4,1.4,NA,Front,RWD,47,34,70 lb-ft,1940,27,27,,,,,78,126,,,,,,,,,,,Autoevolution
-bb24f02d764d3160,,2010,Aptera,2E Review Behind The Wheel Of The Beast Page 2,Hatchback,4,5,Electric,Electric,,,Front,FWD,70,52.2,110 lb-ft,1700,10,10.36,,,,,,,,,,,,,,,,,Car & Driver
-94fd9b06b3879677,,2010,Aptera,2e,Hatchback,4,5,Electric,Electric,,,Front,FWD,70,52.2,110 lb-ft,1700,10,10.36,,,,,,,,,,,,,,,,,Car & Driver
+bb24f02d764d3160,,2010,Aptera,2E,Hatchback,4,5,Electric,Electric,,,Front,FWD,70,52.2,110 lb-ft,1700,10,10.36,,,,,,,,,,,,,,,,,Car & Driver
 20e24a9987e403d9,GB,,Ariel,Atom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,84,"Series 02, Episode 06",,Wikipedia - List of Top Gear test track Power Lap times
 72180c077b81b22a,GB,2001,Ariel,Atom,Roadster,2,2,,I4,1.8,NA,Mid,RWD,,,122 lb-ft,1150,5,5.18,16.2,,14,95,,,,,,,,,,,,,Car & Driver
 575019cb261b481c,GB,1999,Ariel,Atom 1,,,,Petrol,I4,1.6,NA,Front,RWD,113,83,107 lb-ft,1005,,,,,,,130,209,,,,,,,,,,,Autoevolution
@@ -1198,7 +1192,6 @@ c4f1cfbcc8fc03e5,GB,2012,Aston Martin,Rapide,Sedan,4,5,Petrol,V12,5.9,NA,Front,R
 50e30d0ff74adaea,GB,2013,Aston Martin,Rapide 5.9 AT,Hatchback,4,5,Petrol,V12,5.9,NA,Front,RWD,558,416.1,457 lb-ft,4387,4.73,4.9,,,,,190.1,306,,,,,,,,,,,Kaggle - Car Specifications
 3f2279b01deb0791,GB,2009,Aston Martin,Rapide 6.0 V12 AT,Hatchback,4,5,Petrol,V12,5.9,NA,Front,RWD,477,355.7,443 lb-ft,4299,5.12,5.3,,,,,183.9,296,,,,,,,,,,,Kaggle - Car Specifications
 ed6da9e53798d016,GB,,Aston Martin,Rapide AMR 2017-Present,,,,Petrol,V12,5.9,NA,Front,RWD,603,443.5,465 lb-ft,4387,4.3,4.3,,,,,205,330,,,,,,,,,,,Autoevolution
-9309ac3ebde47f0a,GB,2010,Aston Martin,Rapide Review Unleashing The Fury Page 2,Hatchback,4,5,,,5.9,,Front,RWD,,,443 lb-ft,3600,4.7,4.87,,,13,,,,,,,,,,,,,,Car & Driver
 64d70c7e848d4a83,GB,2013,Aston Martin,Rapide S,,,,Petrol,V12,5.9,NA,Front,RWD,558,410,457 lb-ft,4387,4.9,4.9,,,,,190,306,,,,,,,,,,,Autoevolution
 9b627d599bad96fa,GB,2014,Aston Martin,Rapide S,Sedan,4,5,Petrol,V12,5.9,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 9a7edcc5a49adb25,GB,2015,Aston Martin,Rapide S,Sedan,4,5,Petrol,V12,6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -1258,7 +1251,7 @@ ddb6fb784499d9bd,GB,1993,Aston Martin,V8 Vantage 5.3 MT,,,,Petrol,V8,5.3,SC,Fron
 04e9e96600dd2003,GB,2006,Aston Martin,V8 Vantage Roadster,,,2,Petrol,V8,4.3,NA,Front,RWD,385,283,302 lb-ft,3461,5,5,,,,,174,280,,,,,,,,,,,Autoevolution
 6a3fc50a7dce7f7e,GB,2008,Aston Martin,V8 Vantage Roadster,Roadster,2,2,Petrol,V8,4.7,NA,Front,RWD,426,313,346 lb-ft,3814,4.5,4.5,12.5,,13.8,,180,290,,,,,,,,,,,"Autoevolution, Car & Driver"
 88d99daf537efa55,GB,2009,Aston Martin,V8 Vantage Roadster,Roadster,2,2,Petrol,V8,4.7,NA,Front,RWD,,,347 lb-ft,3840,4.5,4.66,10.6,,12.9,111,,,175,,0.87,,,,,,,,Car & Driver
-526faa23e1b3e1df,GB,2012,Aston Martin,V8 Vantage Roadster First Drive Review Inescapable Clunky Auto Box Page 2,Roadster,2,2,Petrol,V8,4.7,NA,Front,RWD,420,313.2,346 lb-ft,3850,4.5,4.66,,,12.9,,180,289.7,,,,,,,,,,,Car & Driver
+526faa23e1b3e1df,GB,2012,Aston Martin,V8 Vantage Roadster,Roadster,2,2,Petrol,V8,4.7,NA,Front,RWD,420,313.2,346 lb-ft,3850,4.5,4.66,,,12.9,,180,289.7,,,,,,,,,,,Car & Driver
 2c2d12b719277321,GB,2011,Aston Martin,V8 Vantage S,Coupe,2,4,Petrol,V8,4.7,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 09e6b499f663b89a,GB,2012,Aston Martin,V8 Vantage S,Coupe,2,4,Petrol,V8,4.7,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 02d6580adfd3966e,GB,2013,Aston Martin,V8 Vantage S,Coupe,2,4,Petrol,V8,4.7,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -1279,6 +1272,7 @@ dd36859acfeb0514,GB,2001,Aston Martin,Vanquish,,,,Petrol,V12,5.9,NA,Front,RWD,45
 cbc4d623355829e0,GB,2002,Aston Martin,Vanquish,Coupe,2,4,Petrol,V12,5.9,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 7130a3bbc3f0eb2b,GB,2003,Aston Martin,Vanquish,Coupe,2,4,Petrol,V12,5.9,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ec3195c9ee572709,GB,2012,Aston Martin,Vanquish,,,,Petrol,V12,5.9,NA,Front,RWD,573,421,457 lb-ft,3834,4.1,4.1,,,,,183,295,,,,,,,,96.2,"Series 01, Episode 04",,"Autoevolution, Wikipedia - List of Top Gear test track Power Lap times"
+7d440a0d8fcb445e,GB,2013,Aston Martin,Vanquish,Coupe,2,4,,V12,5.9,NA,Front,RWD,565,421.3,457 lb-ft,3850,4,4.14,9.4,,12.4,,183,294.5,,,,,,,,,,,Car & Driver
 f012dc3ae22eee61,GB,2014,Aston Martin,Vanquish,Coupe,2,4,Petrol,V12,5.9,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6047253aefa3b91e,GB,2015,Aston Martin,Vanquish,Coupe,2,4,Petrol,V12,6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 d8ae53ef20646973,GB,2016,Aston Martin,Vanquish,Coupe,2,4,Petrol,V12,6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -1286,15 +1280,14 @@ dd33072e53d1b7e2,GB,2025,Aston Martin,Vanquish,Coupe,2,4,Petrol,V12,5.2,TC,Front
 e6cd368be84f5fc8,GB,2026,Aston Martin,Vanquish,Coupe,2,4,Petrol,V12,5.2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 8947da68091b2a26,GB,2012,Aston Martin,Vanquish 5.9 AT,Coupe,2,4,Petrol,V12,5.9,NA,Front,RWD,573,427.3,457 lb-ft,3834,3.96,4.1,,,,,183.3,295,,,,,,,,,,,Kaggle - Car Specifications
 4b8edca5a46fed47,GB,2001,Aston Martin,Vanquish 5.9 Sportshift,Coupe,2,4,Petrol,V12,5.9,NA,Front,RWD,528,393.7,426 lb-ft,4134,4.63,4.8,,,,,199.5,321,,,,,,,,,,,Kaggle - Car Specifications
-7d440a0d8fcb445e,GB,2013,Aston Martin,Vanquish First Drive Review The Vanquish Delivers Page 2,Coupe,2,4,,V12,5.9,NA,Front,RWD,565,421.3,457 lb-ft,3850,4,4.14,9.4,,12.4,,183,294.5,,,,,,,,,,,Car & Driver
 e1fafc9d95d28d35,GB,2004,Aston Martin,Vanquish S,,,,Petrol,V12,5.9,NA,Front,RWD,530,388,427 lb-ft,4134,4.8,4.8,,,,,199.5,321,,,,,,,,87.1,"Series 05, Episode 04",,"Autoevolution, Wikipedia - List of Top Gear test track Power Lap times"
 0abc539c3b9ff817,GB,2016,Aston Martin,Vanquish S,,,,Petrol,V12,5.9,NA,Front,RWD,588,432.5,465 lb-ft,3834,3.5,3.5,,,,,183,295,,,,,,,,87.1,"Series 05, Episode 04",,"Autoevolution, Wikipedia - List of Top Gear test track Power Lap times"
 efdbc01156e19dcb,GB,2019,Aston Martin,Vanquish S,Coupe,2,4,Petrol,V12,6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 30867c2a40200379,GB,2017,Aston Martin,Vanquish S Zagato,Coupe,2,4,Petrol,V12,6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 3539184f6980ac68,GB,2018,Aston Martin,Vanquish S Zagato,Coupe,2,4,Petrol,V12,6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 5a337f78cd675503,GB,2013,Aston Martin,Vanquish Volante,,,,Petrol,V12,5.9,NA,Front,RWD,572,421,457 lb-ft,4065,4.1,4.1,,,,,183,295,,,,,,,,,,,Autoevolution
+22a13e9781083da3,GB,2014,Aston Martin,Vanquish Volante,Convertible,2,4,,V12,5.9,NA,Front,RWD,565,421.3,457 lb-ft,4150,4.2,4.35,8.9,,12.4,,183,294.5,,,,,,,,,,,Car & Driver
 4ebc6e68075803a9,GB,2026,Aston Martin,Vanquish Volante,Coupe,2,4,Petrol,V12,5.2,TC,Front,RWD,823,613.7,738 lb-ft,4500,3.3,3.42,6.7,,11.2,,214,344.4,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
-22a13e9781083da3,GB,2014,Aston Martin,Vanquish Volante First Drive Review Prime Mover Page 2,Convertible,2,4,,V12,5.9,NA,Front,RWD,565,421.3,457 lb-ft,4150,4.2,4.35,8.9,,12.4,,183,294.5,,,,,,,,,,,Car & Driver
 95d6e4929967eb7d,GB,2020,Aston Martin,Vantage,Hatchback,4,5,,V8,,TC,Front,RWD,503,375.1,,3600,3.3,3.42,7.5,,,,,,,,,,,,,,,,Car & Driver
 8fc612d52fe87e54,GB,2025,Aston Martin,Vantage,Coupe,2,4,Petrol,V8,4,TC,Front,RWD,656,489.2,590 lb-ft,3750,3,3.11,6.6,,10.9,,202,325.1,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 df40396e95b771b6,GB,2026,Aston Martin,Vantage,Coupe,2,4,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -1893,7 +1886,6 @@ d9fba21d5023bed2,DE,2019,Audi,A3 Cabriolet quattro,Sedan,4,5,Petrol,I4,2,TC,Fron
 8fe7033c7595b8a9,DE,2020,Audi,A3 Cabriolet quattro,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 922d8d69e6d465eb,DE,2016,Audi,A3 E Tron Plug In Hybrid,Hatchback,4,5,Electric/Petrol,I4,,TC,Front,FWD,,,,3647,6.5,6.73,16.7,,15.1,95,,,168,,0.85,,,,,,,,Car & Driver
 c15cb472ba9be3cd,DE,2013,Audi,A3 Euro Spec,Hatchback,4,5,,,,,Front,FWD,,,,2600,6.8,7.04,,,15.5,,144,231.7,,,,,,,,,,,Car & Driver
-4dd4020722f1e648,DE,2013,Audi,A3 Euro Spec First Drive Review A Two Faced Three Door Page 2,Hatchback,4,5,,,,,Front,FWD,,,,2600,6.8,7.04,,,15.5,,144,231.7,,,,,,,,,,,Car & Driver
 da3e23fd3c593627,DE,2012,Audi,A3 Hatchback (3 doors),,,,Petrol,I4,1.2,TC,Front,FWD,110,81,129 lb-ft,2701,9.9,9.9,,,,,123,198,,,,,,,,,,,Autoevolution
 6fd8cd7f480d3f55,DE,2022,Audi,A3 S3,Sedan,4,5,,,,,Front,AWD,,,,3350,4.3,4.45,11.8,,13,,130,209.2,,,,,,,,,,,Car & Driver
 d0aef513b1fe8bb2,DE,2016,Audi,A3 Sedan,,,,Petrol,I3,1,TC,Front,FWD,116,85.3,148 lb-ft,2778,9.9,9.9,,,,,131,211,,,,,,,,,,,Autoevolution
@@ -2879,8 +2871,7 @@ a9234af7431a6c1b,DE,2013,Audi,A8 6.3 FSI L tiptronic quattro,Sedan,4,5,Petrol,W1
 96be91f796ad3e78,DE,2010,Audi,A8 6.3 W12 L quattro tiptronic,Sedan,4,5,Petrol,W12,6.3,NA,Front,AWD,500,372.9,461 lb-ft,4696,4.54,4.7,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 adb10f94ee0e38e0,DE,2017,Audi,A8 60 TFSI L tiptronic quattro,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,460,343,487 lb-ft,,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 8da8c1c4cdcfde62,DE,2017,Audi,A8 60 TFSI tiptronic quattro,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,460,343,487 lb-ft,,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
-dc7c94f258c3fa22,DE,2013,Audi,A8 Hybrid,Sedan,4,5,Electric/Petrol,,,,Front,FWD,,,,4150,7.2,7.46,,,15.4,,146,235.0,,,,,,,,,,,Car & Driver
-63682139caf7ba13,DE,2013,Audi,A8 Hybrid First Drive Review Other A8S Make More Sense Page 2,Sedan,4,5,Electric/Petrol,I4,,TC,Front,FWD,,,,4150,7.2,7.46,,,15.4,,146,235.0,,,,,,,,,,,Car & Driver
+dc7c94f258c3fa22,DE,2013,Audi,A8 Hybrid,Sedan,4,5,Electric/Petrol,I4,,TC,Front,FWD,,,,4150,7.2,7.46,,,15.4,,146,235.0,,,,,,,,,,,Car & Driver
 1a492b744f5d4400,DE,2000,Audi,A8 L,Sedan,4,5,Petrol,V8,4.2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 0aa98df16d721c12,DE,2001,Audi,A8 L,Sedan,4,5,Petrol,V8,4.2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 84408f5b222157a6,DE,2002,Audi,A8 L,Sedan,4,5,Petrol,V8,4.2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -2905,7 +2896,6 @@ b09ff2e0f6737c1e,DE,2020,Audi,A8 L,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,
 97c99fbc43a5f6fd,DE,2021,Audi,A8 L,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ed65870e0f986a83,DE,2023,Audi,A8 L,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ece8c556ebbc84cd,DE,2022,Audi,A8 L quattro,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-5e7bcf3b03446b5b,DE,2011,Audi,A8 Review Complete With Google Search And Google Earth Page 2,Sedan,4,5,,V8,4.2,NA,Front,4WD,,,328 lb-ft,4400,5.5,5.7,,,14,,,,,,,,,,,,,,Car & Driver
 fd31be0204c71c6f,DE,2022,Audi,A8 S8,Sedan,4,5,,,,,Front,AWD,,,,5000,3.2,3.32,8.1,,11.6,,128,206.0,,,,,,,,,,,Car & Driver
 7c6b696bc95afb15,DE,2019,Audi,A8 Sedan,Sedan,4,5,,,,,Front,AWD,,,,4350,4,4.14,9.9,,12.5,,131,210.8,,,,,,,,,,,Car & Driver
 ceb00ad0937cf0dd,DE,1999,Audi,A8 quattro,Sedan,4,5,Petrol,V8,4.2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -2933,7 +2923,6 @@ edd2d86f45e30b14,DE,2001,Audi,Allroad,SUV,4,5,Petrol,V6,2.7,TC,Front,AWD,,,,,,,,
 0cf94cc9dc15be9a,DE,2000,Audi,Allroad 2.7 T tiptronic quattro,Wagon,4,5,Petrol,V6,2.7,TC,Front,AWD,250,186.4,258 lb-ft,3957,7.44,7.7,,,,,145.4,234,,,,,,,,,,,Kaggle - Car Specifications
 2aad2b7d41e6e37e,DE,2001,Audi,Allroad 27T Quattro,Wagon,4,5,,V6,,TC,Front,AWD,250,186.4,258 lb-ft,4219,7.7,7.98,21.4,,,,,,178,,0.79,,,,,,,,Car & Driver
 15e665e1201e27eb,DE,2000,Audi,Allroad 4.2 tiptronic quattro,Wagon,4,5,Petrol,V8,4.2,NA,Front,AWD,300,223.7,280 lb-ft,4101,6.95,7.2,,,,,149.1,240,,,,,,,,,,,Kaggle - Car Specifications
-8287c0a9e862e700,DE,2013,Audi,Allroad First Drive Review Whole Hog Allroad Page 2,Wagon,4,5,Petrol,I4,2,TC,Front,4WD,211,157.3,258 lb-ft,3900,6.3,6.53,,,14.6,,,,,,,,,,,,,,Car & Driver
 397ad51fefa063de,DE,2003,Audi,Allroad quattro,SUV,4,5,Petrol,V6,2.7,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ebf5e93e4ed98512,DE,2004,Audi,Allroad quattro,SUV,4,5,Petrol,V6,2.7,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 c3cfbe3c39ceca41,DE,2005,Audi,Allroad quattro,SUV,4,5,Petrol,V6,2.7,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -3173,7 +3162,6 @@ cf4a2a698dbb918e,DE,2021,Audi,Q5 45,Wagon,4,5,Petrol,I4,,TC,Front,AWD,261,194.6,
 dc1e85f8a89baeba,DE,2021,Audi,Q5 55 Phev,Wagon,4,5,Electric/Petrol,I4,,TC,Mid,AWD,362,269.9,,4733,4.5,4.66,12.2,,13.2,104,,,176,,0.83,,,,,,,,Car & Driver
 cd5d13de2ea07795,DE,2016,Audi,Q5 55 TFSI e S tronic quattro,Crossover,4,5,Electric/Petrol,I4,2,TC,Front,AWD,252,187.9,199 lb-ft,4497,5.12,5.3,,,,,148.5,239,,,,,,,,,,,Kaggle - Car Specifications
 4897f375130b1190,DE,2021,Audi,Q5 55 Tfsi E Plug In Hybrid,Wagon,4,5,Electric/Petrol,I4,,TC,Front,AWD,,,,4650,5,5.18,,,,,130,209.2,,,,,,,,,,,Car & Driver
-32da0088767cac17,DE,2013,Audi,Q5 First Drive Review May We Recommend Page 2,Wagon,4,5,,,,,Front,4WD,,,,4050,5.8,6.01,,,14.5,,130,209.2,,,,,,,,,,,Car & Driver
 09be6941aaf4b9d4,DE,2013,Audi,Q5 Hybrid,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 d2020d34fd1ccabf,DE,2014,Audi,Q5 Hybrid,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 5bca31c7c052f1db,DE,2015,Audi,Q5 Hybrid,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -3329,7 +3317,6 @@ cf170383a7ca5e2e,DE,2022,Audi,R8 Coupe RWD,Coupe,2,2,Petrol,V10,5.2,NA,Mid,RWD,,
 18019b151b704c29,DE,2023,Audi,R8 Coupe RWD,Coupe,2,2,Petrol,V10,5.2,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 1ee6b1d4a57ece24,DE,2023,Audi,R8 Coupe quattro,Coupe,2,2,Petrol,V10,5.2,NA,Mid,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 bb164c14bb940dfe,DE,2009,Audi,"R8 Coupé 5.2 FSI Quattro (Mk1, Type 42, 2009, 525 PS)",,,2,,,,,Mid,,,,,,,,,,,,,,,,,,464,2009,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
-0ef4913332cfe5fd,DE,2014,Audi,R8 First Drive Review Pleasant Linearity And Refinement Page 2,Coupe,2,2,,,,,Mid,4WD,,,,3500,3.3,3.42,,,11.5,,186,299.3,,,,,,,,,,,Car & Driver
 ccc455a4599b2f03,DE,2010,Audi,"R8 GT (Mk1, Typ 42, 2010)",,,2,,,,,Mid,,,,,,,,,,,,,,,,,,454,2010-12,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 e1f3cd2abbec9066,DE,2011,Audi,"R8 GT (Mk1, Typ 42, 2010)",Coupe,2,2,,V10,5.2,NA,Mid,4WD,,,398 lb-ft,3550,3.1,3.21,7.3,,11.3,,,,,,,,460.89,2011-09,Sascha Bert,,,,"Wikipedia - List of Nürburgring Nordschleife lap times, Car & Driver"
 5fbf5fb838e0c411,DE,2023,Audi,R8 GT RWD,Coupe,2,2,Petrol,V10,5.2,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -3480,7 +3467,6 @@ fad5c82125a7bc34,DE,2018,Audi,RS5,Coupe,2,4,Petrol,V6,2.9,TC,Front,AWD,444,331.1
 6ab3d7ce151bc44a,DE,2012,Audi,RS5 Coupe (8T),,,,,,,,,,,,,,,,,,,,,,,,,,479,2012-06,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 a8889365cbe22be0,DE,,Audi,RS5 Coupe 2019-Present,,,,Petrol,V6,2.9,TC,Front,AWD,450,331,443 lb-ft,3763,3.9,3.9,,,,,155,249,,,,,,,,,,,Autoevolution
 bfa0d833aef334c0,DE,2018,Audi,RS5 Coupe New V 6 Performance,Coupe,2,4,,V6,2.9,TC,Front,AWD,444,331.1,443 lb-ft,4003,3.5,3.63,8.8,,11.9,116,,,156,,0.95,,,,,,,,Car & Driver
-0af86d832997e03e,DE,2013,Audi,RS5 First Drive Review Grip For Days Yall Page 2,Coupe,2,4,,,4.2,,Front,4WD,450,335.6,317 lb-ft,4000,4,4.14,9.8,,12.5,,174,280.0,,,,,,,,,,,Car & Driver
 3783a5b891052831,DE,2015,Audi,RS5 Quattro Coupe,Coupe,2,4,,V8,4.2,NA,Front,4WD,450,335.6,317 lb-ft,4050,4.4,4.56,10.4,,12.8,111,,,158,,0.96,,,,,,,,Car & Driver
 da24869f6aabf4c7,DE,2018,Audi,RS5 Sportback,,,,Petrol,V6,2.9,TC,Front,AWD,450,331,443 lb-ft,3792,9.1,9.1,,,,,155,249,,,,,,,,,,,Autoevolution
 8b5f8515166c720e,DE,,Audi,RS5 Sportback 2019-Present,,,,Petrol,V6,3,TC,Front,AWD,450,331,443 lb-ft,3840,9,9,,,,,155,249,,,,,,,,,,,Autoevolution
@@ -3746,7 +3732,6 @@ fdf0d09bb627ef62,DE,2024,Audi,S7,Sedan,4,5,Petrol,V6,2.9,NA,Front,AWD,,,,,,,,,,,
 69167250d1293539,DE,2025,Audi,S7,Sedan,4,5,Petrol,V6,2.9,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 8c949fe4a671193c,DE,2012,Audi,S7 4.0 TFSI S tronic quattro,Hatchback,4,5,Petrol,V8,4,TC,Front,AWD,420,313.2,406 lb-ft,4453,4.54,4.7,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 50b96c817941b8f2,DE,2014,Audi,S7 4.0 TFSI S tronic quattro,Hatchback,4,5,Petrol,V8,4,TC,Front,AWD,450,335.6,406 lb-ft,4475,4.44,4.6,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
-54ed26a93530e480,DE,2013,Audi,S7 First Drive Review Perfect Setting For The S7 The Autobahn Page 2,Wagon,4,5,,,3.9,,Front,4WD,420,313.2,406 lb-ft,4350,4,4.14,,,12.4,,155,249.4,,,,,,,,,,,Car & Driver
 c4143c0360f0e0f3,DE,2016,Audi,S7 Quattro,Hatchback,4,5,,V8,,TC,Front,4WD,450,335.6,406 lb-ft,4508,3.9,4.04,9.7,,12.4,113,,,162,,0.97,,,,,,,,Car & Driver
 164472337a3f99c6,DE,1996,Audi,S8,,,,Petrol,V8,4.2,NA,Front,AWD,340,250,302 lb-ft,3814.7,5.5,5.5,,,,,155.3,250,,,,,,,,,,,Autoevolution
 0c535039537f8623,DE,1999,Audi,S8,,,,Petrol,V8,4.2,NA,Front,AWD,360,265,317 lb-ft,3814.7,5.4,5.4,,,,,155.3,250,,,,,,,,,,,Autoevolution
@@ -3839,8 +3824,7 @@ e92f2ce802ea1310,DE,2024,Audi,SQ8 e-tron (20 inch wheels),SUV,4,5,Electric,,,,,A
 698e24c7604e7c60,DE,2025,Audi,SQ8 e-tron (20 inch wheels),SUV,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6a0ba5f4fc67dc4e,DE,,Audi,SQ8 e-tron 2023-Present,,,,Electric,,,,,AWD,,,,5842,4.5,4.5,,,,,,,,,,,,,,,,,Autoevolution
 0c9cc9e3c0c9d526,DE,2018,Audi,Sq5,Hatchback,4,5,Petrol,V6,3,TC,Front,AWD,354,264,369 lb-ft,4429,5.1,5.28,13,,13.7,102,155,249.4,148,,0.93,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-4bb910640a263547,DE,2013,Audi,Sq5 Tdi,Wagon,4,5,,V6,,TC,Front,4WD,313,233.4,479 lb-ft,4550,4.9,5.08,,,14.7,,155,249.4,,,,,,,,,,,Car & Driver
-856012e3a5f14f28,DE,2013,Audi,Sq5 Tdi First Drive Review Expanding Audis Performance Line Page 2,Wagon,4,5,,V6,3,TC,Front,4WD,313,233.4,479 lb-ft,4550,4.9,5.08,,,14.7,,155,249.4,,,,,,,,,,,Car & Driver
+4bb910640a263547,DE,2013,Audi,Sq5 Tdi,Wagon,4,5,,V6,3,TC,Front,4WD,313,233.4,479 lb-ft,4550,4.9,5.08,,,14.7,,155,249.4,,,,,,,,,,,Car & Driver
 b505cf733a7a64c8,DE,2024,Audi,Sq8 E Tron,Wagon,4,5,,,,,Rear,AWD,496,369.9,718 lb-ft,6350,4.5,4.66,12.5,,13.1,,130,209.2,,,,,,,,,,,Car & Driver
 5d082464313151fe,DE,2011,Audi,TT,Hatchback,4,5,Petrol,I4,2,TC,Front,4WD,,,258 lb-ft,3200,5.4,5.59,,,14.2,,,,,,,,,,,,,,Car & Driver
 f1992d83775acdfc,DE,2006,Audi,TT 1.8 AMT,,,,Petrol,,1.8,TC,,FWD,160,119.3,184 lb-ft,2822,6.95,7.2,,,,,140.4,226,,,,,,,,,,,Kaggle - Car Specifications
@@ -4030,7 +4014,6 @@ feed323a2cf56e1a,DE,2008,Audi,Tt 32 Quattro Short Take Road,Coupe,2,4,,V6,,NA,Fr
 1a8f8887157f82d8,DE,2016,Audi,Tt Coupe,Hatchback,4,5,Petrol,I4,,TC,Front,4WD,220,164.1,258 lb-ft,3167,5.2,5.39,14.1,,13.8,99,,,151,,0.98,,,,,,,,Car & Driver
 f05d55dec891741e,DE,2001,Audi,Tt Roadster Short Take Road,Roadster,2,2,,I4,1.8,TC,Front,FWD,,,,3123,7.2,7.46,21.3,,15.7,89,,,166,,0.87,,,,,,,,Car & Driver
 811d287c2f02cea1,DE,2018,Audi,Tt Rs Coupe,Coupe,2,4,Petrol,I5,,TC,Front,4WD,400,298.3,354 lb-ft,3250,3.6,3.73,9.7,,12.1,,,,,,,,,,,,,,Car & Driver
-307714daa3a1b566,DE,2010,Audi,Tt Rs Coupe Review A New Look Page 2,Hatchback,4,5,Petrol,I5,2.5,TC,Front,4WD,,,332 lb-ft,3200,4.5,4.66,,,13.2,,,,,,,,,,,,,,Car & Driver
 4bdf4378f518d095,DE,2023,Audi,Tt Rs Iconic Edition,Coupe,2,4,,,,TC,Front,AWD,394,293.8,354 lb-ft,3250,3.3,3.42,8.5,,11.8,,174,280.0,,,,,,,,,,,Car & Driver
 eb1ebe5b0b960ad2,DE,2018,Audi,Tt Rs Roadster,Convertible,2,2,Petrol,I5,2.5,TC,Front,4WD,400,298.3,354 lb-ft,3450,3.8,3.94,9.9,,12.2,,,,,,,,,,,,,,Car & Driver
 5e7ee4384fac0130,DE,2012,Audi,Tt Rs Us Spec,Hatchback,4,5,Petrol,I5,2.5,TC,Front,4WD,360,268.5,343 lb-ft,3312,4,4.14,10.3,,12.7,112,,,159,,0.96,,,,,,,,Car & Driver
@@ -5055,8 +5038,7 @@ a8b13b5fcb4006b1,DE,1938,BMW,327 Coupe,,,,Petrol,I6,2,NA,Front,RWD,81,59.6,93 lb
 51056fba54db13dc,DE,2014,BMW,328D Diesel Sedan,Sedan,4,5,Diesel,I4,2,TC,Front,RWD,181,135,280 lb-ft,3499,6.8,7.04,18.8,,15.3,91,,,168,,0.91,,,,,,,,Car & Driver
 1dda20b6ceb0c9b6,DE,2014,BMW,328D Xdrive Diesel Wagon,Wagon,4,5,Diesel,I4,,TC,Front,4WD,181,135,280 lb-ft,3924,7.1,7.36,21.3,,15.6,88,,,159,,0.92,,,,,,,,Car & Driver
 cd93df1e3ed2841f,DE,2016,BMW,328I,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,240,179,258 lb-ft,3566,5.2,5.39,14.1,,13.9,99,,,163,,0.93,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-6bb9f284505a0019,DE,2012,BMW,328I 3 Series Sedan,Sedan,4,5,Petrol,I4,,TC,Front,RWD,240,179,260 lb-ft,3450,5.6,5.8,15.8,,14.3,,150,241.4,,,,,,,,,,,Car & Driver
-e89852c28bf58b97,DE,2012,BMW,328I 3 Series Sedan First Drive Review The New 3 Series Offers A Whole Christmas Catalog Of Functions Page 2,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,240,179,260 lb-ft,3500,5.9,6.11,,,14.6,,,,,,,,,,,,,,Car & Driver
+6bb9f284505a0019,DE,2012,BMW,328I 3 Series Sedan,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,240,179,260 lb-ft,3450,5.6,5.8,15.8,,14.3,,150,241.4,,,,,,,,,,,Car & Driver
 a93802946b479b10,DE,2012,BMW,328I Sedan Automatic,Sedan,4,5,Petrol,I4,,TC,Front,RWD,240,179,255 lb-ft,3485,5.6,5.8,14.7,,14.2,98,,,191,,0.87,,,,,,,,Car & Driver
 86ae56f4ed7b8d27,DE,2012,BMW,328I Sport Line Manual,Sedan,4,5,Petrol,I4,,TC,Front,RWD,240,179,255 lb-ft,3434,5.6,5.8,14.3,,14.3,100,,,172,,0.88,,,,,,,,Car & Driver
 e81dca081fd87f2c,DE,2010,BMW,328I Sports Wagon,Wagon,4,5,,,3,,Front,RWD,,,200 lb-ft,3612,6.8,7.04,17.5,,15.2,93,,,162,,0.86,,,,,,,,Car & Driver
@@ -6262,8 +6244,7 @@ ecaf4a05fae5018d,DE,1977,BMW,7 Series 745i AT,Sedan,4,5,Petrol,I6,3.2,TC,Front,R
 e4d586c96f172ccc,DE,1982,BMW,7 Series 745i AT,Sedan,4,5,Petrol,I6,3.4,TC,Front,RWD,252,187.9,280 lb-ft,3505,7.63,7.9,,,,,141.7,228,,,,,,,,,,,Kaggle - Car Specifications
 6f57021dd965c719,DE,2001,BMW,7 Series 745i AT,Sedan,4,5,Petrol,V8,4.4,NA,Front,RWD,333,248.3,332 lb-ft,4376,6.08,6.3,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 f4f4860018b33901,DE,1977,BMW,7 Series 745i MT,Sedan,4,5,Petrol,I6,3.2,TC,Front,RWD,252,187.9,280 lb-ft,3527,7.24,7.5,,,,,136.7,220,,,,,,,,,,,Kaggle - Car Specifications
-25d26c6a8fe93dfc,DE,2016,BMW,7 Series 750I Xdrive,Sedan,4,5,,V8,,TC,Front,4WD,445,331.8,480 lb-ft,4650,3.9,4.04,9.7,,12.2,,130,209.2,,,,,,,,,,,Car & Driver
-699e73d0c25ea0d7,DE,2016,BMW,7 Series 750I Xdrive First Drive Review Keep Your Jokes To Yourself Page 2,Sedan,4,5,,V8,4.4,TC,Front,4WD,445,331.8,480 lb-ft,4650,3.9,4.04,9.7,,12.2,,130,209.2,,,,,,,,,,,Car & Driver
+25d26c6a8fe93dfc,DE,2016,BMW,7 Series 750I Xdrive,Sedan,4,5,,V8,4.4,TC,Front,4WD,445,331.8,480 lb-ft,4650,3.9,4.04,9.7,,12.2,,130,209.2,,,,,,,,,,,Car & Driver
 63f6d0f5f5090421,DE,2019,BMW,7 Series 750Ld Steptronic xDrive,Sedan,4,5,Diesel,I6,3,TC,Front,AWD,400,298.3,561 lb-ft,4409,4.54,4.7,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 2afe19649cc54b3a,DE,2012,BMW,7 Series 750Ld xDrive Steptronic,Sedan,4,5,Diesel,V6,3,TC,Front,AWD,381,284.1,546 lb-ft,4619,4.73,4.9,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 1f859224528befc6,DE,2015,BMW,7 Series 750Ld xDrive Steptronic,Sedan,4,5,Diesel,I6,3,TC,Front,AWD,400,298.3,561 lb-ft,4530,4.54,4.7,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
@@ -6561,9 +6542,8 @@ ee2b59798756df8a,DE,2013,BMW,ActiveHybrid 7L,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,
 e193c954baff6c76,DE,2010,BMW,ActiveHybrid X6,SUV,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,5741,5.3,5.49,12.9,,13.8,104,,,163,,0.86,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 f0f2585e0bbf990e,DE,2011,BMW,ActiveHybrid X6,SUV,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 701a74899813a01d,DE,2010,BMW,ActiveHybrid X6 / X6 Hybrid,Wagon,4,5,Electric/Petrol,,,,Front,4WD,,,,5700,5.2,5.39,,,14,,,,,,,,,,,,,,Car & Driver
-b7397d4d78506efb,DE,2013,BMW,Activehybrid 3 First Drive Review Savoring Every Drop Of Fuel Page 2,Sedan,4,5,,,,,Front,RWD,,,,3900,5,5.18,,,13.6,,155,249.4,,,,,,,,,,,Car & Driver
 63627e010a4a5b67,DE,2011,BMW,Activehybrid 750Li,Sedan,4,5,Electric,Electric,,,Front,RWD,,,,4807,4.5,4.66,10.2,,12.8,112,,,160,,,,,,,,,,Car & Driver
-75fbb887f4c85e83,DE,2010,BMW,Activehybrid X6 X6 Hybrid Review Fuel Economy And Pricing Page 2,Wagon,4,5,Electric/Petrol,,,,Front,4WD,,,,5700,5.2,5.39,,,14,,,,,,,,,,,,,,Car & Driver
+75fbb887f4c85e83,DE,2010,BMW,Activehybrid X6 X6 Hybrid,Wagon,4,5,Electric/Petrol,,,,Front,4WD,,,,5700,5.2,5.39,,,14,,,,,,,,,,,,,,Car & Driver
 47701c4e9a9a4491,DE,1998,BMW,"Alpi B10 3.2 (E39, 1998, 260 PS)",,,,,,,,,,,,,,,,,,,,,,,,,,530,1998,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 14a812d6b99a6dfa,DE,1999,BMW,"Alpi B3 (E46, 1999, 280 PS)",,,,,,,,,,,,,,,,,,,,,,,,,,516,1999,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 2e2d311094a1f855,DE,2020,BMW,"Alpi B3 (G20, 2021, 3.0 TT, 462 PS)",,,,,,,TC,,,,,,,,,,,,,,,,,,,473.26,2020-12-17,Christian Gebhardt,,,,Wikipedia - List of Nürburgring Nordschleife lap times
@@ -6622,8 +6602,8 @@ f3213168649938a0,DE,2023,BMW,Alpi XB7,SUV,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,
 f2b867dd25cff235,DE,2025,BMW,Alpi XB7,SUV,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 e4e5690be1b71556,DE,2026,BMW,Alpi XB7,SUV,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 a94b980987514665,DE,,BMW,F80 M3,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,81.6,"Series 24, Episode 02",,Wikipedia - List of Top Gear test track Power Lap times
+e267c54fc4dbab52,DE,2014,BMW,I3,Hatchback,4,5,,,,,Rear,RWD,,,,2650,6.9,7.15,,,15.8,,93,149.7,,,,,,,,,,,Car & Driver
 9f34d19157ff3f55,DE,2017,BMW,I3 Ev,Hatchback,4,5,Electric,,,,Rear,RWD,,,,2918,6.6,6.84,,,15.5,87,,,177,,0.77,,,,,,,,Car & Driver
-e267c54fc4dbab52,DE,2014,BMW,I3 First Drive Review Capable And Thoughtful Page 2,Hatchback,4,5,,,,,Rear,RWD,,,,2650,6.9,7.15,,,15.8,,93,149.7,,,,,,,,,,,Car & Driver
 73b0759c987025d6,DE,2017,BMW,I3 With Range Extender,Hatchback,4,5,,,,,Mid,RWD,,,,3204,7.2,7.46,,,16,85,,,184,,0.77,,,,,,,,Car & Driver
 4176a8ce5f731623,DE,2022,BMW,I4,Hatchback,4,5,,,,,Rear,AWD,,,,4800,3.8,3.94,9.6,,12.4,,,,,,,,,,,,,,Car & Driver
 af11e233f2237f69,DE,2022,BMW,I4 Edrive40,Hatchback,4,5,,,,,Rear,RWD,335,249.8,317 lb-ft,4699,4.8,4.97,11.9,,13.4,106,,,169,345,0.87,,,,,,,,Car & Driver
@@ -6947,7 +6927,6 @@ da93d3da616ad880,DE,2014,BMW,M4 Coupe (F82),,,2,Petrol,I6,3,TC,Front,RWD,431,317
 b36fd80cb0f398cf,DE,2019,BMW,M4 Coupe Competition,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 53e6734e39fa53e3,DE,2020,BMW,M4 Coupe Competition,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 735610dd4031b4f1,DE,2016,BMW,M4 Coupe Dct Competition Package,Coupe,2,4,Petrol,I6,,TC,Front,RWD,444,331.1,406 lb-ft,3645,3.8,3.94,8.6,,12.1,119,,,151,,0.99,,,,,,,,Car & Driver
-5dcb9b6f224f6be1,DE,2015,BMW,M4 Coupe First Drive Review Heresy Can Be Fun Page 2,Coupe,2,4,Petrol,I6,3,TC,Front,RWD,425,316.9,406 lb-ft,3600,4,4.14,8.7,,12.2,,155,249.4,,,,,,,,,,,Car & Driver
 fa7e68be4ebe0514,DE,2025,BMW,M4 Cs,Coupe,2,4,,,,,Front,AWD,543,404.9,479 lb-ft,3850,2.7,2.8,6.4,,10.7,,188,302.6,,,,,,,,,,,Car & Driver
 5f8d3b4c83280590,DE,2018,BMW,M4 DTM Champions Edition,Coupe,2,4,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 dba8c95e28f59f65,DE,2015,BMW,M4 Dct Automatic,Coupe,2,4,Petrol,I6,,TC,Front,RWD,425,316.9,406 lb-ft,3615,3.7,3.83,8.5,,12,119,,,150,,1,,,,,,,,Car & Driver
@@ -7047,8 +7026,7 @@ d3b2e6552d3592f4,DE,2026,BMW,M5 Sedan,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,
 563c2cb77ff425f0,DE,2025,BMW,M5 Touring,Wagon,4,5,Petrol,V8,4.4,TC,Front,AWD,717,534.7,,5481,3.1,3.21,6.9,,11,129,155,249.4,154,313,0.92,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 a407744325865a8c,DE,2026,BMW,M5 Touring,Wagon,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 9e97fea600afdc37,DE,,BMW,M535i,,,,Petrol,I6,3.5,NA,Front,RWD,218,160.3,229 lb-ft,3064.4,7.6,7.6,,,,,142,229,,,,,,,,,,,Autoevolution
-1b81264adf5ff7f9,DE,2013,BMW,M550D Xdrive,Sedan,4,5,Diesel,I6,,TC,Front,4WD,376,280.4,546 lb-ft,4350,4.9,5.08,,,13.2,,155,249.4,,,,,,,,,,,Car & Driver
-0334681730d26fe0,DE,2013,BMW,M550D Xdrive First Drive Review Too Far Of A Stretch For Bmw Page 2,Sedan,4,5,Diesel,I6,3,TC,Front,4WD,376,280.4,546 lb-ft,4350,4.9,5.08,,,13.2,,155,249.4,,,,,,,,,,,Car & Driver
+1b81264adf5ff7f9,DE,2013,BMW,M550D Xdrive,Sedan,4,5,Diesel,I6,3,TC,Front,4WD,376,280.4,546 lb-ft,4350,4.9,5.08,,,13.2,,155,249.4,,,,,,,,,,,Car & Driver
 36da6afe2eca7b5d,DE,2018,BMW,M550I Xdrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,456,340,480 lb-ft,4414,3.8,3.94,9.2,,12.3,115,155,249.4,151,,0.94,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 aa5bd3a978d85724,DE,2019,BMW,M550i xDrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 4fbbf78da7efdc48,DE,2020,BMW,M550i xDrive,Sedan,4,5,Petrol,V8,4.4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -7091,7 +7069,6 @@ bc50493739895fc8,DE,2009,BMW,M6 Convertible,Sedan,4,5,Petrol,V10,5,NA,Front,RWD,
 29ae5f2c6aa6817d,DE,2005,BMW,M6 Coupe (E63),,,,Petrol,V10,5,NA,Front,RWD,507,373,384 lb-ft,3770,4.4,4.4,,,,,155.3,250,,,,,489,2005,Horst von Saurma,,,,"Autoevolution, Wikipedia - List of Nürburgring Nordschleife lap times"
 01246b44e6f465cc,DE,2006,BMW,"M6 Coupe (E63, 2006, 507 PS)",,,,,,,,,,,,,,,,,,,,,,,,,,487.76,2006-03,Prinz Leopold von Bayern,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 92c3d35209811ea5,DE,2012,BMW,M6 Coupe (F13),,,,Petrol,V8,4.4,TC,Front,RWD,560,412,502 lb-ft,4365,4.3,4.3,,,,,190,306,,,,,,,,,,,Autoevolution
-9364a8dca5afbe36,DE,2013,BMW,M6 Coupe First Drive Review Considerably More Agile And Stiff Page 2,Coupe,2,4,,,4.4,,Front,RWD,560,417.6,500 lb-ft,4250,4,4.14,,,12.3,,,,,,,,,,,,,,Car & Driver
 2c91f12074e3493c,DE,2014,BMW,M6 Coupe LCI,,,,Petrol,V8,4.4,TC,Front,RWD,560,412,502 lb-ft,4079,4.2,4.2,,,,,155,249,,,,,,,,,,,Autoevolution
 dff5e6cb7ab3a7c8,DE,2014,BMW,M6 Gran Coupe,Sedan,4,5,Petrol,V8,4.4,TC,Front,RWD,560,417.6,502 lb-ft,4395,3.7,3.83,8,,11.9,124,,,168,,0.92,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 35b1af16cf78aa4b,DE,2015,BMW,M6 Gran Coupe,Sedan,4,5,Petrol,V8,4.4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -7862,8 +7839,8 @@ df6e68443edfe47d,DE,2006,BMW,Z4 Roadster (E85),,,2,Petrol,I4,2,NA,Front,RWD,150,
 c8dae117fa491645,DE,2009,BMW,Z4 Roadster (E89),,,2,Petrol,I4,2.5,TC,Front,RWD,204,150,184 lb-ft,3097,6.6,6.6,,,,,150.4,242,,,,,,,,,,,Autoevolution
 4f172193ce22c1e3,DE,2003,BMW,"Z4 Roadster 3.0i SMG (E85, pre-facelift, 2003, 231 PS)",,,2,,,,,,,,,,,,,,,,,,,,,,,512,2003,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 7854c2cb8fec6d47,DE,2013,BMW,Z4 Roadster LCI (E89),,,2,Petrol,I4,2,TC,Front,RWD,156,115,177 lb-ft,3241,7.9,7.9,,,,,137,220,,,,,,,,,,,Autoevolution
+f30f88181762b142,DE,2009,BMW,Z4 Sdrive35I,Roadster,2,2,Petrol,I6,3,TC,Front,RWD,,,300 lb-ft,3494,4.8,4.97,12,,,,,,,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 810a48e4203c343b,DE,2009,BMW,Z4 Sdrive35I Dual Clutch Automatic,Roadster,2,2,Petrol,I6,,TC,Front,RWD,,,,3250,4.8,4.97,12,,,,,,,,,,,,,,,,Car & Driver
-f30f88181762b142,DE,2009,BMW,Z4 Sdrive35I Review Predictably Good To Drive And Usable Page 2,Roadster,2,2,Petrol,I6,3,TC,Front,RWD,,,300 lb-ft,3494,4.8,4.97,12,,,,,,,,,,,,,,,,Car & Driver
 4d6ab6e896fd8aed,DE,2009,BMW,Z4 sDrive18i AT,Roadster,2,2,Petrol,I4,2,TC,Front,RWD,156,116.3,177 lb-ft,3296,7.82,8.1,,,,,136.7,220,,,,,,,,,,,Kaggle - Car Specifications
 ae316bfa022dff18,DE,2009,BMW,Z4 sDrive18i MT,Roadster,2,2,Petrol,I4,2,TC,Front,RWD,156,116.3,177 lb-ft,3241,7.63,7.9,,,,,137.3,221,,,,,,,,,,,Kaggle - Car Specifications
 9c7184f3f2e3d55e,DE,2009,BMW,Z4 sDrive20i AT,Roadster,2,2,Petrol,I4,2,TC,Front,RWD,184,137.2,199 lb-ft,3296,6.95,7.2,,,,,144.2,232,,,,,,,,,,,Kaggle - Car Specifications
@@ -7892,7 +7869,6 @@ ee2b60fb245b3304,DE,2025,BMW,Z4 sDrive30i,Coupe,2,2,Petrol,I4,2,TC,Front,RWD,,,,
 c16495c3376e6cc3,DE,2009,BMW,Z4 sDrive30i AT,Roadster,2,2,Petrol,I6,3,NA,Front,RWD,258,192.4,229 lb-ft,3318,5.89,6.1,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 d2f0bfe2917a5d0a,DE,2009,BMW,Z4 sDrive30i MT,Roadster,2,2,Petrol,I6,3,NA,Front,RWD,258,192.4,229 lb-ft,3285,5.6,5.8,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 0a30502d231a1d47,DE,2018,BMW,Z4 sDrive30i Steptronic,Roadster,2,2,Petrol,I4,2,TC,Front,RWD,258,192.4,295 lb-ft,3120,5.21,5.4,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
-82fe7be49feb540d,DE,2009,BMW,Z4 sDrive35i,Coupe,2,2,Petrol,V6,3,TC,Front,RWD,,,300 lb-ft,3494,4.8,4.97,12,,,,,,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 3036db80c1c5fc6f,DE,2010,BMW,Z4 sDrive35i,Coupe,2,2,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 27ba131bea68c521,DE,2011,BMW,Z4 sDrive35i,Coupe,2,2,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ac618cb1be0ff820,DE,2012,BMW,Z4 sDrive35i,Coupe,2,2,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -7917,7 +7893,6 @@ e03aab4c9471d225,DE,2000,BMW,"Z8 (E52, 2000, 400 PS)",Coupe,2,4,Petrol,V8,4.9,NA
 cc432c38e8b5e31e,DE,1999,BMW,Z8 4.9 MT,Roadster,2,2,Petrol,V8,4.9,NA,Front,RWD,400,298.3,369 lb-ft,3505,4.54,4.7,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 18d5f4941b67f312,DE,2000,BMW,Z8 Roadster (E52),,,2,Petrol,V8,4.9,NA,Front,RWD,400,294,369 lb-ft,3505.3,4.7,4.7,,,,,155.3,250,,,,,,,,,,,Autoevolution
 84f542cd2fb2e5e1,DE,2013,BMW,i3,Hatchback,4,5,Electric,I2,0.6,,,RWD,170,125,41 lb-ft,2635,7.2,7.2,,,,,93,150,,,,,,,,,,,"Autoevolution, Kaggle - Car Specifications"
-f5c28cca8118069b,DE,2014,BMW,i3,Hatchback,4,5,,,,,Rear,RWD,,,,2650,6.9,7.15,,,15.8,,93,149.7,,,,,,,,,,,Car & Driver
 e8089dfb3babb54f,DE,2017,BMW,i3,Hatchback,4,5,Electric,I2,0.7,,,RWD,170,126.8,184 lb-ft,2822,7.05,7.3,,,,,93.2,150,,,,,,,,,,,Kaggle - Car Specifications
 4094a2f63e441bc5,DE,2019,BMW,i3,Sedan,4,5,Electric,,,,,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 67588e26d3139e3a,DE,2020,BMW,i3,Sedan,4,5,Electric,,,,,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -8117,9 +8092,8 @@ f9aee6dd419b58a7,GB,2004,Bentley,Arge LWB,Sedan,4,5,Petrol,V8,6.8,TC,Front,RWD,,
 a396b9b316d4e19f,GB,2008,Bentley,Arge RL,Sedan,4,5,Petrol,V8,6.7,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 04ba443538e16e08,GB,2009,Bentley,Arge RL,Sedan,4,5,Petrol,V8,6.7,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 585398f019f5aa90,GB,1999,Bentley,Arge Red Label,,,,Petrol,V8,6.8,TC,Front,RWD,405,298,616 lb-ft,5556,6.3,6.3,,,,,155.3,250,,,,,,,,,,,Autoevolution
-fb8811fe532a0203,GB,2005,Bentley,Arge Road Test Review Back Seat Excitement Page 2,Sedan,4,5,,V8,6.8,TC,Front,RWD,,,,5700,5.5,5.7,13.5,,,,,,,,,,,,,,,,Car & Driver
+bd2a47bb029bd9dd,GB,2002,Bentley,Arge T,Sedan,4,5,,,6.8,,Front,RWD,,,645 lb-ft,5700,5.5,5.7,13.5,,,,,,,,,,,,,,,,Car & Driver
 c9d89622448f5c4c,GB,,Bentley,Arge T (wet),,,,,,,,,,,,,,,,,,,,,,,,,,,,,100.8,"Series 01, Episode 05",,Wikipedia - List of Top Gear test track Power Lap times
-bd2a47bb029bd9dd,GB,2002,Bentley,Arge T Road Test Review Exhilaration And Relaxation Page 2,Sedan,4,5,,,6.8,,Front,RWD,,,645 lb-ft,5700,5.5,5.7,13.5,,,,,,,,,,,,,,,,Car & Driver
 ffc837fad10f051f,GB,2007,Bentley,Arge T Short Take Road,Sedan,4,5,,V8,6.8,TC,Front,RWD,,,,5760,5.1,5.28,11.9,,13.5,107,,,165,,0.74,,,,,,,,Car & Driver
 1d195c378e6dedb2,GB,1995,Bentley,Azure,,,,Petrol,V8,6.8,TC,Front,RWD,390,287,616 lb-ft,5755.1,6.7,6.7,,,,,149.1,240,,,,,,,,,,,Autoevolution
 c19e415f5aad6177,GB,1998,Bentley,Azure,Sedan,4,5,Petrol,V8,6.7,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -8160,7 +8134,6 @@ e2d1195b33c351c9,GB,2018,Bentley,Bentayga Diesel,Hatchback,4,5,,V8,,TC,Front,AWD
 ee27689f3f1a36b9,GB,2024,Bentley,Bentayga EWB,SUV,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 5943856f17ea2527,GB,2025,Bentley,Bentayga EWB,SUV,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 78ec5dd893413d76,GB,2026,Bentley,Bentayga EWB,SUV,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-ab349d7949b7d9c0,GB,2017,Bentley,Bentayga First Drive Review The Bentaygas Interior Is One You Want To Keep Pristine Page 2,Hatchback,4,5,,,5.9,,Front,4WD,600,447.4,664 lb-ft,5350,4,4.14,9.3,,12.4,,187,300.9,,,,,,,,,,,Car & Driver
 4e7992a9004c9e7b,GB,2021,Bentley,Bentayga Hybrid,Wagon,4,5,Electric/Petrol,V6,,TC,Front,AWD,443,330.3,,6000,4.5,4.66,11.1,,13.2,,158,254.3,,,,,,,,,,,Car & Driver
 711c8fcb5c258779,GB,2023,Bentley,Bentayga Hybrid,SUV,4,5,Petrol,V6,3,TC,Front,AWD,456,340,,5668,4.5,4.66,11.2,,13,107,,,168,339,0.86,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 91a18fbd3a2a9bb1,GB,2025,Bentley,Bentayga Hybrid,SUV,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -8278,11 +8251,9 @@ fbbaefc8cb8d6d9c,GB,2009,Bentley,Continental GTC Speed,,,,Petrol,W12,6,TC,Front,
 55061fe9c7bdbaad,GB,2025,Bentley,Continental GTC Speed,Coupe,2,4,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 06bc90b8f8591163,GB,,Bentley,Continental GTC Supersports 2017-Present,,,,Petrol,W12,6,TC,Front,AWD,710,522.2,750 lb-ft,,3.9,3.9,,,,,205,330,,,,,,,,,,,Autoevolution
 6d8e9115d1a644f4,GB,2019,Bentley,Continental Gt,Coupe,2,4,,W12,,TC,Front,AWD,626,466.8,664 lb-ft,5050,3.3,3.42,8.1,,11.7,123,207,333.1,163,,0.98,,,,,,,,Car & Driver
-191db72cd52a9ad4,GB,2013,Bentley,Continental Gt Speed,Coupe,2,4,,W12,,TC,Front,4WD,616,459.4,590 lb-ft,5250,4,4.14,,,12.4,,205,329.9,,,,,,,,,,,Car & Driver
+191db72cd52a9ad4,GB,2013,Bentley,Continental Gt Speed,Coupe,2,4,,W12,6,TC,Front,4WD,616,459.4,590 lb-ft,5250,4,4.14,,,12.4,,205,329.9,,,,,,,,,,,Car & Driver
 e0c1f80e72c83bba,GB,2015,Bentley,Continental Gt Speed,Coupe,2,4,,W12,,TC,Front,4WD,626,466.8,607 lb-ft,5200,3.9,4.04,9.2,,12.2,,206,331.5,,,,,,,,,,,Car & Driver
-2d3535f7694b6d25,GB,2014,Bentley,Continental Gt Speed Convertible First Drive Review Apart From Its Predecessor Page 2,Convertible,2,4,,W12,6,TC,Front,4WD,616,459.4,590 lb-ft,5550,4.1,4.25,,,12.5,,202,325.1,,,,,,,,,,,Car & Driver
 ce4ccb01e226dae9,GB,2022,Bentley,Continental Gt Speed Coupe Convertible,Coupe,2,4,,,,,Front,AWD,650,484.7,664 lb-ft,5050,3.1,3.21,7.4,,11.3,,208,334.7,,,,,,,,,,,Car & Driver
-7bf0c023358f793b,GB,2013,Bentley,Continental Gt Speed First Drive Review The Alpha Bentley Continental Page 2,Coupe,2,4,,W12,6,TC,Front,4WD,616,459.4,590 lb-ft,5250,4,4.14,,,12.4,,205,329.9,,,,,,,,,,,Car & Driver
 7a84d87c1356a7d5,GB,2025,Bentley,Continental Gt Speed First Edition,Coupe,2,4,Electric,Electric,,,Front,AWD,771,574.9,,5415,2.8,2.9,6.6,,10.8,130,,,167,333,0.89,,,,,,,,Car & Driver
 0b69f0709f77660b,GB,2020,Bentley,Continental Gt V8 Coupe Convertible First,Coupe,2,4,Petrol,V8,4,TC,Front,AWD,542,404.2,568 lb-ft,4850,3.4,3.52,8,,11.8,,198,318.6,156,,1.01,,,,,,,,Car & Driver
 a102c24c8353b23c,GB,2016,Bentley,Continental Gt V8 S,Coupe,2,4,Petrol,V8,,TC,Front,4WD,521,388.5,502 lb-ft,5175,3.9,4.04,9.2,,12.2,116,,,156,,0.91,,,,,,,,Car & Driver
@@ -8310,7 +8281,6 @@ a4d3d3ba0c8a2174,GB,2010,Bentley,Continental Supersports,Coupe,2,4,Petrol,V12,6,
 f0ce58f9ee79c0aa,GB,2013,Bentley,Continental Supersports Convertible,Sedan,4,5,Petrol,V12,6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 d15696217f3bfcf0,GB,2017,Bentley,Continental Supersports Convertible,Sedan,4,5,Petrol,V12,6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 7bd8c9e103773f1a,GB,2018,Bentley,Continental Supersports Convertible,Sedan,4,5,Petrol,V12,6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-633650e7430a23c7,GB,2010,Bentley,Continental Supersports Review Best Bentley Ever Page 2,Coupe,2,4,,,6,,Front,4WD,621,463.1,590 lb-ft,4939,3.7,3.83,8.9,,,,204,328.3,,,,,,,,,,,Car & Driver
 83447b67ad1ad323,GB,2014,Bentley,Flying Spur,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,507,373,486 lb-ft,5346,5.2,5.2,,,12.5,,183,295,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy, Car & Driver"
 808273703e0f39d4,GB,2015,Bentley,Flying Spur,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 a0928b508eb07be3,GB,2016,Bentley,Flying Spur,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -8486,10 +8456,8 @@ a72b2d4ec0a78461,FR,2014,Bugatti,Veyron,Coupe,2,4,Petrol,W16,8,TC,Mid,AWD,,,,,,,
 6a4c2d054b94fcd1,FR,2005,Bugatti,Veyron 16.4,,,,,,,,Mid,,,,,,,,,,,,,,,,,,460,2005,,78.3,"Series 12, Episode 04",,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times"
 e420ec548537233a,FR,2006,Bugatti,Veyron 16.4,Coupe,2,4,,W16,8,TC,Mid,4WD,,,922 lb-ft,4300,2.9,3.0,6,,10.8,140,,,,,,,,,,,,,Car & Driver
 5ed3f542387b0c5f,FR,2010,Bugatti,Veyron 16.4 Super Sport,,,,,,,TC,Mid,,,,,,,,,,,,267.86,431.07,,,,"7,993 cc (487.8 cu in) quad-turbocharged W16 882 kW (1,200 PS; 1,183 hp)",,,,,,,Wikipedia - List of production car speed records
-80ed69445b5bff99,FR,2009,Bugatti,Veyron 164 Grand Sport,Targa,2,2,,W16,,TC,Mid,4WD,,,922 lb-ft,4750,2.5,2.59,5.3,,10.1,142,,,158,,1,,,,,,,,Car & Driver
-a7a11a71d4048bba,FR,2009,Bugatti,Veyron 164 Grand Sport Review One Mans Mania Page 2,Targa,2,2,,W16,8,TC,Mid,4WD,,,922 lb-ft,4750,2.5,2.59,5.3,,10.1,142,,,158,,1,,,,,,,,Car & Driver
+80ed69445b5bff99,FR,2009,Bugatti,Veyron 164 Grand Sport,Targa,2,2,,W16,8,TC,Mid,4WD,,,922 lb-ft,4750,2.5,2.59,5.3,,10.1,142,,,158,,1,,,,,,,,Car & Driver
 5fee290686749fb8,FR,2013,Bugatti,Veyron 164 Grand Sport Vitesse,,,,,,8,TC,Mid,,1200,894.8,1106 lb-ft,4400,2.4,2.49,5,,10,,255,410.4,,,,,,,,,,,Car & Driver
-5ae1761c867961e0,FR,2013,Bugatti,Veyron 164 Grand Sport Vitesse First Drive Review Youll Need A Large Part Of Earth To Enjoy This Thing Page 2,,,,,,8,TC,Mid,,1200,894.8,1106 lb-ft,4400,2.4,2.49,5,,10,,255,410.4,,,,,,,,,,,Car & Driver
 03a82e1340f608f3,FR,2005,Bugatti,Veyron 8.0 DSG,Coupe,2,4,Petrol,W16,8,NA,Mid,AWD,1001,746.4,922 lb-ft,4162,2.41,2.5,,,,,252.9,407,,,,,,,,,,,Kaggle - Car Specifications
 b2cfa36c8098b419,FR,2005,Bugatti,Veyron EB 16.4,,,,,,,TC,Mid,,,,,,,,,,,,253.81,408.47,,,,"7,993 cc (487.8 cu in) quad-turbocharged W16 736 kW (1,001 PS; 987 hp)",,,,,,,Wikipedia - List of production car speed records
 3f5e7765f9c630ae,FR,2009,Bugatti,Veyron Grand Sport,,,,Petrol,W16,8,NA,Mid,AWD,1001,736,922 lb-ft,4162,2.7,2.7,,,,,253,407,,,,,,,,,,,Autoevolution
@@ -8655,7 +8623,6 @@ f75049d6818345f4,US,2022,Buick,Encore AWD,SUV,4,5,Petrol,I4,1.4,TC,Front,AWD,,,,
 cf5bd51441bb6d05,US,2021,Buick,Encore FWD,SUV,4,5,Petrol,I4,1.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 d7a81b733085427b,US,2022,Buick,Encore FWD,SUV,4,5,Petrol,I4,1.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 1a4b16673cc60b95,US,2013,Buick,Encore FWD / AWD,Wagon,4,5,Petrol,I4,1.4,TC,Front,4WD,138,102.9,148 lb-ft,,9.3,9.63,34.5,,17.1,80,,,175,,0.82,,,,,,,,Car & Driver
-59a461eb8776ca7c,US,2013,Buick,Encore First Drive Review A Step Ahead Page 2,Wagon,4,5,Petrol,I4,1.4,TC,Front,4WD,138,102.9,148 lb-ft,3200,9.1,9.43,27.5,,17.1,,110,177.0,,,,,,,,,,,Car & Driver
 88202574d85c9dd7,US,2020,Buick,Encore GX AWD,SUV,4,5,Petrol,I3,1.3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 65a6cf71e0497867,US,2021,Buick,Encore GX AWD,SUV,4,5,Petrol,I3,1.3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 a20b432b105580a5,US,2022,Buick,Encore GX AWD,SUV,4,5,Petrol,I3,1.3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -8756,7 +8723,6 @@ f0fe28be7898fb73,US,2016,Buick,LaCrosse eAssist,Sedan,4,5,Petrol,I4,2.4,NA,Front
 a20c1bc5b3feada0,US,2010,Buick,Lacrosse Cx 4 Cylinder Feature,Sedan,4,5,Petrol,I4,2.4,NA,Front,FWD,,,172 lb-ft,3800,8.8,9.12,,,16.8,,,,,,,,,,,,,,Car & Driver
 f623aceb1e8a53c1,US,2010,Buick,Lacrosse Cxs,Sedan,4,5,,V6,3.6,NA,Front,FWD,,,259 lb-ft,4056,6.7,6.94,17.9,,15.3,93,,,181,,0.79,,,,,,,,Car & Driver
 d64b1684f0409973,US,2018,Buick,Lacrosse Eassist Hybrid,Sedan,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,3578,7.8,8.08,22.4,,16.3,86,,,170,,0.84,,,,,,,,Car & Driver
-3cb86542716bbbc5,US,2014,Buick,Lacrosse First Drive Review Drive It Like You Borrowed It Page 2,Sedan,4,5,,,,,Front,4WD,,,,3900,6.5,6.73,,,15.2,,113,181.9,,,,,,,,,,,Car & Driver
 560e8a7203473aa7,US,2005,Buick,Lacrosse/Allure,Sedan,4,5,Petrol,V6,3.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 28070dee4df48d1f,US,2006,Buick,Lacrosse/Allure,Sedan,4,5,Petrol,V6,3.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 cd02a2efc88424fe,US,2007,Buick,Lacrosse/Allure,Sedan,4,5,Petrol,V6,3.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -9255,8 +9221,6 @@ b02c6e9b990d0743,US,2005,Cadillac,Armored Deville,Sedan,4,5,Petrol,V8,4.6,NA,Fro
 f1be303bfd44a6f3,US,2013,Cadillac,Ats 36,Sedan,4,5,,V6,,NA,Front,RWD,321,239.4,267 lb-ft,3561,5.4,5.59,13.3,,14,102,,,158,,0.88,,,,,,,,Car & Driver
 7b55ba0dbf22644e,US,2015,Cadillac,Ats 36,Coupe,2,4,,V6,,NA,Front,RWD,321,239.4,275 lb-ft,3565,5.4,5.59,13.3,,14,102,,,163,,0.91,,,,,,,,Car & Driver
 5457734328aed493,US,2015,Cadillac,Ats Coupe 20T Manual,Coupe,2,4,Petrol,I4,,TC,Front,RWD,272,202.8,295 lb-ft,3479,5.7,5.91,13.7,,14.1,101,,,156,,0.92,,,,,,,,Car & Driver
-cc73ac33932e5c53,US,2015,Cadillac,Ats First Drive Review Express Your Patriotism Page 2,Coupe,2,4,,,,,Front,4WD,,,,3450,5.4,5.59,13.3,,13.8,,150,241.4,,,,,,,,,,,Car & Driver
-de926892213b9b72,US,2013,Cadillac,Ats First Drive Review Fitting In With The Germans Page 2,Sedan,4,5,,,,,Front,,,,,3350,5.4,5.59,,,14,,130,209.2,,,,,,,,,,,Car & Driver
 4d47a92e434c0f20,US,2016,Cadillac,Ats Sedan 20T Awd,Sedan,4,5,Petrol,I4,,TC,Front,4WD,272,202.8,295 lb-ft,3671,5.4,5.59,14.5,,14.1,99,,,167,,0.86,,,,,,,,Car & Driver
 cf2795a419579f4f,US,2017,Cadillac,Ats Sedan V 6,Sedan,4,5,,V6,,NA,Front,RWD,335,249.8,285 lb-ft,3662,5.6,5.8,14.2,,14.2,100,,,156,,0.9,,,,,,,,Car & Driver
 70f21e6c458b3ac9,US,2016,Cadillac,Ats V Sedan,Sedan,4,5,,V6,,TC,Front,RWD,464,346,445 lb-ft,3800,3.9,4.04,8.4,,12.1,122,,,154,,1.02,,,,,,,,Car & Driver
@@ -9585,7 +9549,6 @@ c281205b8b1ce64e,US,1991,Cadillac,Eldorado 4.6 AT,Coupe,2,4,Petrol,V8,4.6,NA,Fro
 9c608cdf8228d464,US,1982,Cadillac,Eldorado Touring Coupe Archive,Coupe,2,4,,,,,Front,RWD,125,93.2,190 lb-ft,3830,15.2,15.75,,,20.2,68,92,148.1,220,,,,,,,,,,Car & Driver
 9334f0622103e321,US,1995,Cadillac,Eldorado Touring Coupe Archive,Sedan,4,5,,,,,Front,FWD,300,223.7,295 lb-ft,3808,6.4,6.63,16.3,,14.8,95,,,184,,0.8,,,,,,,,Car & Driver
 13640db219765b6f,US,2014,Cadillac,Elr Coupe Plug In Hybrid,Coupe,2,4,Electric/Petrol,I4,,NA,Front,FWD,,,,4054,,,,,17,84,,,173,,0.84,,,,,,,,Car & Driver
-7e20ded7b16c58f7,US,2014,Cadillac,Elr First Drive Review Dial A Mode Page 2,Coupe,2,4,Electric/Petrol,I4,,NA,Front,FWD,,,,4050,,,,,,,107,172.2,,,,,,,,,,,Car & Driver
 98249e8167f4fae6,US,2000,Cadillac,Escalade,,,,Petrol,V8,5.3,NA,Front,RWD,299,220,335 lb-ft,5340.5,9.5,9.5,,,,,110,177,,,,,,,,,,,Autoevolution
 bfa866cef13e8d22,US,2006,Cadillac,Escalade,,,,Petrol,V8,6.2,NA,Front,AWD,409,301,417 lb-ft,5832.2,,,,,,,,,,,,,,,,,,,Autoevolution
 df85474d6be62549,US,2014,Cadillac,Escalade,,,,Petrol,V8,6.2,NA,Front,RWD,426,313,460 lb-ft,5594,,,,,,,,,,,,,,,,,,,Autoevolution
@@ -10002,7 +9965,6 @@ dc20eb33d9e408bf,US,2020,Cadillac,Xt5 2 0L Fwd,Wagon,4,5,Petrol,I4,,TC,Front,FWD
 f4232af5bdaca3ee,US,2020,Cadillac,Xt5 V 6,Wagon,4,5,,V6,,NA,Front,AWD,310,231.2,271 lb-ft,4370,6.1,6.32,15.8,,14.6,96,,,174,,0.87,,,,,,,,Car & Driver
 3391c73c861fad02,US,2020,Cadillac,Xt6,Hatchback,4,5,,V6,3.7,NA,Front,AWD,310,231.2,271 lb-ft,4703,6.4,6.63,16.6,,15.1,96,,,171,,0.88,,,,,,,,Car & Driver
 9e1007db079c97ea,US,2013,Cadillac,Xts Awd Platinum,Sedan,4,5,,V6,3.6,NA,Front,4WD,304,226.7,264 lb-ft,4298,7.2,7.46,18.6,,15.7,91,,,173,,0.81,,,,,,,,Car & Driver
-e691ca7c71910ec2,US,2013,Cadillac,Xts First Drive Review The Last Big American Luxury Car Page 2,Sedan,4,5,,,3.6,,Front,4WD,304,226.7,264 lb-ft,,6.5,6.73,,,15.6,,130,209.2,,,,,,,,,,,Car & Driver
 235905855f81bbb4,US,2013,Cadillac,Xts Fwd Premium,Sedan,4,5,,V6,,NA,Front,FWD,304,226.7,264 lb-ft,4116,6.6,6.84,16.9,,15.2,94,,,166,,0.81,,,,,,,,Car & Driver
 f59dea35101bc86a,US,2018,Cadillac,Xts V Sport,Sedan,4,5,,V6,,TC,Front,AWD,410,305.7,369 lb-ft,4486,5.2,5.39,12.5,,13.6,105,,,173,,0.82,,,,,,,,Car & Driver
 473d80769e983f0b,US,2014,Cadillac,Xts Vsport,Sedan,4,5,,V6,,TC,Front,4WD,410,305.7,369 lb-ft,4437,5.2,5.39,12.4,,13.6,105,,,172,,0.79,,,,,,,,Car & Driver
@@ -12022,7 +11984,6 @@ e84a551863aedd48,US,2012,Chevrolet,Cruze 2.0 TD MT,Hatchback,4,5,Diesel,I4,2,TC,
 019fc5d2dae93321,US,,Chevrolet,Cruze 2018-Present,,,,Petrol,I4,1.4,TC,Front,FWD,153,112.5,176 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
 e1e2d17fe1029e33,US,2014,Chevrolet,Cruze Diesel,Sedan,4,5,Diesel,I4,2,TC,Front,FWD,151,112.6,264 lb-ft,3500,8.1,8.39,,,16.4,,125,201.2,,,,,,,,,,,Car & Driver
 7ad065cea5e2354b,US,2017,Chevrolet,Cruze Diesel,Sedan,4,5,Diesel,I4,1.6,TC,Front,FWD,137,102.2,240 lb-ft,3100,8,8.29,24,,16.4,,130,209.2,,,,,,,,,,,Car & Driver
-0d1a08b442164da2,US,2014,Chevrolet,Cruze Diesel First Drive Review Diesel mics Meet Diesel Nomics Page 2,Sedan,4,5,Diesel,I4,2,TC,Front,FWD,151,112.6,264 lb-ft,3500,8.1,8.39,,,16.4,,125,201.2,,,,,,,,,,,Car & Driver
 aab54ac42822b17b,US,2018,Chevrolet,Cruze Diesel Hatchback Manual,Hatchback,4,5,Diesel,I4,,TC,Front,FWD,137,102.2,240 lb-ft,3104,8.2,8.5,25.7,,16.5,84,,,165,,0.9,,,,,,,,Car & Driver
 ce29c2422656b0f7,US,2011,Chevrolet,Cruze Eco,Sedan,4,5,Petrol,I4,1.4,TC,Front,FWD,138,102.9,148 lb-ft,3018,8,8.29,23,,16.3,86,,,184,,0.81,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 458e47b6aa861e74,US,2012,Chevrolet,Cruze Eco,Sedan,4,5,Petrol,I4,1.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -12597,7 +12558,6 @@ f01a25e31c8d0d2f,US,2009,Chevrolet,HHR Panel FWD,SUV,4,5,Petrol,I4,2,TC,Front,FW
 e0f04acf902b3619,US,2010,Chevrolet,HHR Panel FWD,SUV,4,5,Petrol,I4,2.4,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 fa1a43330bca43e7,US,2011,Chevrolet,HHR Panel FWD,SUV,4,5,Petrol,I4,2.4,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 c6207e69f34617b4,US,2007,Chevrolet,HHR SS,,,,Petrol,I4,2,TC,Front,FWD,264,194,260 lb-ft,3360,7.9,7.9,,,,,137,220,,,,,,,,,,,Autoevolution
-cfd7f793286c6d22,US,2006,Chevrolet,Hhr Road Test Review Heritage Shopping Page 2,,,,,,,,,,,,,3150,8.4,8.7,,,,,,,,,,,,,,,,,Car & Driver
 ee4be2e48f45c3ee,US,1999,Chevrolet,Impala,,,,Petrol,V6,3.3,NA,Front,FWD,182,134,200 lb-ft,3466.3,10,10,,,,,111.9,180,,,,,,,,,,,Autoevolution
 ecce1c289a873750,US,2000,Chevrolet,Impala,Sedan,4,5,Petrol,V6,3.4,SC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 3e85bba60c0fb57d,US,2001,Chevrolet,Impala,Sedan,4,5,Petrol,V6,3.4,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -13038,7 +12998,6 @@ fc8b94beacb83eab,US,1976,Chevrolet,Impala 7.4 Turbo Hydra-Matic 3-seat,Wagon,4,5
 c3340a54727eddec,US,1977,Chevrolet,Impala 9C1 Archived,Sedan,4,5,,V8,5.7,NA,Front,RWD,170,126.8,270 lb-ft,,9.6,9.95,,,,,,,166,,,,,,,,,,Car & Driver
 f1dea98662eac78a,US,2015,Chevrolet,Impala Bi-Fuel (CNG),Sedan,4,5,Petrol,V6,3.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 4f9ea04f9657ee07,US,2016,Chevrolet,Impala Bi-Fuel (CNG),Sedan,4,5,Petrol,V6,3.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-4745848bad2517d9,US,2014,Chevrolet,Impala First Drive Review The Quietest Chevy Ever Page 2,Sedan,4,5,,,,,Front,FWD,,,,3600,6.6,6.84,,,15.2,,115,185.1,,,,,,,,,,,Car & Driver
 ba5a7c291fa01701,US,2014,Chevrolet,Impala Limited,Sedan,4,5,Petrol,V6,3.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 a1529e02df0d12b5,US,2015,Chevrolet,Impala Limited,Sedan,4,5,Petrol,V6,3.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 2b11e269859d88e1,US,2016,Chevrolet,Impala Limited,Sedan,4,5,Petrol,V6,3.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -13908,7 +13867,6 @@ cad62de2c0491c7d,US,2015,Chevrolet,Silverado 1500 4x4 6.2L V-8 8-Speed,Truck,4,5
 e0c00335b8778c16,US,2024,Chevrolet,Silverado 1500 Diesel,Truck,4,5,,,,,,4WD,305,227.4,495 lb-ft,5798,6.8,7.04,,,15.3,89,,,203,,,,,,,,,,Car & Driver
 84a6124a89d0c1c8,US,2013,Chevrolet,Silverado 1500 Double Cab,,,,Petrol,I6,4.3,NA,Front,RWD,286,210,3900 lb-ft,4860,,,,,,,,,,,,,,,,,,,Autoevolution
 a0119260b452de82,US,2008,Chevrolet,Silverado 1500 Extended Cab,,,,Petrol,V6,4.3,NA,Front,RWD,197,145,260 lb-ft,5068,,,,,,,,,,,,,,,,,,,Autoevolution
-2b17b57435d98847,US,2014,Chevrolet,Silverado 1500 First Drive Review Hard Working Luxury Page 2,,,,,,,,,,,,,4300,6.1,6.32,,,14.4,,110,177.0,,,,,,,,,,,Car & Driver
 aa83926e2081c146,US,2008,Chevrolet,Silverado 1500 Regular Cab,,,,Petrol,V6,4.3,NA,Front,RWD,197,145,260 lb-ft,4558,,,,,,,,,,,,,,,,,,,Autoevolution
 cb3bfce83452a4dd,US,2013,Chevrolet,Silverado 1500 Regular Cab,,,,Petrol,V6,4.3,NA,Front,RWD,285,210,,4587,,,,,,,,,,,,,,,,,,,Autoevolution
 ae8cfc642594f272,US,2021,Chevrolet,Silverado 1500 Rst 62,Truck,4,5,,,,,Front,4WD,420,313.2,460 lb-ft,5421,5.4,5.59,14,,14,100,,,196,,0.74,,,,,,,,Car & Driver
@@ -14341,7 +14299,7 @@ a1eaf3acf99fe189,US,2025,Chevrolet,Silverado EV 8WT,Truck,4,5,Electric,,,,,4WD,,
 4d5fcfc315eb0596,US,2024,Chevrolet,Silverado Ev Rst,Truck,4,5,Electric,Electric,,,Rear,AWD,754,562.3,785 lb-ft,8800,4.1,4.25,10,,12.6,111,,,207,,0.72,,,,,,,,Car & Driver
 2161c4d93c007ab1,US,2026,Chevrolet,Silverado Ev Trail Boss,Truck,4,5,Electric,Electric,,,Rear,AWD,,,775 lb-ft,8500,4.2,4.35,11.7,,13.5,,112,180.2,,,,,,,,,,,Car & Driver
 fdbfcc228dddd738,US,2024,Chevrolet,Silverado Ev Work Truck,Truck,4,5,Electric,Electric,,,Rear,AWD,510,380.3,615 lb-ft,8500,5.4,5.59,10.8,,13.9,,110,177.0,,,,,,,,,,,Car & Driver
-7812ca3614358f8f,US,2014,Chevrolet,Silverado Gmc Sierra 62L V 8 First Drive Review Spot The Difference Page 2,Truck,4,5,,V8,6.2,NA,Front,4WD,420,313.2,460 lb-ft,5700,6.3,6.53,,,14.9,,100,160.9,,,,,,,,,,,Car & Driver
+7812ca3614358f8f,US,2014,Chevrolet,Silverado Gmc Sierra 62L V 8,Truck,4,5,,V8,6.2,NA,Front,4WD,420,313.2,460 lb-ft,5700,6.3,6.53,,,14.9,,100,160.9,,,,,,,,,,,Car & Driver
 fd94aa085a339796,US,2011,Chevrolet,Silverado Hd 2500 Crew Cab 4X4 Diesel,Truck,4,5,,V8,6.6,TC,Front,4WD,,,765 lb-ft,7580,7.1,7.36,,,15.5,88,,,202,,0.73,,,,,,,,Car & Driver
 63f52f48b624e78f,US,2017,Chevrolet,Silverado Hd Duramax Diesel Drive,Truck,4,5,,V8,,TC,Front,4WD,445,331.8,910 lb-ft,6700,7,7.25,,,15.3,,100,160.9,,,,,,,,,,,Car & Driver
 77acfd98583c3c7a,US,2008,Chevrolet,Silverado Hybrid,,,,Electric/Petrol,V8,6,NA,Front,RWD,332,248,367 lb-ft,5641,,,,,,,,,,,,,,,,,,,Autoevolution
@@ -14775,7 +14733,6 @@ c9e832113efe9594,US,2019,Chevrolet,Suburban C1500 2WD,SUV,4,5,Petrol,V8,5.3,NA,F
 b09ab2f920de1e6c,US,2020,Chevrolet,Suburban C1500 2WD,SUV,4,5,Petrol,V8,5.3,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 75c7ecfc769d6a9c,US,2021,Chevrolet,Suburban Diesel,Wagon,4,5,,,,,Front,4WD,277,206.6,460 lb-ft,6272,8.4,8.7,24.3,,16.5,85,,,,,0.53,,,,,,,,Car & Driver
 0d0582fb21c07993,US,2025,Chevrolet,Suburban Drive,Wagon,4,5,,,,,Front,4WD,,,,5700,6.1,6.32,15.7,,14.5,,113,181.9,,,,,,,,,,,Car & Driver
-66d2fd04b13a6ae7,US,2015,Chevrolet,Suburban First Drive Review A Tame Beast Page 2,Wagon,4,5,,V8,5.3,NA,Front,4WD,355,264.7,383 lb-ft,5750,7.1,7.36,18.9,,15.7,,,,,,,,,,,,,,Car & Driver
 ba639d96454e15f7,US,1984,Chevrolet,Suburban K10 4WD,,,,Petrol,V8,5.7,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 324fdac6828f50fb,US,1985,Chevrolet,Suburban K10 4WD,,,,Petrol,V8,5.7,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 8f1737b1ef5720ff,US,1986,Chevrolet,Suburban K10 4WD,,,,Petrol,V8,5.7,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -14806,7 +14763,7 @@ e87c6d13f8aa9b2d,US,,Chevrolet,Tacuma/Rezzo,,,,Petrol,I4,1.6,NA,Front,FWD,107,79
 50d874b55685d606,US,2006,Chevrolet,Tahoe,,,,Petrol,V8,4.8,NA,Front,RWD,299,220,305 lb-ft,5234,,,,,,,,,,,,,,,,,,,Autoevolution
 c1a4219831cf08c6,US,2008,Chevrolet,Tahoe,,,,Petrol,V8,4.8,NA,Front,RWD,299,220,305 lb-ft,5262,9.7,9.7,,,,,124,200,,,,,,,,,,,Autoevolution
 99f8fcb02841dcc1,US,2014,Chevrolet,Tahoe,,,,Petrol,V8,5.3,NA,Front,AWD,340,250,383 lb-ft,5683,,,,,,,113,182,,,,,,,,,,,Autoevolution
-02a489f590b53ddc,US,2015,Chevrolet,Tahoe,Wagon,4,5,,V8,,NA,Front,4WD,355,264.7,383 lb-ft,5550,6.9,7.15,18.6,,15.4,,,,,,,,,,,,,,Car & Driver
+02a489f590b53ddc,US,2015,Chevrolet,Tahoe,Wagon,4,5,,V8,5.3,NA,Front,4WD,355,264.7,383 lb-ft,5550,6.9,7.15,18.6,,15.4,,,,,,,,,,,,,,Car & Driver
 fb0c8351bfe8c2be,US,2025,Chevrolet,Tahoe,Wagon,4,5,,,,,Front,4WD,420,313.2,460 lb-ft,5994,5.8,6.01,14.9,,14.3,98,,,179,,0.74,,,,,,,,Car & Driver
 0c7c07fec17a7664,US,1995,Chevrolet,Tahoe 1500 2WD,,,,Petrol,V8,5.7,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 910eae2e30bc87cc,US,1996,Chevrolet,Tahoe 1500 2WD,,,,Petrol,V8,5.7,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -14891,7 +14848,6 @@ ee6d3665ada5b557,US,2016,Chevrolet,Tahoe C1500 2WD,SUV,4,5,Petrol,V8,5.3,NA,Fron
 81d5df0571bff8a2,US,2019,Chevrolet,Tahoe C1500 2WD,SUV,4,5,Petrol,V8,5.3,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 0521816b0c91a79e,US,2020,Chevrolet,Tahoe C1500 2WD,SUV,4,5,Petrol,V8,5.3,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 dc8f9e711dc8c3d7,US,2025,Chevrolet,Tahoe Drive,Wagon,4,5,,,,,Front,4WD,,,,5500,6.5,6.73,17.5,,15.1,,112,180.2,,,,,,,,,,,Car & Driver
-484403db54036cfa,US,2015,Chevrolet,Tahoe First Drive Review More Room Up Front Page 2,Wagon,4,5,,V8,5.3,NA,Front,4WD,355,264.7,383 lb-ft,5550,6.9,7.15,18.6,,15.4,,,,,,,,,,,,,,Car & Driver
 f31b6de79f5262d2,US,2008,Chevrolet,Tahoe Hybrid 2WD,SUV,4,5,Petrol,V8,6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 f6d924442076edc1,US,2009,Chevrolet,Tahoe Hybrid 2WD,SUV,4,5,Petrol,V8,6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 fb4380a8f7d954bf,US,2010,Chevrolet,Tahoe Hybrid 2WD,SUV,4,5,Petrol,V8,6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -15102,7 +15058,6 @@ e7b05edbad2afc19,US,2020,Chevrolet,Traverse FWD,SUV,4,5,Petrol,V6,3.6,NA,Front,F
 849daa97ea440d3a,US,2024,Chevrolet,Traverse FWD,SUV,4,5,Petrol,I4,2.5,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 733a4ea45dfc43fd,US,2025,Chevrolet,Traverse FWD,SUV,4,5,Petrol,I4,2.5,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 65e9e3aad7358a82,US,2026,Chevrolet,Traverse FWD,SUV,4,5,Petrol,I4,2.5,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-a289911b44ed6084,US,2013,Chevrolet,Traverse First Drive Review A Smoother Operator Page 2,Wagon,4,5,,V6,3.6,NA,Front,4WD,,,,4750,7.3,7.56,,,15.8,,112,180.2,,,,,,,,,,,Car & Driver
 90c8073d75fd552b,US,2024,Chevrolet,Traverse Limited AWD,SUV,4,5,Petrol,V6,3.6,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 28343ae6d33fb752,US,2024,Chevrolet,Traverse Limited FWD,SUV,4,5,Petrol,V6,3.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ba48f57ea6f4e08c,US,2023,Chevrolet,Traverse Rs,Wagon,4,5,,,,,Front,AWD,310,231.2,266 lb-ft,4602,6.8,7.04,17.5,,15.1,94,,,183,,0.82,,,,,,,,Car & Driver
@@ -15130,7 +15085,6 @@ b8a4d806221f7b18,US,2019,Chevrolet,Trax AWD,SUV,4,5,Petrol,I4,1.4,TC,Front,AWD,,
 c6c3021765c32089,US,2020,Chevrolet,Trax FWD,SUV,4,5,Petrol,I4,1.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 1b0827248f2d4388,US,2021,Chevrolet,Trax FWD,SUV,4,5,Petrol,I4,1.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 226892fc03f71baf,US,2022,Chevrolet,Trax FWD,SUV,4,5,Petrol,I4,1.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-5f344d63ea80e6e4,US,2015,Chevrolet,Trax First Drive Review Sprightly Enough Page 2,Hatchback,4,5,Petrol,I4,1.4,TC,Front,4WD,138,102.9,148 lb-ft,3050,9,9.32,28.2,,17,,128,206.0,,,,,,,,,,,Car & Driver
 d0af44dc00ab729d,US,2024,Chevrolet,Trax Reliability Maintence,Wagon,4,5,,,,,Front,FWD,137,102.2,162 lb-ft,3055,8.8,9.12,29.3,,16.7,82,,,183,,0.83,,,,,,,,Car & Driver
 3d1976b7c96993a6,US,1987,Chevrolet,Turbo Sprint,Coupe,2,4,Petrol,I3,1,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 63e88d2b30dc3795,US,1988,Chevrolet,Turbo Sprint,Coupe,2,4,Petrol,I3,1,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -15453,7 +15407,6 @@ d1fa6996006b4e93,US,2013,Chrysler,200 Convertible V-6,Convertible,2,4,,V6,3.6,NA
 836aab90b081cb3d,US,2015,Chrysler,200 Limited FWD,Sedan,4,5,Petrol,I4,2.4,NA,Front,FWD,184,137.2,173 lb-ft,3488,8.4,8.7,24.9,,16.6,85,,,179,,0.81,,,,,,,,Car & Driver
 f13b48d38016eda3,US,2011,Chrysler,200 Limited V6 Sedan,Sedan,4,5,Petrol,,3.6,,Front,FWD,,,260 lb-ft,3591,6.3,6.53,16.7,,14.9,94,,,181,,,,,,,,,,Car & Driver
 05919e5e92e30fb1,US,2015,Chrysler,200 Sedan,Sedan,4,5,,,,,Front,4WD,,,,3500,6.3,6.53,22,,14.5,,130,209.2,,,,,,,,,,,Car & Driver
-3bc578008f89b358,US,2015,Chrysler,200 Sedan First Drive Review Even A Little Bit Fun Page 2,Sedan,4,5,,,,,Front,4WD,,,,3500,6.3,6.53,22,,14.5,,130,209.2,,,,,,,,,,,Car & Driver
 8c9b0349a3afb4b0,US,2016,Chrysler,200 V 6 Fwd,Sedan,4,5,,V6,3.6,NA,Front,FWD,295,220,262 lb-ft,3544,5.7,5.91,14.3,,14.3,100,,,181,,0.82,,,,,,,,Car & Driver
 c39b4c058479d1eb,US,,Chrysler,2001 Sebring Coupe,,,,Petrol,I4,2.4,NA,Front,FWD,141,104,155 lb-ft,3100.2,10,10,,,,,118.1,190,,,,,,,,,,,Autoevolution
 60804827aa35e82e,US,2015,Chrysler,200S V-6 AWD,Sedan,4,5,,V6,3.6,NA,Front,4WD,295,220,262 lb-ft,3811,6,6.22,15.4,,14.5,97,,,186,,0.8,,,,,,,,Car & Driver
@@ -15501,7 +15454,7 @@ ecdc0b3827572f15,US,2012,Chrysler,300 SRT8,Sedan,4,5,Petrol,V8,6.4,TC,Front,RWD,
 9ccffedd2864b848,US,2014,Chrysler,300 SRT8,Sedan,4,5,Petrol,V8,6.4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 568bd7681f07183f,US,2012,Chrysler,300 SRT8 / 2012 Dodge Charger SRT8,Sedan,4,5,,V8,6.4,NA,Front,RWD,470,350.5,470 lb-ft,4450,4.6,4.77,,,13,,,,,,,,,,,,,,Car & Driver
 d392157180e12c54,US,,Chrysler,300 SRT8 2011-Present,,,,Petrol,V8,6.4,TC,Front,RWD,477,351,470 lb-ft,4365,,,,,,,,,,,,,,,,,,,Autoevolution
-e8aceda718badcc9,US,2015,Chrysler,300 V 8 First Drive Review Where The Hemi Meets The Road Page 2,Sedan,4,5,,V8,5.7,NA,Front,RWD,363,270.7,394 lb-ft,4350,5.1,5.28,12.3,,13.6,,145,233.4,,,,,,,,,,,Car & Driver
+e8aceda718badcc9,US,2015,Chrysler,300 V 8,Sedan,4,5,,V8,5.7,NA,Front,RWD,363,270.7,394 lb-ft,4350,5.1,5.28,12.3,,13.6,,145,233.4,,,,,,,,,,,Car & Driver
 d730bf311362569d,US,2015,Chrysler,300 V-6 AWD,Sedan,4,5,,V6,3.6,NA,Front,4WD,292,217.7,260 lb-ft,4208,6.3,6.53,16.2,,14.8,96,,,187,,0.8,,,,,,,,Car & Driver
 3102d3b0b59baa5a,US,2015,Chrysler,300 V-6 RWD/AWD First Drive ¬,Sedan,4,5,,V6,3.6,NA,Front,AWD,,,,4050,6.3,6.53,15.8,,14.9,,120,193.1,,,,,,,,,,,Car & Driver
 af0f3914126335fa,US,2016,Chrysler,300 V-6/V-8,Sedan,4,5,,,,,Front,4WD,,,,4000,5.3,5.49,12.8,,13.9,104,,,174,,0.81,,,,,,,,Car & Driver
@@ -15597,7 +15550,6 @@ ca29c723741e6de6,US,2004,Chrysler,Crossfire Roadster,,,2,Petrol,V6,3.2,NA,Front,
 5e61956441e49916,US,2006,Chrysler,Crossfire Roadster,Coupe,2,2,Petrol,V6,3.2,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 3c02b41eea45eb0d,US,2007,Chrysler,Crossfire Roadster,Coupe,2,2,Petrol,V6,3.2,NA,Front,FWD,218,160,229 lb-ft,3175,6.5,6.5,,,,,150,241,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
 7985d2339a66a513,US,2008,Chrysler,Crossfire Roadster,Coupe,2,2,Petrol,V6,3.2,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-f0bf9fd9cda5ef97,US,2005,Chrysler,Crossfire Roadster Road Test Review Sharing Virtues With The Coupe Page 2,Roadster,2,2,,V6,3.2,NA,Front,RWD,,,229 lb-ft,3150,6.8,7.04,17.8,,15.1,,,,,,,,,,,,,,Car & Driver
 1310bdd2c91838f3,US,2004,Chrysler,Crossfire Roadster SRT6,,,2,Petrol,V6,3.2,SC,Front,RWD,335,246,310 lb-ft,3327.3,5,5,,,,,158.5,255,,,,,,,,,,,Autoevolution
 697204acfd6a5b52,US,2004,Chrysler,Crossfire SRT6,,,,Petrol,V6,3.2,SC,Front,RWD,335,246,310 lb-ft,3239.1,5,5,,,,,158.5,255,,,,,,,,,,,Autoevolution
 1efd4a6c1ace34f6,US,1992,Chrysler,Dayto,,,,Petrol,I4,2.5,NA,Front,FWD,101.4,74.6,135 lb-ft,2780,11,11,,,,,131.7,212,,,,,,,,,,,Autoevolution
@@ -17653,9 +17605,8 @@ e63a42c067fbad23,US,2015,Dodge,Charger SRT8,Sedan,4,5,Petrol,V8,6.4,SC,Front,RWD
 4edad72c57f07e56,US,2012,Dodge,Charger SXT V6,Sedan,4,5,Petrol,,3.6,,Front,RWD,292,217.7,260 lb-ft,4116,6.7,6.94,16.9,,15.3,95,,,163,,0.85,,,,,,,,Car & Driver
 afd98c337f9fd4bc,US,2026,Dodge,Charger Scat Pack,Hatchback,4,5,,,,,Front,AWD,550,410.1,531 lb-ft,4850,3.5,3.63,6.6,,11.7,,177,284.9,,,,,,,,,,,Car & Driver
 1f02cb671cddf91e,US,2015,Dodge,Charger Srt 392,Sedan,4,5,,V8,,NA,Front,RWD,485,361.7,475 lb-ft,4400,4.3,4.45,9.8,,12.4,,175,281.6,,,,,,,,,,,Car & Driver
-79272e08e8246ff0,US,2015,Dodge,Charger Srt Hellcat,Sedan,4,5,,V8,,SC,Front,RWD,707,527.2,650 lb-ft,4600,3.7,3.83,7.7,,11.8,128,200,321.9,153,,0.94,,,,,,,,Car & Driver
+79272e08e8246ff0,US,2015,Dodge,Charger Srt Hellcat,Sedan,4,5,,V8,6.1,SC,Front,RWD,707,527.2,650 lb-ft,4600,3.7,3.83,7.7,,11.8,128,200,321.9,153,,0.94,,,,,,,,Car & Driver
 edee859c54a9f179,US,2017,Dodge,Charger Srt Hellcat,Sedan,4,5,,V8,,SC,Front,RWD,707,527.2,650 lb-ft,4550,3.4,3.52,7.2,,11.4,128,,,153,,0.94,,,,,,,,Car & Driver
-adcc5a6a2ed01723,US,2015,Dodge,Charger Srt Hellcat First Drive Review Acceleration Is Explosive Page 2,Sedan,4,5,,V8,6.1,SC,Front,RWD,707,527.2,650 lb-ft,4600,3.7,3.83,7.7,,11.8,,200,321.9,,,,,,,,,,,Car & Driver
 9932cef608a91042,US,2021,Dodge,Charger Srt Hellcat Redeye,Sedan,4,5,,V8,,SC,Front,RWD,797,594.3,707 lb-ft,4654,3.5,3.63,7.5,,,,,,155,309,0.93,,,,,,,,Car & Driver
 63ac0404518f49f5,US,2012,Dodge,Charger Srt8 Super Bee,Sedan,4,5,,,6.4,TC,Front,RWD,470,350.5,470 lb-ft,4305,4.2,4.35,9.8,,12.6,115,,,165,,0.86,,,,,,,,Car & Driver
 e6822fbb56b87953,US,2015,Dodge,Charger V 6,Sedan,4,5,,V6,,NA,Front,4WD,292,217.7,260 lb-ft,4000,6.5,6.73,16,,15.1,,120,193.1,,,,,,,,,,,Car & Driver
@@ -18431,10 +18382,8 @@ daf2462f9b3a743a,US,2003,Dodge,Viper Srt 10,Roadster,2,2,,V10,,NA,Front,RWD,,,50
 0e5ec0a30ba57620,US,2010,Dodge,Viper Srt10 Acr X,Coupe,2,2,,V10,8.4,NA,Front,RWD,,,,3190,3.3,3.42,,,11.7,,,,,,,,,,,,,,Car & Driver
 b2c0b4d7a52c06d4,US,2008,Dodge,Viper Srt10 Coupe And Convertible Short Take Road,Coupe,2,2,,V10,,NA,Front,RWD,,,,3455,3.5,3.63,7.6,,11.6,126,,,150,,1,,,,,,,,Car & Driver
 fe993b01f7cf20dc,US,2008,Dodge,Viper Srt10 Roadster Short Take Road,,,2,,,8.4,TC,,,,,,3447,3.8,3.94,7.7,,11.6,126,,,153,,0.99,,,,,,,,Car & Driver
-aa78446ec85553e1,US,2014,Dodge,Viper TA,Hatchback,4,2,,V10,,NA,Front,RWD,640,477.2,600 lb-ft,3350,3.2,3.32,7.6,,11.5,,193,310.6,,,,,,,,,,169.9,"Car & Driver - Lightning Lap, Car & Driver"
-debe043de055ca8a,US,2014,Dodge,Viper Ta First Drive Review Only 159 Examples Of This Viper Page 2,Hatchback,4,2,,V10,8.4,NA,Front,RWD,640,477.2,600 lb-ft,3350,3.2,3.32,7.6,,11.5,,193,310.6,,,,,,,,,,,Car & Driver
-83995d5050c77d3f,US,2013,Dodge,Viper Viper GTS Coupe,Hatchback,4,2,,V10,,NA,Front,RWD,640,477.2,600 lb-ft,3300,3.4,3.52,,,11.7,,206,331.5,,,,,,,,,,,Car & Driver
-f9c75510267f7349,US,2013,Dodge,Viper Viper GTS Coupe First Drive Review Still Authentic Page 2,Hatchback,4,2,,,8.4,,Front,RWD,640,477.2,600 lb-ft,3300,3.4,3.52,,,11.7,,206,331.5,,,,,,,,,,,Car & Driver
+aa78446ec85553e1,US,2014,Dodge,Viper TA,Hatchback,4,2,,V10,8.4,NA,Front,RWD,640,477.2,600 lb-ft,3350,3.2,3.32,7.6,,11.5,,193,310.6,,,,,,,,,,169.9,"Car & Driver - Lightning Lap, Car & Driver"
+83995d5050c77d3f,US,2013,Dodge,Viper Viper GTS Coupe,Hatchback,4,2,,V10,8.4,NA,Front,RWD,640,477.2,600 lb-ft,3300,3.4,3.52,,,11.7,,206,331.5,,,,,,,,,,,Car & Driver
 9ea3bba4e50f45b4,US,1984,Dodge,W100/W150 Pickup 4WD,Truck,4,5,Petrol,V6,3.7,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 eadd86b95d778d01,US,1985,Dodge,W100/W150 Pickup 4WD,Truck,4,5,Petrol,V6,3.7,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 16f66c25df8007c7,US,1986,Dodge,W100/W150 Pickup 4WD,Truck,4,5,Petrol,V6,3.7,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -18748,7 +18697,6 @@ d8308984ba0a2cfa,IT,2012,Ferrari,458 Italia Spider,Coupe,2,2,Petrol,V8,4.5,NA,Mi
 a0ed0316ed0351c4,IT,2013,Ferrari,458 Speciale,,,2,Petrol,V8,4.5,NA,Mid,RWD,605,445,398 lb-ft,3075,3,3,,,,,202,325,,,,,,,,,,,Autoevolution
 3e9a9a562a957f65,IT,2014,Ferrari,458 Speciale,Coupe,2,2,Petrol,V8,4.5,NA,Mid,RWD,597,445.2,398 lb-ft,3200,2.8,2.9,,,10.7,,202,325.1,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 4767cd8d85478ec0,IT,2015,Ferrari,458 Speciale,Coupe,2,2,Petrol,V8,4.5,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-09304c3d7a92aaa7,IT,2014,Ferrari,458 Speciale First Drive Review Speciale Treatment Page 2,Coupe,2,2,,V8,4.5,NA,Mid,RWD,597,445.2,398 lb-ft,3200,2.8,2.9,,,10.7,,202,325.1,,,,,,,,,,,Car & Driver
 c68bb2b7aa796680,IT,2015,Ferrari,458 Speciale Spider,Coupe,2,2,Petrol,V8,4.5,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6caf80773e780c6a,IT,2011,Ferrari,458 Spider,,,2,Petrol,V8,4.5,NA,Mid,RWD,570,419,398 lb-ft,3384,3.4,3.4,,,,,199,320,,,,,,,,,,,Autoevolution
 c563e888669b9c99,IT,2013,Ferrari,458 Spider,Coupe,2,2,Petrol,V8,4.5,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -18772,7 +18720,6 @@ ca3a28b954e2c75e,IT,2016,Ferrari,488 Spider,Coupe,2,2,Petrol,V8,3.9,TC,Mid,RWD,6
 06750781a8c43827,IT,2018,Ferrari,488 Spider,Coupe,2,2,Petrol,V8,3.9,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 d5a6f9b9be218190,IT,2019,Ferrari,488 Spider,Coupe,2,2,Petrol,V8,3.9,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6cb10bcc51352c38,IT,2016,Ferrari,488GTB,Coupe,2,2,Petrol,V8,3.9,TC,Mid,RWD,661,492.9,561 lb-ft,3250,3,3.11,6.3,,10.5,,205,329.9,,,,,441,2016-08,Horst von Saurma,,,165.1,"Car & Driver - Lightning Lap, Car & Driver, Wikipedia - List of Nürburgring Nordschleife lap times, EPA - Fuel Economy"
-d5158d1f3b2d8cd6,IT,2016,Ferrari,488Gtb First Drive Review Modernized Cockpit Page 2,Coupe,2,2,,V8,3.9,TC,Mid,RWD,661,492.9,561 lb-ft,3250,3,3.11,6.3,,10.5,,205,329.9,,,,,,,,,,,Car & Driver
 de6e0573e1facd17,IT,1994,Ferrari,512 M,,,,Petrol,V12,4.9,NA,Mid,RWD,440,324,369 lb-ft,3268,4.7,4.7,,,,,195,314,,,,,,,,,,,Autoevolution
 c1899886cf3e1578,IT,1992,Ferrari,512Tr,Coupe,2,4,Petrol,V12,4.9,NA,Mid,RWD,421,313.9,360 lb-ft,3684,5,5.18,10.3,,13,110,187,300.9,169,,0.92,,,,,,,,"Car & Driver, Autoevolution"
 0a4fd67aafd52f22,IT,1996,Ferrari,550 5.5 MT,Coupe,2,4,Petrol,V12,5.5,NA,Front,RWD,485,357.2,420 lb-ft,3726,3.86,4,,,,,198.8,320,,,,,,,,,,,Kaggle - Car Specifications
@@ -18871,7 +18818,6 @@ a3ff48008a9ba193,IT,2015,Ferrari,F12,Coupe,2,4,Petrol,V12,6.3,NA,Front,RWD,,,,,,
 db026177e2f78679,IT,2014,Ferrari,"F12 Berlinetta (740 PS, 2014)",,,,,,,,Front,,,,,,,,,,,,,,,,,,453,2014-09,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 4fccc04c38acb14c,IT,2017,Ferrari,F12 tdf,Coupe,2,4,Petrol,V12,6.3,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 aaa1023ef44c15ee,IT,2013,Ferrari,F12Berlinetta,Hatchback,4,5,,,6.3,,Front,RWD,730,544.4,509 lb-ft,3800,3.1,3.21,7.1,,11.1,,211,339.6,,,,,,,,,,,Car & Driver
-aba5cccd433feda0,IT,2013,Ferrari,F12Berlinetta First Drive Review Its Good To Be The King Page 2,Hatchback,4,5,,,6.3,,Front,RWD,730,544.4,509 lb-ft,3800,3.1,3.21,7.1,,11.1,,211,339.6,,,,,,,,,,,Car & Driver
 69152178eeceb8d5,IT,2014,Ferrari,F12berlinetta,,,,,,,,Front,,,,,,,,,,,,,,,,,,,,,,,170.8,Car & Driver - Lightning Lap
 8f5c99d6a5b3c419,IT,2012,Ferrari,F12berlinetta 6.3 AMT,Coupe,2,4,Petrol,V12,6.3,NA,Front,RWD,740,551.8,509 lb-ft,3362,2.99,3.1,,,,,211.3,340,,,,,,,,,,,Kaggle - Car Specifications
 f1804a872c029d00,IT,2015,Ferrari,F12tdf,,,,Petrol,V12,6.3,NA,Front,RWD,780,573.7,520 lb-ft,3351,2.9,2.9,,,,,211,340,,,,,,,,,,,Autoevolution
@@ -18950,7 +18896,7 @@ dd8be688938f62ee,IT,1995,Ferrari,Ferrari F50,Coupe,2,4,Petrol,V12,4.7,NA,Mid,RWD
 55e320f0d24eece2,IT,1995,Ferrari,Ferrari F512M,Coupe,2,4,Petrol,V12,4.9,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 e1bebfb5cb2ecd9a,IT,1993,Ferrari,Ferrari Mondial T/Cabriolet,Sedan,4,5,Petrol,V8,3.4,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 707f694bf7777d1b,IT,1994,Ferrari,Ferrari Mondial T/Cabriolet,Sedan,4,5,Petrol,V8,3.4,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-a7bdb8bcb742c218,IT,2012,Ferrari,Ff Drive Review 2012 Ferrari Ff Page 2,Hatchback,4,5,,,6.3,,Front,4WD,,,,4150,3.5,3.63,,,11.5,,208,334.7,,,,,,,,,,,Car & Driver
+a7bdb8bcb742c218,IT,2012,Ferrari,Ff Drive Review 2012 Ferrari Ff,Hatchback,4,5,,,6.3,,Front,4WD,,,,4150,3.5,3.63,,,11.5,,208,334.7,,,,,,,,,,,Car & Driver
 32d83a9c035c52ab,IT,2017,Ferrari,GTC4Lusso,Coupe,2,4,Petrol,V12,6.3,NA,Front,4WD,680,507.1,514 lb-ft,4250,3.1,3.21,6.5,,11,,208,334.7,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 ce4cd39bd4550899,IT,2018,Ferrari,GTC4Lusso,Coupe,2,4,Petrol,V12,6.3,TC,Front,4WD,602,448.9,561 lb-ft,4150,3.5,3.63,7.9,,11.5,,199,320.3,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 f64fbbd6035073fe,IT,2019,Ferrari,GTC4Lusso,Coupe,2,4,Petrol,V12,6.3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -19184,7 +19130,6 @@ dab5c98f0b072de9,IT,,Fiat,500C Abarth,,,,Petrol,I4,1.4,TC,Front,FWD,135,99,152 l
 09dc2f99dd81a0ac,IT,2012,Fiat,500C Cabrio,Coupe,2,4,Petrol,I4,1.4,NA,Front,FWD,,,,2550,9.8,10.15,,,17.5,,110,177.0,,,,,,,,,,,Car & Driver
 e8ff766935150728,IT,2017,Fiat,500C Manual,Convertible,2,4,Petrol,I4,1.4,NA,Front,FWD,101,75.3,97 lb-ft,2479,9.8,10.15,44.5,,17.7,77,,,181,,0.82,,,,,,,,Car & Driver
 19d45f48d260c04c,IT,2013,Fiat,500E EV,Hatchback,4,5,Electric,,,,Front,FWD,,,,3000,8.9,9.22,,,17,80,85,136.8,192,,0.79,,,,,,,,Car & Driver
-a764db0dc716e36b,IT,2013,Fiat,500E Ev First Drive Review Range Anxiety Page 2,Hatchback,4,5,Electric,,,,Front,FWD,,,,3000,8.9,9.22,,,17,,85,136.8,,,,,,,,,,,Car & Driver
 6dea4280e25536e1,IT,2012,Fiat,500L,,,,Petrol,I2,0.9,TC,Front,FWD,105,77,107 lb-ft,2778,12.3,12.3,,,,,112,180,,,,,,,,,,,Autoevolution
 4c993793e1da6516,IT,2014,Fiat,500L,Wagon,4,5,Petrol,I4,1.4,TC,Front,FWD,160,119.3,184 lb-ft,3250,8,8.29,21.5,,16.4,,120,193.1,,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 b5b538ea9574f7b9,IT,2017,Fiat,500L,Hatchback,4,5,Petrol,I4,1.4,TC,Front,FWD,160,119.3,184 lb-ft,3300,8,8.29,23.9,,16.2,86,,,176,,0.76,,,,,,,,"Car & Driver, EPA - Fuel Economy"
@@ -19224,7 +19169,6 @@ fd2a7c79f7a27837,IT,2021,Fiat,500X AWD,SUV,4,5,Petrol,I4,1.3,TC,Front,AWD,,,,,,,
 bc60057be8b59fc3,IT,2022,Fiat,500X AWD,SUV,4,5,Petrol,I4,1.3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6265f3847333826e,IT,2023,Fiat,500X AWD,SUV,4,5,Petrol,I4,1.3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 666ef3d4a2122982,IT,2016,Fiat,500X Awd,Hatchback,4,5,Petrol,I4,2.4,NA,Front,4WD,180,134.2,175 lb-ft,3361,8.7,9.01,28,,16.8,82,,,163,,0.78,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-af01962d1eda756a,IT,2016,Fiat,500X First Drive Review Drive Like An Italian Page 2,Hatchback,4,5,,,,,Front,4WD,,,,3050,8.7,9.01,27,,16.5,,110,177.0,,,,,,,,,,,Car & Driver
 0842d8ca4d2f524a,IT,2013,Fiat,500e,Coupe,2,4,Electric,,,,,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 f9efd0ddd4414d47,IT,2014,Fiat,500e,Coupe,2,4,Electric,,,,,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 9a885b26569b937b,IT,2015,Fiat,500e,Coupe,2,4,Electric,,,,,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -19724,7 +19668,7 @@ db2e94367077029b,US,1995,Ford,Aspire,Sedan,4,5,Petrol,I4,1.3,NA,Front,FWD,,,,,,,
 5b92a46edadda429,US,1996,Ford,Aspire,Sedan,4,5,Petrol,I4,1.3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 3f6c0c96b80f95c0,US,1997,Ford,Aspire,Sedan,4,5,Petrol,I4,1.3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 c304019a9fa6136d,US,1994,Ford,Aspire 1.3i MT,Hatchback,4,5,Petrol,I4,1.3,NA,Front,FWD,64,47.7,55 lb-ft,2004,,,,,,,90.1,145,,,,,,,,,,,Kaggle - Car Specifications
-4890678e07a809b1,US,2013,Ford,B Max First Drive Review In A Class Of Its Own Page 2,Hatchback,4,5,Diesel,I4,,TC,Front,FWD,,,,3000,10,10.36,,,17.5,,,,,,,,,,,,,,Car & Driver
+4890678e07a809b1,US,2013,Ford,B Max,Hatchback,4,5,Diesel,I4,,TC,Front,FWD,,,,3000,10,10.36,,,17.5,,,,,,,,,,,,,,Car & Driver
 2bd3191a51484eb0,US,2013,Ford,B-Max,Hatchback,4,5,Diesel,I4,,TC,Front,FWD,,,,3000,10,10.36,,,17.5,,,,,,,,,,,,,,Car & Driver
 7c07f19ad63268a1,US,1966,Ford,Bronco,,,,Petrol,I6,2.8,NA,Front,AWD,90,66.4,146 lb-ft,3197,20,20,,,,,80,129,,,,,,,,,,,Autoevolution
 f7fa2a3bbceb9a03,US,1978,Ford,Bronco,,,,Petrol,V8,5.8,NA,Front,AWD,160,117.7,262 lb-ft,4663,,,,,,,,,,,,,,,,,,,Autoevolution
@@ -19811,8 +19755,8 @@ c4029a7789a93703,US,2025,Ford,Bronco Sport Sasquatch,Wagon,4,5,,,,,Front,AWD,,,,
 a14652f55d0e0e7a,US,2025,Ford,Bronco Stroppe Special Edition,Wagon,4,5,,,,,Front,4WD,330,246.1,415 lb-ft,5000,6.4,6.63,19.7,,15.2,,106,170.6,,,,,,,,,,,Car & Driver
 102acc31ee9836c1,US,2019,Ford,Bullitt,,,,Petrol,V8,,TC,Front,RWD,480,353,420 lb-ft,3849,6,6,,,,,163,262,,,,,,,,,,,Autoevolution
 27339b3735d5054a,US,2017,Ford,C Max Energi Plug In Hybrid,Hatchback,4,5,Electric/Petrol,I4,2,NA,Front,FWD,,,,3860,7.6,7.87,21,,16,89,,,179,,0.75,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+ae8215c5427ffcc4,US,2013,Ford,C Max Hybrid,Wagon,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,3600,9.5,9.84,,,17,,115,185.1,,,,,,,,,,,Car & Driver
 c78951daa820443d,US,2017,Ford,C Max Hybrid,Hatchback,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,3630,7.9,8.18,20.6,,16.1,89,,,183,,0.78,,,,,,,,Car & Driver
-ae8215c5427ffcc4,US,2013,Ford,C Max Hybrid First Drive Review A Real Car Not A Gadget Page 2,Wagon,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,3600,9.5,9.84,,,17,,115,185.1,,,,,,,,,,,Car & Driver
 11fc91c99e65a39e,US,2013,Ford,C-MAX Energi Plug-in Hybrid,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 623d96acbf1b9329,US,2014,Ford,C-MAX Energi Plug-in Hybrid,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6afc8b9272547978,US,2015,Ford,C-MAX Energi Plug-in Hybrid,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -20241,7 +20185,6 @@ f3b70631cb360edf,US,2021,Ford,Escape AWD HEV,SUV,4,5,Petrol,I4,2.5,NA,Front,4WD,
 fc9967960f5958b2,US,2026,Ford,Escape AWD HEV,SUV,4,5,Petrol,I4,2.5,NA,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 4842742f32110062,US,2020,Ford,Escape Drive,Hatchback,4,5,Petrol,I3,1.5,TC,Front,AWD,181,135,190 lb-ft,3494,7.7,7.98,23.5,,15.9,87,,,162,,0.84,,,,,,,,Car & Driver
 1621f1c87c82fa8d,US,2013,Ford,Escape Ecoboost,Wagon,4,5,,,,,Front,4WD,,,,3600,6.9,7.15,,,,,,,,,,,,,,,,,Car & Driver
-6ab5ce48b5793d12,US,2013,Ford,Escape Ecoboost First Drive Review 2013 Ford Escape Ecoboost 16L 20L A Bigger Focus Page 2,Wagon,4,5,,,,,Front,4WD,,,,3600,6.9,7.15,,,,,,,,,,,,,,,,,Car & Driver
 72cae356fe21154f,US,2006,Ford,Escape FWD,SUV,4,5,Petrol,I4,2.3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 4198e534cf788867,US,2007,Ford,Escape FWD,SUV,4,5,Petrol,I4,2.3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 10f72cce13c0b9c1,US,2008,Ford,Escape FWD,SUV,4,5,Petrol,I4,2.3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -20299,7 +20242,6 @@ c3dffa2adb6f59b5,US,2008,Ford,Escape Hybrid FWD,SUV,4,5,Petrol,I4,2.3,NA,Front,F
 bfeef40b5abd87d5,US,2010,Ford,Escape Hybrid FWD,SUV,4,5,Petrol,I4,2.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 99337a502abb385a,US,2011,Ford,Escape Hybrid FWD,SUV,4,5,Petrol,I4,2.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 21de8efa9cc9b7a4,US,2012,Ford,Escape Hybrid FWD,SUV,4,5,Petrol,I4,2.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-d37e72781355ce58,US,2005,Ford,Escape Hybrid Road Test Review Atkinson Cycle Engine Page 2,Wagon,4,5,Electric/Petrol,,,,Front,4WD,,,,3650,9,9.32,,,16.8,,,,,,,,,,,,,,Car & Driver
 3a556bed59fdfa2c,US,2008,Ford,Escape Limited V 6 4Wd Short Take Road,Wagon,4,5,,V6,2.9,NA,Front,4WD,,,,3630,9.5,9.84,35.9,,17.3,82,,,202,,0.68,,,,,,,,Car & Driver
 c30aba641c3d879e,US,2021,Ford,Escape Phev,Wagon,4,5,Electric/Petrol,I4,,NA,Front,FWD,221,164.8,,3955,7.7,7.98,19.3,,16,91,,,164,,0.79,,,,,,,,Car & Driver
 b4711b0da80115a5,US,2023,Ford,Escape Phev,Wagon,4,5,Electric/Petrol,I4,,NA,Front,FWD,210,156.6,,4038,7.7,7.98,19.2,,16,91,,,176,,0.78,,,,,,,,Car & Driver
@@ -20846,7 +20788,6 @@ edfcdf35b129e50c,US,2017,Ford,F 150 Raptor,Truck,4,5,,V6,,TC,Front,AWD,450,335.6
 4f142d74d4212328,US,2010,Ford,F 150 Svt Raptor,Truck,4,5,,V8,5.4,NA,Front,4WD,,,365 lb-ft,6000,8.3,8.6,,,17.8,86,,,214,,0.67,,,,,,,,Car & Driver
 6fdadb15fd45bfa7,US,2010,Ford,F 150 Svt Raptor 62,,,,,V8,6.2,NA,Front,,,,,,7.1,7.36,,,15,,,,,,,,,,,,,,Car & Driver
 d3614973899f48f1,US,2010,Ford,F 150 Svt Raptor 62 Road,Truck,4,5,,V8,6.2,NA,Front,4WD,,,,6100,6.7,6.94,,,15.3,93,,,202,,0.7,,,,,,,,Car & Driver
-3bacf7b5f22290c1,US,2010,Ford,F 150 Svt Raptor Review The Supertruck Page 2,Truck,4,5,,V8,5.4,NA,Front,4WD,,,365 lb-ft,6000,8.3,8.6,,,17.8,,,,,,,,,,,,,,Car & Driver
 2b5296c811dce2ef,US,2013,Ford,F 150 Svt Raptor Supercab,Truck,4,5,,,6.2,,Front,4WD,411,306.5,434 lb-ft,6100,6.7,6.94,,,15.3,93,,,202,,0.7,,,,,,,,Car & Driver
 b7cf5818f8584b78,US,2021,Ford,F 150 Tremor,Truck,4,5,,,,,Front,4WD,400,298.3,500 lb-ft,5562,5.3,5.49,,,13.9,100,,,193,,0.74,,,,,,,,Car & Driver
 30087e5a47c07c08,US,2014,Ford,F 150 Tremor 35L Ecoboost V 6 4X2 4X4,Truck,4,5,,V6,3.5,TC,Front,4WD,365,272.2,420 lb-ft,,,,,,14.5,95,,,,,0.75,,,,,,,,Car & Driver
@@ -21484,7 +21425,6 @@ eec715c9c3cded86,US,2018,Ford,Fiesta ST FWD,Sedan,4,5,Petrol,I4,1.6,TC,Front,FWD
 92abf6e54bf65f12,US,2011,Ford,Fiesta Sedan,,,,Petrol,I3,1,TC,Front,FWD,125,92,92 lb-ft,2515,,,,,,,,,,,,,,,,,,,Autoevolution
 f1ba249fbcd087d8,US,2011,Ford,Fiesta Sel Short Take Road,Sedan,4,5,Petrol,I4,1.6,NA,Front,FWD,,,,2583,9.3,9.63,,,17,82,,,175,,0.81,,,,,,,,Car & Driver
 2b91c13daef41ca8,US,2017,Ford,Fiesta St,Hatchback,4,5,Petrol,I4,,TC,Front,FWD,197,146.9,202 lb-ft,2734,6.9,7.15,17,,15.1,94,,,166,,0.93,,,,,92.7,"Series 20, Episode 01",,"Car & Driver, Wikipedia - List of Top Gear test track Power Lap times"
-90719340f6b97cd9,US,2014,Ford,Fiesta St Hatchback First Drive Review Rolling Firecracker Page 2,Wagon,4,5,Petrol,I4,1.6,TC,Front,FWD,197,146.9,214 lb-ft,2700,6.7,6.94,,,15.2,,137,220.5,,,,,,,,,,,Car & Driver
 e46ed652c6666b17,US,2016,Ford,Fiesta St Quick Take,Hatchback,4,5,Petrol,I4,1.6,TC,Front,FWD,197,146.9,202 lb-ft,2750,7,7.25,17.6,,15.2,93,,,159,,0.92,,,,,,,,Car & Driver
 08cc0bf1bd52e26a,US,2017,Ford,Fiesta St200,Hatchback,4,5,Petrol,I4,1.6,TC,Front,FWD,212,158.1,236 lb-ft,2600,6.7,6.94,17.2,,14.9,,150,241.4,,,,,,,,,,,Car & Driver
 fb5c1bfb6b9f7bee,US,2010,Ford,Figo,,,,Petrol,I4,1.2,TC,Front,FWD,71,52,75 lb-ft,2293,15,15,,,,,102,164,,,,,,,,,,,Autoevolution
@@ -21501,7 +21441,6 @@ cbe756f187d44219,US,2005,Ford,Five Hundred AWD,Sedan,4,5,Petrol,V6,3,NA,Front,AW
 accaf5be3e7d1577,US,2005,Ford,Five Hundred FWD,Sedan,4,5,Petrol,V6,3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 1e45de97a2d133ed,US,2006,Ford,Five Hundred FWD,Sedan,4,5,Petrol,V6,3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 75df52e5794a3557,US,2007,Ford,Five Hundred FWD,Sedan,4,5,Petrol,V6,3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-65af5c960fa6f230,US,2005,Ford,Five Hundred Road Test Review Uninspired Looks Page 2,Wagon,4,5,,V6,3,NA,Front,4WD,,,207 lb-ft,3650,8.6,8.91,,,16.7,,,,,,,,,,,,,,Car & Driver
 0c1e5e6b60f2713e,US,2009,Ford,Flex,,,,Petrol,V6,3.5,TC,Front,FWD,266,195.6,245 lb-ft,4469,7.8,7.8,,,,,127,204,,,,,,,,,,,Autoevolution
 ce26f0df03671217,US,2012,Ford,Flex,,,,Petrol,V6,3.5,NA,Front,AWD,364,268,350 lb-ft,4828,,,,,,,,,,,,,,,,,,,Autoevolution
 cf06dda6eac6c148,US,2012,Ford,Flex 3.5 AT 4WD,,,,Petrol,V6,3.5,NA,Front,AWD,287,214.0,253 lb-ft,,7.92,8.2,,,,,115,185,,,,,,,,,,,Kaggle - Car Specifications
@@ -21734,7 +21673,6 @@ bb1903a041fd9d6e,US,2007,Ford,Focus Sedan,,,,Petrol,I4,2,NA,Front,FWD,140,102.9,
 59aa559b0b311565,US,2016,Ford,Focus Sedan 10 Liter Turbo Automatic,Sedan,4,5,Petrol,I3,1,TC,Front,FWD,123,91.7,125 lb-ft,3017,10.2,10.57,32.5,,17.6,80,,,173,,0.83,,,,,,,,Car & Driver
 d3357af76bd3f126,US,2017,Ford,Focus Sedan And Hatchback,,,,,,,,,,,,,2950,8.5,8.81,23.8,,16.5,86,,,179,,0.83,,,,,,,,Car & Driver
 c404cb01c68102e8,US,2008,Ford,Focus Ses Short Take Road,Coupe,2,4,Petrol,I4,2,NA,Front,FWD,,,,2688,8,8.29,24.2,,16.4,85,,,190,,0.79,,,,,,,,Car & Driver
-7aeee788fab5d9c5,US,2013,Ford,Focus St First Drive Review Willing And Able Page 2,Wagon,4,5,,,2,,Front,FWD,252,187.9,270 lb-ft,3250,6,6.22,,,14.5,,155,249.4,,,,,,,,,,,Car & Driver
 9c04b0ac4d9a508b,US,2013,Ford,Focus St First Ride Feature,Wagon,4,5,Petrol,I4,2,TC,Front,FWD,247,184.2,266 lb-ft,3150,6.1,6.32,,,14.6,,155,249.4,,,,,,,,,,,Car & Driver
 71d241e1f3d1c0de,US,2000,Ford,Focus Station Wagon,Wagon,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 a2a19a53a6cca99b,US,2001,Ford,Focus Station Wagon,Wagon,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -21793,7 +21731,6 @@ a1f65fb5de2825a7,US,2005,Ford,Fusion 1.6 MT,Hatchback,4,5,Petrol,I4,1.6,NA,Front
 647d7dafb6e35215,US,2002,Ford,Fusion 1.6 TDCI MT,Hatchback,4,5,Diesel,I4,1.6,TC,Front,FWD,90,67.1,150 lb-ft,2396,12.46,12.9,,,,,109.4,176,,,,,,,,,,,Kaggle - Car Specifications
 98890367945bd1ba,US,2005,Ford,Fusion 1.6 TDCI MT,Hatchback,4,5,Diesel,I4,1.6,TC,Front,FWD,90,67.1,150 lb-ft,2568,12.46,12.9,,,,,109.4,176,,,,,,,,,,,Kaggle - Car Specifications
 0dfd70facee92f7c,US,2013,Ford,Fusion 16 And 20 Ecoboost,Sedan,4,5,Petrol,I4,,TC,Front,AWD,,,,3400,6.6,6.84,,,15.2,,120,193.1,,,,,,,,,,,Car & Driver
-d1417658bde3d879,US,2013,Ford,Fusion 16 And 20 Ecoboost First Drive Review Quick Enough Page 2,Sedan,4,5,Petrol,I4,,TC,Front,AWD,,,,3400,6.6,6.84,,,15.2,,120,193.1,,,,,,,,,,,Car & Driver
 4bdce6546c324c16,US,2013,Ford,Fusion 16L Ecoboost Automatic,Sedan,4,5,Petrol,I4,1.6,TC,Front,FWD,178,132.7,184 lb-ft,3474,8.2,8.5,22.9,,16.2,86,,,175,,0.8,,,,,,,,Car & Driver
 44a6a8cc876bc004,US,,Ford,Fusion 2018-Present,,,,Petrol,I4,1.5,TC,Front,FWD,181,133.1,185 lb-ft,3472,9.1,9.1,,,,,133,214,,,,,,,,,,,Autoevolution
 c5017dfad166841e,US,2007,Ford,Fusion AWD,Sedan,4,5,Petrol,V6,3,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -25094,7 +25031,6 @@ bc2e2f055b47e96f,JP,,Honda,Accord Sedan,,,,Petrol,I4,1.6,TC,Front,FWD,115,85,103
 1d50eaf19b746d1a,JP,2013,Honda,Accord Sedan,Sedan,4,5,,,,,Front,FWD,,,,3200,6.5,6.73,,,15,,120,193.1,,,,,,,,,,,Car & Driver
 d917fbc145c079e8,JP,2016,Honda,Accord Sedan,Sedan,4,5,,,,,Front,FWD,,,,3200,5.6,5.8,,,14.1,,127,204.4,,,,,,,,,,,Car & Driver
 3abf5d30c385d31b,JP,2016,Honda,Accord Sedan Ex,Sedan,4,5,Petrol,I4,,NA,Front,FWD,185,138,181 lb-ft,3325,7.6,7.87,19.6,,15.9,91,,,178,,0.8,,,,,,,,Car & Driver
-b5adc3c012d6203f,JP,2013,Honda,Accord Sedan First Drive Review An Accord For Everyone Page 2,Sedan,4,5,,,,,Front,FWD,,,,3200,6.5,6.73,,,15,,120,193.1,,,,,,,,,,,Car & Driver
 017eac50d848ee13,JP,2013,Honda,Accord Sedan V 6,Sedan,4,5,,V6,,NA,Front,FWD,278,207.3,252 lb-ft,3552,5.6,5.8,13.9,,14.1,101,,,178,,0.82,,,,,,,,Car & Driver
 822458bba201fca0,JP,2018,Honda,Accord Sport 15T Manual,Sedan,4,5,Petrol,I4,,TC,Front,FWD,192,143.2,192 lb-ft,3154,7.2,7.46,18.7,,15.5,92,,,162,,0.9,,,,,,,,Car & Driver
 f9ebb5c684bca253,JP,2018,Honda,Accord Sport 2.0T,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,198.4,Car & Driver - Lightning Lap
@@ -25864,8 +25800,7 @@ f4425c4baa75b38c,JP,2013,Honda,Fit EV,Wagon,4,5,Electric,,,,Front,FWD,,,,3238,8.
 2ded25a5b99e3aad,JP,2010,Honda,Fit EV CVT,Hatchback,4,5,Electric,,,,,FWD,125,93.2,189 lb-ft,3252,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 5d71a12e56a47b18,JP,2015,Honda,Fit EX,Wagon,4,5,Petrol,I4,,NA,Front,FWD,130,96.9,114 lb-ft,2572,8,8.29,23.2,,,,,,178,,0.79,,,,,,,217.7,"Car & Driver - Lightning Lap, Car & Driver"
 eab167fde0389c99,JP,2015,Honda,Fit Ex Manual,Wagon,4,5,Petrol,I4,,NA,Front,FWD,130,96.9,114 lb-ft,2578,7.7,7.98,22.7,,16.1,87,,,181,,0.78,,,,,,,,Car & Driver
-465a0ebd258a8895,JP,2015,Honda,Fit Hatchback,Wagon,4,5,Petrol,I4,,NA,Front,FWD,130,96.9,114 lb-ft,2600,8.5,8.81,27.5,,16.7,,110,177.0,,,,,,,,,,,Car & Driver
-4ab9aaaa89b04fc4,JP,2015,Honda,Fit Hatchback First Drive Review More But The Same Page 2,Wagon,4,5,Petrol,I4,1.5,NA,Front,FWD,130,96.9,114 lb-ft,2600,8.5,8.81,27.5,,16.7,,110,177.0,,,,,,,,,,,Car & Driver
+465a0ebd258a8895,JP,2015,Honda,Fit Hatchback,Wagon,4,5,Petrol,I4,1.5,NA,Front,FWD,130,96.9,114 lb-ft,2600,8.5,8.81,27.5,,16.7,,110,177.0,,,,,,,,,,,Car & Driver
 0d6c7a13eb781ac9,JP,2011,Honda,Fit Hybrid Euro-Spec,Wagon,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,2750,10.8,11.19,,,18.1,,,,,,,,,,,,,,Car & Driver
 401b82d97cada999,JP,2018,Honda,Fit Manual,Hatchback,4,5,Petrol,I4,,NA,Front,FWD,130,96.9,114 lb-ft,2551,8.2,8.5,24.3,,16.4,85,,,179,,0.81,,,,,,,,Car & Driver
 d235fbd3014c32e2,JP,2011,Honda,Fit Shuttle 1.3 CVT,Wagon,4,5,Electric/Petrol,I4,1.3,NA,Front,FWD,88,65.6,89 lb-ft,2623,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
@@ -25951,11 +25886,10 @@ dc877f4eeb14cbea,JP,2016,Honda,HR-V FWD Manual,Hatchback,4,5,Petrol,I4,1.8,NA,Fr
 47335da55ab75ad8,JP,1994,Honda,Horizon 3.1 MT 4WD,,,,Diesel,I4,3.1,TC,Front,AWD,125,93.2,203 lb-ft,4431,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 c68375d2577d3f50,JP,1994,Honda,Horizon 3.2 AT 4WD,,,,Petrol,V6,3.2,NA,Front,AWD,200,149.1,195 lb-ft,4343,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 c93558281d5c232e,JP,1994,Honda,Horizon 3.5 AT 4WD,,,,Petrol,V6,3.5,NA,Front,AWD,230,171.5,232 lb-ft,4387,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
-77cfa08472350c5c,JP,2016,Honda,Hr V,Hatchback,4,5,Petrol,I4,,NA,Front,4WD,141,105.1,127 lb-ft,2900,8.5,8.81,25.5,,16.8,,115,185.1,,,,,,,,,,,Car & Driver
+77cfa08472350c5c,JP,2016,Honda,Hr V,Hatchback,4,5,Petrol,I4,1.8,NA,Front,4WD,141,105.1,127 lb-ft,2900,8.5,8.81,25.5,,16.8,,115,185.1,,,,,,,,,,,Car & Driver
 3a6b04ccff081609,JP,2017,Honda,Hr V,Hatchback,4,5,Petrol,I4,1.8,NA,Front,4WD,141,105.1,127 lb-ft,2900,9.5,9.84,30.8,,17.4,82,,,183,,0.8,,,,,,,,Car & Driver
 b1a150ce3c3b17fa,JP,2019,Honda,Hr V,Hatchback,4,5,Petrol,I4,,NA,Front,AWD,141,105.1,127 lb-ft,3169,10.2,10.57,33.5,,17.8,81,,,180,,0.84,,,,,,,,Car & Driver
 bf31f5f41fe64e2c,JP,2016,Honda,Hr V Awd,Hatchback,4,5,Petrol,I4,,NA,Front,4WD,141,105.1,127 lb-ft,3098,9.5,9.84,30.8,,17.4,82,,,183,,0.8,,,,,,,,Car & Driver
-e36f29d9e01cc3e8,JP,2016,Honda,Hr V First Drive Review Overly Touchy Page 2,Hatchback,4,5,Petrol,I4,1.8,NA,Front,4WD,141,105.1,127 lb-ft,2900,8.5,8.81,25.5,,16.8,,115,185.1,,,,,,,,,,,Car & Driver
 d2c0390ac92e59ca,JP,2023,Honda,Hrv Drive,Wagon,4,5,,,,,Front,AWD,158,117.8,138 lb-ft,3293,9.4,9.74,26,,17.3,85,,,172,,0.8,,,,,,,,Car & Driver
 abedb8353b629f88,JP,1999,Honda,Insight,,,,Electric/Petrol,I3,1,NA,Front,FWD,69,51,68 lb-ft,1808.1,12,12,,,,,111.9,180,,,,,,,,,,,Autoevolution
 2d2dfbabdf8b05d1,JP,2000,Honda,Insight,Coupe,2,4,Petrol,I3,1,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -27128,7 +27062,6 @@ d67dcbb2fbf8522f,KR,2010,Hyundai,Genesis Coupe 38 V6,Coupe,2,4,Petrol,,3.8,,Fron
 c486dfcf79bc52e7,KR,2015,Hyundai,Genesis RWD,Sedan,4,5,Petrol,V6,3.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 7d307dd6e1cff68a,KR,2016,Hyundai,Genesis RWD,Sedan,4,5,Petrol,V6,3.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 82eb3e922ef99e19,KR,2015,Hyundai,Genesis Sedan,Sedan,4,5,,V8,,NA,Front,4WD,,,,4200,5.2,5.39,,,13.8,,130,209.2,,,,,,,,,,,Car & Driver
-db72139457d2fb66,KR,2015,Hyundai,Genesis Sedan First Drive Review Once A Starting Point Now A Turning Point Page 2,Sedan,4,5,,,,,Front,4WD,,,,4200,5.2,5.39,,,13.8,,130,209.2,,,,,,,,,,,Car & Driver
 43b069b639c8617a,KR,2015,Hyundai,Genesis V-6 AWD,Sedan,4,5,,V6,3.8,NA,Front,4WD,311,231.9,293 lb-ft,4516,6.2,6.42,15,,14.6,99,,,172,,0.87,,,,,,,,Car & Driver
 ccf849a1043a0cc4,KR,2015,Hyundai,Genesis V-6 RWD,Sedan,4,5,,V6,3.8,NA,Front,RWD,311,231.9,293 lb-ft,4230,5.9,6.11,14.4,,14.4,100,,,171,,0.87,,,,,,,,Car & Driver
 7e7edd781b641713,KR,2002,Hyundai,Getz 1.1 MT,Hatchback,4,5,Petrol,I4,1.1,NA,Front,FWD,62,46.2,71 lb-ft,2105,15.55,16.1,,,,,96.3,155,,,,,,,,,,,Kaggle - Car Specifications
@@ -27665,7 +27598,7 @@ e15d8dc48e9c72da,KR,2022,Hyundai,Santa Fe Plug-in Hybrid,SUV,4,5,Petrol,I4,1.6,T
 621f559f86996c81,KR,2016,Hyundai,Santa Fe Sport,,,,Petrol,I4,2,TC,Front,AWD,243,179,260 lb-ft,3898,9.9,9.9,,,,,124,200,,,,,,,,,,,Autoevolution
 82a254f679b8aff3,KR,2017,Hyundai,Santa Fe Sport,Hatchback,4,5,Petrol,I4,,TC,Front,4WD,240,179,250 lb-ft,4063,7.6,7.87,20.7,,15.9,89,,,187,,0.75,,,,,,,,Car & Driver
 6ce65eb96cb7ca7a,KR,2013,Hyundai,Santa Fe Sport 2.0T,Wagon,4,5,Petrol,I4,2,TC,Front,4WD,264,196.9,269 lb-ft,3600,6.5,6.73,16.6,,15,,,,,,,,,,,,,,Car & Driver
-ed4662a89c4b6ed8,KR,2013,Hyundai,Santa Fe Sport 20T First Drive Review No Secrets Here Page 2,Wagon,4,5,Petrol,I4,2,TC,Front,4WD,264,196.9,269 lb-ft,3600,6.5,6.73,16.6,,15,,,,,,,,,,,,,,Car & Driver
+ed4662a89c4b6ed8,KR,2013,Hyundai,Santa Fe Sport 20T,Wagon,4,5,Petrol,I4,2,TC,Front,4WD,264,196.9,269 lb-ft,3600,6.5,6.73,16.6,,15,,,,,,,,,,,,,,Car & Driver
 cc636da89234afd2,KR,2013,Hyundai,Santa Fe Sport 2WD,SUV,4,5,Petrol,I4,2.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 a30ab80d870f5fea,KR,2014,Hyundai,Santa Fe Sport 2WD,SUV,4,5,Petrol,I4,2.4,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ee96e5c64e000d62,KR,2013,Hyundai,Santa Fe Sport 4WD,SUV,4,5,Petrol,I4,2.4,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -27831,9 +27764,8 @@ bba8b528fb1424bb,KR,1998,Hyundai,Sota 2.5 MT,Sedan,4,5,Petrol,V6,2.5,NA,Front,FW
 ea1309cd6f5ad7f5,KR,2001,Hyundai,Sota 2.7 AT,Sedan,4,5,Petrol,V6,2.7,NA,Front,FWD,172,128.3,184 lb-ft,3505,9.37,9.7,,,,,130.5,210,,,,,,,,,,,Kaggle - Car Specifications
 e056b203921dad3f,KR,2008,Hyundai,Sota 2.7 AT,Sedan,4,5,Petrol,V6,2.7,NA,Front,FWD,172,128.3,184 lb-ft,3225,9.37,9.7,,,,,130.5,210,,,,,,,,,,,Kaggle - Car Specifications
 6169d7e82d411994,KR,2001,Hyundai,Sota 2.7 MT,Sedan,4,5,Petrol,V6,2.7,NA,Front,FWD,172,128.3,184 lb-ft,3505,8.79,9.1,,,,,134.2,216,,,,,,,,,,,Kaggle - Car Specifications
-54957da71afc8fe2,KR,2015,Hyundai,Sota 24L,Sedan,4,5,Petrol,I4,,NA,Front,FWD,185,138,178 lb-ft,3300,8.2,8.5,22.5,,16.5,88,,,165,,0.84,,,,,,,,Car & Driver
+54957da71afc8fe2,KR,2015,Hyundai,Sota 24L,Sedan,4,5,Petrol,I4,2.4,NA,Front,FWD,185,138,178 lb-ft,3300,8.2,8.5,22.5,,16.5,88,,,165,,0.84,,,,,,,,Car & Driver
 ab48f32f5e9d9396,KR,2018,Hyundai,Sota 24L,Sedan,4,5,Petrol,I4,,NA,Front,FWD,185,138,178 lb-ft,3311,7.4,7.67,20,,15.8,91,,,167,,0.85,,,,,,,,Car & Driver
-7de7a0d478ee775d,KR,2015,Hyundai,Sota 24L First Drive Review The Genesis Of Hyundais Maturity Page 2,Sedan,4,5,Petrol,I4,2.4,NA,Front,FWD,185,138,178 lb-ft,3300,8.2,8.5,22.5,,16.5,,,,,,,,,,,,,,Car & Driver
 59af82a97291b8b2,KR,1987,Hyundai,Sota 3.0 AT,Sedan,4,5,Petrol,V6,3,NA,Front,FWD,144,107.4,168 lb-ft,2848,9.85,10.2,,,,,115.6,186,,,,,,,,,,,Kaggle - Car Specifications
 a2fea8fa1ac1b704,KR,1991,Hyundai,Sota 3.0 AT,Sedan,4,5,Petrol,V6,3,NA,Front,FWD,146,108.9,170 lb-ft,2912,10.04,10.4,,,,,116.2,187,,,,,,,,,,,Kaggle - Car Specifications
 bb8753d1a6c3af59,KR,1993,Hyundai,Sota 3.0 AT,Sedan,4,5,Petrol,V6,3,NA,Front,FWD,143,106.6,170 lb-ft,3012,10.04,10.4,,,,,118.1,190,,,,,,,,,,,Kaggle - Car Specifications
@@ -29480,9 +29412,9 @@ d599ba68ad10613c,GB,2017,Jaguar,F Pace S,Hatchback,4,5,,V6,,SC,Front,AWD,380,283
 97895a0b12297ccd,GB,2017,Jaguar,F Pace S First Edition,Hatchback,4,5,,V6,,SC,Front,4WD,380,283.4,332 lb-ft,4501,5.3,5.49,13.2,,13.9,102,,,160,,0.88,,,,,,,,Car & Driver
 5e29dc84b7a249b5,GB,2021,Jaguar,F Pace Svr,Wagon,4,5,Petrol,V8,5,SC,Front,AWD,550,410.1,516 lb-ft,4809,3.7,3.83,8.9,,12.1,116,,,162,324,0.89,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 782effd57b1abd76,GB,2019,Jaguar,F Pace Svr First,Hatchback,4,5,,V8,5,SC,Front,AWD,550,410.1,502 lb-ft,4655,4.1,4.25,9.3,,12.4,115,,,174,,0.85,,,,,,,,Car & Driver
+644c53d387085b6e,GB,2014,Jaguar,F Type,Roadster,2,2,,,,,Front,RWD,,,,3550,4,4.14,,,12.2,,161,259.1,,,,,,,,,,,Car & Driver
 66d929f96a8faa3b,GB,2021,Jaguar,F Type,Coupe,2,4,,,,,Front,AWD,,,,3650,3.1,3.21,7.4,,11.4,,155,249.4,,,,,,,,,,,Car & Driver
 6445d57a367ff666,GB,2018,Jaguar,F Type 400 Sport Awd Coupe,Hatchback,4,5,,V6,,SC,Front,AWD,400,298.3,339 lb-ft,3982,4.4,4.56,11,,13,108,,,150,,0.98,,,,,,,,Car & Driver
-644c53d387085b6e,GB,2014,Jaguar,F Type First Drive Review Feeding The Kitty Page 2,Roadster,2,2,,,,,Front,RWD,,,,3550,4,4.14,,,12.2,,161,259.1,,,,,,,,,,,Car & Driver
 b8f7f107ef110d34,GB,2018,Jaguar,F Type Four Cylinder Convertible,Convertible,2,4,Petrol,I4,,TC,Front,RWD,296,220.7,295 lb-ft,3647,6.4,6.63,15.9,,14.9,97,,,165,,0.94,,,,,,,,Car & Driver
 a661796e7a7b84fe,GB,2016,Jaguar,F Type Manual And Awd,Coupe,2,4,,,,,Front,4WD,,,,3800,3.4,3.52,,,11.7,,161,259.1,,,,,,,,,,,Car & Driver
 f523809b9ee0799e,GB,2022,Jaguar,F Type P450,Convertible,2,4,,,,,Front,RWD,444,331.1,428 lb-ft,3953,4,4.14,9.5,,12.4,115,,,158,318,0.93,,,,,,,,Car & Driver
@@ -29490,7 +29422,6 @@ f523809b9ee0799e,GB,2022,Jaguar,F Type P450,Convertible,2,4,,,,,Front,RWD,444,33
 99b25bd06e27328f,GB,2016,Jaguar,F Type R Convertible,Convertible,2,4,Petrol,V8,5,SC,Front,4WD,550,410.1,502 lb-ft,4075,3.4,3.52,8.1,,11.7,122,,,149,,0.98,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 cddfd1f0881412ee,GB,2015,Jaguar,F Type R Coupe,Hatchback,4,5,Petrol,V8,5,SC,Front,RWD,550,410.1,502 lb-ft,3950,3.5,3.63,8.3,,11.8,122,186,299.3,151,,1,,,,,,,181,"Car & Driver, Car & Driver - Lightning Lap, EPA - Fuel Economy"
 5f4dea3844ca5bc6,GB,2021,Jaguar,F Type R Coupe,Coupe,2,4,,V8,,SC,Front,AWD,575,428.8,516 lb-ft,4105,3.5,3.63,8.2,,,,,,155,307,1,,,,,,,,Car & Driver
-2842df9023715fc0,GB,2015,Jaguar,F Type R Coupe First Drive Review No Longer Playing Around Page 2,Hatchback,4,5,,V8,5,SC,Front,RWD,550,410.1,502 lb-ft,3950,3.5,3.63,8.3,,11.8,,186,299.3,,,,,,,,,,,Car & Driver
 fbfc99a7bab8b099,GB,2024,Jaguar,F Type R75,Convertible,2,4,,,,,Front,AWD,575,428.8,516 lb-ft,4134,3.4,3.52,7.9,,11.6,122,,,148,282,1.04,,,,,,,,Car & Driver
 5a01557ba0a0b243,GB,2016,Jaguar,F Type S Coupe Manual,Coupe,2,4,,V6,,SC,Front,RWD,380,283.4,339 lb-ft,3782,4.9,5.08,12,,13.4,105,,,149,,0.98,,,,,,,,Car & Driver
 908345533a24d1ab,GB,2017,Jaguar,F Type Svr,Coupe,2,4,,V8,,SC,Front,4WD,575,428.8,516 lb-ft,3950,3.4,3.52,7.9,,11.6,,195,313.8,,,,,,,,,,,Car & Driver
@@ -30221,7 +30152,7 @@ c0c635e671573a36,US,2007,Jeep,Cherokee 2.8 CRD AT,Crossover,4,5,Diesel,I4,2.8,TC
 e629e0c15e035be6,US,2001,Jeep,Cherokee 2.8 D AT 4WD,Crossover,4,5,Diesel,I4,2.8,NA,Front,AWD,163,121.5,295 lb-ft,4321,11.59,12,,,,,108.1,174,,,,,,,,,,,Kaggle - Car Specifications
 ed354c80e56df755,US,2005,Jeep,Cherokee 2.8 MT 4WD,,,,Diesel,I4,2.8,TC,Front,AWD,163,121.5,295 lb-ft,4740,11.59,12,,,,,108.1,174,,,,,,,,,,,Kaggle - Car Specifications
 d308af93e0808a9d,US,2001,Jeep,Cherokee 2.8 TD AT 4WD,Crossover,4,5,Diesel,I4,2.8,TC,Front,AWD,150,111.9,266 lb-ft,4068,11.59,12,,,,,108.1,174,,,,,,,,,,,Kaggle - Car Specifications
-34392cc91d7975ad,US,2014,Jeep,Cherokee 24L First Drive Review Might Encourage That Road Trip Page 2,Wagon,4,5,Petrol,I4,2.4,NA,Front,4WD,184,137.2,171 lb-ft,3700,9,9.32,,,16.8,,120,193.1,,,,,,,,,,,Car & Driver
+34392cc91d7975ad,US,2014,Jeep,Cherokee 24L,Wagon,4,5,Petrol,I4,2.4,NA,Front,4WD,184,137.2,171 lb-ft,3700,9,9.32,,,16.8,,120,193.1,,,,,,,,,,,Car & Driver
 041e4e83b40ccb4d,US,1987,Jeep,Cherokee 2WD,,,,Petrol,I4,2.5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 b1eb2dd6c7be71de,US,1988,Jeep,Cherokee 2WD,,,,Petrol,I4,2.5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 2b4ff7f2b40bb2bd,US,1989,Jeep,Cherokee 2WD,,,,Petrol,I4,2.5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -30568,7 +30499,6 @@ f60415af4619df19,US,2025,Jeep,Grand Cherokee L 2WD,SUV,4,5,Petrol,V6,3.6,NA,Fron
 659e1e411c6d9b2f,US,2023,Jeep,Grand Cherokee L 4WD,SUV,4,5,Petrol,V6,3.6,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 2aeef7d017f967f2,US,2024,Jeep,Grand Cherokee L 4WD,SUV,4,5,Petrol,V6,3.6,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 913a553921faa9db,US,2025,Jeep,Grand Cherokee L 4WD,SUV,4,5,Petrol,V6,3.6,NA,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-a473cd2a363a36fd,US,2011,Jeep,Grand Cherokee Review Lets Discuss The On Road Stuff Page 2,Wagon,4,5,,,3.6,,Front,4WD,,,260 lb-ft,,7,7.25,,,15.5,,,,,,,,,,,,,,Car & Driver
 ecc723d6627aa8b6,US,2017,Jeep,Grand Cherokee SRT 4WD,SUV,4,5,Petrol,V8,6.4,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 c478945f93e51f70,US,2018,Jeep,Grand Cherokee SRT 4WD,SUV,4,5,Petrol,V8,6.4,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 57d9256118b2d2e5,US,2019,Jeep,Grand Cherokee SRT 4WD,SUV,4,5,Petrol,V8,6.4,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -30586,7 +30516,6 @@ a67fd40e7d69655f,US,2015,Jeep,Grand Cherokee SRT8 4WD,SUV,4,5,Petrol,V8,6.4,TC,F
 077ecb818a2f1232,US,2014,Jeep,Grand Cherokee Srt,Wagon,4,5,,V8,6.4,NA,Front,4WD,470,350.5,465 lb-ft,5250,4.6,4.77,11.9,,13.3,105,160,257.5,162,,0.88,,,,,,,,Car & Driver
 f39d877413f5ad3c,US,2016,Jeep,Grand Cherokee Srt,Hatchback,4,5,,V8,,NA,Front,4WD,475,354.2,470 lb-ft,5300,4.6,4.77,11.9,,13.2,105,,,162,,0.88,,,,,,,,Car & Driver
 f09e4908d8839c70,US,2017,Jeep,Grand Cherokee Srt,Hatchback,4,5,,V8,,NA,Front,AWD,475,354.2,470 lb-ft,5291,4.4,4.56,11.4,,13,106,,,168,,0.87,,,,,,,,Car & Driver
-48767a87eae915fc,US,2014,Jeep,Grand Cherokee Srt First Drive Review Plenty Of Horsepower Page 2,Wagon,4,5,,V8,6.4,NA,Front,4WD,470,350.5,465 lb-ft,5250,4.6,4.77,,,13.3,,160,257.5,,,,,,,,,,,Car & Driver
 3ba4e374cf396108,US,2022,Jeep,Grand Cherokee Summit V6,Wagon,4,5,Petrol,,,,Front,4WD,293,218.5,260 lb-ft,4863,7.4,7.67,21.4,,15.6,87,,,163,,0.85,,,,,,,,Car & Driver
 1429868c2ded75c0,US,2018,Jeep,Grand Cherokee TrackHawk 4WD,SUV,4,5,Petrol,V8,6.2,SC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 701af620268ed7b2,US,2018,Jeep,Grand Cherokee Trackhawk,Hatchback,4,5,,V8,6.2,SC,Front,AWD,707,527.2,645 lb-ft,5258,3.5,3.63,8.8,,12,115,180,289.7,168,,0.89,,,,,,,186.9,"Car & Driver, Car & Driver - Lightning Lap"
@@ -30598,7 +30527,6 @@ f09e4908d8839c70,US,2017,Jeep,Grand Cherokee Srt,Hatchback,4,5,,V8,,NA,Front,AWD
 18abf950c48d5a92,US,2016,Jeep,Grand Cherokee V 6,Hatchback,4,5,,V6,,NA,Front,4WD,295,220,260 lb-ft,4985,7.1,7.36,19.5,,15.4,90,,,181,,0.76,,,,,,,,Car & Driver
 13e0f79011ce6336,US,2014,Jeep,Grand Cherokee V 6 4X4 8At,,,,,,3.6,,,,290,216.3,260 lb-ft,4987,7.5,7.77,20,,15.7,90,,,191,,0.73,,,,,,,,Car & Driver
 b2ff2d63d8c39d66,US,2014,Jeep,Grand Cherokee V 6 V 8,Wagon,4,5,,,,,Front,4WD,,,,4700,,,,,,,118,189.9,,,,,,,,,,,Car & Driver
-96eb790aaee5cf29,US,2014,Jeep,Grand Cherokee V 6 V 8 First Drive Review Refreshgetcher Refresh Right Here Page 2,Wagon,4,5,,,,,Front,4WD,,,,4700,,,,,,,118,189.9,,,,,,,,,,,Car & Driver
 9f0f397813e6da9b,US,2011,Jeep,"Grand Cherokee V6 Laredo 4X4 40,000-Mile",Wagon,4,5,Petrol,V6,3.6,NA,Front,4WD,290,216.3,260 lb-ft,5005,8.2,8.5,23.1,,16.4,87,,,177,,0.74,,,,,,,,Car & Driver
 29b6b1f2c02a8799,US,2022,Jeep,Grand Cherokee WK 2WD,SUV,4,5,Petrol,V6,3.6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 b847d8c4e516c062,US,2022,Jeep,Grand Cherokee WK 4WD,SUV,4,5,Petrol,V6,3.6,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -30752,7 +30680,6 @@ ae38405d9b78a87c,US,2019,Jeep,Renegade 4WD,SUV,4,5,Petrol,I4,2.4,TC,Front,AWD,,,
 b48227a9e6cf6b89,US,2022,Jeep,Renegade 4WD,SUV,4,5,Petrol,I4,1.3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6e5ad418e0c87da2,US,2023,Jeep,Renegade 4WD,SUV,4,5,Petrol,I4,1.3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 41fc6cfcc535bc24,US,2017,Jeep,Renegade Deserthawk 4X4,Hatchback,4,5,Petrol,I4,,NA,Front,4WD,180,134.2,175 lb-ft,3661,10.3,10.67,36.2,,17.9,78,,,195,,0.72,,,,,,,,Car & Driver
-39da7e350b6ef8cf,US,2015,Jeep,Renegade First Drive Review Why Not Just One Eight Wheel Drive System Page 2,Hatchback,4,5,,,,,Front,4WD,,,,3050,8.7,9.01,,,16.5,,110,177.0,,,,,,,,,,,Car & Driver
 91d760fe3a4d8a2f,US,2015,Jeep,Renegade Limited 4x4,Hatchback,4,5,Petrol,I4,2.4,NA,Front,4WD,180,134.2,175 lb-ft,3454,8.8,9.12,32.2,,16.8,81,,,166,,0.78,,,,,,,,Car & Driver
 abf397483dcdfeeb,US,2015,Jeep,Renegade Sport 4x4 1.4T Manual,Hatchback,4,5,Petrol,I4,1.4,TC,Front,4WD,160,119.3,184 lb-ft,3179,8.7,9.01,26.6,,16.4,83,,,158,,0.79,,,,,,,,Car & Driver
 574b21a4b5eba774,US,2015,Jeep,Renegade Trailhawk,Hatchback,4,5,Petrol,I4,2.4,NA,Front,4WD,180,134.2,175 lb-ft,3581,9.2,9.53,33.4,,17.2,80,,,190,,0.74,,,,,,,,Car & Driver
@@ -31305,7 +31232,6 @@ eaca7b207eee3f67,KR,2014,Kia,Forte Koup SX Turbo,Coupe,2,4,Petrol,I4,1.6,TC,Fron
 60910c81fc19ac20,KR,2017,Kia,Forte S,Sedan,4,5,Petrol,I4,,NA,Front,FWD,147,109.6,132 lb-ft,2881,8.7,9.01,23.9,,16.8,86,,,181,,0.82,,,,,,,,Car & Driver
 2b060c3e69a45ca1,KR,2014,Kia,Forte Sedan,Sedan,4,5,,,,,Front,FWD,,,,2950,7.3,7.56,,,15.9,,130,209.2,,,,,,,,,,,Car & Driver
 e87154ba8c34ecdd,KR,2014,Kia,Forte Sedan 2.0L Automatic,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,173,129,154 lb-ft,2968,7.4,7.67,20.6,,15.8,89,,,166,,0.84,,,,,,,,Car & Driver
-a78a58754865aaad,KR,2014,Kia,Forte Sedan First Drive Review Arizo Highways Page 2,Sedan,4,5,,,,,Front,FWD,,,,2950,7.3,7.56,,,15.9,,130,209.2,,,,,,,,,,,Car & Driver
 99463ec08f4bdf77,KR,2019,Kia,Forte Sedan Style Value,Sedan,4,5,Petrol,I4,,NA,Front,FWD,147,109.6,132 lb-ft,2897,8.1,8.39,22.3,,16.4,87,,,173,,0.88,,,,,,,,Car & Driver
 5cdc26efd8478699,KR,2014,Kia,Forte5 SX Turbo Automatic,Wagon,4,5,Petrol,I4,1.6,TC,Front,FWD,201,149.9,195 lb-ft,3087,6.4,6.63,17.6,,14.9,93,,,170,,0.85,,,,,,,,Car & Driver
 160d3996f8c371a3,KR,2017,Kia,Forte5 Sx Turbo Dct Automatic,Hatchback,4,5,Petrol,I4,,TC,Front,FWD,201,149.9,195 lb-ft,3076,6.7,6.94,17.9,,15.3,93,,,176,,0.85,,,,,,,,Car & Driver
@@ -31357,7 +31283,7 @@ e302cbb51b92364f,KR,2018,Kia,K900 5.0 AT AWD,Sedan,4,5,Petrol,V8,5,NA,Front,AWD,
 a6a89d696079dab9,KR,2019,Kia,"K900 First Drive: New Car, Same Great Value",Sedan,4,5,,V6,3.3,TC,Front,AWD,365,272.2,376 lb-ft,4800,5.3,5.49,14,,14,,150,241.4,,,,,,,,,,,Car & Driver
 df2d7f8a1eb40893,KR,2016,Kia,K900 V 6,Sedan,4,5,,V6,,NA,Front,RWD,311,231.9,293 lb-ft,4455,6.2,6.42,15,,14.6,98,149,239.8,166,,0.84,,,,,,,,Car & Driver
 3706a2a3ee0729e7,KR,2015,Kia,K900 V 8,Sedan,4,5,,V8,5,NA,Front,RWD,420,313.2,376 lb-ft,4670,5.5,5.7,12.9,,13.9,104,,,179,,0.8,,,,,,,,Car & Driver
-5cf6ab664e1053a4,KR,2015,Kia,K900 V 8 Sedan First Drive Review Capable But Not Involving Page 2,Sedan,4,5,,V8,5,NA,Front,4WD,420,313.2,376 lb-ft,4550,5.5,5.7,13.2,,14.1,,150,241.4,,,,,,,,,,,Car & Driver
+5cf6ab664e1053a4,KR,2015,Kia,K900 V 8 Sedan,Sedan,4,5,,V8,5,NA,Front,4WD,420,313.2,376 lb-ft,4550,5.5,5.7,13.2,,14.1,,150,241.4,,,,,,,,,,,Car & Driver
 d799dbe85cf52e4d,KR,2015,Kia,K900 V-8 Sedan,Sedan,4,5,,V8,5,NA,Front,4WD,420,313.2,376 lb-ft,4550,5.5,5.7,13.2,,14.1,,150,241.4,,,,,,,,,,,Car & Driver
 cd8c25a0d08ea7e3,KR,,Kia,K900/K9 2018-Present,,,,Petrol,V6,3.3,TC,Front,AWD,370,272.1,376 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
 12c2207c3c9287b1,KR,2005,Kia,Lotze 1.8 AT,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,133,99.2,125 lb-ft,3042,,,,,,,123.7,199,,,,,,,,,,,Kaggle - Car Specifications
@@ -31968,7 +31894,6 @@ ec0fffc19cbef4f6,KR,2018,Kia,Sorento FWD,SUV,4,5,Petrol,I4,2.4,TC,Front,FWD,,,,,
 0d8e6e1c1902f7d8,KR,2024,Kia,Sorento FWD,SUV,4,5,Petrol,I4,2.5,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 d3991224cbb252d4,KR,2025,Kia,Sorento FWD,SUV,4,5,Petrol,I4,2.5,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 253ddf71405c1e86,KR,2026,Kia,Sorento FWD,SUV,4,5,Petrol,I4,2.5,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-9e23aec0e34cb861,KR,2014,Kia,Sorento First Drive Review The Inside Job Page 2,Wagon,4,5,,,,,Front,AWD,,,,3650,6.8,7.04,,,15.1,,120,193.1,,,,,,,,,,,Car & Driver
 7f3fb81476b06ed5,KR,2021,Kia,Sorento Hybrid,SUV,4,5,Petrol,I4,1.6,TC,Front,FWD,227,169.3,,4095,7.2,7.46,19,,15.6,92,,,181,,0.81,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 822aa6ac518ba23f,KR,2022,Kia,Sorento Hybrid AWD,SUV,4,5,Petrol,I4,1.6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 2000c38710557ec6,KR,2023,Kia,Sorento Hybrid AWD,SUV,4,5,Petrol,I4,1.6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -32058,7 +31983,6 @@ d2011d864eddeac1,KR,2018,Kia,Soul Electric,Wagon,4,5,Electric,,,,,FWD,,,,,,,,,,,
 e3b2d4171265a3d8,KR,2020,Kia,Soul Electric,Wagon,4,5,Electric,,,,,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 f17a8184ac3cd1d7,KR,2020,Kia,Soul Ev,Hatchback,4,5,Electric,,,,Front,FWD,,,,3750,7,7.25,18.2,,15.6,,105,169.0,,,,,,,,,,,Car & Driver
 c98bace14203f05f,KR,2020,Kia,Soul First,Hatchback,4,5,Petrol,I4,2,NA,Front,FWD,147,109.6,132 lb-ft,2965,8,8.29,24.7,,16.4,86,,,161,,0.91,,,,,,,,Car & Driver
-521559dd6f2bdb7a,KR,2014,Kia,Soul First Drive Review Characterized By Its Ordiriness Page 2,Wagon,4,5,,,,,Front,FWD,,,,2750,7.2,7.46,,,16,,110,177.0,,,,,,,,,,,Car & Driver
 af196296e17de63f,KR,2017,Kia,Soul Reliability Maintence,Hatchback,4,5,Petrol,I4,,TC,Front,FWD,201,149.9,195 lb-ft,3205,6.3,6.53,17.6,,15,93,,,177,,0.84,,,,,,,,Car & Driver
 027002786276ce42,KR,2010,Kia,Soul Sport,Wagon,4,5,,,2,,Front,FWD,,,137 lb-ft,2940,7.9,8.18,26.9,,16.4,84,,,173,,0.8,,,,,,,,Car & Driver
 9ed515f91072fdcc,KR,2017,Kia,Soul Turbo,Hatchback,4,5,Petrol,I4,,TC,Front,FWD,201,149.9,195 lb-ft,3202,6.5,6.73,18.2,,15.1,93,125,201.2,169,,0.81,,,,,,,,Car & Driver
@@ -32434,7 +32358,6 @@ a3d134d46ef757eb,IT,2021,Lamborghini,Aventador Coupe,Coupe,2,2,Petrol,V12,6.5,NA
 76d2e98ee94227a9,IT,2012,Lamborghini,Aventador LP700-4,,,2,,,,,Mid,,,,,,,,,,,,,,,,,,445,2012,Horst von Saurma,76.5,"Series 17, Episode 06",,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times"
 f7779e2e4fd79a66,IT,2013,Lamborghini,Aventador LP700-4 Roadster,Targa,2,2,,V12,6.5,NA,Mid,4WD,691,515.3,509 lb-ft,4200,3,3.11,6.4,,10.9,,217,349.2,,,,,,,,,,,Car & Driver
 53e1765dfaddc084,IT,,Lamborghini,Aventador LP700-4 Roadster 2012-Present,,,2,Petrol,V12,6.5,NA,Mid,AWD,700,515,509 lb-ft,3583,3,3,,,,,217,349,,,,,,,,,,,Autoevolution
-f163eec782083ef8,IT,2013,Lamborghini,Aventador LP700-4 Roadster First Drive Review Heightened Efficiency Page 2,Targa,2,2,,V12,6.5,NA,Mid,4WD,691,515.3,509 lb-ft,4200,3,3.11,6.4,,10.9,,217,349.2,,,,,,,,,,,Car & Driver
 6fe5af6d4bf4a305,IT,2022,Lamborghini,Aventador LP708-4 Ultimae,Coupe,2,2,,,,,Mid,AWD,769,573.4,531 lb-ft,3800,2.7,2.8,5.9,,10.5,,221,355.7,,,,,,,,,,,Car & Driver
 bac7505b36c89e81,IT,2015,Lamborghini,Aventador LP750-4 SV,,,2,Petrol,V12,6.5,NA,Mid,AWD,751,552,509 lb-ft,3362,2.8,2.8,,,,,217,349,,,,,,,,,,,Autoevolution
 1b021efe8a9e1782,IT,2016,Lamborghini,Aventador LP750-4 SV,Coupe,2,2,,V12,6.5,NA,Mid,4WD,740,551.8,509 lb-ft,4000,2.7,2.8,6.2,,10.7,,220,354.1,,,,,,,,,,,Car & Driver
@@ -32590,8 +32513,7 @@ c68f2645359ec147,IT,2022,Lamborghini,Huracan Coupe RWD,Coupe,2,2,Petrol,V10,5.2,
 577165c612d01a17,IT,2014,Lamborghini,Huracan LP580-2,Coupe,2,2,Petrol,V10,5.2,NA,Mid,RWD,580,432.5,398 lb-ft,3327,3.28,3.4,,,,,74.6,120,,,,,,,,,,,Kaggle - Car Specifications
 80eaa28d1653ce31,IT,2016,Lamborghini,Huracan LP580-2,Coupe,2,2,,V10,5.2,NA,Mid,RWD,572,426.5,398 lb-ft,3350,2.9,3.0,6.4,,10.8,,199,320.3,,,,,,,,,,,Car & Driver
 aff496e985e4c2ad,IT,2014,Lamborghini,Huracan LP610-4,Coupe,2,2,Petrol,V10,5.2,NA,Mid,AWD,610,454.9,413 lb-ft,3135,3.09,3.2,,,,,201.9,325,,,,,,,,,,,Kaggle - Car Specifications
-e967cc00ced2bdb6,IT,2015,Lamborghini,Huracan LP610-4,Coupe,2,2,,V10,5.2,NA,Mid,4WD,602,448.9,413 lb-ft,3423,2.5,2.59,5.7,,10.4,135,,,144,,1.01,,,,,,,,Car & Driver
-57867f65fa543226,IT,2015,Lamborghini,Huracan LP610-4 First Drive Review Best Vehicle Lamborghini Has Ever Built Page 2,Coupe,2,2,,V10,5.2,NA,Mid,4WD,602,448.9,413 lb-ft,3400,2.9,3.0,6.7,,10.9,,202,325.1,,,,,,,,,,,Car & Driver
+e967cc00ced2bdb6,IT,2015,Lamborghini,Huracan LP610-4,Coupe,2,2,,V10,5.2,NA,Mid,4WD,602,448.9,413 lb-ft,3423,2.5,2.59,5.7,,10.4,135,202,325.1,144,,1.01,,,,,,,,Car & Driver
 5afa7e068c12d013,IT,2016,Lamborghini,Huracan LP610-4 Spyder,Convertible,2,2,,V10,5.2,NA,Mid,4WD,602,448.9,413 lb-ft,3650,2.8,2.9,5.9,,10.6,,201,323.5,,,,,,,,,,,Car & Driver
 0e339dd0fcf9a40a,IT,2014,Lamborghini,Huracan LP640-4 PERFORMANTE,Coupe,2,2,Petrol,V10,5.2,NA,Mid,4WD,640,477.2,443 lb-ft,3047,2.8,2.9,,,,,201.9,325,,,,,,,,,,,Kaggle - Car Specifications
 377d0bd9291451bc,IT,2018,Lamborghini,Huracan Performante,Coupe,2,2,,V10,5.2,NA,Mid,AWD,631,470.5,443 lb-ft,3350,2.4,2.49,5.6,,10.2,136,202,325.1,135,,1.11,,,,,,,,Car & Driver
@@ -33162,7 +33084,7 @@ faa63997fb060463,GB,2009,Land Rover,Range Rover,SUV,4,5,Petrol,V8,4.2,SC,Front,A
 7075d5c348c15e8b,GB,2010,Land Rover,Range Rover,SUV,4,5,Petrol,V8,5,SC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 04f81a0bd45d99f0,GB,2011,Land Rover,Range Rover,SUV,4,5,Petrol,V8,5,SC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 1a23019d672a7652,GB,2012,Land Rover,Range Rover,SUV,4,5,Petrol,V8,5,SC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-77a18da4ef9aa63a,GB,2013,Land Rover,Range Rover,SUV,4,5,Petrol,V6,3,SC,Front,AWD,340,250,332 lb-ft,4727,7.2,7.2,,,,,130,209,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
+77a18da4ef9aa63a,GB,2013,Land Rover,Range Rover,SUV,4,5,Petrol,V6,3,SC,Front,AWD,340,250,332 lb-ft,4727,7.2,7.2,,,11.9,,130,209,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy, Car & Driver"
 ac0e928caebaa572,GB,2014,Land Rover,Range Rover,SUV,4,5,Petrol,V6,3,SC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 7aab0e60b3b3c0cf,GB,2015,Land Rover,Range Rover,SUV,4,5,Petrol,V6,3,SC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 5798748e82ac6df8,GB,2016,Land Rover,Range Rover,SUV,4,5,Petrol,V8,5,SC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -33271,7 +33193,6 @@ d0f5b7bdab327640,GB,2018,Land Rover,Range Rover Evoque P250 AT AWD,Crossover,4,5
 49e1f4d3b323aef1,GB,2018,Land Rover,Range Rover Evoque P300 AT AWD,Crossover,4,5,Petrol,I4,2,TC,Front,AWD,300,223.7,295 lb-ft,4244,6.37,6.6,,,,,150.4,242,,,,,,,,,,,Kaggle - Car Specifications
 c9f014e5d11c3f00,GB,2014,Land Rover,Range Rover FFV,SUV,4,5,Petrol,V8,5,SC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ce1d650c410b7e3b,GB,2015,Land Rover,Range Rover FFV,SUV,4,5,Petrol,V8,5,SC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-bb34b452268c8b0e,GB,2013,Land Rover,Range Rover First Drive Review Worlds Best Page 2,Wagon,4,5,,V8,,SC,Front,4WD,,,,5000,4.4,4.56,,,11.9,,130,209.2,,,,,,,,,,,Car & Driver
 7d8345c987b4d4d9,GB,2022,Land Rover,Range Rover First Edition,Wagon,4,5,,,,,Front,4WD,523,390,553 lb-ft,5982,4.3,4.45,10.6,,12.8,109,,,185,373,0.73,,,,,,,,Car & Driver
 713e97241251a3ee,GB,2010,Land Rover,Range Rover Hse,Wagon,4,5,,,5,,Front,4WD,,,375 lb-ft,5835,6.4,6.63,16.5,,14.9,95,,,167,,0.65,,,,,,,,Car & Driver
 b0b6780b4c6680ae,GB,,Land Rover,Range Rover L 2014-Present,,,,Petrol,V8,5,NA,Front,AWD,510,375,461 lb-ft,5320,5.8,5.8,,,,,140,225,,,,,,,,,,,Autoevolution
@@ -33582,7 +33503,6 @@ b47cd28e51ac0a76,JP,2021,Lexus,Es250 Awd F Sport,Sedan,4,5,Petrol,I4,,NA,Front,A
 49a3e031be6d271f,JP,2019,Lexus,Es300H Hybrid,Sedan,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,3821,8.3,8.6,20.2,,16.3,90,,,189,,0.81,,,,,,,,Car & Driver
 1634ad5982b3a839,JP,2019,Lexus,Es350,Sedan,4,5,Petrol,V6,3.5,NA,Front,FWD,302,225.2,267 lb-ft,3772,6.1,6.32,14.9,,14.7,99,,,191,,0.8,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 1085ba94ac547771,JP,2007,Lexus,Es350 And Gs450H,Sedan,4,5,,V6,3.5,NA,Front,FWD,,,,3600,6.8,7.04,,,15,,,,,,,,,,,,,,Car & Driver
-a8a90f87e2e2da5c,JP,2013,Lexus,Es350 First Drive Review A Rolling Wallflower Page 2,Sedan,4,5,,,3.5,,Front,FWD,268,199.8,248 lb-ft,3600,5.9,6.11,,,14.4,,,,,,,,,,,,,,Car & Driver
 94f99f19090476ae,JP,2016,Lexus,GS 200t,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 679bdaae0d025268,JP,2015,Lexus,GS 200t AT,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,245,182.7,258 lb-ft,3671,7.05,7.3,,,,,142.9,230,,,,,,,,,,,Kaggle - Car Specifications
 939be2a315f60a14,JP,2016,Lexus,GS 200t F Sport,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -33711,8 +33631,7 @@ c4d4cf43680120a5,JP,2009,Lexus,GX 470,SUV,4,5,Petrol,V8,4.7,NA,Front,AWD,,,,,,,,
 4d3d595717e1adec,JP,2025,Lexus,GX 550,SUV,4,5,Petrol,V6,3.4,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 3230af66d1088632,JP,2016,Lexus,GX460,Hatchback,4,5,Petrol,V8,4.6,NA,Front,4WD,301,224.5,329 lb-ft,5240,7,7.25,20,,15.5,91,,,189,,0.74,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 cf2baf291ff16c1a,JP,2017,Lexus,Gs200T,Sedan,4,5,Petrol,I4,2,TC,Front,RWD,241,179.7,258 lb-ft,3869,6.6,6.84,16.7,,14.9,95,,,173,,0.86,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-985269d62426365b,JP,2006,Lexus,Gs300,Sedan,4,5,,V6,,NA,Front,4WD,,,230 lb-ft,3550,6.8,7.04,,,15.4,,,,,,,,,,,,,,Car & Driver
-53fddc4fb59a9995,JP,2006,Lexus,Gs300 Road Test Review Creamy Competent And Quiet Page 2,Sedan,4,5,,V6,3,NA,Front,4WD,,,230 lb-ft,3550,6.8,7.04,,,15.4,,,,,,,,,,,,,,Car & Driver
+985269d62426365b,JP,2006,Lexus,Gs300,Sedan,4,5,,V6,3,NA,Front,4WD,,,230 lb-ft,3550,6.8,7.04,,,15.4,,,,,,,,,,,,,,Car & Driver
 98d6984025125a0b,JP,2013,Lexus,Gs350 Awd Gs350 F Sport,Sedan,4,5,,V6,3.5,NA,Front,4WD,306,228.2,277 lb-ft,,5.6,5.8,14.5,,14.3,99,,,165,,0.87,,,,,,,,Car & Driver
 96e52cde7a1c2ba9,JP,2016,Lexus,Gs350 F Sport,Sedan,4,5,Petrol,V6,3.5,NA,Front,RWD,311,231.9,280 lb-ft,3877,5.8,6.01,14.2,,14.3,101,,,159,,0.85,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 fe4b5e4c11c05c66,JP,2010,Lexus,Gx460,Wagon,4,5,Petrol,V8,4.6,NA,Front,4WD,,,329 lb-ft,5246,6.9,7.15,20,,15.4,91,,,176,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
@@ -34148,7 +34067,7 @@ d2e48907d255b41e,JP,2017,Lexus,NX200t / NX300h Hybrid,Hatchback,4,5,Electric/Pet
 02cce1eeec01972f,JP,2015,Lexus,NX200t F Sport AWD,Hatchback,4,5,Petrol,I4,2,TC,Front,AWD,235,175.2,258 lb-ft,4021,6.9,7.15,18,,15.3,92,,,167,,0.79,,,,,,,,Car & Driver
 a30c9a976d651563,JP,2015,Lexus,"NX200t, NX200t F Sport, and NX300h",Wagon,4,5,,,,,Front,4WD,,,,3950,7,7.25,24,,15.7,,112,180.2,,,,,,,,,,,Car & Driver
 6209b238c2a2f445,JP,2015,Lexus,NX300h Hybrid FWD,Wagon,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,4008,8.3,8.6,22.5,,16.5,87,,,171,,0.77,,,,,,,,Car & Driver
-90d5df0af61d264e,JP,2015,Lexus,Nx200T Nx200T F Sport And Nx300H First Drive Review F Sporty Page 2 1,Wagon,4,5,,,,,Front,4WD,,,,3950,7,7.25,24,,15.7,,112,180.2,,,,,,,,,,,Car & Driver
+90d5df0af61d264e,JP,2015,Lexus,Nx200T Nx200T F Sport And Nx300H,Wagon,4,5,,,,,Front,4WD,,,,3950,7,7.25,24,,15.7,,112,180.2,,,,,,,,,,,Car & Driver
 05c19e102774c692,JP,2020,Lexus,Nx300H,Wagon,4,5,Electric/Petrol,I4,,NA,Front,AWD,,,,4213,8.1,8.39,23.9,,16.3,85,,,178,,0.81,,,,,,,,Car & Driver
 4ce41a55346b9a0d,JP,2016,Lexus,Nx300H Hybrid Awd,Hatchback,4,5,Electric/Petrol,I4,,NA,Front,4WD,,,,4175,8.8,9.12,25.8,,16.8,84,,,183,,0.77,,,,,,,,Car & Driver
 34584c62a005df7c,JP,2022,Lexus,Nx350,Wagon,4,5,,,,,Front,AWD,275,205.1,317 lb-ft,3987,6.6,6.84,16.5,,15,95,,,175,,0.81,,,,,,,,Car & Driver
@@ -34366,7 +34285,6 @@ def4bdef174e3b3d,JP,,Lexus,RZ 450e 2022-Present,,,,Electric,,,,,AWD,,,,,5.6,5.6,
 baafc3a91e9c7ce7,JP,2023,Lexus,RZ 450e AWD (18 inch Wheels),SUV,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 d5ed27407e62310a,JP,2024,Lexus,RZ 450e AWD (18 inch wheels),SUV,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 e65ec0de580d1f23,JP,2025,Lexus,RZ 450e AWD (18 inch wheels),SUV,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-04f63a2c6eab0ad2,JP,2015,Lexus,Rc F First Drive Review Embracing The Inner Howitzer Page 2,Coupe,2,4,,V8,5,NA,Front,RWD,467,348.2,389 lb-ft,4000,4.4,4.56,10,,12.9,,170,273.6,,,,,,,,,,,Car & Driver
 bad6e216bbad7da5,JP,2021,Lexus,Rc F Fuji Special Edition,Coupe,2,4,,,,,Front,RWD,472,352,395 lb-ft,3839,4,4.14,9.5,,12.4,115,,,162,320,0.94,,,,,,,,Car & Driver
 8fbc16d5e0969d65,JP,2017,Lexus,Rc Turbo Rc200T,Coupe,2,4,Petrol,I4,,TC,Front,RWD,241,179.7,258 lb-ft,3796,6.7,6.94,16.3,,15.1,96,,,171,,0.88,,,,,,,,Car & Driver
 5207f1fa9842564e,JP,2016,Lexus,Rc200T F Sport,Coupe,2,4,Petrol,I4,,TC,Front,RWD,241,179.7,258 lb-ft,3838,6.7,6.94,16.9,,15.1,95,,,165,,0.89,,,,,,,,Car & Driver
@@ -34964,7 +34882,7 @@ eaf741a6a59b19c4,GB,1962,Lotus,Elan Roadster,,,2,Petrol,I4,1.5,NA,Front,RWD,102,
 d6200daa3ea7fcca,GB,1989,Lotus,Elan Roadster,,,2,Petrol,I4,1.6,NA,Front,FWD,167,122.8,148 lb-ft,2198,7.2,7.2,,,,,137,220,,,,,,,,,,,Autoevolution
 11a27c2893621568,GB,,Lotus,Eletre 2022-Present,,,,,,,,,AWD,,,,,3,3,,,,,,,,,,,,,,,,,Autoevolution
 27a4e69ec4118764,GB,2024,Lotus,Eletre Drive,Wagon,4,5,Electric,Electric,,,Rear,AWD,,,,5500,2.7,2.8,6.3,,10.3,,160,257.5,,,,,,,,,,,Car & Driver
-60d84fe236182437,GB,2005,Lotus,Elise,,,2,,,,,Mid,,,,133 lb-ft,2000,4.9,5.08,12.6,,,,,,,,,,,,,94.9,"Series 01, Episode 07",,"Car & Driver, Wikipedia - List of Top Gear test track Power Lap times"
+60d84fe236182437,GB,2005,Lotus,Elise,,,2,,,1.8,,Mid,,,,133 lb-ft,2000,4.9,5.08,12.6,,,,,,,,,,,,,94.9,"Series 01, Episode 07",,"Car & Driver, Wikipedia - List of Top Gear test track Power Lap times"
 71407543a468d736,GB,2006,Lotus,Elise,,,2,,,,,Mid,,,,,,,,,,,,,,,,,,,,,94.9,"Series 01, Episode 07",189.2,"Car & Driver - Lightning Lap, Wikipedia - List of Top Gear test track Power Lap times"
 fc566922419fb917,GB,2010,Lotus,Elise 1.6 CR MT,Roadster,2,2,Petrol,I4,1.6,NA,Mid,RWD,136,101.4,118 lb-ft,1878,6.28,6.5,,,,,126.8,204,,,,,,,,,,,Kaggle - Car Specifications
 3654561627774770,GB,2010,Lotus,Elise 1.6 CR SPS,Roadster,2,2,Petrol,I4,1.6,NA,Mid,RWD,136,101.4,118 lb-ft,1878,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
@@ -34972,7 +34890,6 @@ fc566922419fb917,GB,2010,Lotus,Elise 1.6 CR MT,Roadster,2,2,Petrol,I4,1.6,NA,Mid
 ce30ca61071b71c4,GB,2010,Lotus,Elise 1.6 SPS,Roadster,2,2,Petrol,I4,1.6,NA,Mid,RWD,136,101.4,118 lb-ft,1931,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 605cc5d2e075f4d7,GB,2004,Lotus,Elise 1.8 MT,Roadster,2,2,Petrol,I4,1.8,NA,Mid,RWD,192,143.2,133 lb-ft,1896,4.83,5,,,,,137.9,222,,,,,,,,,,,Kaggle - Car Specifications
 e7bccf0b44de6f9a,GB,2004,Lotus,Elise 1.8 S MT,Roadster,2,2,Petrol,I4,1.8,TC,Mid,RWD,220,164.1,184 lb-ft,,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
-598d69789553c2d3,GB,2005,Lotus,Elise Road Test Review The Upgrades Page 2,,,2,,,1.8,,Mid,,,,133 lb-ft,2000,4.9,5.08,12.6,,,,,,,,,,,,,,,,Car & Driver
 cad0f85a5ba0848a,GB,2008,Lotus,Elise SC,,,2,,,,,Mid,,,,,,,,,,,,,,,,,,,,,,,196.6,Car & Driver - Lightning Lap
 d53280e77bc08969,GB,2008,Lotus,Elise Sc Short Take Road,Targa,2,2,Petrol,I4,,SC,Mid,RWD,218,162.6,156 lb-ft,2043,4.5,4.66,12,,,,,,157,,0.97,,,,,,,,Car & Driver
 49b86355f93680eb,GB,2007,Lotus,Elise Short Take Road,Targa,2,2,Petrol,I4,,NA,Mid,RWD,,,,1975,4.8,4.97,13.1,,13.6,102,,,162,,1,,,,,,,,Car & Driver
@@ -35643,7 +35560,6 @@ d6b0ff9c42d65671,IT,2020,Maserati,Ghibli,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,
 d31955437ce4338c,IT,2017,Maserati,Ghibli 3.0 V6 AT,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,350,261,369 lb-ft,3990,5.31,5.5,,,,,165.9,267,,,,,,,,,,,Kaggle - Car Specifications
 2fbbc5a53744409f,IT,2013,Maserati,Ghibli Diesel 3.0 V6 AT,Sedan,4,5,Diesel,V6,3,TC,Front,RWD,250,186.4,420 lb-ft,4045,6.47,6.7,,,,,149.1,240,,,,,,,,,,,Kaggle - Car Specifications
 8477b3e44f976014,IT,2017,Maserati,Ghibli Diesel 3.0 V6 AT,Sedan,4,5,Diesel,V6,3,TC,Front,RWD,250,186.4,420 lb-ft,4045,6.47,6.7,,,,,149.1,240,,,,,,,,,,,Kaggle - Car Specifications
-e1cd94333581195c,IT,2014,Maserati,Ghibli First Drive Review The Ghibli Offers Plenty Page 2,,,,,,,,,,,,,4000,4.5,4.66,11.2,,13.3,,163,262.3,,,,,,,,,,,Car & Driver
 25753bea5dcb3a20,IT,2022,Maserati,Ghibli GT,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 8154a50627669d9a,IT,2023,Maserati,Ghibli GT,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 26cba57b7d74c467,IT,2024,Maserati,Ghibli GT,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -35741,8 +35657,7 @@ bd7367b6e8cf1152,IT,2023,Maserati,Granturismo Folgore,Coupe,2,4,Electric,Electri
 306df33f03701ab7,IT,2013,Maserati,Granturismo Mc Convertible,Convertible,2,4,,V8,,NA,Front,RWD,454,338.5,383 lb-ft,4200,4.6,4.77,,,12.9,,179,288.1,,,,,,,,,,,Car & Driver
 41929612e871ad24,IT,2025,Maserati,Granturismo Mode,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 947cf98e46389ad3,IT,2008,Maserati,Granturismo Road,Coupe,2,4,,,,,Front,RWD,405,302,340 lb-ft,4374,4.9,5.08,12,,13.5,105,,,157,,0.96,,,,,,,,Car & Driver
-531d2dc248fbeeed,IT,2013,Maserati,Granturismo Sport Coupe Convertible,Coupe,2,4,,V8,,NA,Front,,454,338.5,384 lb-ft,4400,4.7,4.87,,,13.3,,177,284.9,,,,,,,,,,,Car & Driver
-afd4fc481e337f85,IT,2013,Maserati,Granturismo Sport Coupe Convertible First Drive Review A Newfound Soundtrack Page 2,Coupe,2,4,,V8,4.7,NA,Front,,453,337.8,384 lb-ft,4400,4.7,4.87,,,13.3,,177,284.9,,,,,,,,,,,Car & Driver
+531d2dc248fbeeed,IT,2013,Maserati,Granturismo Sport Coupe Convertible,Coupe,2,4,,V8,4.7,NA,Front,,454,338.5,384 lb-ft,4400,4.7,4.87,,,13.3,,177,284.9,,,,,,,,,,,Car & Driver
 5be0ebe16f3f3e40,IT,2025,Maserati,Granturismo Trofeo,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 c00832ab4b3800cb,IT,2026,Maserati,Granturismo Trofeo,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 8ec37531801d31dc,IT,2025,Maserati,Grecale,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -35834,7 +35749,6 @@ df763210543ba30d,IT,2017,Maserati,Quattroporte,Sedan,4,5,,,,,Front,4WD,,,,4500,4
 328c9efb9bf26277,IT,2003,Maserati,Quattroporte 4.2 Turbo AT,Sedan,4,5,Petrol,V8,4.2,TC,Front,RWD,400,298.3,333 lb-ft,4255,4.83,5,,,,,170.9,275,,,,,,,,,,,Kaggle - Car Specifications
 eefbdff4c7df4b85,IT,2008,Maserati,Quattroporte 4.7 AT,Sedan,4,5,Petrol,V8,4.7,NA,Front,RWD,430,320.7,361 lb-ft,4387,5.21,5.4,,,,,174,280,,,,,,,,,,,Kaggle - Car Specifications
 dd8c8f4acd50be50,IT,2012,Maserati,Quattroporte Diesel 3.0 AT,Sedan,4,5,Diesel,V6,3,TC,Front,RWD,275,205.1,443 lb-ft,4156,6.18,6.4,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
-482cdc210603409f,IT,2014,Maserati,Quattroporte First Drive Review Becoming More Like Its Foes Page 2,Sedan,4,5,,,,,Front,4WD,,,,4200,4.2,4.35,10.6,,12.7,,177,284.9,,,,,,,,,,,Car & Driver
 f81d7a6f060f1d11,IT,2022,Maserati,Quattroporte GT,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6aa7f66aff2753a4,IT,2023,Maserati,Quattroporte GT,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 31cb87ff045ef032,IT,2024,Maserati,Quattroporte GT,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -36139,7 +36053,6 @@ e56312184e8066d6,JP,2026,Mazda,3 5-Door 4WD,Sedan,4,5,Petrol,I4,2.5,TC,Front,4WD
 df9dca1d0dabd24b,JP,2013,Mazda,3 DI 4-Door,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 004a6fb623163658,JP,2012,Mazda,3 DI 5-Door,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 58bc3b83c6f2ae0e,JP,2013,Mazda,3 DI 5-Door,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-2c4f6fe8351f3a50,JP,2014,Mazda,3 First Drive Review A Fine Driving Automobile Page 2,Sedan,4,5,,,,,Front,FWD,,,,2800,6.8,7.04,,,15.4,,130,209.2,,,,,,,,,,,Car & Driver
 36b2cc59d343dcc6,JP,2006,Mazda,3 MPS / MAZDASPEED3,,,,Petrol,I4,2.3,TC,Front,FWD,260,191.2,280 lb-ft,3053.4,6.1,6.1,,,,,155,249,,,,,,,,,,,Autoevolution
 78b96c43081bbcb9,JP,2009,Mazda,3 MPS / MAZDASPEED3,,,,Petrol,I4,2.3,TC,Front,FWD,260,191,280 lb-ft,2998,6.1,6.1,,,,,155,249,,,,,,,,,,,Autoevolution
 a00e2b010970e69a,JP,2009,Mazda,3 MPS 2.3 MT,,,,Petrol,I4,2.3,TC,Front,FWD,263,196.1,280 lb-ft,3208,5.89,6.1,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
@@ -36305,8 +36218,7 @@ abe68baf89ffc790,JP,2007,Mazda,6 2.5 AT,Sedan,4,5,Petrol,I4,2.5,NA,Front,FWD,172
 8cfd1fb24346e062,JP,2012,Mazda,6 2.5 SKYACTIV-G AT,Sedan,4,5,Petrol,I4,2.5,NA,Front,FWD,186,138.7,185 lb-ft,3232,7.53,7.8,,,,,138.6,223,,,,,,,,,,,Kaggle - Car Specifications
 29b159b68e4017e3,JP,2015,Mazda,6 2.5 SKYACTIV-G AT,Sedan,4,5,Petrol,I4,2.5,NA,Front,FWD,192,143.2,189 lb-ft,3086,7.53,7.8,,,,,138.6,223,,,,,,,,,,,Kaggle - Car Specifications
 0690c9fb1a7d87ef,JP,2012,Mazda,6 2.5 SKYACTIV-G MT,Sedan,4,5,Petrol,I4,2.5,NA,Front,FWD,186,138.7,185 lb-ft,3183,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
-e3e3c4cf9b65d5c7,JP,2014,Mazda,6 25L,Sedan,4,5,Petrol,I4,,NA,Front,FWD,184,137.2,185 lb-ft,3200,7.4,7.67,,,15.6,,125,201.2,,,,,,,,,,,Car & Driver
-0a6952af8e817cdd,JP,2014,Mazda,6 25L First Drive Review Zoom Zoom Lives Page 2,Sedan,4,5,Petrol,I4,2.5,NA,Front,FWD,184,137.2,185 lb-ft,3200,7.4,7.67,,,15.6,,125,201.2,,,,,,,,,,,Car & Driver
+e3e3c4cf9b65d5c7,JP,2014,Mazda,6 25L,Sedan,4,5,Petrol,I4,2.5,NA,Front,FWD,184,137.2,185 lb-ft,3200,7.4,7.67,,,15.6,,125,201.2,,,,,,,,,,,Car & Driver
 2073f1b7194877ff,JP,2016,Mazda,6 25L Manual,Sedan,4,5,Petrol,I4,,NA,Front,FWD,184,137.2,185 lb-ft,3150,7.9,8.18,20,,16.1,,130,209.2,,,,,,,,,,,Car & Driver
 24653da77830d1db,JP,2018,Mazda,6 25T,Sedan,4,5,,,,TC,Front,FWD,250,186.4,310 lb-ft,3563,6.4,6.63,16,,14.9,97,,,184,,0.81,,,,,,,,Car & Driver
 073198b4b9d8eca2,JP,2002,Mazda,6 3.0 AT,Hatchback,4,5,Petrol,V6,3,NA,Front,FWD,223,166.3,192 lb-ft,3455,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
@@ -36321,7 +36233,6 @@ bc7a00b42e66b941,JP,2006,Mazda,6 MPS,,,,Petrol,I4,2.3,NA,Front,AWD,260,191,280 l
 3bc093c501b48a9b,JP,2005,Mazda,6 MPS 2.3 MT 4WD,,,,Petrol,I4,2.3,TC,Front,AWD,260,193.9,280 lb-ft,3505,6.37,6.6,,,,,149.1,240,,,,,,,,,,,Kaggle - Car Specifications
 03ae14a04648e4df,JP,2009,Mazda,6 S Grand Touring,Sedan,4,5,,V6,,NA,Front,FWD,,,269 lb-ft,3620,6.1,6.32,15.4,,14.7,98,,,165,,,,,,,,,,Car & Driver
 3ce8d5b9e6fe7fa0,JP,2014,Mazda,6 Sedan,Sedan,4,5,,,,,Front,FWD,,,,3200,7.6,7.87,,,15.8,,135,217.3,,,,,,,,,,,Car & Driver
-3f2697ddfe6a1c45,JP,2014,Mazda,6 Sedan First Drive Review The Purest Expression Of Mazda Page 2,Sedan,4,5,,,,,Front,FWD,,,,3200,7.6,7.87,,,15.8,,135,217.3,,,,,,,,,,,Car & Driver
 1f67243cc7566920,JP,2017,Mazda,6 Skyactiv-D 2.2 AT,Sedan,4,5,Diesel,I4,2.2,TC,Front,FWD,150,111.9,280 lb-ft,3583,10.24,10.6,,,,,127.4,205,,,,,,,,,,,Kaggle - Car Specifications
 fe577514d16be971,JP,2017,Mazda,6 Skyactiv-D 2.2 AT AWD,Wagon,4,5,Diesel,I4,2.2,TC,Front,AWD,184,137.2,328 lb-ft,3770,9.37,9.7,,,,,131.7,212,,,,,,,,,,,Kaggle - Car Specifications
 eaae5078ca1b239f,JP,2017,Mazda,6 Skyactiv-D 2.2 MT,Sedan,4,5,Diesel,I4,2.2,TC,Front,FWD,150,111.9,280 lb-ft,3547,9.66,10,,,,,131.1,211,,,,,,,,,,,Kaggle - Car Specifications
@@ -38657,7 +38568,6 @@ da8d12347a68521f,DE,2012,Mercedes-Benz,C Class C250 C350 Coupe,Coupe,2,4,Petrol,
 5ec63dc45279f917,DE,2017,Mercedes-Benz,C Class Cabriolet,Convertible,2,4,,,,,Front,4WD,,,,3950,4,4.14,9.2,,12.4,,130,209.2,,,,,,,,,,,Car & Driver
 c8881d6184e73b02,DE,2017,Mercedes-Benz,C Class Coupe,Coupe,2,4,Petrol,I4,,TC,Front,4WD,241,179.7,273 lb-ft,3600,6,6.22,15.9,,14.5,,155,249.4,,,,,,,,,,,Car & Driver
 0d63618d98d19c6a,DE,2015,Mercedes-Benz,C Class Sedan,Sedan,4,5,,,,,Front,4WD,,,,3400,5,5.18,13.7,,13.8,,130,209.2,,,,,,,,,,,Car & Driver
-3b2888c2419c7725,DE,2015,Mercedes-Benz,C Class Sedan First Drive Review Smooth Operator Page 2,Sedan,4,5,,,,,Front,4WD,,,,3400,5,5.18,13.7,,13.8,,130,209.2,,,,,,,,,,,Car & Driver
 7a5876f32ecd509a,DE,,Mercedes-Benz,C-Class (W203),,,,,,,,,,,,,,,,,,,,,,,,,,,,,103,"Series 01, Episode 04",,Wikipedia - List of Top Gear test track Power Lap times
 2031afc3c3bcb43d,DE,1982,Mercedes-Benz,C-Class 190 2.0 4MT,Sedan,4,5,Petrol,I4,2,NA,Front,RWD,105,78.3,125 lb-ft,2447,11.97,12.4,,,,,115,185,,,,,,,,,,,Kaggle - Car Specifications
 ecf2b858444633aa,DE,1988,Mercedes-Benz,C-Class 190 2.0 4MT,Sedan,4,5,Petrol,I4,2,NA,Front,RWD,105,78.3,122 lb-ft,2557,11.97,12.4,,,,,115,185,,,,,,,,,,,Kaggle - Car Specifications
@@ -39567,8 +39477,7 @@ ed633bb101a3a274,DE,2012,Mercedes-Benz,Citan 112 L2 MT,Van,4,7,Petrol,I4,1.2,TC,
 71552dd23f9343d9,DE,2027,Mercedes-Benz,Cla Class Hybrid,Sedan,4,5,Electric/Petrol,I4,,TC,Front,FWD,208,155.1,,3600,6.8,7.04,,,14.8,,130,209.2,,,,,,,,,,,Car & Driver
 3d45954c2987c88e,DE,2026,Mercedes-Benz,Cla Ev,Sedan,4,5,Electric,Electric,,,Rear,AWD,349,260.2,380 lb-ft,4600,4.7,4.87,11.6,,13.4,,130,209.2,,,,,,,,,,,Car & Driver
 da0798bf71674089,DE,2017,Mercedes-Benz,Cla250,Sedan,4,5,Petrol,I4,2,TC,Front,4WD,208,155.1,258 lb-ft,3300,6.1,6.32,16.9,,14.8,94,,,159,,0.93,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-06727b3ead651ab8,DE,2014,Mercedes-Benz,Cla250 Cla250 4Matic,Sedan,4,5,Petrol,I4,,TC,Front,4WD,208,155.1,258 lb-ft,3300,6.6,6.84,,,14.9,,149,239.8,,,,,,,,,,,Car & Driver
-c793cd2ca24ddeb0,DE,2014,Mercedes-Benz,Cla250 Cla250 4Matic First Drive Review Premium Package Is A Must Page 2,Sedan,4,5,Petrol,I4,2,TC,Front,4WD,208,155.1,258 lb-ft,3300,6.6,6.84,,,14.9,,149,239.8,,,,,,,,,,,Car & Driver
+06727b3ead651ab8,DE,2014,Mercedes-Benz,Cla250 Cla250 4Matic,Sedan,4,5,Petrol,I4,2,TC,Front,4WD,208,155.1,258 lb-ft,3300,6.6,6.84,,,14.9,,149,239.8,,,,,,,,,,,Car & Driver
 38644cc8e59ff6e4,DE,2020,Mercedes-Benz,Cla250 First,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,221,164.8,258 lb-ft,3450,6.1,6.32,16.7,,14.8,,130,209.2,,,,,,,,,,,Car & Driver
 5a036537e80b5031,DE,2024,Mercedes-Benz,Cle Convertible,Convertible,2,4,,,,,Front,AWD,,,,4400,4,4.14,11.2,,13.1,,130,209.2,,,,,,,,,,,Car & Driver
 fe5a097e1f0c521f,DE,2024,Mercedes-Benz,Cle Coupe,Coupe,2,4,,,,,Front,AWD,375,279.6,369 lb-ft,4262,4.1,4.25,10.1,,12.5,111,,,159,323,0.92,,,,,,,,Car & Driver
@@ -39583,8 +39492,7 @@ e454e47d2b73b22c,DE,2024,Mercedes-Benz,E Class All Terrain Wagon,Wagon,4,5,,,,,F
 eae77b3d9de5fdfe,DE,2018,Mercedes-Benz,E Class Cabriolet,Convertible,2,4,,V6,,TC,Front,AWD,329,245.3,354 lb-ft,4400,5,5.18,13.1,,13.5,,130,209.2,,,,,,,,,,,Car & Driver
 7e5c805fd27df48d,DE,2018,Mercedes-Benz,E Class Coupe,Coupe,2,4,,V6,,TC,Front,AWD,329,245.3,354 lb-ft,4050,5,5.18,13,,13.6,,130,209.2,,,,,,,,,,,Car & Driver
 5ae98584408bd8b9,DE,2010,Mercedes-Benz,E Class E350 E550 Coupe,Coupe,2,4,,,3.5,,Front,RWD,,,,3700,6.1,6.32,,,,,,,,,,,,,,,,,Car & Driver
-3766e017f1226a81,DE,2010,Mercedes-Benz,E Class E350 E550 Coupe First Drive Review Capable And Quick Not Quite Engaging Page 2,Coupe,2,4,,,3.5,,Front,RWD,,,,3700,6.1,6.32,,,,,,,,,,,,,,,,,Car & Driver
-3c84a33bcddac045,DE,2010,Mercedes-Benz,E Class E550 Review Trickle Down Safety Page 2,Sedan,4,5,,,3.5,,Front,,,,258 lb-ft,3900,,,,,15.2,,,,,,,,,,,,,,Car & Driver
+3c84a33bcddac045,DE,2010,Mercedes-Benz,E Class E550,Sedan,4,5,,,3.5,,Front,,,,258 lb-ft,3900,,,,,15.2,,,,,,,,,,,,,,Car & Driver
 f9e31e2170dd21d1,DE,2019,Mercedes-Benz,E Class Wagon Reliability,Hatchback,4,5,,V6,,TC,Front,AWD,362,269.9,369 lb-ft,4462,4.7,4.87,11.8,,13.3,106,,,152,,0.91,,,,,,,,Car & Driver
 53ff1686c93413e9,DE,2016,Mercedes-Benz,E-Class 1.6 AT,,,,Diesel,I4,1.6,TC,Front,RWD,160,119.3,266 lb-ft,3704,8.11,8.4,,,,,140.4,226,,,,,,,,,,,Kaggle - Car Specifications
 3813ae3fee8bd24c,DE,2020,Mercedes-Benz,E-Class 1.6 AT,,,,Diesel,I4,1.6,TC,Front,RWD,160,119.3,266 lb-ft,3825,8.11,8.4,,,,,140.4,226,,,,,,,,,,,Kaggle - Car Specifications
@@ -40339,7 +40247,6 @@ e241f2c6efa170bf,DE,2012,Mercedes-Benz,E63 AMG,Sedan,4,5,Petrol,V8,5.5,TC,Front,
 4bf9655ac877f908,DE,2010,Mercedes-Benz,"E63 AMG (W212, pre-facelift, 2010, 6.2, 525 PS)",Sedan,4,5,Petrol,V8,6.3,NA,Front,RWD,,,465 lb-ft,4300,4,4.14,,,12.5,,,,,,,,490,2010,Horst von Saurma,,,,"Wikipedia - List of Nürburgring Nordschleife lap times, EPA - Fuel Economy, Car & Driver"
 63af3197b2d41ee2,DE,2015,Mercedes-Benz,E63 AMG 4matic,Sedan,4,5,Petrol,V8,5.5,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 53bf96ac60ab23d6,DE,2014,Mercedes-Benz,E63 AMG 4matic (wagon),Wagon,4,5,Petrol,V8,5.5,TC,Front,4WD,,,,4350,3.3,3.42,8.2,,11.8,,155,249.4,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
-29d39a7d2348a329,DE,2010,Mercedes-Benz,E63 AMG Review Sinister Yet Stealthy Page 2,Sedan,4,5,,,6.2,,Front,RWD,,,465 lb-ft,4300,4,4.14,,,12.5,,,,,,,,,,,,,,Car & Driver
 9178384a60a9f899,DE,2014,Mercedes-Benz,E63 AMG S,Sedan,4,5,Petrol,V8,5.5,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 d5a8bb52aaff652a,DE,2013,Mercedes-Benz,"E63 AMG S 4MATIC (W212R, second facelift, 2013, B/T 5.5, 585 PS)",,,,,,,,,,,,,,,,,,,,,,,,,,475,2013-09,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 8feea990ad43dd17,DE,2015,Mercedes-Benz,E63 AMG S 4matic,Sedan,4,5,Petrol,V8,5.5,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -40903,7 +40810,7 @@ cc4decd1a511b23e,DE,2016,Mercedes-Benz,Gle Class,Hatchback,4,5,,,,,Front,4WD,,,,
 1480a14efbf83264,DE,2020,Mercedes-Benz,Gle450,Hatchback,4,5,Electric/Petrol,I6,,TC,Front,AWD,,,,5151,5.3,5.49,13.9,,13.9,100,,,175,,0.82,,,,,,,,Car & Driver
 5ee6067a0ac920aa,DE,2024,Mercedes-Benz,Gle450E,Wagon,4,5,Electric/Petrol,I4,,TC,Mid,AWD,381,284.1,,5940,5.3,5.49,14.4,,13.9,99,,,176,,0.82,,,,,,,,Car & Driver
 ca51c3ebd6d89cce,DE,2013,Mercedes-Benz,Glk250 Bluetec Diesel,Wagon,4,5,Diesel,I4,,TC,Front,4WD,200,149.1,369 lb-ft,4402,8.1,8.39,23.7,,16.2,85,,,185,,0.8,,,,,,,,Car & Driver
-a73cf772bd0c5344,DE,2013,Mercedes-Benz,Glk250 Bluetec Glk350 First Drive Review Real World Fuel Savings Page 2,Wagon,4,5,,,,,Front,4WD,,,,4000,6.2,6.42,,,14.8,,130,209.2,,,,,,,,,,,Car & Driver
+a73cf772bd0c5344,DE,2013,Mercedes-Benz,Glk250 Bluetec Glk350,Wagon,4,5,,,,,Front,4WD,,,,4000,6.2,6.42,,,14.8,,130,209.2,,,,,,,,,,,Car & Driver
 bbec1b9d13cb9926,DE,2010,Mercedes-Benz,Glk350 4Matic Short Take Road,Wagon,4,5,,V6,,NA,Front,4WD,,,,4219,6.5,6.73,17.3,,15,93,,,173,,0.82,,,,,,,,Car & Driver
 5bef3f5a90d0795a,DE,2020,Mercedes-Benz,Gls,Wagon,4,5,Electric/Petrol,I6,,TC,Front,AWD,,,,5594,5.5,5.7,14.4,,14.1,99,,,154,,0.92,,,,,,,,Car & Driver
 d27502d63c6d3107,DE,2026,Mercedes-Benz,Gls 450,Wagon,4,5,,,,,Front,AWD,375,279.6,369 lb-ft,5416,5.4,5.59,,,13.9,100,,,178,357,0.82,,,,,,,,Car & Driver
@@ -41873,8 +41780,6 @@ d3fb5e038bc7cbc5,DE,2013,Mercedes-Benz,SLS AMG Roadster,Coupe,2,2,Petrol,V8,6.2,
 16eda2a05405257f,DE,2017,Mercedes-Benz,Sl Class,Convertible,2,4,,,,,Front,RWD,,,,3800,3.7,3.83,8,,11.8,,155,249.4,,,,,,,,,,,Car & Driver
 2c55a483c0c7edc2,DE,2017,Mercedes-Benz,Sl450,Convertible,2,4,Petrol,V6,3,TC,Front,RWD,362,269.9,369 lb-ft,3850,4.5,4.66,11.2,,13.1,107,,,159,,0.93,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 e96f5c22e50b636d,DE,2003,Mercedes-Benz,Sl500 Road,Convertible,2,4,,V8,,NA,Front,RWD,302,225.2,339 lb-ft,4172,5.8,6.01,14.5,,,,,,155,,0.88,,,,,,,,Car & Driver
-66b0517d846b8bdf,DE,2003,Mercedes-Benz,Sl55 AMG First Drive Review 516 Lb Ft Of Twist Page 2,Roadster,2,2,,V8,5.4,SC,Front,RWD,,,,4400,4.6,4.77,,,,,,,,,,,,,,,,,Car & Driver
-a665d855d49b8d75,DE,2013,Mercedes-Benz,Sl63 AMG First Drive Review The Full Oligarch Page 2,Roadster,2,2,,V8,5.5,TC,Front,RWD,,,,4150,3.7,3.83,,,11.8,,155,249.4,,,,,,,,,,,Car & Driver
 9d58c2794d2ce279,DE,2010,Mercedes-Benz,Sl65 AMG Black Series,Coupe,2,4,,V12,,TC,Front,RWD,,,,4123,3.6,3.73,7.8,,11.4,,,,,,,,,,,,,,Car & Driver
 5b23b0d94f6fae93,DE,2010,Mercedes-Benz,Sl65 AMG Black Series Second,Coupe,2,4,,V12,,TC,Front,RWD,,,,4350,3.6,3.73,7.9,,11.4,,,,,,,,,,,,,,Car & Driver
 794bfb734442968d,DE,2005,Mercedes-Benz,Sl65 AMG Short Take Road,Roadster,2,2,,V12,,TC,Front,RWD,,,,4494,3.8,3.94,8.2,,11.9,123,,,160,,0.93,,,,,,,,Car & Driver
@@ -42699,7 +42604,7 @@ b371907edfbb317d,GB,2022,Mini,Cooper Convertible,Coupe,2,4,Petrol,I3,1.5,TC,Fron
 772a0984d875c1c8,GB,2024,Mini,Cooper Convertible,Coupe,2,4,Petrol,I3,1.5,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 b3eb06efb7acf52a,GB,2025,Mini,Cooper Convertible,Coupe,2,4,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 1b4f14ea70859254,GB,2016,Mini,Cooper Convertible Automatic,Convertible,2,4,Petrol,I3,1.5,TC,Front,FWD,134,99.9,162 lb-ft,2981,7.5,7.77,24.6,,16,85,,,163,,0.84,,,,,,,,Car & Driver
-065ab34a02b232c5,GB,2014,Mini,Cooper Cooper S Hardtop First Drive Review More Mature But Still Fun Page 2,Hatchback,4,5,,,,,Front,FWD,,,,2650,6.4,6.63,16.6,,14.8,,130,209.2,,,,,,,,,,,Car & Driver
+065ab34a02b232c5,GB,2014,Mini,Cooper Cooper S Hardtop,Hatchback,4,5,,,,,Front,FWD,,,,2650,6.4,6.63,16.6,,14.8,,130,209.2,,,,,,,,,,,Car & Driver
 43e5f7495f1b3a30,GB,2011,Mini,Cooper Countryman,Sedan,4,5,Petrol,I4,1.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 9a8bb05fe2814b10,GB,2012,Mini,Cooper Countryman,Sedan,4,5,Petrol,I4,1.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 2798f629a06070fc,GB,2013,Mini,Cooper Countryman,Sedan,4,5,Petrol,I4,1.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -46359,7 +46264,6 @@ b45ae91d49de83f8,JP,2008,Nissan,Maxima 3.5 CVT,Sedan,4,5,Petrol,V6,3.5,NA,Front,
 651cff9498e11979,JP,2000,Nissan,Maxima 3.5 MT,Sedan,4,5,Petrol,V6,3.5,NA,Front,FWD,255,190.2,246 lb-ft,3219,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 847989c3fb9664fd,JP,2003,Nissan,Maxima 3.5 MT,Sedan,4,5,Petrol,V6,3.5,NA,Front,FWD,268,199.8,254 lb-ft,3549,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 3ef989022e07e058,JP,2006,Nissan,Maxima 3.5 MT,Sedan,4,5,Petrol,V6,3.5,NA,Front,FWD,268,199.8,254 lb-ft,3549,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
-598ef58a047b1cbc,JP,2016,Nissan,Maxima First Drive Review The Driving Page 2,Sedan,4,5,,V6,3.5,NA,Front,FWD,300,223.7,261 lb-ft,3600,5.6,5.8,15.2,,14.3,,135,217.3,,,,,,,,,,,Car & Driver
 3728f4cfe1291ec1,JP,2019,Nissan,Maxima Sedan,Sedan,4,5,,V6,,NA,Front,FWD,300,223.7,261 lb-ft,3665,5.8,6.01,14.1,,14.3,101,,,168,,0.89,,,,,,,,Car & Driver
 aecd6c94f593027e,JP,2016,Nissan,Maxima Sr,Sedan,4,5,,V6,,NA,Front,FWD,300,223.7,261 lb-ft,3545,5.9,6.11,14.1,,14.4,101,,,168,,0.87,,,,,,,,Car & Driver
 b9094859f61581ff,JP,1984,Nissan,Maxima Wagon,Wagon,4,5,Petrol,V6,2.4,NA,Front,,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -47122,7 +47026,6 @@ b5b96e1d2af459ac,JP,2021,Nissan,Rogue FWD SL/Platinum,SUV,4,5,Petrol,I3,1.5,TC,F
 5776350aa12047a4,JP,2024,Nissan,Rogue FWD SL/Platinum,SUV,4,5,Petrol,I3,1.5,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 0d8007c8a212aac9,JP,2025,Nissan,Rogue FWD SL/Platinum,SUV,4,5,Petrol,I3,1.5,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 04c06183f838668a,JP,2021,Nissan,Rogue FWD SV/SL/Platinum,SUV,4,5,Petrol,I4,2.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-fd48c55b4dd68aeb,JP,2014,Nissan,Rogue First Drive Review Going Rogue Page 2,Wagon,4,5,Petrol,I4,2.5,NA,Front,4WD,170,126.8,175 lb-ft,3450,8.8,9.12,,,16.8,,120,193.1,,,,,,,,,,,Car & Driver
 fb60af2e60ea8cae,JP,2026,Nissan,Rogue Hybrid,Wagon,4,5,Electric/Petrol,I4,,NA,Rear,AWD,248,184.9,,4700,6.5,6.73,,,15.7,,110,177.0,,,,,,,,,,,Car & Driver
 52b92ca5ca4d4bb5,JP,2017,Nissan,Rogue Hybrid AWD,SUV,4,5,Petrol,I4,2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 229b5e887e94f569,JP,2018,Nissan,Rogue Hybrid AWD,SUV,4,5,Petrol,I4,2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -47943,8 +47846,7 @@ f17b736a5439de24,JP,2008,Nissan,Versa 18S Sedan Short Take Road,Sedan,4,5,Petrol
 972887226cee9d0b,JP,,Nissan,Versa 2022-Present,,,,Petrol,I4,1.6,NA,Front,FWD,122,89.7,114 lb-ft,2599,,,,,,,,,,,,,,,,,,,Autoevolution
 2c43e3969a087769,JP,2020,Nissan,Versa Drive,Sedan,4,5,Petrol,I4,1.6,NA,Front,FWD,122,91,114 lb-ft,2600,9,9.32,33.8,,16.7,,115,185.1,,,,,,,,,,,Car & Driver
 5e70d9bef4369bfa,JP,2009,Nissan,Versa FE,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-28c2a07825fe2328,JP,2014,Nissan,Versa Note Hatchback,Hatchback,4,5,Petrol,I4,,NA,Front,FWD,109,81.3,107 lb-ft,2450,9.7,10.05,,,17.4,,115,185.1,,,,,,,,,,,Car & Driver
-d19e32b22ef3d24e,JP,2014,Nissan,Versa Note Hatchback First Drive Review A Bit Less Fun On A Budget Page 2,Hatchback,4,5,Petrol,I4,1.6,NA,Front,FWD,109,81.3,107 lb-ft,2450,9.7,10.05,,,17.4,,115,185.1,,,,,,,,,,,Car & Driver
+28c2a07825fe2328,JP,2014,Nissan,Versa Note Hatchback,Hatchback,4,5,Petrol,I4,1.6,NA,Front,FWD,109,81.3,107 lb-ft,2450,9.7,10.05,,,17.4,,115,185.1,,,,,,,,,,,Car & Driver
 f64212cd4664f3f1,JP,2014,Nissan,Versa Note S,Wagon,4,5,Petrol,I4,1.6,NA,Front,FWD,109,81.3,107 lb-ft,2413,9.5,9.84,30.4,,17.2,81,,,181,,0.76,,,,,,,,Car & Driver
 346937ba9c1dddb7,JP,2015,Nissan,Versa Note Sr Cvt,Wagon,4,5,Petrol,I4,,NA,Front,FWD,109,81.3,107 lb-ft,2525,9.9,10.26,41.5,,17.6,80,,,188,,0.8,,,,,,,,Car & Driver
 292dca1e479caa93,JP,2012,Nissan,Versa SL Sedan,Sedan,4,5,Petrol,I4,1.6,NA,Front,FWD,109,81.3,107 lb-ft,2472,9.8,10.15,34.8,,17.5,81,,,179,,0.76,,,,,,,,Car & Driver
@@ -48084,7 +47986,6 @@ e6212756ee122843,JP,2011,Nissan,Xterra 4WD,SUV,4,5,Petrol,V6,4,NA,Front,4WD,,,,,
 b4e234483ca951fc,JP,2013,Nissan,Xterra 4WD,SUV,4,5,Petrol,V6,4,NA,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 e9b801783a6c9380,JP,2014,Nissan,Xterra 4WD,SUV,4,5,Petrol,V6,4,NA,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 7043ae95af0035dd,JP,2015,Nissan,Xterra 4WD,SUV,4,5,Petrol,V6,4,NA,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-00448aad11ba9c97,JP,2005,Nissan,Xterra Road Test Review Overall Rudeness Improved Page 2,Wagon,4,5,,V6,3.9,NA,Front,4WD,,,284 lb-ft,4100,8,8.29,,,16,,,,,,,,,,,,,,Car & Driver
 240f9681b15ef65c,JP,2000,Nissan,Xterra V6 2WD,SUV,4,5,Petrol,V6,3.3,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 f785757ce31dcf04,JP,2001,Nissan,Xterra V6 2WD,SUV,4,5,Petrol,V6,3.3,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 7f941fcdfce30761,JP,2002,Nissan,Xterra V6 2WD,SUV,4,5,Petrol,V6,3.3,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -51369,7 +51270,6 @@ a8133d56852131e1,DE,2005,Porsche,911 Carrera Cabriolet (997),,,,Petrol,H6,3.6,NA
 c0595d4a7da1587a,DE,2018,Porsche,911 Carrera Cabriolet PDK Automatic,Convertible,2,4,Petrol,H6,,TC,Rear,RWD,370,275.9,331 lb-ft,3462,3.5,3.63,8.6,,11.9,117,,,151,,1,,,,,,,,Car & Driver
 a99459349570889d,DE,2017,Porsche,911 Carrera Carrera S,Coupe,2,4,Petrol,H6,3,TC,Rear,RWD,,,,3200,3.6,3.73,9.2,,11.7,,180,289.7,,,,,,,,,,,Car & Driver
 0da836f700b554b9,DE,2012,Porsche,911 Carrera Carrera S Cabriolet,Convertible,2,4,,,,,Rear,RWD,,,,3350,3.8,3.94,,,12.3,,176,283.2,,,,,,,,,,,Car & Driver
-5700b2b6924e13b8,DE,2017,Porsche,911 Carrera Carrera S First Drive Review Meanwhile Outside The Engine Room Page 2,Coupe,2,4,Petrol,H6,3,TC,Rear,RWD,,,,3200,3.6,3.73,9.2,,11.7,,180,289.7,,,,,,,,,,,Car & Driver
 6c8804b16487cc04,DE,2015,Porsche,911 Carrera Coupe (991),,,,Petrol,H6,3,TC,Rear,RWD,370,272.1,332 lb-ft,3197,4.4,4.4,,,,,182,293,,,,,,,,,,,Autoevolution
 28bb00ec135b777f,DE,,Porsche,911 Carrera Coupe (992) 2019-Present,,,,Petrol,I6,3,TC,Rear,RWD,385,283.2,332 lb-ft,3454,4,4,,,,,182,293,,,,,,,,,,,Autoevolution
 d8bd7e8ce23483d3,DE,2014,Porsche,911 Carrera GTS,,,,Petrol,H6,3.8,NA,Rear,RWD,430,316,325 lb-ft,3351,4,4,,,,,189,304,,,,,,,,,,,Autoevolution
@@ -51456,7 +51356,6 @@ de9b4dfbdd8fe206,DE,2008,Porsche,911 Carrera S Cabriolet (997),,,,Petrol,H6,3.8,
 6557033b12be67ba,DE,2020,Porsche,911 Carrera S Cabriolet Convertible,Convertible,2,4,Petrol,H6,,TC,Rear,RWD,443,330.3,390 lb-ft,3566,2.9,3.0,5.7,,11.2,125,,,141,,1.07,,,,,,,,Car & Driver
 78eecde9eb5255a1,DE,2017,Porsche,911 Carrera S Cabriolet PDK Automatic,Convertible,2,4,Petrol,H6,,TC,Rear,RWD,420,313.2,368 lb-ft,3512,3.2,3.32,7.8,,11.6,122,,,146,,1,,,,,,,,Car & Driver
 2253e91a93a5635d,DE,2015,Porsche,911 Carrera S Coupe (991),,,,Petrol,H6,3,TC,Rear,RWD,420,308.9,369 lb-ft,3219,4.1,4.1,,,,,190,306,,,,,,,,,,,Autoevolution
-cbf2a30ff4539565,DE,2012,Porsche,911 Carrera S First Drive Review With This Quick Experience It Seems Good Especially If Youre Getting Older Page 2,Coupe,2,4,,,3.6,,Rear,RWD,304,226.7,264 lb-ft,3250,3.8,3.94,,,12.3,,178,286.5,,,,,,,,,,,Car & Driver
 a662b3d9df1f5fa8,DE,2009,Porsche,911 Carrera S Manual,Coupe,2,4,Petrol,H6,3.8,NA,Rear,RWD,,,310 lb-ft,3279,3.9,4.04,9.4,,12.4,114,,,155,,0.97,,,,,,,,Car & Driver
 0d762868e55a03cc,DE,2020,Porsche,911 Carrera S Manual,Coupe,2,4,Petrol,H6,,TC,Rear,RWD,443,330.3,390 lb-ft,3317,3.6,3.73,8,,,,,,136,270,1.06,,,,,,,,Car & Driver
 e224513a654bc37b,DE,2020,Porsche,911 Carrera S Manual Enjoyment,Coupe,2,4,Petrol,H6,,TC,Rear,RWD,443,330.3,390 lb-ft,3317,3.6,3.73,8,,,,,,136,270,1.06,,,,,,,,Car & Driver
@@ -51547,13 +51446,12 @@ edc807a090e2110a,DE,2015,Porsche,911 GTS 3.0 PDK,Convertible,2,4,Petrol,H6,3,NA,
 65b4913adb0e70f2,DE,2011,Porsche,911 GTS 3.8 PDK,Convertible,2,4,Petrol,H6,3.8,NA,Rear,RWD,430,320.7,325 lb-ft,3340,4.06,4.2,,,,,187.7,302,,,,,,,,,,,Kaggle - Car Specifications
 18db8d2343f96f06,DE,2011,Porsche,911 GTS Cabriolet,Coupe,2,4,Petrol,V6,3.8,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 8ff21810a33adb1b,DE,2012,Porsche,911 GTS Cabriolet,Coupe,2,4,Petrol,V6,3.8,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-7131b980b09cbbc4,DE,2014,Porsche,911 Gt3 991 First Drive Review Rear Steering System Page 2,Coupe,2,4,Petrol,H6,3.8,NA,Rear,RWD,475,354.2,324 lb-ft,3200,3.3,3.42,7.9,,11.5,,195,313.8,,,,,,,,,,,Car & Driver
+7131b980b09cbbc4,DE,2014,Porsche,911 Gt3 991,Coupe,2,4,Petrol,H6,3.8,NA,Rear,RWD,475,354.2,324 lb-ft,3200,3.3,3.42,7.9,,11.5,,195,313.8,,,,,,,,,,,Car & Driver
 0a8d2a301f742d96,DE,2007,Porsche,911 Gt3 997,Coupe,2,4,Petrol,H6,,NA,Rear,RWD,415,309.5,299 lb-ft,3250,4,4.14,8.7,,,,,,,,,,,,,,,,Car & Driver
 565c35131c104c99,DE,2025,Porsche,911 Gt3 Gt3 Touring,Coupe,2,4,,,,TC,Rear,RWD,502,374.3,331 lb-ft,3200,2.8,2.9,6.6,,10.9,,193,310.6,,,,,,,,,,,Car & Driver
 c33f20283f1bdb54,DE,2018,Porsche,911 Gt3 Manual,Coupe,2,4,Petrol,H6,4,NA,Rear,RWD,500,372.9,339 lb-ft,3276,3.5,3.63,7.5,,11.5,125,,,141,,1.08,,,,,,,,Car & Driver
 4bc24fb24c4bbe1b,DE,2022,Porsche,911 Gt3 Manual,Coupe,2,4,,,,TC,Rear,RWD,502,374.3,346 lb-ft,3199,3.3,3.42,7.5,,11.5,124,,,134,262,1.16,,,,,,,,Car & Driver
 38c09d7ee01c8782,DE,2018,Porsche,911 Gt3 PDK Automatic,Coupe,2,4,Petrol,H6,4,NA,Rear,RWD,500,372.9,339 lb-ft,3318,3,3.11,6.9,,11.1,127,,,146,,1.11,,,,,,,,Car & Driver
-c3470c640cb9b6ed,DE,2010,Porsche,911 Gt3 Review Racing Pedigree And Value Page 2,Coupe,2,4,Petrol,H6,3.8,NA,Rear,RWD,,,317 lb-ft,3250,3.7,3.83,,,11.8,120,,,,,,,,,,,,,Car & Driver
 d306083afc19bec3,DE,2012,Porsche,911 Gt3 Rs 40,Coupe,2,4,,,4,TC,Rear,RWD,500,372.9,339 lb-ft,3200,3.4,3.52,,,11.6,,193,310.6,,,,,,,,,,,Car & Driver
 f4b67b4c6b7e382b,DE,2025,Porsche,911 Gt3 Touring,Coupe,2,4,,,,TC,Rear,RWD,502,374.3,331 lb-ft,3267,3.2,3.32,7.1,,11.3,127,,,135,265,1.13,,,,,,,,Car & Driver
 f229f55fe70502cf,DE,2022,Porsche,911 Gt3 Touring PDK,Coupe,2,4,,,,TC,Rear,RWD,502,374.3,346 lb-ft,3334,2.8,2.9,6.7,,11,127,,,143,274,1.1,,,,,,,,Car & Driver
@@ -51606,7 +51504,7 @@ f2ea50fc592a6c35,DE,2023,Porsche,911 Targa 4,Coupe,2,4,Petrol,V6,3,TC,Rear,AWD,,
 59f967eccadeafdb,DE,2016,Porsche,911 Targa 4 (991.2),Coupe,2,4,Petrol,H6,3,NA,Rear,AWD,370,272.1,332 lb-ft,3505,4.5,4.5,,,,,178,286,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
 154634c4243df88b,DE,,Porsche,911 Targa 4 (992) 2020-Present,,,,Petrol,I6,3,NA,Rear,AWD,385,283.2,332 lb-ft,3671,4.4,4.4,,,,,180,290,,,,,,,,,,,Autoevolution
 61fdfad726ac8213,DE,2014,Porsche,911 Targa 4 / 4S,Targa,2,2,,,,,Rear,4WD,,,,3500,4.2,4.35,9.4,,12.4,,174,280.0,,,,,,,,,,,Car & Driver
-9430431cc2f5504c,DE,2014,Porsche,911 Targa 4 4S First Drive Review Vaguely Familiar But Completely New Page 2,Targa,2,2,,,,,Rear,4WD,,,,3500,4.2,4.35,9.4,,12.4,,174,280.0,,,,,,,,,,,Car & Driver
+9430431cc2f5504c,DE,2014,Porsche,911 Targa 4 4S,Targa,2,2,,,,,Rear,4WD,,,,3500,4.2,4.35,9.4,,12.4,,174,280.0,,,,,,,,,,,Car & Driver
 71df4e134e4ed20d,DE,2016,Porsche,911 Targa 4 GTS,Coupe,2,4,Petrol,V6,3.8,NA,Rear,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 7dc4e857fd50a9ad,DE,2017,Porsche,911 Targa 4 GTS,Coupe,2,4,Petrol,V6,3,TC,Rear,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 879ac88fe0b09788,DE,2018,Porsche,911 Targa 4 GTS,Targa,2,2,Petrol,H6,3,TC,Rear,AWD,450,335.6,405 lb-ft,3600,3.1,3.21,9.4,,11.4,,190,305.8,,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
@@ -51697,7 +51595,6 @@ abaf58c67654b531,DE,2009,Porsche,911 Turbo Cabriolet (997),Coupe,2,4,Petrol,I6,3
 13189ca9f8eb8827,DE,2010,Porsche,911 Turbo Coupe,Coupe,2,4,Petrol,V6,3.8,TC,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 113ef540ae6e6adf,DE,2011,Porsche,911 Turbo Coupe,Coupe,2,4,Petrol,V6,3.8,TC,Rear,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 432e89e2462a154c,DE,2012,Porsche,911 Turbo Coupe,Coupe,2,4,Petrol,V6,3.8,TC,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-04d0b962c1d16b27,DE,2010,Porsche,911 Turbo Review The Changes Add Up Page 2,Coupe,2,4,Petrol,,3.8,TC,Rear,4WD,,,516 lb-ft,3500,3,3.11,,,11.3,,,,,,,,,,,,,,Car & Driver
 651ef7681f03abc0,DE,2011,Porsche,911 Turbo S,Coupe,2,4,Petrol,H6,3.8,TC,Rear,4WD,530,395.2,516 lb-ft,3550,10.91,11.3,,,10.9,,,,,,,,464,2011,Horst von Saurma,,,177.5,"Car & Driver - Lightning Lap, Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of fastest production cars by acceleration, Car & Driver"
 27ab4797c6c96715,DE,2014,Porsche,911 Turbo S,Coupe,2,4,Petrol,V6,3.8,TC,Rear,4WD,560,417.6,553 lb-ft,3588,2.6,2.69,6.5,,10.8,126,,,144,,1.09,,454,2014-02,Horst von Saurma,,,171.2,"Car & Driver - Lightning Lap, Wikipedia - List of Nürburgring Nordschleife lap times, EPA - Fuel Economy, Car & Driver"
 6bb03f57f9eae902,DE,2015,Porsche,911 Turbo S,Coupe,2,4,Petrol,V6,3.8,TC,Rear,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -51741,7 +51638,6 @@ f7b0091dd37e376a,DE,2021,Porsche,911 Turbo S Lightweight,Coupe,2,4,Petrol,,,TC,R
 63eac4072b9fa459,DE,,Porsche,911 Turbo S Lightweight (992),,,,Petrol,,,TC,Rear,,,,,,2.1,2.18,,,,,,,,,,,,,,,,,Wikipedia - List of fastest production cars by acceleration
 e3ddf977b9610ca7,DE,2007,Porsche,911 Turbo Tiptronic Short Take Road,Coupe,2,4,Petrol,H6,3.6,TC,Rear,4WD,,,,3584,3.4,3.52,7.8,,11.6,122,,,148,,0.97,,,,,,,,Car & Driver
 023cbb0dfd2e8f22,DE,2017,Porsche,911 Turbo Turbo S,Coupe,2,4,Petrol,,,TC,Rear,4WD,,,,3550,2.5,2.59,6.2,,10.5,,199,320.3,,,,,,,,,,,Car & Driver
-b8a5e79d4c204968,DE,2017,Porsche,911 Turbo Turbo S First Drive Review Boost Page 2,Coupe,2,4,Petrol,,,TC,Rear,4WD,,,,3550,2.5,2.59,6.2,,10.5,,199,320.3,,,,,,,,,,,Car & Driver
 ab628fe1c92b49ed,DE,1997,Porsche,911Gt1 Archive,Coupe,2,4,,,,TC,Mid,RWD,536,399.7,442 lb-ft,2600,3.6,3.73,,,,,,,,,,,,,,,,,Car & Driver
 4765be069b7b7f2a,DE,1977,Porsche,911S Archived,Targa,2,2,Petrol,,,,Rear,RWD,157,117.1,,2530,,,,,15.5,,,,182,,,,,,,,,,Car & Driver
 33e8bdba4debc1b9,DE,1980,Porsche,911Sc,Coupe,2,4,,,,,Rear,RWD,172,128.3,189 lb-ft,2700,6,6.22,18.4,,14.7,92,130,209.2,169,,0.8,,,,,,,,Car & Driver
@@ -51754,7 +51650,6 @@ a9faaacc5576b131,DE,2013,Porsche,918 4.6 PDK AWD Weissach package,Roadster,2,2,E
 9445b96ccf4b3ffb,DE,2013,Porsche,918 Spyder,,,2,Electric/Petrol,,,,Mid,,874,652,,,2.53,2.62,,,,,,,,,,,417,2013-09-04,Marc Lieb,,,,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of fastest production cars by acceleration, Wikipedia - List of production cars by power output"
 6c9cdfff6d9268b4,DE,2014,Porsche,918 Spyder,Targa,2,2,,,,,Mid,4WD,,,,3750,2.6,2.69,6,,10.2,,205,329.9,,,,,433,2014-06,Horst von Saurma,,,,"Wikipedia - List of Nürburgring Nordschleife lap times, Car & Driver"
 4edaeec0f543fd2b,DE,2015,Porsche,918 Spyder,Coupe,2,2,Electric/Petrol,V8,4.6,NA,Mid,AWD,,,,3650,2.1,2.18,6,,10.2,,211,339.6,,,,,,,,,,163.1,"Car & Driver - Lightning Lap, Wikipedia - List of fastest production cars by acceleration, EPA - Fuel Economy, Car & Driver"
-0aee54adbd0b2369,DE,2015,Porsche,918 Spyder First Drive Review The Official 900 Hp Hybrid Of Black Friday Page 2,Targa,2,2,Electric/Petrol,V8,,NA,Mid,4WD,,,,3650,2.6,2.69,6,,10.2,,211,339.6,,,,,,,,,,,Car & Driver
 74e614962f255737,DE,1987,Porsche,924 S,Coupe,2,4,Petrol,I4,2.5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ea53f0265f6abc1f,DE,1988,Porsche,924 S,Coupe,2,4,Petrol,I4,2.5,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 abd3f9a67ad87584,DE,1980,Porsche,924 Turbo S Archive,Hatchback,4,5,Petrol,,,TC,Front,RWD,,,,2780,7.8,8.08,,,15.8,86,126,202.8,186,,0.78,,,,,,,,Car & Driver
@@ -51876,7 +51771,6 @@ fd52cca44f51429a,DE,2008,Porsche,Boxster 3.4 MT,Roadster,2,2,Petrol,H6,3.4,NA,Mi
 110b251d63d2521e,DE,2004,Porsche,Boxster 3.4 Tiptronic RS 60 Spyder,Roadster,2,2,Petrol,H6,3.4,NA,Mid,RWD,303,225.9,251 lb-ft,2989,5.21,5.4,,,,,169.6,273,,,,,,,,,,,Kaggle - Car Specifications
 e84ea3e8e1c9acbe,DE,2017,Porsche,Boxster 718 Manual,Convertible,2,2,Petrol,H4,,TC,Mid,RWD,300,223.7,280 lb-ft,3059,4.4,4.56,10.6,,13,109,,,145,,1.01,,,,,,,,Car & Driver
 160596f86559a378,DE,2017,Porsche,Boxster Boxster S,Convertible,2,2,,,,,Mid,RWD,,,,2950,3.9,4.04,9.4,,12.4,,170,273.6,,,,,,,,,,,Car & Driver
-ffd6bf3bac8d3dff,DE,2017,Porsche,Boxster Boxster S First Drive Review Pure Joy Page 2,Convertible,2,2,,,,,Mid,RWD,,,,2950,3.9,4.04,9.4,,12.4,,170,273.6,,,,,,,,,,,Car & Driver
 92357dc67bd482b1,DE,2020,Porsche,Boxster Cayman GTS,Convertible,2,2,Petrol,H6,,NA,Mid,RWD,394,293.8,309 lb-ft,3250,4,4.14,9.2,,12.3,,182,292.9,,,,,,,,,,,Car & Driver
 9ef511ab0eb78f3d,DE,2017,Porsche,Boxster Engine Overheating Problem,Convertible,2,2,Petrol,H4,2.5,TC,Mid,RWD,350,261,309 lb-ft,3090,4.3,4.45,9.6,,12.6,115,,,142,,1.03,,,,,,,,Car & Driver
 6da6776bce746fed,DE,2015,Porsche,Boxster GTS,Coupe,2,2,Petrol,V6,3.4,NA,Mid,RWD,330,246.1,273 lb-ft,3000,4.1,4.25,10,,12.5,,175,281.6,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
@@ -51885,7 +51779,6 @@ b31291d7c7ff72c1,DE,2018,Porsche,Boxster GTS,Coupe,2,2,Petrol,I4,2.5,TC,Mid,RWD,
 e48cdb4f40a6874a,DE,2019,Porsche,Boxster GTS,Coupe,2,2,Petrol,I4,2.5,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 434287b00fa2f409,DE,2015,Porsche,Boxster GTS PDK,Convertible,2,2,Petrol,H6,3.4,NA,Mid,RWD,330,246.1,273 lb-ft,3163,4.1,4.25,10.1,,12.6,112,,,152,,1.05,,,,,,,,Car & Driver
 23ef9e6bbbe2dec5,DE,2013,Porsche,Boxster Manual,Roadster,2,2,Petrol,H6,2.7,NA,Mid,RWD,265,197.6,206 lb-ft,3035,5.6,5.8,13.3,,14,103,,,145,,1.01,,,,,,,,Car & Driver
-90a50c00db39cf2a,DE,2003,Porsche,Boxster Road Test Review Still The Stiffest Roadster Page 2,,,2,,,,,Mid,,,,,2800,5.1,5.28,,,13.8,,,,,,,,,,,,,,Car & Driver
 2a4ad723931aa2be,DE,2000,Porsche,Boxster S,Coupe,2,2,Petrol,V6,3.2,NA,Mid,RWD,,,,,,,,,,,,,,,,,490,,,88.7,"Series 05, Episode 07",,"EPA - Fuel Economy, Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times"
 b39b2a3b985ab496,DE,2001,Porsche,Boxster S,Coupe,2,2,Petrol,V6,3.2,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 fb18558686e3b603,DE,2002,Porsche,Boxster S,Coupe,2,2,Petrol,V6,3.2,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -52106,7 +51999,6 @@ a9317d0c5c38e642,DE,2026,Porsche,Cayenne GTS Coupe,SUV,4,5,Petrol,V8,4,TC,Front,
 09e98ee93a96e7b9,DE,2017,Porsche,Cayenne Platinum,SUV,4,5,Petrol,V6,3.6,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 bc75353f0d791d8f,DE,2018,Porsche,Cayenne Platinum,SUV,4,5,Petrol,V6,3.6,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 b0337e8c4b722c07,DE,2019,Porsche,Cayenne Reliability Maintence,Wagon,4,5,,,,,Front,AWD,335,249.8,332 lb-ft,4708,4.9,5.08,12.9,,13.5,102,,,158,,0.95,,,,,,,,Car & Driver
-705be36a557b6110,DE,2013,Porsche,Cayenne Review Porsche Cayenne GTS First Drive Three Quarter Inch Drop Page 2,Wagon,4,5,,V8,4.6,NA,Front,4WD,420,313.2,380 lb-ft,5000,5.3,5.49,,,13.9,,162,260.7,,,,,,,,,,,Car & Driver
 6389d86ba686b057,DE,2003,Porsche,Cayenne S,,,,Petrol,V8,4.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6dd88e0d0f563efa,DE,2004,Porsche,Cayenne S,SUV,4,5,Petrol,V8,4.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 7e171b5cf5837a52,DE,2005,Porsche,Cayenne S,SUV,4,5,Petrol,V8,4.5,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -52158,9 +52050,8 @@ a6fc9610af563825,DE,2012,Porsche,Cayenne S Hybrid,SUV,4,5,Petrol,V6,3,SC,Front,A
 5be4c54bfe59ba5c,DE,2014,Porsche,Cayenne S Hybrid,SUV,4,5,Petrol,V6,3,SC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 e048349976ecf1c1,DE,2010,Porsche,Cayenne S Hybrid (958),,,,Electric/Petrol,V6,3,SC,Front,AWD,333,245,325 lb-ft,5103.7,6.1,6.1,,,,,150,241,,,,,,,,,,,Autoevolution
 fbb45c0e680fe645,DE,2010,Porsche,Cayenne S Hybrid 3.0 Tiptronic AWD,Crossover,4,5,Electric/Petrol,V6,3,SC,Front,AWD,333,248.3,325 lb-ft,4938,6.28,6.5,,,,,150.4,242,,,,,,,,,,,Kaggle - Car Specifications
-ecfe733ed851a29c,DE,2011,Porsche,Cayenne S Hybrid And 2009 Cayenne Diesel Review Driving The Cayenne Diesel Page 2,Wagon,4,5,Electric/Diesel,V6,3,TC,Front,4WD,,,406 lb-ft,5400,,,,,,,133,214.0,,,,,,,,,,,Car & Driver
+ecfe733ed851a29c,DE,2011,Porsche,Cayenne S Hybrid And 2009 Cayenne Diesel,Wagon,4,5,Electric/Diesel,V6,3,TC,Front,4WD,,,406 lb-ft,5400,6.4,6.63,,,14.9,,133,214.0,,,,,,,,,,,Car & Driver
 4f364e7ef238e5b2,DE,2011,Porsche,Cayenne S Hybrid Second,Wagon,4,5,Electric/Petrol,V6,,SC,Front,4WD,,,,5700,6.4,6.63,,,14.9,,,,,,,,,,,,,,Car & Driver
-9c84d9dab7967797,DE,2011,Porsche,Cayenne S Hybrid and 2009 Cayenne Diesel,Wagon,4,5,Electric/Diesel,V6,,SC,Front,4WD,,,,5700,6.4,6.63,,,14.9,,,,,,,,,,,,,,Car & Driver
 8daba17b247f01a6,DE,2008,Porsche,Cayenne S Short Take Road,Wagon,4,5,,V8,4.8,NA,Front,4WD,,,,5351,6,6.22,15.2,,14.5,98,,,175,,0.82,,,,,,,,Car & Driver
 6fe6fca6dd66f347,DE,2009,Porsche,Cayenne S TransSyberia (957),,,,Petrol,V8,4.8,NA,Front,AWD,385,283.2,369 lb-ft,5192,6.6,6.6,,,,,157,253,,,,,,,,,,,Autoevolution
 adc1966492e3198f,DE,2024,Porsche,Cayenne S Turbo Gt,Wagon,4,5,Petrol,,,TC,Front,AWD,650,484.7,626 lb-ft,4994,2.8,2.9,7.5,,11.2,121,169,272.0,150,302,1.02,,,,,,,,Car & Driver
@@ -52275,7 +52166,7 @@ c3547b0c3506a476,DE,2009,Porsche,Cayman 3.4 AMT,,,2,Petrol,H6,3.4,NA,Mid,RWD,320
 08fdfebe2391e6df,DE,2009,Porsche,Cayman 3.4 MT,,,2,Petrol,H6,3.4,NA,Mid,RWD,320,238.6,273 lb-ft,2976,5.02,5.2,,,,,172.1,277,,,,,,,,,,,Kaggle - Car Specifications
 cd817d1eeec8f77e,DE,2012,Porsche,Cayman 3.4 MT,Coupe,2,2,Petrol,H6,3.4,NA,Mid,RWD,340,253.5,280 lb-ft,2965,4.83,5,,,,,175.8,283,,,,,,,,,,,Kaggle - Car Specifications
 b9c8d386995552ae,DE,2012,Porsche,Cayman 3.4 PDK,Coupe,2,2,Petrol,H6,3.4,NA,Mid,RWD,340,253.5,280 lb-ft,3031,4.73,4.9,,,,,174.6,281,,,,,,,,,,,Kaggle - Car Specifications
-cda4119b9ff75068,DE,2014,Porsche,Cayman Cayman S First Drive Review Just One Must Have Page 2,Hatchback,4,2,,,,,Mid,RWD,,,,3100,4.1,4.25,,,12.5,,164,263.9,,,,,,,,,,,Car & Driver
+cda4119b9ff75068,DE,2014,Porsche,Cayman Cayman S,Hatchback,4,2,,,,,Mid,RWD,,,,3100,4.1,4.25,,,12.5,,164,263.9,,,,,,,,,,,Car & Driver
 6ffeae0bda2c9002,DE,2016,Porsche,Cayman GT4,Coupe,2,2,Petrol,V6,3.8,TC,Mid,RWD,385,287.1,309 lb-ft,3050,4.1,4.25,9,,12.3,117,183,294.5,151,,1.01,,,,,,,174,"Car & Driver - Lightning Lap, EPA - Fuel Economy, Car & Driver"
 aa382b8d4ae84641,DE,2020,Porsche,"Cayman GT4 (718, 2020, 4.0, 420 PS)",,,2,,,,TC,Mid,,,,,,,,,,,,,,,,,,452,2020,Christian Gebhardt,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 97219cb8eeb7b66e,DE,2015,Porsche,"Cayman GT4 (981, 2015, 3.8, 385 PS)",,,2,,,,TC,Mid,,,,,,,,,,,,,,,,,,462.39,2015-04,Christian Gebhardt,,,,Wikipedia - List of Nürburgring Nordschleife lap times
@@ -52378,7 +52269,7 @@ b9a2ccb5d38ab152,DE,,Porsche,Macan S (95B) 2021-Present,,,,Petrol,V6,,TC,Front,,
 b2fc06795ee9e2df,DE,2013,Porsche,Macan S 3.0 PDK AWD,Crossover,4,5,Petrol,V6,3,TC,Front,AWD,340,253.5,339 lb-ft,4112,5.21,5.4,,,,,157.8,254,,,,,,,,,,,Kaggle - Car Specifications
 59bce00f117ad988,DE,2014,Porsche,Macan S Diesel (95B),,,,Diesel,V6,3,TC,Front,AWD,258,189.8,428 lb-ft,4145,6.3,6.3,,,,,143,230,,,,,,,,,,,Autoevolution
 4fbd23f5f2c7a143,DE,2013,Porsche,Macan S Diesel 3.0 PDK AWD,Crossover,4,5,Diesel,V6,3,TC,Front,AWD,245,182.7,428 lb-ft,4145,6.18,6.4,,,,,141.1,227,,,,,,,,,,,Kaggle - Car Specifications
-00c6923d0877e90f,DE,2015,Porsche,Macan S Turbo First Drive Review Familial Power Page 2,Wagon,4,5,Petrol,,,TC,Front,4WD,,,,4300,4.4,4.56,12.5,,13.1,,156,251.1,,,,,,,,,,,Car & Driver
+00c6923d0877e90f,DE,2015,Porsche,Macan S Turbo,Wagon,4,5,Petrol,,,TC,Front,4WD,,,,4300,4.4,4.56,12.5,,13.1,,156,251.1,,,,,,,,,,,Car & Driver
 ebd74fee36bfb8f1,DE,,Porsche,Macan T 2022-Present,,,,Petrol,I4,2,TC,Front,AWD,265,194.9,295 lb-ft,5534,6.2,6.2,,,,,144,232,,,,,,,,,,,Autoevolution
 42be8be3f7aa6950,DE,2024,Porsche,Macan T Reliability Maintence,Wagon,4,5,,,,,Front,AWD,261,194.6,295 lb-ft,4262,5.4,5.59,15.3,,14,96,,,164,332,0.9,,,,,,,,Car & Driver
 2d5354b16d945db1,DE,2015,Porsche,Macan Turbo,SUV,4,5,Petrol,V6,3.6,TC,Front,AWD,400,298.3,406 lb-ft,4565,4.2,4.35,11,,12.9,107,,,150,,0.89,,,,,,,,"EPA - Fuel Economy, Car & Driver"
@@ -52549,7 +52440,6 @@ aeeb7393acfac0c7,DE,2021,Porsche,Panamera 4S e-Hybrid ST,Sedan,4,5,Petrol,V6,2.9
 79577ccdcda34ee2,DE,2009,Porsche,Panamera Diesel 3.0 Tiptronic,Hatchback,4,5,Diesel,V6,3,TC,Front,RWD,250,186.4,406 lb-ft,4145,6.57,6.8,,,,,150.4,242,,,,,,,,,,,Kaggle - Car Specifications
 35c2a470b673457d,DE,2013,Porsche,Panamera Diesel 3.0 Tiptronic S,Hatchback,4,5,Diesel,V6,3,TC,Front,RWD,250,186.4,406 lb-ft,4145,6.18,6.4,,,,,151.6,244,,,,,,,,,,,Kaggle - Car Specifications
 bf72ccf78a5882ab,DE,2024,Porsche,Panamera Drive,Hatchback,4,5,,,,,Mid,AWD,671,500.4,,4400,2.8,2.9,7.1,,11.1,,168,270.4,,,,,,,,,,,Car & Driver
-62f99d23a234584f,DE,2014,Porsche,Panamera First Drive Review Can Your Hybrid Do That Page 2,Hatchback,4,5,Electric/Petrol,,,,Front,4WD,,,,4100,3.2,3.32,,,11.6,,160,257.5,,,,,,,,,,,Car & Driver
 6c9dc14d41494591,DE,2014,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 f1970a14b0043e50,DE,2015,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 40032d374192ace6,DE,2016,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -52587,7 +52477,6 @@ a54965e4493b9371,DE,2016,Porsche,Panamera S,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,
 812285d48024379c,DE,2009,Porsche,Panamera S 4.8 MT,Hatchback,4,5,Petrol,V8,4.8,NA,Front,RWD,400,298.3,369 lb-ft,3902,5.41,5.6,,,,,177.1,285,,,,,,,,,,,Kaggle - Car Specifications
 faefe8ff1bcda4fc,DE,2009,Porsche,Panamera S 4.8 PDK,Hatchback,4,5,Petrol,V8,4.8,NA,Front,RWD,400,298.3,369 lb-ft,3968,5.21,5.4,,,,,175.8,283,,,,,,,,,,,Kaggle - Car Specifications
 2a8690fec7cc5592,DE,2010,Porsche,Panamera S 4S Turbo,Hatchback,4,5,Petrol,,4.8,TC,Front,4WD,,,369 lb-ft,3950,4,4.14,,,,,,,,,,,,,,,,,Car & Driver
-c909b8fc0c16f9d4,DE,2010,Porsche,Panamera S 4S Turbo Review Rear Seats Made For Driving Page 2,Hatchback,4,5,Petrol,,4.8,TC,Front,4WD,,,369 lb-ft,3950,4,4.14,,,,,,,,,,,,,,,,,Car & Driver
 1eaf5ae00a95c088,DE,2014,Porsche,Panamera S E-Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,4800,5.2,5.39,,,13.8,,167,268.8,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 1914b485fd6b3365,DE,2015,Porsche,Panamera S E-Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 c7710f8c250a8648,DE,2016,Porsche,Panamera S E-Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -52903,7 +52792,6 @@ b617188b24271a3c,US,2022,Ram,1500 Classic 4WD,Truck,4,5,Petrol,V6,3.6,NA,Front,4
 269e2c15214d3690,US,2019,Ram,1500 Crew Cab 4X4 Pickup,Truck,4,5,,V8,5.7,NA,Front,AWD,395,294.6,410 lb-ft,5541,6.1,6.32,15.8,,14.7,97,,,188,,0.77,,,,,,,,Car & Driver
 0e27cd8d10e6a841,US,2014,Ram,1500 Ecodiesel V 6,Truck,4,5,,V6,3,TC,Front,4WD,240,179,420 lb-ft,5150,7.9,8.18,,,16,,115,185.1,,,,,,,,,,,Car & Driver
 9aa0c93df7b5ea23,US,2019,Ram,1500 Etorque Hybrid Pickup,Truck,4,5,Electric/Petrol,V6,,NA,Front,RWD,,,,4895,7.2,7.46,20.1,,15.6,90,,,177,,0.78,,,,,,,,Car & Driver
-e4dca611d9cd0fda,US,2013,Ram,1500 First Drive Review Dymic Response Page 2,Truck,4,5,,,,,Front,4WD,,,,4550,6.1,6.32,18,,15,,110,177.0,,,,,,,,,,,Car & Driver
 d77b1c0bcb82765c,US,2013,Ram,1500 HFE 2WD,Truck,4,5,Petrol,V6,3.6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 cea9973c946b00b6,US,2014,Ram,1500 HFE 2WD,Truck,4,5,Petrol,V6,3.6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 cdec1b1b238544b2,US,2015,Ram,1500 HFE 2WD,Truck,4,5,Petrol,V6,3.6,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -52933,7 +52821,6 @@ c9f2107dbc2dd60b,US,2025,Ram,1500 Rho,Truck,4,5,,,,,Front,4WD,540,402.7,521 lb-f
 abe8dea1a2af0a63,US,2013,Ram,1500 SLT Crew Cab 4x4,Truck,4,5,,V6,3.6,NA,Front,4WD,305,227.4,269 lb-ft,5601,7.9,8.18,22.3,,16.1,87,,,195,,0.76,,,,,,,,Car & Driver
 f1dced0616d54158,US,2013,Ram,1500 SLT V6 8AT,Truck,4,5,Petrol,V6,3.6,NA,Front,RWD,305,227.4,269 lb-ft,5306,7.5,7.77,21.1,,15.8,88,,,196,,0.76,,,,,,,,Car & Driver
 709266f05c499880,US,2012,Ram,1500 Special Service,Truck,4,5,,V8,5.7,NA,Front,4WD,390,290.8,407 lb-ft,5700,6.7,6.94,,,15.2,,108,173.8,,,,,,,,,,,Car & Driver
-48cfd1f9a2f9a39f,US,2012,Ram,1500 Special Service First Drive Review Truckish Manners Page 2,Truck,4,5,,V8,5.7,NA,Front,4WD,390,290.8,407 lb-ft,5700,6.7,6.94,,,15.2,,108,173.8,,,,,,,,,,,Car & Driver
 4d98742d661aaae1,US,2021,Ram,1500 TRX 4WD,Truck,4,5,Petrol,V8,6.2,SC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 28403ec3b8a4c362,US,2022,Ram,1500 TRX 4WD,Truck,4,5,Petrol,V8,6.2,SC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 7c0b0e270e5de192,US,2023,Ram,1500 TRX 4WD,Truck,4,5,Petrol,V8,6.2,SC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -52944,7 +52831,7 @@ cb80160742b3f828,US,2022,Ram,1500 Trx Reliability Maintence,Truck,4,5,,,,,Front,
 719f629b4120be28,US,,Ram,2025 1500 REV,,,,Electric,,,,,AWD,,,,,4.5,4.5,,,,,,,,,,,,,,,,,Autoevolution
 dc4517dae5596b55,US,2013,Ram,2500 / 3500 HD Pickup,Truck,4,5,,,,,Front,4WD,,,,5500,8.1,8.39,,,16.2,,100,160.9,,,,,,,,,,,Car & Driver
 b8ef624431573e8e,US,2019,Ram,2500 3500 First,Truck,4,5,,,,,Front,4WD,,,,5950,7,7.25,21.2,,15.5,,100,160.9,206,,0.69,,,,,,,,Car & Driver
-bb6f1a2c728c7005,US,2013,Ram,2500 3500 Hd Pickup First Drive Review No Argument From Ram Page 2,Truck,4,5,,,,,Front,4WD,,,,5500,8.1,8.39,,,16.2,,100,160.9,,,,,,,,,,,Car & Driver
+bb6f1a2c728c7005,US,2013,Ram,2500 3500 Hd Pickup,Truck,4,5,,,,,Front,4WD,,,,5500,8.1,8.39,,,16.2,,100,160.9,,,,,,,,,,,Car & Driver
 49efc32c500104b2,US,2014,Ram,2500 HD Crew Cab 4x4 Diesel,Truck,4,5,Diesel,I6,6.7,TC,Front,4WD,370,275.9,800 lb-ft,8020,8.2,8.5,24.3,,16.3,85,,,202,,0.7,,,,,,,,Car & Driver
 8cc5824821537776,US,2014,Ram,2500 HD Crew Cab 4x4 Hemi,Truck,4,5,,V8,6.4,NA,Front,4WD,410,305.7,429 lb-ft,7039,7.9,8.18,22.5,,16.1,88,,,202,,0.7,,,,,,,,Car & Driver
 5e396d4aa1266165,US,2025,Ram,2500 Hd Limited Crew Cab 4X4,Truck,4,5,,,,,Front,4WD,430,320.7,1075 lb-ft,8480,6.3,6.53,17.8,,14.8,92,,,212,,0.71,,,,,,,,Car & Driver
@@ -54372,7 +54259,6 @@ d311243fb62b6cfb,GB,2023,Rolls-Royce,Ghost Extended,Sedan,4,5,Petrol,V12,6.7,TC,
 eb22fa79b14f2dcf,GB,2024,Rolls-Royce,Ghost Extended,Sedan,4,5,Petrol,V12,6.7,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 fa5589f51a910197,GB,2025,Rolls-Royce,Ghost Extended,Sedan,4,5,Petrol,V12,6.7,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 fa2d607f571a763c,GB,2026,Rolls-Royce,Ghost Extended,Sedan,4,5,Petrol,V12,6.7,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-0314f18020e0a63d,GB,2011,Rolls-Royce,Ghost Review A German Which Does An English Right Page 2,Sedan,4,5,,V12,6.6,TC,Front,RWD,,,575 lb-ft,5450,4.8,4.97,,,13.2,,,,,,,,,,,,,,Car & Driver
 989c59a44b6dc2ae,GB,2015,Rolls-Royce,Ghost Series II,Sedan,4,5,,V12,6.6,TC,Front,RWD,563,419.8,575 lb-ft,5550,4.7,4.87,,,13,,155,249.4,,,,,,,,,,,Car & Driver
 a435d84c9fdaf56f,GB,2014,Rolls-Royce,Ghost V-Specification 6.6 AT,Sedan,4,5,Petrol,V12,6.6,TC,Front,RWD,601,448.2,575 lb-ft,5203,4.73,4.9,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 b5dffc7f7fe4af32,GB,1996,Rolls-Royce,Limousine,Sedan,4,5,Petrol,V8,6.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -54532,7 +54418,6 @@ df975c7d5d87d3a8,GB,2013,Rolls-Royce,Wraith 6.6 AT,Coupe,2,4,Petrol,V12,6.6,TC,F
 66a367a019b6c1f8,GB,2013,Rolls-Royce,Wraith 6.6 AT Black Badge,Coupe,2,4,Petrol,V12,6.6,TC,Front,RWD,632,471.3,642 lb-ft,5379,4.35,4.5,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 e7518e284139010d,GB,2020,Rolls-Royce,Wraith Black Badge,Sedan,4,5,Petrol,V12,6.6,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 7c91d48fcbe13521,GB,2021,Rolls-Royce,Wraith Black Badge,Sedan,4,5,Petrol,V12,6.6,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-4569ae3a8ad16d2a,GB,2014,Rolls-Royce,Wraith First Drive Review Wraith Doesnt Disappoint Page 2,Coupe,2,4,,V12,6.6,TC,Front,RWD,624,465.3,590 lb-ft,5500,4.3,4.45,10,,,,155,249.4,,,,,,,,,,,Car & Driver
 26fd7c446eec1dcd,,1999,Ronart,Lightning 4.6 MT,Roadster,2,2,Petrol,V8,4.6,NA,Front,RWD,325,242.4,300 lb-ft,3086,4.83,5,,,,,180.2,290,,,,,,,,,,,Kaggle - Car Specifications
 a18529056ccf1fc0,US,2009,Roush,Ford F 250 Super Duty Propane Quick Spin,Truck,4,5,,V8,5.4,NA,Front,RWD,,,365 lb-ft,6540,8.7,9.01,,,16.8,82,,,208,,0.71,,,,,,,,Car & Driver
 194ac644573468e5,US,,Roush,Mustang,,,,,,,,,,,,,,,,,,,,,,,,,,,,,88,"Series 09, Episode 06",,Wikipedia - List of Top Gear test track Power Lap times
@@ -57494,7 +57379,6 @@ b5ac8aba9034e17d,JP,2026,Subaru,Outback AWD,SUV,4,5,Petrol,I4,2.5,TC,Front,AWD,,
 0f11b4b6504c7794,JP,2020,Subaru,Outback Drive,Wagon,4,5,Petrol,H4,2.5,NA,Front,AWD,182,135.7,176 lb-ft,3753,8.5,8.81,26.2,,16.7,84,,,171,,0.8,,,,,,,,Car & Driver
 11f5a33eb50b7485,JP,2025,Subaru,Outback Drive,Wagon,4,5,,,,,Front,AWD,,,,3700,5.8,6.01,,,14.6,,115,185.1,,,,,,,,,,,Car & Driver
 38e8653e82f5672b,JP,2026,Subaru,Outback Drive,Wagon,4,5,,,,,Front,AWD,,,,3800,6.1,6.32,,,14.7,,117,188.3,,,,,,,,,,,Car & Driver
-643d97e08a0807aa,JP,2010,Subaru,Outback Review The Outback Feels Best In The Outback Page 2,Wagon,4,5,,,2.5,,Front,4WD,,,170 lb-ft,3400,7.2,7.46,,,15.5,,,,,,,,,,,,,,Car & Driver
 b168e5bc5b2107c8,JP,2020,Subaru,Outback Touring,Wagon,4,5,Petrol,H4,2.5,NA,Front,AWD,182,135.7,176 lb-ft,3753,8.5,8.81,26.2,,16.7,84,,,171,,0.8,,,,,,,,Car & Driver
 39b12d4859196997,JP,2005,Subaru,Outback Wagon AWD,SUV,4,5,Petrol,I4,2.5,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 f14f2145ca46ba86,JP,2006,Subaru,Outback Wagon AWD,SUV,4,5,Petrol,I4,2.5,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -57624,7 +57508,6 @@ c92bab658b445d53,JP,2015,Subaru,Wrx Manual,Sedan,4,5,Petrol,H4,,TC,Front,4WD,268
 a5cb8b49fcd5cffb,JP,2015,Subaru,Wrx Sedan Manual,Sedan,4,5,Petrol,H4,,TC,Front,4WD,268,199.8,258 lb-ft,3314,4.8,4.97,13.1,,13.6,102,,,160,,0.95,,,,,,,,Car & Driver
 99cb97a6aa8bd119,JP,2020,Subaru,Wrx Series White,Sedan,4,5,Petrol,H4,,TC,Front,AWD,268,199.8,258 lb-ft,3341,5.2,5.39,14.9,,,,,,158,325,0.9,,,,,,,,Car & Driver
 7b1ecbe4789cfab5,JP,2018,Subaru,Wrx Sti,Sedan,4,5,Petrol,H4,,TC,Front,AWD,305,227.4,290 lb-ft,3451,5.3,5.49,13,,13.8,102,,,158,,0.93,,,,,,,,Car & Driver
-8e28edc4254ec44b,JP,2015,Subaru,Wrx Sti First Drive Review Its Rigidrigid Page 2,Sedan,4,5,Petrol,H4,2.5,TC,Front,4WD,305,227.4,290 lb-ft,3450,5.3,5.49,13.1,,13.6,,150,241.4,,,,,,,,,,,Car & Driver
 293c51358131e8ee,JP,2018,Subaru,Wrx Sti Type Ra Performance,Sedan,4,5,Petrol,H4,,TC,Front,AWD,310,231.2,290 lb-ft,3398,5.7,5.91,13.8,,14,101,,,156,,0.95,,,,,,,,Car & Driver
 4e7ed3de73ceaf3b,JP,2024,Subaru,Wrx Tr,Sedan,4,5,,,,,Front,AWD,271,202.1,258 lb-ft,3425,5.6,5.8,13.7,,13.9,101,,,156,322,0.95,,,,,,,,Car & Driver
 42ae26ca1fcb1f39,JP,1985,Subaru,XT,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -57673,7 +57556,6 @@ e8b91aaf5fe4b2e8,JP,2016,Subaru,XV Crosstrek Hybrid AWD,SUV,4,5,Petrol,I4,2,NA,F
 b2389a656b6413d4,JP,1985,Subaru,Xt 4Wd Turbo,Coupe,2,4,Petrol,,,TC,Front,4WD,111,82.8,134 lb-ft,2640,10.3,10.67,39.7,,17.4,79,110,177.0,208,,0.7,,,,,,,,Car & Driver
 b6650f263e8bd7ba,JP,2013,Subaru,Xv Crosstrek 20I,Wagon,4,5,Petrol,H4,2,NA,Front,4WD,148,110.4,145 lb-ft,3073,8.1,8.39,,,16.5,83,,,174,,0.81,,,,,,,,Car & Driver
 55dd30f9bd4134da,JP,2015,Subaru,Xv Crosstrek 20I,Hatchback,4,5,Petrol,H4,,NA,Front,4WD,148,110.4,145 lb-ft,3241,10.3,10.67,30.4,,17.9,80,,,186,,0.79,,,,,,,,Car & Driver
-cef36965753f312c,JP,2014,Subaru,Xv Crosstrek Hybrid First Drive Review Crossbred For Micro Variegated Climates Page 2,Wagon,4,5,Electric/Petrol,H4,,NA,Front,4WD,,,,3500,8.5,8.81,,,16.9,,115,185.1,,,,,,,,,,,Car & Driver
 8320cdb66b10f1b3,,1984,Superior Coaches Div E.p. Dutton,Funeral Coach 2WD,,,,Petrol,V8,6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 eb524a65351377b6,,1994,Superior Crown,Sovereign Cadillac Hearse Archive,Wagon,4,5,,,,,Front,RWD,260,193.9,335 lb-ft,5489,9.1,9.43,27.2,,16.9,83,,,213,,0.7,,,,,,,,Car & Driver
 d3f38e89bb70baca,JP,,Suzuki,1991 Swift 3 doors,,,,Petrol,I3,1,NA,Front,FWD,53,39,56 lb-ft,1609.4,15.9,15.9,,,,,90.1,145,,,,,,,,,,,Autoevolution
@@ -58692,7 +58574,7 @@ e42d58abeb82315c,US,2022,Tesla,Model S Plaid (19 inch wheels),Sedan,4,5,Electric
 be1d1e76e6b58392,US,2024,Tesla,Model S Plaid (19in wheels),Sedan,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 76afeb10d9730e7e,US,2025,Tesla,Model S Plaid (19in wheels),Sedan,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 56ef8fca8f1954fe,US,2021,Tesla,Model S Plaid/Tesla Model X Plaid,,,,Electric,,,,,,1020,761,,,,,,,,,,,,,,,,,,,,,Wikipedia - List of production cars by power output
-0455da4c2e5a8691,US,2013,Tesla,Model S Reviews More Made In America Than Most Page 2,Hatchback,4,5,,,,,Rear,RWD,,,,4650,4.4,4.56,,,12.6,,110,177.0,147,,,,,,,,,,Car & Driver
+0455da4c2e5a8691,US,2013,Tesla,Model S Reviews More Made In America Than Most,Hatchback,4,5,,,,,Rear,RWD,,,,4650,4.4,4.56,,,12.6,,110,177.0,147,,,,,,,,,,Car & Driver
 df161336df8122bd,US,2019,Tesla,Model S Standard Range,Sedan,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6b976d36224d0158,US,2020,Tesla,Model S Standard Range,Sedan,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 e0cedaaec59ec805,US,2016,Tesla,Model X,Hatchback,4,5,,,,,Rear,4WD,,,,5594,3.3,3.42,8.3,,11.8,116,,,172,,0.86,,,,,,,,Car & Driver
@@ -59675,7 +59557,6 @@ bf85d562026be686,JP,2005,Toyota,Camry Solara Convertible,Sedan,4,5,Petrol,V6,3.3
 26d1d0fc7c7de14a,JP,2006,Toyota,Camry Solara Convertible,Sedan,4,5,Petrol,V6,3.3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 cfb99dbec547a17e,JP,2007,Toyota,Camry Solara Convertible,Sedan,4,5,Petrol,V6,3.3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 826c72671c6ffdf4,JP,2008,Toyota,Camry Solara Convertible,Sedan,4,5,Petrol,V6,3.3,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-f7c2fecd175e7625,JP,2000,Toyota,Camry Solara Convertible Road Test Review Definitely Still A Camry Page 2,Convertible,2,4,,,,,Front,FWD,,,,3400,1.3,1.35,,,18.3,75,,,,,,,,,,,,,Car & Driver
 61f803bfd21a1305,JP,2020,Toyota,Camry TRD,Sedan,4,5,Petrol,V6,3.5,NA,Front,FWD,301,224.5,267 lb-ft,3650,5.8,6.01,14.4,,14.4,101,135,217.3,156,312,0.94,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 47a363b8a904a16e,JP,2021,Toyota,Camry TRD,Sedan,4,5,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 fd8ea6c792d3d8b6,JP,2022,Toyota,Camry TRD,Sedan,4,5,Petrol,V6,3.5,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -60364,7 +60245,6 @@ a5387da25387f413,JP,2018,Toyota,Corolla LE Eco,Sedan,4,5,Petrol,I4,1.8,NA,Front,
 02247c6308e9df25,JP,1992,Toyota,Corolla Liftback,,,,Petrol,I4,1.3,NA,Front,FWD,88,65,82 lb-ft,2248.7,11.5,11.5,,,,,108.7,175,,,,,,,,,,,Autoevolution
 3c86f4c1fbdf4932,JP,1976,Toyota,Corolla Liftback Archive,Hatchback,4,5,,,,,Front,RWD,75,55.9,,2275,,,,,18.9,72,89,143.2,199,,,,,,,,,,Car & Driver
 e2576797728281a4,JP,2016,Toyota,Corolla Manual,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,132,98.4,128 lb-ft,2869,8.5,8.81,24.8,,16.7,85,,,187,,0.81,,,,,,,,Car & Driver
-6852284ac4d4556a,JP,2003,Toyota,Corolla Road Test Review A Good Upgrade Page 2,Sedan,4,5,,I4,1.8,NA,Front,FWD,,,125 lb-ft,2500,8.4,8.7,,,16.8,,,,,,,,,,,,,,Car & Driver
 240d372bafea1d86,JP,2007,Toyota,Corolla Rumion 1.5 CVT,Van,4,7,Petrol,I4,1.5,NA,Front,FWD,109,81.3,103 lb-ft,2822,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 35d69c21b9e7d2a5,JP,2009,Toyota,Corolla Rumion 1.5 CVT,Van,4,7,Petrol,I4,1.5,NA,Front,FWD,109,81.3,100 lb-ft,2822,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 f98b8389783a014c,JP,2007,Toyota,Corolla Rumion 1.8 CVT,Van,4,7,Petrol,I4,1.8,NA,Front,FWD,136,101.4,129 lb-ft,2888,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
@@ -61920,7 +61800,7 @@ aa19b71b2928e26b,JP,2026,Toyota,Prius AWD XLE/LTD,Sedan,4,5,Petrol,I4,2,NA,Front
 a1b24e109ba862eb,JP,2014,Toyota,Prius Alpha 1.8 CVT,,,,Electric/Petrol,I4,1.8,NA,Front,FWD,99,73.8,105 lb-ft,3042,10.91,11.3,,,,,102.5,165,,,,,,,,,,,Kaggle - Car Specifications
 a7758d22dc4f859c,JP,2019,Toyota,Prius Awd E,Hatchback,4,5,Electric/Petrol,I4,,NA,Front,AWD,,,,3233,10.8,11.19,32.7,,18,78,,,194,,0.8,,,,,,,,Car & Driver
 672911a3f9e24a10,JP,2012,Toyota,Prius C 1.5 CVT,Hatchback,4,5,Electric/Petrol,I4,1.5,NA,Front,FWD,99,73.8,83 lb-ft,2500,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
-5dd4ca5caf4a38f7,JP,2012,Toyota,Prius C First Drive Reviews I Remember It Well I Drove So Slow Page 2,Wagon,4,5,,,,,Front,FWD,,,,2600,10.6,10.98,33.4,,18.2,,105,169.0,,,,,,,,,,,Car & Driver
+5dd4ca5caf4a38f7,JP,2012,Toyota,Prius C First Drive Reviews I Remember It Well I Drove So Slow,Wagon,4,5,,,,,Front,FWD,,,,2600,10.6,10.98,33.4,,18.2,,105,169.0,,,,,,,,,,,Car & Driver
 4ce1c832703c8a7d,JP,2016,Toyota,Prius Eco,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 8125b19d3b00c81f,JP,2017,Toyota,Prius Eco,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 da18187325694377,JP,2018,Toyota,Prius Eco,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -61928,7 +61808,6 @@ da18187325694377,JP,2018,Toyota,Prius Eco,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,
 926feb70b36785f8,JP,2020,Toyota,Prius Eco,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 f1039a5a1ce7480d,JP,2021,Toyota,Prius Eco,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 8e98c188daa90197,JP,2022,Toyota,Prius Eco,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-32f3bc1ee88a70dd,JP,2016,Toyota,Prius First Drive Review Betterbut Still Not Funto Drive Page 2,Hatchback,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,3050,10,10.36,,,17.6,,112,180.2,,,,,,,,,,,Car & Driver
 ff2b68318ec3500d,JP,2016,Toyota,Prius Four Touring,Hatchback,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,3118,10.5,10.88,31.4,,17.8,79,,,179,,0.79,,,,,,,,Car & Driver
 e542898325dd0592,JP,2025,Toyota,Prius PHEV,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 aa57ba9268930c48,JP,2025,Toyota,Prius PHEV SE,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -61951,7 +61830,6 @@ ddac1353a4247ea5,JP,2022,Toyota,Prius Prime,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD
 ef21cc2097c0a1c4,JP,2017,Toyota,Prius Prime Plug In Hybrid,Hatchback,4,5,Electric/Petrol,I4,,NA,Front,FWD,,,,,,,,,17.7,79,,,189,,0.83,,,,,,,,Car & Driver
 432ec92504fd35a1,JP,2023,Toyota,Prius Prime SE,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 f4c8622782b82969,JP,2024,Toyota,Prius Prime SE,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-21b0be0feec6c1bb,JP,2004,Toyota,Prius Road Test Review This Is An Exotic Machine Page 2,Sedan,4,5,,,,,Front,FWD,,,,2900,12.5,12.95,,,18.9,75,,,,,,,,,,,,,Car & Driver
 ac6d9e782396be7b,JP,2017,Toyota,Prius Three Touring,Hatchback,4,5,Electric,Electric,,NA,Front,FWD,,,,3113,10.5,10.88,30.6,,17.8,79,,,180,,0.82,,,,,,,,Car & Driver
 d5a5cfeadd8b49c2,JP,2016,Toyota,Prius Two Eco,Hatchback,4,5,Electric/Petrol,I4,1.8,NA,Front,FWD,95,70.8,105 lb-ft,3033,9.4,9.74,28,,17.2,81,,,175,,0.84,,,,,,,,Car & Driver
 741631265ed1f67b,JP,2013,Toyota,Prius V,Wagon,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,3317,10.3,10.67,34,,17.8,78,,,191,,0.75,,,,,,,,"Car & Driver, EPA - Fuel Economy"
@@ -63003,7 +62881,6 @@ dc7b2dfe8c13488a,JP,2017,Toyota,Tundra 57L V 8 Crewmax 4X4,Truck,4,5,,V8,,NA,Fro
 5cfee055cd3a949d,JP,2006,Toyota,Tundra Double Cab,,,,Petrol,V6,4,NA,Front,RWD,239,176,266 lb-ft,4930,,,,,,,,,,,,,,,,,,,Autoevolution
 a16aec85f36ab1ae,JP,2013,Toyota,Tundra Double Cab,,,,Petrol,V6,4,NA,Front,RWD,271,199,278 lb-ft,5010,,,,,,,,,,,,,,,,,,,Autoevolution
 30ba9cc347bf225f,JP,2022,Toyota,Tundra Drive,Truck,4,5,Electric,Electric,,,Front,4WD,437,325.9,,6107,5.7,5.91,18,,14.5,92,,,194,,0.71,,,,,,,,Car & Driver
-da5ecdeee94ee30f,JP,2014,Toyota,Tundra First Drive Review No Change In Opinion Page 2,,,,,,,,,,,,,4750,6.2,6.42,17.1,,14.8,,110,177.0,,,,,,,,,,,Car & Driver
 b5a88090b5f33826,JP,2026,Toyota,Tundra Hybrid 2WD,Truck,4,5,Petrol,V6,3.4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 d95c3c819f9d8565,JP,2026,Toyota,Tundra Hybrid 2WD TRD Perf,Truck,4,5,Petrol,V6,3.4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 9e5c2a34e148050a,JP,2026,Toyota,Tundra Hybrid 4WD,Truck,4,5,Petrol,V6,3.4,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -64179,7 +64056,6 @@ c3f1b7f727800433,DE,2017,Volkswagen,Beetle Convertible,Sedan,4,5,Petrol,I4,1.8,T
 cda2cae804852037,DE,2018,Volkswagen,Beetle Convertible,Sedan,4,5,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 1fbac258c785be64,DE,2019,Volkswagen,Beetle Convertible,Sedan,4,5,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 87079b8cb2a5a0fc,DE,2016,Volkswagen,Beetle Convertible 18T Denim Edition,Convertible,2,4,Petrol,I4,,TC,Front,FWD,170,126.8,184 lb-ft,3216,7.6,7.87,21,,15.8,89,,,176,,0.84,,,,,,,,Car & Driver
-1002dae540a47b8c,DE,2013,Volkswagen,Beetle Convertible First Drive Review Top This Why Dont You Page 2,Convertible,2,4,,,,,Front,FWD,,,,3300,6.5,6.73,,,15.2,,113,181.9,,,,,,,,,,,Car & Driver
 0212ad57bf3c070c,DE,2014,Volkswagen,Beetle Convertible Tdi,Convertible,2,4,Diesel,I4,,TC,Front,FWD,140,104.4,236 lb-ft,3302,8.9,9.22,27,,16.9,82,,,179,,0.81,,,,,,,,Car & Driver
 32f0b26c17b9abcb,DE,2012,Volkswagen,Beetle Drive,Hatchback,4,5,,,,,Front,FWD,,,,3050,6.3,6.53,,,14.9,,118,189.9,,,,,,,,,,,Car & Driver
 ad1ecadf91bfa3f6,DE,2016,Volkswagen,Beetle Dune,Sedan,4,5,Petrol,I4,1.8,TC,Front,FWD,170,126.8,184 lb-ft,3050,7.4,7.67,21,,15.7,,125,201.2,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
@@ -64942,7 +64818,7 @@ a49a89a12eda7503,DE,2022,Volkswagen,Golf R,Hatchback,4,5,Petrol,I4,2,TC,Front,AW
 ee2c35e75a82544c,DE,2024,Volkswagen,Golf R,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 81019668485af4a3,DE,2025,Volkswagen,Golf R,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,328,244.6,295 lb-ft,3377,4.1,4.25,10.4,,12.7,109,,,162,320,0.95,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 21c152991a425057,DE,2026,Volkswagen,Golf R,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-4e2befdf80a3fe0c,DE,2015,Volkswagen,Golf R Euro Spec First Drive Review Golfing On Ice Page 2,Hatchback,4,5,Petrol,I4,2,TC,Front,4WD,290,216.3,280 lb-ft,3300,5,5.18,,,13.7,,130,209.2,,,,,,,,,,,Car & Driver
+4e2befdf80a3fe0c,DE,2015,Volkswagen,Golf R Euro Spec,Hatchback,4,5,Petrol,I4,2,TC,Front,4WD,290,216.3,280 lb-ft,3300,5,5.18,,,13.7,,130,209.2,,,,,,,,,,,Car & Driver
 15fc8896b97cab5f,DE,2015,Volkswagen,Golf R Euro-Spec,Hatchback,4,5,Petrol,I4,2,TC,Front,4WD,290,216.3,280 lb-ft,3300,5,5.18,,,13.7,,130,209.2,,,,,,,,,,,Car & Driver
 78f786f07f1d4414,DE,2022,Volkswagen,Golf R Ice,Hatchback,4,5,Petrol,I4,,TC,Front,AWD,315,234.9,310 lb-ft,3400,4.3,4.45,11.5,,,,155,249.4,,,,,,,,,,,Car & Driver
 bd869e4527693789,DE,2016,Volkswagen,Golf R Manual,Hatchback,4,5,Petrol,I4,,TC,Front,4WD,292,217.7,280 lb-ft,3300,5.2,5.39,13,,13.9,103,130,209.2,157,,0.95,,,,,,,,Car & Driver
@@ -65021,11 +64897,9 @@ c82a33fc2d42d64d,DE,2023,Volkswagen,Golf-R,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,
 e355aada5c626448,DE,1996,Volkswagen,Golf/GTI,Sedan,4,5,Diesel,I4,1.9,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 b1b0d6cd8490ba76,DE,1997,Volkswagen,Golf/GTI,Sedan,4,5,Diesel,I4,1.9,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 6c7b47b2cb9ce86f,DE,1998,Volkswagen,Golf/GTI,Sedan,4,5,Petrol,I4,2,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-0f1385d4c4fc38ac,DE,2014,Volkswagen,Gtd First Drive Review Maybe It Should Be The Ping Pong Page 2,Hatchback,4,5,Diesel,I4,2,TC,Front,FWD,184,137.2,280 lb-ft,3200,6.9,7.15,,,15.4,,143,230.1,,,,,,,,,,,Car & Driver
 bd9361e748af9f7a,DE,1987,Volkswagen,Gti 16V Archive,Hatchback,4,5,,,,,Front,FWD,123,91.7,120 lb-ft,2423,8.5,8.81,31.8,,16.4,82,117,188.3,201,,0.81,,,,,,,,Car & Driver
 fc2d5cb9d388642f,DE,2010,Volkswagen,Gti 3 Door Dsg,Hatchback,4,5,Petrol,I4,2,TC,Front,FWD,,,207 lb-ft,3171,6.1,6.32,16.1,,14.7,96,,,175,,0.88,,,,,,,,Car & Driver
 ccad659fc4b73035,DE,2021,Volkswagen,Gti Clubsport,Hatchback,4,5,,,,,Front,FWD,296,220.7,295 lb-ft,3150,4.7,4.87,11.1,,12.8,,,,,,,,,,,,,,Car & Driver
-c44540bd078588ba,DE,2015,Volkswagen,Gti First Drive Review 2015 Volkswagen Gti Page 2,Hatchback,4,5,,,2,,Front,FWD,,,,3050,5.9,6.11,15.6,,14.4,,150,241.4,,,,,,,,,,,Car & Driver
 bd092e43208b47ce,DE,,Volkswagen,ID. Buzz 2023-Present,,,,Electric,,,,,RWD,,,,5421,10.2,10.2,,,,,,,,,,,,,,,,,Autoevolution
 3b174c37ed4bcf53,DE,2025,Volkswagen,ID. Buzz 4motion,Van,4,7,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 9237b64073911153,DE,2023,Volkswagen,ID.4,SUV,4,5,Electric,,,,,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -65677,7 +65551,6 @@ af00878bcde6fe3a,DE,2018,Volkswagen,Passat Gt,Sedan,4,5,,V6,,NA,Front,FWD,280,20
 3bbb03718ad060ce,DE,1981,Volkswagen,Passat Hatchback,,,,Petrol,I4,1.3,NA,Front,FWD,60,44,74 lb-ft,2127.5,16.8,16.8,,,,,94.4,152,,,,,,,,,,,Autoevolution
 a8517b1077f15cee,DE,2008,Volkswagen,Passat R36,,,,Petrol,V6,3.6,NA,Front,AWD,300,220,258 lb-ft,3724,5.6,5.6,,,,,155,249,,,,,,,,,,,Autoevolution
 07894f806095749e,DE,2008,Volkswagen,Passat R36 Variant,,,,Petrol,V6,3.6,NA,Front,AWD,300,220,258 lb-ft,3851,5.8,5.8,,,,,155,249,,,,,,,,,,,Autoevolution
-e37b29fe77eb33d7,DE,2006,Volkswagen,Passat Road Test Review High Class Feel Page 2,Sedan,4,5,,,,,Front,4WD,,,,3300,6.5,6.73,,,14.6,,,,,,,,,,,,,,Car & Driver
 26dafc0b72d8dfa4,DE,1998,Volkswagen,Passat Syncro,Sedan,4,5,Petrol,V6,2.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 92ea1af1e0200cd4,DE,1999,Volkswagen,Passat Syncro,Sedan,4,5,Petrol,V6,2.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 3c6e26278b9ff8a7,DE,2013,Volkswagen,Passat Tdi Diesel,Sedan,4,5,,,,TC,Front,FWD,140,104.4,236 lb-ft,3525,8.5,8.81,26.2,,16.6,83,,,181,,0.82,,,,,,,,Car & Driver
@@ -66497,7 +66370,6 @@ b1f61ef392ef85cd,DE,2012,Volkswagen,Voyage 1.0 MT,Sedan,4,5,Petrol,I4,1,NA,Front
 e3898e5f31f24652,DE,2013,Volkswagen,XL1,,,,Electric/Petrol,I2,0.8,NA,Front,RWD,48,35,89 lb-ft,1753,12.7,12.7,,,,,99,159,,,,,,,,,,,Autoevolution
 707f0fb766de8e06,DE,2013,Volkswagen,XL1 0.8 AMT,,,,Electric/Petrol,,0.8,TC,,RWD,48,35.8,,1753,12.26,12.7,,,,,99.4,160,,,,,,,,,,,Kaggle - Car Specifications
 50fef66542bbddc9,DE,2014,Volkswagen,Xl1,Coupe,2,4,Electric/Diesel,,,TC,Mid,RWD,,,,1800,12.6,13.05,,,18.6,,99,159.3,,,,,,,,,,,Car & Driver
-17e30f14a1ddad79,DE,2014,Volkswagen,Xl1 First Drive Review Lighthouse Project Page 2,Coupe,2,4,Electric/Diesel,,,TC,Mid,RWD,,,,1800,12.6,13.05,,,18.6,,99,159.3,,,,,,,,,,,Car & Driver
 f425310c84593b3f,DE,2014,Volkswagen,e-Golf,,,,Electric,,,,,FWD,116,85,199 lb-ft,3494,10.4,10.4,,,,,87,140,,,,,,,,,,,Autoevolution
 0ad4e36f37587bc7,DE,2015,Volkswagen,e-Golf,Sedan,4,5,Electric,,,,,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 cf5ae70572c44a48,DE,2016,Volkswagen,e-Golf,Sedan,4,5,Electric,,,,,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -67036,7 +66908,6 @@ a8e4ff4ba2aef1ca,SE,2021,Volvo,S60 AWD,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,
 2df6625f8b615085,SE,2019,Volvo,S60 AWD PHEV,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 a29b910ad702c458,SE,2020,Volvo,S60 AWD PHEV,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 3aa7193105b381db,SE,2021,Volvo,S60 AWD PHEV,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-db5eca607c260cc7,SE,2002,Volvo,S60 Awd Road Test Review Volvo Isnt A Swedish Word Page 2,Sedan,4,5,,,2.4,TC,Front,4WD,,,210 lb-ft,3400,7.9,8.18,20.5,,16.2,89,,,,,,,,,,,,,Car & Driver
 859f2a2f2da11d37,SE,2022,Volvo,S60 B5,Sedan,4,5,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ebae6982bc87ea1b,SE,2023,Volvo,S60 B5,Sedan,4,5,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 b30e9ac714d59514,SE,2024,Volvo,S60 B5,Sedan,4,5,Petrol,I4,2,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -67101,7 +66972,6 @@ ed8a4cc1a2c36ae5,SE,2024,Volvo,S60 T8 AWD Recharge,Sedan,4,5,Petrol,I4,2,TC,Fron
 ad07a136aaf2dacc,SE,2022,Volvo,S60 T8 AWD Recharge ext. Range,Sedan,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 93de5bf4e26c0cc2,SE,2020,Volvo,S60 T8 Reliability Maintence,Sedan,4,5,Electric/Petrol,I4,,TC,Mid,AWD,,,,4491,4.3,4.45,10.7,,12.9,109,,,175,,0.84,,,,,,,,Car & Driver
 064de0ef27c436b4,SE,2015,Volvo,S60 V60 Polestar,Sedan,4,5,Petrol,I6,2.9,TC,Front,4WD,345,257.3,369 lb-ft,4000,4.7,4.87,,,,,155,249.4,,,,,,,,,,,Car & Driver
-24d086398e66ee2c,SE,2015,Volvo,S60 V60 Polestar First Drive Review Polestar Hits The Track Page 2,Sedan,4,5,Petrol,,2.9,,Front,4WD,345,257.3,369 lb-ft,4000,4.7,4.87,,,,,155,249.4,,,,,,,,,,,Car & Driver
 051fcec3a7e906c0,SE,2015,Volvo,S60 V60 Xc60 Four Cylinder,Sedan,4,5,Petrol,I4,2,TC,Front,4WD,241,179.7,258 lb-ft,3500,6.2,6.42,,,14.6,,140,225.3,,,,,,,,,,,Car & Driver
 7e515b0c9a816a4d,SE,2016,Volvo,S60L,Sedan,4,5,Petrol,I4,,TC,Front,FWD,240,179,258 lb-ft,3698,6.3,6.53,15.8,,14.7,97,,,175,,0.9,,,,,,,,Car & Driver
 08aafa6a6451d112,SE,1997,Volvo,S70,,,,Petrol,I5,2,NA,Front,FWD,226,166.2,229 lb-ft,3219,7.8,7.8,,,,,143,230,,,,,,,,,,,Autoevolution
