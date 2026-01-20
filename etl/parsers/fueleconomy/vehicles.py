@@ -19,7 +19,7 @@ from etl.parsers.registry import register_parser
 class VehiclesParser(BaseParser):
     """Parser for fueleconomy.gov vehicles CSV data."""
 
-    SOURCE_NAME = "EPA - Fuel Economy"
+    SOURCE_NAME = "EPA"
 
     # Vehicle class mapping to body style
     VCLASS_TO_BODY_STYLE = {

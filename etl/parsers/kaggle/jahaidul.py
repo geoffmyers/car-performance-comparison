@@ -20,7 +20,7 @@ from etl.parsers.registry import register_parser
 class JahaidulParser(BaseParser):
     """Parser for Kaggle Jahaidul Islam car specification data."""
 
-    SOURCE_NAME = "Kaggle - Car Specifications"
+    SOURCE_NAME = "Kaggle"
 
     # Body type mapping to standardized body styles
     BODY_TYPE_MAP = {

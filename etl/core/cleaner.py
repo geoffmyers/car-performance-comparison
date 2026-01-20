@@ -5,13 +5,31 @@ Data cleaner for fixing implausible or incorrect values.
 This module provides:
 - Cleaning implausible acceleration values based on cross-field correlation
 - Nullifying values that fail logical consistency checks
+- Normalizing source names to short, consistent format
 """
 
+import re
 from typing import Any
 
 
 class DataCleaner:
     """Cleans and fixes implausible data values."""
+
+    # Source name normalization mappings
+    # Maps verbose source names to their short canonical form
+    SOURCE_NAME_PATTERNS = [
+        # Wikipedia patterns - consolidate all Wikipedia sources
+        (r"Wikipedia\s*-\s*.*", "Wikipedia"),
+        # Car & Driver patterns
+        (r"Car & Driver\s*-\s*Lightning\s*Lap", "Car & Driver"),
+        (r"Car\s*&\s*Driver\s*-\s*.*", "Car & Driver"),
+        # EPA/Fuel Economy patterns
+        (r"EPA\s*-\s*Fuel\s*Economy", "EPA"),
+        (r"EPA\s*-\s*.*", "EPA"),
+        # Kaggle patterns
+        (r"Kaggle\s*-\s*Car\s*Specifications", "Kaggle"),
+        (r"Kaggle\s*-\s*.*", "Kaggle"),
+    ]
 
     def __init__(self, verbose: bool = False):
         """Initialize the data cleaner.
@@ -23,6 +41,7 @@ class DataCleaner:
         self.stats = {
             "implausible_0_60_cleared": 0,
             "implausible_quarter_mile_cleared": 0,
+            "sources_normalized": 0,
         }
 
     def clean(self, data: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -36,6 +55,7 @@ class DataCleaner:
         """
         for record in data:
             self._clean_acceleration_values(record)
+            self._normalize_sources(record)
 
         if self.verbose:
             self._print_stats()
@@ -123,9 +143,60 @@ class DataCleaner:
             parts.append(record["model"])
         return " ".join(parts) if parts else "Unknown car"
 
+    def _normalize_sources(self, record: dict[str, Any]) -> None:
+        """Normalize source names to short, consistent format.
+
+        Converts verbose source names like "Wikipedia - List of Nürburgring Nordschleife lap times"
+        to just "Wikipedia", and deduplicates the resulting list.
+
+        Args:
+            record: Single car data dictionary (modified in place)
+        """
+        sources = record.get("sources", "")
+        if not sources:
+            return
+
+        # Split comma-separated sources
+        source_list = [s.strip() for s in sources.split(",")]
+
+        # Normalize each source
+        normalized = []
+        for source in source_list:
+            norm_source = self._normalize_source_name(source)
+            if norm_source and norm_source not in normalized:
+                normalized.append(norm_source)
+
+        # Update record if sources changed
+        new_sources = ", ".join(normalized)
+        if new_sources != sources:
+            record["sources"] = new_sources
+            self.stats["sources_normalized"] += 1
+
+    def _normalize_source_name(self, source: str) -> str:
+        """Normalize a single source name.
+
+        Args:
+            source: Source name to normalize
+
+        Returns:
+            Normalized source name
+        """
+        source = source.strip()
+        if not source:
+            return ""
+
+        # Try pattern-based normalization
+        for pattern, replacement in self.SOURCE_NAME_PATTERNS:
+            if re.match(pattern, source, re.IGNORECASE):
+                return replacement
+
+        # Return as-is if no pattern matched
+        return source
+
     def _print_stats(self) -> None:
         """Print cleaning statistics."""
         total = sum(self.stats.values())
         if total > 0:
             print(f"\nData cleaning summary:")
             print(f"  Implausible 0-60 values cleared: {self.stats['implausible_0_60_cleared']}")
+            print(f"  Source names normalized: {self.stats['sources_normalized']}")
