@@ -22,12 +22,18 @@ manufacturers:
   Alpina:
     country: DE
     full_name: "Alpina"
+  AM General:
+    country: US
+    full_name: "AM General"
   AMC:
     country: US
     full_name: "American Motors Corporation"
   Aprilia:
     country: IT
     full_name: "Aprilia"
+  Aro:
+    country: RO
+    full_name: "Aro"
   Ariel:
     country: GB
     full_name: "Ariel Motor Company"
@@ -66,6 +72,12 @@ manufacturers:
   Brabus:
     country: DE
     full_name: "Brabus"
+  Bristol:
+    country: GB
+    full_name: "Bristol Cars"
+  Bufori:
+    country: MY
+    full_name: "Bufori"
   Bugatti:
     country: FR
     full_name: "Bugatti"
@@ -116,6 +128,13 @@ manufacturers:
     country: RO
     full_name: "Dacia"
     parent: Renault
+  Daewoo:
+    country: KR
+    full_name: "Daewoo Motors"
+  Daihatsu:
+    country: JP
+    full_name: "Daihatsu"
+    parent: Toyota
   Dallara:
     country: IT
     full_name: "Dallara"
@@ -191,6 +210,9 @@ manufacturers:
   Hennessey:
     country: US
     full_name: "Hennessey Performance Engineering"
+  Hindustan:
+    country: IN
+    full_name: "Hindustan Motors"
   Holden:
     country: AU
     full_name: "Holden"
@@ -218,6 +240,9 @@ manufacturers:
   Iso:
     country: IT
     full_name: "Iso Rivolta"
+  Isuzu:
+    country: JP
+    full_name: "Isuzu"
   Italdesign:
     country: IT
     full_name: "Italdesign Giugiaro"
@@ -284,6 +309,9 @@ manufacturers:
   Marcos:
     country: GB
     full_name: "Marcos Engineering"
+  Marussia:
+    country: RU
+    full_name: "Marussia Motors"
   Maserati:
     country: IT
     full_name: "Maserati"
@@ -294,6 +322,10 @@ manufacturers:
   McLaren:
     country: GB
     full_name: "McLaren Automotive"
+  Maybach:
+    country: DE
+    full_name: "Maybach"
+    parent: Mercedes-Benz
   Mercedes-AMG:
     country: DE
     full_name: "Mercedes-AMG"
@@ -356,6 +388,12 @@ manufacturers:
   Pagani:
     country: IT
     full_name: "Pagani"
+  Panoz:
+    country: US
+    full_name: "Panoz"
+  Perodua:
+    country: MY
+    full_name: "Perodua"
   Peugeot:
     country: FR
     full_name: "Peugeot"
@@ -382,6 +420,12 @@ manufacturers:
   Praga:
     country: CZ
     full_name: "Praga"
+  Proton:
+    country: MY
+    full_name: "Proton"
+  Qoros:
+    country: CN
+    full_name: "Qoros"
   Prodrive:
     country: GB
     full_name: "Prodrive"
@@ -424,6 +468,17 @@ manufacturers:
   Saleen:
     country: US
     full_name: "Saleen"
+  Samsung:
+    country: KR
+    full_name: "Samsung Motors"
+  Saturn:
+    country: US
+    full_name: "Saturn"
+    parent: General Motors
+  Scion:
+    country: US
+    full_name: "Scion"
+    parent: Toyota
   SEAT:
     country: ES
     full_name: "SEAT"
@@ -448,6 +503,9 @@ manufacturers:
   SSC:
     country: US
     full_name: "SSC North America"
+  SsangYong:
+    country: KR
+    full_name: "SsangYong Motor"
   Subaru:
     country: JP
     full_name: "Subaru"
@@ -457,6 +515,9 @@ manufacturers:
   Suzuki:
     country: JP
     full_name: "Suzuki"
+  Tata:
+    country: IN
+    full_name: "Tata Motors"
   Tesla:
     country: US
     full_name: "Tesla"
@@ -488,6 +549,9 @@ manufacturers:
   Vector:
     country: US
     full_name: "Vector Motors"
+  VinFast:
+    country: VN
+    full_name: "VinFast"
   Venturi:
     country: FR
     full_name: "Venturi Automobiles"
@@ -528,7 +592,7 @@ manufacturers:
 # Aliases map non-standard names to canonical names
 # Consolidated from all existing scripts
 aliases:
-  # Case variations
+  # Case variations - uppercase to proper case
   MINI: Mini
   YANGWANG: Yangwang
   Bmw: BMW
@@ -536,6 +600,39 @@ aliases:
   bmw: BMW
   gmc: GMC
   mini: Mini
+
+  # Additional uppercase variations found in data
+  "AM General": AM General
+  "Am General": AM General
+  ARO: Aro
+  BRISTOL: Bristol
+  BUFORI: Bufori
+  CITROEN: Citroën
+  Citroen: Citroën
+  DAEWOO: Daewoo
+  DAIHATSU: Daihatsu
+  FIAT: Fiat
+  HINDUSTAN: Hindustan
+  ISUZU: Isuzu
+  MARUSSIA: Marussia
+  MASERATI: Maserati
+  MAYBACH: Maybach
+  PANOZ: Panoz
+  PERODUA: Perodua
+  PROTON: Proton
+  QOROS: Qoros
+  RAM: Ram
+  SAMSUNG: Samsung
+  SATURN: Saturn
+  SCION: Scion
+  SEAT: SEAT
+  Seat: SEAT
+  SKODA: Skoda
+  SSANGYONG: SsangYong
+  Ssangyong: SsangYong
+  TATA: Tata
+  VINFAST: VinFast
+  Vinfast: VinFast
 
   # Mercedes variations
   Mercedes: Mercedes-Benz
@@ -599,6 +696,7 @@ multi_word_manufacturers:
   - Land Rover
   - Range Rover
   - Alfa Romeo
+  - AM General
   - De Tomaso
   - W Motors
   - Mercedes-Benz
@@ -618,11 +716,14 @@ country_names:
   FR: France
   GB: United Kingdom
   HR: Croatia
+  IN: India
   IT: Italy
   JP: Japan
   KR: South Korea
+  MY: Malaysia
   NL: Netherlands
   RO: Romania
   RU: Russia
   SE: Sweden
   US: United States
+  VN: Vietnam

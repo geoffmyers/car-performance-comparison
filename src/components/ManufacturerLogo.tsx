@@ -9,15 +9,17 @@ interface ManufacturerLogoProps {
   className?: string;
 }
 
-// Manufacturers that have SVG logos available
+// Manufacturers that have SVG logos available (filename = lowercase with hyphens)
 const manufacturersWithLogos = new Set([
+  "Acura",
   "Alfa Romeo",
-  "Alpine",
+  "AM General",
   "Aston Martin",
   "Audi",
   "Bentley",
   "BMW",
   "Bugatti",
+  "Buick",
   "Cadillac",
   "Chery",
   "Chevrolet",
@@ -25,44 +27,60 @@ const manufacturersWithLogos = new Set([
   "Citroën",
   "Cupra",
   "Dacia",
+  "Daewoo",
   "Dodge",
+  "Eagle",
   "Ferrari",
   "Fiat",
+  "Fisker",
   "Ford",
+  "Genesis",
+  "Geo",
   "GMC",
   "Honda",
+  "Hummer",
   "Hyundai",
   "Infiniti",
+  "Isuzu",
   "Jaguar",
   "Jeep",
   "Kia",
   "Koenigsegg",
   "Lamborghini",
+  "Land Rover",
   "Lexus",
+  "Lincoln",
+  "Lotus",
+  "Lucid",
   "Maserati",
+  "Maybach",
   "Mazda",
   "McLaren",
   "Mercedes-AMG",
   "Mercedes-Benz",
-  "Mercedes",
   "Mercury",
-  "MG",
   "Mini",
   "Mitsubishi",
   "NIO",
   "Nissan",
+  "Oldsmobile",
   "Opel",
+  "Panoz",
   "Peugeot",
+  "Plymouth",
+  "Pontiac",
   "Porsche",
-  "Range Rover",
+  "Ram",
   "Renault",
   "Rimac",
-  "Rivian",
   "Rolls-Royce",
   "Saab",
+  "Saturn",
+  "Scion",
   "SEAT",
-  "Seat",
+  "Skoda",
   "Smart",
+  "Spyker",
   "Subaru",
   "Suzuki",
   "Tesla",
@@ -70,54 +88,68 @@ const manufacturersWithLogos = new Set([
   "TVR",
   "Volkswagen",
   "Volvo",
-  "Xiaomi",
   "Yangwang",
-  "YANGWANG",
 ]);
 
 // Map manufacturer names to logo filenames
+// Default: lowercase with spaces replaced by hyphens
+// Only include special cases where the default doesn't work
 function getLogoFilename(manufacturer: string): string {
   const mapping: Record<string, string> = {
-    "Alfa Romeo": "alfa-romeo",
-    "Aston Martin": "aston-martin",
+    // Special characters that need mapping
     "Citroën": "citroen",
+    // Hyphens preserved in name but not in filename
     "Mercedes-AMG": "mercedes-amg",
     "Mercedes-Benz": "mercedes-benz",
-    "Mercedes": "mercedes-benz",
-    "Range Rover": "range-rover",
     "Rolls-Royce": "rolls-royce",
-    "SEAT": "seat",
-    "Seat": "seat",
-    "YANGWANG": "yangwang",
   };
 
-  return mapping[manufacturer] || manufacturer.toLowerCase().replace(/\s+/g, "-");
+  return (
+    mapping[manufacturer] ||
+    manufacturer.toLowerCase().replace(/\s+/g, "-")
+  );
 }
 
 // Color palette for manufacturers (used for fallback badges)
 const manufacturerColors: Record<string, string> = {
+  "Acura": "#1C1C1C",
   "Alfa Romeo": "#B2001B",
   "Alpine": "#0055A4",
+  "AM General": "#2E4A1F",
   "Aston Martin": "#006847",
   "Audi": "#BB0A30",
   "Bentley": "#333333",
   "BMW": "#0066B1",
   "Bugatti": "#BE0030",
+  "Buick": "#C0C0C0",
   "Cadillac": "#9D8B6E",
   "Chevrolet": "#D4AF37",
+  "Daewoo": "#1E3A8A",
   "Dodge": "#BA0C2F",
+  "Eagle": "#1E3A8A",
   "Ferrari": "#DC0000",
   "Fiat": "#8B0000",
+  "Fisker": "#FF6B00",
   "Ford": "#003478",
+  "Genesis": "#1C1C1C",
+  "Geo": "#0055A4",
+  "GMC": "#CC0000",
   "Honda": "#CC0000",
+  "Hummer": "#4A4A4A",
   "Hyundai": "#002C5F",
+  "Infiniti": "#1A1A1A",
+  "Isuzu": "#CC0000",
   "Jaguar": "#1A472A",
+  "Jeep": "#2E4A1F",
   "Kia": "#05141F",
   "Koenigsegg": "#CCAA00",
   "Lamborghini": "#DAA520",
+  "Land Rover": "#005A2B",
   "Lexus": "#1A1A1A",
+  "Lincoln": "#1A1A1A",
   "Lotus": "#FFD700",
   "Maserati": "#0C2340",
+  "Maybach": "#1A1A1A",
   "Mazda": "#8B0000",
   "McLaren": "#FF8000",
   "Mercedes-Benz": "#00ADEF",
@@ -125,10 +157,19 @@ const manufacturerColors: Record<string, string> = {
   "Mini": "#000000",
   "Mitsubishi": "#ED1C24",
   "Nissan": "#C3002F",
+  "Oldsmobile": "#CC0000",
   "Pagani": "#1C1C1C",
+  "Panoz": "#CC0000",
+  "Plymouth": "#0055A4",
+  "Pontiac": "#CC0000",
   "Porsche": "#9B0E0E",
+  "RAM": "#1A1A1A",
   "Renault": "#FFD100",
   "Rimac": "#00A0E3",
+  "Saturn": "#4A4A4A",
+  "Scion": "#1A1A1A",
+  "Skoda": "#4BA82E",
+  "Spyker": "#1A1A1A",
   "Subaru": "#013C74",
   "Suzuki": "#E21836",
   "Tesla": "#CC0000",
@@ -216,6 +257,9 @@ export default function ManufacturerLogo({
 
   const logoFilename = getLogoFilename(manufacturer);
 
+  // Logos that need to be inverted (white in light mode, black in dark mode)
+  const needsInvert = ["Lucid", "Mercedes-AMG"].includes(manufacturer);
+
   return (
     <div
       className={`inline-flex items-center justify-center ${className}`}
@@ -227,7 +271,7 @@ export default function ManufacturerLogo({
         alt={`${manufacturer} logo`}
         width={size}
         height={size}
-        className="object-contain dark:invert"
+        className={`object-contain ${needsInvert ? "invert dark:invert-0" : "dark:invert"}`}
         onError={() => setImageError(true)}
       />
     </div>
