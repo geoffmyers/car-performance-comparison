@@ -1,29 +1,23 @@
 #!/usr/bin/env python3
 """
-Parse cached HTML files and extract specs to CSV.
-This script processes already-downloaded HTML files without making network requests.
+Parse existing HTML files from the html/ directory and write specs to CSV.
+
+This is a standalone script that uses the same parsing logic as fetch-car-reviews.py
+but only processes existing HTML files without fetching new ones.
 """
 
 import csv
-import logging
 import re
-import sys
 from pathlib import Path
+from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
 
-# Setup logging
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
-logger = logging.getLogger(__name__)
 
-
-def extract_year_make_model_from_filename(filename: str) -> dict:
-    """Extract year, make, model from filename."""
-    # Pattern: reviews-a12345-2025-bmw-m5-test-review.html
-    match = re.search(r"-(\d{4})-([a-z]+(?:-[a-z]+)?)-(.+?)\.html$", filename, re.I)
+def extract_year_make_model_from_url(url: str) -> dict:
+    """Extract year, make, model from URL path."""
+    path = urlparse(url).path
+    match = re.search(r"/(\d{4})-([a-z]+(?:-[a-z]+)?)-(.+?)(?:-test|-drive|-review|-by-the-numbers)?/?$", path, re.I)
     if match:
         return {
             "year": match.group(1),
@@ -33,10 +27,10 @@ def extract_year_make_model_from_filename(filename: str) -> dict:
     return {"year": "", "make": "", "model": ""}
 
 
-def parse_specs_panel(soup: BeautifulSoup, filename: str) -> dict:
+def parse_specs_panel(soup: BeautifulSoup, url: str) -> dict:
     """Parse the specs panel and extract all performance data."""
     data = {
-        "url": "",
+        "url": url,
         "year": "",
         "make": "",
         "model": "",
@@ -74,15 +68,14 @@ def parse_specs_panel(soup: BeautifulSoup, filename: str) -> dict:
         "is_estimated": "",
     }
 
-    # Extract year/make/model from filename as fallback
-    file_info = extract_year_make_model_from_filename(filename)
-    data.update(file_info)
+    # Extract year/make/model from URL as fallback
+    url_info = extract_year_make_model_from_url(url)
+    data.update(url_info)
 
     # Try to get title for better year/make/model
     title = soup.find("title")
     if title:
         title_text = title.get_text()
-        # Pattern: "2025 BMW M5 Review, Pricing, and Specs"
         match = re.match(r"(\d{4})\s+(.+?)\s+Review", title_text)
         if match:
             data["year"] = match.group(1)
@@ -156,29 +149,28 @@ def parse_specs_panel(soup: BeautifulSoup, filename: str) -> dict:
     match = re.search(r"Height[:\s]*([\d.]+)\s*in", text, re.I)
     if match:
         data["height"] = match.group(1)
-    # Curb weight (handles ranges like "4200-4300 lb")
     match = re.search(r"Curb [Ww]eight[^\d]*([\d,]+)(?:[–-][\d,]+)?\s*lb", text, re.I)
     if match:
         data["curb_weight"] = match.group(1).replace(",", "")
 
-    # Performance - 0-60 (handles ranges like "4.4-5.8 sec", captures first value)
+    # Performance - 0-60
     match = re.search(r"(?:Zero to 60 mph|60 mph)[:\s]*([\d.]+)(?:[–-][\d.]+)?\s*sec", text, re.I)
     if match:
         data["zero_to_60_mph"] = match.group(1)
 
-    # Performance - 0-100 (handles ranges)
+    # Performance - 0-100
     match = re.search(r"(?:Zero to 100 mph|100 mph)[:\s]*([\d.]+)(?:[–-][\d.]+)?\s*sec", text, re.I)
     if match:
         data["zero_to_100_mph"] = match.group(1)
 
-    # Quarter mile (handles ranges)
+    # Quarter mile
     match = re.search(r"(?:Standing ¼-mile|1/4-Mile|¼-mile)[:\s]*([\d.]+)(?:[–-][\d.]+)?\s*sec(?:\s*@\s*([\d]+)(?:[–-][\d]+)?\s*mph)?", text, re.I)
     if match:
         data["quarter_mile_time"] = match.group(1)
         if match.group(2):
             data["quarter_mile_speed"] = match.group(2)
 
-    # Top speed (already handles ranges with \d\-]+)
+    # Top speed
     match = re.search(r"Top [Ss]peed[:\s]*([\d]+)(?:[–-][\d]+)?\s*mph", text, re.I)
     if match:
         data["top_speed"] = match.group(1)
@@ -233,28 +225,37 @@ def main():
     html_dir = script_dir / "html"
     output_csv = script_dir / "car-review-specs.csv"
 
-    # Get limit from command line args
-    limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
-
     # Get all HTML files
     html_files = sorted(html_dir.glob("*.html"))
-    if limit:
-        html_files = html_files[:limit]
-
-    logger.info(f"Processing {len(html_files)} HTML files")
+    print(f"Found {len(html_files)} HTML files to process")
 
     results = []
+    files_with_specs = 0
+    files_with_perf = 0
+
     for i, html_file in enumerate(html_files, 1):
-        if i % 100 == 0:
-            logger.info(f"Processed {i}/{len(html_files)} files")
+        if i % 500 == 0:
+            print(f"Processing {i}/{len(html_files)}...")
 
         try:
             html = html_file.read_text(encoding="utf-8")
             soup = BeautifulSoup(html, "html.parser")
-            specs = parse_specs_panel(soup, html_file.name)
+
+            # Extract URL from canonical link
+            canonical = soup.find("link", rel="canonical")
+            url = canonical.get("href", "") if canonical else ""
+
+            specs = parse_specs_panel(soup, url)
             results.append(specs)
+
+            if specs.get("vehicle_type") or specs.get("engine_type"):
+                files_with_specs += 1
+
+            if specs.get("zero_to_60_mph") or specs.get("quarter_mile_time"):
+                files_with_perf += 1
+
         except Exception as e:
-            logger.error(f"Error processing {html_file.name}: {e}")
+            print(f"Error parsing {html_file.name}: {e}")
 
     # Write CSV
     if results:
@@ -264,13 +265,9 @@ def main():
             writer.writeheader()
             writer.writerows(results)
 
-        logger.info(f"\nWrote {len(results)} records to {output_csv}")
-
-        # Summary stats
-        with_perf = sum(1 for r in results if r.get("zero_to_60_mph"))
-        logger.info(f"Records with 0-60 times: {with_perf}/{len(results)}")
-    else:
-        logger.error("No results to write")
+        print(f"\nWrote {len(results)} records to {output_csv}")
+        print(f"Files with specs: {files_with_specs}/{len(results)}")
+        print(f"Files with performance data: {files_with_perf}/{len(results)}")
 
 
 if __name__ == "__main__":
