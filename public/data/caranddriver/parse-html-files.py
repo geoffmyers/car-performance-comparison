@@ -1,98 +1,29 @@
 #!/usr/bin/env python3
 """
-Fetch Car and Driver review pages, extract performance specifications,
-and save to a consolidated CSV file.
-
-Run from the caranddriver directory with the virtual environment:
-    source venv/bin/activate
-    python fetch-car-reviews.py
+Parse cached HTML files and extract specs to CSV.
+This script processes already-downloaded HTML files without making network requests.
 """
 
 import csv
-import json
 import logging
-import os
 import re
-import time
-import random
+import sys
 from pathlib import Path
-from datetime import datetime
-from urllib.parse import urlparse
 
-import requests
 from bs4 import BeautifulSoup
-
-# Configuration
-BASE_DELAY = 0.5  # Base delay between requests
-JITTER_FACTOR = 0.3  # Random jitter
-MAX_RETRIES = 3
-INITIAL_BACKOFF = 5.0
-HTML_DIR = "html"  # Directory to save HTML files
 
 # Setup logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.StreamHandler(),
-        logging.FileHandler("fetch-car-reviews.log"),
-    ],
 )
 logger = logging.getLogger(__name__)
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.5",
-    "Accept-Encoding": "gzip, deflate, br",
-    "DNT": "1",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-}
 
-
-def add_jitter(delay: float) -> float:
-    """Add random jitter to delay."""
-    jitter = delay * JITTER_FACTOR * random.random()
-    return delay + jitter
-
-
-def fetch_page(url: str, session: requests.Session) -> str | None:
-    """Fetch a page with retry logic."""
-    backoff = INITIAL_BACKOFF
-
-    for attempt in range(MAX_RETRIES):
-        try:
-            response = session.get(url, headers=HEADERS, timeout=30)
-
-            if response.status_code == 200:
-                return response.text
-            elif response.status_code == 429:
-                wait_time = max(int(response.headers.get("Retry-After", backoff)), backoff)
-                logger.warning(f"Rate limited. Waiting {wait_time}s (attempt {attempt + 1})")
-                time.sleep(add_jitter(wait_time))
-                backoff *= 2
-            else:
-                logger.error(f"HTTP {response.status_code} for {url}")
-                return None
-
-        except requests.exceptions.Timeout:
-            logger.warning(f"Timeout (attempt {attempt + 1})")
-            time.sleep(add_jitter(backoff))
-            backoff *= 2
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Request error: {e}")
-            time.sleep(add_jitter(backoff))
-            backoff *= 2
-
-    return None
-
-
-def extract_year_make_model_from_url(url: str) -> dict:
-    """Extract year, make, model from URL path."""
-    path = urlparse(url).path
-    # Pattern: /reviews/a12345/2025-bmw-m5-test/
-    match = re.search(r"/(\d{4})-([a-z]+(?:-[a-z]+)?)-(.+?)(?:-test|-drive|-review|-by-the-numbers)?/?$", path, re.I)
+def extract_year_make_model_from_filename(filename: str) -> dict:
+    """Extract year, make, model from filename."""
+    # Pattern: reviews-a12345-2025-bmw-m5-test-review.html
+    match = re.search(r"-(\d{4})-([a-z]+(?:-[a-z]+)?)-(.+?)\.html$", filename, re.I)
     if match:
         return {
             "year": match.group(1),
@@ -102,16 +33,10 @@ def extract_year_make_model_from_url(url: str) -> dict:
     return {"year": "", "make": "", "model": ""}
 
 
-def parse_value(text: str, pattern: str) -> str:
-    """Extract a value using regex pattern."""
-    match = re.search(pattern, text, re.IGNORECASE)
-    return match.group(1).strip() if match else ""
-
-
-def parse_specs_panel(soup: BeautifulSoup, url: str) -> dict:
+def parse_specs_panel(soup: BeautifulSoup, filename: str) -> dict:
     """Parse the specs panel and extract all performance data."""
     data = {
-        "url": url,
+        "url": "",
         "year": "",
         "make": "",
         "model": "",
@@ -149,9 +74,9 @@ def parse_specs_panel(soup: BeautifulSoup, url: str) -> dict:
         "is_estimated": "",
     }
 
-    # Extract year/make/model from URL as fallback
-    url_info = extract_year_make_model_from_url(url)
-    data.update(url_info)
+    # Extract year/make/model from filename as fallback
+    file_info = extract_year_make_model_from_filename(filename)
+    data.update(file_info)
 
     # Try to get title for better year/make/model
     title = soup.find("title")
@@ -168,7 +93,6 @@ def parse_specs_panel(soup: BeautifulSoup, url: str) -> dict:
 
     specs_panel = soup.find("div", attrs={"data-embed": "specs-panel"})
     if not specs_panel:
-        logger.warning(f"No specs panel found for {url}")
         return data
 
     text = specs_panel.get_text(separator="\n", strip=True)
@@ -304,67 +228,33 @@ def parse_specs_panel(soup: BeautifulSoup, url: str) -> dict:
     return data
 
 
-def url_to_filename(url: str) -> str:
-    """Convert URL to a safe filename."""
-    path = urlparse(url).path
-    # Remove leading/trailing slashes and replace remaining with dashes
-    name = path.strip("/").replace("/", "-")
-    return f"{name}.html"
-
-
 def main():
     script_dir = Path(__file__).parent
-    urls_file = script_dir / "car-review-urls.txt"
+    html_dir = script_dir / "html"
     output_csv = script_dir / "car-review-specs.csv"
-    html_dir = script_dir / HTML_DIR
 
-    # Create HTML directory
-    html_dir.mkdir(exist_ok=True)
+    # Get limit from command line args
+    limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
 
-    # Load URLs
-    with open(urls_file, "r") as f:
-        urls = [line.strip() for line in f if line.strip() and line.strip().startswith("http")]
+    # Get all HTML files
+    html_files = sorted(html_dir.glob("*.html"))
+    if limit:
+        html_files = html_files[:limit]
 
-    logger.info(f"Found {len(urls)} URLs to process")
+    logger.info(f"Processing {len(html_files)} HTML files")
 
-    # Create session
-    session = requests.Session()
-
-    # Process URLs
     results = []
-    for i, url in enumerate(urls, 1):
-        logger.info(f"Processing {i}/{len(urls)}: {url}")
+    for i, html_file in enumerate(html_files, 1):
+        if i % 100 == 0:
+            logger.info(f"Processed {i}/{len(html_files)} files")
 
-        html_file = html_dir / url_to_filename(url)
-
-        # Check if HTML already exists
-        if html_file.exists():
-            logger.info(f"  Using cached HTML: {html_file.name}")
+        try:
             html = html_file.read_text(encoding="utf-8")
-        else:
-            html = fetch_page(url, session)
-            if html:
-                html_file.write_text(html, encoding="utf-8")
-                logger.info(f"  Saved HTML: {html_file.name}")
-            else:
-                logger.error(f"  Failed to fetch: {url}")
-                continue
-
-            # Delay between requests (only for new fetches)
-            if i < len(urls):
-                delay = add_jitter(BASE_DELAY)
-                time.sleep(delay)
-
-        # Parse specs
-        soup = BeautifulSoup(html, "html.parser")
-        specs = parse_specs_panel(soup, url)
-        results.append(specs)
-
-        # Log extracted data
-        if specs.get("zero_to_60_mph"):
-            logger.info(f"  Found 0-60: {specs['zero_to_60_mph']} sec")
-        if specs.get("quarter_mile_time"):
-            logger.info(f"  Found 1/4 mile: {specs['quarter_mile_time']} sec @ {specs.get('quarter_mile_speed', 'N/A')} mph")
+            soup = BeautifulSoup(html, "html.parser")
+            specs = parse_specs_panel(soup, html_file.name)
+            results.append(specs)
+        except Exception as e:
+            logger.error(f"Error processing {html_file.name}: {e}")
 
     # Write CSV
     if results:
