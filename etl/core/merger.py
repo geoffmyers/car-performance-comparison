@@ -303,7 +303,77 @@ class DataMerger:
         for pattern in suffixes_to_remove:
             model = re.sub(pattern, "", model, flags=re.IGNORECASE)
 
-        return model.strip()
+        # Apply model name corrections
+        model = self._normalize_model_formatting(model.strip())
+
+        return model
+
+    def _normalize_model_formatting(self, model: str) -> str:
+        """Normalize model name formatting, capitalization, and fix typos.
+
+        Args:
+            model: Model name after test suffix removal
+
+        Returns:
+            Normalized model name with correct formatting
+        """
+        import re
+
+        if not model:
+            return ""
+
+        # Fix UTF-8 mojibake (e.g., "HuracÃ¡n" should be "Huracán")
+        try:
+            model = model.encode('latin-1').decode('utf-8')
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            pass  # Not mojibake, keep original
+
+        # Fix common typos
+        typo_fixes = {
+            r'\bPamera\b': 'Panamera',  # Porsche Panamera typo
+            r'\bLaferrari\b': 'LaFerrari',  # Ferrari LaFerrari
+        }
+        for pattern, replacement in typo_fixes.items():
+            model = re.sub(pattern, replacement, model, flags=re.IGNORECASE)
+
+        # Fix LP model numbers (LP610 4 -> LP610-4, LP 610-4 -> LP610-4)
+        model = re.sub(r'\bLP\s*(\d+)\s+(\d+)\b', r'LP\1-\2', model, flags=re.IGNORECASE)
+        model = re.sub(r'\bLP\s+(\d+-\d+)\b', r'LP\1', model, flags=re.IGNORECASE)
+
+        # Fix McLaren model capitalization (675Lt -> 675LT, 570Gt -> 570GT)
+        model = re.sub(r'\b(\d+)Lt\b', r'\1LT', model)
+        model = re.sub(r'\b(\d+)Gt\b', r'\1GT', model)
+        model = re.sub(r'\b(\d+)S\b', r'\1S', model)  # Ensure 570S stays correct
+
+        # Fix "Gt R" -> "GT-R" and related patterns (Nissan)
+        model = re.sub(r'\bGt R\b', 'GT-R', model)
+        model = re.sub(r'\bGt-R\b', 'GT-R', model)
+        model = re.sub(r'\bGT R\b', 'GT-R', model)
+        model = re.sub(r'\bGTR\b', 'GT-R', model)
+
+        # Fix "Gt Supercar" -> "GT Supercar" (Ford GT context)
+        model = re.sub(r'\bGt Supercar\b', 'GT Supercar', model)
+
+        # Fix Porsche 911 GTS capitalization (911 Gts -> 911 GTS)
+        model = re.sub(r'\b911\s+Gts\b', '911 GTS', model)
+        model = re.sub(r'\bGts\b', 'GTS', model)  # General GTS fix
+
+        # Fix NSX capitalization (Nsx -> NSX)
+        model = re.sub(r'\bNsx\b', 'NSX', model)
+
+        # Fix RS model capitalization (Rs7 -> RS7, Rs6 -> RS6, etc.)
+        model = re.sub(r'\bRs(\d+)\b', r'RS\1', model)
+
+        # Fix AMG capitalization
+        model = re.sub(r'\bAmg\b', 'AMG', model)
+
+        # Fix PDK transmission capitalization
+        model = re.sub(r'\bPdk\b', 'PDK', model)
+
+        # Fix common performance suffix capitalization
+        model = re.sub(r'\bNismo\b', 'NISMO', model, flags=re.IGNORECASE)
+
+        return model
 
     def _merge_into(self, existing: dict[str, Any], new: dict[str, Any]):
         """Merge new car data into existing car data.

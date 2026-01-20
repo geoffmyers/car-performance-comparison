@@ -236,9 +236,9 @@ JP,2019,Acura,NSX Hybrid,Coupe,2,2,Petrol,V6,3.5,TC,Mid,AWD,,,,,,,,,,,,,,,,,,,,,
 JP,2020,Acura,NSX Hybrid,Coupe,2,2,Petrol,V6,3.5,TC,Mid,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2021,Acura,NSX Hybrid,Coupe,2,2,Petrol,V6,3.5,TC,Mid,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2022,Acura,NSX Hybrid,Coupe,2,2,Petrol,V6,3.5,TC,Mid,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2017,Acura,NSX Supercar,Coupe,2,2,,V6,,TC,Mid,AWD,500,372.9,406 lb-ft,3868,3.1,3.21,7,,11.2,126,,,142,,1.06,,,,,,,,Car & Driver
 JP,1999,Acura,NSX Zanardi Edition,,,2,,,,,Mid,,,,,,,,,,,,,,,,,,,,,,,187.1,Car & Driver - Lightning Lap
 JP,2001,Acura,NSX-T,,,2,Petrol,V6,3,NA,Mid,RWD,252,185,210 lb-ft,3065,7.5,7.5,,,,,161.6,260,,,,,,,,,,,Autoevolution
-JP,2017,Acura,Nsx Supercar,Coupe,2,2,,V6,,TC,Mid,AWD,500,372.9,406 lb-ft,3868,3.1,3.21,7,,11.2,126,,,142,,1.06,,,,,,,,Car & Driver
 JP,2012,Acura,RDX,,,,Petrol,V6,3.5,NA,Front,AWD,273,201,251 lb-ft,3838,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,2015,Acura,RDX,,,,Petrol,V6,3.5,NA,Front,FWD,283,208.1,252 lb-ft,3781,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,2018,Acura,RDX,,,,Petrol,I4,2,TC,Front,AWD,210,154.5,280 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
@@ -3260,10 +3260,12 @@ DE,2024,Audi,RS e-tron GT,Sedan,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA -
 DE,,Audi,RS e-tron GT 2021-Present,,,,Electric,,,,,AWD,,,,,3.3,3.3,,,,,,,,,,,,,,,,,Autoevolution
 DE,2025,Audi,RS e-tron GT Performance,Sedan,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2024,Audi,RS e-tron GT performance,,,,Electric,,,,,,,,,,2.19,2.27,,,,,,,,,,,,,,,,,Wikipedia - List of fastest production cars by acceleration
+DE,2017,Audi,RS3,Sedan,4,5,Petrol,I5,,TC,Front,AWD,400,298.3,354 lb-ft,3547,3.5,3.63,8.7,,11.9,117,155,249.4,157,,0.98,,,,,,,185.6,"Car & Driver, Car & Driver - Lightning Lap"
 DE,2020,Audi,RS3,Sedan,4,5,Petrol,I5,2.5,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2022,Audi,RS3,,,,,,,,,,,,,,,,,,,,,,,,,,457.66,2022,Christian Gebhardt,,,172.5,"Car & Driver - Lightning Lap, Wikipedia - List of Nürburgring Nordschleife lap times"
 DE,2023,Audi,RS3,Sedan,4,5,Petrol,I5,2.5,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2021,Audi,"RS3 (Typ 8Y, 2021, 2.5 T, 400 PS)",,,,,,,,,,,,,,,,,,,,,,,,,,455.52,2021-06-14,Frank Stippler,,,,Wikipedia - List of Nürburgring Nordschleife lap times
+DE,2015,Audi,RS3 Sportback,Hatchback,4,5,Petrol,I5,,TC,Front,4WD,367,273.7,343 lb-ft,3350,3.9,4.04,9.3,,12.4,,,,,,,,,,,,,,Car & Driver
 DE,2011,Audi,"RS3 Sportback (8P, 2011, 2.5 T, 340 PS)",,,,,,,,,,,,,,,,,,,,,,,,,,500,2011,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 DE,2005,Audi,RS4,,,,Petrol,V8,4.2,NA,Front,AWD,420,309,317 lb-ft,3638.2,4.8,4.8,,,,,155.3,250,,,,,,,,85.7,"Series 07, Episode 02",,"Autoevolution, Wikipedia - List of Top Gear test track Power Lap times"
 DE,2007,Audi,RS4,Sedan,4,5,Petrol,V8,4.2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,85.7,"Series 07, Episode 02",191.2,"Car & Driver - Lightning Lap, Wikipedia - List of Top Gear test track Power Lap times, EPA - Fuel Economy"
@@ -3271,6 +3273,7 @@ DE,2008,Audi,RS4,Sedan,4,5,Petrol,V8,4.2,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA 
 DE,2006,Audi,RS4 (B7),,,,,,,,,,,,,,,,,,,,,,,,,,489,2006,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 DE,2006,Audi,RS4 Avant,,,,Petrol,V8,4.2,NA,Front,AWD,420,309,317 lb-ft,3770.6,4.9,4.9,,,,,155.3,250,,,,,,,,,,,Autoevolution
 DE,2013,Audi,RS4 Avant,Wagon,4,5,,,4.2,,Front,4WD,450,335.6,317 lb-ft,4200,4.2,4.35,,,12.7,,155,249.4,,,,,,,,,,,Car & Driver
+DE,2018,Audi,RS4 Avant,Hatchback,4,5,,V6,2.9,TC,Front,AWD,444,331.1,443 lb-ft,4150,4,4.14,9.1,,12.5,,155,249.4,,,,,478.52,2018-07-12,Christian Gebhardt,,,,"Car & Driver, Wikipedia - List of Nürburgring Nordschleife lap times"
 DE,2000,Audi,RS4 Avant (B5),,,,,,,,,,,,,,,,,,,,,,,,,,505,2000,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 DE,2012,Audi,RS4 Avant (B8),,,,Petrol,V8,4.2,TC,Front,AWD,450,331,317 lb-ft,3957,4.7,4.7,,,,,155,249,,,,,,,,,,,Autoevolution
 DE,2017,Audi,RS4 Avant (B9),,,,Petrol,V6,2.9,TC,Front,AWD,450,331,443 lb-ft,3946,4.1,4.1,,,,,155,249,,,,,,,,,,,Autoevolution
@@ -3288,6 +3291,7 @@ DE,,Audi,RS5 Coupe 2019-Present,,,,Petrol,V6,2.9,TC,Front,AWD,450,331,443 lb-ft,
 DE,2015,Audi,RS5 Quattro Coupe,Coupe,2,4,,V8,4.2,NA,Front,4WD,450,335.6,317 lb-ft,4050,4.4,4.56,10.4,,12.8,111,,,158,,0.96,,,,,,,,Car & Driver
 DE,2018,Audi,RS5 Sportback,,,,Petrol,V6,2.9,TC,Front,AWD,450,331,443 lb-ft,3792,9.1,9.1,,,,,155,249,,,,,,,,,,,Autoevolution
 DE,,Audi,RS5 Sportback 2019-Present,,,,Petrol,V6,3,TC,Front,AWD,450,331,443 lb-ft,3840,9,9,,,,,155,249,,,,,,,,,,,Autoevolution
+DE,2017,Audi,RS5 Tdi Diesel,Coupe,2,4,,V6,3,TC,Front,4WD,385,287.1,553 lb-ft,4000,4,4.14,10,,12.6,,174,280.0,,,,,,,,,,,Car & Driver
 DE,2003,Audi,RS6,Sedan,4,5,Petrol,V8,4.2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,93,"Series 01, Episode 08",,"EPA - Fuel Economy, Wikipedia - List of Top Gear test track Power Lap times"
 DE,2002,Audi,RS6 (C5),,,,,,,,,,,,,,,,,,,,,,,,,,500,2002,Horst von Saurma,93,"Series 01, Episode 08",,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times"
 DE,2002,Audi,RS6 Avant,,,,Petrol,V8,4.2,NA,Front,AWD,450,331,413 lb-ft,4112.3,4.7,4.7,,,,,155.3,250,,,,,,,,,,,Autoevolution
@@ -3296,16 +3300,12 @@ DE,2014,Audi,RS6 Avant (C7),,,,,,,,,,,,,,,,,,,,,,,,,,485,2014,Horst von Saurma,,
 DE,,Audi,RS6 Avant 2019-Present,,,,Petrol,V8,4,TC,Front,AWD,600,441.3,590 lb-ft,4575,3.6,3.6,,,,,155,249,,,,,,,,,,,Autoevolution
 DE,2008,Audi,RS6 Sedan,,,,Petrol,V10,5,NA,Front,AWD,580,426,479 lb-ft,4376.18,4.5,4.5,,,,,155,249,,,,,,,,,,,Autoevolution
 DE,2014,Audi,RS7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,183,Car & Driver - Lightning Lap
+DE,2016,Audi,RS7,Hatchback,4,5,,V8,4,TC,Front,AWD,560,417.6,516 lb-ft,4450,3.4,3.52,7.8,,11.6,,174,280.0,,,,,,,,,,,Car & Driver
+DE,2016,Audi,RS7 Performance,Hatchback,4,5,,V8,4,TC,Front,4WD,605,451.1,553 lb-ft,4500,3.3,3.42,7.6,,11.4,,190,305.8,,,,,,,,,,,Car & Driver
+DE,2017,Audi,RS7 Performance,Hatchback,4,5,,V8,4,TC,Front,AWD,605,451.1,516 lb-ft,4487,3.2,3.32,7.3,,11.3,125,,,160,,0.94,,,,,,,,Car & Driver
 DE,2013,Audi,RS7 Sportback,,,,Petrol,V8,4,TC,Front,AWD,560,412,516 lb-ft,4398,3.8,3.8,,,,,174,280,,,,,,,,,,,Autoevolution
 DE,2014,Audi,RS7 Sportback,Wagon,4,5,,V8,4,TC,Front,4WD,553,412.4,516 lb-ft,4500,3.5,3.63,7.9,,11.6,,155,249.4,,,,,,,,,,,Car & Driver
 DE,,Audi,RS7 Sportback 2019-Present,,,,Petrol,V8,4,TC,Front,AWD,600,441.3,590 lb-ft,4553,3.6,3.6,,,,,155,249,,,,,,,,,,,Autoevolution
-DE,2017,Audi,Rs3,Sedan,4,5,Petrol,I5,,TC,Front,AWD,400,298.3,354 lb-ft,3547,3.5,3.63,8.7,,11.9,117,155,249.4,157,,0.98,,,,,,,185.6,"Car & Driver, Car & Driver - Lightning Lap"
-DE,2015,Audi,Rs3 Sportback,Hatchback,4,5,Petrol,I5,,TC,Front,4WD,367,273.7,343 lb-ft,3350,3.9,4.04,9.3,,12.4,,,,,,,,,,,,,,Car & Driver
-DE,2018,Audi,Rs4 Avant,Hatchback,4,5,,V6,2.9,TC,Front,AWD,444,331.1,443 lb-ft,4150,4,4.14,9.1,,12.5,,155,249.4,,,,,478.52,2018-07-12,Christian Gebhardt,,,,"Car & Driver, Wikipedia - List of Nürburgring Nordschleife lap times"
-DE,2017,Audi,Rs5 Tdi Diesel,Coupe,2,4,,V6,3,TC,Front,4WD,385,287.1,553 lb-ft,4000,4,4.14,10,,12.6,,174,280.0,,,,,,,,,,,Car & Driver
-DE,2016,Audi,Rs7,Hatchback,4,5,,V8,4,TC,Front,AWD,560,417.6,516 lb-ft,4450,3.4,3.52,7.8,,11.6,,174,280.0,,,,,,,,,,,Car & Driver
-DE,2016,Audi,Rs7 Performance,Hatchback,4,5,,V8,4,TC,Front,4WD,605,451.1,553 lb-ft,4500,3.3,3.42,7.6,,11.4,,190,305.8,,,,,,,,,,,Car & Driver
-DE,2017,Audi,Rs7 Performance,Hatchback,4,5,,V8,4,TC,Front,AWD,605,451.1,516 lb-ft,4487,3.2,3.32,7.3,,11.3,125,,,160,,0.94,,,,,,,,Car & Driver
 DE,2025,Audi,S e-tron GT (20 inch wheels),Sedan,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2014,Audi,S1,,,,Petrol,I4,2,NA,Front,AWD,231,170,273 lb-ft,3064,5.8,5.8,,,,,155,249,,,,,521,2014,Horst von Saurma,,,,"Autoevolution, Wikipedia - List of Nürburgring Nordschleife lap times"
 DE,2014,Audi,S1 2.0 TFSI MT quattro,Hatchback,4,5,Petrol,I4,2,TC,Front,4WD,231,172.3,273 lb-ft,2899,5.6,5.8,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
@@ -14889,7 +14889,7 @@ US,2013,Chrysler,300 SRT8,Sedan,4,5,Petrol,V8,6.4,TC,Front,RWD,,,,,,,,,,,,,,,,,,
 US,2014,Chrysler,300 SRT8,Sedan,4,5,Petrol,V8,6.4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 US,,Chrysler,300 SRT8 2011-Present,,,,Petrol,V8,6.4,TC,Front,RWD,477,351,470 lb-ft,4365,,,,,,,,,,,,,,,,,,,Autoevolution
 US,2015,Chrysler,300 V-6 AWD,Sedan,4,5,,V6,3.6,NA,Front,4WD,292,217.7,260 lb-ft,4208,6.3,6.53,16.2,,14.8,96,,,187,,0.8,,,,,,,,Car & Driver
-US,2015,Chrysler,300 V-6 RWD/AWD First Drive Â¬,Sedan,4,5,,V6,3.6,NA,Front,AWD,,,,4050,6.3,6.53,15.8,,14.9,,120,193.1,,,,,,,,,,,Car & Driver
+US,2015,Chrysler,300 V-6 RWD/AWD First Drive ¬,Sedan,4,5,,V6,3.6,NA,Front,AWD,,,,4050,6.3,6.53,15.8,,14.9,,120,193.1,,,,,,,,,,,Car & Driver
 US,2016,Chrysler,300 V-6/V-8,Sedan,4,5,,,,,Front,4WD,,,,4000,5.3,5.49,12.8,,13.9,104,,,174,,0.81,,,,,,,,Car & Driver
 US,2015,Chrysler,300 V-8,Sedan,4,5,,V8,5.7,NA,Front,RWD,363,270.7,394 lb-ft,4408,5.3,5.49,12.8,,13.9,104,145,233.4,174,,0.81,,,,,,,,Car & Driver
 US,2007,Chrysler,300/SRT-8,Sedan,4,5,Petrol,V6,2.7,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -18222,11 +18222,11 @@ IT,,Ferrari,GTC4Lusso T 2016-Present,,,,Petrol,V8,3.9,TC,Front,RWD,610,448.7,561
 IT,2016,Ferrari,GTC4Lusso T 3.9 AMT,Coupe,2,4,Petrol,V8,3.9,TC,Front,RWD,610,454.9,561 lb-ft,4112,3.38,3.5,,,,,198.8,320,,,,,,,,,,,Kaggle - Car Specifications
 IT,2017,Ferrari,Gtc4Lusso Ferrari Face With A Volvo Booty,Hatchback,4,5,,,6.3,,Front,AWD,680,507.1,514 lb-ft,4250,3.5,3.63,7.6,,11.6,,208,334.7,,,,,,,,,,,Car & Driver
 IT,2013,Ferrari,LaFerrari,,,,Electric/Petrol,V12,6.3,NA,Mid,RWD,800,588,516 lb-ft,2976,2.8,2.8,,,,,218,351,,,,,,,,,,,Autoevolution
+IT,2014,Ferrari,LaFerrari,Coupe,2,4,Electric,Electric,,,Mid,RWD,,,,3200,2.6,2.69,5.1,,9.8,,218,350.8,,,,,,,,,,,Car & Driver
 IT,2013,Ferrari,LaFerrari 6.3 AMT,Roadster,2,2,Electric/Petrol,V12,6.3,NA,Mid,RWD,963,718.1,516 lb-ft,3494,,,,,,,217.5,350,,,,,,,,,,,Kaggle - Car Specifications
 IT,2013,Ferrari,LaFerrari 6.3 Hybrid AMT,Coupe,2,4,Electric/Petrol,V12,6.3,NA,Mid,RWD,800,596.6,516 lb-ft,2800,2.9,3,,,,,217.5,350,,,,,,,,,,,Kaggle - Car Specifications
 IT,2017,Ferrari,LaFerrari Aperta,Coupe,2,4,Petrol,V12,6.3,NA,Mid,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 IT,2014,Ferrari,LaFerrari Hybrid,Coupe,2,4,Petrol,V12,6.3,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-IT,2014,Ferrari,Laferrari,Coupe,2,4,Electric,Electric,,,Mid,RWD,,,,3200,2.6,2.69,5.1,,9.8,,218,350.8,,,,,,,,,,,Car & Driver
 IT,1985,Ferrari,Mondial,Coupe,2,4,Petrol,V8,2.9,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 IT,1985,Ferrari,Mondial 3.2,,,,Petrol,V8,3.2,NA,Front,RWD,263.6,193.9,213 lb-ft,3395,7.6,7.6,,,,,152,245,,,,,,,,,,,Autoevolution
 IT,1985,Ferrari,Mondial 3.2 Cabriolet,,,,Petrol,V8,3.2,NA,Front,RWD,263.6,193.9,213 lb-ft,3263,7.6,7.6,,,,,147,237,,,,,,,,,,,Autoevolution
@@ -21023,6 +21023,7 @@ US,2006,Ford,GT 2WD,Coupe,2,4,Petrol,V8,5.4,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,E
 US,2017,Ford,GT 3.5 AMT,Coupe,2,4,Petrol,V6,3.5,TC,Front,RWD,656,489.2,406 lb-ft,3053,2.8,2.9,,,,,216.2,348,,,,,,,,,,,Kaggle - Car Specifications
 US,2004,Ford,GT 5.4 T MT,Coupe,2,4,Petrol,V8,5.4,SC,Front,RWD,558,416.1,500 lb-ft,3351,3.48,3.6,,,,,205.1,330,,,,,,,,,,,Kaggle - Car Specifications
 US,2004,Ford,GT 5.4 T MT EU-spec,Coupe,2,4,Petrol,V8,5.4,SC,Front,RWD,549,409.4,571 lb-ft,3483,3.67,3.8,,,,,205.1,330,,,,,,,,,,,Kaggle - Car Specifications
+US,2017,Ford,GT Supercar,Coupe,2,4,,V6,,TC,Mid,RWD,647,482.5,550 lb-ft,3250,2.9,3.0,5.7,,10.6,,216,347.6,,,,,,,,,,,Car & Driver
 US,1967,Ford,GT40 4.7 MT,Coupe,2,4,Petrol,V8,4.7,TC,Mid,RWD,310,231.2,329 lb-ft,2200,5.5,5.7,,,,,152.9,246,,,,,,,,,,,Kaggle - Car Specifications
 US,1995,Ford,Galaxy,,,,Petrol,I4,2,NA,Front,FWD,116,85,125 lb-ft,3580.3,13.1,13.1,,,,,110,177,,,,,,,,,,,Autoevolution
 US,2006,Ford,Galaxy,,,,Petrol,I4,1.6,TC,Front,FWD,160,118,177 lb-ft,3823,9.9,9.9,,,,,125,201,,,,,,,,,,,Autoevolution
@@ -21059,7 +21060,6 @@ US,1995,Ford,Galaxy 2.8 AT 4x4,Van,4,7,Petrol,V6,2.8,NA,Front,AWD,174,129.8,173 
 US,1995,Ford,Galaxy 2.8 MT,Van,4,7,Petrol,V6,2.8,NA,Front,FWD,174,129.8,173 lb-ft,3935,10.14,10.5,,,,,123.7,199,,,,,,,,,,,Kaggle - Car Specifications
 US,2000,Ford,Galaxy 2.8 MT,Van,4,7,Petrol,V6,2.8,NA,Front,FWD,204,152.1,195 lb-ft,3748,9.56,9.9,,,,,134.8,217,,,,,,,,,,,Kaggle - Car Specifications
 US,2011,Ford,Grand C-Max,,,,Petrol,I3,1,TC,Front,FWD,101,74,125 lb-ft,3292,13.6,13.6,,,,,107,172,,,,,,,,,,,Autoevolution
-US,2017,Ford,Gt Supercar,Coupe,2,4,,V6,,TC,Mid,RWD,647,482.5,550 lb-ft,3250,2.9,3.0,5.7,,10.6,,216,347.6,,,,,,,,,,,Car & Driver
 US,1997,Ford,Ka,,,,Petrol,I4,1.3,NA,Front,FWD,50,36.8,72 lb-ft,1918,17.7,17.7,,,,,91,146,,,,,,,,,,,Autoevolution
 US,2008,Ford,Ka,,,,Petrol,I4,1.2,TC,Front,FWD,69,51,75 lb-ft,1851.8,13.1,13.1,,,,,98.7,159,,,,,,,,,,,Autoevolution
 US,2008,Ford,Ka 1.2 MT,Hatchback,4,5,Petrol,I4,1.2,NA,Front,FWD,69,51.5,75 lb-ft,1852,12.65,13.1,,,,,98.8,159,,,,,,,,,,,Kaggle - Car Specifications
@@ -31060,10 +31060,10 @@ RU,1984,Lada,Samara 5 Doors,,,,Petrol,I4,1.1,NA,Front,FWD,53,39,59 lb-ft,2050.3,
 ,1989,Laforza Automobile Inc,Laforza,,,,Petrol,V8,4.9,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ,1990,Laforza Automobile Inc,Laforza,,,,Petrol,V8,4.9,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 ,1986,Lambda Control Systems,300E,Sedan,4,5,Petrol,V6,3,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-IT,,Lamborghini,2009 Murcielago LP 670-4 SV,,,2,Petrol,V12,6.5,NA,Mid,AWD,670,493,487 lb-ft,3671,3.2,3.2,,,,,212,341,,,,,,,,,,,Autoevolution
-IT,,Lamborghini,2010 Gallardo LP 579-4 Spyder Performante,,,2,Petrol,V10,5.2,NA,Mid,AWD,570,419,398 lb-ft,3274,3.9,3.9,,,,,201,323,,,,,,,,,,,Autoevolution
+IT,,Lamborghini,2009 Murcielago LP670-4 SV,,,2,Petrol,V12,6.5,NA,Mid,AWD,670,493,487 lb-ft,3671,3.2,3.2,,,,,212,341,,,,,,,,,,,Autoevolution
+IT,,Lamborghini,2010 Gallardo LP579-4 Spyder Performante,,,2,Petrol,V10,5.2,NA,Mid,AWD,570,419,398 lb-ft,3274,3.9,3.9,,,,,201,323,,,,,,,,,,,Autoevolution
 IT,,Lamborghini,2013 Gallardo LP570-4 Squadra Corse,,,2,,V10,5.2,NA,Mid,AWD,570,419.2,398 lb-ft,,3.9,3.9,,,,,201,323,,,,,,,,,,,Autoevolution
-IT,,Lamborghini,2014 Huracan LP 610-4,,,2,Petrol,V10,5.2,NA,Mid,AWD,610,449,413 lb-ft,3135,3.2,3.2,,,,,202,325,,,,,,,,,,,Autoevolution
+IT,,Lamborghini,2014 Huracan LP610-4,,,2,Petrol,V10,5.2,NA,Mid,AWD,610,449,413 lb-ft,3135,3.2,3.2,,,,,202,325,,,,,,,,,,,Autoevolution
 IT,,Lamborghini,2015 Huracan LP610-4 Spyder,,,2,Petrol,V10,5.2,NA,Mid,AWD,610,448.7,413 lb-ft,3400,3.4,3.4,,,,,201,323,,,,,,,,,,,Autoevolution
 IT,,Lamborghini,2016 Huracan 580-2,,,2,Petrol,V10,5.2,NA,Mid,RWD,580,426.6,398 lb-ft,3327,3.6,3.6,,,,,198,319,,,,,,,,,,,Autoevolution
 IT,,Lamborghini,2017 Huracan Performante,,,2,Petrol,V10,5.2,NA,Mid,AWD,640,470.7,443 lb-ft,3047,2.9,2.9,,,,,202,325,,,,,,,,,,,Autoevolution
@@ -31096,10 +31096,10 @@ IT,2020,Lamborghini,Aventador Coupe,Coupe,2,2,Petrol,V12,6.5,NA,Mid,AWD,,,,,,,,,
 IT,2021,Lamborghini,Aventador Coupe,Coupe,2,2,Petrol,V12,6.5,NA,Mid,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 IT,2022,Lamborghini,Aventador Coupe,Coupe,2,2,Petrol,V12,6.5,NA,Mid,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 IT,2017,Lamborghini,Aventador Coupe LP740-4,Coupe,2,2,Petrol,V12,6.5,NA,Mid,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-IT,2011,Lamborghini,Aventador LP 700-4,,,2,Petrol,V12,6.5,NA,Mid,AWD,690,515,509 lb-ft,3472,2.9,2.9,,,,,217,349,,,,,,,,,,,Autoevolution
-IT,,Lamborghini,Aventador LP 700-4 Roadster 2012-Present,,,2,Petrol,V12,6.5,NA,Mid,AWD,700,515,509 lb-ft,3583,3,3,,,,,217,349,,,,,,,,,,,Autoevolution
+IT,2011,Lamborghini,Aventador LP700-4,,,2,Petrol,V12,6.5,NA,Mid,AWD,690,515,509 lb-ft,3472,2.9,2.9,,,,,217,349,,,,,,,,76.5,"Series 17, Episode 06",,"Autoevolution, Wikipedia - List of Top Gear test track Power Lap times"
 IT,2012,Lamborghini,Aventador LP700-4,,,2,,,,,Mid,,,,,,,,,,,,,,,,,,445,2012,Horst von Saurma,76.5,"Series 17, Episode 06",,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times"
 IT,2013,Lamborghini,Aventador LP700-4 Roadster,Targa,2,2,,V12,6.5,NA,Mid,4WD,691,515.3,509 lb-ft,4200,3,3.11,6.4,,10.9,,217,349.2,,,,,,,,,,,Car & Driver
+IT,,Lamborghini,Aventador LP700-4 Roadster 2012-Present,,,2,Petrol,V12,6.5,NA,Mid,AWD,700,515,509 lb-ft,3583,3,3,,,,,217,349,,,,,,,,,,,Autoevolution
 IT,2015,Lamborghini,Aventador LP750-4 SV,,,2,Petrol,V12,6.5,NA,Mid,AWD,751,552,509 lb-ft,3362,2.8,2.8,,,,,217,349,,,,,,,,,,,Autoevolution
 IT,2016,Lamborghini,Aventador LP750-4 SV,Coupe,2,2,,V12,6.5,NA,Mid,4WD,740,551.8,509 lb-ft,4000,2.7,2.8,6.2,,10.7,,220,354.1,,,,,,,,,,,Car & Driver
 IT,2015,Lamborghini,Aventador LP750-4 SV Roadster,,,2,Petrol,V12,6.5,NA,Mid,AWD,750,551.6,509 lb-ft,3472,2.9,2.9,,,,,217,349,,,,,,,,,,,Autoevolution
@@ -31167,7 +31167,7 @@ IT,1998,Lamborghini,Diablo 5.7 MT 4WD,Coupe,2,4,Petrol,V12,5.7,NA,Mid,4WD,530,39
 IT,1993,Lamborghini,Diablo 5.7 MT Jota,Coupe,2,4,Petrol,V12,5.7,NA,Mid,FWD,591,440.7,471 lb-ft,3197,3.77,3.9,,,,,211.3,340,,,,,,,,,,,Kaggle - Car Specifications
 IT,1998,Lamborghini,Diablo 5.8 GT2 MT,Coupe,2,4,Petrol,V12,5.8,TC,Mid,RWD,640,477.2,465 lb-ft,3285,3.19,3.3,,,,,198.8,320,,,,,,,,,,,Kaggle - Car Specifications
 IT,1998,Lamborghini,Diablo 6.0 GT MT,Coupe,2,4,Petrol,V12,6,NA,Mid,RWD,575,428.8,465 lb-ft,3373,3.57,3.7,,,,,210,338,,,,,,,,,,,Kaggle - Car Specifications
-IT,1998,Lamborghini,Diablo 6.0 GTR MT,Coupe,2,2,Petrol,V12,6,NA,Mid,RWD,590,440,472 lb-ft,3086,3.57,3.7,,,,,211.3,340,,,,,,,,,,,Kaggle - Car Specifications
+IT,1998,Lamborghini,Diablo 6.0 GT-R MT,Coupe,2,2,Petrol,V12,6,NA,Mid,RWD,590,440,472 lb-ft,3086,3.57,3.7,,,,,211.3,340,,,,,,,,,,,Kaggle - Car Specifications
 IT,2000,Lamborghini,Diablo 6.0 MT 4WD,Coupe,2,4,Petrol,V12,6,NA,Mid,4WD,550,410.1,457 lb-ft,3583,3.81,3.95,,,,,205.1,330,,,,,,,,,,,Kaggle - Car Specifications
 IT,2000,Lamborghini,Diablo GT,,,,,,,,Mid,,,,,,,,,,,,,,,,,,484,2000,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 IT,1996,Lamborghini,Diablo Roadster,,,2,Petrol,V12,5.7,NA,Mid,AWD,492,362,428 lb-ft,3583,4,4,,,,,206,332,,,,,,,,,,,Autoevolution
@@ -31198,15 +31198,14 @@ IT,2013,Lamborghini,Gallardo Coupe,Coupe,2,2,Petrol,V10,5.2,NA,Mid,AWD,,,,,,,,,,
 IT,2014,Lamborghini,Gallardo Coupe,Coupe,2,2,Petrol,V10,5.2,NA,Mid,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 IT,2007,Lamborghini,Gallardo Coupe SL,Coupe,2,2,Petrol,V10,5,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 IT,2003,Lamborghini,"Gallardo E-Gear (pre-facelift, 2003, 500 PS)",,,2,,,,,Mid,,,,,,,,,,,,,,,,,,472,2003,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
-IT,2012,Lamborghini,Gallardo LP 550-2 Spyder,,,2,Petrol,V10,5.2,NA,Mid,RWD,550,405,398 lb-ft,3351,4.2,4.2,,,,,198,319,,,,,,,,,,,Autoevolution
-IT,2009,Lamborghini,Gallardo LP 550-2 Valentino Balboni,,,2,Petrol,V10,5.2,NA,Mid,RWD,550,410,398 lb-ft,3042,3.9,3.9,,,,,199,320,,,,,,,,,,,Autoevolution
-IT,2008,Lamborghini,Gallardo LP 560-4,,,2,Petrol,V10,5.2,NA,Mid,AWD,552,406,398 lb-ft,3307,3.7,3.7,,,,,202,325,,,,,,,,,,,Autoevolution
-IT,2012,Lamborghini,Gallardo LP 560-4 (2),,,2,Petrol,V10,5.2,NA,Mid,AWD,560,412,398 lb-ft,3307,3.7,3.7,,,,,202,325,,,,,,,,,,,Autoevolution
-IT,2012,Lamborghini,Gallardo LP 570-4 Edizione Tecnica,,,2,Petrol,V10,5.2,NA,Mid,AWD,570,419,398 lb-ft,2954,3.4,3.4,,,,,202,325,,,,,,,,,,,Autoevolution
-IT,2010,Lamborghini,Gallardo LP 570-4 Superleggera,,,2,Petrol,V10,5.2,NA,Mid,AWD,570,419,398 lb-ft,2954,3.4,3.4,,,,,202,325,,,,,,,,,,,Autoevolution
-IT,2008,Lamborghini,"Gallardo LP560-4 (2008, 560 PS)",,,2,,,,,Mid,,,,,,,,,,,,,,,,,,472,2008,Horst von Saurma,79.5,"Series 12, Episode 01",,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times"
+IT,2012,Lamborghini,Gallardo LP550-2 Spyder,,,2,Petrol,V10,5.2,NA,Mid,RWD,550,405,398 lb-ft,3351,4.2,4.2,,,,,198,319,,,,,,,,,,,Autoevolution
+IT,2009,Lamborghini,Gallardo LP550-2 Valentino Balboni,,,2,Petrol,V10,5.2,NA,Mid,RWD,550,410,398 lb-ft,3042,3.9,3.9,,,,,199,320,,,,,,,,,,,Autoevolution
+IT,2008,Lamborghini,Gallardo LP560-4,,,2,Petrol,V10,5.2,NA,Mid,AWD,552,406,398 lb-ft,3307,3.7,3.7,,,,,202,325,,,,,472,2008,Horst von Saurma,79.5,"Series 12, Episode 01",,"Autoevolution, Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times"
+IT,2012,Lamborghini,Gallardo LP560-4 (2),,,2,Petrol,V10,5.2,NA,Mid,AWD,560,412,398 lb-ft,3307,3.7,3.7,,,,,202,325,,,,,,,,,,,Autoevolution
+IT,2012,Lamborghini,Gallardo LP570-4 Edizione Tecnica,,,2,Petrol,V10,5.2,NA,Mid,AWD,570,419,398 lb-ft,2954,3.4,3.4,,,,,202,325,,,,,,,,,,,Autoevolution
 IT,2010,Lamborghini,Gallardo LP570-4 Superleggara,,,2,,,,,Mid,,,,,,,,,,,,,,,,,,,,,,,171.8,Car & Driver - Lightning Lap
 IT,2007,Lamborghini,Gallardo LP570-4 Superleggera,,,2,,,,,Mid,,,,,,,,,,,,,,,,,,466,2007,Horst von Saurma,80.8,,,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times"
+IT,2010,Lamborghini,Gallardo LP570-4 Superleggera,,,2,Petrol,V10,5.2,NA,Mid,AWD,570,419,398 lb-ft,2954,3.4,3.4,,,,,202,325,,,,,,,,80.8,,,"Autoevolution, Wikipedia - List of Top Gear test track Power Lap times"
 IT,2005,Lamborghini,Gallardo SE,,,2,Petrol,V10,5,NA,Mid,AWD,520,382,376 lb-ft,3153,4,4,,,,,196,315,,,,,,,,,,,Autoevolution
 IT,2006,Lamborghini,"Gallardo SE (2006, 520 PS)",,,2,,,,,Mid,,,,,,,,,,,,,,,,,,476.65,2006-03,Tom Kristensen,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 IT,2006,Lamborghini,Gallardo Spyder,,,2,Petrol,V10,5,NA,Mid,AWD,520,388,376 lb-ft,3461,4,4,,,,,195,314,,,,,,,,85.7,"Series 08, Episode 07",,"Autoevolution, Wikipedia - List of Top Gear test track Power Lap times"
@@ -31240,12 +31239,12 @@ IT,2023,Lamborghini,Huracan Coupe 2WD,Coupe,2,2,Petrol,V10,5.2,NA,Mid,RWD,,,,,,,
 IT,2024,Lamborghini,Huracan Coupe 2WD,Coupe,2,2,Petrol,V10,5.2,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 IT,2022,Lamborghini,Huracan Coupe RWD,Coupe,2,2,Petrol,V10,5.2,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 IT,2020,Lamborghini,Huracan EVO,,,2,,,,,Mid,,,,,,,,,,,,,,,,,,,,,,,165,Car & Driver - Lightning Lap
-IT,2014,Lamborghini,Huracan LP 580-2,Coupe,2,2,Petrol,V10,5.2,NA,Mid,RWD,580,432.5,398 lb-ft,3327,3.28,3.4,,,,,74.6,120,,,,,,,,,,,Kaggle - Car Specifications
-IT,2014,Lamborghini,Huracan LP 610-4,Coupe,2,2,Petrol,V10,5.2,NA,Mid,AWD,610,454.9,413 lb-ft,3135,3.09,3.2,,,,,201.9,325,,,,,,,,,,,Kaggle - Car Specifications
-IT,2014,Lamborghini,Huracan LP 640-4 PERFORMANTE,Coupe,2,2,Petrol,V10,5.2,NA,Mid,4WD,640,477.2,443 lb-ft,3047,2.8,2.9,,,,,201.9,325,,,,,,,,,,,Kaggle - Car Specifications
+IT,2014,Lamborghini,Huracan LP580-2,Coupe,2,2,Petrol,V10,5.2,NA,Mid,RWD,580,432.5,398 lb-ft,3327,3.28,3.4,,,,,74.6,120,,,,,,,,,,,Kaggle - Car Specifications
 IT,2016,Lamborghini,Huracan LP580-2,Coupe,2,2,,V10,5.2,NA,Mid,RWD,572,426.5,398 lb-ft,3350,2.9,3.0,6.4,,10.8,,199,320.3,,,,,,,,,,,Car & Driver
+IT,2014,Lamborghini,Huracan LP610-4,Coupe,2,2,Petrol,V10,5.2,NA,Mid,AWD,610,454.9,413 lb-ft,3135,3.09,3.2,,,,,201.9,325,,,,,,,,,,,Kaggle - Car Specifications
+IT,2015,Lamborghini,Huracan LP610-4,Coupe,2,2,,V10,5.2,NA,Mid,4WD,602,448.9,413 lb-ft,3423,2.5,2.59,5.7,,10.4,135,,,144,,1.01,,,,,,,,Car & Driver
 IT,2016,Lamborghini,Huracan LP610-4 Spyder,Convertible,2,2,,V10,5.2,NA,Mid,4WD,602,448.9,413 lb-ft,3650,2.8,2.9,5.9,,10.6,,201,323.5,,,,,,,,,,,Car & Driver
-IT,2015,Lamborghini,Huracan Lp610 4,Coupe,2,2,,V10,5.2,NA,Mid,4WD,602,448.9,413 lb-ft,3423,2.5,2.59,5.7,,10.4,135,,,144,,1.01,,,,,,,,Car & Driver
+IT,2014,Lamborghini,Huracan LP640-4 PERFORMANTE,Coupe,2,2,Petrol,V10,5.2,NA,Mid,4WD,640,477.2,443 lb-ft,3047,2.8,2.9,,,,,201.9,325,,,,,,,,,,,Kaggle - Car Specifications
 IT,2018,Lamborghini,Huracan Performante,Coupe,2,2,,V10,5.2,NA,Mid,AWD,631,470.5,443 lb-ft,3350,2.4,2.49,5.6,,10.2,,202,325.1,,,,,,,,,,,Car & Driver
 IT,2016,Lamborghini,Huracan Spyder,Coupe,2,2,Petrol,V10,5.2,NA,Mid,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 IT,2017,Lamborghini,Huracan Spyder,Coupe,2,2,Petrol,V10,5.2,NA,Mid,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -31265,10 +31264,9 @@ IT,2023,Lamborghini,Huracan Spyder 2WD,Coupe,2,2,Petrol,V10,5.2,NA,Mid,RWD,,,,,,
 IT,2022,Lamborghini,Huracan Spyder RWD,Coupe,2,2,Petrol,V10,5.2,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 IT,2024,Lamborghini,Huracan Sterrato,Coupe,2,2,Petrol,V10,5.2,NA,Mid,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 IT,2023,Lamborghini,Huracan Tecnica,,,2,,,,,Mid,,,,,,,,,,,,,,,,,,,,,,,163.9,Car & Driver - Lightning Lap
-IT,2015,Lamborghini,HuracÃ¡n LP610-4,Coupe,2,4,,V10,5.2,NA,Mid,4WD,602,448.9,413 lb-ft,3400,2.9,3.0,6.7,,10.9,,202,325.1,,,,,,,,,,,Car & Driver
 IT,,Lamborghini,Huracán,,,,,,,,,,,,,,2.5,2.59,,,,,,,,,,,,,,,,,Wikipedia - List of fastest production cars by acceleration
 IT,2015,Lamborghini,Huracán,,,,,,,,,,,,,,10.6,10.98,,,,,,,,,,,,,,,,,Wikipedia - List of fastest production cars by acceleration
-IT,2015,Lamborghini,Huracán LP 610-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,167.5,Car & Driver - Lightning Lap
+IT,2015,Lamborghini,Huracán LP610-4,Coupe,2,4,,V10,5.2,NA,Mid,4WD,602,448.9,413 lb-ft,3400,2.9,3.0,6.7,,10.9,,202,325.1,,,,,,,,75.8,"Series 22, Episode 01",167.5,"Car & Driver - Lightning Lap, Car & Driver, Wikipedia - List of Top Gear test track Power Lap times"
 IT,2016,Lamborghini,Huracán LP610-4,,,,,,,,,,,,,,,,,,,,,,,,,,448,2016-07,Christian Gebhardt,75.8,"Series 22, Episode 01",,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times"
 IT,2018,Lamborghini,Huracán Performante,,,,,,,,,,,,,,2.2,2.28,,,,,,,,,,,,,,,,164,"Car & Driver - Lightning Lap, Wikipedia - List of fastest production cars by acceleration"
 IT,2016,Lamborghini,Huracán Performante LP640-4 (2017),,,,,,,,,,,,,,,,,,,,,,,,,,416.45,2016-10-05,Marco Mapelli,,,,Wikipedia - List of Nürburgring Nordschleife lap times
@@ -33786,7 +33784,7 @@ CN,2023,M-Hero,917 BEV,,,,Electric,,,,,,1073,800,,,,,,,,,,,,,,,,,,,,,Wikipedia -
 ,2005,MERCEDES,BENZ CLK Cabrio (A209),,,,Petrol,I4,1.8,SC,Front,RWD,163,120,177 lb-ft,3516,10.5,10.5,,,,,139,224,,,,,,,,,,,Autoevolution
 ,2004,MERCEDES,BENZ CLK DTM AMG (C209),,,,Petrol,V8,5.4,SC,Front,RWD,582,428.1,590 lb-ft,3854,3.9,3.9,,,,,198.8,320,,,,,,,,,,,Autoevolution
 ,2006,MERCEDES,BENZ CLK DTM AMG Cabrio (A209),,,,Petrol,V8,5.4,SC,Front,RWD,582,428.1,590 lb-ft,3854,4,4,,,,,186.4,300,,,,,,,,,,,Autoevolution
-,1998,MERCEDES,BENZ CLK GTR AMG,,,2,Petrol,V12,6.9,NA,Front,RWD,612,450,568 lb-ft,3404,3.6,3.6,,,,,199,320,,,,,,,,,,,Autoevolution
+,1998,MERCEDES,BENZ CLK GT-R AMG,,,2,Petrol,V12,6.9,NA,Front,RWD,612,450,568 lb-ft,3404,3.6,3.6,,,,,199,320,,,,,,,,,,,Autoevolution
 ,2011,MERCEDES,BENZ CLS 63 AMG (C218),,,,Petrol,V8,5.5,NA,Front,AWD,557,410,531 lb-ft,4123,3.7,3.7,,,,,155,249,,,,,,,,,,,Autoevolution
 ,2006,MERCEDES,BENZ CLS 63 AMG (C219),,,,Petrol,V8,6.2,NA,Front,RWD,514,378,465 lb-ft,4200.5,4.5,4.5,,,,,155.3,250,,,,,,,,,,,Autoevolution
 ,2008,MERCEDES,BENZ CLS 63 AMG (C219),,,,Petrol,V8,6.2,NA,Front,RWD,514,378,465 lb-ft,4199.8,4.5,4.5,,,,,155,249,,,,,,,,,,,Autoevolution
@@ -35831,7 +35829,7 @@ GB,,McLaren,2024 750S Spider,,,2,Petrol,V8,,TC,Mid,RWD,750,551.6,590 lb-ft,3170,
 GB,,McLaren,2024 GTS,,,,Petrol,V8,4,TC,Mid,RWD,635,467,465 lb-ft,3351,3.2,3.2,,,,,203,327,,,,,,,,,,,Autoevolution
 GB,,McLaren,2025 Artura Spider,,,2,Electric/Petrol,V6,3,TC,Mid,,605,445,432 lb-ft,3439,3,3,,,,,205,330,,,,,,,,,,,Autoevolution
 GB,,McLaren,540C 2015-Present,,,,Petrol,V8,3.8,TC,Mid,RWD,540,397.2,398 lb-ft,2976,3.5,3.5,,,,,199,320,,,,,,,,,,,Autoevolution
-GB,2017,McLaren,570Gt,Coupe,2,4,,V8,,TC,Mid,RWD,562,419.1,443 lb-ft,3350,2.8,2.9,6.1,,10.8,,204,328.3,,,,,,,,,,,Car & Driver
+GB,2017,McLaren,570GT,Coupe,2,4,,V8,,TC,Mid,RWD,562,419.1,443 lb-ft,3350,2.8,2.9,6.1,,10.8,,204,328.3,,,,,,,,,,,Car & Driver
 GB,2016,McLaren,570S,Coupe,2,4,,V8,,TC,Mid,RWD,562,419.1,443 lb-ft,3200,2.7,2.8,6.3,,10.9,,204,328.3,,,,,,,,,,167.4,"Car & Driver - Lightning Lap, Wikipedia - List of fastest production cars by acceleration, Car & Driver"
 GB,2016,McLaren,570S Coupe,Coupe,2,4,,V8,,TC,Mid,RWD,562,419.1,443 lb-ft,3189,2.9,3.0,6.1,,10.7,134,,,144,,1.05,,,,,,,,Car & Driver
 GB,2018,McLaren,570S Spider,Convertible,2,2,,V8,,TC,Mid,RWD,562,419.1,443 lb-ft,3300,3,3.11,6.2,,10.8,,204,328.3,,,,,,,,,,,Car & Driver
@@ -35846,8 +35844,8 @@ GB,2015,McLaren,650S,Coupe,2,4,,V8,3.8,TC,Mid,RWD,641,478,500 lb-ft,3050,10.5,10
 GB,2014,McLaren,650S Spider,,,2,Petrol,V8,3.8,TC,Mid,RWD,650,478.1,500 lb-ft,3236,3,3,,,,,207,333,,,,,,,,,,,Autoevolution
 GB,2015,McLaren,650S Spider,,,2,,,,,Mid,,,,,,,,,,,,,,,,,,455,2015,Horst von Saurma,,,165.8,"Car & Driver - Lightning Lap, Wikipedia - List of Nürburgring Nordschleife lap times"
 GB,2015,McLaren,675LT,,,,Petrol,V8,3.8,TC,Mid,RWD,675,496,516 lb-ft,2928,2.9,2.9,,,,,205,330,,,,,,,,73.7,"Series 23, Episode 02",,"Autoevolution, Wikipedia - List of Top Gear test track Power Lap times, Wikipedia - List of fastest production cars by acceleration"
+GB,2016,McLaren,675LT,Coupe,2,4,,V8,3.8,TC,Mid,RWD,666,496.6,516 lb-ft,2950,2.7,2.8,5.7,,10.5,,205,329.9,,,,,,,,,,,Car & Driver
 GB,2016,McLaren,675LT Spider,,,2,Petrol,V8,3.8,TC,Mid,RWD,675,496.5,516 lb-ft,3020,2.9,2.9,,,,,203,327,,,,,,,,,,,Autoevolution
-GB,2016,McLaren,675Lt,Coupe,2,4,,V8,3.8,TC,Mid,RWD,666,496.6,516 lb-ft,2950,2.7,2.8,5.7,,10.5,,205,329.9,,,,,,,,,,,Car & Driver
 GB,2017,McLaren,720S,,,,,,,,Mid,,,,,,2.7,2.8,,,,,,,,,,,,,,,,,Wikipedia - List of fastest production cars by acceleration
 GB,2018,McLaren,720S,Coupe,2,4,,V8,4,TC,Mid,RWD,710,529.4,568 lb-ft,3150,2.8,2.9,5.5,,10.4,,212,341.2,,,,,428.34,2018-06-28,Christian Gebhardt,,,159.7,"Car & Driver, Car & Driver - Lightning Lap, Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of fastest production cars by acceleration"
 GB,,McLaren,720S 2017-Present,,,,Petrol,V8,4,TC,Mid,RWD,720.1,529.6,568 lb-ft,2915,2.9,2.9,,,,,212,341,,,,,,,,,,,Autoevolution
@@ -35947,7 +35945,7 @@ DE,,Mercedes-AMG,2019 CLA 35 Coupe,,,,Petrol,I4,2,TC,Front,AWD,306,225.1,295 lb-
 DE,,Mercedes-AMG,2019 CLA 45 4MATIC+ Shooting Brake,,,,Petrol,I4,2,TC,Front,AWD,387,284.6,354 lb-ft,,4.1,4.1,,,,,155,249,,,,,,,,,,,Autoevolution
 DE,,Mercedes-AMG,2019 CLA 45 Coupe,,,,Petrol,I4,2,TC,Front,AWD,387,284.6,354 lb-ft,3417,4.1,4.1,,,,,155,249,,,,,,,,,,,Autoevolution
 DE,,Mercedes-AMG,2019 GT 53 4MATIC+ (X290,,,,Petrol,I6,3,TC,Front,AWD,435,319.9,384 lb-ft,4343,4.5,4.5,,,,,177,285,,,,,,,,,,,Autoevolution
-DE,,Mercedes-AMG,2019 GT R Roadster,,,2,Petrol,V8,4,TC,Front,AWD,585,430.3,516 lb-ft,3605,3.6,3.6,,,,,197,317,,,,,,,,,,,Autoevolution
+DE,,Mercedes-AMG,2019 GT-R Roadster,,,2,Petrol,V8,4,TC,Front,AWD,585,430.3,516 lb-ft,3605,3.6,3.6,,,,,197,317,,,,,,,,,,,Autoevolution
 DE,,Mercedes-AMG,2020 GLB 35,,,,Petrol,I4,2,TC,Front,AWD,306,225.1,295 lb-ft,,5.2,5.2,,,,,155,249,,,,,,,,,,,Autoevolution
 DE,,Mercedes-AMG,2020 GLC 43 4MATIC Coupe,,,,Petrol,V6,3,TC,Front,AWD,390,286.8,384 lb-ft,,4.9,4.9,,,,,155,249,,,,,,,,,,,Autoevolution
 DE,,Mercedes-AMG,2020 GLE,,,,Petrol,I6,3,TC,Front,RWD,435,319.9,384 lb-ft,4916,5.3,5.3,,,,,155,249,,,,,,,,,,,Autoevolution
@@ -36063,18 +36061,18 @@ DE,2020,Mercedes-AMG,GT Black Series,,,,,,,,,,,,,,2.9,3.0,,,,,,,,,,,408.05,2020-
 DE,2021,Mercedes-AMG,GT Black Series,,,,,,,,,,,,,,2.9,3.0,,,,,,,,,,,412.54,2021-07-07,Christian Gebhardt,,,157,"Car & Driver - Lightning Lap, Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of fastest production cars by acceleration"
 DE,2016,Mercedes-AMG,GT C Roadster (R190),,,2,Petrol,V8,4,TC,Front,RWD,557,409.7,502 lb-ft,3825,3.7,3.7,,,,,196,315,,,,,,,,,,,Autoevolution
 DE,,Mercedes-AMG,GT C Roadster (R190) 2018-Present,,,2,Petrol,V8,4,TC,Front,RWD,557,409.7,502 lb-ft,3825,3.7,3.7,,,,,197,317,,,,,,,,,,,Autoevolution
-DE,2018,Mercedes-AMG,GT R,Hatchback,4,5,,V8,,TC,Front,RWD,577,430.3,516 lb-ft,3650,2.9,3.0,6.7,,11.1,,197,317.0,,,,,,,,76,"Series 24, Episode 06",163.4,"Car & Driver - Lightning Lap, Wikipedia - List of Top Gear test track Power Lap times, Car & Driver"
-DE,2016,Mercedes-AMG,GT R (2017),,,,,,,,,,,,,,,,,,,,,,,,,,430.92,2016-11-04,Christian Gebhardt,,,,Wikipedia - List of Nürburgring Nordschleife lap times
-DE,,Mercedes-AMG,GT R (C 190) 2018-Present,,,,Petrol,V8,4,TC,Front,RWD,585,430.3,516 lb-ft,3428,,,,,,,,,,,,,,,,,,,Autoevolution
-DE,,Mercedes-AMG,GT R PRO 2018-Present,,,,Petrol,V8,4,TC,Front,RWD,585,430.3,516 lb-ft,,3.6,3.6,,,,,198,319,,,,,,,,,,,Autoevolution
-DE,2018,Mercedes-AMG,GT R Pro,,,,,,,,,,,,,,,,,,,,,,,,,,424.63,2018-11,Maro Engel,,,,Wikipedia - List of Nürburgring Nordschleife lap times
-DE,2019,Mercedes-AMG,GT R Pro,,,,,,,,,,,,,,,,,,,,,,,,,,426.6,2019-05-22,Christian Gebhardt,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 DE,2018,Mercedes-AMG,GT Roadster / GT C Roadster Drive,Convertible,2,2,,V8,,TC,Front,RWD,,,,3800,3,3.11,6.9,,11.2,,188,302.6,,,,,,,,,,,Car & Driver
 DE,,Mercedes-AMG,GT Roadster 2020-Present,,,2,Petrol,V8,4,TC,Front,RWD,530,389.8,,,,,,,,,,,,,,,,,,,,,Autoevolution
 DE,2016,Mercedes-AMG,GT S,Hatchback,4,5,,V8,,TC,Front,RWD,503,375.1,479 lb-ft,3600,3.5,3.63,,,11.5,,193,310.6,,,,,456,2016,Christian Gebhardt,,,171,"Car & Driver - Lightning Lap, Wikipedia - List of Nürburgring Nordschleife lap times, Car & Driver"
 DE,2015,Mercedes-AMG,GT S (C190),,,,Petrol,V8,4,TC,Front,RWD,510,375.1,479 lb-ft,3627,3.8,3.8,,,,,193,311,,,,,455,2015,Horst von Saurma,,,,"Autoevolution, Wikipedia - List of Nürburgring Nordschleife lap times"
 DE,2017,Mercedes-AMG,GT S (C190),,,,Petrol,V8,4,TC,Front,RWD,522,384,494 lb-ft,3627,3.8,3.8,,,,,193,311,,,,,,,,,,,Autoevolution
 DE,2018,Mercedes-AMG,GT S Roadster (R190),,,2,,V8,4,TC,Front,RWD,522,383.9,494 lb-ft,3583,3.9,3.9,,,,,191,307,,,,,,,,,,,Autoevolution
+DE,2018,Mercedes-AMG,GT-R,Hatchback,4,5,,V8,,TC,Front,RWD,577,430.3,516 lb-ft,3650,2.9,3.0,6.7,,11.1,,197,317.0,,,,,,,,76,"Series 24, Episode 06",163.4,"Car & Driver - Lightning Lap, Wikipedia - List of Top Gear test track Power Lap times, Car & Driver"
+DE,2016,Mercedes-AMG,GT-R (2017),,,2,,,,,,,,,,,,,,,,,,,,,,,430.92,2016-11-04,Christian Gebhardt,,,,Wikipedia - List of Nürburgring Nordschleife lap times
+DE,,Mercedes-AMG,GT-R (C 190) 2018-Present,,,2,Petrol,V8,4,TC,Front,RWD,585,430.3,516 lb-ft,3428,,,,,,,,,,,,,,,,,,,Autoevolution
+DE,,Mercedes-AMG,GT-R PRO 2018-Present,,,2,Petrol,V8,4,TC,Front,RWD,585,430.3,516 lb-ft,,3.6,3.6,,,,,198,319,,,,,,,,,,,Autoevolution
+DE,2018,Mercedes-AMG,GT-R Pro,,,2,,,,,,,,,,,,,,,,,,,,,,,424.63,2018-11,Maro Engel,,,,Wikipedia - List of Nürburgring Nordschleife lap times
+DE,2019,Mercedes-AMG,GT-R Pro,,,2,,,,,,,,,,,,,,,,,,,,,,,426.6,2019-05-22,Christian Gebhardt,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 DE,2024,Mercedes-AMG,GT63,,,,,,,TC,,,,,,,,,,,,,,,,,,,,,,,,170.3,Car & Driver - Lightning Lap
 DE,2019,Mercedes-AMG,GT63 S 4Matic,,,,,,,TC,,,,,,,,,,,,,,,,,,,,,,,,169.3,Car & Driver - Lightning Lap
 DE,,Mercedes-AMG,GT63 S E Performance,,,,Electric/Petrol,,,TC,,,,,,,2.4,2.49,,,,,,,,,,,,,,,,,Wikipedia - List of fastest production cars by acceleration
@@ -36861,12 +36859,6 @@ DE,2018,Mercedes-Benz,AMG GT Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,
 DE,2019,Mercedes-Benz,AMG GT Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2020,Mercedes-Benz,AMG GT Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2021,Mercedes-Benz,AMG GT Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Mercedes-Benz,AMG GT R 4.0 AMG Speedshift DCT 7G,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,585,436.2,516 lb-ft,3594,3.48,3.6,,,,,197.6,318,,,,,,,,,,,Kaggle - Car Specifications
-DE,2018,Mercedes-Benz,AMG GT R Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Mercedes-Benz,AMG GT R Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Mercedes-Benz,AMG GT R Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Mercedes-Benz,AMG GT R Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Mercedes-Benz,AMG GT R Roadster,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2018,Mercedes-Benz,AMG GT Roadster,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2019,Mercedes-Benz,AMG GT Roadster,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2020,Mercedes-Benz,AMG GT Roadster,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -36877,6 +36869,12 @@ DE,2014,Mercedes-Benz,AMG GT S 4.0 AMG Speedshift DCT 7G,Coupe,2,2,Petrol,V8,4,T
 DE,2017,Mercedes-Benz,AMG GT S 4.0 AMG Speedshift DCT 7G,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,522,389.3,494 lb-ft,3627,3.67,3.8,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
 DE,2018,Mercedes-Benz,AMG GT S Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2019,Mercedes-Benz,AMG GT S Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2017,Mercedes-Benz,AMG GT-R 4.0 AMG Speedshift DCT 7G,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,585,436.2,516 lb-ft,3594,3.48,3.6,,,,,197.6,318,,,,,,,,,,,Kaggle - Car Specifications
+DE,2018,Mercedes-Benz,AMG GT-R Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Mercedes-Benz,AMG GT-R Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Mercedes-Benz,AMG GT-R Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Mercedes-Benz,AMG GT-R Coupe,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Mercedes-Benz,AMG GT-R Roadster,Coupe,2,2,Petrol,V8,4,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,,Mercedes-Benz,AMG S63,,,,,,,,,,,,,,,,,,,,,,,,,,,,,84,"Series 24, Episode 03",,Wikipedia - List of Top Gear test track Power Lap times
 DE,2016,Mercedes-Benz,AMG S63 4matic,Sedan,4,5,Petrol,V8,5.5,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2017,Mercedes-Benz,AMG S63 4matic,Sedan,4,5,Petrol,V8,5.5,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -37488,8 +37486,8 @@ DE,2014,Mercedes-Benz,C63 AMG Coupe,Sedan,4,5,Petrol,V8,6.2,NA,Front,RWD,,,,,,,,
 DE,2015,Mercedes-Benz,C63 AMG Coupe,Sedan,4,5,Petrol,V8,6.2,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2011,Mercedes-Benz,C63 AMG Coupe Black Series,,,,,,,,,,,,,,,,,,,,,,,,,,466,2011,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 DE,2013,Mercedes-Benz,C63 AMG Coupe Performance Package (W204),,,,,,,,,,,,,,,,,,,,,,,,,,481,2013-03,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
+DE,2014,Mercedes-Benz,C63 AMG Edition 507,Coupe,2,4,,V8,6.2,NA,Front,RWD,507,378.1,450 lb-ft,3963,3.9,4.04,9.2,,12.3,117,,,156,,0.9,,,,,,,,Car & Driver
 DE,2012,Mercedes-Benz,C63 AMG coupe,Sedan,4,5,Petrol,V8,6.2,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,186.3,"Car & Driver - Lightning Lap, EPA - Fuel Economy"
-DE,2014,Mercedes-Benz,C63 Amg Edition 507,Coupe,2,4,,V8,6.2,NA,Front,RWD,507,378.1,450 lb-ft,3963,3.9,4.04,9.2,,12.3,117,,,156,,0.9,,,,,,,,Car & Driver
 DE,1996,Mercedes-Benz,CL-Class CL 420 AT,Coupe,2,4,Petrol,V8,4.2,NA,Front,RWD,279,208.1,295 lb-ft,4586,8.21,8.5,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 DE,1999,Mercedes-Benz,CL-Class CL 500 5G-Tronic,Coupe,2,4,Petrol,V8,5,NA,Front,RWD,306,228.2,339 lb-ft,4112,6.28,6.5,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
 DE,2002,Mercedes-Benz,CL-Class CL 500 5G-Tronic,Coupe,2,4,Petrol,V8,5,NA,Front,RWD,306,228.2,339 lb-ft,4156,6.28,6.5,,,,,155.3,250,,,,,,,,,,,Kaggle - Car Specifications
@@ -38644,8 +38642,8 @@ DE,2014,Mercedes-Benz,E63 AMG S,Sedan,4,5,Petrol,V8,5.5,TC,Front,RWD,,,,,,,,,,,,
 DE,2013,Mercedes-Benz,"E63 AMG S 4MATIC (W212R, second facelift, 2013, B/T 5.5, 585 PS)",,,,,,,,,,,,,,,,,,,,,,,,,,475,2013-09,Horst von Saurma,,,,Wikipedia - List of Nürburgring Nordschleife lap times
 DE,2015,Mercedes-Benz,E63 AMG S 4matic,Sedan,4,5,Petrol,V8,5.5,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2014,Mercedes-Benz,E63 AMG S 4matic (wagon),Wagon,4,5,Petrol,V8,5.5,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2014,Mercedes-Benz,E63 AMG S Model 4Matic Wagon,Wagon,4,5,,V8,5.5,TC,Front,4WD,577,430.3,590 lb-ft,4733,3.4,3.52,8,,11.7,122,,,153,,0.97,,,,,,,,Car & Driver
 DE,2014,Mercedes-Benz,E63 AMG S-model,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,180.1,Car & Driver - Lightning Lap
-DE,2014,Mercedes-Benz,E63 Amg S Model 4Matic Wagon,Wagon,4,5,,V8,5.5,TC,Front,4WD,577,430.3,590 lb-ft,4733,3.4,3.52,8,,11.7,122,,,153,,0.97,,,,,,,,Car & Driver
 DE,2024,Mercedes-Benz,EQB 250 Plus,SUV,4,5,Electric,,,,,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2025,Mercedes-Benz,EQB 250 Plus,SUV,4,5,Electric,,,,,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2022,Mercedes-Benz,EQB 300 4matic,SUV,4,5,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -39168,7 +39166,7 @@ DE,2025,Mercedes-Benz,GLS600 4matic Maybach,SUV,4,5,Petrol,V8,4,TC,Front,AWD,,,,
 DE,2026,Mercedes-Benz,GLS600 4matic Maybach,SUV,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2018,Mercedes-Benz,Gla Class,Hatchback,4,5,Petrol,I4,,TC,Front,AWD,208,155.1,258 lb-ft,3350,6,6.22,16.8,,14.6,,130,209.2,,,,,,,,,,,Car & Driver
 DE,2018,Mercedes-Benz,Gla250 4Matic,Hatchback,4,5,Petrol,I4,2,TC,Front,AWD,208,155.1,258 lb-ft,3531,5.8,6.01,16.5,,14.5,94,,,160,,0.88,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-DE,2015,Mercedes-Benz,Gla45 Amg,Hatchback,4,5,Petrol,I4,,TC,Front,4WD,355,264.7,332 lb-ft,3589,4.2,4.35,10.8,,12.8,109,,,151,,0.96,,,,,,,,Car & Driver
+DE,2015,Mercedes-Benz,Gla45 AMG,Hatchback,4,5,Petrol,I4,,TC,Front,4WD,355,264.7,332 lb-ft,3589,4.2,4.35,10.8,,12.8,109,,,151,,0.96,,,,,,,,Car & Driver
 DE,2016,Mercedes-Benz,Glc Class,Hatchback,4,5,,,,,Front,4WD,,,,4000,6.3,6.53,16,,15.9,,130,209.2,,,,,,,,,,,Car & Driver
 DE,2017,Mercedes-Benz,Glc Class,Hatchback,4,5,Petrol,I4,,TC,Front,AWD,241,179.7,273 lb-ft,3900,5.9,6.11,17.6,,14.7,93,,,174,,0.81,,,,,,,,Car & Driver
 DE,2017,Mercedes-Benz,Glc Coupe,Hatchback,4,5,Petrol,I4,,TC,Front,4WD,241,179.7,273 lb-ft,4050,5.9,6.11,17.6,,14.7,,135,217.3,,,,,,,,,,,Car & Driver
@@ -39319,7 +39317,7 @@ DE,2023,Mercedes-Benz,Maybach S680 4matic,Sedan,4,5,Petrol,V12,6,TC,Front,AWD,,,
 DE,2024,Mercedes-Benz,Maybach S680 4matic,Sedan,4,5,Petrol,V12,6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2025,Mercedes-Benz,Maybach S680 4matic,Sedan,4,5,Petrol,V12,6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2026,Mercedes-Benz,Maybach S680 4matic,Sedan,4,5,Petrol,V12,6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2018,Mercedes-Benz,Mercedes Amg S Class Coupe And Cabriolet,Coupe,2,4,,,,,Front,AWD,,,,4750,3.2,3.32,7.8,,,,130,209.2,,,,,,,,,,,Car & Driver
+DE,2018,Mercedes-Benz,Mercedes AMG S Class Coupe And Cabriolet,Coupe,2,4,,,,,Front,AWD,,,,4750,3.2,3.32,7.8,,,,130,209.2,,,,,,,,,,,Car & Driver
 DE,2016,Mercedes-Benz,Metris (Passenger Van),Van,4,7,Petrol,I4,2,TC,Front,RWD,208,155.1,258 lb-ft,4250,8,8.29,22.5,,16.1,,120,193.1,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 DE,2017,Mercedes-Benz,Metris (Passenger Van),,,,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2018,Mercedes-Benz,Metris (Passenger Van),,,,Petrol,I4,2,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -40115,8 +40113,8 @@ DE,2017,Mercedes-Benz,Sl Class,Convertible,2,4,,,,,Front,RWD,,,,3800,3.7,3.83,8,
 DE,2017,Mercedes-Benz,Sl450,Convertible,2,4,Petrol,V6,3,TC,Front,RWD,362,269.9,369 lb-ft,3850,4.5,4.66,11.2,,13.1,107,,,159,,0.93,,,,,,,,"Car & Driver, EPA - Fuel Economy"
 DE,2017,Mercedes-Benz,Slc Class,Convertible,2,4,,,,,Front,RWD,,,,3350,4.4,4.56,11,,12.8,,155,249.4,,,,,,,,,,,Car & Driver
 DE,2015,Mercedes-Benz,Slk250 Roadster Manual,Convertible,2,2,Petrol,I4,,TC,Front,RWD,201,149.9,229 lb-ft,3309,6.3,6.53,16.2,,14.7,95,,,160,,0.95,,,,,,,,Car & Driver
-DE,2013,Mercedes-Benz,Sls Amg Gt,Coupe,2,2,,V8,6.2,NA,Front,RWD,583,434.7,479 lb-ft,3800,3.4,3.52,7.5,,11.5,,197,317.0,,,,,,,,,,,Car & Driver
-DE,2013,Mercedes-Benz,Sls Amg Gt Coupe Roadster,Coupe,2,2,,V8,6.2,NA,Front,RWD,583,434.7,479 lb-ft,,,,,,11.8,125,,,,,,,,,,,,,Car & Driver
+DE,2013,Mercedes-Benz,Sls AMG Gt,Coupe,2,2,,V8,6.2,NA,Front,RWD,583,434.7,479 lb-ft,3800,3.4,3.52,7.5,,11.5,,197,317.0,,,,,,,,,,,Car & Driver
+DE,2013,Mercedes-Benz,Sls AMG Gt Coupe Roadster,Coupe,2,2,,V8,6.2,NA,Front,RWD,583,434.7,479 lb-ft,,,,,,11.8,125,,,,,,,,,,,,,Car & Driver
 DE,2014,Mercedes-Benz,Sprinter,Van,4,7,,,,,Front,RWD,,,,5300,11.2,11.6,,,18.2,,82,132.0,,,,,,,,,,,Car & Driver
 DE,2015,Mercedes-Benz,Sprinter 4x4,Van,4,7,,V6,3,TC,Front,4WD,188,140.2,325 lb-ft,5400,11.2,11.6,,,18.3,,84,135.2,,,,,,,,,,,Car & Driver
 DE,1996,Mercedes-Benz,V-Class 2.0 MT,,,,Petrol,I4,2,NA,Front,FWD,129,96.2,137 lb-ft,4345,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
@@ -43031,25 +43029,25 @@ JP,1999,Nissan,200SX 2.0 MT,Coupe,2,4,Petrol,I4,2,NA,Front,RWD,165,123,142 lb-ft
 JP,1993,Nissan,200SX 2.0 MT Turbo,Coupe,2,4,Petrol,I4,2,TC,Front,RWD,200,149.1,195 lb-ft,2976,7.24,7.5,,,,,146,235,,,,,,,,,,,Kaggle - Car Specifications
 JP,1999,Nissan,200SX 2.0 T AT,Coupe,2,4,Petrol,I4,2,TC,Front,RWD,250,186.4,203 lb-ft,2778,,,,,,,146,235,,,,,,,,,,,Kaggle - Car Specifications
 JP,1999,Nissan,200SX 2.0 T MT,Coupe,2,4,Petrol,I4,2,TC,Front,RWD,250,186.4,203 lb-ft,2778,7.24,7.5,,,,,146,235,,,,,,,,,,,Kaggle - Car Specifications
-JP,,Nissan,2013 Juke Nismo,,,,Petrol,I4,1.6,TC,Front,AWD,200,147,184 lb-ft,2987,8.2,8.2,,,,,124,200,,,,,,,,,,,Autoevolution
+JP,,Nissan,2013 Juke NISMO,,,,Petrol,I4,1.6,TC,Front,AWD,200,147,184 lb-ft,2987,8.2,8.2,,,,,124,200,,,,,,,,,,,Autoevolution
 JP,,Nissan,2013 Micra,,,,Petrol,I3,1.2,NA,Front,FWD,80,59,81 lb-ft,2207,13.7,13.7,,,,,106,171,,,,,,,,,,,Autoevolution
 JP,,Nissan,2013 Note,,,,Petrol,I4,1.2,NA,Front,FWD,98,72,108 lb-ft,2465,11.7,11.7,,,,,112,180,,,,,,,,,,,Autoevolution
 JP,,Nissan,2015 Patrol,,,,Petrol,V8,5.6,NA,Front,AWD,321,236.1,389 lb-ft,5754,7.9,7.9,,,,,134,216,,,,,,,,,,,Autoevolution
 JP,,Nissan,2017 GT-R,,,2,Petrol,V6,3.8,TC,Front,AWD,572.8,421.3,467 lb-ft,3836,3.4,3.4,,,,,199,320,,,,,,,,,,,Autoevolution
 JP,,Nissan,2018 Leaf,,,,Electric,,,,,FWD,150,110.3,236 lb-ft,3433,7.9,7.9,,,,,89,143,,,,,,,,,,,Autoevolution
 JP,,Nissan,2019 Murano,,,,Petrol,V6,3.5,NA,Front,AWD,260,191.2,240 lb-ft,4136,,,,,,,,,,,,,,,,,,,Autoevolution
-JP,,Nissan,2020 GT-R Nismo,,,2,Petrol,V6,3.8,TC,Front,AWD,600,441.3,481 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
+JP,,Nissan,2020 GT-R NISMO,,,2,Petrol,V6,3.8,TC,Front,AWD,600,441.3,481 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,2020 Sentra,,,,Petrol,I4,2,NA,Front,FWD,149,109.6,146 lb-ft,3047,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,2020 Titan Crew Cab,,,,Petrol,V8,5.6,NA,Front,AWD,400,294.2,413 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,2021 Armada,,,,Petrol,V8,5.6,NA,Front,RWD,400,294.2,413 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,2021 Rogue,,,,Petrol,I3,2.5,NA,Front,FWD,181,133.1,181 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,2022 Qashqai,,,,Electric,I4,1.5,,,FWD,138,101.5,177 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,2024 GT-R,,,2,Petrol,V6,3.8,NA,Front,AWD,573,421.3,467 lb-ft,3935,,,,,,,,,,,,,,,,,,,Autoevolution
-JP,,Nissan,2024 GT-R Nismo,,,2,Petrol,V6,3.8,TC,Front,AWD,600,441.3,481 lb-ft,3867,,,,,,,,,,,,,,,,,,,Autoevolution
+JP,,Nissan,2024 GT-R NISMO,,,2,Petrol,V6,3.8,TC,Front,AWD,600,441.3,481 lb-ft,3867,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,2024 Rogue,,,,Petrol,I3,1.5,TC,Front,AWD,203.8,149.9,225 lb-ft,3569,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,2024 Sentra,,,,Petrol,I4,2,NA,Front,FWD,151.1,111.1,146 lb-ft,3036,,,,,,,,,,,,,,,,,,,Autoevolution
-JP,,Nissan,2024 Z Nismo,,,,Petrol,V6,3,NA,Front,RWD,426,313.2,384 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
-JP,,Nissan,2025 Ariya Nismo,,,,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,Autoevolution
+JP,,Nissan,2024 Z NISMO,,,,Petrol,V6,3,NA,Front,RWD,426,313.2,384 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
+JP,,Nissan,2025 Ariya NISMO,,,,Electric,,,,,AWD,,,,,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,2025 Armada,,,,Petrol,V6,3.5,TC,Front,AWD,431,316.9,516 lb-ft,5871,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,2025 Kicks,,,,Petrol,I4,2,NA,Front,AWD,143,105.1,140 lb-ft,3252,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,2025 Murano,,,,Petrol,I4,,NA,Front,FWD,244.3,179.7,260 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
@@ -43176,8 +43174,8 @@ JP,2019,Nissan,370Z Roadster,Coupe,2,2,Petrol,V6,3.7,NA,Front,RWD,,,,,,,,,,,,,,,
 JP,2020,Nissan,370Z Roadster,Coupe,2,2,Petrol,V6,3.7,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,,Nissan,370Z Roadster 2012-Present,,,2,Petrol,V6,3.7,NA,Front,RWD,333,245,268 lb-ft,3351,5.5,5.5,,,,,155,249,,,,,,,,,,,Autoevolution
 JP,2009,Nissan,370z,Coupe,2,4,Petrol,V6,3.7,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2013,Nissan,370z Nismo,,,,Petrol,V6,3.7,NA,Front,RWD,354,260,274 lb-ft,3384,5.4,5.4,,,,,162,261,,,,,,,,,,,Autoevolution
-JP,,Nissan,370z Nismo 2014-Present,,,,Petrol,V6,3.7,NA,Front,RWD,344,253,274 lb-ft,3307,5.2,5.2,,,,,155,249,,,,,,,,,,,Autoevolution
+JP,2013,Nissan,370z NISMO,,,,Petrol,V6,3.7,NA,Front,RWD,354,260,274 lb-ft,3384,5.4,5.4,,,,,162,261,,,,,,,,,,,Autoevolution
+JP,,Nissan,370z NISMO 2014-Present,,,,Petrol,V6,3.7,NA,Front,RWD,344,253,274 lb-ft,3307,5.2,5.2,,,,,155,249,,,,,,,,,,,Autoevolution
 JP,2006,Nissan,AD 1.2 AT,Wagon,4,5,Petrol,I4,1.2,NA,Front,FWD,90,67.1,89 lb-ft,,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 JP,1990,Nissan,AD 1.3 AT,Wagon,4,5,Petrol,I4,1.3,NA,Front,FWD,79,58.9,76 lb-ft,2116,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 JP,1999,Nissan,AD 1.3 AT,Wagon,4,5,Petrol,I4,1.3,NA,Front,FWD,87,64.9,89 lb-ft,,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
@@ -44064,9 +44062,9 @@ JP,2009,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,,,,,,,,,,,,,,,,,446.7,2
 JP,2012,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,,,,,,,,,,,,,,,,,439.1,2012,,77.8,"Series 17, Episode 04",173.2,"Car & Driver - Lightning Lap, Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times, EPA - Fuel Economy"
 JP,2013,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2014,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2015,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2015,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,545,406.4,463 lb-ft,3915,3,3.11,7.1,,11.2,125,,,151,,0.95,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 JP,2016,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2017,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2017,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,565,421.3,467 lb-ft,3950,2.9,3.0,7,,11.1,,195,313.8,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 JP,2018,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2019,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2020,Nissan,GT-R,Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -44078,15 +44076,17 @@ JP,2010,Nissan,GT-R (2011),Sedan,4,2,Petrol,V6,3.8,TC,Front,4WD,,,,,,,,,,,,,,,,,
 JP,2007,Nissan,GT-R (R35),,,2,Petrol,V6,3.8,NA,Front,AWD,480,353,434 lb-ft,3814,3.9,3.9,,,,,193,311,,,,,,,,,,,Autoevolution
 JP,2011,Nissan,GT-R (R35),Sedan,4,2,Petrol,V6,3.8,TC,Front,AWD,,,,,,,,,,,,,,,,,456,2011,Horst von Saurma,,,,"Wikipedia - List of Nürburgring Nordschleife lap times, EPA - Fuel Economy"
 JP,2011,Nissan,GT-R (R35) - Facelift,,,2,Petrol,V6,3.8,TC,Front,AWD,529.9,389.8,451 lb-ft,3836,2.9,2.9,,,,,196,315,,,,,,,,,,,Autoevolution
-JP,2014,Nissan,GT-R (R35) Nismo,,,2,Petrol,V6,3.8,TC,Front,AWD,600,441,481 lb-ft,3851,2.48,2.57,,,,,,,,,,,,,,,,,"Autoevolution, Wikipedia - List of fastest production cars by acceleration"
+JP,2014,Nissan,GT-R (R35) NISMO,,,2,Petrol,V6,3.8,TC,Front,AWD,600,441,481 lb-ft,3851,2.48,2.57,,,,,,,,,,,,,,,,,"Autoevolution, Wikipedia - List of fastest production cars by acceleration"
 JP,2007,Nissan,GT-R 3.8 AMT,Coupe,2,2,Petrol,V6,3.8,TC,Front,AWD,485,361.7,433 lb-ft,3834,3.38,3.5,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
 JP,2016,Nissan,GT-R 3.8 GR6,Coupe,2,2,Petrol,V6,3.8,TC,Front,AWD,570,425,466 lb-ft,3862,2.7,2.8,,,,,195.7,315,,,,,,,,,,,Kaggle - Car Specifications
 JP,2011,Nissan,GT-R 3.8 T GR6 AWD,Coupe,2,2,Petrol,V6,3.8,TC,Front,AWD,530,395.2,448 lb-ft,3836,3.38,3.5,,,,,195.7,315,,,,,,,,,,,Kaggle - Car Specifications
 JP,2010,Nissan,GT-R 3.8 Turbo AMT AWD,Coupe,2,2,Petrol,V6,3.8,TC,Front,AWD,485,361.7,434 lb-ft,3836,3.38,3.5,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
 JP,2007,Nissan,GT-R 3.8 Twin-Turbo AMT AWD,Coupe,2,2,Petrol,V6,3.8,TC,Front,AWD,480,357.9,433 lb-ft,3702,3.09,3.2,,,,,189.5,305,,,,,,,,,,,Kaggle - Car Specifications
-JP,2015,Nissan,GT-R NISMO,,,2,,,,,,,,,,,2.48,2.57,,,,,,,,,,,,,,,,169.4,"Car & Driver - Lightning Lap, Wikipedia - List of fastest production cars by acceleration"
-JP,2020,Nissan,GT-R Nismo,,,2,,,,,,,,,,,3,3.11,,,,,,,,,,,,,,,,,Wikipedia - List of fastest production cars by acceleration
+JP,2015,Nissan,GT-R GT-R NISMO,Coupe,2,4,,V6,,TC,Front,4WD,,,,3800,,,,,,,193,310.6,,,,,,,,,,,Car & Driver
+JP,2015,Nissan,GT-R NISMO,Coupe,2,2,,V6,,TC,Front,4WD,600,447.4,481 lb-ft,3883,2.48,2.57,7,,11.2,125,,,145,,1.02,,,,,,,169.4,"Car & Driver - Lightning Lap, Wikipedia - List of fastest production cars by acceleration, Car & Driver"
+JP,2020,Nissan,GT-R NISMO,,,2,,,,,,,,,,,3,3.11,,,,,,,,,,,,,,,,,Wikipedia - List of fastest production cars by acceleration
 JP,2009,Nissan,GT-R Spec-V,,,2,,,,,,,,,,,,,,,,,,,,,,,454.46,2009,,,,,Wikipedia - List of Nürburgring Nordschleife lap times
+JP,2014,Nissan,GT-R Track Edition,Coupe,2,4,,V6,,TC,Front,4WD,545,406.4,463 lb-ft,3885,2.9,3.0,7.2,,11.2,124,,,145,,1.02,,,,,,,,Car & Driver
 JP,2017,Nissan,GT-R Track Edition,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,173.2,Car & Driver - Lightning Lap
 JP,1983,Nissan,Gazelle 1.8 AT,Coupe,2,4,Petrol,I4,1.8,NA,Front,RWD,113,84.3,119 lb-ft,2116,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
 JP,1983,Nissan,Gazelle 1.8 MT,Coupe,2,4,Petrol,I4,1.8,NA,Front,RWD,113,84.3,119 lb-ft,2205,,,,,,,111.8,180,,,,,,,,,,,Kaggle - Car Specifications
@@ -44139,11 +44139,6 @@ JP,1985,Nissan,Gloria 3.0 MT,Wagon,4,5,Petrol,V6,3,TC,Front,RWD,195,145.4,221 lb
 JP,1999,Nissan,Gloria 3.0 T AT,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,280,208.8,285 lb-ft,3660,,,,,,,111.8,180,,,,,,,,,,,Kaggle - Car Specifications
 JP,1999,Nissan,Gloria 3.0 T CVT,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,280,208.8,285 lb-ft,3704,,,,,,,111.8,180,,,,,,,,,,,Kaggle - Car Specifications
 JP,,Nissan,Grand Livi 2006-Present,,,,Petrol,I4,1.6,NA,Front,FWD,105,77,111 lb-ft,2745,,,,,,,,,,,,,,,,,,,Autoevolution
-JP,2015,Nissan,Gt R,Coupe,2,4,,V6,,TC,Front,4WD,545,406.4,463 lb-ft,3915,3,3.11,7.1,,11.2,125,,,151,,0.95,,,,,,,,Car & Driver
-JP,2017,Nissan,Gt R,Coupe,2,4,,V6,,TC,Front,4WD,565,421.3,467 lb-ft,3950,2.9,3.0,7,,11.1,,195,313.8,,,,,,,,,,,Car & Driver
-JP,2015,Nissan,Gt R Gt R Nismo,Coupe,2,4,,V6,,TC,Front,4WD,,,,3800,,,,,,,193,310.6,,,,,,,,,,,Car & Driver
-JP,2015,Nissan,Gt R Nismo,Coupe,2,4,,V6,,TC,Front,4WD,600,447.4,481 lb-ft,3883,2.9,3.0,7,,11.2,125,,,145,,1.02,,,,,,,,Car & Driver
-JP,2014,Nissan,Gt R Track Edition,Coupe,2,4,,V6,,TC,Front,4WD,545,406.4,463 lb-ft,3885,2.9,3.0,7.2,,11.2,124,,,145,,1.02,,,,,,,,Car & Driver
 JP,1990,Nissan,Hardbody 2WD,Truck,4,5,Petrol,I4,2.4,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,1990,Nissan,Hardbody 4WD,Truck,4,5,Petrol,I4,2.4,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,1986,Nissan,Homy 2.0 AT,Van,4,7,Petrol,I4,2,NA,Front,RWD,91,67.9,110 lb-ft,3527,,,,,,,98.2,158,,,,,,,,,,,Kaggle - Car Specifications
@@ -44205,12 +44200,12 @@ JP,2016,Nissan,Juke AWD,Wagon,4,5,Petrol,I4,1.6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,
 JP,2017,Nissan,Juke AWD,Wagon,4,5,Petrol,I4,1.6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2013,Nissan,Juke NISMO,Hatchback,4,5,Petrol,I4,1.6,TC,Front,4WD,197,146.9,184 lb-ft,3000,7,7.25,,,15.4,,130,209.2,,,,,,,,,,,Car & Driver
 JP,2014,Nissan,Juke NISMO RS,Hatchback,4,5,Petrol,I4,1.6,TC,Front,FWD,215,160.3,210 lb-ft,2966,6.7,6.94,17.1,,15.2,95,,,161,,0.88,,,,,,,,Car & Driver
-JP,2015,Nissan,Juke Nismo RS,Wagon,4,5,Petrol,I4,1.6,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2016,Nissan,Juke Nismo RS,Wagon,4,5,Petrol,I4,1.6,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2017,Nissan,Juke Nismo RS,Wagon,4,5,Petrol,I4,1.6,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2015,Nissan,Juke Nismo RS AWD,Wagon,4,5,Petrol,I4,1.6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2016,Nissan,Juke Nismo RS AWD,Wagon,4,5,Petrol,I4,1.6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2017,Nissan,Juke Nismo RS AWD,Wagon,4,5,Petrol,I4,1.6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2015,Nissan,Juke NISMO RS,Wagon,4,5,Petrol,I4,1.6,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2016,Nissan,Juke NISMO RS,Wagon,4,5,Petrol,I4,1.6,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2017,Nissan,Juke NISMO RS,Wagon,4,5,Petrol,I4,1.6,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2015,Nissan,Juke NISMO RS AWD,Wagon,4,5,Petrol,I4,1.6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2016,Nissan,Juke NISMO RS AWD,Wagon,4,5,Petrol,I4,1.6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2017,Nissan,Juke NISMO RS AWD,Wagon,4,5,Petrol,I4,1.6,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2015,Nissan,Juke SL AWD,Hatchback,4,5,Petrol,I4,1.6,TC,Front,4WD,188,140.2,177 lb-ft,3205,6.9,7.15,19.2,,15.4,91,,,177,,0.84,,,,,,,,Car & Driver
 JP,2016,Nissan,Kicks,,,,Petrol,I4,1.6,NA,Front,FWD,120,88.3,110 lb-ft,2460,11.5,11.5,,,,,,,,,,,,,,,,,Autoevolution
 JP,2018,Nissan,Kicks,Sedan,4,5,Petrol,I4,1.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -45382,9 +45377,9 @@ JP,2014,Nissan,Sentra FE,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,
 JP,2015,Nissan,Sentra FE,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2016,Nissan,Sentra FE,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,1987,Nissan,Sentra Honeybee,Sedan,4,5,Petrol,I4,1.6,NA,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2017,Nissan,Sentra Nismo,Sedan,4,5,Petrol,I4,1.6,TC,Front,FWD,188,140.2,177 lb-ft,3043,7,7.25,17.5,,15.4,94,130,209.2,156,,0.88,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-JP,2018,Nissan,Sentra Nismo,Sedan,4,5,Petrol,I4,1.6,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2019,Nissan,Sentra Nismo,Sedan,4,5,Petrol,I4,1.6,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2017,Nissan,Sentra NISMO,Sedan,4,5,Petrol,I4,1.6,TC,Front,FWD,188,140.2,177 lb-ft,3043,7,7.25,17.5,,15.4,94,130,209.2,156,,0.88,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+JP,2018,Nissan,Sentra NISMO,Sedan,4,5,Petrol,I4,1.6,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+JP,2019,Nissan,Sentra NISMO,Sedan,4,5,Petrol,I4,1.6,TC,Front,FWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2004,Nissan,Sentra SE-R,,,,Petrol,I4,2.5,NA,Front,FWD,167,123,175 lb-ft,2760,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,,Nissan,Sentra SE-R 2006-Present,,,,Petrol,I4,2.5,NA,Front,FWD,179,132,172 lb-ft,3071,,,,,,,,,,,,,,,,,,,Autoevolution
 JP,2013,Nissan,Sentra SL 1.8,Sedan,4,5,Petrol,I4,1.8,NA,Front,FWD,130,96.9,128 lb-ft,2913,9.2,9.53,32.3,,17.2,81,,,172,,0.81,,,,,,,,Car & Driver
@@ -46217,9 +46212,9 @@ JP,2024,Nissan,Z,Coupe,2,4,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - 
 JP,2025,Nissan,Z,Coupe,2,4,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2026,Nissan,Z,Coupe,2,4,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,,Nissan,Z 2021-Present,,,,Petrol,V6,,TC,Front,RWD,400,294.2,350 lb-ft,,,,,,,,,,,,,,,,,,,,Autoevolution
+JP,2024,Nissan,Z NISMO,Coupe,2,4,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,176.2,"Car & Driver - Lightning Lap, EPA - Fuel Economy"
 JP,2025,Nissan,Z NISMO,Coupe,2,4,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 JP,2026,Nissan,Z NISMO,Coupe,2,4,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-JP,2024,Nissan,Z Nismo,Coupe,2,4,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,176.2,"Car & Driver - Lightning Lap, EPA - Fuel Economy"
 JP,2005,Nissan,vara / Frontier Double Cab,,,,Petrol,V6,4,TC,Front,RWD,268,197,284 lb-ft,4138,13,13,,,,,106,171,,,,,,,,,,,Autoevolution
 JP,2005,Nissan,vara / Frontier King Cab,,,,Petrol,I4,2.5,TC,Front,RWD,154,113,173 lb-ft,3675,11.8,11.8,,,,,106,171,,,,,,,,,,,Autoevolution
 JP,1997,Nissan,vara 2.4 AT,Truck,4,5,Petrol,I4,2.4,NA,Front,RWD,150,111.9,159 lb-ft,,,,,,,,,,,,,,,,,,,,Kaggle - Car Specifications
@@ -49051,7 +49046,7 @@ DE,,Porsche,2016 917 Cayman (982C),,,2,Petrol,H4,2,TC,Mid,RWD,300,220.7,280 lb-f
 DE,,Porsche,2016 917 Cayman S (982C),,,2,Petrol,H4,2.5,TC,Mid,RWD,350,257.4,310 lb-ft,2987,4.6,4.6,,,,,177,285,,,,,,,,,,,Autoevolution
 DE,,Porsche,2016 Boxster Spyder (981),,,2,Petrol,H6,3.8,NA,Mid,RWD,375,276,310 lb-ft,3064,4.5,4.5,,,,,180,290,,,,,,,,,,,Autoevolution
 DE,,Porsche,2016 Cayman GT4 (981C),,,2,Petrol,H6,3.8,TC,Mid,RWD,358,263.3,310 lb-ft,2899,4.4,4.4,,,,,183,295,,,,,,,,,,,Autoevolution
-DE,,Porsche,2017 Pamera 4S Diesel Sport Turismo,,,,Diesel,V8,4,TC,Front,AWD,422,310.4,627 lb-ft,4619,4.5,4.5,,,,,175,282,,,,,,,,,,,Autoevolution
+DE,,Porsche,2017 Panamera 4S Diesel Sport Turismo,,,,Diesel,V8,4,TC,Front,AWD,422,310.4,627 lb-ft,4619,4.5,4.5,,,,,175,282,,,,,,,,,,,Autoevolution
 DE,,Porsche,2018 Cayenne,,,,Petrol,V6,3,TC,Front,AWD,340,250,332 lb-ft,4376,6.2,6.2,,,,,152,245,,,,,,,,,,,Autoevolution
 DE,,Porsche,2018 Cayman GTS,,,2,Petrol,H4,2.5,TC,Mid,RWD,365,268.5,310 lb-ft,3031,4.6,4.6,,,,,180,290,,,,,,,,,,,Autoevolution
 DE,,Porsche,2019 718 Spyder,,,2,Petrol,H6,4,TC,Mid,RWD,420,308.9,310 lb-ft,3131,4.4,4.4,,,,,187,301,,,,,,,,,,,Autoevolution
@@ -49067,14 +49062,14 @@ DE,,Porsche,2020 Cayman GT4 (982),,,2,Petrol,I6,4,NA,Mid,RWD,420,308.9,310 lb-ft
 DE,,Porsche,2020 Cayman GTS 4.0 (982C),,,2,Petrol,H6,4,TC,Mid,RWD,400,294.2,310 lb-ft,3097,4.5,4.5,,,,,182,293,,,,,,,,,,,Autoevolution
 DE,,Porsche,2020 Macan Turbo,,,,Petrol,V6,2.9,TC,Front,AWD,440,323.6,406 lb-ft,4288,4.5,4.5,,,,,168,270,,,,,,,,,,,Autoevolution
 DE,,Porsche,2021 CAYENNE GTS,,,,Petrol,V8,4,TC,Front,AWD,460,338.3,457 lb-ft,4729,8,8,,,,,168,270,,,,,,,,,,,Autoevolution
-DE,,Porsche,2021 Pamera,,,,Petrol,V6,2.9,TC,Front,RWD,330,242.7,332 lb-ft,4266,5.6,5.6,,,,,168,270,,,,,,,,,,,Autoevolution
+DE,,Porsche,2021 Panamera,,,,Petrol,V6,2.9,TC,Front,RWD,330,242.7,332 lb-ft,4266,5.6,5.6,,,,,168,270,,,,,,,,,,,Autoevolution
 DE,,Porsche,2022 718 Cayman GT4 RS,,,2,Petrol,I6,4,TC,Mid,RWD,500,367.7,332 lb-ft,3120,3.4,3.4,,,,,196,315,,,,,,,,,,,Autoevolution
 DE,,Porsche,2022 911 Carrera 4 GTS,,,,Petrol,H6,3,TC,Rear,AWD,480,353,420 lb-ft,3516,3.3,3.3,,,,,192,309,,,,,,,,,,,Autoevolution
 DE,,Porsche,2022 GT3,,,,Petrol,H6,4,TC,Rear,RWD,510,375.1,347 lb-ft,3126,3.8,3.8,,,,,199,320,,,,,,,,,,,Autoevolution
 DE,,Porsche,2022 Taycan,,,,Electric,,,,Front,RWD,402,295.7,254 lb-ft,4566,5.3,5.3,,,,,143,230,,,,,,,,,,,Autoevolution
 DE,,Porsche,2022 Taycan Cross Turismo,,,,Electric,,,,Front,AWD,,,,4949,5.1,5.1,,,,,,,,,,,,,,,,,Autoevolution
 DE,,Porsche,2023 911 Carrera,,,,Petrol,I6,,TC,Rear,RWD,380,279.5,332 lb-ft,,4.5,4.5,,,,,181,291,,,,,,,,,,,Autoevolution
-DE,,Porsche,2023 Pamera 4,,,,Petrol,V6,2.9,TC,Front,RWD,330,242.7,332 lb-ft,4354,5.3,5.3,,,,,167,269,,,,,,,,,,,Autoevolution
+DE,,Porsche,2023 Panamera 4,,,,Petrol,V6,2.9,TC,Front,RWD,330,242.7,332 lb-ft,4354,5.3,5.3,,,,,167,269,,,,,,,,,,,Autoevolution
 DE,,Porsche,2024 718 Spyder RS,,,2,Petrol,I6,4,TC,Mid,RWD,500,367.7,332 lb-ft,3109,3.4,3.4,,,,,191,307,,,,,,,,,,,Autoevolution
 DE,,Porsche,2024 Cayenne,,,,Petrol,V6,3,TC,Front,AWD,353,259.6,369 lb-ft,4696,6,6,,,,,150,241,,,,,,,,,,,Autoevolution
 DE,,Porsche,2024 Cayenne E-Hybrid,,,,Electric/Petrol,V6,3,NA,Front,AWD,304,223.6,310 lb-ft,5346,4.9,4.9,,,,,158,254,,,,,,,,,,,Autoevolution
@@ -49083,9 +49078,9 @@ DE,,Porsche,2024 Cayenne S Coupe,,,,Petrol,V8,4,NA,Front,AWD,474,348.6,443 lb-ft
 DE,,Porsche,2024 Cayenne Turbo E-Hybrid,,,,Electric/Petrol,V8,4,TC,Front,AWD,599,440.6,590 lb-ft,5666,3.7,3.7,,,,,183,295,,,,,,,,,,,Autoevolution
 DE,,Porsche,2024 Cayenne Turbo E-Hybrid Coupe with GT Package,,,,Electric/Petrol,V8,4,TC,Front,AWD,599,440.6,590 lb-ft,5721,3.7,3.7,,,,,183,295,,,,,,,,,,,Autoevolution
 DE,,Porsche,2024 Cayenne Turbo GT,,,,Petrol,V8,4,TC,Front,AWD,640,470.7,627 lb-ft,4894,3.3,3.3,,,,,186,299,,,,,,,,,,,Autoevolution
-DE,,Porsche,2024 Pamera,,,,Petrol,V6,2.9,TC,Front,RWD,353,259.6,369 lb-ft,4321,5.3,5.3,,,,,169,272,,,,,,,,,,,Autoevolution
-DE,,Porsche,2024 Pamera 4,,,,Petrol,V6,2.9,TC,Front,RWD,353,259.6,369 lb-ft,4398,5,5,,,,,168,270,,,,,,,,,,,Autoevolution
-DE,,Porsche,2024 Pamera Turbo E-Hybrid,,,,Electric/Petrol,V8,4,TC,Front,AWD,519,381.7,568 lb-ft,5368,3.2,3.2,,,,,196,315,,,,,,,,,,,Autoevolution
+DE,,Porsche,2024 Panamera,,,,Petrol,V6,2.9,TC,Front,RWD,353,259.6,369 lb-ft,4321,5.3,5.3,,,,,169,272,,,,,,,,,,,Autoevolution
+DE,,Porsche,2024 Panamera 4,,,,Petrol,V6,2.9,TC,Front,RWD,353,259.6,369 lb-ft,4398,5,5,,,,,168,270,,,,,,,,,,,Autoevolution
+DE,,Porsche,2024 Panamera Turbo E-Hybrid,,,,Electric/Petrol,V8,4,TC,Front,AWD,519,381.7,568 lb-ft,5368,3.2,3.2,,,,,196,315,,,,,,,,,,,Autoevolution
 DE,,Porsche,2025 911 Carrera 4 GTS,,,,Electric/Petrol,I6,3.6,TC,Rear,AWD,485,356.7,420 lb-ft,3627,3,3,,,,,194,312,,,,,,,,,,,Autoevolution
 DE,,Porsche,2025 911 Carrera Cabriolet,,,,Petrol,I6,3,TC,Rear,RWD,394,289.8,3319 lb-ft,3527,4.2,4.2,,,,,181,291,,,,,,,,,,,Autoevolution
 DE,,Porsche,2025 911 GT3,,,,Petrol,I6,4,NA,Rear,RWD,510,375.1,332 lb-ft,3223,3.9,3.9,,,,,194,312,,,,,,,,,,,Autoevolution
@@ -49102,19 +49097,19 @@ DE,2023,Porsche,718 Boxster,Coupe,2,2,Petrol,I4,2,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,
 DE,2024,Porsche,718 Boxster,Coupe,2,2,Petrol,I4,2,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2025,Porsche,718 Boxster,Coupe,2,2,Petrol,I4,2,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2017,Porsche,718 Boxster Boxster S,Convertible,2,2,,,,,Mid,RWD,,,,3150,3.9,4.04,9.8,,12.3,,171,275.2,,,,,,,,,,,Car & Driver
-DE,2018,Porsche,718 Boxster Cayman Gts,Convertible,2,2,Petrol,H4,,TC,Mid,RWD,365,272.2,,3100,3.5,3.63,8.6,,11.9,,180,289.7,,,,,,,,,,,Car & Driver
+DE,2018,Porsche,718 Boxster Cayman GTS,Convertible,2,2,Petrol,H4,,TC,Mid,RWD,365,272.2,,3100,3.5,3.63,8.6,,11.9,,180,289.7,,,,,,,,,,,Car & Driver
 DE,2021,Porsche,718 Boxster GTS,Coupe,2,2,Petrol,V6,4,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2022,Porsche,718 Boxster GTS,Coupe,2,2,Petrol,V6,4,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2023,Porsche,718 Boxster GTS,Coupe,2,2,Petrol,V6,4,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2024,Porsche,718 Boxster GTS,Coupe,2,2,Petrol,V6,4,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2025,Porsche,718 Boxster GTS,Coupe,2,2,Petrol,V6,4,NA,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Porsche,718 Boxster Pdk Automatic,Convertible,2,2,Petrol,H4,,TC,Mid,RWD,300,223.7,280 lb-ft,3136,4,4.14,9.9,,12.5,112,,,144,,1.03,,,,,,,,Car & Driver
+DE,2017,Porsche,718 Boxster PDK Automatic,Convertible,2,2,Petrol,H4,,TC,Mid,RWD,300,223.7,280 lb-ft,3136,4,4.14,9.9,,12.5,112,,,144,,1.03,,,,,,,,Car & Driver
 DE,2021,Porsche,718 Boxster S,Coupe,2,2,Petrol,I4,2.5,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2022,Porsche,718 Boxster S,Coupe,2,2,Petrol,I4,2.5,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2023,Porsche,718 Boxster S,Coupe,2,2,Petrol,I4,2.5,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2024,Porsche,718 Boxster S,Coupe,2,2,Petrol,I4,2.5,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2025,Porsche,718 Boxster S,Coupe,2,2,Petrol,I4,2.5,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Porsche,718 Boxster S Pdk Automatic,Convertible,2,2,Petrol,H4,,TC,Mid,RWD,350,261,309 lb-ft,3159,3.6,3.73,8.5,,11.9,117,,,143,,1.02,,,,,,,,Car & Driver
+DE,2017,Porsche,718 Boxster S PDK Automatic,Convertible,2,2,Petrol,H4,,TC,Mid,RWD,350,261,309 lb-ft,3159,3.6,3.73,8.5,,11.9,117,,,143,,1.02,,,,,,,,Car & Driver
 DE,2017,Porsche,718 Cayman,Hatchback,4,2,Petrol,H4,2,TC,Mid,RWD,300,223.7,280 lb-ft,2950,4.5,4.66,10.8,,13,,171,275.2,,,,,,,,,,,Car & Driver
 DE,2021,Porsche,718 Cayman,Coupe,2,2,Petrol,I4,2,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2022,Porsche,718 Cayman,Coupe,2,2,Petrol,I4,2,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -49142,7 +49137,7 @@ DE,2023,Porsche,718 Cayman S,Coupe,2,2,Petrol,I4,2.5,TC,Mid,RWD,,,,,,,,,,,,,,,,,
 DE,2024,Porsche,718 Cayman S,Coupe,2,2,Petrol,I4,2.5,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2025,Porsche,718 Cayman S,Coupe,2,2,Petrol,I4,2.5,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2016,Porsche,718 Cayman S (982),,,2,,,,,Mid,,,,,,,,,,,,,,,,,,466.7,2016-09,Christian Gebhardt,,,,Wikipedia - List of Nürburgring Nordschleife lap times
-DE,2017,Porsche,718 Cayman S Pdk,Hatchback,4,2,Petrol,H4,,TC,Mid,RWD,350,261,309 lb-ft,3169,3.6,3.73,8.7,,12,117,,,142,,1.02,,,,,,,,Car & Driver
+DE,2017,Porsche,718 Cayman S PDK,Hatchback,4,2,Petrol,H4,,TC,Mid,RWD,350,261,309 lb-ft,3169,3.6,3.73,8.7,,12,117,,,142,,1.02,,,,,,,,Car & Driver
 DE,2023,Porsche,718 GT4 RS,Coupe,2,4,Petrol,V6,4,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2024,Porsche,718 GT4 RS,Coupe,2,4,Petrol,V6,4,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2025,Porsche,718 GT4 RS,Coupe,2,4,Petrol,V6,4,TC,Mid,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -49440,9 +49435,9 @@ DE,2010,Porsche,911 Carrera GTS Cabriolet (997),,,,Petrol,H6,3.8,NA,Rear,RWD,408
 DE,,Porsche,911 Carrera GTS Cabriolet 2014-Present,,,,Petrol,H6,3.8,NA,Rear,RWD,430,316,325 lb-ft,3505,4.2,4.2,,,,,188,303,,,,,,,,,,,Autoevolution
 DE,2017,Porsche,911 Carrera GTS Cabriolet Manual,Convertible,2,4,Petrol,H6,3,TC,Rear,RWD,450,335.6,405 lb-ft,3425,3.6,3.73,8.3,,12,119,,,141,,1.05,,,,,,,,Car & Driver
 DE,2017,Porsche,911 Carrera GTS Cabriolet PDK Automatic,Convertible,2,4,Petrol,H6,3,TC,Rear,RWD,450,335.6,405 lb-ft,3475,3,3.11,7.3,,11.3,122,,,139,,1.03,,,,,,,,Car & Driver
+DE,2017,Porsche,911 Carrera GTS Coupe Manual,Coupe,2,4,Petrol,H6,,TC,Rear,RWD,450,335.6,405 lb-ft,3295,3.4,3.52,7.8,,11.6,123,,,141,,1.06,,,,,,,,Car & Driver
+DE,2017,Porsche,911 Carrera GTS PDK Automatic,Coupe,2,4,Petrol,H6,,TC,Rear,RWD,450,335.6,405 lb-ft,3335,3,3.11,7.2,,11.3,125,,,142,,1.05,,,,,,,,Car & Driver
 DE,,Porsche,911 Carrera GTS and Carrera 4 GTS (992),,,,,,,,Rear,,,,,,2.8,2.9,,,,,,,,,,,,,,,,,Wikipedia - List of fastest production cars by acceleration
-DE,2017,Porsche,911 Carrera Gts Coupe Manual,Coupe,2,4,Petrol,H6,,TC,Rear,RWD,450,335.6,405 lb-ft,3295,3.4,3.52,7.8,,11.6,123,,,141,,1.06,,,,,,,,Car & Driver
-DE,2017,Porsche,911 Carrera Gts Pdk Automatic,Coupe,2,4,Petrol,H6,,TC,Rear,RWD,450,335.6,405 lb-ft,3335,3,3.11,7.2,,11.3,125,,,142,,1.05,,,,,,,,Car & Driver
 DE,2017,Porsche,911 Carrera Manual,Coupe,2,4,Petrol,H6,3,TC,Rear,RWD,370,275.9,331 lb-ft,3229,4,4.14,9.1,,12.4,117,,,145,,1,,,,,,,,Car & Driver
 DE,1972,Porsche,911 Carrera RS (901),,,,Petrol,H6,2.7,NA,Rear,RWD,210,154,188 lb-ft,2315,5.5,5.5,,,,,152,245,,,,,,,,,,,Autoevolution
 DE,1991,Porsche,911 Carrera RS (964),,,,Petrol,H6,3.6,NA,Rear,RWD,260,191,240 lb-ft,2711,5.4,5.4,,,,,162,261,,,,,,,,,,,Autoevolution
@@ -49491,9 +49486,9 @@ DE,2012,Porsche,911 Carrera S Cabriolet (991),Coupe,2,4,Petrol,H6,3.8,NA,Rear,RW
 DE,2015,Porsche,911 Carrera S Cabriolet (991),Coupe,2,4,Petrol,H6,3,TC,Rear,RWD,420,308.9,369 lb-ft,3373,4.3,4.3,,,,,189,304,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
 DE,2005,Porsche,911 Carrera S Cabriolet (997),,,,Petrol,H6,3.8,NA,Rear,RWD,355,261,295 lb-ft,3131,4.8,4.8,,,,,182,293,,,,,,,,,,,Autoevolution
 DE,2008,Porsche,911 Carrera S Cabriolet (997),,,,Petrol,H6,3.8,NA,Rear,RWD,385,283,310 lb-ft,3274,4.9,4.9,,,,,187.7,302,,,,,,,,,,,Autoevolution
-DE,2017,Porsche,911 Carrera S Cabriolet Pdk Automatic,Convertible,2,4,Petrol,H6,,TC,Rear,RWD,420,313.2,368 lb-ft,3512,3.2,3.32,7.8,,11.6,122,,,146,,1,,,,,,,,Car & Driver
+DE,2017,Porsche,911 Carrera S Cabriolet PDK Automatic,Convertible,2,4,Petrol,H6,,TC,Rear,RWD,420,313.2,368 lb-ft,3512,3.2,3.32,7.8,,11.6,122,,,146,,1,,,,,,,,Car & Driver
 DE,2015,Porsche,911 Carrera S Coupe (991),,,,Petrol,H6,3,TC,Rear,RWD,420,308.9,369 lb-ft,3219,4.1,4.1,,,,,190,306,,,,,,,,,,,Autoevolution
-DE,2017,Porsche,911 Carrera S Pdk Automatic,Coupe,2,4,Petrol,H6,,TC,Rear,RWD,420,313.2,368 lb-ft,3363,3.1,3.21,7.5,,11.4,123,,,142,,1.04,,,,,,,,Car & Driver
+DE,2017,Porsche,911 Carrera S PDK Automatic,Coupe,2,4,Petrol,H6,,TC,Rear,RWD,420,313.2,368 lb-ft,3363,3.1,3.21,7.5,,11.4,123,,,142,,1.04,,,,,,,,Car & Driver
 DE,2018,Porsche,911 Carrera T,,,,,,,,Rear,,,,,,,,,,,,,,,,,,,,,,,173.4,Car & Driver - Lightning Lap
 DE,2025,Porsche,911 Carrera T Cabriolet,Coupe,2,4,Petrol,V6,3,TC,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2026,Porsche,911 Carrera T Cabriolet,Coupe,2,4,Petrol,V6,3,TC,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -49569,6 +49564,7 @@ DE,2016,Porsche,911 GT3RS,,,,,,,,Rear,,,,,,,,,,,,,,,,,,,,,,,167,Car & Driver - L
 DE,2019,Porsche,911 GT3RS,,,,,,,,Rear,,,,,,,,,,,,,,,,,,,,,,,161.6,Car & Driver - Lightning Lap
 DE,2011,Porsche,911 GTS,Coupe,2,4,Petrol,V6,3.8,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2012,Porsche,911 GTS,Coupe,2,4,Petrol,V6,3.8,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2017,Porsche,911 GTS,,,,Petrol,H6,,TC,Rear,,450,335.6,405 lb-ft,3200,3,3.11,7.6,,11.4,,190,305.8,,,,,,,,,,,Car & Driver
 DE,2015,Porsche,911 GTS 3.0 MT,Convertible,2,4,Petrol,H6,3,NA,Rear,RWD,450,335.6,406 lb-ft,3516,4.06,4.2,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
 DE,2015,Porsche,911 GTS 3.0 PDK,Convertible,2,4,Petrol,H6,3,NA,Rear,RWD,450,335.6,406 lb-ft,3560,3.67,3.8,,,,,191.4,308,,,,,,,,,,,Kaggle - Car Specifications
 DE,2008,Porsche,911 GTS 3.8 MT,Convertible,2,4,Petrol,H6,3.8,NA,Rear,RWD,408,304.2,310 lb-ft,3340,4.63,4.8,,,,,190.1,306,,,,,,,,,,,Kaggle - Car Specifications
@@ -49577,7 +49573,6 @@ DE,2008,Porsche,911 GTS 3.8 PDK,Convertible,2,4,Petrol,H6,3.8,NA,Rear,RWD,408,30
 DE,2011,Porsche,911 GTS 3.8 PDK,Convertible,2,4,Petrol,H6,3.8,NA,Rear,RWD,430,320.7,325 lb-ft,3340,4.06,4.2,,,,,187.7,302,,,,,,,,,,,Kaggle - Car Specifications
 DE,2011,Porsche,911 GTS Cabriolet,Coupe,2,4,Petrol,V6,3.8,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2012,Porsche,911 GTS Cabriolet,Coupe,2,4,Petrol,V6,3.8,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Porsche,911 Gts,,,,Petrol,H6,,TC,Rear,,450,335.6,405 lb-ft,3200,3,3.11,7.6,,11.4,,190,305.8,,,,,,,,,,,Car & Driver
 DE,2016,Porsche,911 R,Coupe,2,4,Petrol,V6,4,NA,Rear,RWD,500,372.9,338 lb-ft,3050,3.5,3.63,7.2,,11.4,126,201,323.5,142,,1.11,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 DE,,Porsche,911 R 2016-Present,,,,Petrol,H6,4,NA,Rear,RWD,500,367.8,339 lb-ft,3020,3.8,3.8,,,,,201,323,,,,,,,,,,,Autoevolution
 DE,2004,Porsche,911 RS 3.6 MT,Coupe,2,4,Petrol,H6,3.6,NA,Rear,RWD,415,309.5,299 lb-ft,3031,4.06,4.2,,,,,193.2,311,,,,,,,,,,,Kaggle - Car Specifications
@@ -49632,7 +49627,7 @@ DE,2025,Porsche,911 Targa 4 GTS,Coupe,2,4,Petrol,V6,3.6,TC,Rear,AWD,,,,,,,,,,,,,
 DE,2026,Porsche,911 Targa 4 GTS,Coupe,2,4,Petrol,V6,3.6,TC,Rear,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2015,Porsche,911 Targa 4 GTS (991),,,,Petrol,H6,3.8,NA,Rear,AWD,430,316.3,325 lb-ft,3428,4.3,4.3,,,,,187,301,,,,,,,,,,,Autoevolution
 DE,,Porsche,911 Targa 4 GTS 2021-Present,,,,Petrol,H6,3,TC,Rear,AWD,480,353,420 lb-ft,3715,3.5,3.5,,,,,191,307,,,,,,,,,,,Autoevolution
-DE,2017,Porsche,911 Targa 4 Pdk Automatic,Targa,2,2,Petrol,H6,3,TC,Rear,AWD,370,275.9,331 lb-ft,3614,3.6,3.73,9.2,,12.1,115,,,143,,0.99,,,,,,,,Car & Driver
+DE,2017,Porsche,911 Targa 4 PDK Automatic,Targa,2,2,Petrol,H6,3,TC,Rear,AWD,370,275.9,331 lb-ft,3614,3.6,3.73,9.2,,12.1,115,,,143,,0.99,,,,,,,,Car & Driver
 DE,2014,Porsche,911 Targa 4S,Coupe,2,4,Petrol,V6,3.8,NA,Rear,4WD,400,298.3,325 lb-ft,3630,4.2,4.35,9.8,,12.6,113,,,148,,0.99,,,,,,,,"EPA - Fuel Economy, Car & Driver"
 DE,2015,Porsche,911 Targa 4S,Coupe,2,4,Petrol,V6,3.8,NA,Rear,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2016,Porsche,911 Targa 4S,Coupe,2,4,Petrol,V6,3.8,NA,Rear,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -50285,7 +50280,7 @@ DE,2008,Porsche,Cayman S 3.4 MT Black Edition,Coupe,2,2,Petrol,H6,3.4,NA,Mid,RWD
 DE,2008,Porsche,Cayman S 3.4 PDK,Coupe,2,2,Petrol,H6,3.4,NA,Mid,RWD,320,238.6,273 lb-ft,3031,5.02,5.2,,,,,172.1,277,,,,,,,,,,,Kaggle - Car Specifications
 DE,2012,Porsche,Cayman S 3.4 PDK,Coupe,2,2,Petrol,H6,3.4,NA,Mid,RWD,325,242.4,273 lb-ft,2910,4.73,4.9,,,,,174.6,281,,,,,,,,,,,Kaggle - Car Specifications
 DE,2008,Porsche,Cayman S 3.4 PDK Black Edition,Coupe,2,2,Petrol,H6,3.4,NA,Mid,RWD,330,246.1,273 lb-ft,,4.92,5.1,,,,,170.9,275,,,,,,,,,,,Kaggle - Car Specifications
-DE,2014,Porsche,Cayman S Pdk Automatic,Hatchback,4,2,Petrol,H6,3.4,NA,Mid,RWD,325,242.4,272 lb-ft,3131,4.1,4.25,10,,12.6,112,,,146,,0.99,,,,,,,,Car & Driver
+DE,2014,Porsche,Cayman S PDK Automatic,Hatchback,4,2,Petrol,H6,3.4,NA,Mid,RWD,325,242.4,272 lb-ft,3131,4.1,4.25,10,,12.6,112,,,146,,0.99,,,,,,,,Car & Driver
 DE,,Porsche,GTS 2021-Present,,,,Electric,,,,,RWD,,,,5077,3.7,3.7,,,,,,,,,,,,,,,,,Autoevolution
 DE,,Porsche,GTS Sport Turismo 2021-Present,,,,Electric,,,,,RWD,,,,5152,3.7,3.7,,,,,,,,,,,,,,,,,Autoevolution
 DE,2017,Porsche,Macan,SUV,4,5,Petrol,I4,2,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
@@ -50357,270 +50352,267 @@ DE,2012,Porsche,New 911 Carrera,Coupe,2,4,Petrol,V6,3.4,NA,Rear,RWD,,,,,,,,,,,,,
 DE,2012,Porsche,New 911 Carrera Cabriolet,Coupe,2,4,Petrol,V6,3.4,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2012,Porsche,New 911 Carrera S,Coupe,2,4,Petrol,V6,3.8,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2012,Porsche,New 911 Carrera S Cabriolet,Coupe,2,4,Petrol,V6,3.8,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2011,Porsche,Pamera,Sedan,4,5,Petrol,V6,3.6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2012,Porsche,Pamera,Sedan,4,5,Petrol,V6,3.6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2014,Porsche,Pamera,Sedan,4,5,Petrol,V6,3.6,NA,Front,RWD,,,,4100,3.2,3.32,,,11.6,,160,257.5,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
-DE,2015,Porsche,Pamera,Sedan,4,5,Petrol,V6,3.6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Porsche,Pamera,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,4400,3.2,3.32,8,,11.6,,179,288.1,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
-DE,2018,Porsche,Pamera,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2022,Porsche,Pamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2024,Porsche,Pamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2025,Porsche,Pamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2026,Porsche,Pamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2009,Porsche,Pamera (907),,,,Petrol,V6,0.6,NA,Front,RWD,300,220,295 lb-ft,3814,6.8,6.8,,,,,162,261,,,,,,,,,,,Autoevolution
-DE,2013,Porsche,Pamera (970),Sedan,4,5,Petrol,V6,3.6,NA,Front,RWD,310,228,295 lb-ft,3902,6.2,6.2,,,,,160,257,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
-DE,2016,Porsche,Pamera (971),Sedan,4,5,Petrol,H6,3,NA,Front,RWD,330,242.7,332 lb-ft,4001,5.7,5.7,,,,,164,264,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
-DE,2016,Porsche,Pamera 2.9 AMT 4WD,,,,Electric/Petrol,V6,2.9,TC,Front,AWD,330,246.1,516 lb-ft,4784,4.44,4.6,,,,,172.7,278,,,,,,,,,,,Kaggle - Car Specifications
-DE,2020,Porsche,Pamera 2.9 AMT 4WD,,,,Petrol,V6,2.9,TC,Front,AWD,330,246.1,332 lb-ft,4354,5.12,5.3,,,,,166.5,268,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera 3.0 AMT,,,,Electric/Petrol,V6,3,NA,Front,RWD,333,248.3,428 lb-ft,4365,5.79,6,,,,,167.8,270,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 3.0 AMT,,,,Electric/Petrol,V6,3,SC,Front,RWD,333,248.3,435 lb-ft,4619,5.31,5.5,,,,,167.8,270,,,,,,,,,,,Kaggle - Car Specifications
-DE,2016,Porsche,Pamera 3.0 AMT,,,,Petrol,V6,3,TC,Front,RWD,330,246.1,332 lb-ft,4001,5.5,5.7,,,,,164,264,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 3.0 AMT 4WD,,,,Petrol,V6,3,TC,Front,AWD,420,313.2,384 lb-ft,4123,4.63,4.8,,,,,177.7,286,,,,,,,,,,,Kaggle - Car Specifications
-DE,2016,Porsche,Pamera 3.0 AMT 4WD,,,,Petrol,V6,3,TC,Front,AWD,330,246.1,332 lb-ft,4079,5.31,5.5,,,,,162.8,262,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera 3.0 AT,,,,Diesel,V6,3,TC,Front,RWD,250,186.4,406 lb-ft,4145,6.57,6.8,,,,,150.4,242,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 3.0 AT,,,,Diesel,V6,3,TC,Front,RWD,211,157.3,428 lb-ft,4145,7.24,7.5,,,,,131.1,211,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 3.0 MT,,,,Petrol,V6,3,TC,Front,RWD,420,313.2,384 lb-ft,3990,4.92,5.1,,,,,178.3,287,,,,,,,,,,,Kaggle - Car Specifications
-DE,2016,Porsche,Pamera 3.0 PDK,Hatchback,4,5,Petrol,V6,3,TC,Front,RWD,330,246.1,332 lb-ft,4001,5.5,5.7,,,,,164,264,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera 3.6 AMT,,,,Petrol,V6,3.6,NA,Front,RWD,300,223.7,295 lb-ft,3880,6.08,6.3,,,,,160.9,259,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 3.6 AMT,,,,Petrol,V6,3.6,NA,Front,RWD,310,231.2,295 lb-ft,3902,6.08,6.3,,,,,160.9,259,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera 3.6 AMT 4WD,,,,Petrol,V6,3.6,NA,Front,AWD,300,223.7,295 lb-ft,4012,5.89,6.1,,,,,159.7,257,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 3.6 AMT 4WD,,,,Petrol,V6,3.6,NA,Front,AWD,310,231.2,295 lb-ft,4012,5.89,6.1,,,,,159.7,257,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera 3.6 MT,Hatchback,4,5,Petrol,V6,3.6,NA,Front,RWD,300,223.7,295 lb-ft,3814,6.57,6.8,,,,,162.2,261,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 3.6 MT,,,,Petrol,V6,3.6,NA,Front,RWD,310,231.2,295 lb-ft,3902,6.08,6.3,,,,,160.9,259,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera 3.6 PDK,Hatchback,4,5,Petrol,V6,3.6,NA,Front,RWD,300,223.7,295 lb-ft,3880,6.57,6.8,,,,,160.9,259,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 3.6 PDK,Hatchback,4,5,Petrol,V6,3.6,NA,Front,RWD,310,231.2,295 lb-ft,3902,6.08,6.3,,,,,160.9,259,,,,,,,,,,,Kaggle - Car Specifications
-DE,2011,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,3.6,NA,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2012,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,3.6,NA,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2014,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,3.6,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2015,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,3.6,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2018,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2022,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2024,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2025,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2026,Porsche,Pamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2009,Porsche,Pamera 4 (907),,,,Petrol,V6,3.6,NA,Front,AWD,300,220,295 lb-ft,4012.4,6.1,6.1,,,,,160,257,,,,,,,,,,,Autoevolution
-DE,2013,Porsche,Pamera 4 (970),Sedan,4,5,Petrol,V6,3.6,NA,Front,AWD,310,228,295 lb-ft,4012,6,6,,,,,160,257,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
-DE,2016,Porsche,Pamera 4 (971),Sedan,4,5,Petrol,V6,3,TC,Front,AWD,330,242.7,332 lb-ft,4079,5.5,5.5,,,,,163,262,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
-DE,2016,Porsche,Pamera 4 3.0 PDK AWD,Hatchback,4,5,Petrol,V6,3,TC,Front,AWD,330,246.1,332 lb-ft,4079,5.31,5.5,,,,,162.8,262,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera 4 3.6 PDK AWD,Hatchback,4,5,Petrol,V6,3.6,NA,Front,AWD,300,223.7,295 lb-ft,4012,5.89,6.1,,,,,159.7,257,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 4 3.6 PDK AWD,Hatchback,4,5,Petrol,V6,3.6,NA,Front,AWD,310,231.2,295 lb-ft,4012,5.89,6.1,,,,,159.7,257,,,,,,,,,,,Kaggle - Car Specifications
-DE,2018,Porsche,Pamera 4 E Hybrid Plug In,Hatchback,4,5,Electric/Petrol,V6,,TC,Front,AWD,,,,5100,4.2,4.35,11,,12.9,,172,276.8,,,,,,,,,,,Car & Driver
-DE,2016,Porsche,Pamera 4 E-Hybrid (971),,,,Petrol,V6,2.9,TC,Front,AWD,330,242.7,332 lb-ft,4784,4.6,4.6,,,,,173,278,,,,,,,,,,,Autoevolution
-DE,2016,Porsche,Pamera 4 E-Hybrid 2.9 PDK AWD,Hatchback,4,5,Electric/Petrol,V6,2.9,TC,Front,AWD,330,246.1,332 lb-ft,4784,4.44,4.6,,,,,172.7,278,,,,,,,,,,,Kaggle - Car Specifications
-DE,2016,Porsche,Pamera 4 E-Hybrid Executive 2.9 PDK AWD,Hatchback,4,5,Electric/Petrol,V6,2.9,TC,Front,AWD,330,246.1,332 lb-ft,4960,4.54,4.7,,,,,172.7,278,,,,,,,,,,,Kaggle - Car Specifications
-DE,2017,Porsche,Pamera 4 E-Hybrid Sport Turismo (971),,,,Electric/Petrol,V6,2.9,TC,Front,AWD,330,242.7,332 lb-ft,4828,4.6,4.6,,,,,171,275,,,,,,,,,,,Autoevolution
-DE,2022,Porsche,Pamera 4 E-Hybrid/Exec/ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Porsche,Pamera 4 Executive,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2018,Porsche,Pamera 4 Executive,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera 4 Executive,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera 4 Executive,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera 4 Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2022,Porsche,Pamera 4 Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera 4 Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,Porsche,Pamera 4 Executive 3.0 PDK AWD,Hatchback,4,5,Petrol,V6,3,TC,Front,AWD,330,246.1,332 lb-ft,4266,5.41,5.6,,,,,162.8,262,,,,,,,,,,,Kaggle - Car Specifications
-DE,2018,Porsche,Pamera 4 ST,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera 4 ST,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera 4 ST,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera 4 ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2022,Porsche,Pamera 4 ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera 4 ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Porsche,Pamera 4 Sport Turismo (971),,,,Petrol,V6,3,TC,Front,AWD,330,242.7,332 lb-ft,4145,5.5,5.5,,,,,161,259,,,,,,,,,,,Autoevolution
-DE,2018,Porsche,Pamera 4 e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera 4 e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera 4 e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera 4 e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera 4 e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2025,Porsche,Pamera 4 e-Hybrid,Sedan,4,5,Petrol,V8,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2018,Porsche,Pamera 4 e-Hybrid Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera 4 e-Hybrid Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera 4 e-Hybrid Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera 4 e-Hybrid Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2018,Porsche,Pamera 4 e-Hybrid ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera 4 e-Hybrid ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera 4 e-Hybrid ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera 4 e-Hybrid ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,Porsche,Pamera 4.0 AMT 4WD,,,,Diesel,I8,4,TC,Front,AWD,422,314.7,627 lb-ft,4519,4.35,4.5,,,,,177.1,285,,,,,,,,,,,Kaggle - Car Specifications
-DE,2020,Porsche,Pamera 4.0 AMT 4WD,,,,Electric/Petrol,V8,4,TC,Front,AWD,571,425.8,642 lb-ft,5556,3.19,3.3,,,,,195.7,315,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera 4.8 AMT 4WD,,,,Petrol,V8,4.8,NA,Front,AWD,400,298.3,369 lb-ft,4101,4.83,5,,,,,175.2,282,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 4.8 AMT 4WD,,,,Petrol,V8,4.8,NA,Front,AWD,400,298.3,369 lb-ft,4101,4.83,5,,,,,175.2,282,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera 4.8 MT,,,,Petrol,V8,4.8,NA,Front,RWD,400,298.3,369 lb-ft,3902,5.41,5.6,,,,,177.1,285,,,,,,,,,,,Kaggle - Car Specifications
-DE,2010,Porsche,Pamera 4S,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2011,Porsche,Pamera 4S,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2012,Porsche,Pamera 4S,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2014,Porsche,Pamera 4S,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2015,Porsche,Pamera 4S,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Porsche,Pamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2018,Porsche,Pamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2022,Porsche,Pamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2009,Porsche,Pamera 4S (970),,,,Petrol,V8,4.8,NA,Front,AWD,400,294,370 lb-ft,4100.6,5,5,,,,,175,282,,,,,,,,,,,Autoevolution
-DE,2013,Porsche,Pamera 4S (970),Sedan,4,5,Petrol,V6,3,TC,Front,AWD,420,308.9,384 lb-ft,4123,4.8,4.8,,,,,178,286,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
-DE,2016,Porsche,Pamera 4S (971),Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,440,323.6,406 lb-ft,4123,4.4,4.4,,,,,180,290,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
-DE,2016,Porsche,Pamera 4S 2.9 PDK AWD,Hatchback,4,5,Petrol,V6,2.9,TC,Front,AWD,440,328.1,406 lb-ft,4123,4.25,4.4,,,,,179.6,289,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 4S 3.0 PDK AWD,Hatchback,4,5,Petrol,V6,3,TC,Front,AWD,420,313.2,384 lb-ft,4123,4.63,4.8,,,,,177.7,286,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera 4S 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,NA,Front,AWD,400,298.3,369 lb-ft,4101,4.83,5,,,,,175.2,282,,,,,,,,,,,Kaggle - Car Specifications
-DE,2016,Porsche,Pamera 4S Diesel (971),,,,Diesel,V8,4,TC,Front,AWD,422,310.4,627 lb-ft,4519,4.5,4.5,,,,,177,285,,,,,,,,,,,Autoevolution
-DE,2023,Porsche,Pamera 4S E-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2025,Porsche,Pamera 4S E-Hybrid,Sedan,4,5,Petrol,V8,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,,Porsche,Pamera 4S E-Hybrid (971) 2020-Present,,,,Electric/Petrol,V6,2.9,TC,Front,RWD,440,323.6,406 lb-ft,5071,3.7,3.7,,,,,185,298,,,,,,,,,,,Autoevolution
-DE,,Porsche,Pamera 4S E-Hybrid Executive (971) 2020-Present,,,,Electric/Petrol,V6,2.9,TC,Front,RWD,440,323.6,406 lb-ft,5302,3.8,3.8,,,,,185,298,,,,,,,,,,,Autoevolution
-DE,2022,Porsche,Pamera 4S E-Hybrid/Exec/ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2014,Porsche,Pamera 4S Executive,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2015,Porsche,Pamera 4S Executive,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,Porsche,Pamera 4S Executive,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Porsche,Pamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2018,Porsche,Pamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2022,Porsche,Pamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,Porsche,Pamera 4S Executive 2.9 PDK AWD,Hatchback,4,5,Petrol,V6,2.9,TC,Front,AWD,440,328.1,406 lb-ft,4365,4.35,4.5,,,,,179.6,289,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera 4S Executive 3.0 PDK AWD,Hatchback,4,5,Petrol,V6,3,TC,Front,AWD,420,313.2,384 lb-ft,4409,4.83,5,,,,,177.7,286,,,,,,,,,,,Kaggle - Car Specifications
-DE,2018,Porsche,Pamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2022,Porsche,Pamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,,Porsche,Pamera 4S Sport Turismo (971) 2017-Present,,,,Petrol,V6,2.9,TC,Front,AWD,440,323.6,406 lb-ft,4222,4.4,4.4,,,,,178,286,,,,,,,,,,,Autoevolution
-DE,2021,Porsche,Pamera 4S e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera 4S e-Hybrid Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera 4S e-Hybrid ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2011,Porsche,Pamera Diesel (970),,,,Diesel,V6,3,TC,Front,RWD,250,184,406 lb-ft,4145,6.8,6.8,,,,,150,241,,,,,,,,,,,Autoevolution
-DE,2013,Porsche,Pamera Diesel (970),,,,Diesel,V6,3,NA,Front,AWD,300,221,479 lb-ft,4189,6,6,,,,,161,259,,,,,,,,,,,Autoevolution
-DE,2009,Porsche,Pamera Diesel 3.0 Tiptronic,Hatchback,4,5,Diesel,V6,3,TC,Front,RWD,250,186.4,406 lb-ft,4145,6.57,6.8,,,,,150.4,242,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera Diesel 3.0 Tiptronic S,Hatchback,4,5,Diesel,V6,3,TC,Front,RWD,250,186.4,406 lb-ft,4145,6.18,6.4,,,,,151.6,244,,,,,,,,,,,Kaggle - Car Specifications
-DE,2014,Porsche,Pamera GTS,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2015,Porsche,Pamera GTS,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,Porsche,Pamera GTS,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2022,Porsche,Pamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2025,Porsche,Pamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2011,Porsche,Pamera GTS (970),,,,Petrol,V8,4.8,NA,Front,AWD,430,316,384 lb-ft,4233,4.5,4.5,,,,,179,288,,,,,,,,,,,Autoevolution
-DE,2013,Porsche,Pamera GTS (970),Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,440,323.6,384 lb-ft,4233,4.4,4.4,10.7,,12.7,108,178,286,159,,0.98,,,,,,,,"Autoevolution, EPA - Fuel Economy, Car & Driver"
-DE,2018,Porsche,Pamera GTS (971),,,,Petrol,V8,4,NA,Front,AWD,460,338.3,457 lb-ft,4398,4,4,,,,,181,291,,,,,,,,,,,Autoevolution
-DE,,Porsche,Pamera GTS (971) 2020-Present,,,,Petrol,V8,4,TC,Front,RWD,480,353,457 lb-ft,4619,3.9,3.9,,,,,186,299,,,,,,,,,,,Autoevolution
-DE,2016,Porsche,Pamera GTS 4.0 PDK AWD,Hatchback,4,5,Petrol,V8,4,TC,Front,4WD,460,343,457 lb-ft,4398,3.96,4.1,,,,,181.4,292,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera GTS 4.8 PDK,Hatchback,4,5,Petrol,V8,4.8,NA,Front,AWD,430,320.7,384 lb-ft,4398,4.35,4.5,,,,,179,288,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera GTS 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,NA,Front,AWD,440,328.1,384 lb-ft,4244,4.25,4.4,,,,,179,288,,,,,,,,,,,Kaggle - Car Specifications
-DE,2019,Porsche,Pamera GTS ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera GTS ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera GTS ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2022,Porsche,Pamera GTS ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera GTS ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2018,Porsche,Pamera GTS Sport Turismo (971),,,,Petrol,V8,4,NA,Front,AWD,460,338.3,457 lb-ft,4464,4,4,,,,,180,290,,,,,,,,,,,Autoevolution
-DE,,Porsche,Pamera GTS Sport Turismo (971) 2020-Present,,,,Petrol,V8,4,TC,Front,RWD,480,353,457 lb-ft,4663,3.9,3.9,,,,,181,291,,,,,,,,,,,Autoevolution
-DE,2010,Porsche,Pamera S,Sedan,4,5,Petrol,V8,4.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2011,Porsche,Pamera S,Sedan,4,5,Petrol,V8,4.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2012,Porsche,Pamera S,Sedan,4,5,Petrol,V8,4.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2014,Porsche,Pamera S,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2015,Porsche,Pamera S,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,Porsche,Pamera S,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2009,Porsche,Pamera S (970),,,,Petrol,V8,4.8,NA,Front,RWD,400,294,370 lb-ft,3902.2,5.6,5.6,,,,,177,285,,,,,,,,,,,Autoevolution
-DE,2013,Porsche,Pamera S (970),Sedan,4,5,Petrol,V6,3,NA,Front,RWD,420,308.9,384 lb-ft,3990,5.1,5.1,,,,,178,286,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
-DE,2013,Porsche,Pamera S 3.0 E-Hybrid Tiptronic S,Hatchback,4,5,Electric/Petrol,V6,3,SC,Front,RWD,416,310.2,435 lb-ft,4619,5.31,5.5,,,,,167.8,270,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera S 3.0 PDK,Hatchback,4,5,Petrol,V6,3,TC,Front,RWD,420,313.2,384 lb-ft,3990,4.92,5.1,,,,,178.3,287,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera S 4.8 MT,Hatchback,4,5,Petrol,V8,4.8,NA,Front,RWD,400,298.3,369 lb-ft,3902,5.41,5.6,,,,,177.1,285,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera S 4.8 PDK,Hatchback,4,5,Petrol,V8,4.8,NA,Front,RWD,400,298.3,369 lb-ft,3968,5.21,5.4,,,,,175.8,283,,,,,,,,,,,Kaggle - Car Specifications
-DE,2014,Porsche,Pamera S E-Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,4800,5.2,5.39,,,13.8,,167,268.8,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
-DE,2015,Porsche,Pamera S E-Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,Porsche,Pamera S E-Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2013,Porsche,Pamera S E-Hybrid (970),,,,Electric/Petrol,V6,3,TC,Front,RWD,416,306,435 lb-ft,4619,5.5,5.5,,,,,168,270,,,,,,,,,,,Autoevolution
-DE,2012,Porsche,Pamera S Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2013,Porsche,Pamera S Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2011,Porsche,Pamera S Hybrid (970),,,,Electric/Petrol,V6,3,NA,Front,RWD,333,245,325 lb-ft,4365,6,6,,,,,168,270,,,,,,,,,,,Autoevolution
-DE,2009,Porsche,Pamera S Hybrid 3.0 Tiptronic,Hatchback,4,5,Electric/Petrol,V6,3,SC,Front,RWD,380,283.4,325 lb-ft,4365,5.79,6,,,,,167.8,270,,,,,,,,,,,Kaggle - Car Specifications
-DE,2018,Porsche,Pamera Sport Turismo,Hatchback,4,5,,,,,Front,AWD,,,,4200,3,3.11,7.5,,11.3,,170,273.6,,,,,,,,,,,Car & Driver
-DE,,Porsche,Pamera Sport Turismo Turbo S E-Hybrid,,,,Electric/Petrol,,,TC,,,,,,,2.8,2.9,,,,,,,,,,,,,,,,,Wikipedia - List of fastest production cars by acceleration
-DE,2010,Porsche,Pamera Turbo,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,84.2,"Series 15, Episode 03",,"EPA - Fuel Economy, Wikipedia - List of Top Gear test track Power Lap times"
-DE,2011,Porsche,Pamera Turbo,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2012,Porsche,Pamera Turbo,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2014,Porsche,Pamera Turbo,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2015,Porsche,Pamera Turbo,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Porsche,Pamera Turbo,Hatchback,4,5,Petrol,V8,4,TC,Front,AWD,550,410.1,567 lb-ft,4593,3,3.11,7.5,,11.3,122,,,153,,0.94,,,,,84.2,"Series 15, Episode 03",,"Car & Driver, Wikipedia - List of Top Gear test track Power Lap times, EPA - Fuel Economy"
-DE,2018,Porsche,Pamera Turbo,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera Turbo,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera Turbo,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2009,Porsche,Pamera Turbo (970),,,,Petrol,V8,4.8,TC,Front,RWD,500,368,516 lb-ft,4343.1,4.2,4.2,,,,,188,303,,,,,476,2009,Walter Röhrl,,,,"Autoevolution, Wikipedia - List of Nürburgring Nordschleife lap times"
-DE,2013,Porsche,Pamera Turbo (970),Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,520,382.5,516 lb-ft,4343,4.1,4.1,,,,,190,306,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
-DE,2016,Porsche,Pamera Turbo (971),Sedan,4,5,Petrol,V8,4,TC,Front,AWD,550,404.5,568 lb-ft,4398,3.8,3.8,,,,,190,306,,,,,458,2016,,,,,"Autoevolution, Wikipedia - List of Nürburgring Nordschleife lap times, EPA - Fuel Economy"
-DE,2016,Porsche,Pamera Turbo 4.0 PDK AWD,Hatchback,4,5,Petrol,V8,4,TC,Front,AWD,550,410.1,568 lb-ft,4398,3.67,3.8,,,,,190.1,306,,,,,,,,,,,Kaggle - Car Specifications
-DE,2009,Porsche,Pamera Turbo 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,TC,Front,AWD,500,372.9,516 lb-ft,4343,4.06,4.2,,,,,188.3,303,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera Turbo 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,TC,Front,AWD,520,387.8,516 lb-ft,4343,3.96,4.1,,,,,189.5,305,,,,,,,,,,,Kaggle - Car Specifications
-DE,2020,Porsche,Pamera Turbo Exec,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2014,Porsche,Pamera Turbo Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,520,387.8,568 lb-ft,4628,3.3,3.42,8.4,,11.8,118,,,148,,0.96,,,,,,,,"EPA - Fuel Economy, Car & Driver"
-DE,2015,Porsche,Pamera Turbo Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,Porsche,Pamera Turbo Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2017,Porsche,Pamera Turbo Executive,Hatchback,4,5,Petrol,V8,4,TC,Front,AWD,550,410.1,567 lb-ft,4795,3.2,3.32,8,,11.6,121,,,151,,0.94,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-DE,2018,Porsche,Pamera Turbo Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera Turbo Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,Porsche,Pamera Turbo Executive 4.0 PDK AWD,Hatchback,4,5,Petrol,V8,4,TC,Front,AWD,550,410.1,568 lb-ft,4630,3.77,3.9,,,,,190.1,306,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera Turbo Executive 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,TC,Front,AWD,520,387.8,516 lb-ft,4564,4.06,4.2,,,,,189.5,305,,,,,,,,,,,Kaggle - Car Specifications
-DE,2014,Porsche,Pamera Turbo S,Sedan,4,5,Petrol,V8,4.8,TC,Rear,AWD,,,,,2.6,2.69,,,,,,,,,,,,,,,,,"EPA - Fuel Economy, Wikipedia - List of fastest production cars by acceleration"
-DE,2015,Porsche,Pamera Turbo S,Sedan,4,5,Petrol,V8,4.8,TC,Rear,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,Porsche,Pamera Turbo S,Sedan,4,5,Petrol,V8,4.8,TC,Rear,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera Turbo S,Sedan,4,5,Petrol,V8,4,TC,Rear,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera Turbo S,Sedan,4,5,Petrol,V8,4,TC,Rear,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2011,Porsche,Pamera Turbo S (907),,,,Petrol,V8,4.8,TC,Front,AWD,550,405,553 lb-ft,4398,3.8,3.8,,,,,190,306,,,,,,,,,,,Autoevolution
-DE,2013,Porsche,Pamera Turbo S (970),Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,570,419,553 lb-ft,4398,3.8,3.8,,,,,193,311,,,,,,,,,,,"Autoevolution, Wikipedia - List of fastest production cars by acceleration, EPA - Fuel Economy"
-DE,2012,Porsche,"Pamera Turbo S (970, pre-facelift, 2012, 4.8 TT, 550 PS)",Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,472,2012,Horst von Saurma,,,,"Wikipedia - List of Nürburgring Nordschleife lap times, EPA - Fuel Economy"
-DE,,Porsche,Pamera Turbo S (971) 2020-Present,,,,Petrol,V8,4,TC,Front,RWD,630,463.4,605 lb-ft,,3.1,3.1,,,,,196,315,,,,,,,,,,,Autoevolution
-DE,2020,Porsche,"Pamera Turbo S (971.2, 2020)",,,,Petrol,,,TC,,,,,,,3,3.11,,,,,,,,,,,449.81,2020-07-24,Lars Kern,,,,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of fastest production cars by acceleration"
-DE,2009,Porsche,Pamera Turbo S 4.8 PDK AWD,Hatchback,4,5,Petrol,V6,4.8,TC,Front,AWD,550,410.1,553 lb-ft,4398,3.67,3.8,,,,,190.1,306,,,,,,,,,,,Kaggle - Car Specifications
-DE,2013,Porsche,Pamera Turbo S 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,TC,Front,AWD,570,425,553 lb-ft,4398,3.67,3.8,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
-DE,2018,Porsche,Pamera Turbo S E-Hybrid,Hatchback,4,5,Electric/Petrol,V8,4,TC,Front,AWD,,,,5200,2.9,3.0,7.3,,11.1,,192,309.0,,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
-DE,2017,Porsche,Pamera Turbo S E-Hybrid (971),,,,Electric/Petrol,V8,4,TC,Front,AWD,550,404.5,568 lb-ft,5313,3.5,3.5,,,,,193,311,,,,,,,,,,,Autoevolution
-DE,2024,Porsche,"Pamera Turbo S E-Hybrid (976, 2024)",,,,,,,TC,,,,,,,,,,,,,,,,,,,444.17,2024-07-12,Lars Kern,,,,Wikipedia - List of Nürburgring Nordschleife lap times
-DE,2016,Porsche,Pamera Turbo S E-Hybrid 4.0 PDK AWD,Hatchback,4,5,Electric/Petrol,V8,4,TC,Front,AWD,680,507.1,568 lb-ft,5093,3.28,3.4,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
-DE,2016,Porsche,Pamera Turbo S E-Hybrid Executive 4.0 PDK AWD,Hatchback,4,5,Electric/Petrol,V8,4,TC,Front,AWD,680,507.1,568 lb-ft,5313,3.38,3.5,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
-DE,2018,Porsche,Pamera Turbo S E-Hybrid Sport Turismo,Hatchback,4,5,Electric/Petrol,V8,,TC,Front,AWD,,,,5150,2.9,3.0,7.2,,11,,192,309.0,,,,,,,,,,,Car & Driver
-DE,,Porsche,Pamera Turbo S E-Hybrid Sport Turismo 2017-Present,,,,Electric/Petrol,V8,4,TC,Front,AWD,550,404.5,568 lb-ft,5126,3.4,3.4,,,,,193,311,,,,,,,,,,,Autoevolution
-DE,2022,Porsche,Pamera Turbo S E-Hybrid/Exec/ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2014,Porsche,Pamera Turbo S Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,570,425,590 lb-ft,4638,3.5,3.63,8.2,,11.7,120,,,146,,1.01,,,,,,,,"EPA - Fuel Economy, Car & Driver"
-DE,2015,Porsche,Pamera Turbo S Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2016,Porsche,Pamera Turbo S Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera Turbo S Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera Turbo S Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2013,Porsche,Pamera Turbo S Executive 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,TC,Front,AWD,570,425,553 lb-ft,4586,3.77,3.9,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
-DE,2021,Porsche,Pamera Turbo S ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera Turbo S ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,,Porsche,Pamera Turbo S Sport Turismo (971) 2020-Present,,,,Petrol,V8,4,TC,Front,RWD,630,463.4,605 lb-ft,4872,3.1,3.1,,,,,196,315,,,,,,,,,,,Autoevolution
-DE,2019,Porsche,Pamera Turbo S e-Hybrid,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera Turbo S e-Hybrid,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera Turbo S e-Hybrid,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2023,Porsche,Pamera Turbo S e-Hybrid,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2018,Porsche,Pamera Turbo S e-Hybrid Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera Turbo S e-Hybrid Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera Turbo S e-Hybrid Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera Turbo S e-Hybrid Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2018,Porsche,Pamera Turbo S e-Hybrid ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera Turbo S e-Hybrid ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera Turbo S e-Hybrid ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2021,Porsche,Pamera Turbo S e-Hybrid ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2022,Porsche,Pamera Turbo S/Exec/ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2018,Porsche,Pamera Turbo ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2019,Porsche,Pamera Turbo ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,2020,Porsche,Pamera Turbo ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
-DE,,Porsche,Pamera Turbo Sport Turismo (971) 2017-Present,,,,Petrol,V8,4,TC,Front,AWD,550,404.5,568 lb-ft,4486,3.8,3.8,,,,,189,304,,,,,,,,,,,Autoevolution
-DE,2017,Porsche,Panamera Turbo,,,,,,,TC,Front,,,,,,,,,,,,,,,,,,,,,,,179.2,Car & Driver - Lightning Lap
-DE,2012,Porsche,Panamera Turbo S,,,,,,,TC,Rear,,,,,,,,,,,,,,,,,,,,,,,180.7,Car & Driver - Lightning Lap
-DE,2021,Porsche,Panamera Turbo S,,,,,,,TC,Rear,,,,,,,,,,,,,,,,,,,,,,,167.8,Car & Driver - Lightning Lap
+DE,2011,Porsche,Panamera,Sedan,4,5,Petrol,V6,3.6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2012,Porsche,Panamera,Sedan,4,5,Petrol,V6,3.6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2014,Porsche,Panamera,Sedan,4,5,Petrol,V6,3.6,NA,Front,RWD,,,,4100,3.2,3.32,,,11.6,,160,257.5,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
+DE,2015,Porsche,Panamera,Sedan,4,5,Petrol,V6,3.6,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2017,Porsche,Panamera,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,4400,3.2,3.32,8,,11.6,,179,288.1,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
+DE,2018,Porsche,Panamera,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2022,Porsche,Panamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2024,Porsche,Panamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2025,Porsche,Panamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2026,Porsche,Panamera,Sedan,4,5,Petrol,V6,2.9,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2009,Porsche,Panamera (907),,,,Petrol,V6,0.6,NA,Front,RWD,300,220,295 lb-ft,3814,6.8,6.8,,,,,162,261,,,,,,,,,,,Autoevolution
+DE,2013,Porsche,Panamera (970),Sedan,4,5,Petrol,V6,3.6,NA,Front,RWD,310,228,295 lb-ft,3902,6.2,6.2,,,,,160,257,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
+DE,2016,Porsche,Panamera (971),Sedan,4,5,Petrol,H6,3,NA,Front,RWD,330,242.7,332 lb-ft,4001,5.7,5.7,,,,,164,264,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
+DE,2016,Porsche,Panamera 2.9 AMT 4WD,,,,Electric/Petrol,V6,2.9,TC,Front,AWD,330,246.1,516 lb-ft,4784,4.44,4.6,,,,,172.7,278,,,,,,,,,,,Kaggle - Car Specifications
+DE,2020,Porsche,Panamera 2.9 AMT 4WD,,,,Petrol,V6,2.9,TC,Front,AWD,330,246.1,332 lb-ft,4354,5.12,5.3,,,,,166.5,268,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera 3.0 AMT,,,,Electric/Petrol,V6,3,NA,Front,RWD,333,248.3,428 lb-ft,4365,5.79,6,,,,,167.8,270,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 3.0 AMT,,,,Electric/Petrol,V6,3,SC,Front,RWD,333,248.3,435 lb-ft,4619,5.31,5.5,,,,,167.8,270,,,,,,,,,,,Kaggle - Car Specifications
+DE,2016,Porsche,Panamera 3.0 AMT,,,,Petrol,V6,3,TC,Front,RWD,330,246.1,332 lb-ft,4001,5.5,5.7,,,,,164,264,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 3.0 AMT 4WD,,,,Petrol,V6,3,TC,Front,AWD,420,313.2,384 lb-ft,4123,4.63,4.8,,,,,177.7,286,,,,,,,,,,,Kaggle - Car Specifications
+DE,2016,Porsche,Panamera 3.0 AMT 4WD,,,,Petrol,V6,3,TC,Front,AWD,330,246.1,332 lb-ft,4079,5.31,5.5,,,,,162.8,262,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera 3.0 AT,,,,Diesel,V6,3,TC,Front,RWD,250,186.4,406 lb-ft,4145,6.57,6.8,,,,,150.4,242,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 3.0 AT,,,,Diesel,V6,3,TC,Front,RWD,211,157.3,428 lb-ft,4145,7.24,7.5,,,,,131.1,211,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 3.0 MT,,,,Petrol,V6,3,TC,Front,RWD,420,313.2,384 lb-ft,3990,4.92,5.1,,,,,178.3,287,,,,,,,,,,,Kaggle - Car Specifications
+DE,2016,Porsche,Panamera 3.0 PDK,Hatchback,4,5,Petrol,V6,3,TC,Front,RWD,330,246.1,332 lb-ft,4001,5.5,5.7,,,,,164,264,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera 3.6 AMT,,,,Petrol,V6,3.6,NA,Front,RWD,300,223.7,295 lb-ft,3880,6.08,6.3,,,,,160.9,259,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 3.6 AMT,,,,Petrol,V6,3.6,NA,Front,RWD,310,231.2,295 lb-ft,3902,6.08,6.3,,,,,160.9,259,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera 3.6 AMT 4WD,,,,Petrol,V6,3.6,NA,Front,AWD,300,223.7,295 lb-ft,4012,5.89,6.1,,,,,159.7,257,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 3.6 AMT 4WD,,,,Petrol,V6,3.6,NA,Front,AWD,310,231.2,295 lb-ft,4012,5.89,6.1,,,,,159.7,257,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera 3.6 MT,Hatchback,4,5,Petrol,V6,3.6,NA,Front,RWD,300,223.7,295 lb-ft,3814,6.57,6.8,,,,,162.2,261,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 3.6 MT,,,,Petrol,V6,3.6,NA,Front,RWD,310,231.2,295 lb-ft,3902,6.08,6.3,,,,,160.9,259,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera 3.6 PDK,Hatchback,4,5,Petrol,V6,3.6,NA,Front,RWD,300,223.7,295 lb-ft,3880,6.57,6.8,,,,,160.9,259,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 3.6 PDK,Hatchback,4,5,Petrol,V6,3.6,NA,Front,RWD,310,231.2,295 lb-ft,3902,6.08,6.3,,,,,160.9,259,,,,,,,,,,,Kaggle - Car Specifications
+DE,2011,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,3.6,NA,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2012,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,3.6,NA,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2014,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,3.6,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2015,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,3.6,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2017,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2018,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2022,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2024,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2025,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2026,Porsche,Panamera 4,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2009,Porsche,Panamera 4 (907),,,,Petrol,V6,3.6,NA,Front,AWD,300,220,295 lb-ft,4012.4,6.1,6.1,,,,,160,257,,,,,,,,,,,Autoevolution
+DE,2013,Porsche,Panamera 4 (970),Sedan,4,5,Petrol,V6,3.6,NA,Front,AWD,310,228,295 lb-ft,4012,6,6,,,,,160,257,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
+DE,2016,Porsche,Panamera 4 (971),Sedan,4,5,Petrol,V6,3,TC,Front,AWD,330,242.7,332 lb-ft,4079,5.5,5.5,,,,,163,262,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
+DE,2016,Porsche,Panamera 4 3.0 PDK AWD,Hatchback,4,5,Petrol,V6,3,TC,Front,AWD,330,246.1,332 lb-ft,4079,5.31,5.5,,,,,162.8,262,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera 4 3.6 PDK AWD,Hatchback,4,5,Petrol,V6,3.6,NA,Front,AWD,300,223.7,295 lb-ft,4012,5.89,6.1,,,,,159.7,257,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 4 3.6 PDK AWD,Hatchback,4,5,Petrol,V6,3.6,NA,Front,AWD,310,231.2,295 lb-ft,4012,5.89,6.1,,,,,159.7,257,,,,,,,,,,,Kaggle - Car Specifications
+DE,2018,Porsche,Panamera 4 E Hybrid Plug In,Hatchback,4,5,Electric/Petrol,V6,,TC,Front,AWD,,,,5100,4.2,4.35,11,,12.9,,172,276.8,,,,,,,,,,,Car & Driver
+DE,2016,Porsche,Panamera 4 E-Hybrid (971),,,,Petrol,V6,2.9,TC,Front,AWD,330,242.7,332 lb-ft,4784,4.6,4.6,,,,,173,278,,,,,,,,,,,Autoevolution
+DE,2016,Porsche,Panamera 4 E-Hybrid 2.9 PDK AWD,Hatchback,4,5,Electric/Petrol,V6,2.9,TC,Front,AWD,330,246.1,332 lb-ft,4784,4.44,4.6,,,,,172.7,278,,,,,,,,,,,Kaggle - Car Specifications
+DE,2016,Porsche,Panamera 4 E-Hybrid Executive 2.9 PDK AWD,Hatchback,4,5,Electric/Petrol,V6,2.9,TC,Front,AWD,330,246.1,332 lb-ft,4960,4.54,4.7,,,,,172.7,278,,,,,,,,,,,Kaggle - Car Specifications
+DE,2017,Porsche,Panamera 4 E-Hybrid Sport Turismo (971),,,,Electric/Petrol,V6,2.9,TC,Front,AWD,330,242.7,332 lb-ft,4828,4.6,4.6,,,,,171,275,,,,,,,,,,,Autoevolution
+DE,2022,Porsche,Panamera 4 E-Hybrid/Exec/ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2017,Porsche,Panamera 4 Executive,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2018,Porsche,Panamera 4 Executive,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera 4 Executive,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera 4 Executive,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera 4 Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2022,Porsche,Panamera 4 Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera 4 Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2016,Porsche,Panamera 4 Executive 3.0 PDK AWD,Hatchback,4,5,Petrol,V6,3,TC,Front,AWD,330,246.1,332 lb-ft,4266,5.41,5.6,,,,,162.8,262,,,,,,,,,,,Kaggle - Car Specifications
+DE,2018,Porsche,Panamera 4 ST,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera 4 ST,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera 4 ST,Sedan,4,5,Petrol,V6,3,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera 4 ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2022,Porsche,Panamera 4 ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera 4 ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2017,Porsche,Panamera 4 Sport Turismo (971),,,,Petrol,V6,3,TC,Front,AWD,330,242.7,332 lb-ft,4145,5.5,5.5,,,,,161,259,,,,,,,,,,,Autoevolution
+DE,2018,Porsche,Panamera 4 e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera 4 e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera 4 e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera 4 e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera 4 e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2025,Porsche,Panamera 4 e-Hybrid,Sedan,4,5,Petrol,V8,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2018,Porsche,Panamera 4 e-Hybrid Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera 4 e-Hybrid Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera 4 e-Hybrid Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera 4 e-Hybrid Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2018,Porsche,Panamera 4 e-Hybrid ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera 4 e-Hybrid ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera 4 e-Hybrid ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera 4 e-Hybrid ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2016,Porsche,Panamera 4.0 AMT 4WD,,,,Diesel,I8,4,TC,Front,AWD,422,314.7,627 lb-ft,4519,4.35,4.5,,,,,177.1,285,,,,,,,,,,,Kaggle - Car Specifications
+DE,2020,Porsche,Panamera 4.0 AMT 4WD,,,,Electric/Petrol,V8,4,TC,Front,AWD,571,425.8,642 lb-ft,5556,3.19,3.3,,,,,195.7,315,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera 4.8 AMT 4WD,,,,Petrol,V8,4.8,NA,Front,AWD,400,298.3,369 lb-ft,4101,4.83,5,,,,,175.2,282,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 4.8 AMT 4WD,,,,Petrol,V8,4.8,NA,Front,AWD,400,298.3,369 lb-ft,4101,4.83,5,,,,,175.2,282,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera 4.8 MT,,,,Petrol,V8,4.8,NA,Front,RWD,400,298.3,369 lb-ft,3902,5.41,5.6,,,,,177.1,285,,,,,,,,,,,Kaggle - Car Specifications
+DE,2010,Porsche,Panamera 4S,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2011,Porsche,Panamera 4S,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2012,Porsche,Panamera 4S,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2014,Porsche,Panamera 4S,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2015,Porsche,Panamera 4S,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2017,Porsche,Panamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2018,Porsche,Panamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2022,Porsche,Panamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera 4S,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2009,Porsche,Panamera 4S (970),,,,Petrol,V8,4.8,NA,Front,AWD,400,294,370 lb-ft,4100.6,5,5,,,,,175,282,,,,,,,,,,,Autoevolution
+DE,2013,Porsche,Panamera 4S (970),Sedan,4,5,Petrol,V6,3,TC,Front,AWD,420,308.9,384 lb-ft,4123,4.8,4.8,,,,,178,286,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
+DE,2016,Porsche,Panamera 4S (971),Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,440,323.6,406 lb-ft,4123,4.4,4.4,,,,,180,290,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
+DE,2016,Porsche,Panamera 4S 2.9 PDK AWD,Hatchback,4,5,Petrol,V6,2.9,TC,Front,AWD,440,328.1,406 lb-ft,4123,4.25,4.4,,,,,179.6,289,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 4S 3.0 PDK AWD,Hatchback,4,5,Petrol,V6,3,TC,Front,AWD,420,313.2,384 lb-ft,4123,4.63,4.8,,,,,177.7,286,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera 4S 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,NA,Front,AWD,400,298.3,369 lb-ft,4101,4.83,5,,,,,175.2,282,,,,,,,,,,,Kaggle - Car Specifications
+DE,2016,Porsche,Panamera 4S Diesel (971),,,,Diesel,V8,4,TC,Front,AWD,422,310.4,627 lb-ft,4519,4.5,4.5,,,,,177,285,,,,,,,,,,,Autoevolution
+DE,2023,Porsche,Panamera 4S E-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2025,Porsche,Panamera 4S E-Hybrid,Sedan,4,5,Petrol,V8,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,,Porsche,Panamera 4S E-Hybrid (971) 2020-Present,,,,Electric/Petrol,V6,2.9,TC,Front,RWD,440,323.6,406 lb-ft,5071,3.7,3.7,,,,,185,298,,,,,,,,,,,Autoevolution
+DE,,Porsche,Panamera 4S E-Hybrid Executive (971) 2020-Present,,,,Electric/Petrol,V6,2.9,TC,Front,RWD,440,323.6,406 lb-ft,5302,3.8,3.8,,,,,185,298,,,,,,,,,,,Autoevolution
+DE,2022,Porsche,Panamera 4S E-Hybrid/Exec/ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2014,Porsche,Panamera 4S Executive,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2015,Porsche,Panamera 4S Executive,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2016,Porsche,Panamera 4S Executive,Sedan,4,5,Petrol,V6,3,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2017,Porsche,Panamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2018,Porsche,Panamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2022,Porsche,Panamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera 4S Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2016,Porsche,Panamera 4S Executive 2.9 PDK AWD,Hatchback,4,5,Petrol,V6,2.9,TC,Front,AWD,440,328.1,406 lb-ft,4365,4.35,4.5,,,,,179.6,289,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera 4S Executive 3.0 PDK AWD,Hatchback,4,5,Petrol,V6,3,TC,Front,AWD,420,313.2,384 lb-ft,4409,4.83,5,,,,,177.7,286,,,,,,,,,,,Kaggle - Car Specifications
+DE,2018,Porsche,Panamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,4WD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2022,Porsche,Panamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera 4S ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,,Porsche,Panamera 4S Sport Turismo (971) 2017-Present,,,,Petrol,V6,2.9,TC,Front,AWD,440,323.6,406 lb-ft,4222,4.4,4.4,,,,,178,286,,,,,,,,,,,Autoevolution
+DE,2021,Porsche,Panamera 4S e-Hybrid,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera 4S e-Hybrid Executive,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera 4S e-Hybrid ST,Sedan,4,5,Petrol,V6,2.9,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2011,Porsche,Panamera Diesel (970),,,,Diesel,V6,3,TC,Front,RWD,250,184,406 lb-ft,4145,6.8,6.8,,,,,150,241,,,,,,,,,,,Autoevolution
+DE,2013,Porsche,Panamera Diesel (970),,,,Diesel,V6,3,NA,Front,AWD,300,221,479 lb-ft,4189,6,6,,,,,161,259,,,,,,,,,,,Autoevolution
+DE,2009,Porsche,Panamera Diesel 3.0 Tiptronic,Hatchback,4,5,Diesel,V6,3,TC,Front,RWD,250,186.4,406 lb-ft,4145,6.57,6.8,,,,,150.4,242,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera Diesel 3.0 Tiptronic S,Hatchback,4,5,Diesel,V6,3,TC,Front,RWD,250,186.4,406 lb-ft,4145,6.18,6.4,,,,,151.6,244,,,,,,,,,,,Kaggle - Car Specifications
+DE,2014,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2015,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2016,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2022,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2025,Porsche,Panamera GTS,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2011,Porsche,Panamera GTS (970),,,,Petrol,V8,4.8,NA,Front,AWD,430,316,384 lb-ft,4233,4.5,4.5,,,,,179,288,,,,,,,,,,,Autoevolution
+DE,2013,Porsche,Panamera GTS (970),Sedan,4,5,Petrol,V8,4.8,NA,Front,AWD,440,323.6,384 lb-ft,4233,4.4,4.4,10.7,,12.7,108,178,286,159,,0.98,,,,,,,,"Autoevolution, EPA - Fuel Economy, Car & Driver"
+DE,2018,Porsche,Panamera GTS (971),,,,Petrol,V8,4,NA,Front,AWD,460,338.3,457 lb-ft,4398,4,4,,,,,181,291,,,,,,,,,,,Autoevolution
+DE,,Porsche,Panamera GTS (971) 2020-Present,,,,Petrol,V8,4,TC,Front,RWD,480,353,457 lb-ft,4619,3.9,3.9,,,,,186,299,,,,,,,,,,,Autoevolution
+DE,2016,Porsche,Panamera GTS 4.0 PDK AWD,Hatchback,4,5,Petrol,V8,4,TC,Front,4WD,460,343,457 lb-ft,4398,3.96,4.1,,,,,181.4,292,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera GTS 4.8 PDK,Hatchback,4,5,Petrol,V8,4.8,NA,Front,AWD,430,320.7,384 lb-ft,4398,4.35,4.5,,,,,179,288,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera GTS 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,NA,Front,AWD,440,328.1,384 lb-ft,4244,4.25,4.4,,,,,179,288,,,,,,,,,,,Kaggle - Car Specifications
+DE,2019,Porsche,Panamera GTS ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera GTS ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera GTS ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2022,Porsche,Panamera GTS ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera GTS ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2018,Porsche,Panamera GTS Sport Turismo (971),,,,Petrol,V8,4,NA,Front,AWD,460,338.3,457 lb-ft,4464,4,4,,,,,180,290,,,,,,,,,,,Autoevolution
+DE,,Porsche,Panamera GTS Sport Turismo (971) 2020-Present,,,,Petrol,V8,4,TC,Front,RWD,480,353,457 lb-ft,4663,3.9,3.9,,,,,181,291,,,,,,,,,,,Autoevolution
+DE,2010,Porsche,Panamera S,Sedan,4,5,Petrol,V8,4.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2011,Porsche,Panamera S,Sedan,4,5,Petrol,V8,4.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2012,Porsche,Panamera S,Sedan,4,5,Petrol,V8,4.8,NA,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2014,Porsche,Panamera S,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2015,Porsche,Panamera S,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2016,Porsche,Panamera S,Sedan,4,5,Petrol,V6,3,TC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2009,Porsche,Panamera S (970),,,,Petrol,V8,4.8,NA,Front,RWD,400,294,370 lb-ft,3902.2,5.6,5.6,,,,,177,285,,,,,,,,,,,Autoevolution
+DE,2013,Porsche,Panamera S (970),Sedan,4,5,Petrol,V6,3,NA,Front,RWD,420,308.9,384 lb-ft,3990,5.1,5.1,,,,,178,286,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
+DE,2013,Porsche,Panamera S 3.0 E-Hybrid Tiptronic S,Hatchback,4,5,Electric/Petrol,V6,3,SC,Front,RWD,416,310.2,435 lb-ft,4619,5.31,5.5,,,,,167.8,270,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera S 3.0 PDK,Hatchback,4,5,Petrol,V6,3,TC,Front,RWD,420,313.2,384 lb-ft,3990,4.92,5.1,,,,,178.3,287,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera S 4.8 MT,Hatchback,4,5,Petrol,V8,4.8,NA,Front,RWD,400,298.3,369 lb-ft,3902,5.41,5.6,,,,,177.1,285,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera S 4.8 PDK,Hatchback,4,5,Petrol,V8,4.8,NA,Front,RWD,400,298.3,369 lb-ft,3968,5.21,5.4,,,,,175.8,283,,,,,,,,,,,Kaggle - Car Specifications
+DE,2014,Porsche,Panamera S E-Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,4800,5.2,5.39,,,13.8,,167,268.8,,,,,,,,,,,"EPA - Fuel Economy, Car & Driver"
+DE,2015,Porsche,Panamera S E-Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2016,Porsche,Panamera S E-Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2013,Porsche,Panamera S E-Hybrid (970),,,,Electric/Petrol,V6,3,TC,Front,RWD,416,306,435 lb-ft,4619,5.5,5.5,,,,,168,270,,,,,,,,,,,Autoevolution
+DE,2012,Porsche,Panamera S Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2013,Porsche,Panamera S Hybrid,Sedan,4,5,Petrol,V6,3,SC,Front,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2011,Porsche,Panamera S Hybrid (970),,,,Electric/Petrol,V6,3,NA,Front,RWD,333,245,325 lb-ft,4365,6,6,,,,,168,270,,,,,,,,,,,Autoevolution
+DE,2009,Porsche,Panamera S Hybrid 3.0 Tiptronic,Hatchback,4,5,Electric/Petrol,V6,3,SC,Front,RWD,380,283.4,325 lb-ft,4365,5.79,6,,,,,167.8,270,,,,,,,,,,,Kaggle - Car Specifications
+DE,2018,Porsche,Panamera Sport Turismo,Hatchback,4,5,,,,,Front,AWD,,,,4200,3,3.11,7.5,,11.3,,170,273.6,,,,,,,,,,,Car & Driver
+DE,,Porsche,Panamera Sport Turismo Turbo S E-Hybrid,,,,Electric/Petrol,,,TC,Front,,,,,,2.8,2.9,,,,,,,,,,,,,,,,,Wikipedia - List of fastest production cars by acceleration
+DE,2010,Porsche,Panamera Turbo,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,84.2,"Series 15, Episode 03",,"EPA - Fuel Economy, Wikipedia - List of Top Gear test track Power Lap times"
+DE,2011,Porsche,Panamera Turbo,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2012,Porsche,Panamera Turbo,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2014,Porsche,Panamera Turbo,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2015,Porsche,Panamera Turbo,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2017,Porsche,Panamera Turbo,Hatchback,4,5,Petrol,V8,4,TC,Front,AWD,550,410.1,567 lb-ft,4593,3,3.11,7.5,,11.3,122,,,153,,0.94,,,,,84.2,"Series 15, Episode 03",179.2,"Car & Driver, Wikipedia - List of Top Gear test track Power Lap times, EPA - Fuel Economy, Car & Driver - Lightning Lap"
+DE,2018,Porsche,Panamera Turbo,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera Turbo,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera Turbo,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2013,Porsche,Panamera Turbo (970),Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,520,382.5,516 lb-ft,4343,4.1,4.1,,,,,190,306,,,,,,,,,,,"Autoevolution, EPA - Fuel Economy"
+DE,2009,Porsche,"Panamera Turbo (970, pre-facelift, 2009, 4.8 TT, 500 PS)",,,,Petrol,V8,4.8,TC,Front,RWD,500,368,516 lb-ft,4343.1,4.2,4.2,,,,,188,303,,,,,476,2009,Walter Röhrl,84.2,"Series 15, Episode 03",,"Wikipedia - List of Nürburgring Nordschleife lap times, Autoevolution, Wikipedia - List of Top Gear test track Power Lap times"
+DE,2016,Porsche,"Panamera Turbo (971, 2017, 4.0 TT, 550 PS)",Sedan,4,5,Petrol,V8,4,TC,Front,AWD,550,404.5,568 lb-ft,4398,3.8,3.8,,,,,190,306,,,,,458,2016,,84.2,"Series 15, Episode 03",,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of Top Gear test track Power Lap times, Autoevolution, EPA - Fuel Economy"
+DE,2016,Porsche,Panamera Turbo 4.0 PDK AWD,Hatchback,4,5,Petrol,V8,4,TC,Front,AWD,550,410.1,568 lb-ft,4398,3.67,3.8,,,,,190.1,306,,,,,,,,,,,Kaggle - Car Specifications
+DE,2009,Porsche,Panamera Turbo 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,TC,Front,AWD,500,372.9,516 lb-ft,4343,4.06,4.2,,,,,188.3,303,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera Turbo 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,TC,Front,AWD,520,387.8,516 lb-ft,4343,3.96,4.1,,,,,189.5,305,,,,,,,,,,,Kaggle - Car Specifications
+DE,2020,Porsche,Panamera Turbo Exec,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2014,Porsche,Panamera Turbo Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,520,387.8,568 lb-ft,4628,3.3,3.42,8.4,,11.8,118,,,148,,0.96,,,,,,,,"EPA - Fuel Economy, Car & Driver"
+DE,2015,Porsche,Panamera Turbo Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2016,Porsche,Panamera Turbo Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2017,Porsche,Panamera Turbo Executive,Hatchback,4,5,Petrol,V8,4,TC,Front,AWD,550,410.1,567 lb-ft,4795,3.2,3.32,8,,11.6,121,,,151,,0.94,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2018,Porsche,Panamera Turbo Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera Turbo Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2016,Porsche,Panamera Turbo Executive 4.0 PDK AWD,Hatchback,4,5,Petrol,V8,4,TC,Front,AWD,550,410.1,568 lb-ft,4630,3.77,3.9,,,,,190.1,306,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera Turbo Executive 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,TC,Front,AWD,520,387.8,516 lb-ft,4564,4.06,4.2,,,,,189.5,305,,,,,,,,,,,Kaggle - Car Specifications
+DE,2014,Porsche,Panamera Turbo S,Sedan,4,5,Petrol,V8,4.8,TC,Rear,AWD,,,,,2.6,2.69,,,,,,,,,,,,,,,,,"EPA - Fuel Economy, Wikipedia - List of fastest production cars by acceleration"
+DE,2015,Porsche,Panamera Turbo S,Sedan,4,5,Petrol,V8,4.8,TC,Rear,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2016,Porsche,Panamera Turbo S,Sedan,4,5,Petrol,V8,4.8,TC,Rear,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera Turbo S,Sedan,4,5,Petrol,V8,4,TC,Rear,AWD,,,,,,,,,,,,,,,,,,,,,,167.8,"EPA - Fuel Economy, Car & Driver - Lightning Lap"
+DE,2023,Porsche,Panamera Turbo S,Sedan,4,5,Petrol,V8,4,TC,Rear,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2011,Porsche,Panamera Turbo S (907),,,,Petrol,V8,4.8,TC,Front,AWD,550,405,553 lb-ft,4398,3.8,3.8,,,,,190,306,,,,,,,,,,,Autoevolution
+DE,2013,Porsche,Panamera Turbo S (970),Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,570,419,553 lb-ft,4398,3.8,3.8,,,,,193,311,,,,,,,,,,,"Autoevolution, Wikipedia - List of fastest production cars by acceleration, EPA - Fuel Economy"
+DE,2012,Porsche,"Panamera Turbo S (970, pre-facelift, 2012, 4.8 TT, 550 PS)",Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,2.6,2.69,,,,,,,,,,,472,2012,Horst von Saurma,,,180.7,"Wikipedia - List of Nürburgring Nordschleife lap times, EPA - Fuel Economy, Car & Driver - Lightning Lap, Wikipedia - List of fastest production cars by acceleration"
+DE,,Porsche,Panamera Turbo S (971) 2020-Present,,,,Petrol,V8,4,TC,Front,RWD,630,463.4,605 lb-ft,,3.1,3.1,,,,,196,315,,,,,,,,,,,Autoevolution
+DE,2020,Porsche,"Panamera Turbo S (971.2, 2020)",,,,Petrol,,,TC,Front,,,,,,2.6,2.69,,,,,,,,,,,449.81,2020-07-24,Lars Kern,,,,"Wikipedia - List of Nürburgring Nordschleife lap times, Wikipedia - List of fastest production cars by acceleration"
+DE,2009,Porsche,Panamera Turbo S 4.8 PDK AWD,Hatchback,4,5,Petrol,V6,4.8,TC,Front,AWD,550,410.1,553 lb-ft,4398,3.67,3.8,,,,,190.1,306,,,,,,,,,,,Kaggle - Car Specifications
+DE,2013,Porsche,Panamera Turbo S 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,TC,Front,AWD,570,425,553 lb-ft,4398,3.67,3.8,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
+DE,2018,Porsche,Panamera Turbo S E-Hybrid,Hatchback,4,5,Electric/Petrol,V8,4,TC,Front,AWD,,,,5200,2.9,3.0,7.3,,11.1,,192,309.0,,,,,,,,,,,"Car & Driver, EPA - Fuel Economy"
+DE,2017,Porsche,Panamera Turbo S E-Hybrid (971),,,,Electric/Petrol,V8,4,TC,Front,AWD,550,404.5,568 lb-ft,5313,3.5,3.5,,,,,193,311,,,,,,,,,,,Autoevolution
+DE,2024,Porsche,"Panamera Turbo S E-Hybrid (976, 2024)",,,,,,,TC,Front,,,,,,,,,,,,,,,,,,444.17,2024-07-12,Lars Kern,,,,Wikipedia - List of Nürburgring Nordschleife lap times
+DE,2016,Porsche,Panamera Turbo S E-Hybrid 4.0 PDK AWD,Hatchback,4,5,Electric/Petrol,V8,4,TC,Front,AWD,680,507.1,568 lb-ft,5093,3.28,3.4,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
+DE,2016,Porsche,Panamera Turbo S E-Hybrid Executive 4.0 PDK AWD,Hatchback,4,5,Electric/Petrol,V8,4,TC,Front,AWD,680,507.1,568 lb-ft,5313,3.38,3.5,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
+DE,2018,Porsche,Panamera Turbo S E-Hybrid Sport Turismo,Hatchback,4,5,Electric/Petrol,V8,,TC,Front,AWD,,,,5150,2.9,3.0,7.2,,11,,192,309.0,,,,,,,,,,,Car & Driver
+DE,,Porsche,Panamera Turbo S E-Hybrid Sport Turismo 2017-Present,,,,Electric/Petrol,V8,4,TC,Front,AWD,550,404.5,568 lb-ft,5126,3.4,3.4,,,,,193,311,,,,,,,,,,,Autoevolution
+DE,2022,Porsche,Panamera Turbo S E-Hybrid/Exec/ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2014,Porsche,Panamera Turbo S Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,570,425,590 lb-ft,4638,3.5,3.63,8.2,,11.7,120,,,146,,1.01,,,,,,,,"EPA - Fuel Economy, Car & Driver"
+DE,2015,Porsche,Panamera Turbo S Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2016,Porsche,Panamera Turbo S Executive,Sedan,4,5,Petrol,V8,4.8,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera Turbo S Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera Turbo S Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2013,Porsche,Panamera Turbo S Executive 4.8 PDK AWD,Hatchback,4,5,Petrol,V8,4.8,TC,Front,AWD,570,425,553 lb-ft,4586,3.77,3.9,,,,,192.6,310,,,,,,,,,,,Kaggle - Car Specifications
+DE,2021,Porsche,Panamera Turbo S ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera Turbo S ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,,Porsche,Panamera Turbo S Sport Turismo (971) 2020-Present,,,,Petrol,V8,4,TC,Front,RWD,630,463.4,605 lb-ft,4872,3.1,3.1,,,,,196,315,,,,,,,,,,,Autoevolution
+DE,2019,Porsche,Panamera Turbo S e-Hybrid,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera Turbo S e-Hybrid,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera Turbo S e-Hybrid,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2023,Porsche,Panamera Turbo S e-Hybrid,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2018,Porsche,Panamera Turbo S e-Hybrid Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera Turbo S e-Hybrid Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera Turbo S e-Hybrid Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera Turbo S e-Hybrid Executive,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2018,Porsche,Panamera Turbo S e-Hybrid ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera Turbo S e-Hybrid ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera Turbo S e-Hybrid ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2021,Porsche,Panamera Turbo S e-Hybrid ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2022,Porsche,Panamera Turbo S/Exec/ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2018,Porsche,Panamera Turbo ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2019,Porsche,Panamera Turbo ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,2020,Porsche,Panamera Turbo ST,Sedan,4,5,Petrol,V8,4,TC,Front,AWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
+DE,,Porsche,Panamera Turbo Sport Turismo (971) 2017-Present,,,,Petrol,V8,4,TC,Front,AWD,550,404.5,568 lb-ft,4486,3.8,3.8,,,,,189,304,,,,,,,,,,,Autoevolution
 DE,2003,Porsche,Targa,Coupe,2,4,Petrol,V6,3.6,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2004,Porsche,Targa,Coupe,2,4,Petrol,V6,3.6,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
 DE,2005,Porsche,Targa,Coupe,2,4,Petrol,V6,3.6,NA,Rear,RWD,,,,,,,,,,,,,,,,,,,,,,,EPA - Fuel Economy
