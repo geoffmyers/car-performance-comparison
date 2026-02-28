@@ -1,3 +1,11 @@
+---
+title: Car Performance Database
+created: 2026-01-18
+modified: 2026-01-19
+description: "A comprehensive web application for comparing car performance data across 60,000+ vehicles. Search, filter, and sort by acceleration times, top speeds, lap times, power output, and more."
+tags: [nextjs, readme]
+---
+
 # Car Performance Database
 
 A comprehensive web application for comparing car performance data across 60,000+ vehicles. Search, filter, and sort by acceleration times, top speeds, lap times, power output, and more.

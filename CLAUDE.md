@@ -1,3 +1,11 @@
+---
+title: CLAUDE.md - Car Performance Comparison
+created: 2026-01-19
+modified: 2026-01-19
+description: Development guidelines and project context for AI assistants.
+tags: [nextjs, claude]
+---
+
 # CLAUDE.md - Car Performance Comparison
 
 Development guidelines and project context for AI assistants.
