@@ -171,3 +171,7 @@ SELECT * FROM cars WHERE model LIKE '%Corvette%' LIMIT 10;
 - Zod for runtime validation
 - Python 3.11+ with type hints
 - Follow existing patterns in the codebase
+
+## Gotchas
+
+- This is a git subtree; push changes upstream with `git subtree push --prefix=nextjs-projects/car-performance-comparison car-performance-comparison main`
