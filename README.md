@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/icon.svg" width="96" height="96" alt="Car Performance Database icon">
+</p>
+
 # Car Performance Database
 
 <!-- BADGES:START -->
@@ -246,6 +250,8 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for more detail.
   [Wikimedia Commons](https://commons.wikimedia.org/). Car makes, logos and
   publication names are trademarks of their respective owners, and this project
   is not affiliated with any of them.
+- The README icon is the [Font Awesome](https://fontawesome.com/) `gauge-high` glyph,
+  used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 Written by Geoff Myers.
 
