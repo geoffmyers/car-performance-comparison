@@ -1,4 +1,4 @@
-# Contributing to Car Performance Comparison
+# Contributing to Car Performance Database
 
 Thanks for taking an interest. This project is developed inside a private
 mono repo and published here as a snapshot, which shapes a couple of the
