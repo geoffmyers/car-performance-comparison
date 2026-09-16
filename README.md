@@ -230,6 +230,11 @@ Performance figures are compiled from published manufacturer specifications and
 independent instrumented road tests. Each figure keeps its source in the data
 set; marques and publication names are trademarks of their respective owners.
 
+## Architecture
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for how the project fits together — the
+layout, the data flow, and the constraints worth knowing before changing it.
+
 ## Contributing
 
 Bug reports and pull requests are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md)
