@@ -1,5 +1,14 @@
 # Car Performance Database
 
+<!-- BADGES:START -->
+![Next.js 16.1.6](https://img.shields.io/badge/Next.js-16.1.6-black?style=flat-square&logo=nextdotjs)
+![React 19.2.4](https://img.shields.io/badge/React-19.2.4-61dafb?style=flat-square&logo=react)
+![TypeScript 5](https://img.shields.io/badge/TypeScript-5-3178c6?style=flat-square&logo=typescript)
+[![Licence GPL--2.0](https://img.shields.io/badge/licence-GPL--2.0-blue?style=flat-square)](LICENSE.md)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
+<!-- BADGES:END -->
+
+
 A comprehensive web application for comparing car performance data across 60,000+ vehicles. Search, filter, and sort by acceleration times, top speeds, lap times, power output, and more.
 
 ## Features
