@@ -8,18 +8,6 @@
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 <!-- BADGES:END -->
 
-## Description
-
-A web app for comparing car performance figures across **65,390 vehicles** from
-357 manufacturers: 0–60 mph and quarter-mile times, top speed, power, torque,
-weight, braking, skidpad grip and lap times at the Nürburgring, the Top Gear test
-track and Virginia International Raceway.
-
-The figures are gathered from magazine road tests, Wikipedia record tables,
-official EPA data and community data sets by a Python ETL pipeline, merged into
-one SQLite database, and served by a Next.js app that searches, filters and sorts
-them on the server. Every record keeps a list of the sources it came from.
-
 ## Table of Contents
 
 - [Description](#description)
@@ -37,6 +25,18 @@ them on the server. Every record keeps a list of the sources it came from.
 - [Credits](#credits)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Description
+
+A web app for comparing car performance figures across **65,390 vehicles** from
+357 manufacturers: 0–60 mph and quarter-mile times, top speed, power, torque,
+weight, braking, skidpad grip and lap times at the Nürburgring, the Top Gear test
+track and Virginia International Raceway.
+
+The figures are gathered from magazine road tests, Wikipedia record tables,
+official EPA data and community data sets by a Python ETL pipeline, merged into
+one SQLite database, and served by a Next.js app that searches, filters and sorts
+them on the server. Every record keeps a list of the sources it came from.
 
 ## Screenshots
 
