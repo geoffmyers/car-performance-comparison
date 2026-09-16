@@ -8,7 +8,6 @@
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 <!-- BADGES:END -->
 
-
 A comprehensive web application for comparing car performance data across 60,000+ vehicles. Search, filter, and sort by acceleration times, top speeds, lap times, power output, and more.
 
 ## Features
@@ -238,8 +237,7 @@ layout, the data flow, and the constraints worth knowing before changing it.
 ## Contributing
 
 Bug reports and pull requests are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md)
-for setup, checks and how this repository is published, and
-[ARCHITECTURE.md](ARCHITECTURE.md) for how the project fits together.
+for setup, checks and how this repository is published.
 
 ## License
 
