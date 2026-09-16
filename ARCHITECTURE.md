@@ -1,8 +1,3 @@
----
-title: Architecture
-description: How car performance data is ingested, validated and served.
----
-
 # Architecture
 
 A Next.js app over a build-time ETL pipeline. Data is prepared ahead of time;
