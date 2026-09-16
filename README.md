@@ -210,6 +210,23 @@ The database includes the following performance metrics:
 | Torque | lb-ft/Nm | Torque output |
 | Curb Weight | lbs/kg | Vehicle weight |
 
+## Credits
+
+Built with [Next.js](https://nextjs.org/) and [React](https://react.dev/).
+Tables by [TanStack Table](https://tanstack.com/table); CSV parsing by
+[PapaParse](https://www.papaparse.com/); validation by [Zod](https://zod.dev/);
+storage via [better-sqlite3](https://github.com/WiseLibs/better-sqlite3).
+
+Performance figures are compiled from published manufacturer specifications and
+independent instrumented road tests. Each figure keeps its source in the data
+set; marques and publication names are trademarks of their respective owners.
+
+## Contributing
+
+Bug reports and pull requests are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md)
+for setup, checks and how this repository is published, and
+[ARCHITECTURE.md](ARCHITECTURE.md) for how the project fits together.
+
 ## License
 
 Private project - not for distribution.

@@ -174,4 +174,10 @@ SELECT * FROM cars WHERE model LIKE '%Corvette%' LIMIT 10;
 
 ## Gotchas
 
-- This is a git subtree; push changes upstream with `git subtree push --prefix=nextjs-projects/car-performance-comparison car-performance-comparison main`
+- This is a git subtree. Push upstream with the mandated wrapper:
+  `scripts/safe-subtree-push.sh --prefix=nextjs-projects/car-performance-comparison --remote=car-performance-comparison`
+- **NEVER run `git subtree push` or `git subtree split` directly.** A raw split has
+  twice pushed the entire mono-repo history — and the secrets in it — to a public
+  remote (see `docs/security/2026-02-04-` and `2026-05-12-credential-leak-audit.md`).
+  The wrapper splits to a temp branch, caps the commit count and forces inspection;
+  a pre-push hook refuses the raw command.
