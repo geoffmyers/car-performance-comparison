@@ -166,11 +166,16 @@ SELECT * FROM cars WHERE model LIKE '%Corvette%' LIMIT 10;
 
 ## Gotchas
 
-- This project is published to GitHub (`geoffmyers/car-performance-comparison`) as a snapshot.
-  Each publish appends one commit to the public history. Publish with:
-  `scripts/publish-subtree-snapshot.sh --prefix=nextjs-projects/car-performance-comparison --publish`
-  Exclusions and GitHub metadata are declared in `scripts/subtree-publish.json`.
-- **NEVER run `git subtree push` or `git subtree split`.** A raw split has twice
-  pushed the entire mono-repo history — and the secrets in it — to a public remote
-  (see `docs/security/2026-02-04-` and `2026-05-12-credential-leak-audit.md`). A
-  pre-push hook refuses it.
+- This project is developed in a private repository and published to
+  GitHub (`geoffmyers/car-performance-comparison`) as a snapshot: each publish adds one commit.
+  Pull requests are applied upstream first; see CONTRIBUTING.md.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

@@ -223,6 +223,23 @@ def run_pipeline(
     cleaner = DataCleaner(verbose=verbose)
     merged_data = cleaner.clean(merged_data)
 
+    # Deduplicate again, now that cleaning has run. Cleaning can change the
+    # very fields the merge key is built from - most visibly
+    # _normalize_manufacturer_case() folding a stray "CHEVROLET" to
+    # "Chevrolet" - which can make two records that looked distinct at the
+    # first dedup pass (before cleaning touched them) collide afterward.
+    # Left at one pass, this is exactly how the 2026-09-17 audit's duplicate
+    # keys survived a run that already called deduplicate() once: the first
+    # pass ran too early to see the collision cleaning was about to create.
+    # deduplicate() is idempotent, so this is a no-op whenever nothing
+    # collided.
+    before_second_dedup = len(merged_data)
+    merged_data = merger.deduplicate(merged_data)
+    second_dedup_removed = before_second_dedup - len(merged_data)
+
+    if verbose and second_dedup_removed > 0:
+        print(f"  Removed {second_dedup_removed:,} more duplicate records found after cleaning")
+
     # Validate
     if verbose:
         print("\nRunning validation...")

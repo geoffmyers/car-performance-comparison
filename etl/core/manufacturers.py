@@ -33,7 +33,18 @@ class ManufacturerNormalizer:
 
         self._manufacturers = config.get("manufacturers", {})
         self._aliases = config.get("aliases", {})
-        self._multi_word = config.get("multi_word_manufacturers", [])
+        # A multi-word ALIAS (e.g. "Lucid Motors" -> Lucid, "Rolls Royce" ->
+        # Rolls-Royce) needs to be recognised as a manufacturer prefix during
+        # free-text parsing (parse_car_name / extract_manufacturer_from_make),
+        # not just when normalize() is handed an already-isolated
+        # manufacturer token. Without this, "Lucid Motors Air" parsed as one
+        # string matches the shorter canonical "Lucid" and leaves "Motors
+        # Air" as the model - the same class of bug the alias table exists
+        # to prevent, just one layer further down the parse.
+        alias_multi_word = [k for k in self._aliases if " " in k]
+        self._multi_word = list(
+            dict.fromkeys(config.get("multi_word_manufacturers", []) + alias_multi_word)
+        )
         self._country_names = config.get("country_names", {})
 
         # Build sorted list of manufacturers (longest first for matching)

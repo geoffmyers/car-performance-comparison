@@ -17,73 +17,33 @@ Usage:
 
 import csv
 import re
+import sys
 from pathlib import Path
 from typing import Optional
 
+# Use the canonical manufacturer normalization and merge/dedup logic from the
+# etl package instead of a separate reimplementation (2026-09-17 duplicate
+# audit): a second copy of the manufacturer alias table and the merge key
+# logic is exactly how "Lucid" and "Lucid Motors" ended up shipped as two
+# manufacturers for the same car -- this script's own alias table lacked an
+# entry the canonical etl/config/manufacturers.yaml has.
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
 
-# Manufacturer to country mapping (same as Wikipedia script for consistency)
-MANUFACTURER_COUNTRIES = {
-    "AC": "GB", "Acura": "JP", "Alfa Romeo": "IT", "Alpine": "FR", "Alpina": "DE",
-    "AMC": "US", "Aprilia": "IT", "Ariel": "GB", "Artega": "DE", "Ascari": "GB",
-    "Aspark": "JP", "Aston Martin": "GB", "Audi": "DE", "BAC": "GB", "Bentley": "GB",
-    "BMW": "DE", "Bowler": "GB", "Brabham": "AU", "Brabus": "DE", "Bugatti": "FR",
-    "Buick": "US", "BYD": "CN", "Cadillac": "US", "Callaway": "US", "Caterham": "GB",
-    "Chevrolet": "US", "Chrysler": "US", "Citroën": "FR", "Clive Sutton": "GB",
-    "Cosworth": "GB", "Cupra": "ES", "Czinger": "US", "Dacia": "RO", "Dallara": "IT",
-    "Datsun": "JP", "Dauer": "DE", "De Tomaso": "IT", "Denza": "CN", "Dodge": "US",
-    "Donkervoort": "NL", "Drako": "US", "Einride": "SE", "Eagle": "GB",
-    "Faraday Future": "US", "Ferrari": "IT", "Fiat": "IT", "Fisker": "US", "Ford": "US",
-    "Genesis": "KR", "Geely": "CN", "Ginetta": "GB", "GMC": "US", "Gordon Murray": "GB",
-    "Gumpert": "DE", "Hawk": "GB", "Hennessey": "US", "Holden": "AU", "Honda": "JP",
-    "HSV": "AU", "Hummer": "US", "Hyundai": "KR", "Hyptec": "CN", "Infiniti": "JP",
-    "Iso": "IT", "Italdesign": "IT", "Jaguar": "GB", "Jeep": "US", "Jensen": "GB",
-    "Karma": "US", "Kia": "KR", "Koenigsegg": "SE", "KTM": "AT", "Lada": "RU",
-    "LaFerrari": "IT", "Lamborghini": "IT", "Lancia": "IT", "Land Rover": "GB",
-    "Lexus": "JP", "Lincoln": "US", "Lister": "GB", "Litchfield": "GB", "Lotus": "GB",
-    "Lucid": "US", "M-Hero": "CN", "Marcos": "GB", "Maserati": "IT", "Mazda": "JP",
-    "McLaren": "GB", "Mercedes-AMG": "DE", "Mercedes-Benz": "DE", "Mercedes": "DE",
-    "Mercury": "US", "MG": "GB", "Mini": "GB", "MINI": "GB", "Mitsubishi": "JP",
-    "MMX": "DE", "Mobility Ventures": "US", "Morgan": "GB", "Mosler": "US", "Napier": "GB",
-    "NIO": "CN", "Nissan": "JP", "Noble": "GB", "Oldsmobile": "US", "Opel": "DE",
-    "Overfinch": "GB", "Packard": "US", "Pagani": "IT", "Peugeot": "FR", "Pininfarina": "IT",
-    "Plymouth": "US", "Polestar": "SE", "Pontiac": "US", "Porsche": "DE", "Praga": "CZ",
-    "Prodrive": "GB", "RacingLine": "GB", "Radical": "GB", "Ram": "US",
-    "Range Rover": "GB", "Renault": "FR", "Renaultsport": "FR", "Rimac": "HR",
-    "Rivian": "US", "Rolls-Royce": "GB", "Roush": "US", "Ruf": "DE", "Saab": "SE",
-    "Saleen": "US", "SEAT": "ES", "Shelby": "US", "Singer": "US", "Skoda": "CZ",
-    "Smart": "DE", "Spyker": "NL", "SSC": "US", "Subaru": "JP", "Sunbeam": "GB",
-    "Suzuki": "JP", "Tesla": "US", "Toyota": "JP", "TR": "GB", "Trabant": "DE",
-    "Triumph": "GB", "Tuthill": "GB", "TVR": "GB", "Ultima": "GB", "Vauxhall": "GB",
-    "Vector": "US", "Venturi": "FR", "Veritas": "DE", "Volkswagen": "DE", "Volvo": "SE",
-    "W Motors": "AE", "Wiesmann": "DE", "Xiaomi": "CN", "Yangwang": "CN",
-    "YANGWANG": "CN", "Zeekr": "CN", "Zenos": "GB", "Zenvo": "DK",
-}
+from etl.core.manufacturers import ManufacturerNormalizer  # noqa: E402
+from etl.core.merger import DataMerger  # noqa: E402
+from etl.core.schema import Schema  # noqa: E402
 
-# Normalize manufacturer names
-MANUFACTURER_ALIASES = {
-    "80": "Napier",  # Fix malformed Wikipedia data (80 was horsepower, Napier is manufacturer)
-    "Alfa": "Alfa Romeo",  # Handle "Alfa" being split from "Romeo"
-    "Aston": "Aston Martin",  # Handle "Aston" being split from "Martin"
-    "Land": "Land Rover",  # Handle "Land" being split from "Rover"
-    "Range": "Range Rover",  # Handle "Range" being split from "Rover"
-    "Mercedes": "Mercedes-Benz",
-    "Mercedes Amg": "Mercedes-AMG",
-    "Mercedes-amg": "Mercedes-AMG",
-    "Mercedes Benz": "Mercedes-Benz",
-    "MINI": "Mini",
-    "Bmw": "BMW",
-    "Gmc": "GMC",
-    "Vw": "Volkswagen",
-    "VW": "Volkswagen",
-    "YANGWANG": "Yangwang",
-    "Renaultsport": "Renault",
-    "LaFerrari": "Ferrari",
-    "Land rover": "Land Rover",
-    "Rolls Royce": "Rolls-Royce",
-    "Aston martin": "Aston Martin",
-    "Srt": "Dodge",  # SRT is a Dodge sub-brand
-    "SRT": "Dodge",
-}
+_normalizer = ManufacturerNormalizer()
+_merger = DataMerger(_normalizer, Schema())
+
+# Thin wrappers so the rest of this file (which predates the etl package)
+# keeps calling these as plain functions.
+normalize_manufacturer = _normalizer.normalize
+extract_manufacturer_from_make = _normalizer.extract_manufacturer_from_make
+get_country_for_manufacturer = _normalizer.get_country
+
 
 # Files to skip (test files, non-performance data)
 SKIP_FILES = {
@@ -100,75 +60,6 @@ def clean_text(text: str) -> str:
         return ""
     text = ' '.join(text.split())
     return text.strip()
-
-
-def normalize_manufacturer(manufacturer: str) -> str:
-    """Normalize manufacturer name to standard form."""
-    if not manufacturer:
-        return ""
-    manufacturer = clean_text(manufacturer)
-
-    # Check aliases first (exact match)
-    if manufacturer in MANUFACTURER_ALIASES:
-        return MANUFACTURER_ALIASES[manufacturer]
-
-    # Title case for comparison
-    title_case = manufacturer.title() if manufacturer.islower() else manufacturer
-    if title_case in MANUFACTURER_ALIASES:
-        return MANUFACTURER_ALIASES[title_case]
-
-    # Check if manufacturer is in our known list
-    if manufacturer in MANUFACTURER_COUNTRIES:
-        return manufacturer
-    if title_case in MANUFACTURER_COUNTRIES:
-        return title_case
-
-    return title_case
-
-
-def extract_manufacturer_from_make(make_str: str) -> tuple[str, str]:
-    """Extract manufacturer from make string that may include model info.
-
-    E.g., "Toyota Prius" -> ("Toyota", "Prius")
-          "Mercedes Amg" -> ("Mercedes-AMG", "")
-          "Alfa Romeo" -> ("Alfa Romeo", "")
-    """
-    if not make_str:
-        return "", ""
-
-    make_str = clean_text(make_str)
-
-    # First check if the whole string is a known manufacturer (handles "Alfa Romeo", "Land Rover", etc.)
-    normalized = normalize_manufacturer(make_str)
-    if normalized in MANUFACTURER_COUNTRIES:
-        return normalized, ""
-
-    # Check for known multi-word manufacturers first (longest match)
-    for mfr in sorted(MANUFACTURER_COUNTRIES.keys(), key=len, reverse=True):
-        mfr_lower = mfr.lower()
-        make_lower = make_str.lower()
-
-        if make_lower.startswith(mfr_lower):
-            remaining = make_str[len(mfr):].strip()
-            return normalize_manufacturer(mfr), remaining
-        # Also check with spaces normalized
-        if make_lower.replace(' ', '-') == mfr_lower.replace(' ', '-'):
-            return normalize_manufacturer(mfr), ""
-
-    # Try to split on first space and check if first word is a manufacturer
-    parts = make_str.split(' ', 1)
-    if len(parts) >= 1:
-        first_normalized = normalize_manufacturer(parts[0])
-        if first_normalized in MANUFACTURER_COUNTRIES:
-            return first_normalized, parts[1] if len(parts) > 1 else ""
-
-    # Return as-is if no match
-    return normalize_manufacturer(make_str), ""
-
-
-def get_country_for_manufacturer(manufacturer: str) -> str:
-    """Get country code for manufacturer."""
-    return MANUFACTURER_COUNTRIES.get(manufacturer, "")
 
 
 def parse_float(value: str) -> Optional[float]:
@@ -521,27 +412,15 @@ class CarAndDriverCSVParser:
         return []
 
 
-def normalize_model_name(model: str) -> str:
-    """Normalize model name for key matching."""
-    model = model.lower().strip()
-    # Remove year from model if present in parentheses
-    model = re.sub(r'\s*\(\d{4}\)\s*', ' ', model).strip()
-    # Remove extra specifications in parentheses for basic matching
-    base_model = re.sub(r'\s*\([^)]+\)\s*', ' ', model).strip()
-    base_model = re.sub(r'\s+', ' ', base_model)
-    return base_model
-
+# create_car_key, merge_car_data and _merge_into used to be a second,
+# independently-maintained copy of etl/core/merger.py's DataMerger logic.
+# They now delegate to the one canonical DataMerger instance (_merger,
+# constructed above), so this script and the main `python -m etl.cli run`
+# pipeline can never again disagree about what counts as a duplicate.
 
 def create_car_key(car: dict, include_year: bool = True) -> tuple:
     """Create a unique key for a car based on manufacturer, model, and optionally year."""
-    manufacturer = car.get('manufacturer', '').lower().strip()
-    model = normalize_model_name(car.get('model', ''))
-
-    if include_year:
-        year = car.get('year') or ''
-        return (year, manufacturer, model)
-    else:
-        return (manufacturer, model)
+    return _merger._create_key(car, include_year=include_year)
 
 
 def merge_car_data(existing_data: list[dict], new_data: list[dict]) -> list[dict]:
@@ -599,8 +478,10 @@ def merge_car_data(existing_data: list[dict], new_data: list[dict]) -> list[dict
             new_car['country'] = get_country_for_manufacturer(new_car.get('manufacturer', ''))
             add_to_lookups(new_car)
 
-    # Convert back to list and sort
+    # Convert back to list, assign/refresh car_id and catch any residual
+    # duplicates the same way `python -m etl.cli run` does, then sort.
     result = list(lookup_with_year.values())
+    result = _merger.deduplicate(result)
     result.sort(key=lambda x: (
         x.get('manufacturer', ''),
         x.get('model', ''),
@@ -612,31 +493,7 @@ def merge_car_data(existing_data: list[dict], new_data: list[dict]) -> list[dict
 
 def _merge_into(existing: dict, new: dict):
     """Merge new car data into existing car data."""
-    # Fields to merge (don't overwrite if existing has value, except for specific cases)
-    merge_fields = [
-        'year', 'propulsion', '0_60_mph_sec', '0_100_kmh_sec', '0_100_mph_sec',
-        '0_200_kmh_sec', 'quarter_mile_sec', 'quarter_mile_speed_mph',
-        'top_speed_mph', 'top_speed_kmh', 'power_hp', 'power_kw', 'torque',
-        'engine', 'nurburgring_lap_sec', 'nurburgring_date', 'nurburgring_driver',
-        'top_gear_lap_sec', 'top_gear_episode', 'lightning_lap_sec',
-        'braking_70_0_ft', 'braking_100_0_ft', 'skidpad_g', 'curb_weight_lb',
-    ]
-
-    for field in merge_fields:
-        new_val = new.get(field)
-        if new_val and not existing.get(field):
-            existing[field] = new_val
-
-    # Append source
-    existing_sources = existing.get('sources', '')
-    new_source = new.get('source', '') or new.get('sources', '')
-    if new_source:
-        existing_source_list = [s.strip() for s in existing_sources.split(',') if s.strip()]
-        new_source_list = [s.strip() for s in new_source.split(',') if s.strip()]
-        for src in new_source_list:
-            if src and src not in existing_source_list:
-                existing_source_list.append(src)
-        existing['sources'] = ', '.join(existing_source_list)
+    _merger._merge_into(existing, new)
 
 
 def load_existing_data(csv_path: Path) -> list[dict]:
@@ -708,19 +565,10 @@ def main():
     merged_data = merge_car_data(existing_data, new_data)
     print(f"\nMerged to {len(merged_data)} unique car entries")
 
-    # Define output columns (same as existing + new C&D specific columns)
-    columns = [
-        'manufacturer', 'country', 'model', 'year', 'propulsion',
-        '0_60_mph_sec', '0_100_kmh_sec', '0_100_mph_sec', '0_200_kmh_sec',
-        'quarter_mile_sec', 'quarter_mile_speed_mph',
-        'top_speed_mph', 'top_speed_kmh',
-        'power_hp', 'power_kw', 'torque', 'engine',
-        'braking_70_0_ft', 'braking_100_0_ft', 'skidpad_g', 'curb_weight_lb',
-        'nurburgring_lap_sec', 'nurburgring_date', 'nurburgring_driver',
-        'top_gear_lap_sec', 'top_gear_episode',
-        'lightning_lap_sec',
-        'sources'
-    ]
+    # Output columns come from the canonical schema (etl/config/schema.yaml),
+    # not a hand-maintained list here: a hand list previously omitted car_id,
+    # which meant every row's identifier was silently dropped on every save.
+    columns = Schema().column_order
 
     # Save merged data
     save_data(csv_path, merged_data, columns)

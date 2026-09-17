@@ -312,7 +312,16 @@ class ConsistencyValidator(BaseValidator):
     def _find_duplicates(
         self, data: list[dict[str, Any]]
     ) -> list[ValidationIssue]:
-        """Find duplicate records based on key fields."""
+        """Find duplicate records based on key fields.
+
+        Two rows sharing a (year, manufacturer, model) key are the same car
+        shipped twice under different car_ids -- a data-quality defect, not a
+        stylistic nit, so this is ERROR severity: it fails `etl.cli validate`
+        and is counted in the quality report, the same way a range violation
+        is. The manufacturer is resolved through ManufacturerNormalizer
+        first, so "Lucid" and "Lucid Motors" are caught as the same key
+        rather than silently compared as different manufacturers.
+        """
         issues = []
         seen: dict[tuple, list[int]] = {}
 
@@ -320,7 +329,7 @@ class ConsistencyValidator(BaseValidator):
             # Create key from year, manufacturer, model
             key = (
                 record.get("year", ""),
-                record.get("manufacturer", "").lower(),
+                self.normalizer.normalize(record.get("manufacturer", "")).lower(),
                 record.get("model", "").lower(),
             )
 
@@ -336,7 +345,7 @@ class ConsistencyValidator(BaseValidator):
                 car_id = f"{year} {manufacturer} {model}".strip()
                 issues.append(
                     ValidationIssue(
-                        severity=Severity.WARNING,
+                        severity=Severity.ERROR,
                         field="duplicate",
                         message=f"Duplicate entries found for '{car_id}' at rows: {row_indices}",
                         value={"key": key, "rows": row_indices},

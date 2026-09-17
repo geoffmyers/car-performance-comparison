@@ -5,7 +5,7 @@
 # Car Performance Database
 
 <!-- BADGES:START -->
-![Next.js 16.1.6](https://img.shields.io/badge/Next.js-16.1.6-black?style=flat-square&logo=nextdotjs)
+![Next.js 16.3.5](https://img.shields.io/badge/Next.js-16.3.5-black?style=flat-square&logo=nextdotjs)
 ![React 19.2.4](https://img.shields.io/badge/React-19.2.4-61dafb?style=flat-square&logo=react)
 ![TypeScript 5](https://img.shields.io/badge/TypeScript-5-3178c6?style=flat-square&logo=typescript)
 [![Licence GPL-3.0-or-later](https://img.shields.io/badge/licence-GPL--3.0--or--later-blue?style=flat-square)](LICENSE.md)
@@ -241,7 +241,8 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for more detail.
   [PyYAML](https://pyyaml.org/) and
   [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/).
 - Figures are compiled from [Car and Driver](https://www.caranddriver.com/),
-  [Wikipedia](https://www.wikipedia.org/) (CC BY-SA),
+  [Wikipedia](https://www.wikipedia.org/), licensed
+  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/),
   [fueleconomy.gov](https://www.fueleconomy.gov/) (US EPA),
   [Kaggle](https://www.kaggle.com/) and
   [autoevolution](https://www.autoevolution.com/). Each record lists its

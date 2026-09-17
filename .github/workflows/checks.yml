@@ -29,8 +29,8 @@ jobs:
           npm ci
           npm run lint
           npm run build
-  etl:
-    name: ETL
+  etl-tests:
+    name: ETL tests
     runs-on: ubuntu-latest
     container: python:3.12-bookworm
     timeout-minutes: 20
@@ -40,11 +40,12 @@ jobs:
         working-directory: .
     steps:
       - uses: actions/checkout@v6
-      - name: ETL
+      - name: ETL tests
         run: |
           python -m venv /tmp/venv
           . /tmp/venv/bin/activate
           pip install --quiet --upgrade pip
-          pip install --quiet -r etl/requirements.txt
+          pip install --quiet -r etl/requirements.txt pytest
           python -m compileall -q etl scripts
           python -m etl.cli list-sources
+          python -m pytest -q etl/tests

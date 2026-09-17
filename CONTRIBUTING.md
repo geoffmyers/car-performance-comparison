@@ -30,15 +30,16 @@ npm run lint
 npm run build
 ```
 
-**ETL** (Python 3.12, from the repository root):
+**ETL tests** (Python 3.12, from the repository root):
 
 ```bash
 python -m venv /tmp/venv
 . /tmp/venv/bin/activate
 pip install --quiet --upgrade pip
-pip install --quiet -r etl/requirements.txt
+pip install --quiet -r etl/requirements.txt pytest
 python -m compileall -q etl scripts
 python -m etl.cli list-sources
+python -m pytest -q etl/tests
 ```
 
 <!-- CHECKS:END -->

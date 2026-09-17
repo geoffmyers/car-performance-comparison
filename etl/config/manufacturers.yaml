@@ -685,6 +685,18 @@ aliases:
   AUDI: Audi
   audi: Audi
 
+  # Corporate-entity suffixes on an already-canonical brand name (2026-09-17
+  # duplicate audit: these caused the same car to appear twice under two
+  # "manufacturers", e.g. "Lucid" and "Lucid Motors")
+  "Lucid Motors": Lucid
+  "McLaren Automotive": McLaren
+  "Mobility Ventures LLC": Mobility Ventures
+  "Roush Performance": Roush
+  "Saleen Performance": Saleen
+  "RUF Automobile": Ruf
+  "Ruf Automobile Gmbh": Ruf
+  "TVR Engineering Ltd": TVR
+
 # Multi-word manufacturers (for parsing - checked before splitting on spaces)
 # Sorted by length descending for longest-match-first algorithm
 multi_word_manufacturers:

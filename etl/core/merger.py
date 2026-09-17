@@ -210,13 +210,46 @@ class DataMerger:
         Returns:
             Tuple key for comparison
         """
-        manufacturer = car.get("manufacturer", "").lower().strip()
-        model = self._normalize_model(car.get("model", ""))
+        # Resolve aliases (e.g. "Lucid Motors" -> "Lucid") before keying, not
+        # just case/whitespace, so records that differ only by manufacturer
+        # spelling collapse into one during merge instead of shipping as two
+        # rows for the same car.
+        manufacturer = self.normalizer.normalize(car.get("manufacturer", "")).lower().strip()
+        model = self._normalize_model(
+            self._strip_manufacturer_prefix(car.get("model", ""), manufacturer)
+        )
 
         if include_year:
             year = car.get("year") or ""
             return (year, manufacturer, model)
         return (manufacturer, model)
+
+    def _strip_manufacturer_prefix(self, model: str, manufacturer: str) -> str:
+        """Strip a leading repetition of the manufacturer name from a model.
+
+        Car & Driver's model field sometimes repeats the manufacturer
+        ("Audi A6 Allroad" where manufacturer is already "Audi"), while every
+        other source for the same car has a plain "A6 Allroad". Left alone,
+        that makes the merge key differ between sources for the identical
+        car and ships it twice with two different car_ids (the same failure
+        mode as an un-aliased manufacturer spelling, one field over). Only
+        an exact "<manufacturer> " prefix is stripped, so a model that
+        merely starts with the same word by coincidence is untouched.
+
+        Args:
+            model: Raw model text
+            manufacturer: Already-normalized manufacturer name
+
+        Returns:
+            Model text with a leading manufacturer repetition removed
+        """
+        if not model or not manufacturer:
+            return model
+        model_stripped = model.strip()
+        prefix = manufacturer.strip() + " "
+        if model_stripped.lower().startswith(prefix.lower()):
+            return model_stripped[len(prefix):].strip()
+        return model
 
     def _generate_car_id(self, car: dict[str, Any]) -> str:
         """Generate the car_id hash for a record.
@@ -228,8 +261,15 @@ class DataMerger:
             16-character hex string unique identifier
         """
         year = str(car.get("year") or "")
-        manufacturer = car.get("manufacturer", "")
-        model = car.get("model", "")
+        # Resolve aliases before hashing (see _create_key): otherwise
+        # "Lucid" and "Lucid Motors" hash to different car_ids even though
+        # generate_car_id()'s own normalize() only folds case/punctuation,
+        # not manufacturer aliases. Also strip a repeated manufacturer
+        # prefix from the model (see _strip_manufacturer_prefix) so this
+        # hash - the authoritative key deduplicate() groups by - agrees with
+        # _create_key() about which records are the same car.
+        manufacturer = self.normalizer.normalize(car.get("manufacturer", ""))
+        model = self._strip_manufacturer_prefix(car.get("model", ""), manufacturer)
         return generate_car_id(year, manufacturer, model)
 
     def add_car_ids(self, records: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -570,10 +610,15 @@ class DataMerger:
         Returns:
             Deduplicated list with car_id set on all records
         """
-        # First, ensure all records have car_id
+        # Always recompute car_id from the record's current year/manufacturer/
+        # model, rather than trusting a car_id already on the record. A stale
+        # car_id (set before a manufacturer-alias fix, or by one of the
+        # standalone update scripts) otherwise stays wrong forever: it never
+        # regenerates, so two rows for the same car keep different car_ids
+        # and never regroup here. This is a no-op for records whose key
+        # fields haven't changed, since generate_car_id() is deterministic.
         for record in records:
-            if not record.get("car_id"):
-                record["car_id"] = self._generate_car_id(record)
+            record["car_id"] = self._generate_car_id(record)
 
         # Group records by car_id (authoritative deduplication key)
         grouped: dict[str, list[dict[str, Any]]] = {}
